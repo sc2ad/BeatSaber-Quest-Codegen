@@ -335,7 +335,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteJump*, "", "NoteJump");
 // Il2CppName: add_noteJumpDidFinishEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteJump::*)(System::Action*)>(&GlobalNamespace::NoteJump::add_noteJumpDidFinishEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJump*), "add_noteJumpDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -344,7 +344,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_noteJumpDidFinishEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteJump::*)(System::Action*)>(&GlobalNamespace::NoteJump::remove_noteJumpDidFinishEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJump*), "remove_noteJumpDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -353,7 +353,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_noteJumpDidPassMissedMarkerEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteJump::*)(System::Action*)>(&GlobalNamespace::NoteJump::add_noteJumpDidPassMissedMarkerEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJump*), "add_noteJumpDidPassMissedMarkerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -362,7 +362,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_noteJumpDidPassMissedMarkerEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteJump::*)(System::Action*)>(&GlobalNamespace::NoteJump::remove_noteJumpDidPassMissedMarkerEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJump*), "remove_noteJumpDidPassMissedMarkerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -371,7 +371,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_noteJumpDidPassThreeQuartersEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteJump::*)(System::Action_1<GlobalNamespace::NoteJump*>*)>(&GlobalNamespace::NoteJump::add_noteJumpDidPassThreeQuartersEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "NoteJump")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJump*), "add_noteJumpDidPassThreeQuartersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -380,7 +380,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_noteJumpDidPassThreeQuartersEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteJump::*)(System::Action_1<GlobalNamespace::NoteJump*>*)>(&GlobalNamespace::NoteJump::remove_noteJumpDidPassThreeQuartersEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "NoteJump")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJump*), "remove_noteJumpDidPassThreeQuartersEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -389,7 +389,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_noteJumpDidPassHalfEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteJump::*)(System::Action*)>(&GlobalNamespace::NoteJump::add_noteJumpDidPassHalfEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJump*), "add_noteJumpDidPassHalfEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -398,7 +398,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_noteJumpDidPassHalfEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteJump::*)(System::Action*)>(&GlobalNamespace::NoteJump::remove_noteJumpDidPassHalfEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJump*), "remove_noteJumpDidPassHalfEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -407,7 +407,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_noteJumpDidUpdateProgressEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteJump::*)(System::Action_1<float>*)>(&GlobalNamespace::NoteJump::add_noteJumpDidUpdateProgressEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJump*), "add_noteJumpDidUpdateProgressEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -416,7 +416,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_noteJumpDidUpdateProgressEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteJump::*)(System::Action_1<float>*)>(&GlobalNamespace::NoteJump::remove_noteJumpDidUpdateProgressEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJump*), "remove_noteJumpDidUpdateProgressEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -425,7 +425,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_distanceToPlayer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::NoteJump::*)()>(&GlobalNamespace::NoteJump::get_distanceToPlayer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJump*), "get_distanceToPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -433,7 +433,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: get_beatPos
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::NoteJump::*)()>(&GlobalNamespace::NoteJump::get_beatPos)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJump*), "get_beatPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -441,7 +441,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_jumpDuration
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::NoteJump::*)()>(&GlobalNamespace::NoteJump::get_jumpDuration)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJump*), "get_jumpDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -449,7 +449,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: get_moveVec
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::NoteJump::*)()>(&GlobalNamespace::NoteJump::get_moveVec)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJump*), "get_moveVec", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -457,7 +457,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_localPosition
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::NoteJump::*)()>(&GlobalNamespace::NoteJump::get_localPosition)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJump*), "get_localPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -465,7 +465,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteJump::*)(float, float, UnityEngine::Vector3, UnityEngine::Vector3, float, float, float, float)>(&GlobalNamespace::NoteJump::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* worldRotation = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* startPos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -481,7 +481,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ManualUpdate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::NoteJump::*)()>(&GlobalNamespace::NoteJump::ManualUpdate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJump*), "ManualUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

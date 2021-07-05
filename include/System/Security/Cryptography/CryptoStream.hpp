@@ -236,7 +236,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CryptoStream*, "System.Se
 // Il2CppName: get_HasFlushedFinalBlock
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::CryptoStream::*)()>(&System::Security::Cryptography::CryptoStream::get_HasFlushedFinalBlock)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CryptoStream*), "get_HasFlushedFinalBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -244,7 +244,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: FlushFinalBlock
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::CryptoStream::*)()>(&System::Security::Cryptography::CryptoStream::FlushFinalBlock)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CryptoStream*), "FlushFinalBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -252,7 +252,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ReadAsyncInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (System::Security::Cryptography::CryptoStream::*)(::Array<uint8_t>*, int, int, System::Threading::CancellationToken)>(&System::Security::Cryptography::CryptoStream::ReadAsyncInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -264,7 +264,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: WriteAsyncInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::Security::Cryptography::CryptoStream::*)(::Array<uint8_t>*, int, int, System::Threading::CancellationToken)>(&System::Security::Cryptography::CryptoStream::WriteAsyncInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -276,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: Clear
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::CryptoStream::*)()>(&System::Security::Cryptography::CryptoStream::Clear)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CryptoStream*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -284,7 +284,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: InitializeBuffer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::CryptoStream::*)()>(&System::Security::Cryptography::CryptoStream::InitializeBuffer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CryptoStream*), "InitializeBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -292,7 +292,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_CanRead
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::CryptoStream::*)()>(&System::Security::Cryptography::CryptoStream::get_CanRead)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CryptoStream*), "get_CanRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -300,7 +300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_CanSeek
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::CryptoStream::*)()>(&System::Security::Cryptography::CryptoStream::get_CanSeek)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CryptoStream*), "get_CanSeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -308,7 +308,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_CanWrite
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::CryptoStream::*)()>(&System::Security::Cryptography::CryptoStream::get_CanWrite)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CryptoStream*), "get_CanWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -316,7 +316,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_Length
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Security::Cryptography::CryptoStream::*)()>(&System::Security::Cryptography::CryptoStream::get_Length)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CryptoStream*), "get_Length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -324,7 +324,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Sy
 // Il2CppName: get_Position
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Security::Cryptography::CryptoStream::*)()>(&System::Security::Cryptography::CryptoStream::get_Position)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CryptoStream*), "get_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -332,7 +332,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Sy
 // Il2CppName: set_Position
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::CryptoStream::*)(int64_t)>(&System::Security::Cryptography::CryptoStream::set_Position)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CryptoStream*), "set_Position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -341,7 +341,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Flush
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::CryptoStream::*)()>(&System::Security::Cryptography::CryptoStream::Flush)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CryptoStream*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -349,7 +349,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Seek
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Security::Cryptography::CryptoStream::*)(int64_t, System::IO::SeekOrigin)>(&System::Security::Cryptography::CryptoStream::Seek)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* origin = &::il2cpp_utils::GetClassFromName("System.IO", "SeekOrigin")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CryptoStream*), "Seek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{offset, origin});
@@ -359,7 +359,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Sy
 // Il2CppName: SetLength
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::CryptoStream::*)(int64_t)>(&System::Security::Cryptography::CryptoStream::SetLength)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CryptoStream*), "SetLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -368,7 +368,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Read
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Cryptography::CryptoStream::*)(::Array<uint8_t>*&, int, int)>(&System::Security::Cryptography::CryptoStream::Read)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -379,7 +379,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: ReadAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (System::Security::Cryptography::CryptoStream::*)(::Array<uint8_t>*, int, int, System::Threading::CancellationToken)>(&System::Security::Cryptography::CryptoStream::ReadAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -391,7 +391,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: Write
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::CryptoStream::*)(::Array<uint8_t>*, int, int)>(&System::Security::Cryptography::CryptoStream::Write)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -402,7 +402,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: WriteAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::Security::Cryptography::CryptoStream::*)(::Array<uint8_t>*, int, int, System::Threading::CancellationToken)>(&System::Security::Cryptography::CryptoStream::WriteAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -414,7 +414,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::CryptoStream::*)(bool)>(&System::Security::Cryptography::CryptoStream::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* disposing = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CryptoStream*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{disposing});
   }

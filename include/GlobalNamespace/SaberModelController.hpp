@@ -112,7 +112,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberModelController*, "", "SaberModelCo
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberModelController::*)(UnityEngine::Transform*, GlobalNamespace::Saber*)>(&GlobalNamespace::SaberModelController::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* parent = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* saber = &::il2cpp_utils::GetClassFromName("", "Saber")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberModelController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parent, saber});

@@ -120,7 +120,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardPlayerInfo*, "", "Leaderboard
 // Il2CppName: get_playerId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LeaderboardPlayerInfo::*)()>(&GlobalNamespace::LeaderboardPlayerInfo::get_playerId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardPlayerInfo*), "get_playerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_playerId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardPlayerInfo::*)(::Il2CppString*)>(&GlobalNamespace::LeaderboardPlayerInfo::set_playerId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardPlayerInfo*), "set_playerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -137,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_playerName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LeaderboardPlayerInfo::*)()>(&GlobalNamespace::LeaderboardPlayerInfo::get_playerName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardPlayerInfo*), "get_playerName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -145,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_playerName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardPlayerInfo::*)(::Il2CppString*)>(&GlobalNamespace::LeaderboardPlayerInfo::set_playerName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardPlayerInfo*), "set_playerName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_playerKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LeaderboardPlayerInfo::*)()>(&GlobalNamespace::LeaderboardPlayerInfo::get_playerKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardPlayerInfo*), "get_playerKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -162,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_playerKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardPlayerInfo::*)(::Il2CppString*)>(&GlobalNamespace::LeaderboardPlayerInfo::set_playerKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardPlayerInfo*), "set_playerKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -171,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_authType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LeaderboardPlayerInfo::*)()>(&GlobalNamespace::LeaderboardPlayerInfo::get_authType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardPlayerInfo*), "get_authType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_authType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardPlayerInfo::*)(::Il2CppString*)>(&GlobalNamespace::LeaderboardPlayerInfo::set_authType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardPlayerInfo*), "set_authType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -188,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_playerFriends
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LeaderboardPlayerInfo::*)()>(&GlobalNamespace::LeaderboardPlayerInfo::get_playerFriends)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardPlayerInfo*), "get_playerFriends", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -196,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_playerFriends
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardPlayerInfo::*)(::Il2CppString*)>(&GlobalNamespace::LeaderboardPlayerInfo::set_playerFriends)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardPlayerInfo*), "set_playerFriends", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -205,7 +205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_succeeded
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LeaderboardPlayerInfo::*)()>(&GlobalNamespace::LeaderboardPlayerInfo::get_succeeded)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardPlayerInfo*), "get_succeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -213,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: set_succeeded
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardPlayerInfo::*)(bool)>(&GlobalNamespace::LeaderboardPlayerInfo::set_succeeded)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardPlayerInfo*), "set_succeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

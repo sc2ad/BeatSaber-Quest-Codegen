@@ -112,7 +112,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerEndPoint*, "", "MasterServer
 // Il2CppName: get_endPoint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (GlobalNamespace::MasterServerEndPoint::*)()>(&GlobalNamespace::MasterServerEndPoint::get_endPoint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerEndPoint*), "get_endPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: GetEndPointAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::Net::IPEndPoint*>* (GlobalNamespace::MasterServerEndPoint::*)()>(&GlobalNamespace::MasterServerEndPoint::GetEndPointAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerEndPoint*), "GetEndPointAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -136,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: GetEndPoint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (GlobalNamespace::MasterServerEndPoint::*)()>(&GlobalNamespace::MasterServerEndPoint::GetEndPoint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerEndPoint*), "GetEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: GetEndPointInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (GlobalNamespace::MasterServerEndPoint::*)()>(&GlobalNamespace::MasterServerEndPoint::GetEndPointInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerEndPoint*), "GetEndPointInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -152,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: Equals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MasterServerEndPoint::*)(GlobalNamespace::MasterServerEndPoint*)>(&GlobalNamespace::MasterServerEndPoint::Equals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("", "MasterServerEndPoint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerEndPoint*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: ToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MasterServerEndPoint::*)()>(&GlobalNamespace::MasterServerEndPoint::ToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerEndPoint*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: Equals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MasterServerEndPoint::*)(::Il2CppObject*)>(&GlobalNamespace::MasterServerEndPoint::Equals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerEndPoint*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
@@ -178,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: GetHashCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MasterServerEndPoint::*)()>(&GlobalNamespace::MasterServerEndPoint::GetHashCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerEndPoint*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

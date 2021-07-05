@@ -116,7 +116,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Collections::Comparer*, "System.Collections", "Co
 // Il2CppName: Compare
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::Comparer::*)(::Il2CppObject*, ::Il2CppObject*)>(&System::Collections::Comparer::Compare)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Collections::Comparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
@@ -126,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: GetObjectData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Comparer::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Collections::Comparer::GetObjectData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Collections::Comparer*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{info, context});
@@ -136,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Collections::Comparer::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Collections::Comparer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -64,7 +64,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelFilteringNavigationController::$$c_
 // Il2CppName: <SelectAnnotatedBeatmapLevelCollection>b__1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass44_0::*)(::Il2CppString*)>(&GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass44_0::$SelectAnnotatedBeatmapLevelCollection$b__1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* packID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass44_0*), "<SelectAnnotatedBeatmapLevelCollection>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packID});
   }
@@ -73,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: <SelectAnnotatedBeatmapLevelCollection>b__3
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass44_0::*)(::Il2CppString*)>(&GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass44_0::$SelectAnnotatedBeatmapLevelCollection$b__3)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* packID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelFilteringNavigationController::$$c__DisplayClass44_0*), "<SelectAnnotatedBeatmapLevelCollection>b__3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packID});
   }

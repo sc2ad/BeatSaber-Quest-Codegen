@@ -148,7 +148,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLeaderboardPanelItem*, "", "M
 // Il2CppName: SetData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLeaderboardPanelItem::*)(int, ::Il2CppString*, int, bool, int)>(&GlobalNamespace::MultiplayerLeaderboardPanelItem::SetData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* playerName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* score = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: set_hide
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLeaderboardPanelItem::*)(bool)>(&GlobalNamespace::MultiplayerLeaderboardPanelItem::set_hide)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLeaderboardPanelItem*), "set_hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

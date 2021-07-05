@@ -76,7 +76,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CountdownElementController*, "", "Countd
 // Il2CppName: SetTextAndRunAnimation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CountdownElementController::*)(::Il2CppString*)>(&GlobalNamespace::CountdownElementController::SetTextAndRunAnimation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CountdownElementController*), "SetTextAndRunAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});
   }
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: StopAndHide
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CountdownElementController::*)()>(&GlobalNamespace::CountdownElementController::StopAndHide)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CountdownElementController*), "StopAndHide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

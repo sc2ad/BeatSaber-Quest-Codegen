@@ -140,7 +140,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Text::Encoding::EncodingByteBuffer*, "System.Text
 // Il2CppName: AddByte
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::Encoding::EncodingByteBuffer::*)(uint8_t, int)>(&System::Text::Encoding::EncodingByteBuffer::AddByte)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* b = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     static auto* moreBytesExpected = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::Encoding::EncodingByteBuffer*), "AddByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{b, moreBytesExpected});
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: AddByte
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::Encoding::EncodingByteBuffer::*)(uint8_t)>(&System::Text::Encoding::EncodingByteBuffer::AddByte)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* b1 = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::Encoding::EncodingByteBuffer*), "AddByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{b1});
   }
@@ -159,7 +159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: AddByte
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::Encoding::EncodingByteBuffer::*)(uint8_t, uint8_t)>(&System::Text::Encoding::EncodingByteBuffer::AddByte)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* b1 = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     static auto* b2 = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::Encoding::EncodingByteBuffer*), "AddByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{b1, b2});
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: AddByte
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::Encoding::EncodingByteBuffer::*)(uint8_t, uint8_t, int)>(&System::Text::Encoding::EncodingByteBuffer::AddByte)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* b1 = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     static auto* b2 = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     static auto* moreBytesExpected = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -180,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: MovePrevious
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::Encoding::EncodingByteBuffer::*)(bool)>(&System::Text::Encoding::EncodingByteBuffer::MovePrevious)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bThrow = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::Encoding::EncodingByteBuffer*), "MovePrevious", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bThrow});
   }
@@ -189,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_MoreData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::Encoding::EncodingByteBuffer::*)()>(&System::Text::Encoding::EncodingByteBuffer::get_MoreData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::Encoding::EncodingByteBuffer*), "get_MoreData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -197,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: GetNextChar
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (System::Text::Encoding::EncodingByteBuffer::*)()>(&System::Text::Encoding::EncodingByteBuffer::GetNextChar)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::Encoding::EncodingByteBuffer*), "GetNextChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -205,7 +205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 // Il2CppName: get_CharsUsed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::Encoding::EncodingByteBuffer::*)()>(&System::Text::Encoding::EncodingByteBuffer::get_CharsUsed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::Encoding::EncodingByteBuffer*), "get_CharsUsed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -213,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: get_Count
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::Encoding::EncodingByteBuffer::*)()>(&System::Text::Encoding::EncodingByteBuffer::get_Count)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::Encoding::EncodingByteBuffer*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_interface_struct::unitytl
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_append_t::*)(Mono::Unity::UnityTls::unitytls_x509list*, Mono::Unity::UnityTls::unitytls_x509_ref, Mono::Unity::UnityTls::unitytls_errorstate*)>(&Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_append_t::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* list = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("Mono.Unity", "UnityTls/unitytls_x509list"))->byval_arg;
     static auto* cert = &::il2cpp_utils::GetClassFromName("Mono.Unity", "UnityTls/unitytls_x509_ref")->byval_arg;
     static auto* errorState = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("Mono.Unity", "UnityTls/unitytls_errorstate"))->byval_arg;
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_append_t::*)(Mono::Unity::UnityTls::unitytls_x509list*, Mono::Unity::UnityTls::unitytls_x509_ref, Mono::Unity::UnityTls::unitytls_errorstate*, System::AsyncCallback*, ::Il2CppObject*)>(&Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_append_t::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* list = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("Mono.Unity", "UnityTls/unitytls_x509list"))->byval_arg;
     static auto* cert = &::il2cpp_utils::GetClassFromName("Mono.Unity", "UnityTls/unitytls_x509_ref")->byval_arg;
     static auto* errorState = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("Mono.Unity", "UnityTls/unitytls_errorstate"))->byval_arg;
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_append_t::*)(System::IAsyncResult*)>(&Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_append_t::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_x509list_append_t*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

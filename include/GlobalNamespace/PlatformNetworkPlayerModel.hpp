@@ -62,7 +62,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformNetworkPlayerModel*, "", "Platfo
 // Il2CppName: get_friends
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* (GlobalNamespace::PlatformNetworkPlayerModel::*)()>(&GlobalNamespace::PlatformNetworkPlayerModel::get_friends)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformNetworkPlayerModel*), "get_friends", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

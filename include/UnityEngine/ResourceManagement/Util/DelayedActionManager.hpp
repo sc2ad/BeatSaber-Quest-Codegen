@@ -227,7 +227,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::DelayedActionManag
 // Il2CppName: GetNode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::LinkedListNode_1<UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo>* (UnityEngine::ResourceManagement::Util::DelayedActionManager::*)(UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo&)>(&UnityEngine::ResourceManagement::Util::DelayedActionManager::GetNode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* del = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.Util", "DelayedActionManager/DelegateInfo")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::DelayedActionManager*), "GetNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{del});
   }
@@ -236,7 +236,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: Clear
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::ResourceManagement::Util::DelayedActionManager::Clear)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::DelayedActionManager*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -244,7 +244,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: DestroyWhenComplete
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::Util::DelayedActionManager::*)()>(&UnityEngine::ResourceManagement::Util::DelayedActionManager::DestroyWhenComplete)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::DelayedActionManager*), "DestroyWhenComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -252,7 +252,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: AddAction
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Delegate*, float, ::Array<::Il2CppObject*>*)>(&UnityEngine::ResourceManagement::Util::DelayedActionManager::AddAction)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("System", "Delegate")->byval_arg;
     static auto* delay = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* parameters = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -263,7 +263,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: AddActionInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::Util::DelayedActionManager::*)(System::Delegate*, float, ::Array<::Il2CppObject*>*)>(&UnityEngine::ResourceManagement::Util::DelayedActionManager::AddActionInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("System", "Delegate")->byval_arg;
     static auto* delay = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* parameters = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -274,7 +274,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_IsActive
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::ResourceManagement::Util::DelayedActionManager::get_IsActive)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::DelayedActionManager*), "get_IsActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -282,7 +282,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Il2CppName: Wait
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(float, float)>(&UnityEngine::ResourceManagement::Util::DelayedActionManager::Wait)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* timeout = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* timeAdvanceAmount = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::DelayedActionManager*), "Wait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{timeout, timeAdvanceAmount});
@@ -292,7 +292,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(fl
 // Il2CppName: LateUpdate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::Util::DelayedActionManager::*)()>(&UnityEngine::ResourceManagement::Util::DelayedActionManager::LateUpdate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::DelayedActionManager*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -300,7 +300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: InternalLateUpdate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::Util::DelayedActionManager::*)(float)>(&UnityEngine::ResourceManagement::Util::DelayedActionManager::InternalLateUpdate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::DelayedActionManager*), "InternalLateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
@@ -309,7 +309,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: OnApplicationQuit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::Util::DelayedActionManager::*)()>(&UnityEngine::ResourceManagement::Util::DelayedActionManager::OnApplicationQuit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::DelayedActionManager*), "OnApplicationQuit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

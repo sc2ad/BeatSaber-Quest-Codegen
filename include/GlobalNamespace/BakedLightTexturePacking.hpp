@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BakedLightTexturePacking*, "", "BakedLig
 // Il2CppName: PackTextures
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (*)(System::Collections::Generic::IReadOnlyList_1<UnityEngine::RenderTexture*>*, UnityEngine::RenderTextureDescriptor)>(&GlobalNamespace::BakedLightTexturePacking::PackTextures)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* textures = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IReadOnlyList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")})->byval_arg;
     static auto* descriptor = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTextureDescriptor")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BakedLightTexturePacking*), "PackTextures", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{textures, descriptor});
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::BakedLightTexturePacking::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BakedLightTexturePacking*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

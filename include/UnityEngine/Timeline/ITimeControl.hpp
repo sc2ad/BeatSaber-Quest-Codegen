@@ -32,7 +32,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ITimeControl*, "UnityEngine.Timeli
 // Il2CppName: SetTime
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ITimeControl::*)(double)>(&UnityEngine::Timeline::ITimeControl::SetTime)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ITimeControl*), "SetTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
@@ -41,7 +41,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: OnControlTimeStart
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ITimeControl::*)()>(&UnityEngine::Timeline::ITimeControl::OnControlTimeStart)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ITimeControl*), "OnControlTimeStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -49,7 +49,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: OnControlTimeStop
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ITimeControl::*)()>(&UnityEngine::Timeline::ITimeControl::OnControlTimeStop)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ITimeControl*), "OnControlTimeStop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

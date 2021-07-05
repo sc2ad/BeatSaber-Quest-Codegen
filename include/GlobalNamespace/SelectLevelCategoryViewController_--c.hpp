@@ -70,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelCategoryViewController::$$c*,
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::SelectLevelCategoryViewController::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectLevelCategoryViewController::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <Setup>b__11_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::IconSegmentedControl::DataItem* (GlobalNamespace::SelectLevelCategoryViewController::$$c::*)(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*)>(&GlobalNamespace::SelectLevelCategoryViewController::$$c::$Setup$b__11_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("", "SelectLevelCategoryViewController/LevelCategoryInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectLevelCategoryViewController::$$c*), "<Setup>b__11_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::IconS
 // Il2CppName: <Setup>b__11_2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory (GlobalNamespace::SelectLevelCategoryViewController::$$c::*)(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*)>(&GlobalNamespace::SelectLevelCategoryViewController::$$c::$Setup$b__11_2)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("", "SelectLevelCategoryViewController/LevelCategoryInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectLevelCategoryViewController::$$c*), "<Setup>b__11_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }

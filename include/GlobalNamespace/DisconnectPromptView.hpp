@@ -146,7 +146,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisconnectPromptView*, "", "DisconnectPr
 // Il2CppName: add_didViewFinishEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DisconnectPromptView::*)(System::Action_1<bool>*)>(&GlobalNamespace::DisconnectPromptView::add_didViewFinishEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisconnectPromptView*), "add_didViewFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -155,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_didViewFinishEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DisconnectPromptView::*)(System::Action_1<bool>*)>(&GlobalNamespace::DisconnectPromptView::remove_didViewFinishEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisconnectPromptView*), "remove_didViewFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnEnable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DisconnectPromptView::*)()>(&GlobalNamespace::DisconnectPromptView::OnEnable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisconnectPromptView*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -172,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnDisable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DisconnectPromptView::*)()>(&GlobalNamespace::DisconnectPromptView::OnDisable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisconnectPromptView*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -180,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Show
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DisconnectPromptView::*)()>(&GlobalNamespace::DisconnectPromptView::Show)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisconnectPromptView*), "Show", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -188,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Hide
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DisconnectPromptView::*)(System::Action*)>(&GlobalNamespace::DisconnectPromptView::Hide)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* finishedCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisconnectPromptView*), "Hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{finishedCallback});
   }
@@ -197,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <OnEnable>b__9_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DisconnectPromptView::*)()>(&GlobalNamespace::DisconnectPromptView::$OnEnable$b__9_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisconnectPromptView*), "<OnEnable>b__9_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -205,7 +205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <OnEnable>b__9_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DisconnectPromptView::*)()>(&GlobalNamespace::DisconnectPromptView::$OnEnable$b__9_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisconnectPromptView*), "<OnEnable>b__9_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

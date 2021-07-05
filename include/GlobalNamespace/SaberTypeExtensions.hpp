@@ -48,7 +48,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberTypeExtensions*, "", "SaberTypeExte
 // Il2CppName: MatchesColorType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::SaberType, GlobalNamespace::ColorType)>(&GlobalNamespace::SaberTypeExtensions::MatchesColorType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* saberType = &::il2cpp_utils::GetClassFromName("", "SaberType")->byval_arg;
     static auto* colorType = &::il2cpp_utils::GetClassFromName("", "ColorType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTypeExtensions*), "MatchesColorType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{saberType, colorType});
@@ -58,7 +58,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Il2CppName: Node
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::XR::XRNode (*)(GlobalNamespace::SaberType)>(&GlobalNamespace::SaberTypeExtensions::Node)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* saberType = &::il2cpp_utils::GetClassFromName("", "SaberType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTypeExtensions*), "Node", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{saberType});
   }
@@ -67,7 +67,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: MainSaber
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SaberType (*)(bool)>(&GlobalNamespace::SaberTypeExtensions::MainSaber)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* leftHanded = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTypeExtensions*), "MainSaber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leftHanded});
   }

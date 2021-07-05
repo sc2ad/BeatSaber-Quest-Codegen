@@ -41,7 +41,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ISurrogateSelector*, "Sys
 // Il2CppName: GetSurrogate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::ISerializationSurrogate* (System::Runtime::Serialization::ISurrogateSelector::*)(System::Type*, System::Runtime::Serialization::StreamingContext, System::Runtime::Serialization::ISurrogateSelector*&)>(&System::Runtime::Serialization::ISurrogateSelector::GetSurrogate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
     static auto* selector = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "ISurrogateSelector")->this_arg;

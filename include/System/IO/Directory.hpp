@@ -93,7 +93,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::IO::Directory*, "System.IO", "Directory");
 // Il2CppName: GetFiles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*)>(&System::IO::Directory::GetFiles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "GetFiles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
   }
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: GetFiles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*, ::Il2CppString*)>(&System::IO::Directory::GetFiles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* searchPattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "GetFiles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path, searchPattern});
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: InternalGetFiles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*, ::Il2CppString*, System::IO::SearchOption)>(&System::IO::Directory::InternalGetFiles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* searchPattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* searchOption = &::il2cpp_utils::GetClassFromName("System.IO", "SearchOption")->byval_arg;
@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: GetDirectories
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*)>(&System::IO::Directory::GetDirectories)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "GetDirectories", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
   }
@@ -132,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: GetDirectories
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*, ::Il2CppString*)>(&System::IO::Directory::GetDirectories)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* searchPattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "GetDirectories", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path, searchPattern});
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: InternalGetDirectories
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*, ::Il2CppString*, System::IO::SearchOption)>(&System::IO::Directory::InternalGetDirectories)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* searchPattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* searchOption = &::il2cpp_utils::GetClassFromName("System.IO", "SearchOption")->byval_arg;
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: GetFileSystemEntries
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*, ::Il2CppString*)>(&System::IO::Directory::GetFileSystemEntries)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* searchPattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "GetFileSystemEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path, searchPattern});
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: InternalGetFileSystemEntries
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*, ::Il2CppString*, System::IO::SearchOption)>(&System::IO::Directory::InternalGetFileSystemEntries)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* searchPattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* searchOption = &::il2cpp_utils::GetClassFromName("System.IO", "SearchOption")->byval_arg;
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: InternalGetFileDirectoryNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, bool, bool, System::IO::SearchOption, bool)>(&System::IO::Directory::InternalGetFileDirectoryNames)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* userPathOriginal = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* searchPattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -189,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: CreateDirectory
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::DirectoryInfo* (*)(::Il2CppString*)>(&System::IO::Directory::CreateDirectory)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "CreateDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
   }
@@ -198,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO:
 // Il2CppName: CreateDirectoriesInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::DirectoryInfo* (*)(::Il2CppString*)>(&System::IO::Directory::CreateDirectoriesInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "CreateDirectoriesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
   }
@@ -207,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO:
 // Il2CppName: Delete
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&System::IO::Directory::Delete)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "Delete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
   }
@@ -216,7 +216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: RecursiveDelete
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&System::IO::Directory::RecursiveDelete)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "RecursiveDelete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
   }
@@ -225,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: Delete
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, bool)>(&System::IO::Directory::Delete)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* recursive = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "Delete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path, recursive});
@@ -235,7 +235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: Exists
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&System::IO::Directory::Exists)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "Exists", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
   }
@@ -244,7 +244,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: GetCurrentDirectory
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::IO::Directory::GetCurrentDirectory)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "GetCurrentDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -252,7 +252,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: InsecureGetCurrentDirectory
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::IO::Directory::InsecureGetCurrentDirectory)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "InsecureGetCurrentDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -260,7 +260,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetLogicalDrives
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)()>(&System::IO::Directory::GetLogicalDrives)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "GetLogicalDrives", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -268,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: GetDemandDir
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, bool)>(&System::IO::Directory::GetDemandDir)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* fullPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* thisDirOnly = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "GetDemandDir", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fullPath, thisDirOnly});

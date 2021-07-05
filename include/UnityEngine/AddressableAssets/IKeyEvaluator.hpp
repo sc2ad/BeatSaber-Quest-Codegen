@@ -32,7 +32,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::IKeyEvaluator*, "UnityEng
 // Il2CppName: get_RuntimeKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (UnityEngine::AddressableAssets::IKeyEvaluator::*)()>(&UnityEngine::AddressableAssets::IKeyEvaluator::get_RuntimeKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::IKeyEvaluator*), "get_RuntimeKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -40,7 +40,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: RuntimeKeyIsValid
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::IKeyEvaluator::*)()>(&UnityEngine::AddressableAssets::IKeyEvaluator::RuntimeKeyIsValid)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::IKeyEvaluator*), "RuntimeKeyIsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

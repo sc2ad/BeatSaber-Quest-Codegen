@@ -351,7 +351,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockNetworkPlayerModel*, "", "MockNetwor
 // Il2CppName: get_discoveryPolicy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::DiscoveryPolicy (GlobalNamespace::MockNetworkPlayerModel::*)()>(&GlobalNamespace::MockNetworkPlayerModel::get_discoveryPolicy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "get_discoveryPolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -359,7 +359,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_discoveryEnabled
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockNetworkPlayerModel::*)()>(&GlobalNamespace::MockNetworkPlayerModel::get_discoveryEnabled)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "get_discoveryEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -367,7 +367,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: set_discoveryEnabled
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNetworkPlayerModel::*)(bool)>(&GlobalNamespace::MockNetworkPlayerModel::set_discoveryEnabled)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "set_discoveryEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -376,7 +376,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_localPlayerIsPartyOwner
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockNetworkPlayerModel::*)()>(&GlobalNamespace::MockNetworkPlayerModel::get_localPlayerIsPartyOwner)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "get_localPlayerIsPartyOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -384,7 +384,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: get_maxPartySize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MockNetworkPlayerModel::*)()>(&GlobalNamespace::MockNetworkPlayerModel::get_maxPartySize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "get_maxPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -392,7 +392,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: set_maxPartySize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNetworkPlayerModel::*)(int)>(&GlobalNamespace::MockNetworkPlayerModel::set_maxPartySize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "set_maxPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -401,7 +401,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_configuration
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayServerConfiguration (GlobalNamespace::MockNetworkPlayerModel::*)()>(&GlobalNamespace::MockNetworkPlayerModel::get_configuration)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "get_configuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -409,7 +409,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: set_configuration
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNetworkPlayerModel::*)(GlobalNamespace::GameplayServerConfiguration)>(&GlobalNamespace::MockNetworkPlayerModel::set_configuration)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "GameplayServerConfiguration")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "set_configuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -418,7 +418,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_currentPartySize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MockNetworkPlayerModel::*)()>(&GlobalNamespace::MockNetworkPlayerModel::get_currentPartySize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "get_currentPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -426,7 +426,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: get_partyPlayers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* (GlobalNamespace::MockNetworkPlayerModel::*)()>(&GlobalNamespace::MockNetworkPlayerModel::get_partyPlayers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "get_partyPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -434,7 +434,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: get_otherPlayers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* (GlobalNamespace::MockNetworkPlayerModel::*)()>(&GlobalNamespace::MockNetworkPlayerModel::get_otherPlayers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "get_otherPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -442,7 +442,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: get_connectedPlayerManager
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager* (GlobalNamespace::MockNetworkPlayerModel::*)()>(&GlobalNamespace::MockNetworkPlayerModel::get_connectedPlayerManager)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "get_connectedPlayerManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -450,7 +450,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_localPlayer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::INetworkPlayer* (GlobalNamespace::MockNetworkPlayerModel::*)()>(&GlobalNamespace::MockNetworkPlayerModel::get_localPlayer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "get_localPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -458,7 +458,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_enableLocalNetwork
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockNetworkPlayerModel::*)()>(&GlobalNamespace::MockNetworkPlayerModel::get_enableLocalNetwork)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "get_enableLocalNetwork", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -466,7 +466,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: set_enableLocalNetwork
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNetworkPlayerModel::*)(bool)>(&GlobalNamespace::MockNetworkPlayerModel::set_enableLocalNetwork)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "set_enableLocalNetwork", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -475,7 +475,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_publicServers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* (GlobalNamespace::MockNetworkPlayerModel::*)()>(&GlobalNamespace::MockNetworkPlayerModel::get_publicServers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "get_publicServers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -483,7 +483,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: get_localNetworkPlayers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* (GlobalNamespace::MockNetworkPlayerModel::*)()>(&GlobalNamespace::MockNetworkPlayerModel::get_localNetworkPlayers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "get_localNetworkPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -491,7 +491,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: get_serverFilter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayServerFilter (GlobalNamespace::MockNetworkPlayerModel::*)()>(&GlobalNamespace::MockNetworkPlayerModel::get_serverFilter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "get_serverFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -499,7 +499,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: set_serverFilter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNetworkPlayerModel::*)(GlobalNamespace::GameplayServerFilter)>(&GlobalNamespace::MockNetworkPlayerModel::set_serverFilter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "GameplayServerFilter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "set_serverFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -508,7 +508,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_userId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MockNetworkPlayerModel::*)()>(&GlobalNamespace::MockNetworkPlayerModel::get_userId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -516,7 +516,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_userName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MockNetworkPlayerModel::*)()>(&GlobalNamespace::MockNetworkPlayerModel::get_userName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -524,7 +524,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_secret
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MockNetworkPlayerModel::*)()>(&GlobalNamespace::MockNetworkPlayerModel::get_secret)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "get_secret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -532,7 +532,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_code
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MockNetworkPlayerModel::*)()>(&GlobalNamespace::MockNetworkPlayerModel::get_code)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "get_code", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -540,7 +540,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: add_connectedPlayerManagerCreatedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNetworkPlayerModel::*)(System::Action_1<GlobalNamespace::INetworkPlayerModel*>*)>(&GlobalNamespace::MockNetworkPlayerModel::add_connectedPlayerManagerCreatedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "INetworkPlayerModel")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "add_connectedPlayerManagerCreatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -549,7 +549,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_connectedPlayerManagerCreatedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNetworkPlayerModel::*)(System::Action_1<GlobalNamespace::INetworkPlayerModel*>*)>(&GlobalNamespace::MockNetworkPlayerModel::remove_connectedPlayerManagerCreatedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "INetworkPlayerModel")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "remove_connectedPlayerManagerCreatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -558,7 +558,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_connectedPlayerManagerDestroyedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNetworkPlayerModel::*)(System::Action_1<GlobalNamespace::INetworkPlayerModel*>*)>(&GlobalNamespace::MockNetworkPlayerModel::add_connectedPlayerManagerDestroyedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "INetworkPlayerModel")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "add_connectedPlayerManagerDestroyedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -567,7 +567,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_connectedPlayerManagerDestroyedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNetworkPlayerModel::*)(System::Action_1<GlobalNamespace::INetworkPlayerModel*>*)>(&GlobalNamespace::MockNetworkPlayerModel::remove_connectedPlayerManagerDestroyedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "INetworkPlayerModel")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "remove_connectedPlayerManagerDestroyedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -576,7 +576,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_partyRefreshingEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNetworkPlayerModel::*)(System::Action*)>(&GlobalNamespace::MockNetworkPlayerModel::add_partyRefreshingEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "add_partyRefreshingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -585,7 +585,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_partyRefreshingEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNetworkPlayerModel::*)(System::Action*)>(&GlobalNamespace::MockNetworkPlayerModel::remove_partyRefreshingEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "remove_partyRefreshingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -594,7 +594,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_partyChangedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNetworkPlayerModel::*)(System::Action_1<GlobalNamespace::INetworkPlayerModel*>*)>(&GlobalNamespace::MockNetworkPlayerModel::add_partyChangedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "INetworkPlayerModel")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "add_partyChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -603,7 +603,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_partyChangedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNetworkPlayerModel::*)(System::Action_1<GlobalNamespace::INetworkPlayerModel*>*)>(&GlobalNamespace::MockNetworkPlayerModel::remove_partyChangedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "INetworkPlayerModel")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "remove_partyChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -612,7 +612,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_partySizeChangedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNetworkPlayerModel::*)(System::Action_1<int>*)>(&GlobalNamespace::MockNetworkPlayerModel::add_partySizeChangedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "add_partySizeChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -621,7 +621,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_partySizeChangedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNetworkPlayerModel::*)(System::Action_1<int>*)>(&GlobalNamespace::MockNetworkPlayerModel::remove_partySizeChangedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "remove_partySizeChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -630,7 +630,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_joinRequestedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNetworkPlayerModel::*)(System::Action_1<GlobalNamespace::INetworkPlayer*>*)>(&GlobalNamespace::MockNetworkPlayerModel::add_joinRequestedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "INetworkPlayer")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "add_joinRequestedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -639,7 +639,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_joinRequestedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNetworkPlayerModel::*)(System::Action_1<GlobalNamespace::INetworkPlayer*>*)>(&GlobalNamespace::MockNetworkPlayerModel::remove_joinRequestedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "INetworkPlayer")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "remove_joinRequestedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -648,7 +648,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_inviteRequestedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNetworkPlayerModel::*)(System::Action_1<GlobalNamespace::INetworkPlayer*>*)>(&GlobalNamespace::MockNetworkPlayerModel::add_inviteRequestedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "INetworkPlayer")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "add_inviteRequestedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -657,7 +657,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_inviteRequestedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNetworkPlayerModel::*)(System::Action_1<GlobalNamespace::INetworkPlayer*>*)>(&GlobalNamespace::MockNetworkPlayerModel::remove_inviteRequestedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "INetworkPlayer")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "remove_inviteRequestedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -669,7 +669,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: DestroyParty
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNetworkPlayerModel::*)()>(&GlobalNamespace::MockNetworkPlayerModel::DestroyParty)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "DestroyParty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -677,7 +677,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Disconnect
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNetworkPlayerModel::*)()>(&GlobalNamespace::MockNetworkPlayerModel::Disconnect)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "Disconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -685,7 +685,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Refresh
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNetworkPlayerModel::*)(bool)>(&GlobalNamespace::MockNetworkPlayerModel::Refresh)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* clearCurrentList = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clearCurrentList});
   }
@@ -694,7 +694,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetServerFilter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNetworkPlayerModel::*)(GlobalNamespace::GameplayServerFilter)>(&GlobalNamespace::MockNetworkPlayerModel::SetServerFilter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* filter = &::il2cpp_utils::GetClassFromName("", "GameplayServerFilter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "SetServerFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filter});
   }
@@ -703,7 +703,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: JoinMatchmaking
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNetworkPlayerModel::*)(GlobalNamespace::GameplayServerConfiguration, GlobalNamespace::DiscoveryPolicy, ::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::MockNetworkPlayerModel::JoinMatchmaking)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* configuration = &::il2cpp_utils::GetClassFromName("", "GameplayServerConfiguration")->byval_arg;
     static auto* discoveryPolicy = &::il2cpp_utils::GetClassFromName("", "DiscoveryPolicy")->byval_arg;
     static auto* secret = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -715,7 +715,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ConnectToServerWithCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNetworkPlayerModel::*)(::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::MockNetworkPlayerModel::ConnectToServerWithCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* serverCode = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* serverPassword = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "ConnectToServerWithCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serverCode, serverPassword});
@@ -725,7 +725,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ConnectToServerWithSecret
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNetworkPlayerModel::*)(::Il2CppString*)>(&GlobalNamespace::MockNetworkPlayerModel::ConnectToServerWithSecret)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* serverSecret = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "ConnectToServerWithSecret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serverSecret});
   }
@@ -734,7 +734,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ResetMasterServerReachability
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockNetworkPlayerModel::*)()>(&GlobalNamespace::MockNetworkPlayerModel::ResetMasterServerReachability)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockNetworkPlayerModel*), "ResetMasterServerReachability", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

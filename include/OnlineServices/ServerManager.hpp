@@ -163,7 +163,7 @@ DEFINE_IL2CPP_ARG_TYPE(OnlineServices::ServerManager*, "OnlineServices", "Server
 // Il2CppName: add_platformServicesAvailabilityInfoChangedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::ServerManager::*)(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*)>(&OnlineServices::ServerManager::add_platformServicesAvailabilityInfoChangedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("OnlineServices", "PlatformServicesAvailabilityInfo")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::ServerManager*), "add_platformServicesAvailabilityInfoChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -172,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Onlin
 // Il2CppName: remove_platformServicesAvailabilityInfoChangedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::ServerManager::*)(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*)>(&OnlineServices::ServerManager::remove_platformServicesAvailabilityInfoChangedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("OnlineServices", "PlatformServicesAvailabilityInfo")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::ServerManager*), "remove_platformServicesAvailabilityInfoChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -181,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Onlin
 // Il2CppName: add_scoreForLeaderboardDidUploadEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::ServerManager::*)(System::Action_1<::Il2CppString*>*)>(&OnlineServices::ServerManager::add_scoreForLeaderboardDidUploadEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::ServerManager*), "add_scoreForLeaderboardDidUploadEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -190,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Onlin
 // Il2CppName: remove_scoreForLeaderboardDidUploadEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::ServerManager::*)(System::Action_1<::Il2CppString*>*)>(&OnlineServices::ServerManager::remove_scoreForLeaderboardDidUploadEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::ServerManager*), "remove_scoreForLeaderboardDidUploadEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -199,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Onlin
 // Il2CppName: get_initialized
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OnlineServices::ServerManager::*)()>(&OnlineServices::ServerManager::get_initialized)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::ServerManager*), "get_initialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -207,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Onlin
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::ServerManager::*)()>(&OnlineServices::ServerManager::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::ServerManager*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -215,7 +215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Onlin
 // Il2CppName: GetLeaderboardId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OnlineServices::ServerManager::*)(GlobalNamespace::IDifficultyBeatmap*)>(&OnlineServices::ServerManager::GetLeaderboardId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* difficultyBeatmap = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::ServerManager*), "GetLeaderboardId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{difficultyBeatmap});
   }
@@ -224,7 +224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetLeaderboardEntriesAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<OnlineServices::LeaderboardEntriesResult*>* (OnlineServices::ServerManager::*)(OnlineServices::GetLeaderboardFilterData, System::Threading::CancellationToken)>(&OnlineServices::ServerManager::GetLeaderboardEntriesAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* leaderboardFilterData = &::il2cpp_utils::GetClassFromName("OnlineServices", "GetLeaderboardFilterData")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::ServerManager*), "GetLeaderboardEntriesAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardFilterData, cancellationToken});
@@ -234,7 +234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: SendLevelScoreResult
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::ServerManager::*)(OnlineServices::LevelScoreResultsData)>(&OnlineServices::ServerManager::SendLevelScoreResult)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* levelScoreResultsData = &::il2cpp_utils::GetClassFromName("OnlineServices", "LevelScoreResultsData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::ServerManager*), "SendLevelScoreResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelScoreResultsData});
   }
@@ -243,7 +243,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Onlin
 // Il2CppName: <Init>b__12_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::ServerManager::*)(OnlineServices::PlatformServicesAvailabilityInfo*)>(&OnlineServices::ServerManager::$Init$b__12_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* availabilityInfo = &::il2cpp_utils::GetClassFromName("OnlineServices", "PlatformServicesAvailabilityInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::ServerManager*), "<Init>b__12_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{availabilityInfo});
   }
@@ -252,7 +252,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Onlin
 // Il2CppName: <Init>b__12_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::ServerManager::*)(::Il2CppString*)>(&OnlineServices::ServerManager::$Init$b__12_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* leaderboardId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::ServerManager*), "<Init>b__12_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardId});
   }

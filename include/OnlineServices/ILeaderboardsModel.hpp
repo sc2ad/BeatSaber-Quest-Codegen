@@ -62,7 +62,7 @@ DEFINE_IL2CPP_ARG_TYPE(OnlineServices::ILeaderboardsModel*, "OnlineServices", "I
 // Il2CppName: GetLeaderboardId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OnlineServices::ILeaderboardsModel::*)(GlobalNamespace::IDifficultyBeatmap*)>(&OnlineServices::ILeaderboardsModel::GetLeaderboardId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* difficultyBeatmap = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::ILeaderboardsModel*), "GetLeaderboardId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{difficultyBeatmap});
   }
@@ -71,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetLeaderboardEntriesAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<OnlineServices::GetLeaderboardEntriesResult>* (OnlineServices::ILeaderboardsModel::*)(OnlineServices::GetLeaderboardFilterData, System::Threading::CancellationToken)>(&OnlineServices::ILeaderboardsModel::GetLeaderboardEntriesAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* leaderboardFilterData = &::il2cpp_utils::GetClassFromName("OnlineServices", "GetLeaderboardFilterData")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::ILeaderboardsModel*), "GetLeaderboardEntriesAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardFilterData, cancellationToken});
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: SendLevelScoreResultAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<OnlineServices::SendLeaderboardEntryResult>* (OnlineServices::ILeaderboardsModel::*)(OnlineServices::LevelScoreResultsData, System::Threading::CancellationToken)>(&OnlineServices::ILeaderboardsModel::SendLevelScoreResultAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* levelScoreResultsData = &::il2cpp_utils::GetClassFromName("OnlineServices", "LevelScoreResultsData")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::ILeaderboardsModel*), "SendLevelScoreResultAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelScoreResultsData, cancellationToken});

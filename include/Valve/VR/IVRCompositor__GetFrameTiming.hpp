@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_GetFrameTiming*, "Valve.VR", "
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::IVRCompositor::_GetFrameTiming::*)(Valve::VR::Compositor_FrameTiming&, uint)>(&Valve::VR::IVRCompositor::_GetFrameTiming::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pTiming = &::il2cpp_utils::GetClassFromName("Valve.VR", "Compositor_FrameTiming")->this_arg;
     static auto* unFramesAgo = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_GetFrameTiming*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pTiming, unFramesAgo});
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRCompositor::_GetFrameTiming::*)(Valve::VR::Compositor_FrameTiming&, uint, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRCompositor::_GetFrameTiming::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pTiming = &::il2cpp_utils::GetClassFromName("Valve.VR", "Compositor_FrameTiming")->this_arg;
     static auto* unFramesAgo = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::IVRCompositor::_GetFrameTiming::*)(Valve::VR::Compositor_FrameTiming&, System::IAsyncResult*)>(&Valve::VR::IVRCompositor::_GetFrameTiming::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pTiming = &::il2cpp_utils::GetClassFromName("Valve.VR", "Compositor_FrameTiming")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_GetFrameTiming*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pTiming, result});

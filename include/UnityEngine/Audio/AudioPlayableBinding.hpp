@@ -46,7 +46,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioPlayableBinding*, "UnityEngine.A
 // Il2CppName: Create
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableBinding (*)(::Il2CppString*, UnityEngine::Object*)>(&UnityEngine::Audio::AudioPlayableBinding::Create)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioPlayableBinding*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, key});
@@ -56,7 +56,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: CreateAudioOutput
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableOutput (*)(UnityEngine::Playables::PlayableGraph, ::Il2CppString*)>(&UnityEngine::Audio::AudioPlayableBinding::CreateAudioOutput)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioPlayableBinding*), "CreateAudioOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{graph, name});

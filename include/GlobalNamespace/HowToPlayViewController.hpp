@@ -137,7 +137,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HowToPlayViewController::HowToPlayOption
 // Il2CppName: add_didFinishEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HowToPlayViewController::*)(System::Action_1<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>*)>(&GlobalNamespace::HowToPlayViewController::add_didFinishEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "HowToPlayViewController/HowToPlayOptions")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HowToPlayViewController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -146,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_didFinishEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HowToPlayViewController::*)(System::Action_1<GlobalNamespace::HowToPlayViewController::HowToPlayOptions>*)>(&GlobalNamespace::HowToPlayViewController::remove_didFinishEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "HowToPlayViewController/HowToPlayOptions")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HowToPlayViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -155,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Setup
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HowToPlayViewController::*)(bool)>(&GlobalNamespace::HowToPlayViewController::Setup)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* showTutorialButton = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HowToPlayViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{showTutorialButton});
   }
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <DidActivate>b__7_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HowToPlayViewController::*)()>(&GlobalNamespace::HowToPlayViewController::$DidActivate$b__7_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HowToPlayViewController*), "<DidActivate>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -172,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <DidActivate>b__7_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HowToPlayViewController::*)()>(&GlobalNamespace::HowToPlayViewController::$DidActivate$b__7_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HowToPlayViewController*), "<DidActivate>b__7_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -180,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: DidActivate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HowToPlayViewController::*)(bool, bool, bool)>(&GlobalNamespace::HowToPlayViewController::DidActivate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* firstActivation = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* addedToHierarchy = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* screenSystemEnabling = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

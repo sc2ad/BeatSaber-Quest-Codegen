@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SharedVertex::$$c*, "UnityEngine
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::ProBuilder::SharedVertex::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SharedVertex::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -71,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <SortedRemoveAndShift>b__26_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::SharedVertex::$$c::*)(System::Collections::Generic::KeyValuePair_2<int, int>)>(&UnityEngine::ProBuilder::SharedVertex::$$c::$SortedRemoveAndShift$b__26_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "KeyValuePair`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32"), ::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SharedVertex::$$c*), "<SortedRemoveAndShift>b__26_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }

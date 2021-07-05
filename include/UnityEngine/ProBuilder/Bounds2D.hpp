@@ -162,7 +162,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Bounds2D*, "UnityEngine.ProBuild
 // Il2CppName: get_size
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::ProBuilder::Bounds2D::*)()>(&UnityEngine::ProBuilder::Bounds2D::get_size)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Bounds2D*), "get_size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -170,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_size
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Bounds2D::*)(UnityEngine::Vector2)>(&UnityEngine::ProBuilder::Bounds2D::set_size)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Bounds2D*), "set_size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_extents
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::ProBuilder::Bounds2D::*)()>(&UnityEngine::ProBuilder::Bounds2D::get_extents)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Bounds2D*), "get_extents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_corners
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector2>* (UnityEngine::ProBuilder::Bounds2D::*)()>(&UnityEngine::ProBuilder::Bounds2D::get_corners)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Bounds2D*), "get_corners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -215,7 +215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: ContainsPoint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::Bounds2D::*)(UnityEngine::Vector2)>(&UnityEngine::ProBuilder::Bounds2D::ContainsPoint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* point = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Bounds2D*), "ContainsPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{point});
   }
@@ -224,7 +224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: IntersectsLineSegment
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::Bounds2D::*)(UnityEngine::Vector2, UnityEngine::Vector2)>(&UnityEngine::ProBuilder::Bounds2D::IntersectsLineSegment)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lineStart = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     static auto* lineEnd = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Bounds2D*), "IntersectsLineSegment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lineStart, lineEnd});
@@ -234,7 +234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: Intersects
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::Bounds2D::*)(UnityEngine::ProBuilder::Bounds2D*)>(&UnityEngine::ProBuilder::Bounds2D::Intersects)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bounds = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Bounds2D")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Bounds2D*), "Intersects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bounds});
   }
@@ -243,7 +243,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: Intersects
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::Bounds2D::*)(UnityEngine::Rect)>(&UnityEngine::ProBuilder::Bounds2D::Intersects)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Bounds2D*), "Intersects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rect});
   }
@@ -252,7 +252,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: SetWithPoints
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Bounds2D::*)(System::Collections::Generic::IList_1<UnityEngine::Vector2>*)>(&UnityEngine::ProBuilder::Bounds2D::SetWithPoints)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* points = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Bounds2D*), "SetWithPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{points});
   }
@@ -261,7 +261,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetWithPoints
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Bounds2D::*)(System::Collections::Generic::IList_1<UnityEngine::Vector2>*, System::Collections::Generic::IList_1<int>*)>(&UnityEngine::ProBuilder::Bounds2D::SetWithPoints)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* points = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
     static auto* indexes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Bounds2D*), "SetWithPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{points, indexes});
@@ -271,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Center
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(System::Collections::Generic::IList_1<UnityEngine::Vector2>*)>(&UnityEngine::ProBuilder::Bounds2D::Center)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* points = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Bounds2D*), "Center", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{points});
   }
@@ -280,7 +280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Center
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(System::Collections::Generic::IList_1<UnityEngine::Vector2>*, System::Collections::Generic::IList_1<int>*)>(&UnityEngine::ProBuilder::Bounds2D::Center)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* points = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
     static auto* indexes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Bounds2D*), "Center", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{points, indexes});
@@ -290,7 +290,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Size
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(System::Collections::Generic::IList_1<UnityEngine::Vector2>*, System::Collections::Generic::IList_1<int>*)>(&UnityEngine::ProBuilder::Bounds2D::Size)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* points = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
     static auto* indexes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Bounds2D*), "Size", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{points, indexes});
@@ -300,7 +300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Center
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(System::Collections::Generic::IList_1<UnityEngine::Vector4>*, System::Collections::Generic::IEnumerable_1<int>*)>(&UnityEngine::ProBuilder::Bounds2D::Center)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* points = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")})->byval_arg;
     static auto* indexes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Bounds2D*), "Center", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{points, indexes});
@@ -314,7 +314,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: ToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ProBuilder::Bounds2D::*)()>(&UnityEngine::ProBuilder::Bounds2D::ToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Bounds2D*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

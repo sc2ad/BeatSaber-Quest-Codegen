@@ -118,7 +118,7 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::ButtonSpriteSwap*, "HMUI", "ButtonSpriteSwap");
 // Il2CppName: Awake
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ButtonSpriteSwap::*)()>(&HMUI::ButtonSpriteSwap::Awake)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::ButtonSpriteSwap*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -126,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ButtonSpriteSwap::*)()>(&HMUI::ButtonSpriteSwap::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::ButtonSpriteSwap*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -134,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: OnEnable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ButtonSpriteSwap::*)()>(&HMUI::ButtonSpriteSwap::OnEnable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::ButtonSpriteSwap*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: OnDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ButtonSpriteSwap::*)()>(&HMUI::ButtonSpriteSwap::OnDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::ButtonSpriteSwap*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: HandleButtonSelectionStateDidChange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ButtonSpriteSwap::*)(HMUI::NoTransitionsButton::SelectionState)>(&HMUI::ButtonSpriteSwap::HandleButtonSelectionStateDidChange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* state = &::il2cpp_utils::GetClassFromName("HMUI", "NoTransitionsButton/SelectionState")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ButtonSpriteSwap*), "HandleButtonSelectionStateDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
   }

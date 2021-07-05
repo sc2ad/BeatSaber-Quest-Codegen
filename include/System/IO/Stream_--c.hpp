@@ -140,7 +140,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::$$c*, "System.IO", "Stream/<>c");
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::IO::Stream::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::Stream::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -148,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <EnsureAsyncActiveSemaphoreInitialized>b__4_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::SemaphoreSlim* (System::IO::Stream::$$c::*)()>(&System::IO::Stream::$$c::$EnsureAsyncActiveSemaphoreInitialized$b__4_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::Stream::$$c*), "<EnsureAsyncActiveSemaphoreInitialized>b__4_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: <BeginReadInternal>b__39_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::Stream::$$c::*)(::Il2CppObject*)>(&System::IO::Stream::$$c::$BeginReadInternal$b__39_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* $p0$ = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Stream::$$c*), "<BeginReadInternal>b__39_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{$p0$});
   }
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: <BeginEndReadAsync>b__43_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Stream::$$c::*)(System::IO::Stream*, System::IO::Stream::ReadWriteParameters, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Stream::$$c::$BeginEndReadAsync$b__43_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stream = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     static auto* args = &::il2cpp_utils::GetClassFromName("System.IO", "Stream/ReadWriteParameters")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: <BeginEndReadAsync>b__43_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::Stream::$$c::*)(System::IO::Stream*, System::IAsyncResult*)>(&System::IO::Stream::$$c::$BeginEndReadAsync$b__43_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stream = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     static auto* asyncResult = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Stream::$$c*), "<BeginEndReadAsync>b__43_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stream, asyncResult});
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: <BeginWriteInternal>b__46_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::Stream::$$c::*)(::Il2CppObject*)>(&System::IO::Stream::$$c::$BeginWriteInternal$b__46_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* $p0$ = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Stream::$$c*), "<BeginWriteInternal>b__46_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{$p0$});
   }
@@ -196,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: <RunReadWriteTaskWhenReady>b__47_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Stream::$$c::*)(System::Threading::Tasks::Task*, ::Il2CppObject*)>(&System::IO::Stream::$$c::$RunReadWriteTaskWhenReady$b__47_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Stream::$$c*), "<RunReadWriteTaskWhenReady>b__47_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t, state});
@@ -206,7 +206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: <BeginEndWriteAsync>b__53_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Stream::$$c::*)(System::IO::Stream*, System::IO::Stream::ReadWriteParameters, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Stream::$$c::$BeginEndWriteAsync$b__53_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stream = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     static auto* args = &::il2cpp_utils::GetClassFromName("System.IO", "Stream/ReadWriteParameters")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -218,7 +218,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: <BeginEndWriteAsync>b__53_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::VoidTaskResult (System::IO::Stream::$$c::*)(System::IO::Stream*, System::IAsyncResult*)>(&System::IO::Stream::$$c::$BeginEndWriteAsync$b__53_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stream = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     static auto* asyncResult = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Stream::$$c*), "<BeginEndWriteAsync>b__53_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stream, asyncResult});

@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::MediaTypeHeaderValue::$$c*, "
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Net::Http::Headers::MediaTypeHeaderValue::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::MediaTypeHeaderValue::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <get_CharSet>b__6_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::MediaTypeHeaderValue::$$c::*)(System::Net::Http::Headers::NameValueHeaderValue*)>(&System::Net::Http::Headers::MediaTypeHeaderValue::$$c::$get_CharSet$b__6_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* l = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "NameValueHeaderValue")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::MediaTypeHeaderValue::$$c*), "<get_CharSet>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{l});
   }

@@ -59,7 +59,7 @@ DEFINE_IL2CPP_ARG_TYPE(MasterServer::ConnectToMatchmakingServerRequest::V3*, "Ma
 // Il2CppName: Serialize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::ConnectToMatchmakingServerRequest::V3::*)(LiteNetLib::Utils::NetDataWriter*)>(&MasterServer::ConnectToMatchmakingServerRequest::V3::Serialize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataWriter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::ConnectToMatchmakingServerRequest::V3*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{writer});
   }
@@ -68,7 +68,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: Deserialize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::ConnectToMatchmakingServerRequest::V3::*)(LiteNetLib::Utils::NetDataReader*)>(&MasterServer::ConnectToMatchmakingServerRequest::V3::Deserialize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::ConnectToMatchmakingServerRequest::V3*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
   }

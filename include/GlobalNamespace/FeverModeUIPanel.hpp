@@ -98,7 +98,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FeverModeUIPanel*, "", "FeverModeUIPanel
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FeverModeUIPanel::*)()>(&GlobalNamespace::FeverModeUIPanel::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FeverModeUIPanel*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FeverModeUIPanel::*)()>(&GlobalNamespace::FeverModeUIPanel::OnDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FeverModeUIPanel*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -114,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Update
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FeverModeUIPanel::*)()>(&GlobalNamespace::FeverModeUIPanel::Update)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FeverModeUIPanel*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetProgress
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FeverModeUIPanel::*)(float)>(&GlobalNamespace::FeverModeUIPanel::SetProgress)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* progress = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FeverModeUIPanel*), "SetProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{progress});
   }
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleFeverModeDidStart
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FeverModeUIPanel::*)()>(&GlobalNamespace::FeverModeUIPanel::HandleFeverModeDidStart)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FeverModeUIPanel*), "HandleFeverModeDidStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleFeverModeDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FeverModeUIPanel::*)()>(&GlobalNamespace::FeverModeUIPanel::HandleFeverModeDidFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FeverModeUIPanel*), "HandleFeverModeDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleFeverModeChargeProgressDidChange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FeverModeUIPanel::*)(float)>(&GlobalNamespace::FeverModeUIPanel::HandleFeverModeChargeProgressDidChange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* progress = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FeverModeUIPanel*), "HandleFeverModeChargeProgressDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{progress});
   }

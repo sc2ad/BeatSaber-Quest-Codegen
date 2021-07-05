@@ -57,7 +57,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpRequestCreator*, "System.Net", "HttpRequ
 // Il2CppName: Create
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebRequest* (System::Net::HttpRequestCreator::*)(System::Uri*)>(&System::Net::HttpRequestCreator::Create)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpRequestCreator*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uri});
   }

@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::WithKernelDefaultParentScopeConcreteIdArgConditi
 // Il2CppName: WithKernel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::*)()>(&Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::WithKernel)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder*), "WithKernel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

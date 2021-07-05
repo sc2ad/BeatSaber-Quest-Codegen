@@ -88,7 +88,7 @@ DEFINE_IL2CPP_ARG_TYPE(ModestTree::Log*, "ModestTree", "Log");
 // Il2CppName: Debug
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&ModestTree::Log::Debug)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::Log*), "Debug", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message, args});
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: Info
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&ModestTree::Log::Info)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::Log*), "Info", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message, args});
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: Warn
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&ModestTree::Log::Warn)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::Log*), "Warn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message, args});
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: Trace
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&ModestTree::Log::Trace)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::Log*), "Trace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message, args});
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: ErrorException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Exception*)>(&ModestTree::Log::ErrorException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::Log*), "ErrorException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
   }
@@ -137,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: ErrorException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Exception*)>(&ModestTree::Log::ErrorException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* e = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::Log*), "ErrorException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message, e});
@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: Error
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&ModestTree::Log::Error)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::Log*), "Error", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message, args});

@@ -159,7 +159,7 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::IconSegmentedControl*, "HMUI", "IconSegmentedContro
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::IconSegmentedControl::*)()>(&HMUI::IconSegmentedControl::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::IconSegmentedControl*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -167,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: SetData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::IconSegmentedControl::*)(::Array<HMUI::IconSegmentedControl::DataItem*>*)>(&HMUI::IconSegmentedControl::SetData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* dataItems = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HMUI", "IconSegmentedControl/DataItem"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::IconSegmentedControl*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dataItems});
   }
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: NumberOfCells
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HMUI::IconSegmentedControl::*)()>(&HMUI::IconSegmentedControl::NumberOfCells)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::IconSegmentedControl*), "NumberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -184,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HMUI::
 // Il2CppName: CellForCellNumber
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::SegmentedControlCell* (HMUI::IconSegmentedControl::*)(int)>(&HMUI::IconSegmentedControl::CellForCellNumber)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cellNumber = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::IconSegmentedControl*), "CellForCellNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cellNumber});
   }
@@ -193,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::Segme
 // Il2CppName: InstantiateCell
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::IconSegmentedControlCell* (HMUI::IconSegmentedControl::*)(UnityEngine::Object*)>(&HMUI::IconSegmentedControl::InstantiateCell)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prefab = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::IconSegmentedControl*), "InstantiateCell", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prefab});
   }

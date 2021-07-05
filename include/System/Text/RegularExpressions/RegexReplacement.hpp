@@ -36,7 +36,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexReplacement*, "Sys
 // Il2CppName: Replace
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Text::RegularExpressions::MatchEvaluator*, System::Text::RegularExpressions::Regex*, ::Il2CppString*, int, int)>(&System::Text::RegularExpressions::RegexReplacement::Replace)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* evaluator = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "MatchEvaluator")->byval_arg;
     static auto* regex = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "Regex")->byval_arg;
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

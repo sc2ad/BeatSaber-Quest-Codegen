@@ -69,7 +69,7 @@ DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_WordInfo, "TMPro", "TMP_WordInfo");
 // Il2CppName: GetWord
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (TMPro::TMP_WordInfo::*)()>(&TMPro::TMP_WordInfo::GetWord)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_WordInfo), "GetWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

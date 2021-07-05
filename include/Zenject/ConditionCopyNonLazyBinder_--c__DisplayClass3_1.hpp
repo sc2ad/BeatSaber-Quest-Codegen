@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::ConditionCopyNonLazyBinder::$$c__DisplayClass3_1
 // Il2CppName: <WhenInjectedInto>b__1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::ConditionCopyNonLazyBinder::$$c__DisplayClass3_1::*)(System::Type*)>(&Zenject::ConditionCopyNonLazyBinder::$$c__DisplayClass3_1::$WhenInjectedInto$b__1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConditionCopyNonLazyBinder::$$c__DisplayClass3_1*), "<WhenInjectedInto>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }

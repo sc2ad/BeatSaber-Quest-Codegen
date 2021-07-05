@@ -106,7 +106,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerPrefixCollection*, "System.Net",
 // Il2CppName: get_Count
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::HttpListenerPrefixCollection::*)()>(&System::Net::HttpListenerPrefixCollection::get_Count)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerPrefixCollection*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -114,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: get_IsReadOnly
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpListenerPrefixCollection::*)()>(&System::Net::HttpListenerPrefixCollection::get_IsReadOnly)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerPrefixCollection*), "get_IsReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: Add
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerPrefixCollection::*)(::Il2CppString*)>(&System::Net::HttpListenerPrefixCollection::Add)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* uriPrefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerPrefixCollection*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uriPrefix});
   }
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Clear
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerPrefixCollection::*)()>(&System::Net::HttpListenerPrefixCollection::Clear)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerPrefixCollection*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Contains
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpListenerPrefixCollection::*)(::Il2CppString*)>(&System::Net::HttpListenerPrefixCollection::Contains)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* uriPrefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerPrefixCollection*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uriPrefix});
   }
@@ -148,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: CopyTo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerPrefixCollection::*)(::Array<::Il2CppString*>*, int)>(&System::Net::HttpListenerPrefixCollection::CopyTo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerPrefixCollection*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array, offset});
@@ -158,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: GetEnumerator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<::Il2CppString*>* (System::Net::HttpListenerPrefixCollection::*)()>(&System::Net::HttpListenerPrefixCollection::GetEnumerator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerPrefixCollection*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -166,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: System.Collections.IEnumerable.GetEnumerator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::Net::HttpListenerPrefixCollection::*)()>(&System::Net::HttpListenerPrefixCollection::System_Collections_IEnumerable_GetEnumerator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerPrefixCollection*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: Remove
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpListenerPrefixCollection::*)(::Il2CppString*)>(&System::Net::HttpListenerPrefixCollection::Remove)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* uriPrefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerPrefixCollection*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uriPrefix});
   }

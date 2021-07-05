@@ -213,7 +213,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerBinder*, "Zenject", "SubContainerBin
 // Il2CppName: set_SubFinalizer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SubContainerBinder::*)(Zenject::IBindingFinalizer*)>(&Zenject::SubContainerBinder::set_SubFinalizer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Zenject", "IBindingFinalizer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), "set_SubFinalizer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -222,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: ByInstance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::SubContainerBinder::*)(Zenject::DiContainer*)>(&Zenject::SubContainerBinder::ByInstance)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* subContainer = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), "ByInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{subContainer});
   }
@@ -231,7 +231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: ByInstanceGetter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::SubContainerBinder::*)(System::Func_2<Zenject::InjectContext*, Zenject::DiContainer*>*)>(&Zenject::SubContainerBinder::ByInstanceGetter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* subContainerGetter = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "InjectContext"), ::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), "ByInstanceGetter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{subContainerGetter});
   }
@@ -243,7 +243,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: ByInstaller
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::SubContainerBinder::*)(System::Type*)>(&Zenject::SubContainerBinder::ByInstaller)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* installerType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), "ByInstaller", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{installerType});
   }
@@ -252,7 +252,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Wi
 // Il2CppName: ByMethod
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::SubContainerBinder::*)(System::Action_1<Zenject::DiContainer*>*)>(&Zenject::SubContainerBinder::ByMethod)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* installerMethod = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), "ByMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{installerMethod});
   }
@@ -261,7 +261,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Wi
 // Il2CppName: ByNewGameObjectMethod
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::SubContainerBinder::*)(System::Action_1<Zenject::DiContainer*>*)>(&Zenject::SubContainerBinder::ByNewGameObjectMethod)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* installerMethod = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), "ByNewGameObjectMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{installerMethod});
   }
@@ -270,7 +270,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Na
 // Il2CppName: ByNewPrefabMethod
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::SubContainerBinder::*)(UnityEngine::Object*, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::SubContainerBinder::ByNewPrefabMethod)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prefab = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* installerMethod = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), "ByNewPrefabMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prefab, installerMethod});
@@ -283,7 +283,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Na
 // Il2CppName: ByNewGameObjectInstaller
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::SubContainerBinder::*)(System::Type*)>(&Zenject::SubContainerBinder::ByNewGameObjectInstaller)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* installerType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), "ByNewGameObjectInstaller", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{installerType});
   }
@@ -295,7 +295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Na
 // Il2CppName: ByNewPrefabInstaller
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::SubContainerBinder::*)(UnityEngine::Object*, System::Type*)>(&Zenject::SubContainerBinder::ByNewPrefabInstaller)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prefab = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* installerType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), "ByNewPrefabInstaller", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prefab, installerType});
@@ -305,7 +305,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Na
 // Il2CppName: ByNewPrefabResourceMethod
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::SubContainerBinder::*)(::Il2CppString*, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::SubContainerBinder::ByNewPrefabResourceMethod)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* installerMethod = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), "ByNewPrefabResourceMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resourcePath, installerMethod});
@@ -318,7 +318,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Na
 // Il2CppName: ByNewPrefabResourceInstaller
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::SubContainerBinder::*)(::Il2CppString*, System::Type*)>(&Zenject::SubContainerBinder::ByNewPrefabResourceInstaller)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* installerType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), "ByNewPrefabResourceInstaller", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resourcePath, installerType});
@@ -328,7 +328,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Na
 // Il2CppName: ByNewPrefab
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::SubContainerBinder::*)(UnityEngine::Object*)>(&Zenject::SubContainerBinder::ByNewPrefab)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prefab = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), "ByNewPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prefab});
   }
@@ -337,7 +337,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Na
 // Il2CppName: ByNewContextPrefab
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::SubContainerBinder::*)(UnityEngine::Object*)>(&Zenject::SubContainerBinder::ByNewContextPrefab)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prefab = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), "ByNewContextPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prefab});
   }
@@ -346,7 +346,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Na
 // Il2CppName: ByNewPrefabResource
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::SubContainerBinder::*)(::Il2CppString*)>(&Zenject::SubContainerBinder::ByNewPrefabResource)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), "ByNewPrefabResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resourcePath});
   }
@@ -355,7 +355,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Na
 // Il2CppName: ByNewContextPrefabResource
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::SubContainerBinder::*)(::Il2CppString*)>(&Zenject::SubContainerBinder::ByNewContextPrefabResource)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder*), "ByNewContextPrefabResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resourcePath});
   }

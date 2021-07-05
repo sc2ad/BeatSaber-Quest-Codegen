@@ -95,7 +95,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServersFilterText*, "", "GameServers
 // Il2CppName: Setup
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServersFilterText::*)(GlobalNamespace::GameServersFilter*)>(&GlobalNamespace::GameServersFilterText::Setup)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* filter = &::il2cpp_utils::GetClassFromName("", "GameServersFilter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServersFilterText*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filter});
   }
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Setup
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServersFilterText::*)(GlobalNamespace::BeatmapDifficultyMask, GlobalNamespace::SongPackMask)>(&GlobalNamespace::GameServersFilterText::Setup)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmapDifficultyMask = &::il2cpp_utils::GetClassFromName("", "BeatmapDifficultyMask")->byval_arg;
     static auto* songPackMask = &::il2cpp_utils::GetClassFromName("", "SongPackMask")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServersFilterText*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapDifficultyMask, songPackMask});

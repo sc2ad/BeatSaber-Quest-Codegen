@@ -117,7 +117,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolver::Bone*, "RootMotion.FinalIK
 // Il2CppName: get_rotationLimit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::RotationLimit* (RootMotion::FinalIK::IKSolver::Bone::*)()>(&RootMotion::FinalIK::IKSolver::Bone::get_rotationLimit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolver::Bone*), "get_rotationLimit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion:
 // Il2CppName: set_rotationLimit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolver::Bone::*)(RootMotion::FinalIK::RotationLimit*)>(&RootMotion::FinalIK::IKSolver::Bone::set_rotationLimit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "RotationLimit")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolver::Bone*), "set_rotationLimit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -134,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: Swing
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolver::Bone::*)(UnityEngine::Vector3, float)>(&RootMotion::FinalIK::IKSolver::Bone::Swing)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* swingTarget = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolver::Bone*), "Swing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{swingTarget, weight});
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: SolverSwing
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<RootMotion::FinalIK::IKSolver::Bone*>*, int, UnityEngine::Vector3, float)>(&RootMotion::FinalIK::IKSolver::Bone::SolverSwing)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bones = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolver/Bone"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* swingTarget = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: Swing2D
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolver::Bone::*)(UnityEngine::Vector3, float)>(&RootMotion::FinalIK::IKSolver::Bone::Swing2D)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* swingTarget = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolver::Bone*), "Swing2D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{swingTarget, weight});
@@ -166,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: SetToSolverPosition
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolver::Bone::*)()>(&RootMotion::FinalIK::IKSolver::Bone::SetToSolverPosition)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolver::Bone*), "SetToSolverPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

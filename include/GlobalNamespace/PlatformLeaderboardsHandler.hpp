@@ -53,7 +53,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsHandler*, "", "Platf
 // Il2CppName: GetScores
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::HMAsyncRequest* (GlobalNamespace::PlatformLeaderboardsHandler::*)(GlobalNamespace::IDifficultyBeatmap*, int, int, GlobalNamespace::PlatformLeaderboardsModel::ScoresScope, ::Il2CppString*, GlobalNamespace::PlatformLeaderboardsModel::GetScoresCompletionHandler*)>(&GlobalNamespace::PlatformLeaderboardsHandler::GetScores)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmap = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* fromRank = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -67,7 +67,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: UploadScore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::HMAsyncRequest* (GlobalNamespace::PlatformLeaderboardsHandler::*)(GlobalNamespace::LeaderboardScoreUploader::ScoreData*, GlobalNamespace::PlatformLeaderboardsModel::UploadScoreCompletionHandler*)>(&GlobalNamespace::PlatformLeaderboardsHandler::UploadScore)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* scoreData = &::il2cpp_utils::GetClassFromName("", "LeaderboardScoreUploader/ScoreData")->byval_arg;
     static auto* completionHandler = &::il2cpp_utils::GetClassFromName("", "PlatformLeaderboardsModel/UploadScoreCompletionHandler")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformLeaderboardsHandler*), "UploadScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scoreData, completionHandler});

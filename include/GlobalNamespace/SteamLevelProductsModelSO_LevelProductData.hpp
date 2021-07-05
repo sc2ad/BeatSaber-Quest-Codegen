@@ -60,7 +60,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamLevelProductsModelSO::LevelProductD
 // Il2CppName: get_appId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (GlobalNamespace::SteamLevelProductsModelSO::LevelProductData::*)()>(&GlobalNamespace::SteamLevelProductsModelSO::LevelProductData::get_appId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*), "get_appId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -68,7 +68,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Globa
 // Il2CppName: get_levelId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SteamLevelProductsModelSO::LevelProductData::*)()>(&GlobalNamespace::SteamLevelProductsModelSO::LevelProductData::get_levelId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamLevelProductsModelSO::LevelProductData*), "get_levelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -94,7 +94,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRNativeBuffer*, "", "OVRNativeBuffer")
 // Il2CppName: Reset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNativeBuffer::*)(int)>(&GlobalNamespace::OVRNativeBuffer::Reset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* numBytes = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNativeBuffer*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{numBytes});
   }
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: GetCapacity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::OVRNativeBuffer::*)()>(&GlobalNamespace::OVRNativeBuffer::GetCapacity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNativeBuffer*), "GetCapacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -111,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: GetPointer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (GlobalNamespace::OVRNativeBuffer::*)(int)>(&GlobalNamespace::OVRNativeBuffer::GetPointer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* byteOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNativeBuffer*), "GetPointer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{byteOffset});
   }
@@ -120,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNativeBuffer::*)()>(&GlobalNamespace::OVRNativeBuffer::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNativeBuffer*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNativeBuffer::*)(bool)>(&GlobalNamespace::OVRNativeBuffer::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* disposing = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNativeBuffer*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{disposing});
   }
@@ -137,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Reallocate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNativeBuffer::*)(int)>(&GlobalNamespace::OVRNativeBuffer::Reallocate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* numBytes = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNativeBuffer*), "Reallocate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{numBytes});
   }
@@ -146,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Release
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNativeBuffer::*)()>(&GlobalNamespace::OVRNativeBuffer::Release)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNativeBuffer*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Finalize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNativeBuffer::*)()>(&GlobalNamespace::OVRNativeBuffer::Finalize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNativeBuffer*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

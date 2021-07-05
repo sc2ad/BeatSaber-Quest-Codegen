@@ -36,7 +36,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::X509NameEntryConverter*, "
 // Il2CppName: GetConvertedValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Org::BouncyCastle::Asn1::X509::X509NameEntryConverter::*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Il2CppString*)>(&Org::BouncyCastle::Asn1::X509::X509NameEntryConverter::GetConvertedValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* oid = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "DerObjectIdentifier")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::X509NameEntryConverter*), "GetConvertedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{oid, value});

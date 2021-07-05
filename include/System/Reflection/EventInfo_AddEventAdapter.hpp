@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Reflection::EventInfo::AddEventAdapter*, "System.
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::EventInfo::AddEventAdapter::*)(::Il2CppObject*, System::Delegate*)>(&System::Reflection::EventInfo::AddEventAdapter::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* _this = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* dele = &::il2cpp_utils::GetClassFromName("System", "Delegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::EventInfo::AddEventAdapter*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_this, dele});
@@ -71,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Reflection::EventInfo::AddEventAdapter::*)(::Il2CppObject*, System::Delegate*, System::AsyncCallback*, ::Il2CppObject*)>(&System::Reflection::EventInfo::AddEventAdapter::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* _this = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* dele = &::il2cpp_utils::GetClassFromName("System", "Delegate")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::EventInfo::AddEventAdapter::*)(System::IAsyncResult*)>(&System::Reflection::EventInfo::AddEventAdapter::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::EventInfo::AddEventAdapter*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

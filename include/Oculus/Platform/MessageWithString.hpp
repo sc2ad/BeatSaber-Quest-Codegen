@@ -45,7 +45,7 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithString*, "Oculus.Platform", 
 // Il2CppName: GetDataFromMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Oculus::Platform::MessageWithString::*)(System::IntPtr)>(&Oculus::Platform::MessageWithString::GetDataFromMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c_message = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithString*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c_message});
   }
@@ -58,7 +58,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Oculus::Platform::MessageWithString::*)()>(&Oculus::Platform::MessageWithString::GetString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithString*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

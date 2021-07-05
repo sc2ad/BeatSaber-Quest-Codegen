@@ -90,7 +90,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIStyleState*, "UnityEngine", "GUIStyleStat
 // Il2CppName: set_textColor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyleState::*)(UnityEngine::Color)>(&UnityEngine::GUIStyleState::set_textColor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyleState*), "set_textColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&UnityEngine::GUIStyleState::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyleState*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: Cleanup
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyleState::*)()>(&UnityEngine::GUIStyleState::Cleanup)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyleState*), "Cleanup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetGUIStyleState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyleState* (*)(UnityEngine::GUIStyle*, System::IntPtr)>(&UnityEngine::GUIStyleState::GetGUIStyleState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sourceStyle = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     static auto* source = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyleState*), "GetGUIStyleState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourceStyle, source});
@@ -129,7 +129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_textColor_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyleState::*)(UnityEngine::Color&)>(&UnityEngine::GUIStyleState::set_textColor_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyleState*), "set_textColor_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Finalize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyleState::*)()>(&UnityEngine::GUIStyleState::Finalize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyleState*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

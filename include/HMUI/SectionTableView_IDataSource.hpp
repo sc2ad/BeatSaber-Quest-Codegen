@@ -47,7 +47,7 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::SectionTableView::IDataSource*, "HMUI", "SectionTab
 // Il2CppName: RowHeight
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::SectionTableView::IDataSource::*)()>(&HMUI::SectionTableView::IDataSource::RowHeight)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::SectionTableView::IDataSource*), "RowHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -55,7 +55,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI
 // Il2CppName: NumberOfSections
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HMUI::SectionTableView::IDataSource::*)()>(&HMUI::SectionTableView::IDataSource::NumberOfSections)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::SectionTableView::IDataSource*), "NumberOfSections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -63,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HMUI::
 // Il2CppName: NumberOfRowsInSection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HMUI::SectionTableView::IDataSource::*)(int)>(&HMUI::SectionTableView::IDataSource::NumberOfRowsInSection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* section = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::SectionTableView::IDataSource*), "NumberOfRowsInSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{section});
   }
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HMUI::
 // Il2CppName: CellForSectionHeader
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (HMUI::SectionTableView::IDataSource::*)(int, bool)>(&HMUI::SectionTableView::IDataSource::CellForSectionHeader)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* section = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* unfolded = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::SectionTableView::IDataSource*), "CellForSectionHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{section, unfolded});
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::Table
 // Il2CppName: CellForRowInSection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (HMUI::SectionTableView::IDataSource::*)(int, int)>(&HMUI::SectionTableView::IDataSource::CellForRowInSection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* section = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* row = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::SectionTableView::IDataSource*), "CellForRowInSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{section, row});

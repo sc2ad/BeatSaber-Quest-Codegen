@@ -157,7 +157,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayerTableCell*, "", "NetworkPla
 // Il2CppName: get_showSeparator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::NetworkPlayerTableCell::*)()>(&GlobalNamespace::NetworkPlayerTableCell::get_showSeparator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayerTableCell*), "get_showSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: set_showSeparator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetworkPlayerTableCell::*)(bool)>(&GlobalNamespace::NetworkPlayerTableCell::set_showSeparator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayerTableCell*), "set_showSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetworkPlayerTableCell::*)(::Il2CppString*, bool, bool, bool, bool)>(&GlobalNamespace::NetworkPlayerTableCell::SetData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* userName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* isOpenParty = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* wantsToPlayNextLevel = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: RefreshVisuals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetworkPlayerTableCell::*)()>(&GlobalNamespace::NetworkPlayerTableCell::RefreshVisuals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayerTableCell*), "RefreshVisuals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -195,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_activeColor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::NetworkPlayerTableCell::*)()>(&GlobalNamespace::NetworkPlayerTableCell::get_activeColor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayerTableCell*), "get_activeColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -203,7 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: SelectionDidChange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetworkPlayerTableCell::*)(HMUI::SelectableCell::TransitionType)>(&GlobalNamespace::NetworkPlayerTableCell::SelectionDidChange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* transitionType = &::il2cpp_utils::GetClassFromName("HMUI", "SelectableCell/TransitionType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayerTableCell*), "SelectionDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transitionType});
   }
@@ -212,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HighlightDidChange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetworkPlayerTableCell::*)(HMUI::SelectableCell::TransitionType)>(&GlobalNamespace::NetworkPlayerTableCell::HighlightDidChange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* transitionType = &::il2cpp_utils::GetClassFromName("HMUI", "SelectableCell/TransitionType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayerTableCell*), "HighlightDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transitionType});
   }

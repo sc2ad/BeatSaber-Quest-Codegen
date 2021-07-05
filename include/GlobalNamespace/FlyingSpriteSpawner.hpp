@@ -134,7 +134,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingSpriteSpawner*, "", "FlyingSpriteS
 // Il2CppName: SpawnFlyingSprite
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingSpriteSpawner::*)(UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Quaternion)>(&GlobalNamespace::FlyingSpriteSpawner::SpawnFlyingSprite)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* inverseRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -145,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleFlyingObjectEffectDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingSpriteSpawner::*)(GlobalNamespace::FlyingObjectEffect*)>(&GlobalNamespace::FlyingSpriteSpawner::HandleFlyingObjectEffectDidFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* flyingObjectEffect = &::il2cpp_utils::GetClassFromName("", "FlyingObjectEffect")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingSpriteSpawner*), "HandleFlyingObjectEffectDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flyingObjectEffect});
   }

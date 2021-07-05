@@ -115,7 +115,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::DHDomainParameters*, "Org.Bo
 // Il2CppName: GetInstance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::DHDomainParameters* (*)(::Il2CppObject*)>(&Org::BouncyCastle::Asn1::X9::DHDomainParameters::GetInstance)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X9::DHDomainParameters*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: GetNext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Encodable* (*)(System::Collections::IEnumerator*)>(&Org::BouncyCastle::Asn1::X9::DHDomainParameters::GetNext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerator")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X9::DHDomainParameters*), "GetNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
   }
@@ -137,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: get_P
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerInteger* (Org::BouncyCastle::Asn1::X9::DHDomainParameters::*)()>(&Org::BouncyCastle::Asn1::X9::DHDomainParameters::get_P)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X9::DHDomainParameters*), "get_P", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -145,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: get_G
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerInteger* (Org::BouncyCastle::Asn1::X9::DHDomainParameters::*)()>(&Org::BouncyCastle::Asn1::X9::DHDomainParameters::get_G)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X9::DHDomainParameters*), "get_G", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: get_Q
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerInteger* (Org::BouncyCastle::Asn1::X9::DHDomainParameters::*)()>(&Org::BouncyCastle::Asn1::X9::DHDomainParameters::get_Q)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X9::DHDomainParameters*), "get_Q", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: get_J
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerInteger* (Org::BouncyCastle::Asn1::X9::DHDomainParameters::*)()>(&Org::BouncyCastle::Asn1::X9::DHDomainParameters::get_J)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X9::DHDomainParameters*), "get_J", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: get_ValidationParms
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X9::DHValidationParms* (Org::BouncyCastle::Asn1::X9::DHDomainParameters::*)()>(&Org::BouncyCastle::Asn1::X9::DHDomainParameters::get_ValidationParms)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X9::DHDomainParameters*), "get_ValidationParms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: ToAsn1Object
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Org::BouncyCastle::Asn1::X9::DHDomainParameters::*)()>(&Org::BouncyCastle::Asn1::X9::DHDomainParameters::ToAsn1Object)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X9::DHDomainParameters*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

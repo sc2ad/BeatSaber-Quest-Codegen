@@ -193,7 +193,7 @@ DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_MeshInfo, "TMPro", "TMP_MeshInfo");
 // Il2CppName: ResizeMeshInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_MeshInfo::*)(int)>(&TMPro::TMP_MeshInfo::ResizeMeshInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MeshInfo), "ResizeMeshInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{size});
   }
@@ -202,7 +202,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: ResizeMeshInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_MeshInfo::*)(int, bool)>(&TMPro::TMP_MeshInfo::ResizeMeshInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* isVolumetric = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MeshInfo), "ResizeMeshInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{size, isVolumetric});
@@ -212,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: Clear
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_MeshInfo::*)()>(&TMPro::TMP_MeshInfo::Clear)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MeshInfo), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -220,7 +220,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: Clear
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_MeshInfo::*)(bool)>(&TMPro::TMP_MeshInfo::Clear)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* uploadChanges = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MeshInfo), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uploadChanges});
   }
@@ -229,7 +229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: ClearUnusedVertices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_MeshInfo::*)()>(&TMPro::TMP_MeshInfo::ClearUnusedVertices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MeshInfo), "ClearUnusedVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -237,7 +237,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: ClearUnusedVertices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_MeshInfo::*)(int)>(&TMPro::TMP_MeshInfo::ClearUnusedVertices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MeshInfo), "ClearUnusedVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{startIndex});
   }
@@ -246,7 +246,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: ClearUnusedVertices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_MeshInfo::*)(int, bool)>(&TMPro::TMP_MeshInfo::ClearUnusedVertices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* updateMesh = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MeshInfo), "ClearUnusedVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{startIndex, updateMesh});
@@ -256,7 +256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: SortGeometry
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_MeshInfo::*)(TMPro::VertexSortingOrder)>(&TMPro::TMP_MeshInfo::SortGeometry)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* order = &::il2cpp_utils::GetClassFromName("TMPro", "VertexSortingOrder")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MeshInfo), "SortGeometry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{order});
   }
@@ -265,7 +265,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: SortGeometry
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_MeshInfo::*)(System::Collections::Generic::IList_1<int>*)>(&TMPro::TMP_MeshInfo::SortGeometry)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sortingOrder = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MeshInfo), "SortGeometry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sortingOrder});
   }
@@ -274,7 +274,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: SwapVertexData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_MeshInfo::*)(int, int)>(&TMPro::TMP_MeshInfo::SwapVertexData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* src = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* dst = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MeshInfo), "SwapVertexData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src, dst});
@@ -284,7 +284,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TMPro::TMP_MeshInfo::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MeshInfo), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

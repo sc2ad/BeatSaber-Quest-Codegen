@@ -26,7 +26,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ITimelineEvaluateCallback*, "Unity
 // Il2CppName: Evaluate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ITimelineEvaluateCallback::*)()>(&UnityEngine::Timeline::ITimelineEvaluateCallback::Evaluate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ITimelineEvaluateCallback*), "Evaluate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

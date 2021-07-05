@@ -53,7 +53,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::PathConstraint*, "NUnit.Fr
 // Il2CppName: Canonicalize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Constraints::PathConstraint::*)(::Il2CppString*)>(&NUnit::Framework::Constraints::PathConstraint::Canonicalize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::PathConstraint*), "Canonicalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
   }
@@ -62,7 +62,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NUnit::Framework::Constraints::PathConstraint::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::PathConstraint*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: GetStringRepresentation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Constraints::PathConstraint::*)()>(&NUnit::Framework::Constraints::PathConstraint::GetStringRepresentation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::PathConstraint*), "GetStringRepresentation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

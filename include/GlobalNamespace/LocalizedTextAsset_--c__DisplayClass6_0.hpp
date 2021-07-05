@@ -56,7 +56,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedTextAsset::$$c__DisplayClass6_0
 // Il2CppName: <get_localizedText>b__1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LocalizedTextAsset::$$c__DisplayClass6_0::*)(GlobalNamespace::LocalizedTextAsset::TextInfo*)>(&GlobalNamespace::LocalizedTextAsset::$$c__DisplayClass6_0::$get_localizedText$b__1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("", "LocalizedTextAsset/TextInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalizedTextAsset::$$c__DisplayClass6_0*), "<get_localizedText>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }

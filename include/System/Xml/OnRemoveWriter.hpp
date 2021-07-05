@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Xml::OnRemoveWriter*, "System.Xml", "OnRemoveWrit
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::OnRemoveWriter::*)(System::Xml::XmlRawWriter*)>(&System::Xml::OnRemoveWriter::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlRawWriter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::OnRemoveWriter*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{writer});
   }
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Xml::OnRemoveWriter::*)(System::Xml::XmlRawWriter*, System::AsyncCallback*, ::Il2CppObject*)>(&System::Xml::OnRemoveWriter::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlRawWriter")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::OnRemoveWriter::*)(System::IAsyncResult*)>(&System::Xml::OnRemoveWriter::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::OnRemoveWriter*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

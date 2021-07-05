@@ -62,7 +62,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::TransformUtility*, "UnityEngine.
 // Il2CppName: UnparentChildren
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*)>(&UnityEngine::ProBuilder::TransformUtility::UnparentChildren)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::TransformUtility*), "UnparentChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
@@ -71,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: ReparentChildren
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*)>(&UnityEngine::ProBuilder::TransformUtility::ReparentChildren)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::TransformUtility*), "ReparentChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: TransformVertex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Vertex* (*)(UnityEngine::Transform*, UnityEngine::ProBuilder::Vertex*)>(&UnityEngine::ProBuilder::TransformUtility::TransformVertex)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* vertex = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Vertex")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::TransformUtility*), "TransformVertex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transform, vertex});
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InverseTransformVertex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Vertex* (*)(UnityEngine::Transform*, UnityEngine::ProBuilder::Vertex*)>(&UnityEngine::ProBuilder::TransformUtility::InverseTransformVertex)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* vertex = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Vertex")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::TransformUtility*), "InverseTransformVertex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transform, vertex});
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::ProBuilder::TransformUtility::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::TransformUtility*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

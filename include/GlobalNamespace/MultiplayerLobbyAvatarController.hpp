@@ -134,7 +134,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyAvatarController*, "", "
 // Il2CppName: ShowSpawnAnimation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyAvatarController::*)(UnityEngine::Vector3, UnityEngine::Quaternion)>(&GlobalNamespace::MultiplayerLobbyAvatarController::ShowSpawnAnimation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyAvatarController*), "ShowSpawnAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, rotation});
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SpawnAnimationCoroutine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::MultiplayerLobbyAvatarController::*)()>(&GlobalNamespace::MultiplayerLobbyAvatarController::SpawnAnimationCoroutine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyAvatarController*), "SpawnAnimationCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -152,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: ActivateVisualObjects
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyAvatarController::*)(bool)>(&GlobalNamespace::MultiplayerLobbyAvatarController::ActivateVisualObjects)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* on = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyAvatarController*), "ActivateVisualObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{on});
   }
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ShowDespawnAnimationAndDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::MultiplayerLobbyAvatarController::*)()>(&GlobalNamespace::MultiplayerLobbyAvatarController::ShowDespawnAnimationAndDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyAvatarController*), "ShowDespawnAnimationAndDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: DestroySelf
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyAvatarController::*)()>(&GlobalNamespace::MultiplayerLobbyAvatarController::DestroySelf)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyAvatarController*), "DestroySelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: DespawnAnimationCoroutine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::MultiplayerLobbyAvatarController::*)()>(&GlobalNamespace::MultiplayerLobbyAvatarController::DespawnAnimationCoroutine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyAvatarController*), "DespawnAnimationCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

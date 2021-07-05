@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRExtendedDisplay::_GetWindowBounds*, "OVR.
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRExtendedDisplay::_GetWindowBounds::*)(int&, int&, uint&, uint&)>(&OVR::OpenVR::IVRExtendedDisplay::_GetWindowBounds::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pnX = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* pnY = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* pnWidth = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
@@ -73,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRExtendedDisplay::_GetWindowBounds::*)(int&, int&, uint&, uint&, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRExtendedDisplay::_GetWindowBounds::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pnX = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* pnY = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* pnWidth = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRExtendedDisplay::_GetWindowBounds::*)(int&, int&, uint&, uint&, System::IAsyncResult*)>(&OVR::OpenVR::IVRExtendedDisplay::_GetWindowBounds::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pnX = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* pnY = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* pnWidth = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;

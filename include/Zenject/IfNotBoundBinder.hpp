@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::IfNotBoundBinder*, "Zenject", "IfNotBoundBinder"
 // Il2CppName: get_BindInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindInfo* (Zenject::IfNotBoundBinder::*)()>(&Zenject::IfNotBoundBinder::get_BindInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::IfNotBoundBinder*), "get_BindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Bi
 // Il2CppName: set_BindInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::IfNotBoundBinder::*)(Zenject::BindInfo*)>(&Zenject::IfNotBoundBinder::set_BindInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Zenject", "BindInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::IfNotBoundBinder*), "set_BindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: IfNotBound
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::IfNotBoundBinder::*)()>(&Zenject::IfNotBoundBinder::IfNotBound)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::IfNotBoundBinder*), "IfNotBound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

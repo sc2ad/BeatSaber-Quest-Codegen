@@ -70,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::IO::WaitForChangedResult, "System.IO", "WaitForCh
 // Il2CppName: set_ChangeType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::WaitForChangedResult::*)(System::IO::WatcherChangeTypes)>(&System::IO::WaitForChangedResult::set_ChangeType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.IO", "WatcherChangeTypes")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::WaitForChangedResult), "set_ChangeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: set_Name
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::WaitForChangedResult::*)(::Il2CppString*)>(&System::IO::WaitForChangedResult::set_Name)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::WaitForChangedResult), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: set_OldName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::WaitForChangedResult::*)(::Il2CppString*)>(&System::IO::WaitForChangedResult::set_OldName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::WaitForChangedResult), "set_OldName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

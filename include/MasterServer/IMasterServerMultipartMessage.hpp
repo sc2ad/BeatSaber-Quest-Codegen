@@ -49,7 +49,7 @@ DEFINE_IL2CPP_ARG_TYPE(MasterServer::IMasterServerMultipartMessage*, "MasterServ
 // Il2CppName: get_multipartMessageId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (MasterServer::IMasterServerMultipartMessage::*)()>(&MasterServer::IMasterServerMultipartMessage::get_multipartMessageId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IMasterServerMultipartMessage*), "get_multipartMessageId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -57,7 +57,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Maste
 // Il2CppName: get_offset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MasterServer::IMasterServerMultipartMessage::*)()>(&MasterServer::IMasterServerMultipartMessage::get_offset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IMasterServerMultipartMessage*), "get_offset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Master
 // Il2CppName: get_length
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MasterServer::IMasterServerMultipartMessage::*)()>(&MasterServer::IMasterServerMultipartMessage::get_length)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IMasterServerMultipartMessage*), "get_length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -73,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Master
 // Il2CppName: get_totalLength
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (MasterServer::IMasterServerMultipartMessage::*)()>(&MasterServer::IMasterServerMultipartMessage::get_totalLength)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IMasterServerMultipartMessage*), "get_totalLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Master
 // Il2CppName: get_data
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (MasterServer::IMasterServerMultipartMessage::*)()>(&MasterServer::IMasterServerMultipartMessage::get_data)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IMasterServerMultipartMessage*), "get_data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -69,7 +69,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FindUnityObjectsHelper*, "", "FindUnityO
 // Il2CppName: GetMonoBehavioursInLoadedScenes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>* (*)()>(&GlobalNamespace::FindUnityObjectsHelper::GetMonoBehavioursInLoadedScenes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FindUnityObjectsHelper*), "GetMonoBehavioursInLoadedScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: GetAllRootGameObjectsInLoadedScenes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::GameObject*>* (*)()>(&GlobalNamespace::FindUnityObjectsHelper::GetAllRootGameObjectsInLoadedScenes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FindUnityObjectsHelper*), "GetAllRootGameObjectsInLoadedScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: GetAllGameObjectsInGameObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::GameObject*>* (*)(UnityEngine::GameObject*)>(&GlobalNamespace::FindUnityObjectsHelper::GetAllGameObjectsInGameObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FindUnityObjectsHelper*), "GetAllGameObjectsInGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{go});
   }
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: GetAllGameObjectsInLoadedScenes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::GameObject*>* (*)()>(&GlobalNamespace::FindUnityObjectsHelper::GetAllGameObjectsInLoadedScenes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FindUnityObjectsHelper*), "GetAllGameObjectsInLoadedScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

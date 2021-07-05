@@ -80,7 +80,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorManager*, "", "ColorManager");
 // Il2CppName: get_obstaclesColor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::ColorManager::*)()>(&GlobalNamespace::ColorManager::get_obstaclesColor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorManager*), "get_obstaclesColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: ColorForType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::ColorManager::*)(GlobalNamespace::ColorType)>(&GlobalNamespace::ColorManager::ColorForType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("", "ColorType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorManager*), "ColorForType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: ColorForSaberType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::ColorManager::*)(GlobalNamespace::SaberType)>(&GlobalNamespace::ColorManager::ColorForSaberType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("", "SaberType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorManager*), "ColorForSaberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: EffectsColorForSaberType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::ColorManager::*)(GlobalNamespace::SaberType)>(&GlobalNamespace::ColorManager::EffectsColorForSaberType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("", "SaberType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorManager*), "EffectsColorForSaberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetObstacleEffectColor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::ColorManager::*)()>(&GlobalNamespace::ColorManager::GetObstacleEffectColor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorManager*), "GetObstacleEffectColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

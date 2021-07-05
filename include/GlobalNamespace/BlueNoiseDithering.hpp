@@ -76,7 +76,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlueNoiseDithering*, "", "BlueNoiseDithe
 // Il2CppName: SetBlueNoiseShaderParams
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BlueNoiseDithering::*)(int, int)>(&GlobalNamespace::BlueNoiseDithering::SetBlueNoiseShaderParams)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cameraPixelWidth = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* cameraPixelHeight = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlueNoiseDithering*), "SetBlueNoiseShaderParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cameraPixelWidth, cameraPixelHeight});
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::BlueNoiseDithering::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlueNoiseDithering*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

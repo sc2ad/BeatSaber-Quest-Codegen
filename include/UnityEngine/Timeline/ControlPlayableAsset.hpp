@@ -310,7 +310,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ControlPlayableAsset*, "UnityEngin
 // Il2CppName: get_controllingDirectors
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::ControlPlayableAsset::*)()>(&UnityEngine::Timeline::ControlPlayableAsset::get_controllingDirectors)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "get_controllingDirectors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -318,7 +318,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: set_controllingDirectors
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ControlPlayableAsset::*)(bool)>(&UnityEngine::Timeline::ControlPlayableAsset::set_controllingDirectors)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "set_controllingDirectors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -327,7 +327,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_controllingParticles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::ControlPlayableAsset::*)()>(&UnityEngine::Timeline::ControlPlayableAsset::get_controllingParticles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "get_controllingParticles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -335,7 +335,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: set_controllingParticles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ControlPlayableAsset::*)(bool)>(&UnityEngine::Timeline::ControlPlayableAsset::set_controllingParticles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "set_controllingParticles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -344,7 +344,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: OnEnable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ControlPlayableAsset::*)()>(&UnityEngine::Timeline::ControlPlayableAsset::OnEnable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -352,7 +352,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_clipCaps
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::ClipCaps (UnityEngine::Timeline::ControlPlayableAsset::*)()>(&UnityEngine::Timeline::ControlPlayableAsset::get_clipCaps)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "get_clipCaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -360,7 +360,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: ConnectPlayablesToMixer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (*)(UnityEngine::Playables::PlayableGraph, System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*)>(&UnityEngine::Timeline::ControlPlayableAsset::ConnectPlayablesToMixer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->byval_arg;
     static auto* playables = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "ConnectPlayablesToMixer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{graph, playables});
@@ -370,7 +370,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: CreateActivationPlayable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ControlPlayableAsset::*)(UnityEngine::GameObject*, UnityEngine::Playables::PlayableGraph, System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*)>(&UnityEngine::Timeline::ControlPlayableAsset::CreateActivationPlayable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* root = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->byval_arg;
     static auto* outplayables = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")})->byval_arg;
@@ -381,7 +381,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SearchHierarchyAndConnectParticleSystem
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ControlPlayableAsset::*)(System::Collections::Generic::IEnumerable_1<UnityEngine::ParticleSystem*>*, UnityEngine::Playables::PlayableGraph, System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*)>(&UnityEngine::Timeline::ControlPlayableAsset::SearchHierarchyAndConnectParticleSystem)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* particleSystems = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem")})->byval_arg;
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->byval_arg;
     static auto* outplayables = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")})->byval_arg;
@@ -392,7 +392,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SearchHierarchyAndConnectDirector
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ControlPlayableAsset::*)(System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableDirector*>*, UnityEngine::Playables::PlayableGraph, System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*, bool)>(&UnityEngine::Timeline::ControlPlayableAsset::SearchHierarchyAndConnectDirector)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* directors = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableDirector")})->byval_arg;
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->byval_arg;
     static auto* outplayables = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")})->byval_arg;
@@ -404,7 +404,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SearchHierarchyAndConnectControlableScripts
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>*, UnityEngine::Playables::PlayableGraph, System::Collections::Generic::List_1<UnityEngine::Playables::Playable>*)>(&UnityEngine::Timeline::ControlPlayableAsset::SearchHierarchyAndConnectControlableScripts)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* controlableScripts = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "MonoBehaviour")})->byval_arg;
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->byval_arg;
     static auto* outplayables = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")})->byval_arg;
@@ -415,7 +415,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: ConnectMixerAndPlayable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::Playables::Playable, UnityEngine::Playables::Playable, int)>(&UnityEngine::Timeline::ControlPlayableAsset::ConnectMixerAndPlayable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->byval_arg;
     static auto* mixer = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")->byval_arg;
     static auto* playable = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")->byval_arg;
@@ -430,7 +430,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: GetControlableScripts
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>* (*)(UnityEngine::GameObject*)>(&UnityEngine::Timeline::ControlPlayableAsset::GetControlableScripts)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* root = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "GetControlableScripts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{root});
   }
@@ -439,7 +439,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: UpdateDurationAndLoopFlag
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ControlPlayableAsset::*)(System::Collections::Generic::IList_1<UnityEngine::Playables::PlayableDirector*>*, System::Collections::Generic::IList_1<UnityEngine::ParticleSystem*>*)>(&UnityEngine::Timeline::ControlPlayableAsset::UpdateDurationAndLoopFlag)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* directors = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableDirector")})->byval_arg;
     static auto* particleSystems = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "UpdateDurationAndLoopFlag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{directors, particleSystems});
@@ -449,7 +449,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetControllableParticleSystems
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<UnityEngine::ParticleSystem*>* (UnityEngine::Timeline::ControlPlayableAsset::*)(UnityEngine::GameObject*)>(&UnityEngine::Timeline::ControlPlayableAsset::GetControllableParticleSystems)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "GetControllableParticleSystems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{go});
   }
@@ -458,7 +458,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: GetControllableParticleSystems
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*, System::Collections::Generic::ICollection_1<UnityEngine::ParticleSystem*>*, System::Collections::Generic::HashSet_1<UnityEngine::ParticleSystem*>*)>(&UnityEngine::Timeline::ControlPlayableAsset::GetControllableParticleSystems)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* roots = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "ICollection`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem")})->byval_arg;
     static auto* subEmitters = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "HashSet`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem")})->byval_arg;
@@ -469,7 +469,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: CacheSubEmitters
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ParticleSystem*, System::Collections::Generic::HashSet_1<UnityEngine::ParticleSystem*>*)>(&UnityEngine::Timeline::ControlPlayableAsset::CacheSubEmitters)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ps = &::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem")->byval_arg;
     static auto* subEmitters = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "HashSet`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "CacheSubEmitters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ps, subEmitters});
@@ -479,7 +479,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: GatherProperties
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ControlPlayableAsset::*)(UnityEngine::Playables::PlayableDirector*, UnityEngine::Timeline::IPropertyCollector*)>(&UnityEngine::Timeline::ControlPlayableAsset::GatherProperties)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* director = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableDirector")->byval_arg;
     static auto* driver = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "IPropertyCollector")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "GatherProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{director, driver});
@@ -489,7 +489,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: PreviewParticles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::IPropertyCollector*, System::Collections::Generic::IEnumerable_1<UnityEngine::ParticleSystem*>*)>(&UnityEngine::Timeline::ControlPlayableAsset::PreviewParticles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* driver = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "IPropertyCollector")->byval_arg;
     static auto* particles = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "PreviewParticles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{driver, particles});
@@ -499,7 +499,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: PreviewActivation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::IPropertyCollector*, System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>*)>(&UnityEngine::Timeline::ControlPlayableAsset::PreviewActivation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* driver = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "IPropertyCollector")->byval_arg;
     static auto* objects = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "PreviewActivation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{driver, objects});
@@ -509,7 +509,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: PreviewTimeControl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::IPropertyCollector*, UnityEngine::Playables::PlayableDirector*, System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>*)>(&UnityEngine::Timeline::ControlPlayableAsset::PreviewTimeControl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* driver = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "IPropertyCollector")->byval_arg;
     static auto* director = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableDirector")->byval_arg;
     static auto* scripts = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "MonoBehaviour")})->byval_arg;
@@ -520,7 +520,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: PreviewDirectors
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::IPropertyCollector*, System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableDirector*>*)>(&UnityEngine::Timeline::ControlPlayableAsset::PreviewDirectors)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* driver = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "IPropertyCollector")->byval_arg;
     static auto* directors = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableDirector")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "PreviewDirectors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{driver, directors});
@@ -530,7 +530,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: get_duration
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::ControlPlayableAsset::*)()>(&UnityEngine::Timeline::ControlPlayableAsset::get_duration)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -538,7 +538,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (Uni
 // Il2CppName: CreatePlayable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (UnityEngine::Timeline::ControlPlayableAsset::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*)>(&UnityEngine::Timeline::ControlPlayableAsset::CreatePlayable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->byval_arg;
     static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), "CreatePlayable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{graph, go});
@@ -552,7 +552,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Timeline::ControlPlayableAsset::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ControlPlayableAsset*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

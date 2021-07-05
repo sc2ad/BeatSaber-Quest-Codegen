@@ -286,7 +286,7 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::ImageView::GradientDirection, "HMUI", "ImageView/Gr
 // Il2CppName: get_gradient
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI::ImageView::*)()>(&HMUI::ImageView::get_gradient)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::ImageView*), "get_gradient", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -294,7 +294,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI:
 // Il2CppName: get_skew
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::ImageView::*)()>(&HMUI::ImageView::get_skew)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::ImageView*), "get_skew", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -302,7 +302,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI
 // Il2CppName: get_color0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (HMUI::ImageView::*)()>(&HMUI::ImageView::get_color0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::ImageView*), "get_color0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -310,7 +310,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_color0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ImageView::*)(UnityEngine::Color)>(&HMUI::ImageView::set_color0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ImageView*), "set_color0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -319,7 +319,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: get_color1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (HMUI::ImageView::*)()>(&HMUI::ImageView::get_color1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::ImageView*), "get_color1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -327,7 +327,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_color1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ImageView::*)(UnityEngine::Color)>(&HMUI::ImageView::set_color1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ImageView*), "set_color1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -336,7 +336,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: GenerateSimpleSprite
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ImageView::*)(UnityEngine::UI::VertexHelper*, bool, float)>(&HMUI::ImageView::GenerateSimpleSprite)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* vh = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "VertexHelper")->byval_arg;
     static auto* lPreserveAspect = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* curvedUIRadius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -347,7 +347,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: GenerateSlicedSprite
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ImageView::*)(UnityEngine::UI::VertexHelper*, float)>(&HMUI::ImageView::GenerateSlicedSprite)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* toFill = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "VertexHelper")->byval_arg;
     static auto* curvedUIRadius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ImageView*), "GenerateSlicedSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{toFill, curvedUIRadius});
@@ -357,7 +357,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: GenerateTiledSprite
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ImageView::*)(UnityEngine::UI::VertexHelper*, float)>(&HMUI::ImageView::GenerateTiledSprite)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* toFill = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "VertexHelper")->byval_arg;
     static auto* curvedUIRadius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ImageView*), "GenerateTiledSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{toFill, curvedUIRadius});
@@ -367,7 +367,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: AddQuad
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::VertexHelper*, UnityEngine::Vector2, UnityEngine::Vector2, UnityEngine::Color32, UnityEngine::Vector2, UnityEngine::Vector2, float, float)>(&HMUI::ImageView::AddQuad)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* vertexHelper = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "VertexHelper")->byval_arg;
     static auto* posMin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     static auto* posMax = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
@@ -383,7 +383,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: AddQuad
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::VertexHelper*, UnityEngine::Vector2, UnityEngine::Vector2, UnityEngine::Color32, UnityEngine::Vector2, UnityEngine::Vector2, UnityEngine::Vector2, UnityEngine::Vector2, float, float, float, float)>(&HMUI::ImageView::AddQuad)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* vertexHelper = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "VertexHelper")->byval_arg;
     static auto* posMin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     static auto* posMax = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
@@ -403,7 +403,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: AddQuadWithHorizontalGradient
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::VertexHelper*, UnityEngine::Vector2, UnityEngine::Vector2, UnityEngine::Color32, UnityEngine::Color32, UnityEngine::Vector2, UnityEngine::Vector2, UnityEngine::Vector2, UnityEngine::Vector2, float, float, float, float)>(&HMUI::ImageView::AddQuadWithHorizontalGradient)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* vertexHelper = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "VertexHelper")->byval_arg;
     static auto* posMin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     static auto* posMax = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
@@ -424,7 +424,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: AddQuadWithVerticalGradient
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::VertexHelper*, UnityEngine::Vector2, UnityEngine::Vector2, UnityEngine::Color32, UnityEngine::Color32, UnityEngine::Vector2, UnityEngine::Vector2, UnityEngine::Vector2, UnityEngine::Vector2, float, float, float, float)>(&HMUI::ImageView::AddQuadWithVerticalGradient)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* vertexHelper = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "VertexHelper")->byval_arg;
     static auto* posMin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     static auto* posMax = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
@@ -445,7 +445,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: GenerateFilledSprite
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ImageView::*)(UnityEngine::UI::VertexHelper*, bool, float)>(&HMUI::ImageView::GenerateFilledSprite)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* toFill = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "VertexHelper")->byval_arg;
     static auto* preserveAspect = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* curvedUIRadius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -456,7 +456,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: GetNumberOfElements
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(float, float)>(&HMUI::ImageView::GetNumberOfElements)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* curvedUIRadius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* width = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ImageView*), "GetNumberOfElements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{curvedUIRadius, width});
@@ -466,7 +466,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(flo
 // Il2CppName: OnEnable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ImageView::*)()>(&HMUI::ImageView::OnEnable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::ImageView*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -474,7 +474,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: OnPopulateMesh
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ImageView::*)(UnityEngine::UI::VertexHelper*)>(&HMUI::ImageView::OnPopulateMesh)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* toFill = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "VertexHelper")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ImageView*), "OnPopulateMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{toFill});
   }
@@ -483,7 +483,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: AddQuad
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::VertexHelper*, ::Array<UnityEngine::Vector3>*, UnityEngine::Color32, ::Array<UnityEngine::Vector3>*)>(&HMUI::ImageView::AddQuad)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* vertexHelper = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "VertexHelper")->byval_arg;
     static auto* quadPositions = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color32")->byval_arg;
@@ -495,7 +495,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: GetAdjustedBorders
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)(UnityEngine::Vector4, UnityEngine::Rect)>(&HMUI::ImageView::GetAdjustedBorders)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* border = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
     static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ImageView*), "GetAdjustedBorders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{border, rect});
@@ -505,7 +505,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: RadialCut
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<UnityEngine::Vector3>*, ::Array<UnityEngine::Vector3>*, float, bool, int)>(&HMUI::ImageView::RadialCut)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* xy = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* uv = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* fill = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -518,7 +518,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: RadialCut
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<UnityEngine::Vector3>*, float, float, bool, int)>(&HMUI::ImageView::RadialCut)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* xy = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* cos = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* sin = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -531,7 +531,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: GetDrawingDimensions
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (HMUI::ImageView::*)(bool)>(&HMUI::ImageView::GetDrawingDimensions)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* shouldPreserveAspect = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ImageView*), "GetDrawingDimensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{shouldPreserveAspect});
   }
@@ -544,7 +544,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&HMUI::ImageView::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::ImageView*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

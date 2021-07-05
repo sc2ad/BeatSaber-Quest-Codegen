@@ -67,7 +67,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ReflectionMethodsCache::GetRaycastNonAll
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::UI::ReflectionMethodsCache::GetRaycastNonAllocCallback::*)(UnityEngine::Ray, ::Array<UnityEngine::RaycastHit>*, float, int)>(&UnityEngine::UI::ReflectionMethodsCache::GetRaycastNonAllocCallback::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* r = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
     static auto* results = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit"), 1)->byval_arg;
     static auto* f = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (UnityEngine::UI::ReflectionMethodsCache::GetRaycastNonAllocCallback::*)(UnityEngine::Ray, ::Array<UnityEngine::RaycastHit>*, float, int, System::AsyncCallback*, ::Il2CppObject*)>(&UnityEngine::UI::ReflectionMethodsCache::GetRaycastNonAllocCallback::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* r = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
     static auto* results = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit"), 1)->byval_arg;
     static auto* f = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::UI::ReflectionMethodsCache::GetRaycastNonAllocCallback::*)(System::IAsyncResult*)>(&UnityEngine::UI::ReflectionMethodsCache::GetRaycastNonAllocCallback::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ReflectionMethodsCache::GetRaycastNonAllocCallback*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

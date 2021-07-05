@@ -132,7 +132,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLo
 // Il2CppName: ExecuteEnumerable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::ExecuteEnumerable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "ITestExecutionContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand*), "ExecuteEnumerable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: CaptureException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(NUnit::Framework::Internal::TestResult*, System::Action*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::CaptureException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestResult")->byval_arg;
     static auto* action = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand*), "CaptureException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result, action});
@@ -151,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(NU
 // Il2CppName: ExecuteAndCheckLog
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::TestTools::Logging::LogScope*, NUnit::Framework::Internal::TestResult*, System::Action*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::ExecuteAndCheckLog)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* logScope = &::il2cpp_utils::GetClassFromName("UnityEngine.TestTools.Logging", "LogScope")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestResult")->byval_arg;
     static auto* action = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
@@ -162,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: PostTestValidation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::TestTools::Logging::LogScope*, NUnit::Framework::Internal::Commands::TestCommand*, NUnit::Framework::Internal::TestResult*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::PostTestValidation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* logScope = &::il2cpp_utils::GetClassFromName("UnityEngine.TestTools.Logging", "LogScope")->byval_arg;
     static auto* command = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal.Commands", "TestCommand")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestResult")->byval_arg;
@@ -173,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: CheckLogs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(NUnit::Framework::Internal::TestResult*, UnityEngine::TestTools::Logging::LogScope*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::CheckLogs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestResult")->byval_arg;
     static auto* logScope = &::il2cpp_utils::GetClassFromName("UnityEngine.TestTools.Logging", "LogScope")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand*), "CheckLogs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result, logScope});
@@ -183,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(NU
 // Il2CppName: CheckFailingLogs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::TestTools::Logging::LogScope*, NUnit::Framework::Internal::TestResult*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::CheckFailingLogs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* logScope = &::il2cpp_utils::GetClassFromName("UnityEngine.TestTools.Logging", "LogScope")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand*), "CheckFailingLogs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{logScope, result});
@@ -193,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: CheckExpectedLogs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::TestTools::Logging::LogScope*, NUnit::Framework::Internal::TestResult*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::CheckExpectedLogs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* logScope = &::il2cpp_utils::GetClassFromName("UnityEngine.TestTools.Logging", "LogScope")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand*), "CheckExpectedLogs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{logScope, result});
@@ -203,7 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: MustExpect
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::MemberInfo*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::MustExpect)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand*), "MustExpect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method});
   }
@@ -212,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -224,7 +224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: Execute
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand::Execute)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "ITestExecutionContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityLogCheckDelegatingCommand*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }

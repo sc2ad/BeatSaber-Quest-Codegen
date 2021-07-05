@@ -69,7 +69,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TrackedReference*, "UnityEngine", "TrackedRe
 // Il2CppName: Equals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TrackedReference::*)(::Il2CppObject*)>(&UnityEngine::TrackedReference::Equals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* o = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TrackedReference*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{o});
   }
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: GetHashCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::TrackedReference::*)()>(&UnityEngine::TrackedReference::GetHashCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TrackedReference*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

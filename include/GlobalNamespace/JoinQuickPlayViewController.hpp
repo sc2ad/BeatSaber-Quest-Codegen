@@ -132,7 +132,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::JoinQuickPlayViewController*, "", "JoinQ
 // Il2CppName: add_didFinishEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::JoinQuickPlayViewController::*)(System::Action_1<bool>*)>(&GlobalNamespace::JoinQuickPlayViewController::add_didFinishEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JoinQuickPlayViewController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_didFinishEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::JoinQuickPlayViewController::*)(System::Action_1<bool>*)>(&GlobalNamespace::JoinQuickPlayViewController::remove_didFinishEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JoinQuickPlayViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_multiplayerModeSettings
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerModeSettings* (GlobalNamespace::JoinQuickPlayViewController::*)()>(&GlobalNamespace::JoinQuickPlayViewController::get_multiplayerModeSettings)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JoinQuickPlayViewController*), "get_multiplayerModeSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -158,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: Setup
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::JoinQuickPlayViewController::*)(GlobalNamespace::MasterServerQuickPlaySetupData*, GlobalNamespace::MultiplayerModeSettings*)>(&GlobalNamespace::JoinQuickPlayViewController::Setup)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* masterServerQuickPlaySetupData = &::il2cpp_utils::GetClassFromName("", "MasterServerQuickPlaySetupData")->byval_arg;
     static auto* multiplayerModeSettings = &::il2cpp_utils::GetClassFromName("", "MultiplayerModeSettings")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JoinQuickPlayViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{masterServerQuickPlaySetupData, multiplayerModeSettings});
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ButtonPressed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::JoinQuickPlayViewController::*)(bool)>(&GlobalNamespace::JoinQuickPlayViewController::ButtonPressed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* success = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JoinQuickPlayViewController*), "ButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{success});
   }
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <DidActivate>b__11_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::JoinQuickPlayViewController::*)()>(&GlobalNamespace::JoinQuickPlayViewController::$DidActivate$b__11_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JoinQuickPlayViewController*), "<DidActivate>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <DidActivate>b__11_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::JoinQuickPlayViewController::*)()>(&GlobalNamespace::JoinQuickPlayViewController::$DidActivate$b__11_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JoinQuickPlayViewController*), "<DidActivate>b__11_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -193,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: DidActivate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::JoinQuickPlayViewController::*)(bool, bool, bool)>(&GlobalNamespace::JoinQuickPlayViewController::DidActivate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* firstActivation = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* addedToHierarchy = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* screenSystemEnabling = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

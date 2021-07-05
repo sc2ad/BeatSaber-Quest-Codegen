@@ -118,7 +118,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentT
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuEnvironmentManager::*)()>(&GlobalNamespace::MenuEnvironmentManager::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuEnvironmentManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -126,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ShowEnvironmentType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuEnvironmentManager::*)(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType)>(&GlobalNamespace::MenuEnvironmentManager::ShowEnvironmentType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* menuEnvironmentType = &::il2cpp_utils::GetClassFromName("", "MenuEnvironmentManager/MenuEnvironmentType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuEnvironmentManager*), "ShowEnvironmentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{menuEnvironmentType});
   }

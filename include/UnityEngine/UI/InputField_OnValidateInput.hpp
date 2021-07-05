@@ -60,7 +60,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::OnValidateInput*, "UnityEngi
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (UnityEngine::UI::InputField::OnValidateInput::*)(::Il2CppString*, int, ::Il2CppChar)>(&UnityEngine::UI::InputField::OnValidateInput::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* charIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* addedChar = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
@@ -71,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (UnityEngine::UI::InputField::OnValidateInput::*)(::Il2CppString*, int, ::Il2CppChar, System::AsyncCallback*, ::Il2CppObject*)>(&UnityEngine::UI::InputField::OnValidateInput::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* charIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* addedChar = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (UnityEngine::UI::InputField::OnValidateInput::*)(System::IAsyncResult*)>(&UnityEngine::UI::InputField::OnValidateInput::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::InputField::OnValidateInput*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

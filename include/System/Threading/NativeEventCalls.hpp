@@ -54,7 +54,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::NativeEventCalls*, "System.Threading",
 // Il2CppName: CreateEvent_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(bool, bool, ::Il2CppString*, int&)>(&System::Threading::NativeEventCalls::CreateEvent_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* manual = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* initial = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -66,7 +66,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: SetEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Microsoft::Win32::SafeHandles::SafeWaitHandle*)>(&System::Threading::NativeEventCalls::SetEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("Microsoft.Win32.SafeHandles", "SafeWaitHandle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::NativeEventCalls*), "SetEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle});
   }
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Mi
 // Il2CppName: SetEvent_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&System::Threading::NativeEventCalls::SetEvent_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::NativeEventCalls*), "SetEvent_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle});
   }
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: ResetEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Microsoft::Win32::SafeHandles::SafeWaitHandle*)>(&System::Threading::NativeEventCalls::ResetEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("Microsoft.Win32.SafeHandles", "SafeWaitHandle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::NativeEventCalls*), "ResetEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle});
   }
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Mi
 // Il2CppName: ResetEvent_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&System::Threading::NativeEventCalls::ResetEvent_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::NativeEventCalls*), "ResetEvent_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle});
   }
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: CloseEvent_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&System::Threading::NativeEventCalls::CloseEvent_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::NativeEventCalls*), "CloseEvent_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle});
   }

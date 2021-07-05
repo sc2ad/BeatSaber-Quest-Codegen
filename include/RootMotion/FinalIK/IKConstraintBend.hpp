@@ -203,7 +203,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKConstraintBend*, "RootMotion.Final
 // Il2CppName: IsValid
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::IKConstraintBend::*)(RootMotion::FinalIK::IKSolverFullBody*, RootMotion::Warning::Logger*)>(&RootMotion::FinalIK::IKConstraintBend::IsValid)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBody")->byval_arg;
     static auto* logger = &::il2cpp_utils::GetClassFromName("RootMotion", "Warning/Logger")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKConstraintBend*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solver, logger});
@@ -213,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Il2CppName: get_initiated
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::IKConstraintBend::*)()>(&RootMotion::FinalIK::IKConstraintBend::get_initiated)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKConstraintBend*), "get_initiated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -221,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Il2CppName: set_initiated
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKConstraintBend::*)(bool)>(&RootMotion::FinalIK::IKConstraintBend::set_initiated)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKConstraintBend*), "set_initiated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -234,7 +234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: SetBones
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKConstraintBend::*)(UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*)>(&RootMotion::FinalIK::IKConstraintBend::SetBones)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bone1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* bone2 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* bone3 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -245,7 +245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: Initiate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKConstraintBend::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&RootMotion::FinalIK::IKConstraintBend::Initiate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBody")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKConstraintBend*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solver});
   }
@@ -254,7 +254,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: SetLimbOrientation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKConstraintBend::*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3)>(&RootMotion::FinalIK::IKConstraintBend::SetLimbOrientation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* upper = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* lower = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* last = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -265,7 +265,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: LimitBend
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKConstraintBend::*)(float, float)>(&RootMotion::FinalIK::IKConstraintBend::LimitBend)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* solverWeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* positionWeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKConstraintBend*), "LimitBend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solverWeight, positionWeight});
@@ -275,7 +275,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: GetDir
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::IKConstraintBend::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&RootMotion::FinalIK::IKConstraintBend::GetDir)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBody")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKConstraintBend*), "GetDir", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solver});
   }
@@ -284,7 +284,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: OrthoToLimb
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::IKConstraintBend::*)(RootMotion::FinalIK::IKSolverFullBody*, UnityEngine::Vector3)>(&RootMotion::FinalIK::IKConstraintBend::OrthoToLimb)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBody")->byval_arg;
     static auto* tangent = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKConstraintBend*), "OrthoToLimb", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solver, tangent});
@@ -294,7 +294,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: OrthoToBone1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::IKConstraintBend::*)(RootMotion::FinalIK::IKSolverFullBody*, UnityEngine::Vector3)>(&RootMotion::FinalIK::IKConstraintBend::OrthoToBone1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBody")->byval_arg;
     static auto* tangent = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKConstraintBend*), "OrthoToBone1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solver, tangent});

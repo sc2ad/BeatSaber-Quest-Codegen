@@ -56,7 +56,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::TypeForwardedFromAttri
 // Il2CppName: get_AssemblyFullName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::CompilerServices::TypeForwardedFromAttribute::*)()>(&System::Runtime::CompilerServices::TypeForwardedFromAttribute::get_AssemblyFullName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::TypeForwardedFromAttribute*), "get_AssemblyFullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

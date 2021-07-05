@@ -55,7 +55,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::ConcreteIdBinderNonGeneric*, "Zenject", "Concret
 // Il2CppName: WithId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConcreteBinderNonGeneric* (Zenject::ConcreteIdBinderNonGeneric::*)(::Il2CppObject*)>(&Zenject::ConcreteIdBinderNonGeneric::WithId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* identifier = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConcreteIdBinderNonGeneric*), "WithId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{identifier});
   }

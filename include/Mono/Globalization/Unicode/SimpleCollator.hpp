@@ -292,7 +292,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator*, "Mono.Glob
 // Il2CppName: SetCJKTable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SimpleCollator::*)(System::Globalization::CultureInfo*, Mono::Globalization::Unicode::CodePointIndexer*&, uint8_t*&, uint8_t*&, Mono::Globalization::Unicode::CodePointIndexer*&, uint8_t*&)>(&Mono::Globalization::Unicode::SimpleCollator::SetCJKTable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* culture = &::il2cpp_utils::GetClassFromName("System.Globalization", "CultureInfo")->byval_arg;
     static auto* cjkIndexer = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "CodePointIndexer")->this_arg;
     static auto* catTable = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->this_arg;
@@ -306,7 +306,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Il2CppName: GetNeutralCulture
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (*)(System::Globalization::CultureInfo*)>(&Mono::Globalization::Unicode::SimpleCollator::GetNeutralCulture)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Globalization", "CultureInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "GetNeutralCulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{info});
   }
@@ -315,7 +315,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Il2CppName: Category
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Mono::Globalization::Unicode::SimpleCollator::*)(int)>(&Mono::Globalization::Unicode::SimpleCollator::Category)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cp = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "Category", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cp});
   }
@@ -324,7 +324,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Mo
 // Il2CppName: Level1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Mono::Globalization::Unicode::SimpleCollator::*)(int)>(&Mono::Globalization::Unicode::SimpleCollator::Level1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cp = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "Level1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cp});
   }
@@ -333,7 +333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Mo
 // Il2CppName: Level2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Mono::Globalization::Unicode::SimpleCollator::*)(int, Mono::Globalization::Unicode::SimpleCollator::ExtenderType)>(&Mono::Globalization::Unicode::SimpleCollator::Level2)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cp = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* ext = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "SimpleCollator/ExtenderType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "Level2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cp, ext});
@@ -343,7 +343,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Mo
 // Il2CppName: IsHalfKana
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::IsHalfKana)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cp = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* opt = &::il2cpp_utils::GetClassFromName("System.Globalization", "CompareOptions")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "IsHalfKana", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cp, opt});
@@ -353,7 +353,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Il2CppName: GetContraction
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::Contraction* (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int)>(&Mono::Globalization::Unicode::SimpleCollator::GetContraction)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -364,7 +364,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globa
 // Il2CppName: GetContraction
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::Contraction* (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int, ::Array<Mono::Globalization::Unicode::Contraction*>*)>(&Mono::Globalization::Unicode::SimpleCollator::GetContraction)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -376,7 +376,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globa
 // Il2CppName: GetTailContraction
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::Contraction* (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int)>(&Mono::Globalization::Unicode::SimpleCollator::GetTailContraction)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -387,7 +387,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globa
 // Il2CppName: GetTailContraction
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::Contraction* (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int, ::Array<Mono::Globalization::Unicode::Contraction*>*)>(&Mono::Globalization::Unicode::SimpleCollator::GetTailContraction)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -399,7 +399,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globa
 // Il2CppName: FilterOptions
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(int, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::FilterOptions)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* opt = &::il2cpp_utils::GetClassFromName("System.Globalization", "CompareOptions")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "FilterOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i, opt});
@@ -409,7 +409,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Il2CppName: GetExtenderType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::SimpleCollator::ExtenderType (Mono::Globalization::Unicode::SimpleCollator::*)(int)>(&Mono::Globalization::Unicode::SimpleCollator::GetExtenderType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "GetExtenderType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i});
   }
@@ -418,7 +418,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globa
 // Il2CppName: ToDashTypeValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(Mono::Globalization::Unicode::SimpleCollator::ExtenderType, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::ToDashTypeValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ext = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "SimpleCollator/ExtenderType")->byval_arg;
     static auto* opt = &::il2cpp_utils::GetClassFromName("System.Globalization", "CompareOptions")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "ToDashTypeValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ext, opt});
@@ -428,7 +428,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)
 // Il2CppName: FilterExtender
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(int, Mono::Globalization::Unicode::SimpleCollator::ExtenderType, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::FilterExtender)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* ext = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "SimpleCollator/ExtenderType")->byval_arg;
     static auto* opt = &::il2cpp_utils::GetClassFromName("System.Globalization", "CompareOptions")->byval_arg;
@@ -439,7 +439,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Il2CppName: IsIgnorable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::IsIgnorable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* opt = &::il2cpp_utils::GetClassFromName("System.Globalization", "CompareOptions")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "IsIgnorable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i, opt});
@@ -449,7 +449,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Il2CppName: IsSafe
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(int)>(&Mono::Globalization::Unicode::SimpleCollator::IsSafe)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "IsSafe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i});
   }
@@ -458,7 +458,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Il2CppName: GetSortKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::SortKey* (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::GetSortKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "CompareOptions")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "GetSortKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, options});
@@ -468,7 +468,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Il2CppName: GetSortKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::SortKey* (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::GetSortKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -480,7 +480,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Il2CppName: GetSortKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int, Mono::Globalization::Unicode::SortKeyBuffer*, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::GetSortKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -493,7 +493,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Il2CppName: FillSortKeyRaw
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SimpleCollator::*)(int, Mono::Globalization::Unicode::SimpleCollator::ExtenderType, Mono::Globalization::Unicode::SortKeyBuffer*, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::FillSortKeyRaw)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* ext = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "SimpleCollator/ExtenderType")->byval_arg;
     static auto* buf = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "SortKeyBuffer")->byval_arg;
@@ -505,7 +505,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Il2CppName: FillSurrogateSortKeyRaw
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SimpleCollator::*)(int, Mono::Globalization::Unicode::SortKeyBuffer*)>(&Mono::Globalization::Unicode::SimpleCollator::FillSurrogateSortKeyRaw)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* buf = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "SortKeyBuffer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "FillSurrogateSortKeyRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i, buf});
@@ -515,7 +515,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Il2CppName: Compare
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::Compare)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s1 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* idx1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* len1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -530,7 +530,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Il2CppName: ClearBuffer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SimpleCollator::*)(uint8_t*, int)>(&Mono::Globalization::Unicode::SimpleCollator::ClearBuffer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "ClearBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, size});
@@ -540,7 +540,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Il2CppName: CompareInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int, ::Il2CppString*, int, int, bool&, bool&, bool, bool, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&Mono::Globalization::Unicode::SimpleCollator::CompareInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s1 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* idx1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* len1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -559,7 +559,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Il2CppName: CompareFlagPair
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(bool, bool)>(&Mono::Globalization::Unicode::SimpleCollator::CompareFlagPair)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* b1 = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* b2 = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "CompareFlagPair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{b1, b2});
@@ -569,7 +569,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Il2CppName: IsPrefix
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::IsPrefix)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* src = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* opt = &::il2cpp_utils::GetClassFromName("System.Globalization", "CompareOptions")->byval_arg;
@@ -580,7 +580,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Il2CppName: IsPrefix
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::IsPrefix)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -593,7 +593,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Il2CppName: IsPrefix
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, bool, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&Mono::Globalization::Unicode::SimpleCollator::IsPrefix)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -607,7 +607,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Il2CppName: IsSuffix
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::IsSuffix)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* src = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* opt = &::il2cpp_utils::GetClassFromName("System.Globalization", "CompareOptions")->byval_arg;
@@ -618,7 +618,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Il2CppName: IsSuffix
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::IsSuffix)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -631,7 +631,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Il2CppName: QuickIndexOf
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, bool&)>(&Mono::Globalization::Unicode::SimpleCollator::QuickIndexOf)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -644,7 +644,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Il2CppName: IndexOf
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::IndexOf)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -657,7 +657,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Il2CppName: IndexOfOrdinal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int)>(&Mono::Globalization::Unicode::SimpleCollator::IndexOfOrdinal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -669,7 +669,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Il2CppName: IndexOfOrdinal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppChar, int, int)>(&Mono::Globalization::Unicode::SimpleCollator::IndexOfOrdinal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -681,7 +681,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Il2CppName: IndexOfSortKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int, uint8_t*, ::Il2CppChar, int, bool, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&Mono::Globalization::Unicode::SimpleCollator::IndexOfSortKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -697,7 +697,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Il2CppName: IndexOf
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, uint8_t*, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&Mono::Globalization::Unicode::SimpleCollator::IndexOf)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -711,7 +711,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Il2CppName: LastIndexOf
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::LastIndexOf)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -724,7 +724,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Il2CppName: LastIndexOfOrdinal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int)>(&Mono::Globalization::Unicode::SimpleCollator::LastIndexOfOrdinal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -736,7 +736,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Il2CppName: LastIndexOfSortKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int, int, uint8_t*, int, bool, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&Mono::Globalization::Unicode::SimpleCollator::LastIndexOfSortKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* orgStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -752,7 +752,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Il2CppName: LastIndexOf
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, uint8_t*, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&Mono::Globalization::Unicode::SimpleCollator::LastIndexOf)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -766,7 +766,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Il2CppName: MatchesForward
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int&, int, int, uint8_t*, bool, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&Mono::Globalization::Unicode::SimpleCollator::MatchesForward)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -781,7 +781,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Il2CppName: MatchesForwardCore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int&, int, int, uint8_t*, bool, Mono::Globalization::Unicode::SimpleCollator::ExtenderType, Mono::Globalization::Unicode::Contraction*&, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&Mono::Globalization::Unicode::SimpleCollator::MatchesForwardCore)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -798,7 +798,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Il2CppName: MatchesPrimitive
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(System::Globalization::CompareOptions, uint8_t*, int, Mono::Globalization::Unicode::SimpleCollator::ExtenderType, uint8_t*, int, bool)>(&Mono::Globalization::Unicode::SimpleCollator::MatchesPrimitive)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* opt = &::il2cpp_utils::GetClassFromName("System.Globalization", "CompareOptions")->byval_arg;
     static auto* source = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
     static auto* si = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -813,7 +813,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Il2CppName: MatchesBackward
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int&, int, int, int, uint8_t*, bool, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&Mono::Globalization::Unicode::SimpleCollator::MatchesBackward)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -829,7 +829,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Il2CppName: MatchesBackwardCore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int&, int, int, int, uint8_t*, bool, Mono::Globalization::Unicode::SimpleCollator::ExtenderType, Mono::Globalization::Unicode::Contraction*&, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&Mono::Globalization::Unicode::SimpleCollator::MatchesBackwardCore)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -847,7 +847,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Mono::Globalization::Unicode::SimpleCollator::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

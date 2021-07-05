@@ -120,7 +120,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::IGeneri
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation::*)(UnityEngine::ResourceManagement::ResourceManager*, UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>)>(&UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rm = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement", "ResourceManager")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceProviders", "IResourceProvider")->byval_arg;
     static auto* location = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceLocations", "IResourceLocation")->byval_arg;
@@ -132,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation::*)(UnityEngine::ResourceManagement::ResourceManager*, UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>, bool)>(&UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rm = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement", "ResourceManager")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceProviders", "IResourceProvider")->byval_arg;
     static auto* location = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceLocations", "IResourceLocation")->byval_arg;
@@ -145,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_ProvideHandleVersion
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation::get_ProvideHandleVersion)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*), "get_ProvideHandleVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: get_Location
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* (UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation::get_Location)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*), "get_Location", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_DependencyCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation::get_DependencyCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*), "get_DependencyCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: GetDependencies
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation::*)(System::Collections::Generic::IList_1<::Il2CppObject*>*)>(&UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation::GetDependencies)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* dstList = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*), "GetDependencies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dstList});
   }
@@ -181,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetProgressCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation::*)(System::Func_1<float>*)>(&UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation::SetProgressCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* callback = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*), "SetProgressCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callback});
   }
@@ -193,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_RequestedType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation::*)()>(&UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation::get_RequestedType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*), "get_RequestedType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -201,7 +201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Il2CppName: SetDownloadProgressCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation::*)(System::Func_1<UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>*)>(&UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation::SetDownloadProgressCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* callback = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.AsyncOperations", "DownloadStatus")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*), "SetDownloadProgressCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callback});
   }
@@ -210,7 +210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetWaitForCompletionCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation::*)(System::Func_1<bool>*)>(&UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation::SetWaitForCompletionCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* callback = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*), "SetWaitForCompletionCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callback});
   }

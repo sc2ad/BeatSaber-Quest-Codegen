@@ -80,7 +80,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPoseMirror*, "", "AvatarPoseMirror
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarPoseMirror::*)()>(&GlobalNamespace::AvatarPoseMirror::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPoseMirror*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleAvatarPoseControllerPositionsWillBeSet
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3&, UnityEngine::Vector3&, UnityEngine::Vector3&)>(&GlobalNamespace::AvatarPoseMirror::HandleAvatarPoseControllerPositionsWillBeSet)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* headPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* leftHandPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* rightHandPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: HandleAvatarPoseControllerRotationsWillBeSet
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Quaternion, UnityEngine::Quaternion, UnityEngine::Quaternion, UnityEngine::Quaternion&, UnityEngine::Quaternion&, UnityEngine::Quaternion&)>(&GlobalNamespace::AvatarPoseMirror::HandleAvatarPoseControllerRotationsWillBeSet)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* headRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* leftHandRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* rightHandRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: MirrorRotation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Quaternion)>(&GlobalNamespace::AvatarPoseMirror::MirrorRotation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPoseMirror*), "MirrorRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rotation});
   }
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: MirrorPosition
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Vector3)>(&GlobalNamespace::AvatarPoseMirror::MirrorPosition)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPoseMirror*), "MirrorPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position});
   }

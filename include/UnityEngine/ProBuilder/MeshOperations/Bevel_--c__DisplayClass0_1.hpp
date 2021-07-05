@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__Disp
 // Il2CppName: <BevelEdges>b__4
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_1::*)(UnityEngine::ProBuilder::WingedEdge*)>(&UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_1::$BevelEdges$b__4)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "WingedEdge")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_1*), "<BevelEdges>b__4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }

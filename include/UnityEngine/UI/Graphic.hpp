@@ -427,7 +427,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Graphic*, "UnityEngine.UI", "Graphic");
 // Il2CppName: get_defaultGraphicMaterial
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&UnityEngine::UI::Graphic::get_defaultGraphicMaterial)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "get_defaultGraphicMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -435,7 +435,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_color
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::get_color)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -443,7 +443,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_color
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)(UnityEngine::Color)>(&UnityEngine::UI::Graphic::set_color)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -452,7 +452,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_raycastTarget
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::get_raycastTarget)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "get_raycastTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -460,7 +460,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: set_raycastTarget
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)(bool)>(&UnityEngine::UI::Graphic::set_raycastTarget)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "set_raycastTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -469,7 +469,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_useLegacyMeshGeneration
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::get_useLegacyMeshGeneration)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "get_useLegacyMeshGeneration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -477,7 +477,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: set_useLegacyMeshGeneration
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)(bool)>(&UnityEngine::UI::Graphic::set_useLegacyMeshGeneration)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "set_useLegacyMeshGeneration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -486,7 +486,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetAllDirty
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::SetAllDirty)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "SetAllDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -494,7 +494,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetLayoutDirty
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::SetLayoutDirty)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "SetLayoutDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -502,7 +502,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetVerticesDirty
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::SetVerticesDirty)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "SetVerticesDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -510,7 +510,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetMaterialDirty
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::SetMaterialDirty)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "SetMaterialDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -518,7 +518,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_depth
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::get_depth)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "get_depth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -526,7 +526,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: get_rectTransform
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::get_rectTransform)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "get_rectTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -534,7 +534,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_canvas
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Canvas* (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::get_canvas)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "get_canvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -542,7 +542,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: CacheCanvas
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::CacheCanvas)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "CacheCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -550,7 +550,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_canvasRenderer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::CanvasRenderer* (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::get_canvasRenderer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "get_canvasRenderer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -558,7 +558,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_defaultMaterial
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::get_defaultMaterial)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "get_defaultMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -566,7 +566,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_material
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::get_material)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "get_material", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -574,7 +574,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_material
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)(UnityEngine::Material*)>(&UnityEngine::UI::Graphic::set_material)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "set_material", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -583,7 +583,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_materialForRendering
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::get_materialForRendering)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "get_materialForRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -591,7 +591,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_mainTexture
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture* (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::get_mainTexture)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "get_mainTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -599,7 +599,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: OnCullingChanged
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::OnCullingChanged)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "OnCullingChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -607,7 +607,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Rebuild
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)(UnityEngine::UI::CanvasUpdate)>(&UnityEngine::UI::Graphic::Rebuild)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* update = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "CanvasUpdate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "Rebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{update});
   }
@@ -616,7 +616,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: LayoutComplete
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::LayoutComplete)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "LayoutComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -624,7 +624,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GraphicUpdateComplete
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::GraphicUpdateComplete)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "GraphicUpdateComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -632,7 +632,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: UpdateMaterial
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::UpdateMaterial)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "UpdateMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -640,7 +640,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: UpdateGeometry
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::UpdateGeometry)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "UpdateGeometry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -648,7 +648,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: DoMeshGeneration
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::DoMeshGeneration)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "DoMeshGeneration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -656,7 +656,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: DoLegacyMeshGeneration
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::DoLegacyMeshGeneration)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "DoLegacyMeshGeneration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -664,7 +664,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_workerMesh
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (*)()>(&UnityEngine::UI::Graphic::get_workerMesh)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "get_workerMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -672,7 +672,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: OnFillVBO
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)(System::Collections::Generic::List_1<UnityEngine::UIVertex>*)>(&UnityEngine::UI::Graphic::OnFillVBO)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* vbo = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "UIVertex")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "OnFillVBO", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vbo});
   }
@@ -681,7 +681,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: OnPopulateMesh
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)(UnityEngine::Mesh*)>(&UnityEngine::UI::Graphic::OnPopulateMesh)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* m = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "OnPopulateMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{m});
   }
@@ -690,7 +690,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: OnPopulateMesh
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)(UnityEngine::UI::VertexHelper*)>(&UnityEngine::UI::Graphic::OnPopulateMesh)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* vh = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "VertexHelper")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "OnPopulateMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vh});
   }
@@ -699,7 +699,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetNativeSize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::SetNativeSize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "SetNativeSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -707,7 +707,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Raycast
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::Graphic::*)(UnityEngine::Vector2, UnityEngine::Camera*)>(&UnityEngine::UI::Graphic::Raycast)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sp = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     static auto* eventCamera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sp, eventCamera});
@@ -717,7 +717,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: PixelAdjustPoint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::UI::Graphic::*)(UnityEngine::Vector2)>(&UnityEngine::UI::Graphic::PixelAdjustPoint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* point = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "PixelAdjustPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{point});
   }
@@ -726,7 +726,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetPixelAdjustedRect
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::GetPixelAdjustedRect)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "GetPixelAdjustedRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -734,7 +734,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: CrossFadeColor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)(UnityEngine::Color, float, bool, bool)>(&UnityEngine::UI::Graphic::CrossFadeColor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* targetColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* ignoreTimeScale = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -746,7 +746,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: CrossFadeColor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)(UnityEngine::Color, float, bool, bool, bool)>(&UnityEngine::UI::Graphic::CrossFadeColor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* targetColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* ignoreTimeScale = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -759,7 +759,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: CreateColorFromAlpha
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(float)>(&UnityEngine::UI::Graphic::CreateColorFromAlpha)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* alpha = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "CreateColorFromAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{alpha});
   }
@@ -768,7 +768,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: CrossFadeAlpha
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)(float, float, bool)>(&UnityEngine::UI::Graphic::CrossFadeAlpha)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* alpha = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* ignoreTimeScale = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -779,7 +779,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: RegisterDirtyLayoutCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)(UnityEngine::Events::UnityAction*)>(&UnityEngine::UI::Graphic::RegisterDirtyLayoutCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "RegisterDirtyLayoutCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});
   }
@@ -788,7 +788,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: UnregisterDirtyLayoutCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)(UnityEngine::Events::UnityAction*)>(&UnityEngine::UI::Graphic::UnregisterDirtyLayoutCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "UnregisterDirtyLayoutCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});
   }
@@ -797,7 +797,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: RegisterDirtyVerticesCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)(UnityEngine::Events::UnityAction*)>(&UnityEngine::UI::Graphic::RegisterDirtyVerticesCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "RegisterDirtyVerticesCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});
   }
@@ -806,7 +806,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: UnregisterDirtyVerticesCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)(UnityEngine::Events::UnityAction*)>(&UnityEngine::UI::Graphic::UnregisterDirtyVerticesCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "UnregisterDirtyVerticesCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});
   }
@@ -815,7 +815,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: RegisterDirtyMaterialCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)(UnityEngine::Events::UnityAction*)>(&UnityEngine::UI::Graphic::RegisterDirtyMaterialCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "RegisterDirtyMaterialCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});
   }
@@ -824,7 +824,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: UnregisterDirtyMaterialCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)(UnityEngine::Events::UnityAction*)>(&UnityEngine::UI::Graphic::UnregisterDirtyMaterialCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "UnregisterDirtyMaterialCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});
   }
@@ -833,7 +833,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: UnityEngine.UI.ICanvasElement.get_transform
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::UnityEngine_UI_ICanvasElement_get_transform)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "UnityEngine.UI.ICanvasElement.get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -845,7 +845,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: OnRectTransformDimensionsChange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::OnRectTransformDimensionsChange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "OnRectTransformDimensionsChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -853,7 +853,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: OnBeforeTransformParentChanged
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::OnBeforeTransformParentChanged)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "OnBeforeTransformParentChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -861,7 +861,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: OnTransformParentChanged
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::OnTransformParentChanged)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "OnTransformParentChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -869,7 +869,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: OnEnable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::OnEnable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -877,7 +877,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: OnDisable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::OnDisable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -885,7 +885,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: OnDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::OnDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -893,7 +893,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: OnCanvasHierarchyChanged
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::OnCanvasHierarchyChanged)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "OnCanvasHierarchyChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -901,7 +901,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: OnDidApplyAnimationProperties
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Graphic::*)()>(&UnityEngine::UI::Graphic::OnDidApplyAnimationProperties)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), "OnDidApplyAnimationProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -909,7 +909,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::UI::Graphic::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Graphic*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

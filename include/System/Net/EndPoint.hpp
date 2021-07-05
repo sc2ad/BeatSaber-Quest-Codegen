@@ -57,7 +57,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::EndPoint*, "System.Net", "EndPoint");
 // Il2CppName: get_AddressFamily
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::AddressFamily (System::Net::EndPoint::*)()>(&System::Net::EndPoint::get_AddressFamily)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::EndPoint*), "get_AddressFamily", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: Serialize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::SocketAddress* (System::Net::EndPoint::*)()>(&System::Net::EndPoint::Serialize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::EndPoint*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -73,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: Create
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::EndPoint* (System::Net::EndPoint::*)(System::Net::SocketAddress*)>(&System::Net::EndPoint::Create)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* socketAddress = &::il2cpp_utils::GetClassFromName("System.Net", "SocketAddress")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::EndPoint*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{socketAddress});
   }

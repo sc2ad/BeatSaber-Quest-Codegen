@@ -146,7 +146,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIScrollGroup*, "UnityEngine", "GUIScrollGr
 // Il2CppName: CalcWidth
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIScrollGroup::*)()>(&UnityEngine::GUIScrollGroup::CalcWidth)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIScrollGroup*), "CalcWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetHorizontal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIScrollGroup::*)(float, float)>(&UnityEngine::GUIScrollGroup::SetHorizontal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* width = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIScrollGroup*), "SetHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, width});
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: CalcHeight
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIScrollGroup::*)()>(&UnityEngine::GUIScrollGroup::CalcHeight)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIScrollGroup*), "CalcHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -172,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetVertical
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIScrollGroup::*)(float, float)>(&UnityEngine::GUIScrollGroup::SetVertical)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* height = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIScrollGroup*), "SetVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{y, height});

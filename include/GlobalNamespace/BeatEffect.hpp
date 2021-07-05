@@ -151,7 +151,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatEffect*, "", "BeatEffect");
 // Il2CppName: get_didFinishEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::IBeatEffectDidFinishEvent*>* (GlobalNamespace::BeatEffect::*)()>(&GlobalNamespace::BeatEffect::get_didFinishEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatEffect*), "get_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -159,7 +159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatEffect::*)(UnityEngine::Color, float, UnityEngine::Quaternion)>(&GlobalNamespace::BeatEffect::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* animationDuration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -170,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ManualUpdate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatEffect::*)(float)>(&GlobalNamespace::BeatEffect::ManualUpdate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* deltaTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatEffect*), "ManualUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{deltaTime});
   }

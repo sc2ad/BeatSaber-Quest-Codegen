@@ -247,7 +247,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Finger::DOF, "RootMotion.FinalIK", "
 // Il2CppName: get_initiated
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::Finger::*)()>(&RootMotion::FinalIK::Finger::get_initiated)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Finger*), "get_initiated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -255,7 +255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Il2CppName: set_initiated
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Finger::*)(bool)>(&RootMotion::FinalIK::Finger::set_initiated)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Finger*), "set_initiated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -264,7 +264,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: get_IKPosition
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::Finger::*)()>(&RootMotion::FinalIK::Finger::get_IKPosition)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Finger*), "get_IKPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -272,7 +272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_IKPosition
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Finger::*)(UnityEngine::Vector3)>(&RootMotion::FinalIK::Finger::set_IKPosition)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Finger*), "set_IKPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -281,7 +281,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: get_IKRotation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RootMotion::FinalIK::Finger::*)()>(&RootMotion::FinalIK::Finger::get_IKRotation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Finger*), "get_IKRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -289,7 +289,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_IKRotation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Finger::*)(UnityEngine::Quaternion)>(&RootMotion::FinalIK::Finger::set_IKRotation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Finger*), "set_IKRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -298,7 +298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: IsValid
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::Finger::*)(::Il2CppString*&)>(&RootMotion::FinalIK::Finger::IsValid)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* errorMessage = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Finger*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{errorMessage});
   }
@@ -307,7 +307,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Il2CppName: Initiate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Finger::*)(UnityEngine::Transform*, int)>(&RootMotion::FinalIK::Finger::Initiate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hand = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Finger*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hand, index});
@@ -317,7 +317,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: FixTransforms
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Finger::*)()>(&RootMotion::FinalIK::Finger::FixTransforms)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Finger*), "FixTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -325,7 +325,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: StoreDefaultLocalState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Finger::*)()>(&RootMotion::FinalIK::Finger::StoreDefaultLocalState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Finger*), "StoreDefaultLocalState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -333,7 +333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: Update
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Finger::*)(float)>(&RootMotion::FinalIK::Finger::Update)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* masterWeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Finger*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{masterWeight});
   }

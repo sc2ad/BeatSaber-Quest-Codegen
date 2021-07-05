@@ -37,7 +37,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IDynamicMessageSink*
 // Il2CppName: ProcessMessageFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Contexts::IDynamicMessageSink::*)(System::Runtime::Remoting::Messaging::IMessage*, bool, bool)>(&System::Runtime::Remoting::Contexts::IDynamicMessageSink::ProcessMessageFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* replyMsg = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "IMessage")->byval_arg;
     static auto* bCliSide = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* bAsync = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -48,7 +48,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ProcessMessageStart
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Contexts::IDynamicMessageSink::*)(System::Runtime::Remoting::Messaging::IMessage*, bool, bool)>(&System::Runtime::Remoting::Contexts::IDynamicMessageSink::ProcessMessageStart)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* reqMsg = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "IMessage")->byval_arg;
     static auto* bCliSide = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* bAsync = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

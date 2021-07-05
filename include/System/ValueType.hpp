@@ -69,7 +69,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::ValueType*, "System", "ValueType");
 // Il2CppName: InternalEquals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*, ::Il2CppObject*, ::Array<::Il2CppObject*>*&)>(&System::ValueType::InternalEquals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* o1 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* o2 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* fields = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->this_arg;
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: DefaultEquals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*, ::Il2CppObject*)>(&System::ValueType::DefaultEquals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* o1 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* o2 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ValueType*), "DefaultEquals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{o1, o2});
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: InternalGetHashCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppObject*, ::Array<::Il2CppObject*>*&)>(&System::ValueType::InternalGetHashCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* o = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* fields = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ValueType*), "InternalGetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{o, fields});
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Il2CppName: Equals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::ValueType::*)(::Il2CppObject*)>(&System::ValueType::Equals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ValueType*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: GetHashCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::ValueType::*)()>(&System::ValueType::GetHashCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::ValueType*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: ToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::ValueType::*)()>(&System::ValueType::ToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::ValueType*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

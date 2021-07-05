@@ -76,7 +76,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RenderTextureFromPostEffect*, "", "Rende
 // Il2CppName: get_targetTexture
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (GlobalNamespace::RenderTextureFromPostEffect::*)()>(&GlobalNamespace::RenderTextureFromPostEffect::get_targetTexture)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RenderTextureFromPostEffect*), "get_targetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Awake
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RenderTextureFromPostEffect::*)()>(&GlobalNamespace::RenderTextureFromPostEffect::Awake)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RenderTextureFromPostEffect*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnRenderImage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RenderTextureFromPostEffect::*)(UnityEngine::RenderTexture*, UnityEngine::RenderTexture*)>(&GlobalNamespace::RenderTextureFromPostEffect::OnRenderImage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* src = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     static auto* dst = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RenderTextureFromPostEffect*), "OnRenderImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src, dst});

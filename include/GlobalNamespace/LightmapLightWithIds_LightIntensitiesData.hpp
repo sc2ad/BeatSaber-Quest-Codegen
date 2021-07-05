@@ -101,7 +101,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightmapLightWithIds::LightIntensitiesDa
 // Il2CppName: get_intensity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::LightmapLightWithIds::LightIntensitiesData::*)()>(&GlobalNamespace::LightmapLightWithIds::LightIntensitiesData::get_intensity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightWithIds::LightIntensitiesData*), "get_intensity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: set_intensity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightmapLightWithIds::LightIntensitiesData::*)(float)>(&GlobalNamespace::LightmapLightWithIds::LightIntensitiesData::set_intensity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightWithIds::LightIntensitiesData*), "set_intensity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_weight
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::LightmapLightWithIds::LightIntensitiesData::*)()>(&GlobalNamespace::LightmapLightWithIds::LightIntensitiesData::get_weight)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightWithIds::LightIntensitiesData*), "get_weight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -126,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: set_weight
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightmapLightWithIds::LightIntensitiesData::*)(float)>(&GlobalNamespace::LightmapLightWithIds::LightIntensitiesData::set_weight)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightWithIds::LightIntensitiesData*), "set_weight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -135,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetDataToShaders
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightmapLightWithIds::LightIntensitiesData::*)(UnityEngine::Color, UnityEngine::Color)>(&GlobalNamespace::LightmapLightWithIds::LightIntensitiesData::SetDataToShaders)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lightmapColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* probeColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightWithIds::LightIntensitiesData*), "SetDataToShaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lightmapColor, probeColor});
@@ -145,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ProcessColor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::LightmapLightWithIds::LightIntensitiesData::*)(UnityEngine::Color)>(&GlobalNamespace::LightmapLightWithIds::LightIntensitiesData::ProcessColor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* newColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapLightWithIds::LightIntensitiesData*), "ProcessColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newColor});
   }

@@ -76,7 +76,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::SafeStringMarshal, "Mono", "SafeStringMarshal");
 // Il2CppName: StringToUtf8
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Il2CppString*)>(&Mono::SafeStringMarshal::StringToUtf8)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::SafeStringMarshal), "StringToUtf8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
   }
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: GFree
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&Mono::SafeStringMarshal::GFree)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ptr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::SafeStringMarshal), "GFree", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ptr});
   }
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: get_Value
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Mono::SafeStringMarshal::*)()>(&Mono::SafeStringMarshal::get_Value)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::SafeStringMarshal), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::SafeStringMarshal::*)()>(&Mono::SafeStringMarshal::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::SafeStringMarshal), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -166,7 +166,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TextMessageWriter*, "NUnit.Fr
 // Il2CppName: WriteExpectedLine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(NUnit::Framework::Constraints::ConstraintResult*)>(&NUnit::Framework::Internal::TextMessageWriter::WriteExpectedLine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "ConstraintResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TextMessageWriter*), "WriteExpectedLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
@@ -175,7 +175,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Il2CppName: WriteExpectedLine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(::Il2CppObject*)>(&NUnit::Framework::Internal::TextMessageWriter::WriteExpectedLine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* expected = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TextMessageWriter*), "WriteExpectedLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expected});
   }
@@ -184,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Il2CppName: WriteExpectedLine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(::Il2CppObject*, NUnit::Framework::Constraints::Tolerance*)>(&NUnit::Framework::Internal::TextMessageWriter::WriteExpectedLine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* expected = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* tolerance = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "Tolerance")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TextMessageWriter*), "WriteExpectedLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expected, tolerance});
@@ -194,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Il2CppName: WriteActualLine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(NUnit::Framework::Constraints::ConstraintResult*)>(&NUnit::Framework::Internal::TextMessageWriter::WriteActualLine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "ConstraintResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TextMessageWriter*), "WriteActualLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
@@ -203,7 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Il2CppName: WriteActualLine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(::Il2CppObject*)>(&NUnit::Framework::Internal::TextMessageWriter::WriteActualLine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* actual = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TextMessageWriter*), "WriteActualLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{actual});
   }
@@ -212,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Il2CppName: WriteCaretLine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(int)>(&NUnit::Framework::Internal::TextMessageWriter::WriteCaretLine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mismatch = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TextMessageWriter*), "WriteCaretLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mismatch});
   }
@@ -221,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Il2CppName: get_MaxLineLength
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NUnit::Framework::Internal::TextMessageWriter::*)()>(&NUnit::Framework::Internal::TextMessageWriter::get_MaxLineLength)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TextMessageWriter*), "get_MaxLineLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -229,7 +229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NUnit:
 // Il2CppName: WriteMessageLine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(int, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&NUnit::Framework::Internal::TextMessageWriter::WriteMessageLine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* level = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -240,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Il2CppName: DisplayDifferences
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(NUnit::Framework::Constraints::ConstraintResult*)>(&NUnit::Framework::Internal::TextMessageWriter::DisplayDifferences)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "ConstraintResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TextMessageWriter*), "DisplayDifferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
@@ -249,7 +249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Il2CppName: DisplayDifferences
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(::Il2CppObject*, ::Il2CppObject*)>(&NUnit::Framework::Internal::TextMessageWriter::DisplayDifferences)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* expected = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* actual = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TextMessageWriter*), "DisplayDifferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expected, actual});
@@ -259,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Il2CppName: DisplayDifferences
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(::Il2CppObject*, ::Il2CppObject*, NUnit::Framework::Constraints::Tolerance*)>(&NUnit::Framework::Internal::TextMessageWriter::DisplayDifferences)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* expected = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* actual = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* tolerance = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "Tolerance")->byval_arg;
@@ -270,7 +270,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Il2CppName: DisplayStringDifferences
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(::Il2CppString*, ::Il2CppString*, int, bool, bool)>(&NUnit::Framework::Internal::TextMessageWriter::DisplayStringDifferences)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* expected = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* actual = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* mismatch = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -283,7 +283,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Il2CppName: WriteActualValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(::Il2CppObject*)>(&NUnit::Framework::Internal::TextMessageWriter::WriteActualValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* actual = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TextMessageWriter*), "WriteActualValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{actual});
   }
@@ -292,7 +292,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Il2CppName: WriteValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(::Il2CppObject*)>(&NUnit::Framework::Internal::TextMessageWriter::WriteValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* val = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TextMessageWriter*), "WriteValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val});
   }
@@ -301,7 +301,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Il2CppName: WriteCollectionElements
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(System::Collections::IEnumerable*, int64_t, int)>(&NUnit::Framework::Internal::TextMessageWriter::WriteCollectionElements)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* collection = &::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerable")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* max = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -312,7 +312,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NUnit::Framework::Internal::TextMessageWriter::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TextMessageWriter*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

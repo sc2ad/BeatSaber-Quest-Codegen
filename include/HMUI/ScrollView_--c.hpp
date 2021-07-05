@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView::$$c*, "HMUI", "ScrollView/<>c");
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&HMUI::ScrollView::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <Awake>b__38_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::ScrollView::$$c::*)(float)>(&HMUI::ScrollView::$$c::$Awake$b__38_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* i = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView::$$c*), "<Awake>b__38_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i});
   }
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI
 // Il2CppName: <Awake>b__38_3
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::ScrollView::$$c::*)(float)>(&HMUI::ScrollView::$$c::$Awake$b__38_3)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* i = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollView::$$c*), "<Awake>b__38_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i});
   }

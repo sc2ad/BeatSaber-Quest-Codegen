@@ -97,7 +97,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IntListSettingsController*, "", "IntList
 // Il2CppName: add_valueChangedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntListSettingsController::*)(System::Action_1<int>*)>(&GlobalNamespace::IntListSettingsController::add_valueChangedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntListSettingsController*), "add_valueChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_valueChangedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntListSettingsController::*)(System::Action_1<int>*)>(&GlobalNamespace::IntListSettingsController::remove_valueChangedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntListSettingsController*), "remove_valueChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: InitValues
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntListSettingsController::*)(int, int)>(&GlobalNamespace::IntListSettingsController::InitValues)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* numberOfElements = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntListSettingsController*), "InitValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{numberOfElements, index});
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: GetInitValues
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IntListSettingsController::*)(int&, int&)>(&GlobalNamespace::IntListSettingsController::GetInitValues)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* numberOfElements = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntListSettingsController*), "GetInitValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{idx, numberOfElements});
@@ -135,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: ApplyValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntListSettingsController::*)(int)>(&GlobalNamespace::IntListSettingsController::ApplyValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntListSettingsController*), "ApplyValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{idx});
   }
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: TextForValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::IntListSettingsController::*)(int)>(&GlobalNamespace::IntListSettingsController::TextForValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntListSettingsController*), "TextForValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{idx});
   }

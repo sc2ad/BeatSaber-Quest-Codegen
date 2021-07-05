@@ -39,7 +39,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::ICancelHandler*, "UnityEngine.
 // Il2CppName: OnCancel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::ICancelHandler::*)(UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ICancelHandler::OnCancel)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::ICancelHandler*), "OnCancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eventData});
   }

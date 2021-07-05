@@ -65,7 +65,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Controller*, "", "SteamVR_Contro
 // Il2CppName: Input
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Controller::Device* (*)(int)>(&GlobalNamespace::SteamVR_Controller::Input)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* deviceIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller*), "Input", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{deviceIndex});
   }
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: Update
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::SteamVR_Controller::Update)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: GetDeviceIndex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(GlobalNamespace::SteamVR_Controller::DeviceRelation, Valve::VR::ETrackedDeviceClass, int)>(&GlobalNamespace::SteamVR_Controller::GetDeviceIndex)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* relation = &::il2cpp_utils::GetClassFromName("", "SteamVR_Controller/DeviceRelation")->byval_arg;
     static auto* deviceClass = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackedDeviceClass")->byval_arg;
     static auto* relativeTo = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

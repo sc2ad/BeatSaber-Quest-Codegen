@@ -83,7 +83,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SelectPathFaces*, "UnityEngine.P
 // Il2CppName: GetPath
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<int>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, int, int)>(&UnityEngine::ProBuilder::SelectPathFaces::GetPath)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: Dijkstra
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, int)>(&UnityEngine::ProBuilder::SelectPathFaces::Dijkstra)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SelectPathFaces*), "Dijkstra", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh, start});
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int
 // Il2CppName: GetWeight
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(int, int, UnityEngine::ProBuilder::ProBuilderMesh*)>(&UnityEngine::ProBuilder::SelectPathFaces::GetWeight)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* face1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* face2 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(i
 // Il2CppName: GetMinimalPath
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<int>* (*)(::Array<int>*, int, int)>(&UnityEngine::ProBuilder::SelectPathFaces::GetMinimalPath)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* predecessors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -126,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::ProBuilder::SelectPathFaces::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SelectPathFaces*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

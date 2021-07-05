@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::FilterCallback*, "Oculus.Platform
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::CAPI::FilterCallback::*)(::Array<int16_t>*&, System::UIntPtr, int, int)>(&Oculus::Platform::CAPI::FilterCallback::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pcmData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int16"), 1)->this_arg;
     static auto* pcmDataLength = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
     static auto* frequency = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Oculus::Platform::CAPI::FilterCallback::*)(::Array<int16_t>*&, System::UIntPtr, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&Oculus::Platform::CAPI::FilterCallback::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pcmData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int16"), 1)->this_arg;
     static auto* pcmDataLength = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
     static auto* frequency = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::CAPI::FilterCallback::*)(System::IAsyncResult*)>(&Oculus::Platform::CAPI::FilterCallback::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CAPI::FilterCallback*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

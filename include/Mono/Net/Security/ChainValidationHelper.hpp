@@ -159,7 +159,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::ChainValidationHelper*, "Mono.Net.Se
 // Il2CppName: GetInternalValidator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::ICertificateValidator* (*)(Mono::Security::Interface::MonoTlsProvider*, Mono::Security::Interface::MonoTlsSettings*)>(&Mono::Net::Security::ChainValidationHelper::GetInternalValidator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("Mono.Security.Interface", "MonoTlsProvider")->byval_arg;
     static auto* settings = &::il2cpp_utils::GetClassFromName("Mono.Security.Interface", "MonoTlsSettings")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::ChainValidationHelper*), "GetInternalValidator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider, settings});
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Il2CppName: Create
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::Security::ChainValidationHelper* (*)(Mono::Security::Interface::MonoTlsProvider*, Mono::Security::Interface::MonoTlsSettings*&, Mono::Net::Security::MonoTlsStream*)>(&Mono::Net::Security::ChainValidationHelper::Create)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("Mono.Security.Interface", "MonoTlsProvider")->byval_arg;
     static auto* settings = &::il2cpp_utils::GetClassFromName("Mono.Security.Interface", "MonoTlsSettings")->this_arg;
     static auto* stream = &::il2cpp_utils::GetClassFromName("Mono.Net.Security", "MonoTlsStream")->byval_arg;
@@ -184,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::
 // Il2CppName: DefaultSelectionCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate* (*)(::Il2CppString*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, System::Security::Cryptography::X509Certificates::X509Certificate*, ::Array<::Il2CppString*>*)>(&Mono::Net::Security::ChainValidationHelper::DefaultSelectionCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* targetHost = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* localCertificates = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509CertificateCollection")->byval_arg;
     static auto* remoteCertificate = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate")->byval_arg;
@@ -196,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Il2CppName: get_Settings
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsSettings* (Mono::Net::Security::ChainValidationHelper::*)()>(&Mono::Net::Security::ChainValidationHelper::get_Settings)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::ChainValidationHelper*), "get_Settings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Il2CppName: SelectClientCertificate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Net::Security::ChainValidationHelper::*)(::Il2CppString*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, System::Security::Cryptography::X509Certificates::X509Certificate*, ::Array<::Il2CppString*>*, System::Security::Cryptography::X509Certificates::X509Certificate*&)>(&Mono::Net::Security::ChainValidationHelper::SelectClientCertificate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* targetHost = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* localCertificates = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509CertificateCollection")->byval_arg;
     static auto* remoteCertificate = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate")->byval_arg;
@@ -217,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Il2CppName: ValidateCertificate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::ValidationResult* (Mono::Net::Security::ChainValidationHelper::*)(::Il2CppString*, bool, System::Security::Cryptography::X509Certificates::X509CertificateCollection*)>(&Mono::Net::Security::ChainValidationHelper::ValidateCertificate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* host = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* serverMode = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* certs = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509CertificateCollection")->byval_arg;
@@ -228,7 +228,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Il2CppName: ValidateCertificate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::ValidationResult* (Mono::Net::Security::ChainValidationHelper::*)(::Il2CppString*, bool, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509Chain*)>(&Mono::Net::Security::ChainValidationHelper::ValidateCertificate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* host = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* serverMode = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* leaf = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate")->byval_arg;
@@ -240,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Il2CppName: ValidateChain
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::ValidationResult* (Mono::Net::Security::ChainValidationHelper::*)(::Il2CppString*, bool, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509Chain*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, System::Net::Security::SslPolicyErrors)>(&Mono::Net::Security::ChainValidationHelper::ValidateChain)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* host = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* server = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* leaf = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate")->byval_arg;
@@ -254,7 +254,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Il2CppName: ValidateChain
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::ValidationResult* (Mono::Net::Security::ChainValidationHelper::*)(::Il2CppString*, bool, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509Chain*&, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, System::Net::Security::SslPolicyErrors)>(&Mono::Net::Security::ChainValidationHelper::ValidateChain_)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* host = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* server = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* leaf = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate")->byval_arg;

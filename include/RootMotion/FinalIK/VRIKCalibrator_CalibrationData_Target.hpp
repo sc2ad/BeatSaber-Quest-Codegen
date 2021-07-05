@@ -76,7 +76,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Tar
 // Il2CppName: SetTo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target::*)(UnityEngine::Transform*)>(&RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target::SetTo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*), "SetTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }

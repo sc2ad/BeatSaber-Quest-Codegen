@@ -44,7 +44,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParser::IAttrList*, "Mono.Xml", "Small
 // Il2CppName: get_Length
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Xml::SmallXmlParser::IAttrList::*)()>(&Mono::Xml::SmallXmlParser::IAttrList::get_Length)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser::IAttrList*), "get_Length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -52,7 +52,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Il2CppName: GetName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Xml::SmallXmlParser::IAttrList::*)(int)>(&Mono::Xml::SmallXmlParser::IAttrList::GetName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser::IAttrList*), "GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i});
   }
@@ -61,7 +61,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Xml::SmallXmlParser::IAttrList::*)(int)>(&Mono::Xml::SmallXmlParser::IAttrList::GetValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser::IAttrList*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i});
   }
@@ -70,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Xml::SmallXmlParser::IAttrList::*)(::Il2CppString*)>(&Mono::Xml::SmallXmlParser::IAttrList::GetValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser::IAttrList*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
   }
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_Names
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (Mono::Xml::SmallXmlParser::IAttrList::*)()>(&Mono::Xml::SmallXmlParser::IAttrList::get_Names)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser::IAttrList*), "get_Names", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: get_Values
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (Mono::Xml::SmallXmlParser::IAttrList::*)()>(&Mono::Xml::SmallXmlParser::IAttrList::get_Values)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Xml::SmallXmlParser::IAttrList*), "get_Values", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

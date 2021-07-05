@@ -57,7 +57,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::DomainNameHelper*, "System", "DomainNameHelper");
 // Il2CppName: ParseCanonicalName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int, int, bool&)>(&System::DomainNameHelper::ParseCanonicalName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -69,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: IsValid
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, uint16_t, int&, bool&, bool)>(&System::DomainNameHelper::IsValid)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* pos = &::il2cpp_utils::GetClassFromName("System", "UInt16")->byval_arg;
     static auto* returnedEnd = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: IsValidByIri
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, uint16_t, int&, bool&, bool)>(&System::DomainNameHelper::IsValidByIri)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* pos = &::il2cpp_utils::GetClassFromName("System", "UInt16")->byval_arg;
     static auto* returnedEnd = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: IdnEquivalent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppChar*, int, int, bool&, bool&)>(&System::DomainNameHelper::IdnEquivalent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hostname = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: IdnEquivalent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppChar*, int, int, bool&, ::Il2CppString*&)>(&System::DomainNameHelper::IdnEquivalent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hostname = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: IsIdnAce
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int)>(&System::DomainNameHelper::IsIdnAce)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::DomainNameHelper*), "IsIdnAce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, index});
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: IsIdnAce
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, int)>(&System::DomainNameHelper::IsIdnAce)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::DomainNameHelper*), "IsIdnAce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, index});
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: UnicodeEquivalent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppChar*, int, int)>(&System::DomainNameHelper::UnicodeEquivalent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* idnHost = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* hostname = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: UnicodeEquivalent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppChar*, int, int, bool&, bool&)>(&System::DomainNameHelper::UnicodeEquivalent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hostname = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -166,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: IsASCIILetterOrDigit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar, bool&)>(&System::DomainNameHelper::IsASCIILetterOrDigit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* character = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* notCanonical = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::DomainNameHelper*), "IsASCIILetterOrDigit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{character, notCanonical});
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: IsValidDomainLabelCharacter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar, bool&)>(&System::DomainNameHelper::IsValidDomainLabelCharacter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* character = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* notCanonical = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::DomainNameHelper*), "IsValidDomainLabelCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{character, notCanonical});

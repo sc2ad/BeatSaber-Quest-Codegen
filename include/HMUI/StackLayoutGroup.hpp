@@ -96,7 +96,7 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::StackLayoutGroup*, "HMUI", "StackLayoutGroup");
 // Il2CppName: get_childForceExpandWidth
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI::StackLayoutGroup::*)()>(&HMUI::StackLayoutGroup::get_childForceExpandWidth)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::StackLayoutGroup*), "get_childForceExpandWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI:
 // Il2CppName: set_childForceExpandWidth
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackLayoutGroup::*)(bool)>(&HMUI::StackLayoutGroup::set_childForceExpandWidth)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::StackLayoutGroup*), "set_childForceExpandWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: get_childForceExpandHeight
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI::StackLayoutGroup::*)()>(&HMUI::StackLayoutGroup::get_childForceExpandHeight)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::StackLayoutGroup*), "get_childForceExpandHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI:
 // Il2CppName: set_childForceExpandHeight
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackLayoutGroup::*)(bool)>(&HMUI::StackLayoutGroup::set_childForceExpandHeight)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::StackLayoutGroup*), "set_childForceExpandHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: CalcAlongAxis
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackLayoutGroup::*)(int)>(&HMUI::StackLayoutGroup::CalcAlongAxis)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* axis = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::StackLayoutGroup*), "CalcAlongAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{axis});
   }
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: SetChildrenAlongAxis
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackLayoutGroup::*)(int)>(&HMUI::StackLayoutGroup::SetChildrenAlongAxis)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* axis = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::StackLayoutGroup*), "SetChildrenAlongAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{axis});
   }
@@ -152,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: CalculateLayoutInputHorizontal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackLayoutGroup::*)()>(&HMUI::StackLayoutGroup::CalculateLayoutInputHorizontal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::StackLayoutGroup*), "CalculateLayoutInputHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: CalculateLayoutInputVertical
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackLayoutGroup::*)()>(&HMUI::StackLayoutGroup::CalculateLayoutInputVertical)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::StackLayoutGroup*), "CalculateLayoutInputVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: SetLayoutHorizontal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackLayoutGroup::*)()>(&HMUI::StackLayoutGroup::SetLayoutHorizontal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::StackLayoutGroup*), "SetLayoutHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: SetLayoutVertical
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackLayoutGroup::*)()>(&HMUI::StackLayoutGroup::SetLayoutVertical)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::StackLayoutGroup*), "SetLayoutVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

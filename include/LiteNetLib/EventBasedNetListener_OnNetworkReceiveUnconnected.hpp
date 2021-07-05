@@ -72,7 +72,7 @@ DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::EventBasedNetListener::OnNetworkReceiveUnconn
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::OnNetworkReceiveUnconnected::*)(System::Net::IPEndPoint*, LiteNetLib::NetPacketReader*, LiteNetLib::UnconnectedMessageType)>(&LiteNetLib::EventBasedNetListener::OnNetworkReceiveUnconnected::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPacketReader")->byval_arg;
     static auto* messageType = &::il2cpp_utils::GetClassFromName("LiteNetLib", "UnconnectedMessageType")->byval_arg;
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (LiteNetLib::EventBasedNetListener::OnNetworkReceiveUnconnected::*)(System::Net::IPEndPoint*, LiteNetLib::NetPacketReader*, LiteNetLib::UnconnectedMessageType, System::AsyncCallback*, ::Il2CppObject*)>(&LiteNetLib::EventBasedNetListener::OnNetworkReceiveUnconnected::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPacketReader")->byval_arg;
     static auto* messageType = &::il2cpp_utils::GetClassFromName("LiteNetLib", "UnconnectedMessageType")->byval_arg;
@@ -96,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNetListener::OnNetworkReceiveUnconnected::*)(System::IAsyncResult*)>(&LiteNetLib::EventBasedNetListener::OnNetworkReceiveUnconnected::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNetListener::OnNetworkReceiveUnconnected*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

@@ -96,7 +96,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::UnmodifiableDi
 // Il2CppName: Contains
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::*)(::Il2CppObject*)>(&Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::Contains)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* k = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{k});
   }
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::
 // Il2CppName: CopyTo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::*)(System::Array*, int)>(&Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::CopyTo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array, index});
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Il2CppName: get_Count
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::*)()>(&Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::get_Count)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Il2CppName: GetEnumerator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionaryEnumerator* (Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::*)()>(&Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::GetEnumerator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: get_Keys
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ICollection* (Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::*)()>(&Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::get_Keys)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy*), "get_Keys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: GetValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::*)(::Il2CppObject*)>(&Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy::GetValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* k = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{k});
   }

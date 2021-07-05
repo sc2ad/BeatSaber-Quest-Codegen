@@ -48,7 +48,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LineTriangleIntersection*, "", "LineTria
 // Il2CppName: Intersects
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Ray, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3)>(&GlobalNamespace::LineTriangleIntersection::Intersects)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
     static auto* p0 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* p1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;

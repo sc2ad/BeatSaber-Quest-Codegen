@@ -64,7 +64,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::NamespaceResolverProxy*
 // Il2CppName: System.Xml.IXmlNamespaceResolver.LookupNamespace
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::XmlWellFormedWriter::NamespaceResolverProxy::*)(::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::NamespaceResolverProxy::System_Xml_IXmlNamespaceResolver_LookupNamespace)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter::NamespaceResolverProxy*), "System.Xml.IXmlNamespaceResolver.LookupNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prefix});
   }
@@ -73,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: System.Xml.IXmlNamespaceResolver.LookupPrefix
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Xml::XmlWellFormedWriter::NamespaceResolverProxy::*)(::Il2CppString*)>(&System::Xml::XmlWellFormedWriter::NamespaceResolverProxy::System_Xml_IXmlNamespaceResolver_LookupPrefix)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* namespaceName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlWellFormedWriter::NamespaceResolverProxy*), "System.Xml.IXmlNamespaceResolver.LookupPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{namespaceName});
   }

@@ -90,7 +90,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Security::PKCS7::EncryptedData*, "Mono.Security", "
 // Il2CppName: get_EncryptionAlgorithm
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::PKCS7::ContentInfo* (Mono::Security::PKCS7::EncryptedData::*)()>(&Mono::Security::PKCS7::EncryptedData::get_EncryptionAlgorithm)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::PKCS7::EncryptedData*), "get_EncryptionAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Il2CppName: get_EncryptedContent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::PKCS7::EncryptedData::*)()>(&Mono::Security::PKCS7::EncryptedData::get_EncryptedContent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::PKCS7::EncryptedData*), "get_EncryptedContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

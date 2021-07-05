@@ -100,7 +100,7 @@ DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::ReceivedHighscoreData, "NetEase.Docker",
 // Il2CppName: get_FetchingSuccessful
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetEase::Docker::ReceivedHighscoreData::*)()>(&NetEase::Docker::ReceivedHighscoreData::get_FetchingSuccessful)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::ReceivedHighscoreData), "get_FetchingSuccessful", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetEa
 // Il2CppName: set_FetchingSuccessful
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::ReceivedHighscoreData::*)(bool)>(&NetEase::Docker::ReceivedHighscoreData::set_FetchingSuccessful)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::ReceivedHighscoreData), "set_FetchingSuccessful", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEa
 // Il2CppName: set_HighscoreCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::ReceivedHighscoreData::*)(int)>(&NetEase::Docker::ReceivedHighscoreData::set_HighscoreCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::ReceivedHighscoreData), "set_HighscoreCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -126,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEa
 // Il2CppName: get_Track
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NetEase::Docker::ReceivedHighscoreData::*)()>(&NetEase::Docker::ReceivedHighscoreData::get_Track)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::ReceivedHighscoreData), "get_Track", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -134,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_Track
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::ReceivedHighscoreData::*)(::Il2CppString*)>(&NetEase::Docker::ReceivedHighscoreData::set_Track)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::ReceivedHighscoreData), "set_Track", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -143,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEa
 // Il2CppName: get_Scores
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<NetEase::Docker::ScoreData>* (NetEase::Docker::ReceivedHighscoreData::*)()>(&NetEase::Docker::ReceivedHighscoreData::get_Scores)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::ReceivedHighscoreData), "get_Scores", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -151,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: set_Scores
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::ReceivedHighscoreData::*)(System::Collections::Generic::List_1<NetEase::Docker::ScoreData>*)>(&NetEase::Docker::ReceivedHighscoreData::set_Scores)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("NetEase.Docker", "ScoreData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::ReceivedHighscoreData), "set_Scores", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

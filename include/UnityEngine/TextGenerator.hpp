@@ -255,7 +255,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextGenerator*, "UnityEngine", "TextGenerato
 // Il2CppName: System.IDisposable.Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextGenerator::*)()>(&UnityEngine::TextGenerator::System_IDisposable_Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -263,7 +263,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_characterCountVisible
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::TextGenerator::*)()>(&UnityEngine::TextGenerator::get_characterCountVisible)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "get_characterCountVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -271,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: ValidatedSettings
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextGenerationSettings (UnityEngine::TextGenerator::*)(UnityEngine::TextGenerationSettings)>(&UnityEngine::TextGenerator::ValidatedSettings)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* settings = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextGenerationSettings")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "ValidatedSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{settings});
   }
@@ -280,7 +280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Invalidate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextGenerator::*)()>(&UnityEngine::TextGenerator::Invalidate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "Invalidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -288,7 +288,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetCharacters
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextGenerator::*)(System::Collections::Generic::List_1<UnityEngine::UICharInfo>*)>(&UnityEngine::TextGenerator::GetCharacters)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* characters = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "UICharInfo")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "GetCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{characters});
   }
@@ -297,7 +297,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetLines
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextGenerator::*)(System::Collections::Generic::List_1<UnityEngine::UILineInfo>*)>(&UnityEngine::TextGenerator::GetLines)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lines = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "UILineInfo")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "GetLines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lines});
   }
@@ -306,7 +306,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetVertices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextGenerator::*)(System::Collections::Generic::List_1<UnityEngine::UIVertex>*)>(&UnityEngine::TextGenerator::GetVertices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* vertices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "UIVertex")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "GetVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vertices});
   }
@@ -315,7 +315,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetPreferredWidth
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::TextGenerator::*)(::Il2CppString*, UnityEngine::TextGenerationSettings)>(&UnityEngine::TextGenerator::GetPreferredWidth)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* settings = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextGenerationSettings")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "GetPreferredWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str, settings});
@@ -325,7 +325,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Il2CppName: GetPreferredHeight
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::TextGenerator::*)(::Il2CppString*, UnityEngine::TextGenerationSettings)>(&UnityEngine::TextGenerator::GetPreferredHeight)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* settings = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextGenerationSettings")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "GetPreferredHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str, settings});
@@ -335,7 +335,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Il2CppName: PopulateWithErrors
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextGenerator::*)(::Il2CppString*, UnityEngine::TextGenerationSettings, UnityEngine::GameObject*)>(&UnityEngine::TextGenerator::PopulateWithErrors)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* settings = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextGenerationSettings")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
@@ -346,7 +346,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: Populate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextGenerator::*)(::Il2CppString*, UnityEngine::TextGenerationSettings)>(&UnityEngine::TextGenerator::Populate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* settings = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextGenerationSettings")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "Populate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str, settings});
@@ -356,7 +356,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: PopulateWithError
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextGenerationError (UnityEngine::TextGenerator::*)(::Il2CppString*, UnityEngine::TextGenerationSettings)>(&UnityEngine::TextGenerator::PopulateWithError)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* settings = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextGenerationSettings")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "PopulateWithError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str, settings});
@@ -366,7 +366,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: PopulateAlways
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextGenerationError (UnityEngine::TextGenerator::*)(::Il2CppString*, UnityEngine::TextGenerationSettings)>(&UnityEngine::TextGenerator::PopulateAlways)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* settings = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextGenerationSettings")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "PopulateAlways", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str, settings});
@@ -376,7 +376,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_verts
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<UnityEngine::UIVertex>* (UnityEngine::TextGenerator::*)()>(&UnityEngine::TextGenerator::get_verts)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "get_verts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -384,7 +384,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: get_characters
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<UnityEngine::UICharInfo>* (UnityEngine::TextGenerator::*)()>(&UnityEngine::TextGenerator::get_characters)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "get_characters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -392,7 +392,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: get_lines
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<UnityEngine::UILineInfo>* (UnityEngine::TextGenerator::*)()>(&UnityEngine::TextGenerator::get_lines)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "get_lines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -400,7 +400,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: get_rectExtents
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (UnityEngine::TextGenerator::*)()>(&UnityEngine::TextGenerator::get_rectExtents)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "get_rectExtents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -408,7 +408,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_characterCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::TextGenerator::*)()>(&UnityEngine::TextGenerator::get_characterCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "get_characterCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -416,7 +416,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: get_lineCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::TextGenerator::*)()>(&UnityEngine::TextGenerator::get_lineCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "get_lineCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -424,7 +424,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: Internal_Create
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&UnityEngine::TextGenerator::Internal_Create)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "Internal_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -432,7 +432,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: Internal_Destroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&UnityEngine::TextGenerator::Internal_Destroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ptr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "Internal_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ptr});
   }
@@ -441,7 +441,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: Populate_Internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextGenerator::*)(::Il2CppString*, UnityEngine::Font*, UnityEngine::Color, int, float, float, UnityEngine::FontStyle, bool, bool, int, int, int, int, bool, UnityEngine::TextAnchor, float, float, float, float, bool, bool, uint&)>(&UnityEngine::TextGenerator::Populate_Internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* font = &::il2cpp_utils::GetClassFromName("UnityEngine", "Font")->byval_arg;
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
@@ -471,7 +471,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: Populate_Internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextGenerator::*)(::Il2CppString*, UnityEngine::Font*, UnityEngine::Color, int, float, float, UnityEngine::FontStyle, bool, bool, int, int, UnityEngine::VerticalWrapMode, UnityEngine::HorizontalWrapMode, bool, UnityEngine::TextAnchor, UnityEngine::Vector2, UnityEngine::Vector2, bool, bool, UnityEngine::TextGenerationError&)>(&UnityEngine::TextGenerator::Populate_Internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* font = &::il2cpp_utils::GetClassFromName("UnityEngine", "Font")->byval_arg;
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
@@ -499,7 +499,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: GetVerticesInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextGenerator::*)(::Il2CppObject*)>(&UnityEngine::TextGenerator::GetVerticesInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* vertices = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "GetVerticesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vertices});
   }
@@ -508,7 +508,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetCharactersInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextGenerator::*)(::Il2CppObject*)>(&UnityEngine::TextGenerator::GetCharactersInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* characters = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "GetCharactersInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{characters});
   }
@@ -517,7 +517,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetLinesInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextGenerator::*)(::Il2CppObject*)>(&UnityEngine::TextGenerator::GetLinesInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lines = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "GetLinesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lines});
   }
@@ -526,7 +526,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_rectExtents_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextGenerator::*)(UnityEngine::Rect&)>(&UnityEngine::TextGenerator::get_rectExtents_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "get_rectExtents_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
   }
@@ -535,7 +535,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Populate_Internal_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextGenerator::*)(::Il2CppString*, UnityEngine::Font*, UnityEngine::Color&, int, float, float, UnityEngine::FontStyle, bool, bool, int, int, int, int, bool, UnityEngine::TextAnchor, float, float, float, float, bool, bool, uint&)>(&UnityEngine::TextGenerator::Populate_Internal_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* font = &::il2cpp_utils::GetClassFromName("UnityEngine", "Font")->byval_arg;
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->this_arg;
@@ -569,7 +569,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: Finalize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TextGenerator::*)()>(&UnityEngine::TextGenerator::Finalize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerator*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

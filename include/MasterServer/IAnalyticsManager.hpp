@@ -108,7 +108,7 @@ DEFINE_IL2CPP_ARG_TYPE(MasterServer::IAnalyticsManager*, "MasterServer", "IAnaly
 // Il2CppName: PollUpdate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)()>(&MasterServer::IAnalyticsManager::PollUpdate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "PollUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: UpdateState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(::Il2CppString*, int64_t, MasterServer::AnalyticsMetricUnit, bool)>(&MasterServer::IAnalyticsManager::UpdateState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* metricName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* unit = &::il2cpp_utils::GetClassFromName("MasterServer", "AnalyticsMetricUnit")->byval_arg;
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: UpdateAverage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(::Il2CppString*, double, MasterServer::AnalyticsMetricUnit, bool)>(&MasterServer::IAnalyticsManager::UpdateAverage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* metricName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     static auto* unit = &::il2cpp_utils::GetClassFromName("MasterServer", "AnalyticsMetricUnit")->byval_arg;
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: IncrementCounter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(::Il2CppString*, int64_t, MasterServer::AnalyticsMetricUnit)>(&MasterServer::IAnalyticsManager::IncrementCounter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* metricName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* incrementAmount = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* unit = &::il2cpp_utils::GetClassFromName("MasterServer", "AnalyticsMetricUnit")->byval_arg;
@@ -151,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: ReceivedReliableRequestEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(MasterServer::IMasterServerReliableRequest*)>(&MasterServer::IAnalyticsManager::ReceivedReliableRequestEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerReliableRequest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "ReceivedReliableRequestEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{request});
   }
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: SentReliableRequestEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(MasterServer::IMasterServerReliableRequest*)>(&MasterServer::IAnalyticsManager::SentReliableRequestEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerReliableRequest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "SentReliableRequestEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{request});
   }
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: ReceivedReliableResponseEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(MasterServer::IMasterServerReliableResponse*)>(&MasterServer::IAnalyticsManager::ReceivedReliableResponseEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerReliableResponse")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "ReceivedReliableResponseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{request});
   }
@@ -178,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: SentReliableResponseEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(MasterServer::IMasterServerReliableResponse*)>(&MasterServer::IAnalyticsManager::SentReliableResponseEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* response = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerReliableResponse")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "SentReliableResponseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{response});
   }
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: ReceivedUnreliableMessageEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(MasterServer::IMasterServerUnreliableMessage*)>(&MasterServer::IAnalyticsManager::ReceivedUnreliableMessageEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerUnreliableMessage")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "ReceivedUnreliableMessageEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
   }
@@ -196,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: SentUnreliableMessageEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(MasterServer::IMasterServerUnreliableMessage*)>(&MasterServer::IAnalyticsManager::SentUnreliableMessageEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerUnreliableMessage")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "SentUnreliableMessageEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
   }
@@ -205,7 +205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: SentUnreliableResponseEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(MasterServer::IMasterServerResponse*)>(&MasterServer::IAnalyticsManager::SentUnreliableResponseEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* response = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerResponse")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "SentUnreliableResponseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{response});
   }
@@ -214,7 +214,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: ReceivedUnreliableResponseEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(MasterServer::IMasterServerResponse*)>(&MasterServer::IAnalyticsManager::ReceivedUnreliableResponseEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* response = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerResponse")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "ReceivedUnreliableResponseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{response});
   }
@@ -223,7 +223,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: DedicatedServerServerConnectedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(GlobalNamespace::DedicatedServerType)>(&MasterServer::IAnalyticsManager::DedicatedServerServerConnectedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* serverType = &::il2cpp_utils::GetClassFromName("", "DedicatedServerType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "DedicatedServerServerConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serverType});
   }
@@ -232,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: DedicatedServerServerConnectionFailedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(GlobalNamespace::DedicatedServerType, GlobalNamespace::ConnectionFailedReason)>(&MasterServer::IAnalyticsManager::DedicatedServerServerConnectionFailedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* serverType = &::il2cpp_utils::GetClassFromName("", "DedicatedServerType")->byval_arg;
     static auto* reason = &::il2cpp_utils::GetClassFromName("", "ConnectionFailedReason")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "DedicatedServerServerConnectionFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serverType, reason});
@@ -242,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: DedicatedServerServerDisconnectedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(GlobalNamespace::DedicatedServerType, GlobalNamespace::DisconnectedReason)>(&MasterServer::IAnalyticsManager::DedicatedServerServerDisconnectedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* serverType = &::il2cpp_utils::GetClassFromName("", "DedicatedServerType")->byval_arg;
     static auto* reason = &::il2cpp_utils::GetClassFromName("", "DisconnectedReason")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "DedicatedServerServerDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serverType, reason});
@@ -252,7 +252,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: DedicatedServerPlayerConnectedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(GlobalNamespace::DedicatedServerType)>(&MasterServer::IAnalyticsManager::DedicatedServerPlayerConnectedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* serverType = &::il2cpp_utils::GetClassFromName("", "DedicatedServerType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "DedicatedServerPlayerConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serverType});
   }
@@ -261,7 +261,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: DedicatedServerPlayerDisconnectedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IAnalyticsManager::*)(GlobalNamespace::DedicatedServerType, GlobalNamespace::DisconnectedReason)>(&MasterServer::IAnalyticsManager::DedicatedServerPlayerDisconnectedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* serverType = &::il2cpp_utils::GetClassFromName("", "DedicatedServerType")->byval_arg;
     static auto* reason = &::il2cpp_utils::GetClassFromName("", "DisconnectedReason")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IAnalyticsManager*), "DedicatedServerPlayerDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serverType, reason});

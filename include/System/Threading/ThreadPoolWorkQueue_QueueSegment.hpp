@@ -82,7 +82,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPoolWorkQueue::QueueSegment*, "S
 // Il2CppName: GetIndexes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ThreadPoolWorkQueue::QueueSegment::*)(int&, int&)>(&System::Threading::ThreadPoolWorkQueue::QueueSegment::GetIndexes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* upper = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* lower = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPoolWorkQueue::QueueSegment*), "GetIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{upper, lower});
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: CompareExchangeIndexes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ThreadPoolWorkQueue::QueueSegment::*)(int&, int, int&, int)>(&System::Threading::ThreadPoolWorkQueue::QueueSegment::CompareExchangeIndexes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prevUpper = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* newUpper = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* prevLower = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: IsUsedUp
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ThreadPoolWorkQueue::QueueSegment::*)()>(&System::Threading::ThreadPoolWorkQueue::QueueSegment::IsUsedUp)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPoolWorkQueue::QueueSegment*), "IsUsedUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: TryEnqueue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ThreadPoolWorkQueue::QueueSegment::*)(System::Threading::IThreadPoolWorkItem*)>(&System::Threading::ThreadPoolWorkQueue::QueueSegment::TryEnqueue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Threading", "IThreadPoolWorkItem")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPoolWorkQueue::QueueSegment*), "TryEnqueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
   }
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: TryDequeue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ThreadPoolWorkQueue::QueueSegment::*)(System::Threading::IThreadPoolWorkItem*&)>(&System::Threading::ThreadPoolWorkQueue::QueueSegment::TryDequeue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System.Threading", "IThreadPoolWorkItem")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPoolWorkQueue::QueueSegment*), "TryDequeue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
   }

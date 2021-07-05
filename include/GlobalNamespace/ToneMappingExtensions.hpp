@@ -43,7 +43,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ToneMappingExtensions*, "", "ToneMapping
 // Il2CppName: SetShaderKeyword
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::ToneMapping)>(&GlobalNamespace::ToneMappingExtensions::SetShaderKeyword)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* toneMapping = &::il2cpp_utils::GetClassFromName("", "ToneMapping")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ToneMappingExtensions*), "SetShaderKeyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{toneMapping});
   }
@@ -52,7 +52,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Gl
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::ToneMappingExtensions::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ToneMappingExtensions*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

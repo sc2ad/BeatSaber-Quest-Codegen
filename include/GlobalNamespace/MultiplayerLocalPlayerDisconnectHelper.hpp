@@ -93,7 +93,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*,
 // Il2CppName: Disconnect
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::*)()>(&GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::Disconnect)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*), "Disconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ResolveDisconnectButtonString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::*)()>(&GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::ResolveDisconnectButtonString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*), "ResolveDisconnectButtonString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -230,7 +230,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Controller::Device*, "", "SteamV
 // Il2CppName: get_index
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::get_index)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "get_index", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -238,7 +238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Globa
 // Il2CppName: set_index
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Controller::Device::*)(uint)>(&GlobalNamespace::SteamVR_Controller::Device::set_index)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "set_index", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -247,7 +247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_valid
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::get_valid)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "get_valid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -255,7 +255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: set_valid
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Controller::Device::*)(bool)>(&GlobalNamespace::SteamVR_Controller::Device::set_valid)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "set_valid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -264,7 +264,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_connected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::get_connected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "get_connected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -272,7 +272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: get_hasTracking
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::get_hasTracking)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "get_hasTracking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -280,7 +280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: get_outOfRange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::get_outOfRange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "get_outOfRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -288,7 +288,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: get_calibrating
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::get_calibrating)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "get_calibrating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -296,7 +296,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: get_uninitialized
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::get_uninitialized)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "get_uninitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -304,7 +304,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: get_transform
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Utils::RigidTransform (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::get_transform)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -312,7 +312,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_velocity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::get_velocity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "get_velocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -320,7 +320,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_angularVelocity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::get_angularVelocity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "get_angularVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -328,7 +328,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::VRControllerState_t (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::GetState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -336,7 +336,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Il2CppName: GetPrevState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::VRControllerState_t (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::GetPrevState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetPrevState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -344,7 +344,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Il2CppName: GetPose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::TrackedDevicePose_t (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::GetPose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -352,7 +352,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Il2CppName: Update
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::Update)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -360,7 +360,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: GetPress
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(uint64_t)>(&GlobalNamespace::SteamVR_Controller::Device::GetPress)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buttonMask = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetPress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buttonMask});
   }
@@ -369,7 +369,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: GetPressDown
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(uint64_t)>(&GlobalNamespace::SteamVR_Controller::Device::GetPressDown)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buttonMask = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetPressDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buttonMask});
   }
@@ -378,7 +378,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: GetPressUp
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(uint64_t)>(&GlobalNamespace::SteamVR_Controller::Device::GetPressUp)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buttonMask = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetPressUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buttonMask});
   }
@@ -387,7 +387,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: GetPress
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::GetPress)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buttonId = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRButtonId")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetPress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buttonId});
   }
@@ -396,7 +396,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: GetPressDown
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::GetPressDown)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buttonId = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRButtonId")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetPressDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buttonId});
   }
@@ -405,7 +405,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: GetPressUp
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::GetPressUp)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buttonId = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRButtonId")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetPressUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buttonId});
   }
@@ -414,7 +414,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: GetTouch
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(uint64_t)>(&GlobalNamespace::SteamVR_Controller::Device::GetTouch)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buttonMask = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetTouch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buttonMask});
   }
@@ -423,7 +423,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: GetTouchDown
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(uint64_t)>(&GlobalNamespace::SteamVR_Controller::Device::GetTouchDown)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buttonMask = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetTouchDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buttonMask});
   }
@@ -432,7 +432,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: GetTouchUp
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(uint64_t)>(&GlobalNamespace::SteamVR_Controller::Device::GetTouchUp)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buttonMask = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetTouchUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buttonMask});
   }
@@ -441,7 +441,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: GetTouch
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::GetTouch)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buttonId = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRButtonId")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetTouch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buttonId});
   }
@@ -450,7 +450,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: GetTouchDown
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::GetTouchDown)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buttonId = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRButtonId")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetTouchDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buttonId});
   }
@@ -459,7 +459,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: GetTouchUp
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::GetTouchUp)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buttonId = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRButtonId")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetTouchUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buttonId});
   }
@@ -468,7 +468,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: GetAxis
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (GlobalNamespace::SteamVR_Controller::Device::*)(Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::GetAxis)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buttonId = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRButtonId")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buttonId});
   }
@@ -477,7 +477,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: TriggerHapticPulse
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Controller::Device::*)(uint16_t, Valve::VR::EVRButtonId)>(&GlobalNamespace::SteamVR_Controller::Device::TriggerHapticPulse)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* durationMicroSec = &::il2cpp_utils::GetClassFromName("System", "UInt16")->byval_arg;
     static auto* buttonId = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRButtonId")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "TriggerHapticPulse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{durationMicroSec, buttonId});
@@ -487,7 +487,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: UpdateHairTrigger
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::UpdateHairTrigger)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "UpdateHairTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -495,7 +495,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: GetHairTrigger
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::GetHairTrigger)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetHairTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -503,7 +503,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: GetHairTriggerDown
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::GetHairTriggerDown)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetHairTriggerDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -511,7 +511,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: GetHairTriggerUp
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Controller::Device::*)()>(&GlobalNamespace::SteamVR_Controller::Device::GetHairTriggerUp)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Controller::Device*), "GetHairTriggerUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

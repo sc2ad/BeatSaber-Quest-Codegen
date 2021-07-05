@@ -99,7 +99,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeTypeAttribute*, "UnityEngine
 // Il2CppName: set_Header
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeTypeAttribute::*)(::Il2CppString*)>(&UnityEngine::Bindings::NativeTypeAttribute::set_Header)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeTypeAttribute*), "set_Header", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: set_IntermediateScriptingStructName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeTypeAttribute::*)(::Il2CppString*)>(&UnityEngine::Bindings::NativeTypeAttribute::set_IntermediateScriptingStructName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeTypeAttribute*), "set_IntermediateScriptingStructName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: set_CodegenOptions
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeTypeAttribute::*)(UnityEngine::Bindings::CodegenOptions)>(&UnityEngine::Bindings::NativeTypeAttribute::set_CodegenOptions)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.Bindings", "CodegenOptions")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeTypeAttribute*), "set_CodegenOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

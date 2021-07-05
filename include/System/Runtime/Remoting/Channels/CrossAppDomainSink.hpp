@@ -115,7 +115,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::CrossAppDomainSink*,
 // Il2CppName: GetSink
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Channels::CrossAppDomainSink* (*)(int)>(&System::Runtime::Remoting::Channels::CrossAppDomainSink::GetSink)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* domainID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::CrossAppDomainSink*), "GetSink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{domainID});
   }
@@ -124,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: get_TargetDomainId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Runtime::Remoting::Channels::CrossAppDomainSink::*)()>(&System::Runtime::Remoting::Channels::CrossAppDomainSink::get_TargetDomainId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::CrossAppDomainSink*), "get_TargetDomainId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -132,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: ProcessMessageInDomain
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Channels::CrossAppDomainSink::ProcessMessageRes (*)(::Array<uint8_t>*, System::Runtime::Remoting::Messaging::CADMethodCallMessage*)>(&System::Runtime::Remoting::Channels::CrossAppDomainSink::ProcessMessageInDomain)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* arrRequest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* cadMsg = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "CADMethodCallMessage")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::CrossAppDomainSink*), "ProcessMessageInDomain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{arrRequest, cadMsg});
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: SyncProcessMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (System::Runtime::Remoting::Channels::CrossAppDomainSink::*)(System::Runtime::Remoting::Messaging::IMessage*)>(&System::Runtime::Remoting::Channels::CrossAppDomainSink::SyncProcessMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* msgRequest = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "IMessage")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::CrossAppDomainSink*), "SyncProcessMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{msgRequest});
   }
@@ -151,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: AsyncProcessMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageCtrl* (System::Runtime::Remoting::Channels::CrossAppDomainSink::*)(System::Runtime::Remoting::Messaging::IMessage*, System::Runtime::Remoting::Messaging::IMessageSink*)>(&System::Runtime::Remoting::Channels::CrossAppDomainSink::AsyncProcessMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* reqMsg = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "IMessage")->byval_arg;
     static auto* replySink = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "IMessageSink")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::CrossAppDomainSink*), "AsyncProcessMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reqMsg, replySink});
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: SendAsyncMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Channels::CrossAppDomainSink::*)(::Il2CppObject*)>(&System::Runtime::Remoting::Channels::CrossAppDomainSink::SendAsyncMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::CrossAppDomainSink*), "SendAsyncMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
   }
@@ -170,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Runtime::Remoting::Channels::CrossAppDomainSink::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::CrossAppDomainSink*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -178,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <AsyncProcessMessage>b__10_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Channels::CrossAppDomainSink::*)(::Il2CppObject*)>(&System::Runtime::Remoting::Channels::CrossAppDomainSink::$AsyncProcessMessage$b__10_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::CrossAppDomainSink*), "<AsyncProcessMessage>b__10_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
   }

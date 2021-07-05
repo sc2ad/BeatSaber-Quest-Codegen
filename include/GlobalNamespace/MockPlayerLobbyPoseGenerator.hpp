@@ -78,7 +78,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerLobbyPoseGenerator*, "", "Mock
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerLobbyPoseGenerator::*)()>(&GlobalNamespace::MockPlayerLobbyPoseGenerator::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerLobbyPoseGenerator*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SendPoses
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerLobbyPoseGenerator::*)(System::Threading::CancellationToken)>(&GlobalNamespace::MockPlayerLobbyPoseGenerator::SendPoses)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerLobbyPoseGenerator*), "SendPoses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
   }

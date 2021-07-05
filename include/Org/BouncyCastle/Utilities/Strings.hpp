@@ -50,7 +50,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Strings*, "Org.BouncyCastle
 // Il2CppName: IsOneOf
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Array<::Il2CppString*>*)>(&Org::BouncyCastle::Utilities::Strings::IsOneOf)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* candidates = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Strings*), "IsOneOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, candidates});
@@ -60,7 +60,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: FromByteArray
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Utilities::Strings::FromByteArray)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Strings*), "FromByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bs});
   }
@@ -69,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: ToByteArray
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<::Il2CppChar>*)>(&Org::BouncyCastle::Utilities::Strings::ToByteArray)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Strings*), "ToByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cs});
   }
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: ToByteArray
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppString*)>(&Org::BouncyCastle::Utilities::Strings::ToByteArray)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Strings*), "ToByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: FromAsciiByteArray
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Utilities::Strings::FromAsciiByteArray)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Strings*), "FromAsciiByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytes});
   }
@@ -96,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: ToAsciiByteArray
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppString*)>(&Org::BouncyCastle::Utilities::Strings::ToAsciiByteArray)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Strings*), "ToAsciiByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }

@@ -84,7 +84,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::TypedReference, "System", "TypedReference");
 // Il2CppName: MakeTypedReference
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypedReference (*)(::Il2CppObject*, ::Array<System::Reflection::FieldInfo*>*)>(&System::TypedReference::MakeTypedReference)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* flds = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "FieldInfo"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TypedReference), "MakeTypedReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{target, flds});
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Il2CppName: MakeTypedReferenceInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypedReference (*)(::Il2CppObject*, ::Array<System::Reflection::FieldInfo*>*)>(&System::TypedReference::MakeTypedReferenceInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* fields = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "FieldInfo"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TypedReference), "MakeTypedReferenceInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{target, fields});
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Il2CppName: get_IsNull
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::TypedReference::*)()>(&System::TypedReference::get_IsNull)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::TypedReference), "get_IsNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: SetTypedReference
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::TypedReference, ::Il2CppObject*)>(&System::TypedReference::SetTypedReference)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "TypedReference")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TypedReference), "SetTypedReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{target, value});
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: GetHashCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::TypedReference::*)()>(&System::TypedReference::GetHashCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::TypedReference), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: Equals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::TypedReference::*)(::Il2CppObject*)>(&System::TypedReference::Equals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* o = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TypedReference), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{o});
   }

@@ -214,7 +214,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterSpawnEventEffect*, "", "BTSC
 // Il2CppName: add_startCharacterAnimationEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterSpawnEventEffect::*)(System::Action_1<GlobalNamespace::BTSCharacter*>*)>(&GlobalNamespace::BTSCharacterSpawnEventEffect::add_startCharacterAnimationEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "BTSCharacter")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnEventEffect*), "add_startCharacterAnimationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -223,7 +223,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_startCharacterAnimationEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterSpawnEventEffect::*)(System::Action_1<GlobalNamespace::BTSCharacter*>*)>(&GlobalNamespace::BTSCharacterSpawnEventEffect::remove_startCharacterAnimationEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "BTSCharacter")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnEventEffect*), "remove_startCharacterAnimationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -232,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_isInitialized
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BTSCharacterSpawnEventEffect::*)()>(&GlobalNamespace::BTSCharacterSpawnEventEffect::get_isInitialized)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnEventEffect*), "get_isInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -240,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterSpawnEventEffect::*)()>(&GlobalNamespace::BTSCharacterSpawnEventEffect::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnEventEffect*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -248,7 +248,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: LoadAddressables
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterSpawnEventEffect::*)()>(&GlobalNamespace::BTSCharacterSpawnEventEffect::LoadAddressables)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnEventEffect*), "LoadAddressables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -256,7 +256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: CleanupAddressables
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterSpawnEventEffect::*)()>(&GlobalNamespace::BTSCharacterSpawnEventEffect::CleanupAddressables)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnEventEffect*), "CleanupAddressables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -264,7 +264,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterSpawnEventEffect::*)()>(&GlobalNamespace::BTSCharacterSpawnEventEffect::OnDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnEventEffect*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -272,7 +272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterSpawnEventEffect::*)(GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::BTSCharacterSpawnEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmapEventData = &::il2cpp_utils::GetClassFromName("", "BeatmapEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnEventEffect*), "HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventData});
   }
@@ -281,7 +281,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: GetCharacterWithAnimationClip
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tuple_2<GlobalNamespace::BTSCharacter*, UnityEngine::AnimationClip*>* (*)(System::Collections::Generic::Dictionary_2<int, GlobalNamespace::BTSCharacter*>*, System::Collections::Generic::Dictionary_2<int, UnityEngine::AnimationClip*>*, int, int)>(&GlobalNamespace::BTSCharacterSpawnEventEffect::GetCharacterWithAnimationClip)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* charDictionary = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Dictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32"), ::il2cpp_utils::GetClassFromName("", "BTSCharacter")})->byval_arg;
     static auto* animDictionary = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Dictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32"), ::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")})->byval_arg;
     static auto* prefabId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

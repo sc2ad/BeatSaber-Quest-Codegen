@@ -97,7 +97,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OverridePlayerTransformsFromFullVRContro
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder::*)()>(&GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder::*)()>(&GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder::OnDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleFullVRControllersRecorderDidSetControllerTransform
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder::*)(GlobalNamespace::VRController*)>(&GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder::HandleFullVRControllersRecorderDidSetControllerTransform)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* controller = &::il2cpp_utils::GetClassFromName("", "VRController")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OverridePlayerTransformsFromFullVRControllersRecorder*), "HandleFullVRControllersRecorderDidSetControllerTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{controller});
   }

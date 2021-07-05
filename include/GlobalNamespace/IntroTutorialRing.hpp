@@ -189,7 +189,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IntroTutorialRing*, "", "IntroTutorialRi
 // Il2CppName: set_alpha
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialRing::*)(float)>(&GlobalNamespace::IntroTutorialRing::set_alpha)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialRing*), "set_alpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -198,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_fullyActivated
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IntroTutorialRing::*)()>(&GlobalNamespace::IntroTutorialRing::get_fullyActivated)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialRing*), "get_fullyActivated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -206,7 +206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: get_saberType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SaberType (GlobalNamespace::IntroTutorialRing::*)()>(&GlobalNamespace::IntroTutorialRing::get_saberType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialRing*), "get_saberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -214,7 +214,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: set_saberType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialRing::*)(GlobalNamespace::SaberType)>(&GlobalNamespace::IntroTutorialRing::set_saberType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "SaberType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialRing*), "set_saberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -223,7 +223,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialRing::*)()>(&GlobalNamespace::IntroTutorialRing::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialRing*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -231,7 +231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnEnable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialRing::*)()>(&GlobalNamespace::IntroTutorialRing::OnEnable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialRing*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -239,7 +239,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Update
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialRing::*)()>(&GlobalNamespace::IntroTutorialRing::Update)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialRing*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -247,7 +247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetProgressImagesfillAmount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialRing::*)(float)>(&GlobalNamespace::IntroTutorialRing::SetProgressImagesfillAmount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* fillAmount = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialRing*), "SetProgressImagesfillAmount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fillAmount});
   }
@@ -256,7 +256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnTriggerEnter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialRing::*)(UnityEngine::Collider*)>(&GlobalNamespace::IntroTutorialRing::OnTriggerEnter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine", "Collider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialRing*), "OnTriggerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
@@ -265,7 +265,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnTriggerExit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialRing::*)(UnityEngine::Collider*)>(&GlobalNamespace::IntroTutorialRing::OnTriggerExit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine", "Collider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialRing*), "OnTriggerExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
@@ -274,7 +274,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnTriggerStay
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IntroTutorialRing::*)(UnityEngine::Collider*)>(&GlobalNamespace::IntroTutorialRing::OnTriggerStay)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine", "Collider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntroTutorialRing*), "OnTriggerStay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }

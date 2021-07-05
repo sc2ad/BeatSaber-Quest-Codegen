@@ -87,7 +87,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBoneCollider*, "", "DynamicBoneCo
 // Il2CppName: OnValidate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DynamicBoneCollider::*)()>(&GlobalNamespace::DynamicBoneCollider::OnValidate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DynamicBoneCollider*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OutsideSphere
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3&, float, UnityEngine::Vector3, float)>(&GlobalNamespace::DynamicBoneCollider::OutsideSphere)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* particlePosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* particleRadius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* sphereCenter = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: InsideSphere
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3&, float, UnityEngine::Vector3, float)>(&GlobalNamespace::DynamicBoneCollider::InsideSphere)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* particlePosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* particleRadius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* sphereCenter = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: OutsideCapsule
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3&, float, UnityEngine::Vector3, UnityEngine::Vector3, float)>(&GlobalNamespace::DynamicBoneCollider::OutsideCapsule)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* particlePosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* particleRadius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* capsuleP0 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -132,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: InsideCapsule
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3&, float, UnityEngine::Vector3, UnityEngine::Vector3, float)>(&GlobalNamespace::DynamicBoneCollider::InsideCapsule)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* particlePosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* particleRadius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* capsuleP0 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -145,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: OnDrawGizmosSelected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DynamicBoneCollider::*)()>(&GlobalNamespace::DynamicBoneCollider::OnDrawGizmosSelected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DynamicBoneCollider*), "OnDrawGizmosSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Collide
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DynamicBoneCollider::*)(UnityEngine::Vector3&, float)>(&GlobalNamespace::DynamicBoneCollider::Collide)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* particlePosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* particleRadius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DynamicBoneCollider*), "Collide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{particlePosition, particleRadius});

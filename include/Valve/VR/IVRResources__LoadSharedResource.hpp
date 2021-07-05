@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRResources::_LoadSharedResource*, "Valve.VR"
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::IVRResources::_LoadSharedResource::*)(::Il2CppString*, ::Il2CppString*, uint)>(&Valve::VR::IVRResources::_LoadSharedResource::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchResourceName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchBuffer = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* unBufferLen = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRResources::_LoadSharedResource::*)(::Il2CppString*, ::Il2CppString*, uint, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRResources::_LoadSharedResource::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchResourceName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchBuffer = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* unBufferLen = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::IVRResources::_LoadSharedResource::*)(System::IAsyncResult*)>(&Valve::VR::IVRResources::_LoadSharedResource::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRResources::_LoadSharedResource*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

@@ -313,7 +313,7 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::AnimatedSwitchView::AnimationState, "HMUI", "Animat
 // Il2CppName: Awake
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::AnimatedSwitchView::*)()>(&HMUI::AnimatedSwitchView::Awake)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -321,7 +321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::AnimatedSwitchView::*)()>(&HMUI::AnimatedSwitchView::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -329,7 +329,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: OnDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::AnimatedSwitchView::*)()>(&HMUI::AnimatedSwitchView::OnDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -337,7 +337,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: Update
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::AnimatedSwitchView::*)()>(&HMUI::AnimatedSwitchView::Update)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -345,7 +345,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: LerpPosition
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::AnimatedSwitchView::*)(float)>(&HMUI::AnimatedSwitchView::LerpPosition)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* switchAmount = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView*), "LerpPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{switchAmount});
   }
@@ -354,7 +354,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: LerpStretch
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::AnimatedSwitchView::*)(float)>(&HMUI::AnimatedSwitchView::LerpStretch)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* switchAmount = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView*), "LerpStretch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{switchAmount});
   }
@@ -363,7 +363,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: LerpColors
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::AnimatedSwitchView::*)(float, float, float)>(&HMUI::AnimatedSwitchView::LerpColors)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* switchAmount = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* highlightAmount = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* disabledAmount = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -374,7 +374,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: LerpColor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (HMUI::AnimatedSwitchView::*)(float, float, float, HMUI::AnimatedSwitchView::GetColorDelegate*)>(&HMUI::AnimatedSwitchView::LerpColor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* switchAmount = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* highlightAmount = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* disabledAmount = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -386,7 +386,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: HandleOnValueChanged
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::AnimatedSwitchView::*)(bool)>(&HMUI::AnimatedSwitchView::HandleOnValueChanged)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView*), "HandleOnValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -395,7 +395,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: HandleStateDidChange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::AnimatedSwitchView::*)(HMUI::ToggleWithCallbacks::SelectionState)>(&HMUI::AnimatedSwitchView::HandleStateDidChange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* selectionState = &::il2cpp_utils::GetClassFromName("HMUI", "ToggleWithCallbacks/SelectionState")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView*), "HandleStateDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{selectionState});
   }

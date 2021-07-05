@@ -79,7 +79,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::MaskUtilities*, "UnityEngine.UI", "MaskU
 // Il2CppName: Notify2DMaskStateChanged
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Component*)>(&UnityEngine::UI::MaskUtilities::Notify2DMaskStateChanged)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mask = &::il2cpp_utils::GetClassFromName("UnityEngine", "Component")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskUtilities*), "Notify2DMaskStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mask});
   }
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: NotifyStencilStateChanged
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Component*)>(&UnityEngine::UI::MaskUtilities::NotifyStencilStateChanged)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mask = &::il2cpp_utils::GetClassFromName("UnityEngine", "Component")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskUtilities*), "NotifyStencilStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mask});
   }
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: FindRootSortOverrideCanvas
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(UnityEngine::Transform*)>(&UnityEngine::UI::MaskUtilities::FindRootSortOverrideCanvas)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* start = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskUtilities*), "FindRootSortOverrideCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{start});
   }
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetStencilDepth
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Transform*, UnityEngine::Transform*)>(&UnityEngine::UI::MaskUtilities::GetStencilDepth)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* stopAfter = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskUtilities*), "GetStencilDepth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transform, stopAfter});
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 // Il2CppName: IsDescendantOrSelf
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, UnityEngine::Transform*)>(&UnityEngine::UI::MaskUtilities::IsDescendantOrSelf)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* father = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* child = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskUtilities*), "IsDescendantOrSelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{father, child});
@@ -126,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: GetRectMaskForClippable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::RectMask2D* (*)(UnityEngine::UI::IClippable*)>(&UnityEngine::UI::MaskUtilities::GetRectMaskForClippable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* clippable = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "IClippable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskUtilities*), "GetRectMaskForClippable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clippable});
   }
@@ -135,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetRectMasksForClip
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::RectMask2D*, System::Collections::Generic::List_1<UnityEngine::UI::RectMask2D*>*)>(&UnityEngine::UI::MaskUtilities::GetRectMasksForClip)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* clipper = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "RectMask2D")->byval_arg;
     static auto* masks = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.UI", "RectMask2D")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MaskUtilities*), "GetRectMasksForClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clipper, masks});

@@ -163,7 +163,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::LightDataG
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Experimental::GlobalIllumination::LightDataGI::*)(UnityEngine::Experimental::GlobalIllumination::DirectionalLight&)>(&UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* light = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.GlobalIllumination", "DirectionalLight")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::GlobalIllumination::LightDataGI), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{light});
   }
@@ -172,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Experimental::GlobalIllumination::LightDataGI::*)(UnityEngine::Experimental::GlobalIllumination::PointLight&)>(&UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* light = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.GlobalIllumination", "PointLight")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::GlobalIllumination::LightDataGI), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{light});
   }
@@ -181,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Experimental::GlobalIllumination::LightDataGI::*)(UnityEngine::Experimental::GlobalIllumination::SpotLight&)>(&UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* light = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.GlobalIllumination", "SpotLight")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::GlobalIllumination::LightDataGI), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{light});
   }
@@ -190,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Experimental::GlobalIllumination::LightDataGI::*)(UnityEngine::Experimental::GlobalIllumination::RectangleLight&)>(&UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* light = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.GlobalIllumination", "RectangleLight")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::GlobalIllumination::LightDataGI), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{light});
   }
@@ -199,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Experimental::GlobalIllumination::LightDataGI::*)(UnityEngine::Experimental::GlobalIllumination::DiscLight&)>(&UnityEngine::Experimental::GlobalIllumination::LightDataGI::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* light = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.GlobalIllumination", "DiscLight")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::GlobalIllumination::LightDataGI), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{light});
   }
@@ -208,7 +208,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: InitNoBake
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Experimental::GlobalIllumination::LightDataGI::*)(int)>(&UnityEngine::Experimental::GlobalIllumination::LightDataGI::InitNoBake)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lightInstanceID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::GlobalIllumination::LightDataGI), "InitNoBake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lightInstanceID});
   }

@@ -92,7 +92,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingScoreSpawner*, "", "FlyingScoreSpa
 // Il2CppName: SpawnFlyingScore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingScoreSpawner::*)(GlobalNamespace::NoteCutInfo&, int, int, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Quaternion, UnityEngine::Color)>(&GlobalNamespace::FlyingScoreSpawner::SpawnFlyingScore)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* noteCutInfo = &::il2cpp_utils::GetClassFromName("", "NoteCutInfo")->this_arg;
     static auto* noteLineIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* multiplier = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleFlyingObjectEffectDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingScoreSpawner::*)(GlobalNamespace::FlyingObjectEffect*)>(&GlobalNamespace::FlyingScoreSpawner::HandleFlyingObjectEffectDidFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* flyingObjectEffect = &::il2cpp_utils::GetClassFromName("", "FlyingObjectEffect")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingScoreSpawner*), "HandleFlyingObjectEffectDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flyingObjectEffect});
   }

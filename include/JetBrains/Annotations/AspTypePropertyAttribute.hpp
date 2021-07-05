@@ -56,7 +56,7 @@ DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspTypePropertyAttribute*, "JetBr
 // Il2CppName: get_CreateConstructorReferences
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (JetBrains::Annotations::AspTypePropertyAttribute::*)()>(&JetBrains::Annotations::AspTypePropertyAttribute::get_CreateConstructorReferences)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspTypePropertyAttribute*), "get_CreateConstructorReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -64,7 +64,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (JetBr
 // Il2CppName: set_CreateConstructorReferences
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::AspTypePropertyAttribute::*)(bool)>(&JetBrains::Annotations::AspTypePropertyAttribute::set_CreateConstructorReferences)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspTypePropertyAttribute*), "set_CreateConstructorReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

@@ -52,7 +52,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::AssemblyLoadProxy*, "Unity
 // Il2CppName: Load
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestTools::Utils::IAssemblyWrapper* (UnityEngine::TestTools::Utils::AssemblyLoadProxy::*)(::Il2CppString*)>(&UnityEngine::TestTools::Utils::AssemblyLoadProxy::Load)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* assemblyString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Utils::AssemblyLoadProxy*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assemblyString});
   }

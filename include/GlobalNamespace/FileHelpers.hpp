@@ -71,7 +71,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileHelpers*, "", "FileHelpers");
 // Il2CppName: GetEscapedURLForFilePath
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&GlobalNamespace::FileHelpers::GetEscapedURLForFilePath)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileHelpers*), "GetEscapedURLForFilePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filePath});
   }
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetUniqueDirectoryNameByAppendingNumber
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&GlobalNamespace::FileHelpers::GetUniqueDirectoryNameByAppendingNumber)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* dirName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileHelpers*), "GetUniqueDirectoryNameByAppendingNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dirName});
   }
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetFilePaths
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Il2CppString*, System::Collections::Generic::HashSet_1<::Il2CppString*>*)>(&GlobalNamespace::FileHelpers::GetFilePaths)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* directoryPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* extensions = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "HashSet`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileHelpers*), "GetFilePaths", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{directoryPath, extensions});
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: GetFileNamesFromFilePaths
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Array<::Il2CppString*>*)>(&GlobalNamespace::FileHelpers::GetFileNamesFromFilePaths)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* filePaths = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileHelpers*), "GetFileNamesFromFilePaths", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filePaths});
   }
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: SaveToJSONFile
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::FileHelpers::SaveToJSONFile)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* tempFilePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: LoadJSONFile
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::FileHelpers::LoadJSONFile)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* backupFilePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileHelpers*), "LoadJSONFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filePath, backupFilePath});

@@ -192,7 +192,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ConfigHandler*, "System.Runtim
 // Il2CppName: ValidatePath
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ConfigHandler::*)(::Il2CppString*, ::Array<::Il2CppString*>*)>(&System::Runtime::Remoting::ConfigHandler::ValidatePath)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* paths = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ConfigHandler*), "ValidatePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{element, paths});
@@ -202,7 +202,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: CheckPath
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Remoting::ConfigHandler::*)(::Il2CppString*)>(&System::Runtime::Remoting::ConfigHandler::CheckPath)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ConfigHandler*), "CheckPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
   }
@@ -211,7 +211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: OnStartParsing
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ConfigHandler::*)(Mono::Xml::SmallXmlParser*)>(&System::Runtime::Remoting::ConfigHandler::OnStartParsing)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* parser = &::il2cpp_utils::GetClassFromName("Mono.Xml", "SmallXmlParser")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ConfigHandler*), "OnStartParsing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parser});
   }
@@ -220,7 +220,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: OnProcessingInstruction
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ConfigHandler::*)(::Il2CppString*, ::Il2CppString*)>(&System::Runtime::Remoting::ConfigHandler::OnProcessingInstruction)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ConfigHandler*), "OnProcessingInstruction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, text});
@@ -230,7 +230,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: OnIgnorableWhitespace
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ConfigHandler::*)(::Il2CppString*)>(&System::Runtime::Remoting::ConfigHandler::OnIgnorableWhitespace)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ConfigHandler*), "OnIgnorableWhitespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
@@ -239,7 +239,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: OnStartElement
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ConfigHandler::*)(::Il2CppString*, Mono::Xml::SmallXmlParser::IAttrList*)>(&System::Runtime::Remoting::ConfigHandler::OnStartElement)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* attrs = &::il2cpp_utils::GetClassFromName("Mono.Xml", "SmallXmlParser/IAttrList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ConfigHandler*), "OnStartElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, attrs});
@@ -249,7 +249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ParseElement
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ConfigHandler::*)(::Il2CppString*, Mono::Xml::SmallXmlParser::IAttrList*)>(&System::Runtime::Remoting::ConfigHandler::ParseElement)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* attrs = &::il2cpp_utils::GetClassFromName("Mono.Xml", "SmallXmlParser/IAttrList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ConfigHandler*), "ParseElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, attrs});
@@ -259,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: OnEndElement
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ConfigHandler::*)(::Il2CppString*)>(&System::Runtime::Remoting::ConfigHandler::OnEndElement)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ConfigHandler*), "OnEndElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
   }
@@ -268,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ReadCustomProviderData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ConfigHandler::*)(::Il2CppString*, Mono::Xml::SmallXmlParser::IAttrList*)>(&System::Runtime::Remoting::ConfigHandler::ReadCustomProviderData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* attrs = &::il2cpp_utils::GetClassFromName("Mono.Xml", "SmallXmlParser/IAttrList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ConfigHandler*), "ReadCustomProviderData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, attrs});
@@ -278,7 +278,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ReadLifetine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*)>(&System::Runtime::Remoting::ConfigHandler::ReadLifetine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* attrs = &::il2cpp_utils::GetClassFromName("Mono.Xml", "SmallXmlParser/IAttrList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ConfigHandler*), "ReadLifetine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attrs});
   }
@@ -287,7 +287,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ParseTime
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (System::Runtime::Remoting::ConfigHandler::*)(::Il2CppString*)>(&System::Runtime::Remoting::ConfigHandler::ParseTime)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ConfigHandler*), "ParseTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
@@ -296,7 +296,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tim
 // Il2CppName: ReadChannel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*, bool)>(&System::Runtime::Remoting::ConfigHandler::ReadChannel)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* attrs = &::il2cpp_utils::GetClassFromName("Mono.Xml", "SmallXmlParser/IAttrList")->byval_arg;
     static auto* isTemplate = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ConfigHandler*), "ReadChannel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attrs, isTemplate});
@@ -306,7 +306,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ReadProvider
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ProviderData* (System::Runtime::Remoting::ConfigHandler::*)(::Il2CppString*, Mono::Xml::SmallXmlParser::IAttrList*, bool)>(&System::Runtime::Remoting::ConfigHandler::ReadProvider)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* attrs = &::il2cpp_utils::GetClassFromName("Mono.Xml", "SmallXmlParser/IAttrList")->byval_arg;
     static auto* isTemplate = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -317,7 +317,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: ReadClientActivated
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*)>(&System::Runtime::Remoting::ConfigHandler::ReadClientActivated)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* attrs = &::il2cpp_utils::GetClassFromName("Mono.Xml", "SmallXmlParser/IAttrList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ConfigHandler*), "ReadClientActivated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attrs});
   }
@@ -326,7 +326,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ReadServiceActivated
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*)>(&System::Runtime::Remoting::ConfigHandler::ReadServiceActivated)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* attrs = &::il2cpp_utils::GetClassFromName("Mono.Xml", "SmallXmlParser/IAttrList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ConfigHandler*), "ReadServiceActivated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attrs});
   }
@@ -335,7 +335,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ReadClientWellKnown
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*)>(&System::Runtime::Remoting::ConfigHandler::ReadClientWellKnown)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* attrs = &::il2cpp_utils::GetClassFromName("Mono.Xml", "SmallXmlParser/IAttrList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ConfigHandler*), "ReadClientWellKnown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attrs});
   }
@@ -344,7 +344,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ReadServiceWellKnown
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*)>(&System::Runtime::Remoting::ConfigHandler::ReadServiceWellKnown)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* attrs = &::il2cpp_utils::GetClassFromName("Mono.Xml", "SmallXmlParser/IAttrList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ConfigHandler*), "ReadServiceWellKnown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attrs});
   }
@@ -353,7 +353,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ReadInteropXml
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*, bool)>(&System::Runtime::Remoting::ConfigHandler::ReadInteropXml)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* attrs = &::il2cpp_utils::GetClassFromName("Mono.Xml", "SmallXmlParser/IAttrList")->byval_arg;
     static auto* isElement = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ConfigHandler*), "ReadInteropXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attrs, isElement});
@@ -363,7 +363,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ReadPreload
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*)>(&System::Runtime::Remoting::ConfigHandler::ReadPreload)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* attrs = &::il2cpp_utils::GetClassFromName("Mono.Xml", "SmallXmlParser/IAttrList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ConfigHandler*), "ReadPreload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attrs});
   }
@@ -372,7 +372,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: GetNotNull
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::ConfigHandler::*)(Mono::Xml::SmallXmlParser::IAttrList*, ::Il2CppString*)>(&System::Runtime::Remoting::ConfigHandler::GetNotNull)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* attrs = &::il2cpp_utils::GetClassFromName("Mono.Xml", "SmallXmlParser/IAttrList")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ConfigHandler*), "GetNotNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attrs, name});
@@ -382,7 +382,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: ExtractAssembly
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::ConfigHandler::*)(::Il2CppString*&)>(&System::Runtime::Remoting::ConfigHandler::ExtractAssembly)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ConfigHandler*), "ExtractAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
@@ -391,7 +391,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: OnChars
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ConfigHandler::*)(::Il2CppString*)>(&System::Runtime::Remoting::ConfigHandler::OnChars)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ch = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ConfigHandler*), "OnChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch});
   }
@@ -400,7 +400,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: OnEndParsing
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ConfigHandler::*)(Mono::Xml::SmallXmlParser*)>(&System::Runtime::Remoting::ConfigHandler::OnEndParsing)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* parser = &::il2cpp_utils::GetClassFromName("Mono.Xml", "SmallXmlParser")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ConfigHandler*), "OnEndParsing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parser});
   }

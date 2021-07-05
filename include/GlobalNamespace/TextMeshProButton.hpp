@@ -76,7 +76,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextMeshProButton*, "", "TextMeshProButt
 // Il2CppName: get_text
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TextMeshProUGUI* (GlobalNamespace::TextMeshProButton::*)()>(&GlobalNamespace::TextMeshProButton::get_text)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TextMeshProButton*), "get_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::Text
 // Il2CppName: get_button
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Button* (GlobalNamespace::TextMeshProButton::*)()>(&GlobalNamespace::TextMeshProButton::get_button)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TextMeshProButton*), "get_button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -57,7 +57,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::TweakableBlockCiph
 // Il2CppName: get_Key
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::KeyParameter* (Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters::get_Key)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters*), "get_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: get_Tweak
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters::get_Tweak)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters*), "get_Tweak", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -179,7 +179,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersModelSO::$$c*, "", "Gam
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::GameplayModifiersModelSO::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <OnEnable>b__20_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
@@ -196,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: <OnEnable>b__20_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
@@ -205,7 +205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: <OnEnable>b__20_2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_2)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
@@ -214,7 +214,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: <OnEnable>b__20_3
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_3)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
@@ -223,7 +223,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: <OnEnable>b__20_4
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_4)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
@@ -232,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: <OnEnable>b__20_5
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_5)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
@@ -241,7 +241,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: <OnEnable>b__20_6
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_6)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
@@ -250,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: <OnEnable>b__20_7
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_7)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_7", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
@@ -259,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: <OnEnable>b__20_8
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_8)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
@@ -268,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: <OnEnable>b__20_9
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_9)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_9", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
@@ -277,7 +277,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: <OnEnable>b__20_10
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_10)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_10", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
@@ -286,7 +286,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: <OnEnable>b__20_11
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_11)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_11", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
@@ -295,7 +295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: <OnEnable>b__20_12
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_12)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_12", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
@@ -304,7 +304,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: <OnEnable>b__20_13
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_13)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_13", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
@@ -313,7 +313,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: <OnEnable>b__20_14
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_14)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_14", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
@@ -322,7 +322,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: <OnEnable>b__20_15
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_15)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_15", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
@@ -331,7 +331,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: <OnEnable>b__20_16
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_16)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
@@ -340,7 +340,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: <OnEnable>b__20_17
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::$$c::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::$$c::$OnEnable$b__20_17)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO::$$c*), "<OnEnable>b__20_17", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }

@@ -125,7 +125,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CampaignProgressModel*, "", "CampaignPro
 // Il2CppName: get_numberOfClearedMissions
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::CampaignProgressModel::*)()>(&GlobalNamespace::CampaignProgressModel::get_numberOfClearedMissions)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CampaignProgressModel*), "get_numberOfClearedMissions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: Awake
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CampaignProgressModel::*)()>(&GlobalNamespace::CampaignProgressModel::Awake)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CampaignProgressModel*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: IsMissionRegistered
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::CampaignProgressModel::*)(::Il2CppString*)>(&GlobalNamespace::CampaignProgressModel::IsMissionRegistered)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* missionId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CampaignProgressModel*), "IsMissionRegistered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{missionId});
   }
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: RegisterMissionId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CampaignProgressModel::*)(::Il2CppString*)>(&GlobalNamespace::CampaignProgressModel::RegisterMissionId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* missionId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CampaignProgressModel*), "RegisterMissionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{missionId});
   }
@@ -159,7 +159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: IsMissionCleared
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::CampaignProgressModel::*)(::Il2CppString*)>(&GlobalNamespace::CampaignProgressModel::IsMissionCleared)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* missionId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CampaignProgressModel*), "IsMissionCleared", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{missionId});
   }
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: IsMissionFinal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::CampaignProgressModel::*)(::Il2CppString*)>(&GlobalNamespace::CampaignProgressModel::IsMissionFinal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* missionId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CampaignProgressModel*), "IsMissionFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{missionId});
   }
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: SetFinalMissionId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CampaignProgressModel::*)(::Il2CppString*)>(&GlobalNamespace::CampaignProgressModel::SetFinalMissionId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* missionId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CampaignProgressModel*), "SetFinalMissionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{missionId});
   }
@@ -186,7 +186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: WillFinishGameAfterThisMission
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::CampaignProgressModel::*)(::Il2CppString*)>(&GlobalNamespace::CampaignProgressModel::WillFinishGameAfterThisMission)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* missionId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CampaignProgressModel*), "WillFinishGameAfterThisMission", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{missionId});
   }
@@ -195,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: SetMissionCleared
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CampaignProgressModel::*)(::Il2CppString*)>(&GlobalNamespace::CampaignProgressModel::SetMissionCleared)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* missionId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CampaignProgressModel*), "SetMissionCleared", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{missionId});
   }
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: __SetMissionCleared
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CampaignProgressModel::*)(::Il2CppString*, bool)>(&GlobalNamespace::CampaignProgressModel::__SetMissionCleared)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* missionId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* cleared = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CampaignProgressModel*), "__SetMissionCleared", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{missionId, cleared});
@@ -214,7 +214,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: UpdateNumberOfClearedMissions
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::CampaignProgressModel::*)()>(&GlobalNamespace::CampaignProgressModel::UpdateNumberOfClearedMissions)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CampaignProgressModel*), "UpdateNumberOfClearedMissions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

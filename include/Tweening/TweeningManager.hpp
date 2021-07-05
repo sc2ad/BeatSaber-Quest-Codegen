@@ -114,7 +114,7 @@ DEFINE_IL2CPP_ARG_TYPE(Tweening::TweeningManager*, "Tweening", "TweeningManager"
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::TweeningManager::*)()>(&Tweening::TweeningManager::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Tweening::TweeningManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tween
 // Il2CppName: Update
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::TweeningManager::*)()>(&Tweening::TweeningManager::Update)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Tweening::TweeningManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tween
 // Il2CppName: AddTween
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Tweening::Tween* (Tweening::TweeningManager::*)(Tweening::Tween*, UnityEngine::Object*)>(&Tweening::TweeningManager::AddTween)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tween = &::il2cpp_utils::GetClassFromName("Tweening", "Tween")->byval_arg;
     static auto* owner = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Tweening::TweeningManager*), "AddTween", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tween, owner});
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Tweening::T
 // Il2CppName: RestartTween
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Tweening::Tween* (Tweening::TweeningManager::*)(Tweening::Tween*, UnityEngine::Object*)>(&Tweening::TweeningManager::RestartTween)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tween = &::il2cpp_utils::GetClassFromName("Tweening", "Tween")->byval_arg;
     static auto* owner = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Tweening::TweeningManager*), "RestartTween", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tween, owner});
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Tweening::T
 // Il2CppName: KillAllTweens
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::TweeningManager::*)(UnityEngine::Object*)>(&Tweening::TweeningManager::KillAllTweens)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* owner = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Tweening::TweeningManager*), "KillAllTweens", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{owner});
   }
@@ -159,7 +159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tween
 // Il2CppName: AddTweenToOwnerDictionary
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Tweening::TweeningManager::*)(Tweening::Tween*, UnityEngine::Object*)>(&Tweening::TweeningManager::AddTweenToOwnerDictionary)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tween = &::il2cpp_utils::GetClassFromName("Tweening", "Tween")->byval_arg;
     static auto* owner = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Tweening::TweeningManager*), "AddTweenToOwnerDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tween, owner});

@@ -41,7 +41,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::IDerivationFunction*, "Org.Bou
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::IDerivationFunction::*)(Org::BouncyCastle::Crypto::IDerivationParameters*)>(&Org::BouncyCastle::Crypto::IDerivationFunction::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* parameters = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto", "IDerivationParameters")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::IDerivationFunction*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parameters});
   }
@@ -50,7 +50,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Il2CppName: GenerateBytes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::IDerivationFunction::*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Crypto::IDerivationFunction::GenerateBytes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

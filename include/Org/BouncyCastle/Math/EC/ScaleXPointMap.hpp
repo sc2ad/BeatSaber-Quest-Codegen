@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ScaleXPointMap*, "Org.Bouncy
 // Il2CppName: Map
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::ScaleXPointMap::*)(Org::BouncyCastle::Math::EC::ECPoint*)>(&Org::BouncyCastle::Math::EC::ScaleXPointMap::Map)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ScaleXPointMap*), "Map", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p});
   }

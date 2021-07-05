@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::Playmod
 // Il2CppName: Create
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* (UnityEngine::TestRunner::NUnitExtensions::Runner::PlaymodeWorkItemFactory::*)(NUnit::Framework::Internal::TestMethod*, NUnit::Framework::Interfaces::ITestFilter*, NUnit::Framework::Interfaces::ITest*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::PlaymodeWorkItemFactory::Create)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestMethod")->byval_arg;
     static auto* filter = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITestFilter")->byval_arg;
     static auto* loadedTest = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITest")->byval_arg;

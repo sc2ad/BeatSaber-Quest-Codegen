@@ -116,7 +116,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionBindInfo*, "Zenject", "ConventionBindI
 // Il2CppName: AddAssemblyFilter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ConventionBindInfo::*)(System::Func_2<System::Reflection::Assembly*, bool>*)>(&Zenject::ConventionBindInfo::AddAssemblyFilter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* predicate = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly"), ::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionBindInfo*), "AddAssemblyFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{predicate});
   }
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: AddTypeFilter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ConventionBindInfo::*)(System::Func_2<System::Type*, bool>*)>(&Zenject::ConventionBindInfo::AddTypeFilter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* predicate = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type"), ::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionBindInfo*), "AddTypeFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{predicate});
   }
@@ -134,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: GetAllAssemblies
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Reflection::Assembly*>* (Zenject::ConventionBindInfo::*)()>(&Zenject::ConventionBindInfo::GetAllAssemblies)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionBindInfo*), "GetAllAssemblies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: ShouldIncludeAssembly
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::ConventionBindInfo::*)(System::Reflection::Assembly*)>(&Zenject::ConventionBindInfo::ShouldIncludeAssembly)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* assembly = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionBindInfo*), "ShouldIncludeAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assembly});
   }
@@ -151,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
 // Il2CppName: ShouldIncludeType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::ConventionBindInfo::*)(System::Type*)>(&Zenject::ConventionBindInfo::ShouldIncludeType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionBindInfo*), "ShouldIncludeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
 // Il2CppName: GetTypes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (Zenject::ConventionBindInfo::*)(System::Reflection::Assembly*)>(&Zenject::ConventionBindInfo::GetTypes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* assembly = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionBindInfo*), "GetTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assembly});
   }
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Sys
 // Il2CppName: ResolveTypes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::Type*>* (Zenject::ConventionBindInfo::*)()>(&Zenject::ConventionBindInfo::ResolveTypes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionBindInfo*), "ResolveTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Zenject::ConventionBindInfo::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionBindInfo*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <ResolveTypes>b__9_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Type*>* (Zenject::ConventionBindInfo::*)(System::Reflection::Assembly*)>(&Zenject::ConventionBindInfo::$ResolveTypes$b__9_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* assembly = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionBindInfo*), "<ResolveTypes>b__9_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assembly});
   }

@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::MsgUtils::$$c__DisplayClas
 // Il2CppName: <.cctor>b__20
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Constraints::MsgUtils::$$c__DisplayClass14_9::*)(::Il2CppObject*)>(&NUnit::Framework::Constraints::MsgUtils::$$c__DisplayClass14_9::$_cctor$b__20)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* val = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils::$$c__DisplayClass14_9*), "<.cctor>b__20", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val});
   }

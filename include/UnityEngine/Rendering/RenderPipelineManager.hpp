@@ -110,7 +110,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::RenderPipelineManager*, "UnityEng
 // Il2CppName: get_currentPipeline
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::RenderPipeline* (*)()>(&UnityEngine::Rendering::RenderPipelineManager::get_currentPipeline)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::RenderPipelineManager*), "get_currentPipeline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_currentPipeline
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rendering::RenderPipeline*)>(&UnityEngine::Rendering::RenderPipelineManager::set_currentPipeline)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "RenderPipeline")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::RenderPipelineManager*), "set_currentPipeline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: add_beginFrameRendering
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_2<UnityEngine::Rendering::ScriptableRenderContext, ::Array<UnityEngine::Camera*>*>*)>(&UnityEngine::Rendering::RenderPipelineManager::add_beginFrameRendering)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "ScriptableRenderContext"), il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Camera"), 1)})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::RenderPipelineManager*), "add_beginFrameRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -136,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: remove_beginFrameRendering
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_2<UnityEngine::Rendering::ScriptableRenderContext, ::Array<UnityEngine::Camera*>*>*)>(&UnityEngine::Rendering::RenderPipelineManager::remove_beginFrameRendering)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "ScriptableRenderContext"), il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Camera"), 1)})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::RenderPipelineManager*), "remove_beginFrameRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -145,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: add_beginCameraRendering
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_2<UnityEngine::Rendering::ScriptableRenderContext, UnityEngine::Camera*>*)>(&UnityEngine::Rendering::RenderPipelineManager::add_beginCameraRendering)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "ScriptableRenderContext"), ::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::RenderPipelineManager*), "add_beginCameraRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: remove_beginCameraRendering
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_2<UnityEngine::Rendering::ScriptableRenderContext, UnityEngine::Camera*>*)>(&UnityEngine::Rendering::RenderPipelineManager::remove_beginCameraRendering)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "ScriptableRenderContext"), ::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::RenderPipelineManager*), "remove_beginCameraRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: CleanupRenderPipeline
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Rendering::RenderPipelineManager::CleanupRenderPipeline)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::RenderPipelineManager*), "CleanupRenderPipeline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -171,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: GetCameras
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rendering::ScriptableRenderContext)>(&UnityEngine::Rendering::RenderPipelineManager::GetCameras)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "ScriptableRenderContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::RenderPipelineManager*), "GetCameras", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }
@@ -180,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: DoRenderLoop_Internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rendering::RenderPipelineAsset*, System::IntPtr)>(&UnityEngine::Rendering::RenderPipelineManager::DoRenderLoop_Internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pipe = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "RenderPipelineAsset")->byval_arg;
     static auto* loopPtr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::RenderPipelineManager*), "DoRenderLoop_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pipe, loopPtr});
@@ -190,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: PrepareRenderPipeline
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rendering::RenderPipelineAsset*)>(&UnityEngine::Rendering::RenderPipelineManager::PrepareRenderPipeline)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pipelineAsset = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "RenderPipelineAsset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::RenderPipelineManager*), "PrepareRenderPipeline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pipelineAsset});
   }
@@ -199,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Rendering::RenderPipelineManager::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::RenderPipelineManager*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

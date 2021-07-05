@@ -77,7 +77,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::VertexEditing*, 
 // Il2CppName: MergeVertices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::Array<int>*, bool)>(&UnityEngine::ProBuilder::MeshOperations::VertexEditing::MergeVertices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* indexes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* collapseToFirst = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 // Il2CppName: SplitVertices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Edge)>(&UnityEngine::ProBuilder::MeshOperations::VertexEditing::SplitVertices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* edge = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::VertexEditing*), "SplitVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh, edge});
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: SplitVertices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<int>*)>(&UnityEngine::ProBuilder::MeshOperations::VertexEditing::SplitVertices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* vertices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::VertexEditing*), "SplitVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh, vertices});
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: WeldVertices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<int>*, float)>(&UnityEngine::ProBuilder::MeshOperations::VertexEditing::WeldVertices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* indexes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     static auto* neighborRadius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int
 // Il2CppName: ExplodeVertex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::FaceRebuildData* (*)(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>*, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::WingedEdge*, int>>*, float, System::Collections::Generic::Dictionary_2<int, System::Collections::Generic::List_1<int>*>*&)>(&UnityEngine::ProBuilder::MeshOperations::VertexEditing::ExplodeVertex)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* vertices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Vertex")})->byval_arg;
     static auto* edgeAndCommonIndex = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "SimpleTuple`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "WingedEdge"), ::il2cpp_utils::GetClassFromName("System", "Int32")})})->byval_arg;
     static auto* distance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: AlignEdgeWithDirection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (*)(UnityEngine::ProBuilder::EdgeLookup, int)>(&UnityEngine::ProBuilder::MeshOperations::VertexEditing::AlignEdgeWithDirection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* edge = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "EdgeLookup")->byval_arg;
     static auto* commonIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::VertexEditing*), "AlignEdgeWithDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{edge, commonIndex});

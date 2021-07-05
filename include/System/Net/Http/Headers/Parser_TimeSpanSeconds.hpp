@@ -36,7 +36,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::TimeSpanSeconds*, "Sy
 // Il2CppName: TryParse
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::TimeSpan&)>(&System::Net::Http::Headers::Parser::TimeSpanSeconds::TryParse)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Parser::TimeSpanSeconds*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, result});

@@ -210,7 +210,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRExternalComposition*, "", "OVRExterna
 // Il2CppName: RefreshCameraObjects
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRExternalComposition::*)(UnityEngine::GameObject*, UnityEngine::Camera*, GlobalNamespace::OVRMixedRealityCaptureConfiguration*)>(&GlobalNamespace::OVRExternalComposition::RefreshCameraObjects)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* parentObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* mainCamera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     static auto* configuration = &::il2cpp_utils::GetClassFromName("", "OVRMixedRealityCaptureConfiguration")->byval_arg;
@@ -221,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: RefreshAudioFilter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRExternalComposition::*)()>(&GlobalNamespace::OVRExternalComposition::RefreshAudioFilter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExternalComposition*), "RefreshAudioFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -229,7 +229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: CastMrcFrame
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::OVRExternalComposition::*)(int)>(&GlobalNamespace::OVRExternalComposition::CastMrcFrame)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* castTextureIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExternalComposition*), "CastMrcFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{castTextureIndex});
   }
@@ -238,7 +238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: SetCameraTargetTexture
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRExternalComposition::*)(int)>(&GlobalNamespace::OVRExternalComposition::SetCameraTargetTexture)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* drawTextureIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExternalComposition*), "SetCameraTargetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{drawTextureIndex});
   }
@@ -247,7 +247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: CleanupAudioFilter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRExternalComposition::*)()>(&GlobalNamespace::OVRExternalComposition::CleanupAudioFilter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExternalComposition*), "CleanupAudioFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -255,7 +255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: CacheAudioData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRExternalComposition::*)(::Array<float>*, int)>(&GlobalNamespace::OVRExternalComposition::CacheAudioData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* channels = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExternalComposition*), "CacheAudioData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, channels});
@@ -265,7 +265,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: GetAndResetAudioData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRExternalComposition::*)(::Array<float>*&, int&, int&)>(&GlobalNamespace::OVRExternalComposition::GetAndResetAudioData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* audioData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->this_arg;
     static auto* audioFrames = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* channels = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -276,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: CompositionMethod
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRManager_CompositionMethod (GlobalNamespace::OVRExternalComposition::*)()>(&GlobalNamespace::OVRExternalComposition::CompositionMethod)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExternalComposition*), "CompositionMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -288,7 +288,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: Update
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRExternalComposition::*)(UnityEngine::GameObject*, UnityEngine::Camera*, GlobalNamespace::OVRMixedRealityCaptureConfiguration*, GlobalNamespace::OVRManager_TrackingOrigin)>(&GlobalNamespace::OVRExternalComposition::Update)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* mainCamera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     static auto* configuration = &::il2cpp_utils::GetClassFromName("", "OVRMixedRealityCaptureConfiguration")->byval_arg;
@@ -300,7 +300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Cleanup
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRExternalComposition::*)()>(&GlobalNamespace::OVRExternalComposition::Cleanup)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExternalComposition*), "Cleanup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__
 // Il2CppName: <GetSetter>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass9_0::*)(::Il2CppObject*, ::Il2CppObject*)>(&Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass9_0::$GetSetter$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* injectable = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass9_0*), "<GetSetter>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{injectable, value});
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: <GetSetter>b__1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass9_0::*)(::Il2CppObject*, ::Il2CppObject*)>(&Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass9_0::$GetSetter$b__1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* injectable = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass9_0*), "<GetSetter>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{injectable, value});

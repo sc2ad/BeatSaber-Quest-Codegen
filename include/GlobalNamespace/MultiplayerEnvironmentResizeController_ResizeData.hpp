@@ -92,7 +92,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerEnvironmentResizeController::
 // Il2CppName: get_resizeType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeType (GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData::*)()>(&GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData::get_resizeType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*), "get_resizeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_offset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData::*)()>(&GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData::get_offset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*), "get_offset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: get_lights
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::TubeBloomPrePassLight*>* (GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData::*)()>(&GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData::get_lights)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*), "get_lights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 // Il2CppName: get_otherTransforms
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Transform*>* (GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData::*)()>(&GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData::get_otherTransforms)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*), "get_otherTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

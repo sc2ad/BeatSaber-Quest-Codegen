@@ -35,7 +35,7 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CloudStorage2*, "Oculus.Platform", "Clo
 // Il2CppName: GetUserDirectoryPath
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<::Il2CppString*>* (*)()>(&Oculus::Platform::CloudStorage2::GetUserDirectoryPath)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CloudStorage2*), "GetUserDirectoryPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

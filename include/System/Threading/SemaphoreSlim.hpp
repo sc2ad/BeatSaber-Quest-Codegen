@@ -189,7 +189,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::SemaphoreSlim*, "System.Threading", "S
 // Il2CppName: Wait
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::SemaphoreSlim::*)()>(&System::Threading::SemaphoreSlim::Wait)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SemaphoreSlim*), "Wait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -197,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Wait
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::SemaphoreSlim::*)(int, System::Threading::CancellationToken)>(&System::Threading::SemaphoreSlim::Wait)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* millisecondsTimeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SemaphoreSlim*), "Wait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{millisecondsTimeout, cancellationToken});
@@ -207,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: WaitUntilCountOrTimeout
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::SemaphoreSlim::*)(int, uint, System::Threading::CancellationToken)>(&System::Threading::SemaphoreSlim::WaitUntilCountOrTimeout)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* millisecondsTimeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* startTime = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
@@ -218,7 +218,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: WaitAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::Threading::SemaphoreSlim::*)()>(&System::Threading::SemaphoreSlim::WaitAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SemaphoreSlim*), "WaitAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -226,7 +226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: WaitAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::Threading::SemaphoreSlim::*)(System::Threading::CancellationToken)>(&System::Threading::SemaphoreSlim::WaitAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SemaphoreSlim*), "WaitAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
   }
@@ -235,7 +235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: WaitAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (System::Threading::SemaphoreSlim::*)(int, System::Threading::CancellationToken)>(&System::Threading::SemaphoreSlim::WaitAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* millisecondsTimeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SemaphoreSlim*), "WaitAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{millisecondsTimeout, cancellationToken});
@@ -245,7 +245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: CreateAndAddAsyncWaiter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::SemaphoreSlim::TaskNode* (System::Threading::SemaphoreSlim::*)()>(&System::Threading::SemaphoreSlim::CreateAndAddAsyncWaiter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SemaphoreSlim*), "CreateAndAddAsyncWaiter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -253,7 +253,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: RemoveAsyncWaiter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::SemaphoreSlim::*)(System::Threading::SemaphoreSlim::TaskNode*)>(&System::Threading::SemaphoreSlim::RemoveAsyncWaiter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* task = &::il2cpp_utils::GetClassFromName("System.Threading", "SemaphoreSlim/TaskNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SemaphoreSlim*), "RemoveAsyncWaiter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{task});
   }
@@ -262,7 +262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: WaitUntilCountOrTimeoutAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (System::Threading::SemaphoreSlim::*)(System::Threading::SemaphoreSlim::TaskNode*, int, System::Threading::CancellationToken)>(&System::Threading::SemaphoreSlim::WaitUntilCountOrTimeoutAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* asyncWaiter = &::il2cpp_utils::GetClassFromName("System.Threading", "SemaphoreSlim/TaskNode")->byval_arg;
     static auto* millisecondsTimeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
@@ -273,7 +273,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: Release
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Threading::SemaphoreSlim::*)()>(&System::Threading::SemaphoreSlim::Release)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SemaphoreSlim*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -281,7 +281,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: Release
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Threading::SemaphoreSlim::*)(int)>(&System::Threading::SemaphoreSlim::Release)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* releaseCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SemaphoreSlim*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{releaseCount});
   }
@@ -290,7 +290,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: QueueWaiterTask
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::SemaphoreSlim::TaskNode*)>(&System::Threading::SemaphoreSlim::QueueWaiterTask)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* waiterTask = &::il2cpp_utils::GetClassFromName("System.Threading", "SemaphoreSlim/TaskNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SemaphoreSlim*), "QueueWaiterTask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{waiterTask});
   }
@@ -299,7 +299,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::SemaphoreSlim::*)()>(&System::Threading::SemaphoreSlim::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SemaphoreSlim*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -307,7 +307,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::SemaphoreSlim::*)(bool)>(&System::Threading::SemaphoreSlim::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* disposing = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SemaphoreSlim*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{disposing});
   }
@@ -316,7 +316,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: CancellationTokenCanceledEventHandler
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&System::Threading::SemaphoreSlim::CancellationTokenCanceledEventHandler)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SemaphoreSlim*), "CancellationTokenCanceledEventHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
@@ -325,7 +325,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: CheckDispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::SemaphoreSlim::*)()>(&System::Threading::SemaphoreSlim::CheckDispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SemaphoreSlim*), "CheckDispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -333,7 +333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: GetResourceString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Threading::SemaphoreSlim::GetResourceString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SemaphoreSlim*), "GetResourceString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
   }
@@ -342,7 +342,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Threading::SemaphoreSlim::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SemaphoreSlim*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

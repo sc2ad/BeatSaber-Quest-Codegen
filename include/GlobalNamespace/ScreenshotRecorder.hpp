@@ -257,7 +257,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenshotRecorder::RecordingType, "", "
 // Il2CppName: OnEnable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScreenshotRecorder::*)()>(&GlobalNamespace::ScreenshotRecorder::OnEnable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScreenshotRecorder*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -265,7 +265,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnDisable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScreenshotRecorder::*)()>(&GlobalNamespace::ScreenshotRecorder::OnDisable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScreenshotRecorder*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -273,7 +273,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: LateUpdate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScreenshotRecorder::*)()>(&GlobalNamespace::ScreenshotRecorder::LateUpdate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScreenshotRecorder*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -281,7 +281,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnApplicationFocus
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScreenshotRecorder::*)(bool)>(&GlobalNamespace::ScreenshotRecorder::OnApplicationFocus)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hasFocus = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScreenshotRecorder*), "OnApplicationFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hasFocus});
   }
@@ -290,7 +290,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SaveCameraScreenshot
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScreenshotRecorder::*)()>(&GlobalNamespace::ScreenshotRecorder::SaveCameraScreenshot)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScreenshotRecorder*), "SaveCameraScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -298,7 +298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SaveTextureScreenshot
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScreenshotRecorder::*)(UnityEngine::Texture2D*)>(&GlobalNamespace::ScreenshotRecorder::SaveTextureScreenshot)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tex = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture2D")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScreenshotRecorder*), "SaveTextureScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tex});
   }
@@ -307,7 +307,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ConvertRenderTexture
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (GlobalNamespace::ScreenshotRecorder::*)(UnityEngine::RenderTexture*)>(&GlobalNamespace::ScreenshotRecorder::ConvertRenderTexture)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* renderTexture = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScreenshotRecorder*), "ConvertRenderTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{renderTexture});
   }

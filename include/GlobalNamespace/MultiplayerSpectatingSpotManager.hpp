@@ -92,7 +92,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSpectatingSpotManager*, "", "
 // Il2CppName: get_spectatingSpots
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* (GlobalNamespace::MultiplayerSpectatingSpotManager::*)()>(&GlobalNamespace::MultiplayerSpectatingSpotManager::get_spectatingSpots)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatingSpotManager*), "get_spectatingSpots", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: get_defaultSpot
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IMultiplayerSpectatingSpot* (GlobalNamespace::MultiplayerSpectatingSpotManager::*)()>(&GlobalNamespace::MultiplayerSpectatingSpotManager::get_defaultSpot)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatingSpotManager*), "get_defaultSpot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: RegisterSpectatingSpot
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerSpectatingSpotManager::*)(GlobalNamespace::IMultiplayerSpectatingSpot*)>(&GlobalNamespace::MultiplayerSpectatingSpotManager::RegisterSpectatingSpot)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* spectatingSpot = &::il2cpp_utils::GetClassFromName("", "IMultiplayerSpectatingSpot")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatingSpotManager*), "RegisterSpectatingSpot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{spectatingSpot});
   }
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: GetAdjacentSpot
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IMultiplayerSpectatingSpot* (GlobalNamespace::MultiplayerSpectatingSpotManager::*)(GlobalNamespace::IMultiplayerSpectatingSpot*, int)>(&GlobalNamespace::MultiplayerSpectatingSpotManager::GetAdjacentSpot)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* spectatingSpot = &::il2cpp_utils::GetClassFromName("", "IMultiplayerSpectatingSpot")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatingSpotManager*), "GetAdjacentSpot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{spectatingSpot, offset});
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: GetIndexBySpot
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MultiplayerSpectatingSpotManager::*)(GlobalNamespace::IMultiplayerSpectatingSpot*)>(&GlobalNamespace::MultiplayerSpectatingSpotManager::GetIndexBySpot)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* spectatingSpot = &::il2cpp_utils::GetClassFromName("", "IMultiplayerSpectatingSpot")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatingSpotManager*), "GetIndexBySpot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{spectatingSpot});
   }
@@ -136,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: UpdateIndexBySpotDictionary
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerSpectatingSpotManager::*)()>(&GlobalNamespace::MultiplayerSpectatingSpotManager::UpdateIndexBySpotDictionary)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatingSpotManager*), "UpdateIndexBySpotDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SpotOnHasBeenRemoved
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerSpectatingSpotManager::*)(GlobalNamespace::IMultiplayerSpectatingSpot*)>(&GlobalNamespace::MultiplayerSpectatingSpotManager::SpotOnHasBeenRemoved)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* spectatingSpot = &::il2cpp_utils::GetClassFromName("", "IMultiplayerSpectatingSpot")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerSpectatingSpotManager*), "SpotOnHasBeenRemoved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{spectatingSpot});
   }

@@ -1773,7 +1773,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer*, "Zenject", "DiContainer");
 // Il2CppName: get_Settings
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenjectSettings* (Zenject::DiContainer::*)()>(&Zenject::DiContainer::get_Settings)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "get_Settings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1781,7 +1781,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Ze
 // Il2CppName: set_Settings
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(Zenject::ZenjectSettings*)>(&Zenject::DiContainer::set_Settings)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Zenject", "ZenjectSettings")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "set_Settings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1790,7 +1790,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: get_SingletonMarkRegistry
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Internal::SingletonMarkRegistry* (Zenject::DiContainer::*)()>(&Zenject::DiContainer::get_SingletonMarkRegistry)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "get_SingletonMarkRegistry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1798,7 +1798,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::In
 // Il2CppName: get_AllProviders
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::IProvider*>* (Zenject::DiContainer::*)()>(&Zenject::DiContainer::get_AllProviders)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "get_AllProviders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1806,7 +1806,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: InstallDefaultBindings
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)()>(&Zenject::DiContainer::InstallDefaultBindings)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstallDefaultBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1814,7 +1814,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: CreateLazyBinding
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(Zenject::InjectContext*)>(&Zenject::DiContainer::CreateLazyBinding)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "CreateLazyBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }
@@ -1823,7 +1823,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: QueueForValidate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(Zenject::IValidatable*)>(&Zenject::DiContainer::QueueForValidate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* validatable = &::il2cpp_utils::GetClassFromName("Zenject", "IValidatable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "QueueForValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{validatable});
   }
@@ -1832,7 +1832,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: ShouldInheritBinding
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::*)(Zenject::BindStatement*, Zenject::DiContainer*)>(&Zenject::DiContainer::ShouldInheritBinding)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* binding = &::il2cpp_utils::GetClassFromName("Zenject", "BindStatement")->byval_arg;
     static auto* ancestorContainer = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "ShouldInheritBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{binding, ancestorContainer});
@@ -1842,7 +1842,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
 // Il2CppName: get_ContextTransform
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (Zenject::DiContainer::*)()>(&Zenject::DiContainer::get_ContextTransform)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "get_ContextTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1850,7 +1850,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_AssertOnNewGameObjects
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::*)()>(&Zenject::DiContainer::get_AssertOnNewGameObjects)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "get_AssertOnNewGameObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1858,7 +1858,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
 // Il2CppName: set_AssertOnNewGameObjects
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(bool)>(&Zenject::DiContainer::set_AssertOnNewGameObjects)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "set_AssertOnNewGameObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1867,7 +1867,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: get_InheritedDefaultParent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (Zenject::DiContainer::*)()>(&Zenject::DiContainer::get_InheritedDefaultParent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "get_InheritedDefaultParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1875,7 +1875,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_DefaultParent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (Zenject::DiContainer::*)()>(&Zenject::DiContainer::get_DefaultParent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "get_DefaultParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1883,7 +1883,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_DefaultParent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(UnityEngine::Transform*)>(&Zenject::DiContainer::set_DefaultParent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "set_DefaultParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1892,7 +1892,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: get_ParentContainers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Zenject::DiContainer*>* (Zenject::DiContainer::*)()>(&Zenject::DiContainer::get_ParentContainers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "get_ParentContainers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1900,7 +1900,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Zen
 // Il2CppName: get_AncestorContainers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Zenject::DiContainer*>* (Zenject::DiContainer::*)()>(&Zenject::DiContainer::get_AncestorContainers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "get_AncestorContainers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1908,7 +1908,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Zen
 // Il2CppName: get_ChecksForCircularDependencies
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::*)()>(&Zenject::DiContainer::get_ChecksForCircularDependencies)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "get_ChecksForCircularDependencies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1916,7 +1916,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
 // Il2CppName: get_IsValidating
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::*)()>(&Zenject::DiContainer::get_IsValidating)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "get_IsValidating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1924,7 +1924,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
 // Il2CppName: get_IsInstalling
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::*)()>(&Zenject::DiContainer::get_IsInstalling)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "get_IsInstalling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1932,7 +1932,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
 // Il2CppName: set_IsInstalling
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(bool)>(&Zenject::DiContainer::set_IsInstalling)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "set_IsInstalling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1941,7 +1941,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: get_AllContracts
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::BindingId>* (Zenject::DiContainer::*)()>(&Zenject::DiContainer::get_AllContracts)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "get_AllContracts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1949,7 +1949,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: ResolveRoots
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)()>(&Zenject::DiContainer::ResolveRoots)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "ResolveRoots", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1957,7 +1957,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: ResolveDependencyRoots
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)()>(&Zenject::DiContainer::ResolveDependencyRoots)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "ResolveDependencyRoots", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1965,7 +1965,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: ValidateFullResolve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)()>(&Zenject::DiContainer::ValidateFullResolve)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "ValidateFullResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1973,7 +1973,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: FlushValidationQueue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)()>(&Zenject::DiContainer::FlushValidationQueue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "FlushValidationQueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1981,7 +1981,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: CreateSubContainer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (Zenject::DiContainer::*)()>(&Zenject::DiContainer::CreateSubContainer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "CreateSubContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1989,7 +1989,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Di
 // Il2CppName: QueueForInject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(::Il2CppObject*)>(&Zenject::DiContainer::QueueForInject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* instance = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "QueueForInject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{instance});
   }
@@ -2001,7 +2001,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: CreateSubContainer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (Zenject::DiContainer::*)(bool)>(&Zenject::DiContainer::CreateSubContainer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* isValidating = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "CreateSubContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isValidating});
   }
@@ -2010,7 +2010,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Di
 // Il2CppName: RegisterProvider
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(Zenject::BindingId, Zenject::BindingCondition*, Zenject::IProvider*, bool)>(&Zenject::DiContainer::RegisterProvider)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bindingId = &::il2cpp_utils::GetClassFromName("Zenject", "BindingId")->byval_arg;
     static auto* condition = &::il2cpp_utils::GetClassFromName("Zenject", "BindingCondition")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("Zenject", "IProvider")->byval_arg;
@@ -2022,7 +2022,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: GetProviderMatches
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(Zenject::InjectContext*, System::Collections::Generic::List_1<Zenject::DiContainer::ProviderInfo*>*)>(&Zenject::DiContainer::GetProviderMatches)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
     static auto* buffer = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "DiContainer/ProviderInfo")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "GetProviderMatches", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context, buffer});
@@ -2032,7 +2032,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: TryGetUniqueProvider
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer::ProviderInfo* (Zenject::DiContainer::*)(Zenject::InjectContext*)>(&Zenject::DiContainer::TryGetUniqueProvider)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "TryGetUniqueProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }
@@ -2041,7 +2041,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Di
 // Il2CppName: FlattenInheritanceChain
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<Zenject::DiContainer*>* (Zenject::DiContainer::*)()>(&Zenject::DiContainer::FlattenInheritanceChain)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "FlattenInheritanceChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -2049,7 +2049,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: GetLocalProviders
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(Zenject::BindingId, System::Collections::Generic::List_1<Zenject::DiContainer::ProviderInfo*>*)>(&Zenject::DiContainer::GetLocalProviders)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bindingId = &::il2cpp_utils::GetClassFromName("Zenject", "BindingId")->byval_arg;
     static auto* buffer = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "DiContainer/ProviderInfo")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "GetLocalProviders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindingId, buffer});
@@ -2059,7 +2059,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: GetProvidersForContract
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(Zenject::BindingId, Zenject::InjectSources, System::Collections::Generic::List_1<Zenject::DiContainer::ProviderInfo*>*)>(&Zenject::DiContainer::GetProvidersForContract)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bindingId = &::il2cpp_utils::GetClassFromName("Zenject", "BindingId")->byval_arg;
     static auto* sourceType = &::il2cpp_utils::GetClassFromName("Zenject", "InjectSources")->byval_arg;
     static auto* buffer = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "DiContainer/ProviderInfo")})->byval_arg;
@@ -2076,7 +2076,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: ResolveAll
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (Zenject::DiContainer::*)(Zenject::InjectContext*)>(&Zenject::DiContainer::ResolveAll)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "ResolveAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }
@@ -2085,7 +2085,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: ResolveAll
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(Zenject::InjectContext*, System::Collections::Generic::List_1<::Il2CppObject*>*)>(&Zenject::DiContainer::ResolveAll)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
     static auto* buffer = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "ResolveAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context, buffer});
@@ -2095,7 +2095,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: CheckForInstallWarning
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(Zenject::InjectContext*)>(&Zenject::DiContainer::CheckForInstallWarning)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "CheckForInstallWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }
@@ -2107,7 +2107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: ResolveType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Zenject::DiContainer::*)(System::Type*)>(&Zenject::DiContainer::ResolveType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "ResolveType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
@@ -2116,7 +2116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Il2CppName: ResolveType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Zenject::DiContainer::*)(Zenject::InjectContext*)>(&Zenject::DiContainer::ResolveType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "ResolveType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }
@@ -2125,7 +2125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Il2CppName: ResolveTypeAll
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::Type*>* (Zenject::DiContainer::*)(System::Type*)>(&Zenject::DiContainer::ResolveTypeAll)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "ResolveTypeAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
@@ -2134,7 +2134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: ResolveTypeAll
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::Type*>* (Zenject::DiContainer::*)(System::Type*, ::Il2CppObject*)>(&Zenject::DiContainer::ResolveTypeAll)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* identifier = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "ResolveTypeAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, identifier});
@@ -2144,7 +2144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: ResolveTypeAll
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::Type*>* (Zenject::DiContainer::*)(Zenject::InjectContext*)>(&Zenject::DiContainer::ResolveTypeAll)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "ResolveTypeAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }
@@ -2153,7 +2153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: Resolve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(Zenject::BindingId)>(&Zenject::DiContainer::Resolve)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("Zenject", "BindingId")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id});
   }
@@ -2162,7 +2162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: Resolve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(Zenject::InjectContext*)>(&Zenject::DiContainer::Resolve)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }
@@ -2171,7 +2171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: SafeGetInstances
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(Zenject::DiContainer::ProviderInfo*, Zenject::InjectContext*, System::Collections::Generic::List_1<::Il2CppObject*>*)>(&Zenject::DiContainer::SafeGetInstances)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* providerInfo = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer/ProviderInfo")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
     static auto* instances = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
@@ -2185,7 +2185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: GetDecoratedInstances
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(Zenject::IProvider*, Zenject::InjectContext*, System::Collections::Generic::List_1<::Il2CppObject*>*)>(&Zenject::DiContainer::GetDecoratedInstances)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("Zenject", "IProvider")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
     static auto* buffer = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
@@ -2196,7 +2196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: TryGetDecoratorProvider
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Internal::IDecoratorProvider* (Zenject::DiContainer::*)(System::Type*)>(&Zenject::DiContainer::TryGetDecoratorProvider)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* contractType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "TryGetDecoratorProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{contractType});
   }
@@ -2205,7 +2205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::In
 // Il2CppName: GetContainerHeirarchyDistance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenject::DiContainer::*)(Zenject::DiContainer*)>(&Zenject::DiContainer::GetContainerHeirarchyDistance)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* container = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "GetContainerHeirarchyDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
   }
@@ -2214,7 +2214,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenjec
 // Il2CppName: GetContainerHeirarchyDistance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<int> (Zenject::DiContainer::*)(Zenject::DiContainer*, int)>(&Zenject::DiContainer::GetContainerHeirarchyDistance)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* container = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
     static auto* depth = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "GetContainerHeirarchyDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container, depth});
@@ -2227,7 +2227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nul
 // Il2CppName: GetDependencyContracts
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Type*>* (Zenject::DiContainer::*)(System::Type*)>(&Zenject::DiContainer::GetDependencyContracts)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* contract = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "GetDependencyContracts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{contract});
   }
@@ -2236,7 +2236,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: InstantiateInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, bool, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::InjectContext*, ::Il2CppObject*)>(&Zenject::DiContainer::InstantiateInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* concreteType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* autoInject = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* extraArgs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "TypeValuePair")})->byval_arg;
@@ -2249,7 +2249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: InjectExplicit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(::Il2CppObject*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*)>(&Zenject::DiContainer::InjectExplicit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* injectable = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* extraArgs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "TypeValuePair")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InjectExplicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{injectable, extraArgs});
@@ -2259,7 +2259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: InjectExplicit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(::Il2CppObject*, System::Type*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::InjectContext*, ::Il2CppObject*)>(&Zenject::DiContainer::InjectExplicit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* injectable = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* injectableType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* extraArgs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "TypeValuePair")})->byval_arg;
@@ -2272,7 +2272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: CallInjectMethodsTopDown
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(::Il2CppObject*, System::Type*, Zenject::InjectTypeInfo*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::InjectContext*, ::Il2CppObject*, bool)>(&Zenject::DiContainer::CallInjectMethodsTopDown)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* injectable = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* injectableType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* typeInfo = &::il2cpp_utils::GetClassFromName("Zenject", "InjectTypeInfo")->byval_arg;
@@ -2287,7 +2287,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: InjectMembersTopDown
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(::Il2CppObject*, System::Type*, Zenject::InjectTypeInfo*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::InjectContext*, ::Il2CppObject*, bool)>(&Zenject::DiContainer::InjectMembersTopDown)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* injectable = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* injectableType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* typeInfo = &::il2cpp_utils::GetClassFromName("Zenject", "InjectTypeInfo")->byval_arg;
@@ -2302,7 +2302,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: InjectExplicitInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(::Il2CppObject*, System::Type*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::InjectContext*, ::Il2CppObject*)>(&Zenject::DiContainer::InjectExplicitInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* injectable = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* injectableType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* extraArgs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "TypeValuePair")})->byval_arg;
@@ -2315,7 +2315,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: CreateAndParentPrefabResource
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::DiContainer::*)(::Il2CppString*, Zenject::GameObjectCreationParameters*, Zenject::InjectContext*, bool&)>(&Zenject::DiContainer::CreateAndParentPrefabResource)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* gameObjectBindInfo = &::il2cpp_utils::GetClassFromName("Zenject", "GameObjectCreationParameters")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
@@ -2327,7 +2327,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetPrefabAsGameObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::DiContainer::*)(UnityEngine::Object*)>(&Zenject::DiContainer::GetPrefabAsGameObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prefab = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "GetPrefabAsGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prefab});
   }
@@ -2336,7 +2336,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: CreateAndParentPrefab
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::DiContainer::*)(UnityEngine::Object*, Zenject::GameObjectCreationParameters*, Zenject::InjectContext*, bool&)>(&Zenject::DiContainer::CreateAndParentPrefab)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prefab = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* gameObjectBindInfo = &::il2cpp_utils::GetClassFromName("Zenject", "GameObjectCreationParameters")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
@@ -2348,7 +2348,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: CreateEmptyGameObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::DiContainer::*)(::Il2CppString*)>(&Zenject::DiContainer::CreateEmptyGameObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "CreateEmptyGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
   }
@@ -2357,7 +2357,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: CreateEmptyGameObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::DiContainer::*)(Zenject::GameObjectCreationParameters*, Zenject::InjectContext*)>(&Zenject::DiContainer::CreateEmptyGameObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameObjectBindInfo = &::il2cpp_utils::GetClassFromName("Zenject", "GameObjectCreationParameters")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "CreateEmptyGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameObjectBindInfo, context});
@@ -2367,7 +2367,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetTransformGroup
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (Zenject::DiContainer::*)(Zenject::GameObjectCreationParameters*, Zenject::InjectContext*)>(&Zenject::DiContainer::GetTransformGroup)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameObjectBindInfo = &::il2cpp_utils::GetClassFromName("Zenject", "GameObjectCreationParameters")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "GetTransformGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameObjectBindInfo, context});
@@ -2377,7 +2377,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: CreateTransformGroup
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::DiContainer::*)(::Il2CppString*)>(&Zenject::DiContainer::CreateTransformGroup)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* groupName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "CreateTransformGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{groupName});
   }
@@ -2392,7 +2392,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Instantiate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*)>(&Zenject::DiContainer::Instantiate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* concreteType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "Instantiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{concreteType});
   }
@@ -2401,7 +2401,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: Instantiate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&Zenject::DiContainer::Instantiate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* concreteType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* extraArgs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "Instantiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{concreteType, extraArgs});
@@ -2417,7 +2417,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: InstantiateComponent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (Zenject::DiContainer::*)(System::Type*, UnityEngine::GameObject*)>(&Zenject::DiContainer::InstantiateComponent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* componentType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* gameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiateComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{componentType, gameObject});
@@ -2427,7 +2427,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InstantiateComponent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (Zenject::DiContainer::*)(System::Type*, UnityEngine::GameObject*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&Zenject::DiContainer::InstantiateComponent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* componentType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* gameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* extraArgs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
@@ -2450,7 +2450,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InstantiatePrefab
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::DiContainer::*)(UnityEngine::Object*)>(&Zenject::DiContainer::InstantiatePrefab)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prefab = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiatePrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prefab});
   }
@@ -2459,7 +2459,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InstantiatePrefab
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::DiContainer::*)(UnityEngine::Object*, UnityEngine::Transform*)>(&Zenject::DiContainer::InstantiatePrefab)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prefab = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* parentTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiatePrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prefab, parentTransform});
@@ -2469,7 +2469,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InstantiatePrefab
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::DiContainer::*)(UnityEngine::Object*, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Transform*)>(&Zenject::DiContainer::InstantiatePrefab)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prefab = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -2481,7 +2481,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InstantiatePrefab
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::DiContainer::*)(UnityEngine::Object*, Zenject::GameObjectCreationParameters*)>(&Zenject::DiContainer::InstantiatePrefab)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prefab = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* gameObjectBindInfo = &::il2cpp_utils::GetClassFromName("Zenject", "GameObjectCreationParameters")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiatePrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prefab, gameObjectBindInfo});
@@ -2491,7 +2491,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InstantiatePrefabResource
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::DiContainer::*)(::Il2CppString*)>(&Zenject::DiContainer::InstantiatePrefabResource)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiatePrefabResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resourcePath});
   }
@@ -2500,7 +2500,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InstantiatePrefabResource
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::DiContainer::*)(::Il2CppString*, UnityEngine::Transform*)>(&Zenject::DiContainer::InstantiatePrefabResource)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* parentTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiatePrefabResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resourcePath, parentTransform});
@@ -2510,7 +2510,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InstantiatePrefabResource
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::DiContainer::*)(::Il2CppString*, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Transform*)>(&Zenject::DiContainer::InstantiatePrefabResource)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -2522,7 +2522,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InstantiatePrefabResource
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::DiContainer::*)(::Il2CppString*, Zenject::GameObjectCreationParameters*)>(&Zenject::DiContainer::InstantiatePrefabResource)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* creationInfo = &::il2cpp_utils::GetClassFromName("Zenject", "GameObjectCreationParameters")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiatePrefabResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resourcePath, creationInfo});
@@ -2550,7 +2550,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InstantiatePrefabForComponent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, UnityEngine::Object*, UnityEngine::Transform*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&Zenject::DiContainer::InstantiatePrefabForComponent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* concreteType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* prefab = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* parentTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -2562,7 +2562,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: InstantiatePrefabForComponent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, UnityEngine::Object*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*, Zenject::GameObjectCreationParameters*)>(&Zenject::DiContainer::InstantiatePrefabForComponent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* concreteType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* prefab = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* extraArgs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
@@ -2592,7 +2592,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: InstantiatePrefabResourceForComponent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, ::Il2CppString*, UnityEngine::Transform*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&Zenject::DiContainer::InstantiatePrefabResourceForComponent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* concreteType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* parentTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -2610,7 +2610,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: InstantiateScriptableObjectResource
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, ::Il2CppString*)>(&Zenject::DiContainer::InstantiateScriptableObjectResource)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* scriptableObjectType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiateScriptableObjectResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scriptableObjectType, resourcePath});
@@ -2620,7 +2620,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: InstantiateScriptableObjectResource
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, ::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&Zenject::DiContainer::InstantiateScriptableObjectResource)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* scriptableObjectType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* extraArgs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
@@ -2631,7 +2631,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: InjectGameObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(UnityEngine::GameObject*)>(&Zenject::DiContainer::InjectGameObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InjectGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameObject});
   }
@@ -2646,7 +2646,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: InjectGameObjectForComponent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(UnityEngine::GameObject*, System::Type*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&Zenject::DiContainer::InjectGameObjectForComponent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* componentType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* extraArgs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
@@ -2657,7 +2657,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: InjectGameObjectForComponentExplicit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (Zenject::DiContainer::*)(UnityEngine::GameObject*, System::Type*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::InjectContext*, ::Il2CppObject*)>(&Zenject::DiContainer::InjectGameObjectForComponentExplicit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* componentType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* extraArgs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "TypeValuePair")})->byval_arg;
@@ -2670,7 +2670,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Inject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(::Il2CppObject*)>(&Zenject::DiContainer::Inject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* injectable = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "Inject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{injectable});
   }
@@ -2679,7 +2679,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: Inject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(::Il2CppObject*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&Zenject::DiContainer::Inject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* injectable = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* extraArgs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "Inject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{injectable, extraArgs});
@@ -2692,7 +2692,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: Resolve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*)>(&Zenject::DiContainer::Resolve)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* contractType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{contractType});
   }
@@ -2704,7 +2704,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: ResolveId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, ::Il2CppObject*)>(&Zenject::DiContainer::ResolveId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* contractType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* identifier = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "ResolveId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{contractType, identifier});
@@ -2717,7 +2717,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: TryResolve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*)>(&Zenject::DiContainer::TryResolve)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* contractType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "TryResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{contractType});
   }
@@ -2729,7 +2729,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: TryResolveId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, ::Il2CppObject*)>(&Zenject::DiContainer::TryResolveId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* contractType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* identifier = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "TryResolveId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{contractType, identifier});
@@ -2742,7 +2742,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: ResolveAll
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (Zenject::DiContainer::*)(System::Type*)>(&Zenject::DiContainer::ResolveAll)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* contractType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "ResolveAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{contractType});
   }
@@ -2754,7 +2754,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: ResolveIdAll
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (Zenject::DiContainer::*)(System::Type*, ::Il2CppObject*)>(&Zenject::DiContainer::ResolveIdAll)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* contractType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* identifier = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "ResolveIdAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{contractType, identifier});
@@ -2764,7 +2764,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: UnbindAll
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)()>(&Zenject::DiContainer::UnbindAll)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "UnbindAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -2775,7 +2775,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: Unbind
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::*)(System::Type*)>(&Zenject::DiContainer::Unbind)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* contractType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "Unbind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{contractType});
   }
@@ -2787,7 +2787,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
 // Il2CppName: UnbindId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::*)(System::Type*, ::Il2CppObject*)>(&Zenject::DiContainer::UnbindId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* contractType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* identifier = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "UnbindId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{contractType, identifier});
@@ -2800,7 +2800,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
 // Il2CppName: UnbindInterfacesTo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(System::Type*)>(&Zenject::DiContainer::UnbindInterfacesTo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* concreteType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "UnbindInterfacesTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{concreteType});
   }
@@ -2812,7 +2812,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: Unbind
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::*)(System::Type*, System::Type*)>(&Zenject::DiContainer::Unbind)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* contractType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* concreteType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "Unbind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{contractType, concreteType});
@@ -2825,7 +2825,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
 // Il2CppName: UnbindId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::*)(System::Type*, System::Type*, ::Il2CppObject*)>(&Zenject::DiContainer::UnbindId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* contractType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* concreteType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* identifier = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -2839,7 +2839,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
 // Il2CppName: HasBinding
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::*)(System::Type*)>(&Zenject::DiContainer::HasBinding)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* contractType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "HasBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{contractType});
   }
@@ -2851,7 +2851,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
 // Il2CppName: HasBindingId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::*)(System::Type*, ::Il2CppObject*)>(&Zenject::DiContainer::HasBindingId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* contractType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* identifier = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "HasBindingId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{contractType, identifier});
@@ -2861,7 +2861,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
 // Il2CppName: HasBindingId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::*)(System::Type*, ::Il2CppObject*, Zenject::InjectSources)>(&Zenject::DiContainer::HasBindingId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* contractType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* identifier = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* sourceType = &::il2cpp_utils::GetClassFromName("Zenject", "InjectSources")->byval_arg;
@@ -2872,7 +2872,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
 // Il2CppName: HasBinding
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::DiContainer::*)(Zenject::InjectContext*)>(&Zenject::DiContainer::HasBinding)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "HasBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }
@@ -2881,7 +2881,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
 // Il2CppName: FlushBindings
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)()>(&Zenject::DiContainer::FlushBindings)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "FlushBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -2889,7 +2889,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: FinalizeBinding
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(Zenject::BindStatement*)>(&Zenject::DiContainer::FinalizeBinding)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* binding = &::il2cpp_utils::GetClassFromName("Zenject", "BindStatement")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "FinalizeBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{binding});
   }
@@ -2898,7 +2898,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: StartBinding
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindStatement* (Zenject::DiContainer::*)(bool)>(&Zenject::DiContainer::StartBinding)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* flush = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "StartBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flush});
   }
@@ -2913,7 +2913,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Bi
 // Il2CppName: Rebind
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConcreteBinderNonGeneric* (Zenject::DiContainer::*)(System::Type*)>(&Zenject::DiContainer::Rebind)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* contractType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "Rebind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{contractType});
   }
@@ -2922,7 +2922,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 // Il2CppName: RebindId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConcreteBinderNonGeneric* (Zenject::DiContainer::*)(System::Type*, ::Il2CppObject*)>(&Zenject::DiContainer::RebindId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* contractType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* identifier = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "RebindId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{contractType, identifier});
@@ -2941,7 +2941,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 // Il2CppName: Bind
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConcreteIdBinderNonGeneric* (Zenject::DiContainer::*)(::Array<System::Type*>*)>(&Zenject::DiContainer::Bind)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* contractTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "Bind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{contractTypes});
   }
@@ -2950,7 +2950,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 // Il2CppName: Bind
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConcreteIdBinderNonGeneric* (Zenject::DiContainer::*)(System::Collections::Generic::IEnumerable_1<System::Type*>*)>(&Zenject::DiContainer::Bind)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* contractTypes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "Bind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{contractTypes});
   }
@@ -2959,7 +2959,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 // Il2CppName: BindInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConcreteIdBinderNonGeneric* (Zenject::DiContainer::*)(Zenject::BindInfo*, Zenject::BindStatement*)>(&Zenject::DiContainer::BindInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bindInfo = &::il2cpp_utils::GetClassFromName("Zenject", "BindInfo")->byval_arg;
     static auto* bindingFinalizer = &::il2cpp_utils::GetClassFromName("Zenject", "BindStatement")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "BindInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindInfo, bindingFinalizer});
@@ -2969,7 +2969,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 // Il2CppName: Bind
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConcreteIdBinderNonGeneric* (Zenject::DiContainer::*)(System::Action_1<Zenject::ConventionSelectTypesBinder*>*)>(&Zenject::DiContainer::Bind)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* generator = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "ConventionSelectTypesBinder")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "Bind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{generator});
   }
@@ -2981,7 +2981,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 // Il2CppName: BindInterfacesTo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::FromBinderNonGeneric* (Zenject::DiContainer::*)(System::Type*)>(&Zenject::DiContainer::BindInterfacesTo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "BindInterfacesTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
@@ -2993,7 +2993,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Fr
 // Il2CppName: BindInterfacesAndSelfTo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::FromBinderNonGeneric* (Zenject::DiContainer::*)(System::Type*)>(&Zenject::DiContainer::BindInterfacesAndSelfTo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "BindInterfacesAndSelfTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
@@ -3005,7 +3005,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Fr
 // Il2CppName: BindInstances
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(::Array<::Il2CppObject*>*)>(&Zenject::DiContainer::BindInstances)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* instances = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "BindInstances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{instances});
   }
@@ -3128,7 +3128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: InstantiateExplicit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*)>(&Zenject::DiContainer::InstantiateExplicit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* concreteType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* extraArgs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "TypeValuePair")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "InstantiateExplicit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{concreteType, extraArgs});
@@ -3138,7 +3138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: InstantiateExplicit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, bool, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::InjectContext*, ::Il2CppObject*)>(&Zenject::DiContainer::InstantiateExplicit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* concreteType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* autoInject = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* extraArgs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "TypeValuePair")})->byval_arg;
@@ -3151,7 +3151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: InstantiateComponentExplicit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (Zenject::DiContainer::*)(System::Type*, UnityEngine::GameObject*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*)>(&Zenject::DiContainer::InstantiateComponentExplicit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* componentType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* gameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* extraArgs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "TypeValuePair")})->byval_arg;
@@ -3162,7 +3162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InstantiateScriptableObjectResourceExplicit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, ::Il2CppString*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*)>(&Zenject::DiContainer::InstantiateScriptableObjectResourceExplicit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* scriptableObjectType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* extraArgs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "TypeValuePair")})->byval_arg;
@@ -3173,7 +3173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: InstantiatePrefabResourceForComponentExplicit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, ::Il2CppString*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::GameObjectCreationParameters*)>(&Zenject::DiContainer::InstantiatePrefabResourceForComponentExplicit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* componentType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* extraArgs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "TypeValuePair")})->byval_arg;
@@ -3185,7 +3185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: InstantiatePrefabResourceForComponentExplicit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, ::Il2CppString*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::InjectContext*, ::Il2CppObject*, Zenject::GameObjectCreationParameters*)>(&Zenject::DiContainer::InstantiatePrefabResourceForComponentExplicit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* componentType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* extraArgs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "TypeValuePair")})->byval_arg;
@@ -3199,7 +3199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: InstantiatePrefabForComponentExplicit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, UnityEngine::Object*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*)>(&Zenject::DiContainer::InstantiatePrefabForComponentExplicit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* componentType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* prefab = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* extraArgs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "TypeValuePair")})->byval_arg;
@@ -3210,7 +3210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: InstantiatePrefabForComponentExplicit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, UnityEngine::Object*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::GameObjectCreationParameters*)>(&Zenject::DiContainer::InstantiatePrefabForComponentExplicit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* componentType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* prefab = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* extraArgs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "TypeValuePair")})->byval_arg;
@@ -3222,7 +3222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: InstantiatePrefabForComponentExplicit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::DiContainer::*)(System::Type*, UnityEngine::Object*, System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::InjectContext*, ::Il2CppObject*, Zenject::GameObjectCreationParameters*)>(&Zenject::DiContainer::InstantiatePrefabForComponentExplicit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* componentType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* prefab = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* extraArgs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "TypeValuePair")})->byval_arg;
@@ -3239,7 +3239,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: BindExecutionOrder
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(System::Type*, int)>(&Zenject::DiContainer::BindExecutionOrder)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* order = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "BindExecutionOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, order});
@@ -3252,7 +3252,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: BindTickableExecutionOrder
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::CopyNonLazyBinder* (Zenject::DiContainer::*)(System::Type*, int)>(&Zenject::DiContainer::BindTickableExecutionOrder)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* order = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "BindTickableExecutionOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, order});
@@ -3265,7 +3265,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 // Il2CppName: BindInitializableExecutionOrder
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::CopyNonLazyBinder* (Zenject::DiContainer::*)(System::Type*, int)>(&Zenject::DiContainer::BindInitializableExecutionOrder)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* order = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "BindInitializableExecutionOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, order});
@@ -3281,7 +3281,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 // Il2CppName: BindDisposableExecutionOrder
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::CopyNonLazyBinder* (Zenject::DiContainer::*)(System::Type*, int)>(&Zenject::DiContainer::BindDisposableExecutionOrder)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* order = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "BindDisposableExecutionOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, order});
@@ -3291,7 +3291,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 // Il2CppName: BindLateDisposableExecutionOrder
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::CopyNonLazyBinder* (Zenject::DiContainer::*)(System::Type*, int)>(&Zenject::DiContainer::BindLateDisposableExecutionOrder)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* order = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "BindLateDisposableExecutionOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, order});
@@ -3304,7 +3304,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 // Il2CppName: BindFixedTickableExecutionOrder
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::CopyNonLazyBinder* (Zenject::DiContainer::*)(System::Type*, int)>(&Zenject::DiContainer::BindFixedTickableExecutionOrder)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* order = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "BindFixedTickableExecutionOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, order});
@@ -3317,7 +3317,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 // Il2CppName: BindLateTickableExecutionOrder
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::CopyNonLazyBinder* (Zenject::DiContainer::*)(System::Type*, int)>(&Zenject::DiContainer::BindLateTickableExecutionOrder)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* order = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "BindLateTickableExecutionOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, order});
@@ -3330,7 +3330,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 // Il2CppName: BindPoolableExecutionOrder
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::CopyNonLazyBinder* (Zenject::DiContainer::*)(System::Type*, int)>(&Zenject::DiContainer::BindPoolableExecutionOrder)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* order = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "BindPoolableExecutionOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, order});

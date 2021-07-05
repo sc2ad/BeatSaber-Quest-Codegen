@@ -78,7 +78,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RuntimeAssembly*, "System.Reflection"
 // Il2CppName: LoadWithPartialNameInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::RuntimeAssembly* (*)(::Il2CppString*, System::Security::Policy::Evidence*, System::Threading::StackCrawlMark&)>(&System::Reflection::RuntimeAssembly::LoadWithPartialNameInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* partialName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* securityEvidence = &::il2cpp_utils::GetClassFromName("System.Security.Policy", "Evidence")->byval_arg;
     static auto* stackMark = &::il2cpp_utils::GetClassFromName("System.Threading", "StackCrawlMark")->this_arg;
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Il2CppName: LoadWithPartialNameInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::RuntimeAssembly* (*)(System::Reflection::AssemblyName*, System::Security::Policy::Evidence*, System::Threading::StackCrawlMark&)>(&System::Reflection::RuntimeAssembly::LoadWithPartialNameInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* an = &::il2cpp_utils::GetClassFromName("System.Reflection", "AssemblyName")->byval_arg;
     static auto* securityEvidence = &::il2cpp_utils::GetClassFromName("System.Security.Policy", "Evidence")->byval_arg;
     static auto* stackMark = &::il2cpp_utils::GetClassFromName("System.Threading", "StackCrawlMark")->this_arg;
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Il2CppName: GetObjectData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::RuntimeAssembly::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Reflection::RuntimeAssembly::GetObjectData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::RuntimeAssembly*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{info, context});
@@ -110,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: GetName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::AssemblyName* (System::Reflection::RuntimeAssembly::*)(bool)>(&System::Reflection::RuntimeAssembly::GetName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* copiedName = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::RuntimeAssembly*), "GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{copiedName});
   }

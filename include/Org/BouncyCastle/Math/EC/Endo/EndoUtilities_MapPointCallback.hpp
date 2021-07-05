@@ -85,7 +85,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::EndoUtilities::MapPoin
 // Il2CppName: Precompute
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* (Org::BouncyCastle::Math::EC::Endo::EndoUtilities::MapPointCallback::*)(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*)>(&Org::BouncyCastle::Math::EC::Endo::EndoUtilities::MapPointCallback::Precompute)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* existing = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC.Multiplier", "PreCompInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Endo::EndoUtilities::MapPointCallback*), "Precompute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{existing});
   }
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: CheckExisting
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Math::EC::Endo::EndoUtilities::MapPointCallback::*)(Org::BouncyCastle::Math::EC::Endo::EndoPreCompInfo*, Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*)>(&Org::BouncyCastle::Math::EC::Endo::EndoUtilities::MapPointCallback::CheckExisting)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* existingEndo = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC.Endo", "EndoPreCompInfo")->byval_arg;
     static auto* endomorphism = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC.Endo", "ECEndomorphism")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Endo::EndoUtilities::MapPointCallback*), "CheckExisting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{existingEndo, endomorphism});

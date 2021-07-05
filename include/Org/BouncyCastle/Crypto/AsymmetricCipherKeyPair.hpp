@@ -65,7 +65,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair*, "Org
 // Il2CppName: get_Public
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::*)()>(&Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::get_Public)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair*), "get_Public", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -73,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: get_Private
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::*)()>(&Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::get_Private)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair*), "get_Private", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

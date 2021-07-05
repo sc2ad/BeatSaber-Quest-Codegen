@@ -56,7 +56,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509ExtensionBase*, "Org.BouncyC
 // Il2CppName: GetX509Extensions
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::X509Extensions* (Org::BouncyCastle::X509::X509ExtensionBase::*)()>(&Org::BouncyCastle::X509::X509ExtensionBase::GetX509Extensions)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509ExtensionBase*), "GetX509Extensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -64,7 +64,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: GetExtensionValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1OctetString* (Org::BouncyCastle::X509::X509ExtensionBase::*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&Org::BouncyCastle::X509::X509ExtensionBase::GetExtensionValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* oid = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "DerObjectIdentifier")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509ExtensionBase*), "GetExtensionValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{oid});
   }

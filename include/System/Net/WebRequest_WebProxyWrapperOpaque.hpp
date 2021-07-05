@@ -67,7 +67,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::WebRequest::WebProxyWrapperOpaque*, "System.
 // Il2CppName: GetProxy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (System::Net::WebRequest::WebProxyWrapperOpaque::*)(System::Uri*)>(&System::Net::WebRequest::WebProxyWrapperOpaque::GetProxy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* destination = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebRequest::WebProxyWrapperOpaque*), "GetProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{destination});
   }
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri
 // Il2CppName: IsBypassed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebRequest::WebProxyWrapperOpaque::*)(System::Uri*)>(&System::Net::WebRequest::WebProxyWrapperOpaque::IsBypassed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* host = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebRequest::WebProxyWrapperOpaque*), "IsBypassed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{host});
   }
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_Credentials
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ICredentials* (System::Net::WebRequest::WebProxyWrapperOpaque::*)()>(&System::Net::WebRequest::WebProxyWrapperOpaque::get_Credentials)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebRequest::WebProxyWrapperOpaque*), "get_Credentials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

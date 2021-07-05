@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RemoteSettings*, "UnityEngine", "RemoteSetti
 // Il2CppName: RemoteSettingsUpdated
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&UnityEngine::RemoteSettings::RemoteSettingsUpdated)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* wasLastUpdatedFromServer = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RemoteSettings*), "RemoteSettingsUpdated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{wasLastUpdatedFromServer});
   }
@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Il2CppName: RemoteSettingsBeforeFetchFromServer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::RemoteSettings::RemoteSettingsBeforeFetchFromServer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RemoteSettings*), "RemoteSettingsBeforeFetchFromServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: RemoteSettingsUpdateCompleted
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, bool, int)>(&UnityEngine::RemoteSettings::RemoteSettingsUpdateCompleted)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* wasLastUpdatedFromServer = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* settingsChanged = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* response = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

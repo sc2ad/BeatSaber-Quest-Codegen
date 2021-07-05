@@ -55,7 +55,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::InvalidSignatureExcep
 // Il2CppName: get_ResultState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ResultState* (UnityEngine::TestTools::TestRunner::InvalidSignatureException::*)()>(&UnityEngine::TestTools::TestRunner::InvalidSignatureException::get_ResultState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::InvalidSignatureException*), "get_ResultState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

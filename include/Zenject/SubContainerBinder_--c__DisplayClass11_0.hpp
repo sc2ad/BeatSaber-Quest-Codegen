@@ -73,7 +73,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerBinder::$$c__DisplayClass11_0*, "Zen
 // Il2CppName: <ByMethod>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ISubContainerCreator* (Zenject::SubContainerBinder::$$c__DisplayClass11_0::*)(Zenject::DiContainer*)>(&Zenject::SubContainerBinder::$$c__DisplayClass11_0::$ByMethod$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* container = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder::$$c__DisplayClass11_0*), "<ByMethod>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
   }

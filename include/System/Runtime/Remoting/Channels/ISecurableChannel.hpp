@@ -26,7 +26,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::ISecurableChannel*, 
 // Il2CppName: set_IsSecured
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Channels::ISecurableChannel::*)(bool)>(&System::Runtime::Remoting::Channels::ISecurableChannel::set_IsSecured)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::ISecurableChannel*), "set_IsSecured", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

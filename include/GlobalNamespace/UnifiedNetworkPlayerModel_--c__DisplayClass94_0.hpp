@@ -76,7 +76,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnifiedNetworkPlayerModel::$$c__DisplayC
 // Il2CppName: <Refresh>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UnifiedNetworkPlayerModel::$$c__DisplayClass94_0::*)(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PublicServerInfo>*)>(&GlobalNamespace::UnifiedNetworkPlayerModel::$$c__DisplayClass94_0::$Refresh$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* servers = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IReadOnlyList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "PublicServerInfo")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UnifiedNetworkPlayerModel::$$c__DisplayClass94_0*), "<Refresh>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{servers});
   }
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <Refresh>b__1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UnifiedNetworkPlayerModel::$$c__DisplayClass94_0::*)(GlobalNamespace::ConnectionFailedReason)>(&GlobalNamespace::UnifiedNetworkPlayerModel::$$c__DisplayClass94_0::$Refresh$b__1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* reason = &::il2cpp_utils::GetClassFromName("", "ConnectionFailedReason")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UnifiedNetworkPlayerModel::$$c__DisplayClass94_0*), "<Refresh>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reason});
   }

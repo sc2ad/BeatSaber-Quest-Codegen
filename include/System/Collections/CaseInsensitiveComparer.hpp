@@ -81,7 +81,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Collections::CaseInsensitiveComparer*, "System.Co
 // Il2CppName: get_Default
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::CaseInsensitiveComparer* (*)()>(&System::Collections::CaseInsensitiveComparer::get_Default)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Collections::CaseInsensitiveComparer*), "get_Default", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: Compare
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::CaseInsensitiveComparer::*)(::Il2CppObject*, ::Il2CppObject*)>(&System::Collections::CaseInsensitiveComparer::Compare)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Collections::CaseInsensitiveComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});

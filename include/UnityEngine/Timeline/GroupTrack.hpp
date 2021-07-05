@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::GroupTrack*, "UnityEngine.Timeline
 // Il2CppName: CanCompileClips
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::GroupTrack::*)()>(&UnityEngine::Timeline::GroupTrack::CanCompileClips)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::GroupTrack*), "CanCompileClips", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -69,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: get_outputs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* (UnityEngine::Timeline::GroupTrack::*)()>(&UnityEngine::Timeline::GroupTrack::get_outputs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::GroupTrack*), "get_outputs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -76,7 +76,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkPlayerModel::$Start$d__44, "
 // Il2CppName: MoveNext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkPlayerModel::$Start$d__44::*)()>(&GlobalNamespace::LocalNetworkPlayerModel::$Start$d__44::MoveNext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkPlayerModel::$Start$d__44), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetStateMachine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkPlayerModel::$Start$d__44::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&GlobalNamespace::LocalNetworkPlayerModel::$Start$d__44::SetStateMachine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stateMachine = &::il2cpp_utils::GetClassFromName("System.Runtime.CompilerServices", "IAsyncStateMachine")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkPlayerModel::$Start$d__44), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stateMachine});
   }

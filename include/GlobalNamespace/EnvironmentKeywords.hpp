@@ -65,7 +65,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentKeywords*, "", "EnvironmentKe
 // Il2CppName: get_environmentKeywords
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* (GlobalNamespace::EnvironmentKeywords::*)()>(&GlobalNamespace::EnvironmentKeywords::get_environmentKeywords)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentKeywords*), "get_environmentKeywords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: HasKeyword
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::EnvironmentKeywords::*)(::Il2CppString*)>(&GlobalNamespace::EnvironmentKeywords::HasKeyword)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* keyword = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentKeywords*), "HasKeyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keyword});
   }

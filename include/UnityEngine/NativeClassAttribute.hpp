@@ -69,7 +69,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::NativeClassAttribute*, "UnityEngine", "Nativ
 // Il2CppName: set_QualifiedNativeName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::NativeClassAttribute::*)(::Il2CppString*)>(&UnityEngine::NativeClassAttribute::set_QualifiedNativeName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::NativeClassAttribute*), "set_QualifiedNativeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: set_Declaration
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::NativeClassAttribute::*)(::Il2CppString*)>(&UnityEngine::NativeClassAttribute::set_Declaration)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::NativeClassAttribute*), "set_Declaration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

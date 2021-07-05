@@ -218,7 +218,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONLazyCreator*, "OVRSimpleJSON", "JSONLa
 // Il2CppName: get_Tag
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONNodeType (OVRSimpleJSON::JSONLazyCreator::*)()>(&OVRSimpleJSON::JSONLazyCreator::get_Tag)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "get_Tag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -226,7 +226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJS
 // Il2CppName: GetEnumerator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONNode::Enumerator (OVRSimpleJSON::JSONLazyCreator::*)()>(&OVRSimpleJSON::JSONLazyCreator::GetEnumerator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -234,7 +234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJS
 // Il2CppName: get_Item
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONNode* (OVRSimpleJSON::JSONLazyCreator::*)(int)>(&OVRSimpleJSON::JSONLazyCreator::get_Item)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* aIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aIndex});
   }
@@ -243,7 +243,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJS
 // Il2CppName: set_Item
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONLazyCreator::*)(int, OVRSimpleJSON::JSONNode*)>(&OVRSimpleJSON::JSONLazyCreator::set_Item)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* aIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("OVRSimpleJSON", "JSONNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "set_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aIndex, value});
@@ -253,7 +253,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSi
 // Il2CppName: get_Item
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONNode* (OVRSimpleJSON::JSONLazyCreator::*)(::Il2CppString*)>(&OVRSimpleJSON::JSONLazyCreator::get_Item)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* aKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aKey});
   }
@@ -262,7 +262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJS
 // Il2CppName: set_Item
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONLazyCreator::*)(::Il2CppString*, OVRSimpleJSON::JSONNode*)>(&OVRSimpleJSON::JSONLazyCreator::set_Item)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* aKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("OVRSimpleJSON", "JSONNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "set_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aKey, value});
@@ -272,7 +272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSi
 // Il2CppName: Add
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONLazyCreator::*)(OVRSimpleJSON::JSONNode*)>(&OVRSimpleJSON::JSONLazyCreator::Add)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* aItem = &::il2cpp_utils::GetClassFromName("OVRSimpleJSON", "JSONNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aItem});
   }
@@ -281,7 +281,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSi
 // Il2CppName: Add
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONLazyCreator::*)(::Il2CppString*, OVRSimpleJSON::JSONNode*)>(&OVRSimpleJSON::JSONLazyCreator::Add)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* aKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* aItem = &::il2cpp_utils::GetClassFromName("OVRSimpleJSON", "JSONNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aKey, aItem});
@@ -291,7 +291,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSi
 // Il2CppName: Equals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRSimpleJSON::JSONLazyCreator::*)(::Il2CppObject*)>(&OVRSimpleJSON::JSONLazyCreator::Equals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
@@ -300,7 +300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRSi
 // Il2CppName: GetHashCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OVRSimpleJSON::JSONLazyCreator::*)()>(&OVRSimpleJSON::JSONLazyCreator::GetHashCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -308,7 +308,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OVRSim
 // Il2CppName: get_AsInt
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OVRSimpleJSON::JSONLazyCreator::*)()>(&OVRSimpleJSON::JSONLazyCreator::get_AsInt)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "get_AsInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -316,7 +316,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OVRSim
 // Il2CppName: set_AsInt
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONLazyCreator::*)(int)>(&OVRSimpleJSON::JSONLazyCreator::set_AsInt)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "set_AsInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -325,7 +325,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSi
 // Il2CppName: get_AsFloat
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVRSimpleJSON::JSONLazyCreator::*)()>(&OVRSimpleJSON::JSONLazyCreator::get_AsFloat)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "get_AsFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -333,7 +333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVRS
 // Il2CppName: set_AsFloat
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONLazyCreator::*)(float)>(&OVRSimpleJSON::JSONLazyCreator::set_AsFloat)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "set_AsFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -342,7 +342,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSi
 // Il2CppName: get_AsDouble
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (OVRSimpleJSON::JSONLazyCreator::*)()>(&OVRSimpleJSON::JSONLazyCreator::get_AsDouble)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "get_AsDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -350,7 +350,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (OVR
 // Il2CppName: set_AsDouble
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONLazyCreator::*)(double)>(&OVRSimpleJSON::JSONLazyCreator::set_AsDouble)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "set_AsDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -359,7 +359,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSi
 // Il2CppName: get_AsLong
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (OVRSimpleJSON::JSONLazyCreator::*)()>(&OVRSimpleJSON::JSONLazyCreator::get_AsLong)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "get_AsLong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -367,7 +367,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (OV
 // Il2CppName: set_AsLong
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONLazyCreator::*)(int64_t)>(&OVRSimpleJSON::JSONLazyCreator::set_AsLong)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "set_AsLong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -376,7 +376,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSi
 // Il2CppName: get_AsBool
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRSimpleJSON::JSONLazyCreator::*)()>(&OVRSimpleJSON::JSONLazyCreator::get_AsBool)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "get_AsBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -384,7 +384,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRSi
 // Il2CppName: set_AsBool
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONLazyCreator::*)(bool)>(&OVRSimpleJSON::JSONLazyCreator::set_AsBool)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "set_AsBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -393,7 +393,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSi
 // Il2CppName: get_AsArray
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONArray* (OVRSimpleJSON::JSONLazyCreator::*)()>(&OVRSimpleJSON::JSONLazyCreator::get_AsArray)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "get_AsArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -401,7 +401,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJS
 // Il2CppName: get_AsObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJSON::JSONObject* (OVRSimpleJSON::JSONLazyCreator::*)()>(&OVRSimpleJSON::JSONLazyCreator::get_AsObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVRSimpleJSON::JSONLazyCreator*), "get_AsObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -409,7 +409,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVRSimpleJS
 // Il2CppName: WriteToStringBuilder
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVRSimpleJSON::JSONLazyCreator::*)(System::Text::StringBuilder*, int, int, OVRSimpleJSON::JSONTextMode)>(&OVRSimpleJSON::JSONLazyCreator::WriteToStringBuilder)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* aSB = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* aIndent = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* aIndentInc = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_SetKeyboardPositionForOverlay*, "
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVROverlay::_SetKeyboardPositionForOverlay::*)(uint64_t, Valve::VR::HmdRect2_t)>(&Valve::VR::IVROverlay::_SetKeyboardPositionForOverlay::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* avoidRect = &::il2cpp_utils::GetClassFromName("Valve.VR", "HmdRect2_t")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVROverlay::_SetKeyboardPositionForOverlay*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ulOverlayHandle, avoidRect});
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVROverlay::_SetKeyboardPositionForOverlay::*)(uint64_t, Valve::VR::HmdRect2_t, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVROverlay::_SetKeyboardPositionForOverlay::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* avoidRect = &::il2cpp_utils::GetClassFromName("Valve.VR", "HmdRect2_t")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVROverlay::_SetKeyboardPositionForOverlay::*)(System::IAsyncResult*)>(&Valve::VR::IVROverlay::_SetKeyboardPositionForOverlay::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVROverlay::_SetKeyboardPositionForOverlay*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

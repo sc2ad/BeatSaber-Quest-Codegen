@@ -89,7 +89,7 @@ DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextParsingUtilities*, "TMPro", "TMP_TextParsi
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TMPro::TMP_TextParsingUtilities::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextParsingUtilities*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: get_instance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_TextParsingUtilities* (*)()>(&TMPro::TMP_TextParsingUtilities::get_instance)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextParsingUtilities*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 // Il2CppName: GetHashCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Il2CppString*)>(&TMPro::TMP_TextParsingUtilities::GetHashCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextParsingUtilities*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
@@ -114,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::
 // Il2CppName: GetHashCodeCaseSensitive
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&TMPro::TMP_TextParsingUtilities::GetHashCodeCaseSensitive)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextParsingUtilities*), "GetHashCodeCaseSensitive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Il2CppName: ToLowerASCIIFast
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::Il2CppChar)>(&TMPro::TMP_TextParsingUtilities::ToLowerASCIIFast)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextParsingUtilities*), "ToLowerASCIIFast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
@@ -132,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 // Il2CppName: ToUpperASCIIFast
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::Il2CppChar)>(&TMPro::TMP_TextParsingUtilities::ToUpperASCIIFast)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextParsingUtilities*), "ToUpperASCIIFast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 // Il2CppName: ToUpperASCIIFast
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint)>(&TMPro::TMP_TextParsingUtilities::ToUpperASCIIFast)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextParsingUtilities*), "ToUpperASCIIFast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(ui
 // Il2CppName: ToLowerASCIIFast
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint)>(&TMPro::TMP_TextParsingUtilities::ToLowerASCIIFast)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextParsingUtilities*), "ToLowerASCIIFast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
@@ -159,7 +159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(ui
 // Il2CppName: IsHighSurrogate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint)>(&TMPro::TMP_TextParsingUtilities::IsHighSurrogate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextParsingUtilities*), "IsHighSurrogate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ui
 // Il2CppName: IsLowSurrogate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint)>(&TMPro::TMP_TextParsingUtilities::IsLowSurrogate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextParsingUtilities*), "IsLowSurrogate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }

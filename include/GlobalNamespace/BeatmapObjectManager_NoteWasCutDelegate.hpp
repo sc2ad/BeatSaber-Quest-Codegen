@@ -67,7 +67,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate::*)(GlobalNamespace::NoteController*, GlobalNamespace::NoteCutInfo&)>(&GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* noteController = &::il2cpp_utils::GetClassFromName("", "NoteController")->byval_arg;
     static auto* noteCutInfo = &::il2cpp_utils::GetClassFromName("", "NoteCutInfo")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteController, noteCutInfo});
@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate::*)(GlobalNamespace::NoteController*, GlobalNamespace::NoteCutInfo&, System::AsyncCallback*, ::Il2CppObject*)>(&GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* noteController = &::il2cpp_utils::GetClassFromName("", "NoteController")->byval_arg;
     static auto* noteCutInfo = &::il2cpp_utils::GetClassFromName("", "NoteCutInfo")->this_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate::*)(GlobalNamespace::NoteCutInfo&, System::IAsyncResult*)>(&GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* noteCutInfo = &::il2cpp_utils::GetClassFromName("", "NoteCutInfo")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteCutInfo, result});

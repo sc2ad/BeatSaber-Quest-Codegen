@@ -70,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRTrackedCamera::_GetCameraProjection*, "OV
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRTrackedCameraError (OVR::OpenVR::IVRTrackedCamera::_GetCameraProjection::*)(uint, OVR::OpenVR::EVRTrackedCameraFrameType, float, float, OVR::OpenVR::HmdMatrix44_t&)>(&OVR::OpenVR::IVRTrackedCamera::_GetCameraProjection::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* nDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* eFrameType = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRTrackedCameraFrameType")->byval_arg;
     static auto* flZNear = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRTrackedCamera::_GetCameraProjection::*)(uint, OVR::OpenVR::EVRTrackedCameraFrameType, float, float, OVR::OpenVR::HmdMatrix44_t&, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRTrackedCamera::_GetCameraProjection::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* nDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* eFrameType = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRTrackedCameraFrameType")->byval_arg;
     static auto* flZNear = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRTrackedCameraError (OVR::OpenVR::IVRTrackedCamera::_GetCameraProjection::*)(OVR::OpenVR::HmdMatrix44_t&, System::IAsyncResult*)>(&OVR::OpenVR::IVRTrackedCamera::_GetCameraProjection::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pProjection = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "HmdMatrix44_t")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRTrackedCamera::_GetCameraProjection*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pProjection, result});

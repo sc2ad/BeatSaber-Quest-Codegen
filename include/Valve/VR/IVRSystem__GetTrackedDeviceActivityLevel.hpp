@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetTrackedDeviceActivityLevel*, "V
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EDeviceActivityLevel (Valve::VR::IVRSystem::_GetTrackedDeviceActivityLevel::*)(uint)>(&Valve::VR::IVRSystem::_GetTrackedDeviceActivityLevel::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* unDeviceId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetTrackedDeviceActivityLevel*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unDeviceId});
   }
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRSystem::_GetTrackedDeviceActivityLevel::*)(uint, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRSystem::_GetTrackedDeviceActivityLevel::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* unDeviceId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EDeviceActivityLevel (Valve::VR::IVRSystem::_GetTrackedDeviceActivityLevel::*)(System::IAsyncResult*)>(&Valve::VR::IVRSystem::_GetTrackedDeviceActivityLevel::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetTrackedDeviceActivityLevel*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

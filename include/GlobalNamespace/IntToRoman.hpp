@@ -28,7 +28,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IntToRoman*, "", "IntToRoman");
 // Il2CppName: Roman
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&GlobalNamespace::IntToRoman::Roman)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* number = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IntToRoman*), "Roman", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{number});
   }

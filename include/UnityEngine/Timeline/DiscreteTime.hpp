@@ -215,7 +215,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::DiscreteTime, "UnityEngine.Timelin
 // Il2CppName: get_tickValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)()>(&UnityEngine::Timeline::DiscreteTime::get_tickValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DiscreteTime), "get_tickValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -247,7 +247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 // Il2CppName: OneTickBefore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::DiscreteTime (UnityEngine::Timeline::DiscreteTime::*)()>(&UnityEngine::Timeline::DiscreteTime::OneTickBefore)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DiscreteTime), "OneTickBefore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -255,7 +255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: OneTickAfter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::DiscreteTime (UnityEngine::Timeline::DiscreteTime::*)()>(&UnityEngine::Timeline::DiscreteTime::OneTickAfter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DiscreteTime), "OneTickAfter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -263,7 +263,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetTick
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (UnityEngine::Timeline::DiscreteTime::*)()>(&UnityEngine::Timeline::DiscreteTime::GetTick)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DiscreteTime), "GetTick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -271,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Un
 // Il2CppName: FromTicks
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::DiscreteTime (*)(int64_t)>(&UnityEngine::Timeline::DiscreteTime::FromTicks)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ticks = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DiscreteTime), "FromTicks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ticks});
   }
@@ -280,7 +280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: CompareTo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Timeline::DiscreteTime::*)(::Il2CppObject*)>(&UnityEngine::Timeline::DiscreteTime::CompareTo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DiscreteTime), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
@@ -289,7 +289,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: Equals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::DiscreteTime::*)(UnityEngine::Timeline::DiscreteTime)>(&UnityEngine::Timeline::DiscreteTime::Equals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "DiscreteTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DiscreteTime), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
@@ -298,7 +298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: DoubleToDiscreteTime
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(double)>(&UnityEngine::Timeline::DiscreteTime::DoubleToDiscreteTime)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DiscreteTime), "DoubleToDiscreteTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
@@ -307,7 +307,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Il2CppName: FloatToDiscreteTime
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(float)>(&UnityEngine::Timeline::DiscreteTime::FloatToDiscreteTime)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DiscreteTime), "FloatToDiscreteTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
@@ -316,7 +316,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Il2CppName: IntToDiscreteTime
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int)>(&UnityEngine::Timeline::DiscreteTime::IntToDiscreteTime)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DiscreteTime), "IntToDiscreteTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
@@ -325,7 +325,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Il2CppName: ToDouble
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(int64_t)>(&UnityEngine::Timeline::DiscreteTime::ToDouble)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DiscreteTime), "ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
@@ -334,7 +334,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 // Il2CppName: ToFloat
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(int64_t)>(&UnityEngine::Timeline::DiscreteTime::ToFloat)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DiscreteTime), "ToFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
@@ -361,7 +361,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(i
 // Il2CppName: Min
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::DiscreteTime (*)(UnityEngine::Timeline::DiscreteTime, UnityEngine::Timeline::DiscreteTime)>(&UnityEngine::Timeline::DiscreteTime::Min)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lhs = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "DiscreteTime")->byval_arg;
     static auto* rhs = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "DiscreteTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DiscreteTime), "Min", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lhs, rhs});
@@ -371,7 +371,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Max
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::DiscreteTime (*)(UnityEngine::Timeline::DiscreteTime, UnityEngine::Timeline::DiscreteTime)>(&UnityEngine::Timeline::DiscreteTime::Max)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lhs = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "DiscreteTime")->byval_arg;
     static auto* rhs = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "DiscreteTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DiscreteTime), "Max", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lhs, rhs});
@@ -381,7 +381,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: SnapToNearestTick
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double)>(&UnityEngine::Timeline::DiscreteTime::SnapToNearestTick)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DiscreteTime), "SnapToNearestTick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
@@ -390,7 +390,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 // Il2CppName: SnapToNearestTick
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&UnityEngine::Timeline::DiscreteTime::SnapToNearestTick)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DiscreteTime), "SnapToNearestTick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
@@ -399,7 +399,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(f
 // Il2CppName: GetNearestTick
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(double)>(&UnityEngine::Timeline::DiscreteTime::GetNearestTick)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DiscreteTime), "GetNearestTick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
@@ -408,7 +408,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Timeline::DiscreteTime::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DiscreteTime), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -416,7 +416,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: Equals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::DiscreteTime::*)(::Il2CppObject*)>(&UnityEngine::Timeline::DiscreteTime::Equals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DiscreteTime), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
@@ -425,7 +425,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: ToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Timeline::DiscreteTime::*)()>(&UnityEngine::Timeline::DiscreteTime::ToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DiscreteTime), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -433,7 +433,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetHashCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Timeline::DiscreteTime::*)()>(&UnityEngine::Timeline::DiscreteTime::GetHashCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::DiscreteTime), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

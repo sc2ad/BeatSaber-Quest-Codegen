@@ -71,7 +71,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::Resou
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::BaseInitAsyncOp::*)(System::Func_1<bool>*)>(&UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::BaseInitAsyncOp::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* callback = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::BaseInitAsyncOp*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callback});
   }
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: InvokeWaitForCompletion
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::BaseInitAsyncOp::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::BaseInitAsyncOp::InvokeWaitForCompletion)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::BaseInitAsyncOp*), "InvokeWaitForCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: Execute
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::BaseInitAsyncOp::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::BaseInitAsyncOp::Execute)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::BaseInitAsyncOp*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

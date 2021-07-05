@@ -101,7 +101,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexFC*, "System.Text.
 // Il2CppName: AddFC
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::RegularExpressions::RegexFC::*)(System::Text::RegularExpressions::RegexFC*, bool)>(&System::Text::RegularExpressions::RegexFC::AddFC)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* fc = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "RegexFC")->byval_arg;
     static auto* concatenate = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexFC*), "AddFC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fc, concatenate});
@@ -111,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: GetFirstChars
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Text::RegularExpressions::RegexFC::*)(System::Globalization::CultureInfo*)>(&System::Text::RegularExpressions::RegexFC::GetFirstChars)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* culture = &::il2cpp_utils::GetClassFromName("System.Globalization", "CultureInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexFC*), "GetFirstChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{culture});
   }
@@ -120,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: IsCaseInsensitive
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::RegularExpressions::RegexFC::*)()>(&System::Text::RegularExpressions::RegexFC::IsCaseInsensitive)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexFC*), "IsCaseInsensitive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -123,7 +123,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::RuntimeClip*, "UnityEngine.Timelin
 // Il2CppName: Create
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::RuntimeClip::*)(UnityEngine::Timeline::TimelineClip*, UnityEngine::Playables::Playable, UnityEngine::Playables::Playable)>(&UnityEngine::Timeline::RuntimeClip::Create)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TimelineClip")->byval_arg;
     static auto* clipPlayable = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")->byval_arg;
     static auto* parentMixer = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")->byval_arg;
@@ -134,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_clip
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip* (UnityEngine::Timeline::RuntimeClip::*)()>(&UnityEngine::Timeline::RuntimeClip::get_clip)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::RuntimeClip*), "get_clip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_mixer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (UnityEngine::Timeline::RuntimeClip::*)()>(&UnityEngine::Timeline::RuntimeClip::get_mixer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::RuntimeClip*), "get_mixer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_playable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (UnityEngine::Timeline::RuntimeClip::*)()>(&UnityEngine::Timeline::RuntimeClip::get_playable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::RuntimeClip*), "get_playable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -158,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: SetTime
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::RuntimeClip::*)(double)>(&UnityEngine::Timeline::RuntimeClip::SetTime)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::RuntimeClip*), "SetTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
@@ -167,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetDuration
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::RuntimeClip::*)(double)>(&UnityEngine::Timeline::RuntimeClip::SetDuration)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::RuntimeClip*), "SetDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{duration});
   }
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::RuntimeClip::*)()>(&UnityEngine::Timeline::RuntimeClip::get_start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::RuntimeClip*), "get_start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -184,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (Uni
 // Il2CppName: get_duration
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (UnityEngine::Timeline::RuntimeClip::*)()>(&UnityEngine::Timeline::RuntimeClip::get_duration)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::RuntimeClip*), "get_duration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -192,7 +192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (Uni
 // Il2CppName: set_enable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::RuntimeClip::*)(bool)>(&UnityEngine::Timeline::RuntimeClip::set_enable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::RuntimeClip*), "set_enable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -201,7 +201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: EvaluateAt
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::RuntimeClip::*)(double, UnityEngine::Playables::FrameData)>(&UnityEngine::Timeline::RuntimeClip::EvaluateAt)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* localTime = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     static auto* frameData = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "FrameData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::RuntimeClip*), "EvaluateAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{localTime, frameData});
@@ -211,7 +211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: DisableAt
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::RuntimeClip::*)(double, double, UnityEngine::Playables::FrameData)>(&UnityEngine::Timeline::RuntimeClip::DisableAt)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* localTime = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     static auto* rootDuration = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     static auto* frameData = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "FrameData")->byval_arg;

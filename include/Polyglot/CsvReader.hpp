@@ -52,7 +52,7 @@ DEFINE_IL2CPP_ARG_TYPE(Polyglot::CsvReader*, "Polyglot", "CsvReader");
 // Il2CppName: Parse
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<System::Collections::Generic::List_1<::Il2CppString*>*>* (*)(::Il2CppString*)>(&Polyglot::CsvReader::Parse)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* src = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::CsvReader*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src});
   }

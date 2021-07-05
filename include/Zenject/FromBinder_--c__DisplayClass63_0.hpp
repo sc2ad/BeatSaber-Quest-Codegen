@@ -72,7 +72,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::FromBinder::$$c__DisplayClass63_0*, "Zenject", "
 // Il2CppName: <FromComponentSibling>b__1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* (Zenject::FromBinder::$$c__DisplayClass63_0::*)(Zenject::InjectContext*)>(&Zenject::FromBinder::$$c__DisplayClass63_0::$FromComponentSibling$b__1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ctx = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder::$$c__DisplayClass63_0*), "<FromComponentSibling>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ctx});
   }

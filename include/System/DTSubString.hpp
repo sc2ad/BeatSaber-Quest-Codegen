@@ -69,7 +69,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::DTSubString, "System", "DTSubString");
 // Il2CppName: get_Item
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (System::DTSubString::*)(int)>(&System::DTSubString::get_Item)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* relativeIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::DTSubString), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{relativeIndex});
   }

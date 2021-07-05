@@ -60,7 +60,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDeleg
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate::*)(UnityEngine::XR::WSA::WorldAnchor*, bool)>(&UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* worldAnchor = &::il2cpp_utils::GetClassFromName("UnityEngine.XR.WSA", "WorldAnchor")->byval_arg;
     static auto* located = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{worldAnchor, located});
@@ -70,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate::*)(UnityEngine::XR::WSA::WorldAnchor*, bool, System::AsyncCallback*, ::Il2CppObject*)>(&UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* worldAnchor = &::il2cpp_utils::GetClassFromName("UnityEngine.XR.WSA", "WorldAnchor")->byval_arg;
     static auto* located = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate::*)(System::IAsyncResult*)>(&UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

@@ -125,7 +125,7 @@ DEFINE_IL2CPP_ARG_TYPE(MasterServer::RelayServerStatusUpdateRequest*, "MasterSer
 // Il2CppName: get_pool
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PacketPool_1<MasterServer::RelayServerStatusUpdateRequest*>* (*)()>(&MasterServer::RelayServerStatusUpdateRequest::get_pool)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::RelayServerStatusUpdateRequest*), "get_pool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_dedicatedServerId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MasterServer::RelayServerStatusUpdateRequest::*)()>(&MasterServer::RelayServerStatusUpdateRequest::get_dedicatedServerId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::RelayServerStatusUpdateRequest*), "get_dedicatedServerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_dedicatedServerId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::RelayServerStatusUpdateRequest::*)(::Il2CppString*)>(&MasterServer::RelayServerStatusUpdateRequest::set_dedicatedServerId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::RelayServerStatusUpdateRequest*), "set_dedicatedServerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: get_dedicatedServerCreationTime
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (MasterServer::RelayServerStatusUpdateRequest::*)()>(&MasterServer::RelayServerStatusUpdateRequest::get_dedicatedServerCreationTime)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::RelayServerStatusUpdateRequest*), "get_dedicatedServerCreationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -158,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Ma
 // Il2CppName: set_dedicatedServerCreationTime
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::RelayServerStatusUpdateRequest::*)(int64_t)>(&MasterServer::RelayServerStatusUpdateRequest::set_dedicatedServerCreationTime)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::RelayServerStatusUpdateRequest*), "set_dedicatedServerCreationTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -167,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::RelayServerStatusUpdateRequest* (MasterServer::RelayServerStatusUpdateRequest::*)(::Il2CppString*, int64_t, ::Il2CppString*, int)>(&MasterServer::RelayServerStatusUpdateRequest::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* dedicatedServerId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* dedicatedServerCreationTime = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServe
 // Il2CppName: Serialize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::RelayServerStatusUpdateRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&MasterServer::RelayServerStatusUpdateRequest::Serialize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataWriter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::RelayServerStatusUpdateRequest*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{writer});
   }
@@ -188,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: Deserialize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::RelayServerStatusUpdateRequest::*)(LiteNetLib::Utils::NetDataReader*)>(&MasterServer::RelayServerStatusUpdateRequest::Deserialize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::RelayServerStatusUpdateRequest*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
   }
@@ -197,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: Release
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::RelayServerStatusUpdateRequest::*)()>(&MasterServer::RelayServerStatusUpdateRequest::Release)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::RelayServerStatusUpdateRequest*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

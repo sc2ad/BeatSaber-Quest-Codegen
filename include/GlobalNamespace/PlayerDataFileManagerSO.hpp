@@ -169,7 +169,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerDataFileManagerSO*, "", "PlayerDat
 // Il2CppName: Save
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerDataFileManagerSO::*)(GlobalNamespace::PlayerData*)>(&GlobalNamespace::PlayerDataFileManagerSO::Save)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* playerData = &::il2cpp_utils::GetClassFromName("", "PlayerData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerDataFileManagerSO*), "Save", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playerData});
   }
@@ -178,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Load
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerData* (GlobalNamespace::PlayerDataFileManagerSO::*)()>(&GlobalNamespace::PlayerDataFileManagerSO::Load)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerDataFileManagerSO*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -186,7 +186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: LoadFromJSONString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerData* (GlobalNamespace::PlayerDataFileManagerSO::*)(::Il2CppString*)>(&GlobalNamespace::PlayerDataFileManagerSO::LoadFromJSONString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* jsonString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerDataFileManagerSO*), "LoadFromJSONString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{jsonString});
   }
@@ -195,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: LoadFromCurrentVersion
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerData* (GlobalNamespace::PlayerDataFileManagerSO::*)(GlobalNamespace::PlayerSaveData*)>(&GlobalNamespace::PlayerDataFileManagerSO::LoadFromCurrentVersion)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* playerSaveData = &::il2cpp_utils::GetClassFromName("", "PlayerSaveData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerDataFileManagerSO*), "LoadFromCurrentVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playerSaveData});
   }
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: LoadFromVersionV1_0_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerData* (GlobalNamespace::PlayerDataFileManagerSO::*)(GlobalNamespace::PlayerSaveDataV1_0_1*)>(&GlobalNamespace::PlayerDataFileManagerSO::LoadFromVersionV1_0_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* playerDataModelSaveData = &::il2cpp_utils::GetClassFromName("", "PlayerSaveDataV1_0_1")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerDataFileManagerSO*), "LoadFromVersionV1_0_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playerDataModelSaveData});
   }
@@ -213,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: CreateDefaultPlayerData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerData* (GlobalNamespace::PlayerDataFileManagerSO::*)()>(&GlobalNamespace::PlayerDataFileManagerSO::CreateDefaultPlayerData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerDataFileManagerSO*), "CreateDefaultPlayerData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -221,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: GetLevelIdFromV_1_0_1LevelId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, GlobalNamespace::BeatmapCharacteristicSO*)>(&GlobalNamespace::PlayerDataFileManagerSO::GetLevelIdFromV_1_0_1LevelId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* oldLevelId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* beatmapCharacteristic = &::il2cpp_utils::GetClassFromName("", "BeatmapCharacteristicSO")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerDataFileManagerSO*), "GetLevelIdFromV_1_0_1LevelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{oldLevelId, beatmapCharacteristic});
@@ -231,7 +231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetBeatmapCharacteristicFromV_1_0_1LevelId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapCharacteristicSO* (*)(GlobalNamespace::BeatmapCharacteristicCollectionSO*, ::Il2CppString*)>(&GlobalNamespace::PlayerDataFileManagerSO::GetBeatmapCharacteristicFromV_1_0_1LevelId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmapCharacteristicCollection = &::il2cpp_utils::GetClassFromName("", "BeatmapCharacteristicCollectionSO")->byval_arg;
     static auto* levelId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerDataFileManagerSO*), "GetBeatmapCharacteristicFromV_1_0_1LevelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapCharacteristicCollection, levelId});
@@ -241,7 +241,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: CreateDefaultOverrideEnvironmentSettings
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OverrideEnvironmentSettings* (GlobalNamespace::PlayerDataFileManagerSO::*)()>(&GlobalNamespace::PlayerDataFileManagerSO::CreateDefaultOverrideEnvironmentSettings)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerDataFileManagerSO*), "CreateDefaultOverrideEnvironmentSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -249,7 +249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: LoadCorrectedSongPackMask
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PlayerDataFileManagerSO::*)(::Array<uint8_t>*)>(&GlobalNamespace::PlayerDataFileManagerSO::LoadCorrectedSongPackMask)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* songMaskPackBytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerDataFileManagerSO*), "LoadCorrectedSongPackMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{songMaskPackBytes});
   }

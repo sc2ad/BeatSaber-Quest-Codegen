@@ -67,7 +67,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentO
 // Il2CppName: get_menuEnvironmentType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType (GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects::*)()>(&GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects::get_menuEnvironmentType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*), "get_menuEnvironmentType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_wrapper
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects::*)()>(&GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects::get_wrapper)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*), "get_wrapper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

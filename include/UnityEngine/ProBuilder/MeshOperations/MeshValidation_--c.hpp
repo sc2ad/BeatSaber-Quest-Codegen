@@ -88,7 +88,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::MeshValidation::
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -96,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <EnsureFacesAreComposedOfContiguousTriangles>b__4_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<int>* (UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c::*)(UnityEngine::ProBuilder::Triangle)>(&UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c::$EnsureFacesAreComposedOfContiguousTriangles$b__4_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Triangle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c*), "<EnsureFacesAreComposedOfContiguousTriangles>b__4_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: <EnsureFacesAreComposedOfContiguousTriangles>b__4_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<int>* (UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c::*)(UnityEngine::ProBuilder::Triangle)>(&UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c::$EnsureFacesAreComposedOfContiguousTriangles$b__4_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Triangle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c*), "<EnsureFacesAreComposedOfContiguousTriangles>b__4_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
@@ -114,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: <RemoveUnusedVertices>b__7_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<int>* (UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c::*)(UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c::$RemoveUnusedVertices$b__7_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c*), "<RemoveUnusedVertices>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }

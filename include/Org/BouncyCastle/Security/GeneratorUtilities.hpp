@@ -104,7 +104,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::GeneratorUtilities*, "Org.Bo
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::Security::GeneratorUtilities::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::GeneratorUtilities*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: AddDefaultKeySizeEntries
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Array<::Il2CppString*>*)>(&Org::BouncyCastle::Security::GeneratorUtilities::AddDefaultKeySizeEntries)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* algorithms = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::GeneratorUtilities*), "AddDefaultKeySizeEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{size, algorithms});
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Il2CppName: AddKgAlgorithm
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&Org::BouncyCastle::Security::GeneratorUtilities::AddKgAlgorithm)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* canonicalName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* aliases = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::GeneratorUtilities*), "AddKgAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{canonicalName, aliases});
@@ -132,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: AddKpgAlgorithm
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&Org::BouncyCastle::Security::GeneratorUtilities::AddKpgAlgorithm)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* canonicalName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* aliases = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::GeneratorUtilities*), "AddKpgAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{canonicalName, aliases});
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: AddHMacKeyGenerator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&Org::BouncyCastle::Security::GeneratorUtilities::AddHMacKeyGenerator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* algorithm = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* aliases = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::GeneratorUtilities*), "AddHMacKeyGenerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{algorithm, aliases});
@@ -152,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: GetCanonicalKeyGeneratorAlgorithm
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&Org::BouncyCastle::Security::GeneratorUtilities::GetCanonicalKeyGeneratorAlgorithm)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* algorithm = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::GeneratorUtilities*), "GetCanonicalKeyGeneratorAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{algorithm});
   }
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetDefaultKeySize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&Org::BouncyCastle::Security::GeneratorUtilities::GetDefaultKeySize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* oid = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "DerObjectIdentifier")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::GeneratorUtilities*), "GetDefaultKeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{oid});
   }
@@ -170,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Org
 // Il2CppName: GetDefaultKeySize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&Org::BouncyCastle::Security::GeneratorUtilities::GetDefaultKeySize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* algorithm = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::GeneratorUtilities*), "GetDefaultKeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{algorithm});
   }
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Il2CppName: FindDefaultKeySize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&Org::BouncyCastle::Security::GeneratorUtilities::FindDefaultKeySize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* canonicalName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::GeneratorUtilities*), "FindDefaultKeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{canonicalName});
   }

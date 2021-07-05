@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ValueFormatterFactory*, "N
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ValueFormatter* (NUnit::Framework::Constraints::ValueFormatterFactory::*)(NUnit::Framework::Constraints::ValueFormatter*)>(&NUnit::Framework::Constraints::ValueFormatterFactory::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* next = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "ValueFormatter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ValueFormatterFactory*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{next});
   }
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (NUnit::Framework::Constraints::ValueFormatterFactory::*)(NUnit::Framework::Constraints::ValueFormatter*, System::AsyncCallback*, ::Il2CppObject*)>(&NUnit::Framework::Constraints::ValueFormatterFactory::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* next = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "ValueFormatter")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ValueFormatter* (NUnit::Framework::Constraints::ValueFormatterFactory::*)(System::IAsyncResult*)>(&NUnit::Framework::Constraints::ValueFormatterFactory::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ValueFormatterFactory*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

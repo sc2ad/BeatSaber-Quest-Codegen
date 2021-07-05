@@ -74,7 +74,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::WebRequest::$$c__DisplayClass79_0*, "System.
 // Il2CppName: <GetResponseAsync>b__1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::Net::WebResponse*>* (System::Net::WebRequest::$$c__DisplayClass79_0::*)()>(&System::Net::WebRequest::$$c__DisplayClass79_0::$GetResponseAsync$b__1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebRequest::$$c__DisplayClass79_0*), "<GetResponseAsync>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

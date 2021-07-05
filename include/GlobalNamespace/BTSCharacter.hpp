@@ -112,7 +112,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacter*, "", "BTSCharacter");
 // Il2CppName: get_characterName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BTSCharacter::*)()>(&GlobalNamespace::BTSCharacter::get_characterName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacter*), "get_characterName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -120,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_materialPropertyBlockController
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MaterialPropertyBlockController* (GlobalNamespace::BTSCharacter::*)()>(&GlobalNamespace::BTSCharacter::get_materialPropertyBlockController)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacter*), "get_materialPropertyBlockController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_animator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animator* (GlobalNamespace::BTSCharacter::*)()>(&GlobalNamespace::BTSCharacter::get_animator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacter*), "get_animator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -136,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_headTransform
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GlobalNamespace::BTSCharacter::*)()>(&GlobalNamespace::BTSCharacter::get_headTransform)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacter*), "get_headTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: SetAlternativeAnimationAndMaterial
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacter::*)(UnityEngine::AnimationClip*, bool)>(&GlobalNamespace::BTSCharacter::SetAlternativeAnimationAndMaterial)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* animation = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")->byval_arg;
     static auto* alternativeMaterialOn = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacter*), "SetAlternativeAnimationAndMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{animation, alternativeMaterialOn});

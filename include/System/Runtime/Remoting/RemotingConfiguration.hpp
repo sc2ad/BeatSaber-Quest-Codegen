@@ -160,7 +160,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::RemotingConfiguration*, "Syste
 // Il2CppName: get_ApplicationName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Runtime::Remoting::RemotingConfiguration::get_ApplicationName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), "get_ApplicationName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_ApplicationName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&System::Runtime::Remoting::RemotingConfiguration::set_ApplicationName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), "set_ApplicationName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: get_ProcessId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Runtime::Remoting::RemotingConfiguration::get_ProcessId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), "get_ProcessId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: LoadDefaultDelayedChannels
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Runtime::Remoting::RemotingConfiguration::LoadDefaultDelayedChannels)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), "LoadDefaultDelayedChannels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -193,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: IsRemotelyActivatedClientType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ActivatedClientTypeEntry* (*)(System::Type*)>(&System::Runtime::Remoting::RemotingConfiguration::IsRemotelyActivatedClientType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* svrType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), "IsRemotelyActivatedClientType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{svrType});
   }
@@ -202,7 +202,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: IsWellKnownClientType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::WellKnownClientTypeEntry* (*)(System::Type*)>(&System::Runtime::Remoting::RemotingConfiguration::IsWellKnownClientType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* svrType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), "IsWellKnownClientType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{svrType});
   }
@@ -211,7 +211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: RegisterActivatedClientType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::ActivatedClientTypeEntry*)>(&System::Runtime::Remoting::RemotingConfiguration::RegisterActivatedClientType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* entry = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ActivatedClientTypeEntry")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), "RegisterActivatedClientType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{entry});
   }
@@ -220,7 +220,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: RegisterActivatedServiceType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::ActivatedServiceTypeEntry*)>(&System::Runtime::Remoting::RemotingConfiguration::RegisterActivatedServiceType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* entry = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ActivatedServiceTypeEntry")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), "RegisterActivatedServiceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{entry});
   }
@@ -229,7 +229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: RegisterWellKnownClientType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::WellKnownClientTypeEntry*)>(&System::Runtime::Remoting::RemotingConfiguration::RegisterWellKnownClientType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* entry = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "WellKnownClientTypeEntry")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), "RegisterWellKnownClientType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{entry});
   }
@@ -238,7 +238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: RegisterWellKnownServiceType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::WellKnownServiceTypeEntry*)>(&System::Runtime::Remoting::RemotingConfiguration::RegisterWellKnownServiceType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* entry = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "WellKnownServiceTypeEntry")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), "RegisterWellKnownServiceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{entry});
   }
@@ -247,7 +247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: RegisterChannelTemplate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::ChannelData*)>(&System::Runtime::Remoting::RemotingConfiguration::RegisterChannelTemplate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ChannelData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), "RegisterChannelTemplate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{channel});
   }
@@ -256,7 +256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: RegisterClientProviderTemplate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::ProviderData*)>(&System::Runtime::Remoting::RemotingConfiguration::RegisterClientProviderTemplate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prov = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ProviderData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), "RegisterClientProviderTemplate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prov});
   }
@@ -265,7 +265,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: RegisterServerProviderTemplate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::ProviderData*)>(&System::Runtime::Remoting::RemotingConfiguration::RegisterServerProviderTemplate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prov = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ProviderData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), "RegisterServerProviderTemplate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prov});
   }
@@ -274,7 +274,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: RegisterChannels
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::ArrayList*, bool)>(&System::Runtime::Remoting::RemotingConfiguration::RegisterChannels)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* channels = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->byval_arg;
     static auto* onlyDelayed = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), "RegisterChannels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{channels, onlyDelayed});
@@ -284,7 +284,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: RegisterTypes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::ArrayList*)>(&System::Runtime::Remoting::RemotingConfiguration::RegisterTypes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* types = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), "RegisterTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{types});
   }
@@ -293,7 +293,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: CustomErrorsEnabled
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool)>(&System::Runtime::Remoting::RemotingConfiguration::CustomErrorsEnabled)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* isLocalRequest = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), "CustomErrorsEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isLocalRequest});
   }
@@ -302,7 +302,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bo
 // Il2CppName: SetCustomErrorsMode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&System::Runtime::Remoting::RemotingConfiguration::SetCustomErrorsMode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mode = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), "SetCustomErrorsMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mode});
   }
@@ -311,7 +311,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Runtime::Remoting::RemotingConfiguration::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingConfiguration*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

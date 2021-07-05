@@ -40,7 +40,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::AssemblyHelper*, "NUnit.Frame
 // Il2CppName: GetAssemblyPath
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Reflection::Assembly*)>(&NUnit::Framework::Internal::AssemblyHelper::GetAssemblyPath)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* assembly = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::AssemblyHelper*), "GetAssemblyPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assembly});
   }
@@ -49,7 +49,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: IsFileUri
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&NUnit::Framework::Internal::AssemblyHelper::IsFileUri)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::AssemblyHelper*), "IsFileUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uri});
   }
@@ -58,7 +58,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: GetAssemblyPathFromCodeBase
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&NUnit::Framework::Internal::AssemblyHelper::GetAssemblyPathFromCodeBase)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* codeBase = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::AssemblyHelper*), "GetAssemblyPathFromCodeBase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{codeBase});
   }

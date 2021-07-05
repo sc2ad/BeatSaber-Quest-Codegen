@@ -33,7 +33,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::IConsoleDriver*, "System", "IConsoleDriver");
 // Il2CppName: ReadKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ConsoleKeyInfo (System::IConsoleDriver::*)(bool)>(&System::IConsoleDriver::ReadKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* intercept = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IConsoleDriver*), "ReadKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{intercept});
   }

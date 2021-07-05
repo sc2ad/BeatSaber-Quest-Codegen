@@ -71,7 +71,7 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::TableView::CellsGroup*, "HMUI", "TableView/CellsGro
 // Il2CppName: get_reuseIdentifier
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HMUI::TableView::CellsGroup::*)()>(&HMUI::TableView::CellsGroup::get_reuseIdentifier)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::TableView::CellsGroup*), "get_reuseIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_cells
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<HMUI::TableCell*>* (HMUI::TableView::CellsGroup::*)()>(&HMUI::TableView::CellsGroup::get_cells)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::TableView::CellsGroup*), "get_cells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -34,7 +34,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::MonoTlsProviderFactory*, "Mono
 // Il2CppName: GetProvider
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsProvider* (*)()>(&Mono::Security::Interface::MonoTlsProviderFactory::GetProvider)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsProviderFactory*), "GetProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

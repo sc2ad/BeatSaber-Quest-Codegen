@@ -105,7 +105,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerFiniteStateMachine*, "", "Mock
 // Il2CppName: get_saberAColor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(&GlobalNamespace::MockPlayerFiniteStateMachine::get_saberAColor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerFiniteStateMachine*), "get_saberAColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_saberAColor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerFiniteStateMachine::*)(UnityEngine::Color)>(&GlobalNamespace::MockPlayerFiniteStateMachine::set_saberAColor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerFiniteStateMachine*), "set_saberAColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_saberBColor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(&GlobalNamespace::MockPlayerFiniteStateMachine::get_saberBColor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerFiniteStateMachine*), "get_saberBColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_saberBColor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerFiniteStateMachine::*)(UnityEngine::Color)>(&GlobalNamespace::MockPlayerFiniteStateMachine::set_saberBColor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerFiniteStateMachine*), "set_saberBColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_obstaclesColor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(&GlobalNamespace::MockPlayerFiniteStateMachine::get_obstaclesColor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerFiniteStateMachine*), "get_obstaclesColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_obstaclesColor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerFiniteStateMachine::*)(UnityEngine::Color)>(&GlobalNamespace::MockPlayerFiniteStateMachine::set_obstaclesColor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerFiniteStateMachine*), "set_obstaclesColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_leftHanded
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(&GlobalNamespace::MockPlayerFiniteStateMachine::get_leftHanded)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerFiniteStateMachine*), "get_leftHanded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: set_leftHanded
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerFiniteStateMachine::*)(bool)>(&GlobalNamespace::MockPlayerFiniteStateMachine::set_leftHanded)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerFiniteStateMachine*), "set_leftHanded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -173,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_inactiveByDefault
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(&GlobalNamespace::MockPlayerFiniteStateMachine::get_inactiveByDefault)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerFiniteStateMachine*), "get_inactiveByDefault", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -181,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: set_inactiveByDefault
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerFiniteStateMachine::*)(bool)>(&GlobalNamespace::MockPlayerFiniteStateMachine::set_inactiveByDefault)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerFiniteStateMachine*), "set_inactiveByDefault", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -190,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_gamePoseGenerator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockPlayerGamePoseGenerator* (GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(&GlobalNamespace::MockPlayerFiniteStateMachine::get_gamePoseGenerator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerFiniteStateMachine*), "get_gamePoseGenerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -198,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerFiniteStateMachine::*)()>(&GlobalNamespace::MockPlayerFiniteStateMachine::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerFiniteStateMachine*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -206,7 +206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetIsReady
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerFiniteStateMachine::*)(bool)>(&GlobalNamespace::MockPlayerFiniteStateMachine::SetIsReady)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* isReady = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerFiniteStateMachine*), "SetIsReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isReady});
   }

@@ -83,7 +83,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableRetryTestCommand*, "Uni
 // Il2CppName: ExecuteEnumerable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (UnityEngine::TestTools::EnumerableRetryTestCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&UnityEngine::TestTools::EnumerableRetryTestCommand::ExecuteEnumerable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "ITestExecutionContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::EnumerableRetryTestCommand*), "ExecuteEnumerable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: Execute
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestResult* (UnityEngine::TestTools::EnumerableRetryTestCommand::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&UnityEngine::TestTools::EnumerableRetryTestCommand::Execute)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "ITestExecutionContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::EnumerableRetryTestCommand*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }

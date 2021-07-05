@@ -99,7 +99,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformAchievementsModelSO*, "", "Platf
 // Il2CppName: get_platformAchievementsHandler
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlatformAchievementsHandler* (GlobalNamespace::PlatformAchievementsModelSO::*)()>(&GlobalNamespace::PlatformAchievementsModelSO::get_platformAchievementsHandler)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformAchievementsModelSO*), "get_platformAchievementsHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: Initialize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformAchievementsModelSO::*)()>(&GlobalNamespace::PlatformAchievementsModelSO::Initialize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformAchievementsModelSO*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: CreatePlatformAchievementsHandler
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformAchievementsModelSO::*)()>(&GlobalNamespace::PlatformAchievementsModelSO::CreatePlatformAchievementsHandler)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformAchievementsModelSO*), "CreatePlatformAchievementsHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: UnlockAchievement
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::HMAsyncRequest* (GlobalNamespace::PlatformAchievementsModelSO::*)(::Il2CppString*, GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler*)>(&GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievement)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* achievementId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* completionHandler = &::il2cpp_utils::GetClassFromName("", "PlatformAchievementsModelSO/UnlockAchievementCompletionHandler")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformAchievementsModelSO*), "UnlockAchievement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{achievementId, completionHandler});
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: GetUnlockedAchievements
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::HMAsyncRequest* (GlobalNamespace::PlatformAchievementsModelSO::*)(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler*)>(&GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievements)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* completionHandler = &::il2cpp_utils::GetClassFromName("", "PlatformAchievementsModelSO/GetUnlockedAchievementsCompletionHandler")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformAchievementsModelSO*), "GetUnlockedAchievements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{completionHandler});
   }

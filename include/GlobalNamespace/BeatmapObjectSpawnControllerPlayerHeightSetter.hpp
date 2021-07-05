@@ -81,7 +81,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeight
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter::*)()>(&GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter::*)()>(&GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter::OnDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandlePlayerHeightDidChange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter::*)(float)>(&GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter::HandlePlayerHeightDidChange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* playerHeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter*), "HandlePlayerHeightDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playerHeight});
   }
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: JumpOffsetYForPlayerHeight
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter::JumpOffsetYForPlayerHeight)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* playerHeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnControllerPlayerHeightSetter*), "JumpOffsetYForPlayerHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playerHeight});
   }

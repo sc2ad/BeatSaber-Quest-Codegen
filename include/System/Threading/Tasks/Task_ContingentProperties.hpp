@@ -121,7 +121,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::ContingentProperties*, "S
 // Il2CppName: SetCompleted
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::ContingentProperties::*)()>(&System::Threading::Tasks::Task::ContingentProperties::SetCompleted)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task::ContingentProperties*), "SetCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -129,7 +129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: DeregisterCancellationCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::ContingentProperties::*)()>(&System::Threading::Tasks::Task::ContingentProperties::DeregisterCancellationCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task::ContingentProperties*), "DeregisterCancellationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

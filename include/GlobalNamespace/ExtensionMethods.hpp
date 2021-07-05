@@ -107,7 +107,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ExtensionMethods*, "", "ExtensionMethods
 // Il2CppName: ContainsLayer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::LayerMask, int)>(&GlobalNamespace::ExtensionMethods::ContainsLayer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* layerMask = &::il2cpp_utils::GetClassFromName("UnityEngine", "LayerMask")->byval_arg;
     static auto* layer = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExtensionMethods*), "ContainsLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layerMask, layer});
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: StartUniqueCoroutine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Coroutine* (*)(UnityEngine::MonoBehaviour*, System::Func_1<System::Collections::IEnumerator*>*)>(&GlobalNamespace::ExtensionMethods::StartUniqueCoroutine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* m = &::il2cpp_utils::GetClassFromName("UnityEngine", "MonoBehaviour")->byval_arg;
     static auto* func = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerator")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExtensionMethods*), "StartUniqueCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{m, func});
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: StopUniqueCoroutine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::MonoBehaviour*, System::Func_1<System::Collections::IEnumerator*>*)>(&GlobalNamespace::ExtensionMethods::StopUniqueCoroutine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* m = &::il2cpp_utils::GetClassFromName("UnityEngine", "MonoBehaviour")->byval_arg;
     static auto* func = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerator")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExtensionMethods*), "StopUniqueCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{m, func});
@@ -143,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: IsDescendantOf
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, UnityEngine::Transform*)>(&GlobalNamespace::ExtensionMethods::IsDescendantOf)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* parent = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExtensionMethods*), "IsDescendantOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transform, parent});
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: SetLocalPositionAndRotation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*, UnityEngine::Vector3, UnityEngine::Quaternion)>(&GlobalNamespace::ExtensionMethods::SetLocalPositionAndRotation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tr = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* pos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* rot = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: GetPath
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::Transform*)>(&GlobalNamespace::ExtensionMethods::GetPath)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* current = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExtensionMethods*), "GetPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{current});
   }
@@ -173,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: Reflect
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Quaternion, UnityEngine::Vector3)>(&GlobalNamespace::ExtensionMethods::Reflect)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* normal = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExtensionMethods*), "Reflect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source, normal});
@@ -183,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: CreateTexture2D
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (*)(UnityEngine::RenderTexture*, UnityEngine::TextureFormat)>(&GlobalNamespace::ExtensionMethods::CreateTexture2D)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* renderTexture = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     static auto* textureFormat = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextureFormat")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExtensionMethods*), "CreateTexture2D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{renderTexture, textureFormat});

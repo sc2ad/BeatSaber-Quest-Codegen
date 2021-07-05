@@ -71,7 +71,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetPose*, "RootMotion.FinalIK", "
 // Il2CppName: Apply
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::OffsetPose::*)(RootMotion::FinalIK::IKSolverFullBodyBiped*, float)>(&RootMotion::FinalIK::OffsetPose::Apply)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBodyBiped")->byval_arg;
     static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::OffsetPose*), "Apply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solver, weight});
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: Apply
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::OffsetPose::*)(RootMotion::FinalIK::IKSolverFullBodyBiped*, float, UnityEngine::Quaternion)>(&RootMotion::FinalIK::OffsetPose::Apply)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBodyBiped")->byval_arg;
     static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;

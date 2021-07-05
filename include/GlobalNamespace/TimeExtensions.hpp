@@ -86,7 +86,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TimeExtensions*, "", "TimeExtensions");
 // Il2CppName: MinSecDurationText
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(float)>(&GlobalNamespace::TimeExtensions::MinSecDurationText)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "MinSecDurationText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{duration});
   }
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: MinSecMillisecDurationText
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(float)>(&GlobalNamespace::TimeExtensions::MinSecMillisecDurationText)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "MinSecMillisecDurationText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{duration});
   }
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: SecondsToDays
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&GlobalNamespace::TimeExtensions::SecondsToDays)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "SecondsToDays", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Il2CppName: SecondsToHours
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&GlobalNamespace::TimeExtensions::SecondsToHours)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "SecondsToHours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Il2CppName: SecondsToMinutes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&GlobalNamespace::TimeExtensions::SecondsToMinutes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "SecondsToMinutes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Il2CppName: DaysToSeconds
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&GlobalNamespace::TimeExtensions::DaysToSeconds)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* days = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "DaysToSeconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{days});
   }
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Il2CppName: HoursToSeconds
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&GlobalNamespace::TimeExtensions::HoursToSeconds)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hours = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "HoursToSeconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hours});
   }
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Il2CppName: MinutesToSeconds
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&GlobalNamespace::TimeExtensions::MinutesToSeconds)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* minutes = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "MinutesToSeconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{minutes});
   }
@@ -158,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Il2CppName: Hours
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(float)>(&GlobalNamespace::TimeExtensions::Hours)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "Hours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
@@ -167,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(flo
 // Il2CppName: Minutes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(float)>(&GlobalNamespace::TimeExtensions::Minutes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "Minutes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(flo
 // Il2CppName: Seconds
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(float)>(&GlobalNamespace::TimeExtensions::Seconds)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "Seconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(flo
 // Il2CppName: Milliseconds
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(float)>(&GlobalNamespace::TimeExtensions::Milliseconds)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "Milliseconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
@@ -194,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(flo
 // Il2CppName: TotalDays
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(float)>(&GlobalNamespace::TimeExtensions::TotalDays)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "TotalDays", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
@@ -203,7 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(flo
 // Il2CppName: TotalHours
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(float)>(&GlobalNamespace::TimeExtensions::TotalHours)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "TotalHours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
@@ -212,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(flo
 // Il2CppName: TotalMinutes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(float)>(&GlobalNamespace::TimeExtensions::TotalMinutes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "TotalMinutes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
@@ -221,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(flo
 // Il2CppName: TotalSeconds
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(float)>(&GlobalNamespace::TimeExtensions::TotalSeconds)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "TotalSeconds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
@@ -230,7 +230,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(flo
 // Il2CppName: ToUnixTime
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(System::DateTime)>(&GlobalNamespace::TimeExtensions::ToUnixTime)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* dateTime = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "ToUnixTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dateTime});
   }
@@ -239,7 +239,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Il2CppName: AsUnixTime
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(int64_t)>(&GlobalNamespace::TimeExtensions::AsUnixTime)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* unixTime = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimeExtensions*), "AsUnixTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unixTime});
   }

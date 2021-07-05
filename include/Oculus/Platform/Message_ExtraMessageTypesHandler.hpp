@@ -60,7 +60,7 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Message::ExtraMessageTypesHandler*, "Oc
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Message* (Oculus::Platform::Message::ExtraMessageTypesHandler::*)(System::IntPtr, Oculus::Platform::Message::MessageType)>(&Oculus::Platform::Message::ExtraMessageTypesHandler::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* messageHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* message_type = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "Message/MessageType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message::ExtraMessageTypesHandler*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{messageHandle, message_type});
@@ -70,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Oculus::Platform::Message::ExtraMessageTypesHandler::*)(System::IntPtr, Oculus::Platform::Message::MessageType, System::AsyncCallback*, ::Il2CppObject*)>(&Oculus::Platform::Message::ExtraMessageTypesHandler::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* messageHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* message_type = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "Message/MessageType")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Message* (Oculus::Platform::Message::ExtraMessageTypesHandler::*)(System::IAsyncResult*)>(&Oculus::Platform::Message::ExtraMessageTypesHandler::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message::ExtraMessageTypesHandler*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

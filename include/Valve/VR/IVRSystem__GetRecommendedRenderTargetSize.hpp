@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetRecommendedRenderTargetSize*, "
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRSystem::_GetRecommendedRenderTargetSize::*)(uint&, uint&)>(&Valve::VR::IVRSystem::_GetRecommendedRenderTargetSize::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pnWidth = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
     static auto* pnHeight = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetRecommendedRenderTargetSize*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pnWidth, pnHeight});
@@ -71,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRSystem::_GetRecommendedRenderTargetSize::*)(uint&, uint&, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRSystem::_GetRecommendedRenderTargetSize::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pnWidth = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
     static auto* pnHeight = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRSystem::_GetRecommendedRenderTargetSize::*)(uint&, uint&, System::IAsyncResult*)>(&Valve::VR::IVRSystem::_GetRecommendedRenderTargetSize::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pnWidth = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
     static auto* pnHeight = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;

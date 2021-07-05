@@ -102,7 +102,7 @@ DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetConnectRequestPacket*, "LiteNetLib", "NetC
 // Il2CppName: GetProtocolId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(LiteNetLib::NetPacket*)>(&LiteNetLib::NetConnectRequestPacket::GetProtocolId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* packet = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPacket")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetConnectRequestPacket*), "GetProtocolId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet});
   }
@@ -111,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Lit
 // Il2CppName: FromData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetConnectRequestPacket* (*)(LiteNetLib::NetPacket*)>(&LiteNetLib::NetConnectRequestPacket::FromData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* packet = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPacket")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetConnectRequestPacket*), "FromData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet});
   }
@@ -120,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib:
 // Il2CppName: Make
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPacket* (*)(LiteNetLib::Utils::NetDataWriter*, System::Net::SocketAddress*, int64_t)>(&LiteNetLib::NetConnectRequestPacket::Make)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* connectData = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataWriter")->byval_arg;
     static auto* addressBytes = &::il2cpp_utils::GetClassFromName("System.Net", "SocketAddress")->byval_arg;
     static auto* connectId = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;

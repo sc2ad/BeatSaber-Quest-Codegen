@@ -60,7 +60,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PosePrediction*, "", "PosePrediction");
 // Il2CppName: PredictPose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Pose (*)(UnityEngine::Pose, float, UnityEngine::Pose, float, float)>(&GlobalNamespace::PosePrediction::PredictPose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prev = &::il2cpp_utils::GetClassFromName("UnityEngine", "Pose")->byval_arg;
     static auto* prevTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* curr = &::il2cpp_utils::GetClassFromName("UnityEngine", "Pose")->byval_arg;
@@ -73,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InterpolatePose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Pose (*)(UnityEngine::Pose, UnityEngine::Pose, float)>(&GlobalNamespace::PosePrediction::InterpolatePose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prev = &::il2cpp_utils::GetClassFromName("UnityEngine", "Pose")->byval_arg;
     static auto* curr = &::il2cpp_utils::GetClassFromName("UnityEngine", "Pose")->byval_arg;
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: PredictPoseSerializable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PoseSerializable (*)(GlobalNamespace::PoseSerializable, float, GlobalNamespace::PoseSerializable, float, float)>(&GlobalNamespace::PosePrediction::PredictPoseSerializable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prev = &::il2cpp_utils::GetClassFromName("", "PoseSerializable")->byval_arg;
     static auto* prevTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* curr = &::il2cpp_utils::GetClassFromName("", "PoseSerializable")->byval_arg;
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: InterpolatePoseSerializable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PoseSerializable (*)(GlobalNamespace::PoseSerializable, GlobalNamespace::PoseSerializable, float)>(&GlobalNamespace::PosePrediction::InterpolatePoseSerializable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("", "PoseSerializable")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("", "PoseSerializable")->byval_arg;
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

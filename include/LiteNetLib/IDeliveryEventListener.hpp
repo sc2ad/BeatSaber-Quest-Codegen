@@ -36,7 +36,7 @@ DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::IDeliveryEventListener*, "LiteNetLib", "IDeli
 // Il2CppName: OnMessageDelivered
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::IDeliveryEventListener::*)(LiteNetLib::NetPeer*, ::Il2CppObject*)>(&LiteNetLib::IDeliveryEventListener::OnMessageDelivered)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* peer = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPeer")->byval_arg;
     static auto* userData = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::IDeliveryEventListener*), "OnMessageDelivered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{peer, userData});

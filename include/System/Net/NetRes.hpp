@@ -37,7 +37,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::NetRes*, "System.Net", "NetRes");
 // Il2CppName: GetWebStatusString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, System::Net::WebExceptionStatus)>(&System::Net::NetRes::GetWebStatusString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* Res = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* Status = &::il2cpp_utils::GetClassFromName("System.Net", "WebExceptionStatus")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetRes*), "GetWebStatusString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{Res, Status});
@@ -47,7 +47,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetWebStatusString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Net::WebExceptionStatus)>(&System::Net::NetRes::GetWebStatusString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* Status = &::il2cpp_utils::GetClassFromName("System.Net", "WebExceptionStatus")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetRes*), "GetWebStatusString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{Status});
   }

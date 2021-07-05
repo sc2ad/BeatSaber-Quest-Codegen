@@ -70,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCallbackItemDataList::GetRelative
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback::*)(int, GlobalNamespace::NoteLineLayer)>(&GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lineIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* noteLineLayer = &::il2cpp_utils::GetClassFromName("", "NoteLineLayer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lineIndex, noteLineLayer});
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback::*)(int, GlobalNamespace::NoteLineLayer, System::AsyncCallback*, ::Il2CppObject*)>(&GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lineIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* noteLineLayer = &::il2cpp_utils::GetClassFromName("", "NoteLineLayer")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback::*)(System::IAsyncResult*)>(&GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

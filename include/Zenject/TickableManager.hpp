@@ -206,7 +206,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::TickableManager*, "Zenject", "TickableManager");
 // Il2CppName: get_Tickables
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::ITickable*>* (Zenject::TickableManager::*)()>(&Zenject::TickableManager::get_Tickables)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::TickableManager*), "get_Tickables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -214,7 +214,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: get_IsPaused
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::TickableManager::*)()>(&Zenject::TickableManager::get_IsPaused)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::TickableManager*), "get_IsPaused", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -222,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
 // Il2CppName: set_IsPaused
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::TickableManager::*)(bool)>(&Zenject::TickableManager::set_IsPaused)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::TickableManager*), "set_IsPaused", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -231,7 +231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: Initialize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::TickableManager::*)()>(&Zenject::TickableManager::Initialize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::TickableManager*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -239,7 +239,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: InitFixedTickables
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::TickableManager::*)()>(&Zenject::TickableManager::InitFixedTickables)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::TickableManager*), "InitFixedTickables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -247,7 +247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: InitTickables
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::TickableManager::*)()>(&Zenject::TickableManager::InitTickables)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::TickableManager*), "InitTickables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -255,7 +255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: InitLateTickables
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::TickableManager::*)()>(&Zenject::TickableManager::InitLateTickables)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::TickableManager*), "InitLateTickables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -263,7 +263,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: Add
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::TickableManager::*)(Zenject::ITickable*, int)>(&Zenject::TickableManager::Add)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tickable = &::il2cpp_utils::GetClassFromName("Zenject", "ITickable")->byval_arg;
     static auto* priority = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::TickableManager*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tickable, priority});
@@ -273,7 +273,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: Add
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::TickableManager::*)(Zenject::ITickable*)>(&Zenject::TickableManager::Add)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tickable = &::il2cpp_utils::GetClassFromName("Zenject", "ITickable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::TickableManager*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tickable});
   }
@@ -282,7 +282,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: AddLate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::TickableManager::*)(Zenject::ILateTickable*, int)>(&Zenject::TickableManager::AddLate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tickable = &::il2cpp_utils::GetClassFromName("Zenject", "ILateTickable")->byval_arg;
     static auto* priority = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::TickableManager*), "AddLate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tickable, priority});
@@ -292,7 +292,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: AddLate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::TickableManager::*)(Zenject::ILateTickable*)>(&Zenject::TickableManager::AddLate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tickable = &::il2cpp_utils::GetClassFromName("Zenject", "ILateTickable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::TickableManager*), "AddLate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tickable});
   }
@@ -301,7 +301,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: AddFixed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::TickableManager::*)(Zenject::IFixedTickable*, int)>(&Zenject::TickableManager::AddFixed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tickable = &::il2cpp_utils::GetClassFromName("Zenject", "IFixedTickable")->byval_arg;
     static auto* priority = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::TickableManager*), "AddFixed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tickable, priority});
@@ -311,7 +311,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: AddFixed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::TickableManager::*)(Zenject::IFixedTickable*)>(&Zenject::TickableManager::AddFixed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tickable = &::il2cpp_utils::GetClassFromName("Zenject", "IFixedTickable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::TickableManager*), "AddFixed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tickable});
   }
@@ -320,7 +320,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: Remove
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::TickableManager::*)(Zenject::ITickable*)>(&Zenject::TickableManager::Remove)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tickable = &::il2cpp_utils::GetClassFromName("Zenject", "ITickable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::TickableManager*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tickable});
   }
@@ -329,7 +329,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: RemoveLate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::TickableManager::*)(Zenject::ILateTickable*)>(&Zenject::TickableManager::RemoveLate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tickable = &::il2cpp_utils::GetClassFromName("Zenject", "ILateTickable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::TickableManager*), "RemoveLate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tickable});
   }
@@ -338,7 +338,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: RemoveFixed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::TickableManager::*)(Zenject::IFixedTickable*)>(&Zenject::TickableManager::RemoveFixed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tickable = &::il2cpp_utils::GetClassFromName("Zenject", "IFixedTickable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::TickableManager*), "RemoveFixed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tickable});
   }
@@ -347,7 +347,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: Update
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::TickableManager::*)()>(&Zenject::TickableManager::Update)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::TickableManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -355,7 +355,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: FixedUpdate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::TickableManager::*)()>(&Zenject::TickableManager::FixedUpdate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::TickableManager*), "FixedUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -363,7 +363,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: LateUpdate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::TickableManager::*)()>(&Zenject::TickableManager::LateUpdate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::TickableManager*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

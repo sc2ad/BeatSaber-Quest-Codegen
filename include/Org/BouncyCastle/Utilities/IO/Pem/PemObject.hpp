@@ -74,7 +74,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::Pem::PemObject*, "Org.B
 // Il2CppName: get_Type
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Utilities::IO::Pem::PemObject::*)()>(&Org::BouncyCastle::Utilities::IO::Pem::PemObject::get_Type)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Pem::PemObject*), "get_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_Headers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (Org::BouncyCastle::Utilities::IO::Pem::PemObject::*)()>(&Org::BouncyCastle::Utilities::IO::Pem::PemObject::get_Headers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Pem::PemObject*), "get_Headers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: get_Content
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Org::BouncyCastle::Utilities::IO::Pem::PemObject::*)()>(&Org::BouncyCastle::Utilities::IO::Pem::PemObject::get_Content)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Pem::PemObject*), "get_Content", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

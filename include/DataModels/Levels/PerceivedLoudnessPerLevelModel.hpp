@@ -95,7 +95,7 @@ DEFINE_IL2CPP_ARG_TYPE(DataModels::Levels::PerceivedLoudnessPerLevelModel*, "Dat
 // Il2CppName: ContainsLevelId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DataModels::Levels::PerceivedLoudnessPerLevelModel::*)(::Il2CppString*)>(&DataModels::Levels::PerceivedLoudnessPerLevelModel::ContainsLevelId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* levelId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(DataModels::Levels::PerceivedLoudnessPerLevelModel*), "ContainsLevelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelId});
   }
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (DataM
 // Il2CppName: GetLoudnessCorrectionByLevelId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (DataModels::Levels::PerceivedLoudnessPerLevelModel::*)(::Il2CppString*)>(&DataModels::Levels::PerceivedLoudnessPerLevelModel::GetLoudnessCorrectionByLevelId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* levelId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(DataModels::Levels::PerceivedLoudnessPerLevelModel*), "GetLoudnessCorrectionByLevelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelId});
   }
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Data
 // Il2CppName: GetMaxSfxVolumeByLevelId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (DataModels::Levels::PerceivedLoudnessPerLevelModel::*)(::Il2CppString*)>(&DataModels::Levels::PerceivedLoudnessPerLevelModel::GetMaxSfxVolumeByLevelId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* levelId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(DataModels::Levels::PerceivedLoudnessPerLevelModel*), "GetMaxSfxVolumeByLevelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelId});
   }
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Data
 // Il2CppName: GetLoudnessByLevelId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (DataModels::Levels::PerceivedLoudnessPerLevelModel::*)(::Il2CppString*)>(&DataModels::Levels::PerceivedLoudnessPerLevelModel::GetLoudnessByLevelId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* levelId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(DataModels::Levels::PerceivedLoudnessPerLevelModel*), "GetLoudnessByLevelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelId});
   }

@@ -204,7 +204,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSACryptoServiceProvider*
 // Il2CppName: get_UseMachineKeyStore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Security::Cryptography::RSACryptoServiceProvider::get_UseMachineKeyStore)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), "get_UseMachineKeyStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -212,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Il2CppName: GetAlgorithmId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Security::Cryptography::HashAlgorithmName)>(&System::Security::Cryptography::RSACryptoServiceProvider::GetAlgorithmId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hashAlgorithm = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "HashAlgorithmName")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), "GetAlgorithmId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hashAlgorithm});
   }
@@ -221,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: PaddingModeNotSupported
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)()>(&System::Security::Cryptography::RSACryptoServiceProvider::PaddingModeNotSupported)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), "PaddingModeNotSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -241,7 +241,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Il2CppName: Common
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RSACryptoServiceProvider::*)(int, bool)>(&System::Security::Cryptography::RSACryptoServiceProvider::Common)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* dwKeySize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* parameters = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), "Common", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dwKeySize, parameters});
@@ -251,7 +251,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Common
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RSACryptoServiceProvider::*)(System::Security::Cryptography::CspParameters*)>(&System::Security::Cryptography::RSACryptoServiceProvider::Common)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "CspParameters")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), "Common", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p});
   }
@@ -260,7 +260,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_PublicOnly
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::RSACryptoServiceProvider::*)()>(&System::Security::Cryptography::RSACryptoServiceProvider::get_PublicOnly)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), "get_PublicOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -268,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: InternalHashToHashAlgorithm
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::HashAlgorithm* (*)(int)>(&System::Security::Cryptography::RSACryptoServiceProvider::InternalHashToHashAlgorithm)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* calgHash = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), "InternalHashToHashAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{calgHash});
   }
@@ -277,7 +277,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Il2CppName: VerifyHash
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::RSACryptoServiceProvider::*)(::Array<uint8_t>*, int, ::Array<uint8_t>*)>(&System::Security::Cryptography::RSACryptoServiceProvider::VerifyHash)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rgbHash = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* calgHash = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* rgbSignature = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -288,7 +288,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: OnKeyGenerated
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RSACryptoServiceProvider::*)(::Il2CppObject*, System::EventArgs*)>(&System::Security::Cryptography::RSACryptoServiceProvider::OnKeyGenerated)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sender = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* e = &::il2cpp_utils::GetClassFromName("System", "EventArgs")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), "OnKeyGenerated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sender, e});
@@ -298,7 +298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: HashData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Security::Cryptography::RSACryptoServiceProvider::*)(::Array<uint8_t>*, int, int, System::Security::Cryptography::HashAlgorithmName)>(&System::Security::Cryptography::RSACryptoServiceProvider::HashData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -310,7 +310,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: VerifyHash
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::RSACryptoServiceProvider::*)(::Array<uint8_t>*, ::Array<uint8_t>*, System::Security::Cryptography::HashAlgorithmName, System::Security::Cryptography::RSASignaturePadding*)>(&System::Security::Cryptography::RSACryptoServiceProvider::VerifyHash)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hash = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* signature = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* hashAlgorithm = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "HashAlgorithmName")->byval_arg;
@@ -326,7 +326,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: Finalize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RSACryptoServiceProvider::*)()>(&System::Security::Cryptography::RSACryptoServiceProvider::Finalize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -334,7 +334,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_KeySize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Cryptography::RSACryptoServiceProvider::*)()>(&System::Security::Cryptography::RSACryptoServiceProvider::get_KeySize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), "get_KeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -342,7 +342,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: EncryptValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Security::Cryptography::RSACryptoServiceProvider::*)(::Array<uint8_t>*)>(&System::Security::Cryptography::RSACryptoServiceProvider::EncryptValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rgb = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), "EncryptValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rgb});
   }
@@ -351,7 +351,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: ExportParameters
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RSAParameters (System::Security::Cryptography::RSACryptoServiceProvider::*)(bool)>(&System::Security::Cryptography::RSACryptoServiceProvider::ExportParameters)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* includePrivateParameters = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), "ExportParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{includePrivateParameters});
   }
@@ -360,7 +360,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Il2CppName: ImportParameters
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RSACryptoServiceProvider::*)(System::Security::Cryptography::RSAParameters)>(&System::Security::Cryptography::RSACryptoServiceProvider::ImportParameters)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* parameters = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "RSAParameters")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), "ImportParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parameters});
   }
@@ -369,7 +369,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RSACryptoServiceProvider::*)(bool)>(&System::Security::Cryptography::RSACryptoServiceProvider::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* disposing = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSACryptoServiceProvider*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{disposing});
   }

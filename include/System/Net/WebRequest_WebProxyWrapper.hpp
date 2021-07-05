@@ -38,7 +38,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::WebRequest::WebProxyWrapper*, "System.Net", 
 // Il2CppName: get_WebProxy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebProxy* (System::Net::WebRequest::WebProxyWrapper::*)()>(&System::Net::WebRequest::WebProxyWrapper::get_WebProxy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebRequest::WebProxyWrapper*), "get_WebProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

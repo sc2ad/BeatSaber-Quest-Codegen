@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRScreenshots::_SubmitScreenshot*, "OVR.Ope
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRScreenshotError (OVR::OpenVR::IVRScreenshots::_SubmitScreenshot::*)(uint, OVR::OpenVR::EVRScreenshotType, ::Il2CppString*, ::Il2CppString*)>(&OVR::OpenVR::IVRScreenshots::_SubmitScreenshot::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* screenshotHandle = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRScreenshotType")->byval_arg;
     static auto* pchSourcePreviewFilename = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRScreenshots::_SubmitScreenshot::*)(uint, OVR::OpenVR::EVRScreenshotType, ::Il2CppString*, ::Il2CppString*, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRScreenshots::_SubmitScreenshot::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* screenshotHandle = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRScreenshotType")->byval_arg;
     static auto* pchSourcePreviewFilename = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRScreenshotError (OVR::OpenVR::IVRScreenshots::_SubmitScreenshot::*)(System::IAsyncResult*)>(&OVR::OpenVR::IVRScreenshots::_SubmitScreenshot::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRScreenshots::_SubmitScreenshot*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

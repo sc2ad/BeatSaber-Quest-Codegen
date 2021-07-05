@@ -60,7 +60,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoProperty::GetterAdapter*, "System
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Reflection::MonoProperty::GetterAdapter::*)(::Il2CppObject*)>(&System::Reflection::MonoProperty::GetterAdapter::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* _this = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoProperty::GetterAdapter*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_this});
   }
@@ -69,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Reflection::MonoProperty::GetterAdapter::*)(::Il2CppObject*, System::AsyncCallback*, ::Il2CppObject*)>(&System::Reflection::MonoProperty::GetterAdapter::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* _this = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Reflection::MonoProperty::GetterAdapter::*)(System::IAsyncResult*)>(&System::Reflection::MonoProperty::GetterAdapter::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoProperty::GetterAdapter*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

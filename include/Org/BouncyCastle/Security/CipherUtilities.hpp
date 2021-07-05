@@ -75,7 +75,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::CipherUtilities*, "Org.Bounc
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::Security::CipherUtilities::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::CipherUtilities*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: GetCipher
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::IBufferedCipher* (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&Org::BouncyCastle::Security::CipherUtilities::GetCipher)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* oid = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "DerObjectIdentifier")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::CipherUtilities*), "GetCipher", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{oid});
   }
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: GetCipher
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::IBufferedCipher* (*)(::Il2CppString*)>(&Org::BouncyCastle::Security::CipherUtilities::GetCipher)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* algorithm = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::CipherUtilities*), "GetCipher", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{algorithm});
   }
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: GetDigitIndex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&Org::BouncyCastle::Security::CipherUtilities::GetDigitIndex)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::CipherUtilities*), "GetDigitIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
@@ -110,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Il2CppName: CreateBlockCipher
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::IBlockCipher* (*)(Org::BouncyCastle::Security::CipherUtilities::CipherAlgorithm)>(&Org::BouncyCastle::Security::CipherUtilities::CreateBlockCipher)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cipherAlgorithm = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Security", "CipherUtilities/CipherAlgorithm")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::CipherUtilities*), "CreateBlockCipher", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cipherAlgorithm});
   }

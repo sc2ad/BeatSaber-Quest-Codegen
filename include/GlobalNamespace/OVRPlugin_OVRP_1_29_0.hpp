@@ -54,7 +54,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_29_0*, "", "OVRPlugin/
 // Il2CppName: ovrp_GetLayerAndroidSurfaceObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(int, System::IntPtr&)>(&GlobalNamespace::OVRPlugin::OVRP_1_29_0::ovrp_GetLayerAndroidSurfaceObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* layerId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* surfaceObject = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_29_0*), "ovrp_GetLayerAndroidSurfaceObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layerId, surfaceObject});
@@ -64,7 +64,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_SetHeadPoseModifier
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::Quatf&, GlobalNamespace::OVRPlugin::Vector3f&)>(&GlobalNamespace::OVRPlugin::OVRP_1_29_0::ovrp_SetHeadPoseModifier)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* relativeRotation = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Quatf")->this_arg;
     static auto* relativeTranslation = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Vector3f")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_29_0*), "ovrp_SetHeadPoseModifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{relativeRotation, relativeTranslation});
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_GetHeadPoseModifier
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::Quatf&, GlobalNamespace::OVRPlugin::Vector3f&)>(&GlobalNamespace::OVRPlugin::OVRP_1_29_0::ovrp_GetHeadPoseModifier)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* relativeRotation = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Quatf")->this_arg;
     static auto* relativeTranslation = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Vector3f")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_29_0*), "ovrp_GetHeadPoseModifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{relativeRotation, relativeTranslation});
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_GetNodePoseStateRaw
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::Step, int, GlobalNamespace::OVRPlugin::Node, GlobalNamespace::OVRPlugin::PoseStatef&)>(&GlobalNamespace::OVRPlugin::OVRP_1_29_0::ovrp_GetNodePoseStateRaw)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stepId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Step")->byval_arg;
     static auto* frameIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* nodeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Node")->byval_arg;
@@ -96,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_29_0::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_29_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -82,7 +82,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTlsStream*, "Mono.Unity", "UnityTlsStre
 // Il2CppName: CreateContext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::Security::MobileTlsContext* (Mono::Unity::UnityTlsStream::*)(bool, ::Il2CppString*, System::Security::Authentication::SslProtocols, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, bool)>(&Mono::Unity::UnityTlsStream::CreateContext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* serverMode = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* targetHost = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* enabledProtocols = &::il2cpp_utils::GetClassFromName("System.Security.Authentication", "SslProtocols")->byval_arg;

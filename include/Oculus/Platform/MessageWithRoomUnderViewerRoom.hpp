@@ -52,7 +52,7 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithRoomUnderViewerRoom*, "Oculu
 // Il2CppName: GetDataFromMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::Room* (Oculus::Platform::MessageWithRoomUnderViewerRoom::*)(System::IntPtr)>(&Oculus::Platform::MessageWithRoomUnderViewerRoom::GetDataFromMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c_message = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithRoomUnderViewerRoom*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c_message});
   }
@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: GetRoom
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::Room* (Oculus::Platform::MessageWithRoomUnderViewerRoom::*)()>(&Oculus::Platform::MessageWithRoomUnderViewerRoom::GetRoom)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithRoomUnderViewerRoom*), "GetRoom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

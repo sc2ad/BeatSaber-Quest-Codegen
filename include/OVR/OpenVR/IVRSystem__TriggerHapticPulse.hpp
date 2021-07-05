@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_TriggerHapticPulse*, "OVR.OpenVR
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRSystem::_TriggerHapticPulse::*)(uint, uint, uint16_t)>(&OVR::OpenVR::IVRSystem::_TriggerHapticPulse::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* unControllerDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* unAxisId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* usDurationMicroSec = &::il2cpp_utils::GetClassFromName("System", "UInt16")->byval_arg;
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRSystem::_TriggerHapticPulse::*)(uint, uint, uint16_t, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRSystem::_TriggerHapticPulse::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* unControllerDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* unAxisId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* usDurationMicroSec = &::il2cpp_utils::GetClassFromName("System", "UInt16")->byval_arg;
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRSystem::_TriggerHapticPulse::*)(System::IAsyncResult*)>(&OVR::OpenVR::IVRSystem::_TriggerHapticPulse::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_TriggerHapticPulse*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

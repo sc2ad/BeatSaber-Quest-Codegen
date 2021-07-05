@@ -57,7 +57,7 @@ DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::IApiLeaderboardsModel*, "OnlineServi
 // Il2CppName: GetLeaderboardEntriesAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<OnlineServices::API::ApiResponse_1<BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>>* (OnlineServices::API::IApiLeaderboardsModel::*)(BeatSaberAPI::DataTransferObjects::LeaderboardQuery*, System::Threading::CancellationToken)>(&OnlineServices::API::IApiLeaderboardsModel::GetLeaderboardEntriesAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* leaderboardQueryDTO = &::il2cpp_utils::GetClassFromName("BeatSaberAPI.DataTransferObjects", "LeaderboardQuery")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::IApiLeaderboardsModel*), "GetLeaderboardEntriesAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardQueryDTO, cancellationToken});
@@ -67,7 +67,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: SendLevelScoreResultAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<OnlineServices::API::Response>* (OnlineServices::API::IApiLeaderboardsModel::*)(BeatSaberAPI::DataTransferObjects::LevelScoreResult*, System::Threading::CancellationToken)>(&OnlineServices::API::IApiLeaderboardsModel::SendLevelScoreResultAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* levelScoreResultDto = &::il2cpp_utils::GetClassFromName("BeatSaberAPI.DataTransferObjects", "LevelScoreResult")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::IApiLeaderboardsModel*), "SendLevelScoreResultAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelScoreResultDto, cancellationToken});
@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: LogoutAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::API::IApiLeaderboardsModel::*)()>(&OnlineServices::API::IApiLeaderboardsModel::LogoutAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::IApiLeaderboardsModel*), "LogoutAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

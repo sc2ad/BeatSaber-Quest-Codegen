@@ -85,7 +85,7 @@ DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::BaseChannel*, "LiteNetLib", "BaseChannel");
 // Il2CppName: get_PacketsInQueue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNetLib::BaseChannel::*)()>(&LiteNetLib::BaseChannel::get_PacketsInQueue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::BaseChannel*), "get_PacketsInQueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNe
 // Il2CppName: AddToQueue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::BaseChannel::*)(LiteNetLib::NetPacket*)>(&LiteNetLib::BaseChannel::AddToQueue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* packet = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPacket")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::BaseChannel*), "AddToQueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet});
   }
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Il2CppName: SendNextPackets
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::BaseChannel::*)()>(&LiteNetLib::BaseChannel::SendNextPackets)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::BaseChannel*), "SendNextPackets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -110,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Il2CppName: ProcessPacket
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::BaseChannel::*)(LiteNetLib::NetPacket*)>(&LiteNetLib::BaseChannel::ProcessPacket)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* packet = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPacket")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::BaseChannel*), "ProcessPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet});
   }

@@ -78,7 +78,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore
 // Il2CppName: Run
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner::*)()>(&System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner::Run)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: InvokeMoveNext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner::InvokeMoveNext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stateMachine = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner*), "InvokeMoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stateMachine});
   }

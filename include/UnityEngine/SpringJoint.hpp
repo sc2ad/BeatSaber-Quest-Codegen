@@ -34,7 +34,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SpringJoint*, "UnityEngine", "SpringJoint");
 // Il2CppName: set_minDistance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::SpringJoint::*)(float)>(&UnityEngine::SpringJoint::set_minDistance)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SpringJoint*), "set_minDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -43,7 +43,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: set_maxDistance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::SpringJoint::*)(float)>(&UnityEngine::SpringJoint::set_maxDistance)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SpringJoint*), "set_maxDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

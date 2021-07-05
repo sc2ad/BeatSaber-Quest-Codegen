@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::Lightmappi
 // Il2CppName: SetDelegate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLightsDelegate*)>(&UnityEngine::Experimental::GlobalIllumination::Lightmapping::SetDelegate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* del = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.GlobalIllumination", "Lightmapping/RequestLightsDelegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::GlobalIllumination::Lightmapping*), "SetDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{del});
   }
@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: GetDelegate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLightsDelegate* (*)()>(&UnityEngine::Experimental::GlobalIllumination::Lightmapping::GetDelegate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::GlobalIllumination::Lightmapping*), "GetDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: ResetDelegate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Experimental::GlobalIllumination::Lightmapping::ResetDelegate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::GlobalIllumination::Lightmapping*), "ResetDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: RequestLights
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<UnityEngine::Light*>*, System::IntPtr, int)>(&UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLights)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lights = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Light"), 1)->byval_arg;
     static auto* outLightsPtr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* outLightsCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Experimental::GlobalIllumination::Lightmapping::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::GlobalIllumination::Lightmapping*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -34,7 +34,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IContributeDynamicSi
 // Il2CppName: GetDynamicSink
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::IDynamicMessageSink* (System::Runtime::Remoting::Contexts::IContributeDynamicSink::*)()>(&System::Runtime::Remoting::Contexts::IContributeDynamicSink::GetDynamicSink)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::IContributeDynamicSink*), "GetDynamicSink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

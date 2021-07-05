@@ -100,7 +100,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrailElementCollection*, "", "TrailEleme
 // Il2CppName: get_capacity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::TrailElementCollection::*)()>(&GlobalNamespace::TrailElementCollection::get_capacity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrailElementCollection*), "get_capacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: get_head
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::TrailElement* (GlobalNamespace::TrailElementCollection::*)()>(&GlobalNamespace::TrailElementCollection::get_head)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrailElementCollection*), "get_head", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_Item
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::TrailElement* (GlobalNamespace::TrailElementCollection::*)(int)>(&GlobalNamespace::TrailElementCollection::get_Item)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrailElementCollection*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
   }
@@ -129,7 +129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: InitSnapshots
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrailElementCollection::*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&GlobalNamespace::TrailElementCollection::InitSnapshots)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* defaultStartPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* defaultEndPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: MoveTailToHead
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrailElementCollection::*)()>(&GlobalNamespace::TrailElementCollection::MoveTailToHead)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrailElementCollection*), "MoveTailToHead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -148,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: UpdateDistances
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrailElementCollection::*)()>(&GlobalNamespace::TrailElementCollection::UpdateDistances)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrailElementCollection*), "UpdateDistances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: InterpolateByLen
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::TrailElementCollection::*)(float)>(&GlobalNamespace::TrailElementCollection::InterpolateByLen)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tl = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrailElementCollection*), "InterpolateByLen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tl});
   }
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InterpolateNormalByLen
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::TrailElementCollection::*)(float)>(&GlobalNamespace::TrailElementCollection::InterpolateNormalByLen)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tl = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrailElementCollection*), "InterpolateNormalByLen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tl});
   }
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InterpolateTimeByLen
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::TrailElementCollection::*)(float)>(&GlobalNamespace::TrailElementCollection::InterpolateTimeByLen)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tl = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrailElementCollection*), "InterpolateTimeByLen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tl});
   }
@@ -183,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: LenToSegment
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::TrailElementCollection::*)(float, float&)>(&GlobalNamespace::TrailElementCollection::LenToSegment)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* localF = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrailElementCollection*), "LenToSegment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t, localF});
@@ -193,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: GetElementWithinBoundary
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::TrailElement* (GlobalNamespace::TrailElementCollection::*)(int)>(&GlobalNamespace::TrailElementCollection::GetElementWithinBoundary)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrailElementCollection*), "GetElementWithinBoundary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
   }

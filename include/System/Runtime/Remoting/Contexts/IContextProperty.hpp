@@ -43,7 +43,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IContextProperty*, "
 // Il2CppName: get_Name
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Contexts::IContextProperty::*)()>(&System::Runtime::Remoting::Contexts::IContextProperty::get_Name)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::IContextProperty*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -51,7 +51,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: Freeze
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Contexts::IContextProperty::*)(System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::Contexts::IContextProperty::Freeze)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* newContext = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Contexts", "Context")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::IContextProperty*), "Freeze", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newContext});
   }
@@ -60,7 +60,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: IsNewContextOK
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Remoting::Contexts::IContextProperty::*)(System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::Contexts::IContextProperty::IsNewContextOK)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* newCtx = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Contexts", "Context")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::IContextProperty*), "IsNewContextOK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newCtx});
   }

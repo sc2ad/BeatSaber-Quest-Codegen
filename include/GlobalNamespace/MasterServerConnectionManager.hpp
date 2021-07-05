@@ -591,7 +591,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager::Connectio
 // Il2CppName: add_onConnectedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Action*)>(&GlobalNamespace::MasterServerConnectionManager::add_onConnectedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "add_onConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -600,7 +600,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_onConnectedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Action*)>(&GlobalNamespace::MasterServerConnectionManager::remove_onConnectedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "remove_onConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -609,7 +609,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_onDisconnectedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Action_1<GlobalNamespace::DisconnectedReason>*)>(&GlobalNamespace::MasterServerConnectionManager::add_onDisconnectedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "DisconnectedReason")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "add_onDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -618,7 +618,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_onDisconnectedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Action_1<GlobalNamespace::DisconnectedReason>*)>(&GlobalNamespace::MasterServerConnectionManager::remove_onDisconnectedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "DisconnectedReason")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "remove_onDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -627,7 +627,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_onConnectionFailedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Action_1<GlobalNamespace::ConnectionFailedReason>*)>(&GlobalNamespace::MasterServerConnectionManager::add_onConnectionFailedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "ConnectionFailedReason")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "add_onConnectionFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -636,7 +636,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_onConnectionFailedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Action_1<GlobalNamespace::ConnectionFailedReason>*)>(&GlobalNamespace::MasterServerConnectionManager::remove_onConnectionFailedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "ConnectionFailedReason")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "remove_onConnectionFailedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -645,7 +645,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_onConnectionConnectedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Action_1<GlobalNamespace::IConnection*>*)>(&GlobalNamespace::MasterServerConnectionManager::add_onConnectionConnectedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IConnection")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "add_onConnectionConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -654,7 +654,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_onConnectionConnectedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Action_1<GlobalNamespace::IConnection*>*)>(&GlobalNamespace::MasterServerConnectionManager::remove_onConnectionConnectedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IConnection")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "remove_onConnectionConnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -663,7 +663,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_onConnectionDisconnectedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>*)>(&GlobalNamespace::MasterServerConnectionManager::add_onConnectionDisconnectedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IConnection"), ::il2cpp_utils::GetClassFromName("", "DisconnectedReason")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "add_onConnectionDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -672,7 +672,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_onConnectionDisconnectedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Action_2<GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason>*)>(&GlobalNamespace::MasterServerConnectionManager::remove_onConnectionDisconnectedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IConnection"), ::il2cpp_utils::GetClassFromName("", "DisconnectedReason")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "remove_onConnectionDisconnectedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -681,7 +681,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_onLatencyUpdatedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Action_2<GlobalNamespace::IConnection*, float>*)>(&GlobalNamespace::MasterServerConnectionManager::add_onLatencyUpdatedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IConnection"), ::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "add_onLatencyUpdatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -690,7 +690,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_onLatencyUpdatedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Action_2<GlobalNamespace::IConnection*, float>*)>(&GlobalNamespace::MasterServerConnectionManager::remove_onLatencyUpdatedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IConnection"), ::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "remove_onLatencyUpdatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -699,7 +699,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_onReceivedDataEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>*)>(&GlobalNamespace::MasterServerConnectionManager::add_onReceivedDataEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`3"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IConnection"), ::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataReader"), ::il2cpp_utils::GetClassFromName("LiteNetLib", "DeliveryMethod")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "add_onReceivedDataEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -708,7 +708,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_onReceivedDataEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Action_3<GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod>*)>(&GlobalNamespace::MasterServerConnectionManager::remove_onReceivedDataEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`3"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IConnection"), ::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataReader"), ::il2cpp_utils::GetClassFromName("LiteNetLib", "DeliveryMethod")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "remove_onReceivedDataEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -717,7 +717,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_userId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_userId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -725,7 +725,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_userName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_userName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -733,7 +733,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_isConnected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_isConnected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_isConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -741,7 +741,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: get_isConnecting
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_isConnecting)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_isConnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -749,7 +749,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: get_isDisconnecting
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_isDisconnecting)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_isDisconnecting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -757,7 +757,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: get_connectionCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_connectionCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_connectionCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -765,7 +765,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: get_isConnectionOwner
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_isConnectionOwner)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_isConnectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -773,7 +773,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: get_isDisposed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_isDisposed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_isDisposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -781,7 +781,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: get_port
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_port)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_port", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -789,7 +789,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: get_secret
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_secret)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_secret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -797,7 +797,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_serverName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_serverName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_serverName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -805,7 +805,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_serverPassword
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_serverPassword)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_serverPassword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -813,7 +813,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_maxPlayerCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_maxPlayerCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_maxPlayerCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -821,7 +821,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: get_discoveryPolicy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::DiscoveryPolicy (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_discoveryPolicy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_discoveryPolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -829,7 +829,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_invitePolicy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::InvitePolicy (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_invitePolicy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_invitePolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -837,7 +837,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_configuration
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayServerConfiguration (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_configuration)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_configuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -845,7 +845,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_code
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_code)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_code", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -853,7 +853,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_serverEndPoint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_serverEndPoint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_serverEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -861,7 +861,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: get_serverUserId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_serverUserId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_serverUserId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -869,7 +869,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_serverUserName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::get_serverUserName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "get_serverUserName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -877,7 +877,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: SendToAll
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(LiteNetLib::Utils::NetDataWriter*, LiteNetLib::DeliveryMethod)>(&GlobalNamespace::MasterServerConnectionManager::SendToAll)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataWriter")->byval_arg;
     static auto* deliveryMethod = &::il2cpp_utils::GetClassFromName("LiteNetLib", "DeliveryMethod")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "SendToAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{writer, deliveryMethod});
@@ -887,7 +887,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SendToAll
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(LiteNetLib::Utils::NetDataWriter*, LiteNetLib::DeliveryMethod, GlobalNamespace::IConnection*)>(&GlobalNamespace::MasterServerConnectionManager::SendToAll)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataWriter")->byval_arg;
     static auto* deliveryMethod = &::il2cpp_utils::GetClassFromName("LiteNetLib", "DeliveryMethod")->byval_arg;
     static auto* excludingConnection = &::il2cpp_utils::GetClassFromName("", "IConnection")->byval_arg;
@@ -898,7 +898,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: PollUpdate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::PollUpdate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "PollUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -910,7 +910,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: InitMasterServerHandler
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(GlobalNamespace::MasterServerEndPoint*, GlobalNamespace::IAuthenticationTokenProvider*)>(&GlobalNamespace::MasterServerConnectionManager::InitMasterServerHandler)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* masterServerEndPoint = &::il2cpp_utils::GetClassFromName("", "MasterServerEndPoint")->byval_arg;
     static auto* authenticationTokenProvider = &::il2cpp_utils::GetClassFromName("", "IAuthenticationTokenProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "InitMasterServerHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{masterServerEndPoint, authenticationTokenProvider});
@@ -920,7 +920,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: DisposeMasterServerHandler
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::DisposeMasterServerHandler)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "DisposeMasterServerHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -931,7 +931,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetServerStatus
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(::Il2CppString*, ::Il2CppString*, GlobalNamespace::DiscoveryPolicy, GlobalNamespace::InvitePolicy, int, GlobalNamespace::GameplayServerConfiguration)>(&GlobalNamespace::MasterServerConnectionManager::SetServerStatus)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* serverName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* serverPassword = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* discoveryPolicy = &::il2cpp_utils::GetClassFromName("", "DiscoveryPolicy")->byval_arg;
@@ -945,7 +945,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetCurrentPlayerCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(int)>(&GlobalNamespace::MasterServerConnectionManager::SetCurrentPlayerCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* currentPlayerCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "SetCurrentPlayerCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{currentPlayerCount});
   }
@@ -954,7 +954,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -962,7 +962,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Disconnect
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(GlobalNamespace::DisconnectedReason)>(&GlobalNamespace::MasterServerConnectionManager::Disconnect)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* disconnectedReason = &::il2cpp_utils::GetClassFromName("", "DisconnectedReason")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "Disconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{disconnectedReason});
   }
@@ -971,7 +971,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: DisconnectInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(GlobalNamespace::ConnectionFailedReason)>(&GlobalNamespace::MasterServerConnectionManager::DisconnectInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* connectionFailedReason = &::il2cpp_utils::GetClassFromName("", "ConnectionFailedReason")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "DisconnectInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connectionFailedReason});
   }
@@ -980,7 +980,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: DisconnectInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(GlobalNamespace::DisconnectedReason, GlobalNamespace::ConnectionFailedReason)>(&GlobalNamespace::MasterServerConnectionManager::DisconnectInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* disconnectedReason = &::il2cpp_utils::GetClassFromName("", "DisconnectedReason")->byval_arg;
     static auto* connectionFailedReason = &::il2cpp_utils::GetClassFromName("", "ConnectionFailedReason")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "DisconnectInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{disconnectedReason, connectionFailedReason});
@@ -990,7 +990,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: GetConnection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnection* (GlobalNamespace::MasterServerConnectionManager::*)(int)>(&GlobalNamespace::MasterServerConnectionManager::GetConnection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "GetConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
   }
@@ -999,7 +999,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: HandleConnected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::HandleConnected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "HandleConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1007,7 +1007,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleConnectionConnected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(GlobalNamespace::IConnection*)>(&GlobalNamespace::MasterServerConnectionManager::HandleConnectionConnected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* connection = &::il2cpp_utils::GetClassFromName("", "IConnection")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "HandleConnectionConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connection});
   }
@@ -1016,7 +1016,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleConnectionDisconnected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(GlobalNamespace::IConnection*, GlobalNamespace::DisconnectedReason)>(&GlobalNamespace::MasterServerConnectionManager::HandleConnectionDisconnected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* connection = &::il2cpp_utils::GetClassFromName("", "IConnection")->byval_arg;
     static auto* reason = &::il2cpp_utils::GetClassFromName("", "DisconnectedReason")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "HandleConnectionDisconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connection, reason});
@@ -1026,7 +1026,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleConnectionFailed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(GlobalNamespace::ConnectionFailedReason)>(&GlobalNamespace::MasterServerConnectionManager::HandleConnectionFailed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* failedReason = &::il2cpp_utils::GetClassFromName("", "ConnectionFailedReason")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "HandleConnectionFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{failedReason});
   }
@@ -1035,7 +1035,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleLatencyUpdate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(GlobalNamespace::IConnection*, float)>(&GlobalNamespace::MasterServerConnectionManager::HandleLatencyUpdate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* connection = &::il2cpp_utils::GetClassFromName("", "IConnection")->byval_arg;
     static auto* latency = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "HandleLatencyUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connection, latency});
@@ -1045,7 +1045,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleReceivedData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(GlobalNamespace::IConnection*, LiteNetLib::Utils::NetDataReader*, LiteNetLib::DeliveryMethod)>(&GlobalNamespace::MasterServerConnectionManager::HandleReceivedData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* connection = &::il2cpp_utils::GetClassFromName("", "IConnection")->byval_arg;
     static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataReader")->byval_arg;
     static auto* deliveryMethod = &::il2cpp_utils::GetClassFromName("LiteNetLib", "DeliveryMethod")->byval_arg;
@@ -1056,7 +1056,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleConnectToClient
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(::Il2CppString*, ::Il2CppString*, System::Net::IPEndPoint*, ::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*, bool, bool)>(&GlobalNamespace::MasterServerConnectionManager::HandleConnectToClient)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* userName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
@@ -1072,7 +1072,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleBroadcastingStopped
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::HandleBroadcastingStopped)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "HandleBroadcastingStopped", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1080,7 +1080,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: AttemptConnection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MasterServerConnectionManager::*)(::Il2CppString*, ::Il2CppString*, System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::MasterServerConnectionManager::AttemptConnection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* userName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
@@ -1096,7 +1096,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: SetConnectionAttempt
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(GlobalNamespace::MasterServerConnectionManager::ConnectionAttempt)>(&GlobalNamespace::MasterServerConnectionManager::SetConnectionAttempt)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* connectionAttempt = &::il2cpp_utils::GetClassFromName("", "MasterServerConnectionManager/ConnectionAttempt")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "SetConnectionAttempt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connectionAttempt});
   }
@@ -1105,7 +1105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: MasterServerConnectToMatchmaking
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(::Il2CppString*, ::Il2CppString*, GlobalNamespace::GameplayServerConfiguration, GlobalNamespace::DiscoveryPolicy, ::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::MasterServerConnectionManager::MasterServerConnectToMatchmaking)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* userName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* configuration = &::il2cpp_utils::GetClassFromName("", "GameplayServerConfiguration")->byval_arg;
@@ -1119,7 +1119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: MasterServerConnectToServer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, bool)>(&GlobalNamespace::MasterServerConnectionManager::MasterServerConnectToServer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* userName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* secret = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1133,7 +1133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: StartBroadcastingServer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)()>(&GlobalNamespace::MasterServerConnectionManager::StartBroadcastingServer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "StartBroadcastingServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1141,7 +1141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleConnectToServerSuccess
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(::Il2CppString*, ::Il2CppString*, System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, GlobalNamespace::DiscoveryPolicy, GlobalNamespace::InvitePolicy, int, GlobalNamespace::GameplayServerConfiguration, ::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*, bool, bool)>(&GlobalNamespace::MasterServerConnectionManager::HandleConnectToServerSuccess)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* userName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
@@ -1163,7 +1163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ConnectToEndPoint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, ::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*, bool, bool)>(&GlobalNamespace::MasterServerConnectionManager::ConnectToEndPoint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* userName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1179,7 +1179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: GetPublicServers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Action_1<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::PublicServerInfo>*>*, System::Action_1<GlobalNamespace::ConnectionFailedReason>*, int, int, GlobalNamespace::GameplayServerFilter)>(&GlobalNamespace::MasterServerConnectionManager::GetPublicServers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* onSuccess = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IReadOnlyList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "PublicServerInfo")})})->byval_arg;
     static auto* onFailure = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "ConnectionFailedReason")})->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1192,7 +1192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <StartBroadcastingServer>b__112_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(System::Net::IPEndPoint*, ::Il2CppString*)>(&GlobalNamespace::MasterServerConnectionManager::$StartBroadcastingServer$b__112_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* code = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "<StartBroadcastingServer>b__112_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{remoteEndPoint, code});
@@ -1202,7 +1202,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <StartBroadcastingServer>b__112_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerConnectionManager::*)(GlobalNamespace::ConnectionFailedReason)>(&GlobalNamespace::MasterServerConnectionManager::$StartBroadcastingServer$b__112_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* reason = &::il2cpp_utils::GetClassFromName("", "ConnectionFailedReason")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerConnectionManager*), "<StartBroadcastingServer>b__112_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reason});
   }

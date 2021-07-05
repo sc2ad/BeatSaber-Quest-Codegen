@@ -171,7 +171,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteLineConnectionController*, "", "Note
 // Il2CppName: add_didFinishEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteLineConnectionController::*)(System::Action_1<GlobalNamespace::NoteLineConnectionController*>*)>(&GlobalNamespace::NoteLineConnectionController::add_didFinishEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "NoteLineConnectionController")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteLineConnectionController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -180,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_didFinishEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteLineConnectionController::*)(System::Action_1<GlobalNamespace::NoteLineConnectionController*>*)>(&GlobalNamespace::NoteLineConnectionController::remove_didFinishEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "NoteLineConnectionController")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteLineConnectionController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -189,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Setup
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteLineConnectionController::*)(GlobalNamespace::NoteController*, GlobalNamespace::NoteController*, float, float, float)>(&GlobalNamespace::NoteLineConnectionController::Setup)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* noteController0 = &::il2cpp_utils::GetClassFromName("", "NoteController")->byval_arg;
     static auto* noteController1 = &::il2cpp_utils::GetClassFromName("", "NoteController")->byval_arg;
     static auto* fadeOutStartDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -202,7 +202,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Update
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteLineConnectionController::*)()>(&GlobalNamespace::NoteLineConnectionController::Update)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteLineConnectionController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -210,7 +210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: UpdatePositionsAndColors
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteLineConnectionController::*)()>(&GlobalNamespace::NoteLineConnectionController::UpdatePositionsAndColors)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteLineConnectionController*), "UpdatePositionsAndColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

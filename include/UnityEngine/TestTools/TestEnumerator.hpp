@@ -74,7 +74,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestEnumerator*, "UnityEngine.Tes
 // Il2CppName: Execute
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (UnityEngine::TestTools::TestEnumerator::*)()>(&UnityEngine::TestTools::TestEnumerator::Execute)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestEnumerator*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

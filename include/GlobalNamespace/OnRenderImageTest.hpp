@@ -73,7 +73,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OnRenderImageTest*, "", "OnRenderImageTe
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OnRenderImageTest::*)()>(&GlobalNamespace::OnRenderImageTest::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OnRenderImageTest*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnRenderImage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OnRenderImageTest::*)(UnityEngine::RenderTexture*, UnityEngine::RenderTexture*)>(&GlobalNamespace::OnRenderImageTest::OnRenderImage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     static auto* destination = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OnRenderImageTest*), "OnRenderImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source, destination});

@@ -285,7 +285,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Matrix4x4, "UnityEngine", "Matrix4x4");
 // Il2CppName: GetLossyScale
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Matrix4x4::*)()>(&UnityEngine::Matrix4x4::GetLossyScale)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "GetLossyScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -293,7 +293,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_lossyScale
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Matrix4x4::*)()>(&UnityEngine::Matrix4x4::get_lossyScale)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "get_lossyScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -301,7 +301,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: TRS
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (*)(UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Vector3)>(&UnityEngine::Matrix4x4::TRS)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* q = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* s = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -312,7 +312,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Inverse
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (*)(UnityEngine::Matrix4x4)>(&UnityEngine::Matrix4x4::Inverse)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* m = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "Inverse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{m});
   }
@@ -321,7 +321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_inverse
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (UnityEngine::Matrix4x4::*)()>(&UnityEngine::Matrix4x4::get_inverse)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "get_inverse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -329,7 +329,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Transpose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (*)(UnityEngine::Matrix4x4)>(&UnityEngine::Matrix4x4::Transpose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* m = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "Transpose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{m});
   }
@@ -338,7 +338,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_transpose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (UnityEngine::Matrix4x4::*)()>(&UnityEngine::Matrix4x4::get_transpose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "get_transpose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -346,7 +346,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Ortho
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (*)(float, float, float, float, float, float)>(&UnityEngine::Matrix4x4::Ortho)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* left = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* right = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* bottom = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -364,7 +364,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_Item
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Matrix4x4::*)(int, int)>(&UnityEngine::Matrix4x4::get_Item)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* row = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* column = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{row, column});
@@ -374,7 +374,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Il2CppName: set_Item
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Matrix4x4::*)(int, int, float)>(&UnityEngine::Matrix4x4::set_Item)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* row = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* column = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -385,7 +385,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_Item
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Matrix4x4::*)(int)>(&UnityEngine::Matrix4x4::get_Item)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
   }
@@ -394,7 +394,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Il2CppName: set_Item
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Matrix4x4::*)(int, float)>(&UnityEngine::Matrix4x4::set_Item)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "set_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index, value});
@@ -404,7 +404,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Equals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Matrix4x4::*)(UnityEngine::Matrix4x4)>(&UnityEngine::Matrix4x4::Equals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
@@ -413,7 +413,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: GetColumn
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (UnityEngine::Matrix4x4::*)(int)>(&UnityEngine::Matrix4x4::GetColumn)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "GetColumn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
   }
@@ -422,7 +422,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: SetColumn
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Matrix4x4::*)(int, UnityEngine::Vector4)>(&UnityEngine::Matrix4x4::SetColumn)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* column = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "SetColumn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index, column});
@@ -432,7 +432,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: MultiplyPoint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Matrix4x4::*)(UnityEngine::Vector3)>(&UnityEngine::Matrix4x4::MultiplyPoint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* point = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "MultiplyPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{point});
   }
@@ -441,7 +441,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: MultiplyPoint3x4
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Matrix4x4::*)(UnityEngine::Vector3)>(&UnityEngine::Matrix4x4::MultiplyPoint3x4)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* point = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "MultiplyPoint3x4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{point});
   }
@@ -450,7 +450,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: MultiplyVector
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Matrix4x4::*)(UnityEngine::Vector3)>(&UnityEngine::Matrix4x4::MultiplyVector)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* vector = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "MultiplyVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vector});
   }
@@ -459,7 +459,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Rotate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (*)(UnityEngine::Quaternion)>(&UnityEngine::Matrix4x4::Rotate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* q = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "Rotate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{q});
   }
@@ -468,7 +468,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_identity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (*)()>(&UnityEngine::Matrix4x4::get_identity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "get_identity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -476,7 +476,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Matrix4x4::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -484,7 +484,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: GetLossyScale_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Matrix4x4&, UnityEngine::Vector3&)>(&UnityEngine::Matrix4x4::GetLossyScale_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* _unity_self = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->this_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "GetLossyScale_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_unity_self, ret});
@@ -494,7 +494,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: TRS_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3&, UnityEngine::Quaternion&, UnityEngine::Vector3&, UnityEngine::Matrix4x4&)>(&UnityEngine::Matrix4x4::TRS_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* q = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
     static auto* s = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
@@ -506,7 +506,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: Inverse_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Matrix4x4&, UnityEngine::Matrix4x4&)>(&UnityEngine::Matrix4x4::Inverse_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* m = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->this_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "Inverse_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{m, ret});
@@ -516,7 +516,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: Transpose_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Matrix4x4&, UnityEngine::Matrix4x4&)>(&UnityEngine::Matrix4x4::Transpose_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* m = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->this_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "Transpose_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{m, ret});
@@ -526,7 +526,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: Ortho_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, float, float, float, float, float, UnityEngine::Matrix4x4&)>(&UnityEngine::Matrix4x4::Ortho_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* left = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* right = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* bottom = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -541,7 +541,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(fl
 // Il2CppName: GetHashCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Matrix4x4::*)()>(&UnityEngine::Matrix4x4::GetHashCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -549,7 +549,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: Equals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Matrix4x4::*)(::Il2CppObject*)>(&UnityEngine::Matrix4x4::Equals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
@@ -558,7 +558,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: ToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Matrix4x4::*)()>(&UnityEngine::Matrix4x4::ToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Matrix4x4), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

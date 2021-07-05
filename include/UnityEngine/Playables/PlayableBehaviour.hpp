@@ -85,7 +85,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableBehaviour*, "UnityEngine.
 // Il2CppName: OnGraphStart
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableBehaviour::*)(UnityEngine::Playables::Playable)>(&UnityEngine::Playables::PlayableBehaviour::OnGraphStart)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* playable = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableBehaviour*), "OnGraphStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playable});
   }
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: OnGraphStop
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableBehaviour::*)(UnityEngine::Playables::Playable)>(&UnityEngine::Playables::PlayableBehaviour::OnGraphStop)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* playable = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableBehaviour*), "OnGraphStop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playable});
   }
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: OnPlayableCreate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableBehaviour::*)(UnityEngine::Playables::Playable)>(&UnityEngine::Playables::PlayableBehaviour::OnPlayableCreate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* playable = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableBehaviour*), "OnPlayableCreate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playable});
   }
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: OnPlayableDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableBehaviour::*)(UnityEngine::Playables::Playable)>(&UnityEngine::Playables::PlayableBehaviour::OnPlayableDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* playable = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableBehaviour*), "OnPlayableDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playable});
   }
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: OnBehaviourPlay
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&UnityEngine::Playables::PlayableBehaviour::OnBehaviourPlay)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* playable = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")->byval_arg;
     static auto* info = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "FrameData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableBehaviour*), "OnBehaviourPlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playable, info});
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: OnBehaviourPause
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&UnityEngine::Playables::PlayableBehaviour::OnBehaviourPause)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* playable = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")->byval_arg;
     static auto* info = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "FrameData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableBehaviour*), "OnBehaviourPause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playable, info});
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: PrepareFrame
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&UnityEngine::Playables::PlayableBehaviour::PrepareFrame)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* playable = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")->byval_arg;
     static auto* info = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "FrameData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableBehaviour*), "PrepareFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playable, info});
@@ -151,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: ProcessFrame
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::PlayableBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData, ::Il2CppObject*)>(&UnityEngine::Playables::PlayableBehaviour::ProcessFrame)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* playable = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")->byval_arg;
     static auto* info = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "FrameData")->byval_arg;
     static auto* playerData = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -162,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Clone
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (UnityEngine::Playables::PlayableBehaviour::*)()>(&UnityEngine::Playables::PlayableBehaviour::Clone)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableBehaviour*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

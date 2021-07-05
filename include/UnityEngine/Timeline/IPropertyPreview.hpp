@@ -38,7 +38,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::IPropertyPreview*, "UnityEngine.Ti
 // Il2CppName: GatherProperties
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::IPropertyPreview::*)(UnityEngine::Playables::PlayableDirector*, UnityEngine::Timeline::IPropertyCollector*)>(&UnityEngine::Timeline::IPropertyPreview::GatherProperties)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* director = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableDirector")->byval_arg;
     static auto* driver = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "IPropertyCollector")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::IPropertyPreview*), "GatherProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{director, driver});

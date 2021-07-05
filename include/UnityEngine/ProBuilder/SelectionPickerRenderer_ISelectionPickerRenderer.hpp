@@ -40,7 +40,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SelectionPickerRenderer::ISelect
 // Il2CppName: RenderLookupTexture
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer::*)(UnityEngine::Camera*, UnityEngine::Shader*, ::Il2CppString*, int, int)>(&UnityEngine::ProBuilder::SelectionPickerRenderer::ISelectionPickerRenderer::RenderLookupTexture)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* camera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     static auto* shader = &::il2cpp_utils::GetClassFromName("UnityEngine", "Shader")->byval_arg;
     static auto* tag = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

@@ -80,7 +80,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AddressablesImpl::$$c*, "
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::AddressableAssets::AddressablesImpl::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <get_ResourceLocators>b__51_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* (UnityEngine::AddressableAssets::AddressablesImpl::$$c::*)(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*)>(&UnityEngine::AddressableAssets::AddressablesImpl::$$c::$get_ResourceLocators$b__51_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* l = &::il2cpp_utils::GetClassFromName("UnityEngine.AddressableAssets", "AddressablesImpl/ResourceLocatorInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::$$c*), "<get_ResourceLocators>b__51_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{l});
   }
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: <get_CatalogsWithAvailableUpdates>b__123_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::AddressablesImpl::$$c::*)(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*)>(&UnityEngine::AddressableAssets::AddressablesImpl::$$c::$get_CatalogsWithAvailableUpdates$b__123_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("UnityEngine.AddressableAssets", "AddressablesImpl/ResourceLocatorInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::$$c*), "<get_CatalogsWithAvailableUpdates>b__123_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: <get_CatalogsWithAvailableUpdates>b__123_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::AddressableAssets::AddressablesImpl::$$c::*)(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*)>(&UnityEngine::AddressableAssets::AddressablesImpl::$$c::$get_CatalogsWithAvailableUpdates$b__123_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("UnityEngine.AddressableAssets", "AddressablesImpl/ResourceLocatorInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::$$c*), "<get_CatalogsWithAvailableUpdates>b__123_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }

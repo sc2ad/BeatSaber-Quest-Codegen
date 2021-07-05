@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRApplications::_AddApplicationManifest*, "Va
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (Valve::VR::IVRApplications::_AddApplicationManifest::*)(::Il2CppString*, bool)>(&Valve::VR::IVRApplications::_AddApplicationManifest::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchApplicationManifestFullPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* bTemporary = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRApplications::_AddApplicationManifest*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pchApplicationManifestFullPath, bTemporary});
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRApplications::_AddApplicationManifest::*)(::Il2CppString*, bool, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRApplications::_AddApplicationManifest::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchApplicationManifestFullPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* bTemporary = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (Valve::VR::IVRApplications::_AddApplicationManifest::*)(System::IAsyncResult*)>(&Valve::VR::IVRApplications::_AddApplicationManifest::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRApplications::_AddApplicationManifest*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

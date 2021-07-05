@@ -57,7 +57,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DefaultExecutionOrder*, "UnityEngine", "Defa
 // Il2CppName: get_order
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::DefaultExecutionOrder::*)()>(&UnityEngine::DefaultExecutionOrder::get_order)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::DefaultExecutionOrder*), "get_order", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

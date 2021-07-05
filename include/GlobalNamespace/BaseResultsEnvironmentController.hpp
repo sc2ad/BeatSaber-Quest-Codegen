@@ -58,7 +58,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseResultsEnvironmentController*, "", "
 // Il2CppName: Activate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseResultsEnvironmentController::*)(bool)>(&GlobalNamespace::BaseResultsEnvironmentController::Activate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* immediately = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseResultsEnvironmentController*), "Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{immediately});
   }
@@ -67,7 +67,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Deactivate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseResultsEnvironmentController::*)(bool)>(&GlobalNamespace::BaseResultsEnvironmentController::Deactivate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* immediately = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseResultsEnvironmentController*), "Deactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{immediately});
   }
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Setup
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseResultsEnvironmentController::*)(GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::BaseResultsEnvironmentController::Setup)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* difficultyBeatmap = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseResultsEnvironmentController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{difficultyBeatmap});
   }

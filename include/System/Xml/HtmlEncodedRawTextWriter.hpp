@@ -222,7 +222,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Xml::HtmlEncodedRawTextWriter*, "System.Xml", "Ht
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriter::*)(System::Xml::XmlWriterSettings*)>(&System::Xml::HtmlEncodedRawTextWriter::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* settings = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWriterSettings")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::HtmlEncodedRawTextWriter*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{settings});
   }
@@ -231,7 +231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: WriteMetaElement
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriter::*)()>(&System::Xml::HtmlEncodedRawTextWriter::WriteMetaElement)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::HtmlEncodedRawTextWriter*), "WriteMetaElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -239,7 +239,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: WriteHtmlElementTextBlock
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriter::*)(::Il2CppChar*, ::Il2CppChar*)>(&System::Xml::HtmlEncodedRawTextWriter::WriteHtmlElementTextBlock)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pSrc = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* pSrcEnd = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::HtmlEncodedRawTextWriter*), "WriteHtmlElementTextBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pSrc, pSrcEnd});
@@ -249,7 +249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: WriteHtmlAttributeTextBlock
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriter::*)(::Il2CppChar*, ::Il2CppChar*)>(&System::Xml::HtmlEncodedRawTextWriter::WriteHtmlAttributeTextBlock)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pSrc = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* pSrcEnd = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::HtmlEncodedRawTextWriter*), "WriteHtmlAttributeTextBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pSrc, pSrcEnd});
@@ -259,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: WriteHtmlAttributeText
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriter::*)(::Il2CppChar*, ::Il2CppChar*)>(&System::Xml::HtmlEncodedRawTextWriter::WriteHtmlAttributeText)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pSrc = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* pSrcEnd = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::HtmlEncodedRawTextWriter*), "WriteHtmlAttributeText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pSrc, pSrcEnd});
@@ -269,7 +269,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: WriteUriAttributeText
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriter::*)(::Il2CppChar*, ::Il2CppChar*)>(&System::Xml::HtmlEncodedRawTextWriter::WriteUriAttributeText)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pSrc = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* pSrcEnd = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::HtmlEncodedRawTextWriter*), "WriteUriAttributeText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pSrc, pSrcEnd});
@@ -279,7 +279,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: OutputRestAmps
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriter::*)()>(&System::Xml::HtmlEncodedRawTextWriter::OutputRestAmps)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::HtmlEncodedRawTextWriter*), "OutputRestAmps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -295,7 +295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: WriteXmlDeclaration
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriter::*)(System::Xml::XmlStandalone)>(&System::Xml::HtmlEncodedRawTextWriter::WriteXmlDeclaration)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* standalone = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlStandalone")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::HtmlEncodedRawTextWriter*), "WriteXmlDeclaration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{standalone});
   }
@@ -304,7 +304,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: WriteXmlDeclaration
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriter::*)(::Il2CppString*)>(&System::Xml::HtmlEncodedRawTextWriter::WriteXmlDeclaration)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* xmldecl = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::HtmlEncodedRawTextWriter*), "WriteXmlDeclaration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{xmldecl});
   }
@@ -313,7 +313,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: WriteDocType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&System::Xml::HtmlEncodedRawTextWriter::WriteDocType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pubid = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* sysid = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -325,7 +325,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: WriteStartElement
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&System::Xml::HtmlEncodedRawTextWriter::WriteStartElement)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* localName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ns = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -336,7 +336,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: StartElementContent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriter::*)()>(&System::Xml::HtmlEncodedRawTextWriter::StartElementContent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::HtmlEncodedRawTextWriter*), "StartElementContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -344,7 +344,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: WriteEndElement
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&System::Xml::HtmlEncodedRawTextWriter::WriteEndElement)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* localName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ns = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -355,7 +355,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: WriteFullEndElement
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&System::Xml::HtmlEncodedRawTextWriter::WriteFullEndElement)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* localName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ns = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -366,7 +366,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: WriteStartAttribute
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriter::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&System::Xml::HtmlEncodedRawTextWriter::WriteStartAttribute)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* localName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ns = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -377,7 +377,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: WriteEndAttribute
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriter::*)()>(&System::Xml::HtmlEncodedRawTextWriter::WriteEndAttribute)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::HtmlEncodedRawTextWriter*), "WriteEndAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -385,7 +385,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: WriteProcessingInstruction
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriter::*)(::Il2CppString*, ::Il2CppString*)>(&System::Xml::HtmlEncodedRawTextWriter::WriteProcessingInstruction)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::HtmlEncodedRawTextWriter*), "WriteProcessingInstruction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{target, text});
@@ -395,7 +395,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: WriteString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriter::*)(::Il2CppString*)>(&System::Xml::HtmlEncodedRawTextWriter::WriteString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::HtmlEncodedRawTextWriter*), "WriteString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});
   }
@@ -404,7 +404,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: WriteEntityRef
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriter::*)(::Il2CppString*)>(&System::Xml::HtmlEncodedRawTextWriter::WriteEntityRef)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::HtmlEncodedRawTextWriter*), "WriteEntityRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
   }
@@ -413,7 +413,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: WriteCharEntity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriter::*)(::Il2CppChar)>(&System::Xml::HtmlEncodedRawTextWriter::WriteCharEntity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::HtmlEncodedRawTextWriter*), "WriteCharEntity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch});
   }
@@ -422,7 +422,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: WriteSurrogateCharEntity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriter::*)(::Il2CppChar, ::Il2CppChar)>(&System::Xml::HtmlEncodedRawTextWriter::WriteSurrogateCharEntity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lowChar = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* highChar = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::HtmlEncodedRawTextWriter*), "WriteSurrogateCharEntity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lowChar, highChar});
@@ -432,7 +432,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: WriteChars
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlEncodedRawTextWriter::*)(::Array<::Il2CppChar>*, int, int)>(&System::Xml::HtmlEncodedRawTextWriter::WriteChars)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

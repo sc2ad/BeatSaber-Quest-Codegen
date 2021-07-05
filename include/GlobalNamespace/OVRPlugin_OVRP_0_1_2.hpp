@@ -46,7 +46,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_0_1_2*, "", "OVRPlugin/O
 // Il2CppName: ovrp_GetNodePose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Posef (*)(GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::OVRP_0_1_2::ovrp_GetNodePose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* nodeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Node")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_0_1_2*), "ovrp_GetNodePose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeId});
   }
@@ -55,7 +55,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_SetControllerVibration
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(uint, float, float)>(&GlobalNamespace::OVRPlugin::OVRP_0_1_2::ovrp_SetControllerVibration)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* controllerMask = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* frequency = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* amplitude = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -66,7 +66,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_0_1_2::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_0_1_2*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

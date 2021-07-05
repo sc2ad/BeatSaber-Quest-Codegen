@@ -42,7 +42,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ICustomAttributeProvider*, "System.Re
 // Il2CppName: GetCustomAttributes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Reflection::ICustomAttributeProvider::*)(System::Type*, bool)>(&System::Reflection::ICustomAttributeProvider::GetCustomAttributes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::ICustomAttributeProvider*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attributeType, inherit});
@@ -52,7 +52,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: IsDefined
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Reflection::ICustomAttributeProvider::*)(System::Type*, bool)>(&System::Reflection::ICustomAttributeProvider::IsDefined)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::ICustomAttributeProvider*), "IsDefined", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attributeType, inherit});

@@ -104,7 +104,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UserLoginDtoDataSource*, "", "UserLoginD
 // Il2CppName: GetPlatformUserIdAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Il2CppString*>* (GlobalNamespace::UserLoginDtoDataSource::*)(System::Threading::CancellationToken)>(&GlobalNamespace::UserLoginDtoDataSource::GetPlatformUserIdAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UserLoginDtoDataSource*), "GetPlatformUserIdAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
   }
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: UserAuthenticationDataAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<BeatSaberAPI::DataTransferObjects::UserAuthenticationData*>* (GlobalNamespace::UserLoginDtoDataSource::*)(System::Threading::CancellationToken)>(&GlobalNamespace::UserLoginDtoDataSource::UserAuthenticationDataAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UserLoginDtoDataSource*), "UserAuthenticationDataAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
   }
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: GetUserFriendsUserIds
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Array<::Il2CppString*>*>* (GlobalNamespace::UserLoginDtoDataSource::*)(System::Threading::CancellationToken)>(&GlobalNamespace::UserLoginDtoDataSource::GetUserFriendsUserIds)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UserLoginDtoDataSource*), "GetUserFriendsUserIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
   }

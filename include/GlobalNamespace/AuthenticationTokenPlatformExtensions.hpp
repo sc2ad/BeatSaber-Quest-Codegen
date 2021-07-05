@@ -35,7 +35,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AuthenticationTokenPlatformExtensions*, 
 // Il2CppName: ToAuthenticationTokenPlatform
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AuthenticationToken::Platform (*)(GlobalNamespace::UserInfo::Platform)>(&GlobalNamespace::AuthenticationTokenPlatformExtensions::ToAuthenticationTokenPlatform)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* platform = &::il2cpp_utils::GetClassFromName("", "UserInfo/Platform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AuthenticationTokenPlatformExtensions*), "ToAuthenticationTokenPlatform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{platform});
   }
@@ -44,7 +44,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ToUserInfoPlatform
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::UserInfo::Platform (*)(GlobalNamespace::AuthenticationToken::Platform)>(&GlobalNamespace::AuthenticationTokenPlatformExtensions::ToUserInfoPlatform)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* platform = &::il2cpp_utils::GetClassFromName("", "AuthenticationToken/Platform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AuthenticationTokenPlatformExtensions*), "ToUserInfoPlatform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{platform});
   }

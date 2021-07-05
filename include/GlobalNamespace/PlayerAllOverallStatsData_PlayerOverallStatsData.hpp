@@ -208,7 +208,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverall
 // Il2CppName: get_goodCutsCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::get_goodCutsCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_goodCutsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -216,7 +216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: set_goodCutsCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int)>(&GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::set_goodCutsCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_goodCutsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -225,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_badCutsCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::get_badCutsCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_badCutsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -233,7 +233,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: set_badCutsCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int)>(&GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::set_badCutsCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_badCutsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -242,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_missedCutsCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::get_missedCutsCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_missedCutsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -250,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: set_missedCutsCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int)>(&GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::set_missedCutsCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_missedCutsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -259,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_totalScore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::get_totalScore)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_totalScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -267,7 +267,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Gl
 // Il2CppName: set_totalScore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int64_t)>(&GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::set_totalScore)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_totalScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -276,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_playedLevelsCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::get_playedLevelsCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_playedLevelsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -284,7 +284,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: set_playedLevelsCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int)>(&GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::set_playedLevelsCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_playedLevelsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -293,7 +293,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_cleardLevelsCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::get_cleardLevelsCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_cleardLevelsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -301,7 +301,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: set_cleardLevelsCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int)>(&GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::set_cleardLevelsCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_cleardLevelsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -310,7 +310,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_failedLevelsCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::get_failedLevelsCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_failedLevelsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -318,7 +318,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: set_failedLevelsCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int)>(&GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::set_failedLevelsCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_failedLevelsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -327,7 +327,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_fullComboCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::get_fullComboCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_fullComboCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -335,7 +335,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: set_fullComboCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int)>(&GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::set_fullComboCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_fullComboCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -344,7 +344,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_timePlayed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::get_timePlayed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_timePlayed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -352,7 +352,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: set_timePlayed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::*)(float)>(&GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::set_timePlayed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_timePlayed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -361,7 +361,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_handDistanceTravelled
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::get_handDistanceTravelled)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_handDistanceTravelled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -369,7 +369,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: set_handDistanceTravelled
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int)>(&GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::set_handDistanceTravelled)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_handDistanceTravelled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -378,7 +378,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_cummulativeCutScoreWithoutMultiplier
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::get_cummulativeCutScoreWithoutMultiplier)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_cummulativeCutScoreWithoutMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -386,7 +386,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Gl
 // Il2CppName: set_cummulativeCutScoreWithoutMultiplier
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::*)(int64_t)>(&GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::set_cummulativeCutScoreWithoutMultiplier)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*), "set_cummulativeCutScoreWithoutMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -395,7 +395,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_averageCutScore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::*)()>(&GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::get_averageCutScore)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*), "get_averageCutScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -407,7 +407,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: UpdateWithLevelCompletionResults
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::*)(GlobalNamespace::LevelCompletionResults*)>(&GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData::UpdateWithLevelCompletionResults)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* levelCompletionResults = &::il2cpp_utils::GetClassFromName("", "LevelCompletionResults")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*), "UpdateWithLevelCompletionResults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelCompletionResults});
   }

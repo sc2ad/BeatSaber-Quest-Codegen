@@ -419,7 +419,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager::PacketType
 // Il2CppName: add_peerUpdatedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::PeerUpdatedDelegate*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::add_peerUpdatedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "LocalNetworkDiscoveryManager/PeerUpdatedDelegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "add_peerUpdatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -428,7 +428,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_peerUpdatedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::PeerUpdatedDelegate*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::remove_peerUpdatedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "LocalNetworkDiscoveryManager/PeerUpdatedDelegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "remove_peerUpdatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -437,7 +437,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_joinRequestedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestedDelegate*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::add_joinRequestedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "LocalNetworkDiscoveryManager/JoinRequestedDelegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "add_joinRequestedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -446,7 +446,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_joinRequestedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestedDelegate*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::remove_joinRequestedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "LocalNetworkDiscoveryManager/JoinRequestedDelegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "remove_joinRequestedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -455,7 +455,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_joinRespondedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRespondedDelegate*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::add_joinRespondedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "LocalNetworkDiscoveryManager/JoinRespondedDelegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "add_joinRespondedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -464,7 +464,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_joinRespondedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRespondedDelegate*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::remove_joinRespondedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "LocalNetworkDiscoveryManager/JoinRespondedDelegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "remove_joinRespondedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -473,7 +473,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_inviteRequestedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestedDelegate*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::add_inviteRequestedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "LocalNetworkDiscoveryManager/InviteRequestedDelegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "add_inviteRequestedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -482,7 +482,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_inviteRequestedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestedDelegate*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::remove_inviteRequestedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "LocalNetworkDiscoveryManager/InviteRequestedDelegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "remove_inviteRequestedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -491,7 +491,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_inviteRespondedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRespondedDelegate*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::add_inviteRespondedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "LocalNetworkDiscoveryManager/InviteRespondedDelegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "add_inviteRespondedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -500,7 +500,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_inviteRespondedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRespondedDelegate*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::remove_inviteRespondedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "LocalNetworkDiscoveryManager/InviteRespondedDelegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "remove_inviteRespondedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -509,7 +509,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_userId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LocalNetworkDiscoveryManager::*)()>(&GlobalNamespace::LocalNetworkDiscoveryManager::get_userId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -517,7 +517,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_userName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LocalNetworkDiscoveryManager::*)()>(&GlobalNamespace::LocalNetworkDiscoveryManager::get_userName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -525,7 +525,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_flags
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (GlobalNamespace::LocalNetworkDiscoveryManager::*)()>(&GlobalNamespace::LocalNetworkDiscoveryManager::get_flags)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "get_flags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -533,7 +533,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Gl
 // Il2CppName: set_flags
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(uint8_t)>(&GlobalNamespace::LocalNetworkDiscoveryManager::set_flags)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "set_flags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -542,7 +542,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_currentPartySize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::LocalNetworkDiscoveryManager::*)()>(&GlobalNamespace::LocalNetworkDiscoveryManager::get_currentPartySize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "get_currentPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -550,7 +550,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: set_currentPartySize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(int)>(&GlobalNamespace::LocalNetworkDiscoveryManager::set_currentPartySize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "set_currentPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -559,7 +559,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_maxPartySize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::LocalNetworkDiscoveryManager::*)()>(&GlobalNamespace::LocalNetworkDiscoveryManager::get_maxPartySize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "get_maxPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -567,7 +567,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: set_maxPartySize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(int)>(&GlobalNamespace::LocalNetworkDiscoveryManager::set_maxPartySize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "set_maxPartySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -576,7 +576,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_configuration
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayServerConfiguration (GlobalNamespace::LocalNetworkDiscoveryManager::*)()>(&GlobalNamespace::LocalNetworkDiscoveryManager::get_configuration)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "get_configuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -584,7 +584,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: set_configuration
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::GameplayServerConfiguration)>(&GlobalNamespace::LocalNetworkDiscoveryManager::set_configuration)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "GameplayServerConfiguration")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "set_configuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -593,7 +593,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_enableBroadcasting
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LocalNetworkDiscoveryManager::*)()>(&GlobalNamespace::LocalNetworkDiscoveryManager::get_enableBroadcasting)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "get_enableBroadcasting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -601,7 +601,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: set_enableBroadcasting
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(bool)>(&GlobalNamespace::LocalNetworkDiscoveryManager::set_enableBroadcasting)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "set_enableBroadcasting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -610,7 +610,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(int, ::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* discoveryPort = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* initUserId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* initUserName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -621,7 +621,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnEnable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)()>(&GlobalNamespace::LocalNetworkDiscoveryManager::OnEnable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -629,7 +629,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnDisable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)()>(&GlobalNamespace::LocalNetworkDiscoveryManager::OnDisable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -637,7 +637,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Update
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)()>(&GlobalNamespace::LocalNetworkDiscoveryManager::Update)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -645,7 +645,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SendJoinRequest
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(System::Net::IPAddress*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::SendJoinRequest)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ip = &::il2cpp_utils::GetClassFromName("System.Net", "IPAddress")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "SendJoinRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ip});
   }
@@ -654,7 +654,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SendJoinResponse
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(System::Net::IPAddress*, ::Il2CppString*, int, bool)>(&GlobalNamespace::LocalNetworkDiscoveryManager::SendJoinResponse)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ip = &::il2cpp_utils::GetClassFromName("System.Net", "IPAddress")->byval_arg;
     static auto* secret = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* multiplayerPort = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -666,7 +666,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SendInviteRequest
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(System::Net::IPAddress*, ::Il2CppString*, int)>(&GlobalNamespace::LocalNetworkDiscoveryManager::SendInviteRequest)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ip = &::il2cpp_utils::GetClassFromName("System.Net", "IPAddress")->byval_arg;
     static auto* secret = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* multiplayerPort = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -677,7 +677,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SendInviteResponse
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(System::Net::IPAddress*, bool, bool)>(&GlobalNamespace::LocalNetworkDiscoveryManager::SendInviteResponse)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ip = &::il2cpp_utils::GetClassFromName("System.Net", "IPAddress")->byval_arg;
     static auto* accepted = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* blocked = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -691,7 +691,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: LiteNetLib.INetEventListener.OnNetworkReceiveUnconnected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(System::Net::IPEndPoint*, LiteNetLib::NetPacketReader*, LiteNetLib::UnconnectedMessageType)>(&GlobalNamespace::LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnNetworkReceiveUnconnected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPacketReader")->byval_arg;
     static auto* messageType = &::il2cpp_utils::GetClassFromName("LiteNetLib", "UnconnectedMessageType")->byval_arg;
@@ -702,7 +702,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: LiteNetLib.INetEventListener.OnConnectionRequest
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(LiteNetLib::ConnectionRequest*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnConnectionRequest)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("LiteNetLib", "ConnectionRequest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "LiteNetLib.INetEventListener.OnConnectionRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{request});
   }
@@ -711,7 +711,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: LiteNetLib.INetEventListener.OnNetworkError
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(System::Net::IPEndPoint*, System::Net::Sockets::SocketError)>(&GlobalNamespace::LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnNetworkError)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* socketErrorCode = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketError")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "LiteNetLib.INetEventListener.OnNetworkError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{endPoint, socketErrorCode});
@@ -721,7 +721,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: LiteNetLib.INetEventListener.OnNetworkLatencyUpdate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(LiteNetLib::NetPeer*, int)>(&GlobalNamespace::LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnNetworkLatencyUpdate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* peer = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPeer")->byval_arg;
     static auto* latency = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "LiteNetLib.INetEventListener.OnNetworkLatencyUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{peer, latency});
@@ -731,7 +731,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: LiteNetLib.INetEventListener.OnPeerConnected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(LiteNetLib::NetPeer*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnPeerConnected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* peer = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPeer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "LiteNetLib.INetEventListener.OnPeerConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{peer});
   }
@@ -740,7 +740,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: LiteNetLib.INetEventListener.OnPeerDisconnected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(LiteNetLib::NetPeer*, LiteNetLib::DisconnectInfo)>(&GlobalNamespace::LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnPeerDisconnected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* peer = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPeer")->byval_arg;
     static auto* disconnectInfo = &::il2cpp_utils::GetClassFromName("LiteNetLib", "DisconnectInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "LiteNetLib.INetEventListener.OnPeerDisconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{peer, disconnectInfo});
@@ -750,7 +750,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: LiteNetLib.INetEventListener.OnNetworkReceive
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(LiteNetLib::NetPeer*, LiteNetLib::NetPacketReader*, LiteNetLib::DeliveryMethod)>(&GlobalNamespace::LocalNetworkDiscoveryManager::LiteNetLib_INetEventListener_OnNetworkReceive)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* peer = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPeer")->byval_arg;
     static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPacketReader")->byval_arg;
     static auto* deliveryMethod = &::il2cpp_utils::GetClassFromName("LiteNetLib", "DeliveryMethod")->byval_arg;
@@ -761,7 +761,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <Init>b__56_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::BroadcastPacket*, System::Net::IPEndPoint*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::$Init$b__56_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* packet = &::il2cpp_utils::GetClassFromName("", "LocalNetworkDiscoveryManager/BroadcastPacket")->byval_arg;
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "<Init>b__56_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet, endPoint});
@@ -771,7 +771,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <Init>b__56_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::JoinRequestPacket*, System::Net::IPEndPoint*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::$Init$b__56_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* packet = &::il2cpp_utils::GetClassFromName("", "LocalNetworkDiscoveryManager/JoinRequestPacket")->byval_arg;
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "<Init>b__56_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet, endPoint});
@@ -781,7 +781,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <Init>b__56_2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::JoinResponsePacket*, System::Net::IPEndPoint*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::$Init$b__56_2)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* packet = &::il2cpp_utils::GetClassFromName("", "LocalNetworkDiscoveryManager/JoinResponsePacket")->byval_arg;
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "<Init>b__56_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet, endPoint});
@@ -791,7 +791,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <Init>b__56_3
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::InviteRequestPacket*, System::Net::IPEndPoint*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::$Init$b__56_3)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* packet = &::il2cpp_utils::GetClassFromName("", "LocalNetworkDiscoveryManager/InviteRequestPacket")->byval_arg;
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "<Init>b__56_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet, endPoint});
@@ -801,7 +801,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <Init>b__56_4
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalNetworkDiscoveryManager::*)(GlobalNamespace::LocalNetworkDiscoveryManager::InviteResponsePacket*, System::Net::IPEndPoint*)>(&GlobalNamespace::LocalNetworkDiscoveryManager::$Init$b__56_4)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* packet = &::il2cpp_utils::GetClassFromName("", "LocalNetworkDiscoveryManager/InviteResponsePacket")->byval_arg;
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalNetworkDiscoveryManager*), "<Init>b__56_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet, endPoint});

@@ -967,7 +967,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpWebRequest::AuthorizationState, "System.
 // Il2CppName: ResetAuthorization
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::ResetAuthorization)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "ResetAuthorization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -975,7 +975,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_Address
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_Address)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_Address", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -983,7 +983,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri
 // Il2CppName: set_Address
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(System::Uri*)>(&System::Net::HttpWebRequest::set_Address)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "set_Address", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -992,7 +992,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: set_AllowAutoRedirect
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(bool)>(&System::Net::HttpWebRequest::set_AllowAutoRedirect)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "set_AllowAutoRedirect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1001,7 +1001,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_AllowWriteStreamBuffering
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_AllowWriteStreamBuffering)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_AllowWriteStreamBuffering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1009,7 +1009,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: set_AllowWriteStreamBuffering
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(bool)>(&System::Net::HttpWebRequest::set_AllowWriteStreamBuffering)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "set_AllowWriteStreamBuffering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1018,7 +1018,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_AutomaticDecompression
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::DecompressionMethods (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_AutomaticDecompression)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_AutomaticDecompression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1026,7 +1026,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: set_AutomaticDecompression
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(System::Net::DecompressionMethods)>(&System::Net::HttpWebRequest::set_AutomaticDecompression)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Net", "DecompressionMethods")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "set_AutomaticDecompression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1035,7 +1035,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_InternalAllowBuffering
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_InternalAllowBuffering)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_InternalAllowBuffering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1043,7 +1043,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_MethodWithBuffer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_MethodWithBuffer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_MethodWithBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1051,7 +1051,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_TlsProvider
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsProvider* (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_TlsProvider)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_TlsProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1059,7 +1059,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Il2CppName: get_TlsSettings
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsSettings* (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_TlsSettings)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_TlsSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1067,7 +1067,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Il2CppName: get_ClientCertificates
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509CertificateCollection* (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_ClientCertificates)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_ClientCertificates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1075,7 +1075,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Il2CppName: set_InternalContentLength
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(int64_t)>(&System::Net::HttpWebRequest::set_InternalContentLength)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "set_InternalContentLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1084,7 +1084,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_ThrowOnError
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_ThrowOnError)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_ThrowOnError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1092,7 +1092,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: set_ThrowOnError
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(bool)>(&System::Net::HttpWebRequest::set_ThrowOnError)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "set_ThrowOnError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1101,7 +1101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: set_CookieContainer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(System::Net::CookieContainer*)>(&System::Net::HttpWebRequest::set_CookieContainer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Net", "CookieContainer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "set_CookieContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1110,7 +1110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_Host
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_Host)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_Host", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1118,7 +1118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_Host
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(::Il2CppString*)>(&System::Net::HttpWebRequest::set_Host)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "set_Host", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1127,7 +1127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: CheckValidHost
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*)>(&System::Net::HttpWebRequest::CheckValidHost)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* scheme = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* val = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "CheckValidHost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scheme, val});
@@ -1137,7 +1137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: get_KeepAlive
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_KeepAlive)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_KeepAlive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1145,7 +1145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: set_KeepAlive
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(bool)>(&System::Net::HttpWebRequest::set_KeepAlive)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "set_KeepAlive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1154,7 +1154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: set_MaximumAutomaticRedirections
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(int)>(&System::Net::HttpWebRequest::set_MaximumAutomaticRedirections)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "set_MaximumAutomaticRedirections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1163,7 +1163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_ReadWriteTimeout
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_ReadWriteTimeout)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_ReadWriteTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1171,7 +1171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: get_ProtocolVersion
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Version* (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_ProtocolVersion)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_ProtocolVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1179,7 +1179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ver
 // Il2CppName: set_ProtocolVersion
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(System::Version*)>(&System::Net::HttpWebRequest::set_ProtocolVersion)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Version")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "set_ProtocolVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1188,7 +1188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_SendChunked
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_SendChunked)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_SendChunked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1196,7 +1196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: set_SendChunked
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(bool)>(&System::Net::HttpWebRequest::set_SendChunked)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "set_SendChunked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1205,7 +1205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_ServicePoint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ServicePoint* (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_ServicePoint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_ServicePoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1213,7 +1213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: get_ServicePointNoLock
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ServicePoint* (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_ServicePointNoLock)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_ServicePointNoLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1221,7 +1221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: get_TransferEncoding
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_TransferEncoding)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_TransferEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1229,7 +1229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_UnsafeAuthenticatedConnectionSharing
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_UnsafeAuthenticatedConnectionSharing)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_UnsafeAuthenticatedConnectionSharing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1237,7 +1237,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_ExpectContinue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_ExpectContinue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_ExpectContinue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1245,7 +1245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: set_ExpectContinue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(bool)>(&System::Net::HttpWebRequest::set_ExpectContinue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "set_ExpectContinue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1254,7 +1254,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_AuthUri
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_AuthUri)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_AuthUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1262,7 +1262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri
 // Il2CppName: get_ProxyQuery
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_ProxyQuery)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_ProxyQuery", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1270,7 +1270,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_ServerCertValidationCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ServerCertValidationCallback* (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_ServerCertValidationCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_ServerCertValidationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1278,7 +1278,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: GetServicePoint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ServicePoint* (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::GetServicePoint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "GetServicePoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1286,7 +1286,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: CheckIfForceWrite
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpWebRequest::*)(System::Net::SimpleAsyncResult*)>(&System::Net::HttpWebRequest::CheckIfForceWrite)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System.Net", "SimpleAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "CheckIfForceWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
@@ -1295,7 +1295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_FinishedReading
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_FinishedReading)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_FinishedReading", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1303,7 +1303,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: set_FinishedReading
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(bool)>(&System::Net::HttpWebRequest::set_FinishedReading)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "set_FinishedReading", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1312,7 +1312,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_Aborted
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_Aborted)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_Aborted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1320,7 +1320,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: System.Runtime.Serialization.ISerializable.GetObjectData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Net::HttpWebRequest::System_Runtime_Serialization_ISerializable_GetObjectData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* serializationInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* streamingContext = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "System.Runtime.Serialization.ISerializable.GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serializationInfo, streamingContext});
@@ -1330,7 +1330,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: CheckRequestStarted
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::CheckRequestStarted)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "CheckRequestStarted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1338,7 +1338,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: DoContinueDelegate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(int, System::Net::WebHeaderCollection*)>(&System::Net::HttpWebRequest::DoContinueDelegate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* statusCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* headers = &::il2cpp_utils::GetClassFromName("System.Net", "WebHeaderCollection")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "DoContinueDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{statusCode, headers});
@@ -1348,7 +1348,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: RewriteRedirectToGet
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::RewriteRedirectToGet)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "RewriteRedirectToGet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1356,7 +1356,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Redirect
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpWebRequest::*)(System::Net::WebAsyncResult*, System::Net::HttpStatusCode, System::Net::WebResponse*)>(&System::Net::HttpWebRequest::Redirect)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System.Net", "WebAsyncResult")->byval_arg;
     static auto* code = &::il2cpp_utils::GetClassFromName("System.Net", "HttpStatusCode")->byval_arg;
     static auto* response = &::il2cpp_utils::GetClassFromName("System.Net", "WebResponse")->byval_arg;
@@ -1367,7 +1367,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: GetHeaders
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::GetHeaders)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "GetHeaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1375,7 +1375,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: DoPreAuthenticate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::DoPreAuthenticate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "DoPreAuthenticate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1383,7 +1383,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: SetWriteStreamError
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(System::Net::WebExceptionStatus, System::Exception*)>(&System::Net::HttpWebRequest::SetWriteStreamError)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* status = &::il2cpp_utils::GetClassFromName("System.Net", "WebExceptionStatus")->byval_arg;
     static auto* exc = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "SetWriteStreamError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{status, exc});
@@ -1393,7 +1393,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: GetRequestHeaders
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::GetRequestHeaders)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "GetRequestHeaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1401,7 +1401,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: SetWriteStream
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(System::Net::WebConnectionStream*)>(&System::Net::HttpWebRequest::SetWriteStream)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stream = &::il2cpp_utils::GetClassFromName("System.Net", "WebConnectionStream")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "SetWriteStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stream});
   }
@@ -1410,7 +1410,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: SetWriteStreamInner
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(System::Net::SimpleAsyncCallback*)>(&System::Net::HttpWebRequest::SetWriteStreamInner)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* callback = &::il2cpp_utils::GetClassFromName("System.Net", "SimpleAsyncCallback")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "SetWriteStreamInner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callback});
   }
@@ -1419,7 +1419,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: SetWriteStreamError
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(System::Exception*)>(&System::Net::HttpWebRequest::SetWriteStreamError)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* exc = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "SetWriteStreamError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{exc});
   }
@@ -1428,7 +1428,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: SetResponseError
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(System::Net::WebExceptionStatus, System::Exception*, ::Il2CppString*)>(&System::Net::HttpWebRequest::SetResponseError)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* status = &::il2cpp_utils::GetClassFromName("System.Net", "WebExceptionStatus")->byval_arg;
     static auto* e = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     static auto* where = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1439,7 +1439,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: CheckSendError
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(System::Net::WebConnectionData*)>(&System::Net::HttpWebRequest::CheckSendError)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("System.Net", "WebConnectionData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "CheckSendError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
   }
@@ -1448,7 +1448,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: HandleNtlmAuth
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpWebRequest::*)(System::Net::WebAsyncResult*)>(&System::Net::HttpWebRequest::HandleNtlmAuth)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* r = &::il2cpp_utils::GetClassFromName("System.Net", "WebAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "HandleNtlmAuth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{r});
   }
@@ -1457,7 +1457,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: SetResponseData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(System::Net::WebConnectionData*)>(&System::Net::HttpWebRequest::SetResponseData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("System.Net", "WebConnectionData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "SetResponseData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
   }
@@ -1466,7 +1466,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: CheckAuthorization
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpWebRequest::*)(System::Net::WebResponse*, System::Net::HttpStatusCode)>(&System::Net::HttpWebRequest::CheckAuthorization)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* response = &::il2cpp_utils::GetClassFromName("System.Net", "WebResponse")->byval_arg;
     static auto* code = &::il2cpp_utils::GetClassFromName("System.Net", "HttpStatusCode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "CheckAuthorization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{response, code});
@@ -1476,7 +1476,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: CheckFinalStatus
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpWebRequest::*)(System::Net::WebAsyncResult*)>(&System::Net::HttpWebRequest::CheckFinalStatus)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System.Net", "WebAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "CheckFinalStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
@@ -1485,7 +1485,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_ReuseConnection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_ReuseConnection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_ReuseConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1493,7 +1493,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: set_ReuseConnection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(bool)>(&System::Net::HttpWebRequest::set_ReuseConnection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "set_ReuseConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1502,7 +1502,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: <SetWriteStream>b__258_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(System::Net::SimpleAsyncResult*)>(&System::Net::HttpWebRequest::$SetWriteStream$b__258_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System.Net", "SimpleAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "<SetWriteStream>b__258_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
@@ -1511,7 +1511,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: <SetWriteStream>b__258_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(System::Net::SimpleAsyncResult*)>(&System::Net::HttpWebRequest::$SetWriteStream$b__258_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* inner = &::il2cpp_utils::GetClassFromName("System.Net", "SimpleAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "<SetWriteStream>b__258_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inner});
   }
@@ -1520,7 +1520,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: <SetWriteStreamInner>b__259_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpWebRequest::*)(System::Net::SimpleAsyncResult*)>(&System::Net::HttpWebRequest::$SetWriteStreamInner$b__259_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System.Net", "SimpleAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "<SetWriteStreamInner>b__259_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
@@ -1529,7 +1529,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Net::HttpWebRequest::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1541,7 +1541,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: set_ConnectionGroupName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(::Il2CppString*)>(&System::Net::HttpWebRequest::set_ConnectionGroupName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "set_ConnectionGroupName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1550,7 +1550,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_ContentLength
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_ContentLength)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_ContentLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1558,7 +1558,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Sy
 // Il2CppName: set_ContentLength
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(int64_t)>(&System::Net::HttpWebRequest::set_ContentLength)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "set_ContentLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1567,7 +1567,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_Credentials
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ICredentials* (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_Credentials)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_Credentials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1575,7 +1575,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: set_Credentials
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(System::Net::ICredentials*)>(&System::Net::HttpWebRequest::set_Credentials)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Net", "ICredentials")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "set_Credentials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1584,7 +1584,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_Headers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebHeaderCollection* (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_Headers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_Headers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1592,7 +1592,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: get_Method
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_Method)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_Method", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1600,7 +1600,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_Method
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(::Il2CppString*)>(&System::Net::HttpWebRequest::set_Method)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "set_Method", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1609,7 +1609,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: set_PreAuthenticate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(bool)>(&System::Net::HttpWebRequest::set_PreAuthenticate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "set_PreAuthenticate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1618,7 +1618,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_Proxy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IWebProxy* (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_Proxy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_Proxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1626,7 +1626,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: set_Proxy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(System::Net::IWebProxy*)>(&System::Net::HttpWebRequest::set_Proxy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Net", "IWebProxy")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "set_Proxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1635,7 +1635,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_RequestUri
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_RequestUri)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_RequestUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1643,7 +1643,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri
 // Il2CppName: get_Timeout
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_Timeout)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_Timeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1651,7 +1651,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: get_UseDefaultCredentials
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::get_UseDefaultCredentials)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "get_UseDefaultCredentials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1659,7 +1659,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: set_UseDefaultCredentials
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(bool)>(&System::Net::HttpWebRequest::set_UseDefaultCredentials)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "set_UseDefaultCredentials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1668,7 +1668,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: BeginGetRequestStream
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::HttpWebRequest::*)(System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::HttpWebRequest::BeginGetRequestStream)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "BeginGetRequestStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callback, state});
@@ -1678,7 +1678,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndGetRequestStream
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (System::Net::HttpWebRequest::*)(System::IAsyncResult*)>(&System::Net::HttpWebRequest::EndGetRequestStream)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* asyncResult = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "EndGetRequestStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncResult});
   }
@@ -1687,7 +1687,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO:
 // Il2CppName: BeginGetResponse
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::HttpWebRequest::*)(System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::HttpWebRequest::BeginGetResponse)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "BeginGetResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callback, state});
@@ -1697,7 +1697,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndGetResponse
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebResponse* (System::Net::HttpWebRequest::*)(System::IAsyncResult*)>(&System::Net::HttpWebRequest::EndGetResponse)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* asyncResult = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "EndGetResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncResult});
   }
@@ -1706,7 +1706,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: GetResponse
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebResponse* (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::GetResponse)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "GetResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1714,7 +1714,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: Abort
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::Abort)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "Abort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1722,7 +1722,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: GetObjectData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpWebRequest::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Net::HttpWebRequest::GetObjectData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* serializationInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* streamingContext = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serializationInfo, streamingContext});

@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::DeflateStreamNative::UnmanagedRe
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite::*)(System::IntPtr, int, System::IntPtr)>(&System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buffer = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite::*)(System::IntPtr, int, System::IntPtr, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buffer = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite::*)(System::IAsyncResult*)>(&System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

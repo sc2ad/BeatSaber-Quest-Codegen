@@ -148,7 +148,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActiveClient*, "", "Mult
 // Il2CppName: get_beatmapObjectManager
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapObjectManager* (GlobalNamespace::MultiplayerLocalActiveClient::*)()>(&GlobalNamespace::MultiplayerLocalActiveClient::get_beatmapObjectManager)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalActiveClient*), "get_beatmapObjectManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLocalActiveClient::*)()>(&GlobalNamespace::MultiplayerLocalActiveClient::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalActiveClient*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLocalActiveClient::*)()>(&GlobalNamespace::MultiplayerLocalActiveClient::OnDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalActiveClient*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -172,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: LateUpdate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLocalActiveClient::*)()>(&GlobalNamespace::MultiplayerLocalActiveClient::LateUpdate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalActiveClient*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -180,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleNoteWasMissed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLocalActiveClient::*)(GlobalNamespace::NoteController*)>(&GlobalNamespace::MultiplayerLocalActiveClient::HandleNoteWasMissed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* noteController = &::il2cpp_utils::GetClassFromName("", "NoteController")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalActiveClient*), "HandleNoteWasMissed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteController});
   }
@@ -189,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleNoteWasCut
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLocalActiveClient::*)(GlobalNamespace::NoteController*, GlobalNamespace::NoteCutInfo&)>(&GlobalNamespace::MultiplayerLocalActiveClient::HandleNoteWasCut)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* noteController = &::il2cpp_utils::GetClassFromName("", "NoteController")->byval_arg;
     static auto* noteCutInfo = &::il2cpp_utils::GetClassFromName("", "NoteCutInfo")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalActiveClient*), "HandleNoteWasCut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteController, noteCutInfo});
@@ -199,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ScoreControllerHandleComboDidChange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLocalActiveClient::*)(int)>(&GlobalNamespace::MultiplayerLocalActiveClient::ScoreControllerHandleComboDidChange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* combo = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalActiveClient*), "ScoreControllerHandleComboDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{combo});
   }
@@ -208,7 +208,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ScoreControllerHandleMultiplierDidChange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLocalActiveClient::*)(int, float)>(&GlobalNamespace::MultiplayerLocalActiveClient::ScoreControllerHandleMultiplierDidChange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* multiplier = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* multiplierProgress = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalActiveClient*), "ScoreControllerHandleMultiplierDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multiplier, multiplierProgress});
@@ -218,7 +218,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ScoreControllerHandleImmediateMaxPossibleScoreDidChange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLocalActiveClient::*)(int, int)>(&GlobalNamespace::MultiplayerLocalActiveClient::ScoreControllerHandleImmediateMaxPossibleScoreDidChange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* immediateMaxPossibleRawScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* immediateMaxPossibleModifiedScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalActiveClient*), "ScoreControllerHandleImmediateMaxPossibleScoreDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{immediateMaxPossibleRawScore, immediateMaxPossibleModifiedScore});
@@ -228,7 +228,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ScoreControllerHandleScoreDidChange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLocalActiveClient::*)(int, int)>(&GlobalNamespace::MultiplayerLocalActiveClient::ScoreControllerHandleScoreDidChange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rawScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* modifiedScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalActiveClient*), "ScoreControllerHandleScoreDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rawScore, modifiedScore});

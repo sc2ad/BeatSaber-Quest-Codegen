@@ -85,7 +85,7 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::StackedController*, "HMUI", "StackedController");
 // Il2CppName: get_topStackedViewController
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewController* (HMUI::StackedController::*)()>(&HMUI::StackedController::get_topStackedViewController)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::StackedController*), "get_topStackedViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewC
 // Il2CppName: PushViewController
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackedController::*)(HMUI::ViewController*, System::Action*, bool)>(&HMUI::StackedController::PushViewController)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* viewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     static auto* finishedCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     static auto* immediately = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: PopViewController
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackedController::*)(System::Action*, bool)>(&HMUI::StackedController::PopViewController)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* finishedCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     static auto* immediately = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::StackedController*), "PopViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{finishedCallback, immediately});
@@ -114,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: PopViewControllers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackedController::*)(int, System::Action*, bool)>(&HMUI::StackedController::PopViewControllers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* numberOfViewControllersToPop = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* finishedCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     static auto* immediately = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: SetupViewControllerRect
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HMUI::ViewController*, int)>(&HMUI::StackedController::SetupViewControllerRect)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* viewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::StackedController*), "SetupViewControllerRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{viewController, index});
@@ -135,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HM
 // Il2CppName: LayoutViewControllers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackedController::*)(System::Collections::Generic::List_1<HMUI::ViewController*>*)>(&HMUI::StackedController::LayoutViewControllers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* viewControllers = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("HMUI", "ViewController")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::StackedController*), "LayoutViewControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{viewControllers});
   }

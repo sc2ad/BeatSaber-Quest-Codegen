@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_ComputeOverlayIntersection*, "Val
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::IVROverlay::_ComputeOverlayIntersection::*)(uint64_t, Valve::VR::VROverlayIntersectionParams_t&, Valve::VR::VROverlayIntersectionResults_t&)>(&Valve::VR::IVROverlay::_ComputeOverlayIntersection::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pParams = &::il2cpp_utils::GetClassFromName("Valve.VR", "VROverlayIntersectionParams_t")->this_arg;
     static auto* pResults = &::il2cpp_utils::GetClassFromName("Valve.VR", "VROverlayIntersectionResults_t")->this_arg;
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVROverlay::_ComputeOverlayIntersection::*)(uint64_t, Valve::VR::VROverlayIntersectionParams_t&, Valve::VR::VROverlayIntersectionResults_t&, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVROverlay::_ComputeOverlayIntersection::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pParams = &::il2cpp_utils::GetClassFromName("Valve.VR", "VROverlayIntersectionParams_t")->this_arg;
     static auto* pResults = &::il2cpp_utils::GetClassFromName("Valve.VR", "VROverlayIntersectionResults_t")->this_arg;
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::IVROverlay::_ComputeOverlayIntersection::*)(Valve::VR::VROverlayIntersectionParams_t&, Valve::VR::VROverlayIntersectionResults_t&, System::IAsyncResult*)>(&Valve::VR::IVROverlay::_ComputeOverlayIntersection::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pParams = &::il2cpp_utils::GetClassFromName("Valve.VR", "VROverlayIntersectionParams_t")->this_arg;
     static auto* pResults = &::il2cpp_utils::GetClassFromName("Valve.VR", "VROverlayIntersectionResults_t")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;

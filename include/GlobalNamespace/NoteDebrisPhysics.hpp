@@ -57,7 +57,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteDebrisPhysics*, "", "NoteDebrisPhysi
 // Il2CppName: get_position
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::NoteDebrisPhysics::*)()>(&GlobalNamespace::NoteDebrisPhysics::get_position)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteDebrisPhysics*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteDebrisPhysics::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&GlobalNamespace::NoteDebrisPhysics::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* force = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* torque = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteDebrisPhysics*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{force, torque});
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: AddVelocity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteDebrisPhysics::*)(UnityEngine::Vector3)>(&GlobalNamespace::NoteDebrisPhysics::AddVelocity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* force = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteDebrisPhysics*), "AddVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{force});
   }

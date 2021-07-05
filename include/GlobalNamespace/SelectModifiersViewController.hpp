@@ -71,7 +71,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectModifiersViewController*, "", "Sel
 // Il2CppName: get_gameplayModifiers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers* (GlobalNamespace::SelectModifiersViewController::*)()>(&GlobalNamespace::SelectModifiersViewController::get_gameplayModifiers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectModifiersViewController*), "get_gameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: Setup
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SelectModifiersViewController::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::SelectModifiersViewController::Setup)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SelectModifiersViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: DidActivate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SelectModifiersViewController::*)(bool, bool, bool)>(&GlobalNamespace::SelectModifiersViewController::DidActivate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* firstActivation = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* addedToHierarchy = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* screenSystemEnabling = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

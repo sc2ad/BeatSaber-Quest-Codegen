@@ -76,7 +76,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockMasterServerQuickPlaySetupModel*, ""
 // Il2CppName: GetQuickPlaySetupAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerQuickPlaySetupData*>* (GlobalNamespace::MockMasterServerQuickPlaySetupModel::*)(System::Threading::CancellationToken)>(&GlobalNamespace::MockMasterServerQuickPlaySetupModel::GetQuickPlaySetupAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockMasterServerQuickPlaySetupModel*), "GetQuickPlaySetupAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
   }

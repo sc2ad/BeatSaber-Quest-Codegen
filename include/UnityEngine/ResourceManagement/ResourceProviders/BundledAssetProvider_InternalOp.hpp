@@ -95,7 +95,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::Bundl
 // Il2CppName: LoadBundleFromDependecies
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource* (*)(System::Collections::Generic::IList_1<::Il2CppObject*>*)>(&UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::LoadBundleFromDependecies)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* results = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp*), "LoadBundleFromDependecies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{results});
   }
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::*)(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle)>(&UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* provideHandle = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceProviders", "ProvideHandle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provideHandle});
   }
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: WaitForCompletionHandler
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::WaitForCompletionHandler)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp*), "WaitForCompletionHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: ActionComplete
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::*)(UnityEngine::AsyncOperation*)>(&UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::ActionComplete)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "AsyncOperation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp*), "ActionComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: ProgressCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::ProgressCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp*), "ProgressCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

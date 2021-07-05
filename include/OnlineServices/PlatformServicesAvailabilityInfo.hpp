@@ -102,7 +102,7 @@ DEFINE_IL2CPP_ARG_TYPE(OnlineServices::PlatformServicesAvailabilityInfo::OnlineS
 // Il2CppName: get_everythingOK
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::PlatformServicesAvailabilityInfo* (*)()>(&OnlineServices::PlatformServicesAvailabilityInfo::get_everythingOK)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::PlatformServicesAvailabilityInfo*), "get_everythingOK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -110,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServi
 // Il2CppName: get_onlineServicesUnavailableError
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::PlatformServicesAvailabilityInfo* (*)()>(&OnlineServices::PlatformServicesAvailabilityInfo::get_onlineServicesUnavailableError)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::PlatformServicesAvailabilityInfo*), "get_onlineServicesUnavailableError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

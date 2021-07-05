@@ -59,7 +59,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::__Filters*, "System", "__Filters");
 // Il2CppName: FilterAttribute
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::__Filters::*)(System::Reflection::MemberInfo*, ::Il2CppObject*)>(&System::__Filters::FilterAttribute)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* m = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
     static auto* filterCriteria = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::__Filters*), "FilterAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{m, filterCriteria});
@@ -69,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: FilterName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::__Filters::*)(System::Reflection::MemberInfo*, ::Il2CppObject*)>(&System::__Filters::FilterName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* m = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
     static auto* filterCriteria = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::__Filters*), "FilterName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{m, filterCriteria});
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: FilterIgnoreCase
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::__Filters::*)(System::Reflection::MemberInfo*, ::Il2CppObject*)>(&System::__Filters::FilterIgnoreCase)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* m = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
     static auto* filterCriteria = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::__Filters*), "FilterIgnoreCase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{m, filterCriteria});
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::__Filters::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::__Filters*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

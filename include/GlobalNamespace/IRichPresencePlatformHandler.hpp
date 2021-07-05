@@ -36,7 +36,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IRichPresencePlatformHandler*, "", "IRic
 // Il2CppName: SetPresence
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IRichPresencePlatformHandler::*)(GlobalNamespace::IRichPresenceData*)>(&GlobalNamespace::IRichPresencePlatformHandler::SetPresence)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* richPresenceData = &::il2cpp_utils::GetClassFromName("", "IRichPresenceData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IRichPresencePlatformHandler*), "SetPresence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{richPresenceData});
   }
@@ -45,7 +45,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Clear
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IRichPresencePlatformHandler::*)()>(&GlobalNamespace::IRichPresencePlatformHandler::Clear)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IRichPresencePlatformHandler*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

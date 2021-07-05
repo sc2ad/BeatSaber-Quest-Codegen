@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::WindowsPlatform*, "Oculus.Platform", "W
 // Il2CppName: CPPLogCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::WindowsPlatform::*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::WindowsPlatform::CPPLogCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tag = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::WindowsPlatform*), "CPPLogCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tag, message});
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Il2CppName: getCallbackPointer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Oculus::Platform::WindowsPlatform::*)()>(&Oculus::Platform::WindowsPlatform::getCallbackPointer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::WindowsPlatform*), "getCallbackPointer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: Initialize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Oculus::Platform::WindowsPlatform::*)(::Il2CppString*)>(&Oculus::Platform::WindowsPlatform::Initialize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* appId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::WindowsPlatform*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{appId});
   }
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Oculu
 // Il2CppName: AsyncInitialize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize*>* (Oculus::Platform::WindowsPlatform::*)(::Il2CppString*)>(&Oculus::Platform::WindowsPlatform::AsyncInitialize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* appId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::WindowsPlatform*), "AsyncInitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{appId});
   }

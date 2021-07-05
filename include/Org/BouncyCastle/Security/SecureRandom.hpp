@@ -125,7 +125,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::SecureRandom*, "Org.BouncyCa
 // Il2CppName: NextCounterValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)()>(&Org::BouncyCastle::Security::SecureRandom::NextCounterValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::SecureRandom*), "NextCounterValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Il2CppName: get_Master
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Security::SecureRandom* (*)()>(&Org::BouncyCastle::Security::SecureRandom::get_Master)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::SecureRandom*), "get_Master", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: CreatePrng
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator* (*)(::Il2CppString*, bool)>(&Org::BouncyCastle::Security::SecureRandom::CreatePrng)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* digestName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* autoSeed = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::SecureRandom*), "CreatePrng", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{digestName, autoSeed});
@@ -151,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: GetNextBytes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(Org::BouncyCastle::Security::SecureRandom*, int)>(&Org::BouncyCastle::Security::SecureRandom::GetNextBytes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* secureRandom = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Security", "SecureRandom")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::SecureRandom*), "GetNextBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{secureRandom, length});
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: NextInt
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Security::SecureRandom::*)()>(&Org::BouncyCastle::Security::SecureRandom::NextInt)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::SecureRandom*), "NextInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -173,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Il2CppName: NextLong
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Org::BouncyCastle::Security::SecureRandom::*)()>(&Org::BouncyCastle::Security::SecureRandom::NextLong)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::SecureRandom*), "NextLong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -181,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Or
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::Security::SecureRandom::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::SecureRandom*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -193,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: Next
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Security::SecureRandom::*)()>(&Org::BouncyCastle::Security::SecureRandom::Next)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::SecureRandom*), "Next", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -201,7 +201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Il2CppName: Next
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Security::SecureRandom::*)(int)>(&Org::BouncyCastle::Security::SecureRandom::Next)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* maxValue = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::SecureRandom*), "Next", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{maxValue});
   }
@@ -210,7 +210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Il2CppName: Next
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Security::SecureRandom::*)(int, int)>(&Org::BouncyCastle::Security::SecureRandom::Next)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* minValue = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* maxValue = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::SecureRandom*), "Next", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{minValue, maxValue});
@@ -220,7 +220,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Il2CppName: NextBytes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Security::SecureRandom::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Security::SecureRandom::NextBytes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::SecureRandom*), "NextBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buf});
   }
@@ -229,7 +229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Il2CppName: NextDouble
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (Org::BouncyCastle::Security::SecureRandom::*)()>(&Org::BouncyCastle::Security::SecureRandom::NextDouble)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::SecureRandom*), "NextDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

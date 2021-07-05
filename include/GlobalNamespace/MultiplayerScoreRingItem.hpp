@@ -130,7 +130,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerScoreRingItem*, "", "Multipla
 // Il2CppName: Awake
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerScoreRingItem::*)()>(&GlobalNamespace::MultiplayerScoreRingItem::Awake)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerScoreRingItem*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -138,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerScoreRingItem::*)()>(&GlobalNamespace::MultiplayerScoreRingItem::OnDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerScoreRingItem*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -146,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetPositionAndRotation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerScoreRingItem::*)(UnityEngine::Vector3, UnityEngine::Quaternion)>(&GlobalNamespace::MultiplayerScoreRingItem::SetPositionAndRotation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerScoreRingItem*), "SetPositionAndRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, rotation});
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: AnimateColors
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerScoreRingItem::*)(UnityEngine::Color, UnityEngine::Color, float, Tweening::EaseType)>(&GlobalNamespace::MultiplayerScoreRingItem::AnimateColors)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* nameColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* scoreColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerScoreRingItem::*)(::Il2CppString*)>(&GlobalNamespace::MultiplayerScoreRingItem::SetName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerScoreRingItem*), "SetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});
   }
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetScore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerScoreRingItem::*)(::Il2CppString*)>(&GlobalNamespace::MultiplayerScoreRingItem::SetScore)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerScoreRingItem*), "SetScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});
   }
@@ -186,7 +186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <Awake>b__6_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerScoreRingItem::*)(UnityEngine::Color)>(&GlobalNamespace::MultiplayerScoreRingItem::$Awake$b__6_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* val = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerScoreRingItem*), "<Awake>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val});
   }
@@ -195,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <Awake>b__6_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerScoreRingItem::*)(UnityEngine::Color)>(&GlobalNamespace::MultiplayerScoreRingItem::$Awake$b__6_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* val = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerScoreRingItem*), "<Awake>b__6_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val});
   }

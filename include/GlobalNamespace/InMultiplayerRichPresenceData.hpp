@@ -98,7 +98,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::InMultiplayerRichPresenceData*, "", "InM
 // Il2CppName: get_apiName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::InMultiplayerRichPresenceData::*)()>(&GlobalNamespace::InMultiplayerRichPresenceData::get_apiName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InMultiplayerRichPresenceData*), "get_apiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_apiName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::InMultiplayerRichPresenceData::*)(::Il2CppString*)>(&GlobalNamespace::InMultiplayerRichPresenceData::set_apiName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InMultiplayerRichPresenceData*), "set_apiName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_localizedDescription
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::InMultiplayerRichPresenceData::*)()>(&GlobalNamespace::InMultiplayerRichPresenceData::get_localizedDescription)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InMultiplayerRichPresenceData*), "get_localizedDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_localizedDescription
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::InMultiplayerRichPresenceData::*)(::Il2CppString*)>(&GlobalNamespace::InMultiplayerRichPresenceData::set_localizedDescription)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InMultiplayerRichPresenceData*), "set_localizedDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -132,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_multiplayerLobbyCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::InMultiplayerRichPresenceData::*)()>(&GlobalNamespace::InMultiplayerRichPresenceData::get_multiplayerLobbyCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InMultiplayerRichPresenceData*), "get_multiplayerLobbyCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_multiplayerLobbyCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::InMultiplayerRichPresenceData::*)(::Il2CppString*)>(&GlobalNamespace::InMultiplayerRichPresenceData::set_multiplayerLobbyCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InMultiplayerRichPresenceData*), "set_multiplayerLobbyCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_isJoinable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::InMultiplayerRichPresenceData::*)()>(&GlobalNamespace::InMultiplayerRichPresenceData::get_isJoinable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::InMultiplayerRichPresenceData*), "get_isJoinable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

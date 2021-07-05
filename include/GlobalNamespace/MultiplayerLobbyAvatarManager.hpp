@@ -135,7 +135,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyAvatarManager*, "", "Mul
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyAvatarManager::*)(float, float)>(&GlobalNamespace::MultiplayerLobbyAvatarManager::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* innerCircleRadius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* minOuterCircleRadius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyAvatarManager*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{innerCircleRadius, minOuterCircleRadius});
@@ -145,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ActivateMultiplayerLobbyAvatarManager
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyAvatarManager::*)()>(&GlobalNamespace::MultiplayerLobbyAvatarManager::ActivateMultiplayerLobbyAvatarManager)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyAvatarManager*), "ActivateMultiplayerLobbyAvatarManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: DeactivateMultiplayerLobbyAvatarManager
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyAvatarManager::*)()>(&GlobalNamespace::MultiplayerLobbyAvatarManager::DeactivateMultiplayerLobbyAvatarManager)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyAvatarManager*), "DeactivateMultiplayerLobbyAvatarManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleLobbyStateDataModelPlayerConnected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyAvatarManager::*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::MultiplayerLobbyAvatarManager::HandleLobbyStateDataModelPlayerConnected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* connectedPlayer = &::il2cpp_utils::GetClassFromName("", "IConnectedPlayer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyAvatarManager*), "HandleLobbyStateDataModelPlayerConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connectedPlayer});
   }
@@ -170,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleLobbyStateDataModelPlayerDisconnected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyAvatarManager::*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::MultiplayerLobbyAvatarManager::HandleLobbyStateDataModelPlayerDisconnected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* connectedPlayer = &::il2cpp_utils::GetClassFromName("", "IConnectedPlayer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyAvatarManager*), "HandleLobbyStateDataModelPlayerDisconnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connectedPlayer});
   }
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: AddPlayer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyAvatarManager::*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::MultiplayerLobbyAvatarManager::AddPlayer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* connectedPlayer = &::il2cpp_utils::GetClassFromName("", "IConnectedPlayer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyAvatarManager*), "AddPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connectedPlayer});
   }
@@ -188,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: RemovePlayer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyAvatarManager::*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::MultiplayerLobbyAvatarManager::RemovePlayer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* connectedPlayer = &::il2cpp_utils::GetClassFromName("", "IConnectedPlayer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyAvatarManager*), "RemovePlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connectedPlayer});
   }
@@ -197,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: RemovePlayerAndDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::MultiplayerLobbyAvatarManager::*)(::Il2CppString*, GlobalNamespace::MultiplayerLobbyAvatarController*)>(&GlobalNamespace::MultiplayerLobbyAvatarManager::RemovePlayerAndDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* multiplayerAvatar = &::il2cpp_utils::GetClassFromName("", "MultiplayerLobbyAvatarController")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyAvatarManager*), "RemovePlayerAndDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId, multiplayerAvatar});

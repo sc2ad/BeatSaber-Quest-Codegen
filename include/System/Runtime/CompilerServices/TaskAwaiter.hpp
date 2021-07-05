@@ -95,7 +95,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::TaskAwaiter, "System.R
 // Il2CppName: get_IsCompleted
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::CompilerServices::TaskAwaiter::*)()>(&System::Runtime::CompilerServices::TaskAwaiter::get_IsCompleted)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::TaskAwaiter), "get_IsCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: OnCompleted
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::CompilerServices::TaskAwaiter::*)(System::Action*)>(&System::Runtime::CompilerServices::TaskAwaiter::OnCompleted)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* continuation = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::TaskAwaiter), "OnCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{continuation});
   }
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: UnsafeOnCompleted
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::CompilerServices::TaskAwaiter::*)(System::Action*)>(&System::Runtime::CompilerServices::TaskAwaiter::UnsafeOnCompleted)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* continuation = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::TaskAwaiter), "UnsafeOnCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{continuation});
   }
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: GetResult
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::CompilerServices::TaskAwaiter::*)()>(&System::Runtime::CompilerServices::TaskAwaiter::GetResult)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::TaskAwaiter), "GetResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -129,7 +129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ValidateEnd
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Tasks::Task*)>(&System::Runtime::CompilerServices::TaskAwaiter::ValidateEnd)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* task = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::TaskAwaiter), "ValidateEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{task});
   }
@@ -138,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: HandleNonSuccessAndDebuggerNotification
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Tasks::Task*)>(&System::Runtime::CompilerServices::TaskAwaiter::HandleNonSuccessAndDebuggerNotification)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* task = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::TaskAwaiter), "HandleNonSuccessAndDebuggerNotification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{task});
   }
@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: ThrowForNonSuccess
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Tasks::Task*)>(&System::Runtime::CompilerServices::TaskAwaiter::ThrowForNonSuccess)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* task = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::TaskAwaiter), "ThrowForNonSuccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{task});
   }
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: OnCompletedInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Tasks::Task*, System::Action*, bool, bool)>(&System::Runtime::CompilerServices::TaskAwaiter::OnCompletedInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* task = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
     static auto* continuation = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     static auto* continueOnCapturedContext = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

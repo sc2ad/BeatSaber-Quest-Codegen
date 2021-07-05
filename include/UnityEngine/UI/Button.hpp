@@ -105,7 +105,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Button*, "UnityEngine.UI", "Button");
 // Il2CppName: get_onClick
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Button::ButtonClickedEvent* (UnityEngine::UI::Button::*)()>(&UnityEngine::UI::Button::get_onClick)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Button*), "get_onClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_onClick
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Button::*)(UnityEngine::UI::Button::ButtonClickedEvent*)>(&UnityEngine::UI::Button::set_onClick)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Button/ButtonClickedEvent")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Button*), "set_onClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Press
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Button::*)()>(&UnityEngine::UI::Button::Press)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Button*), "Press", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: OnPointerClick
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Button::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::UI::Button::OnPointerClick)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Button*), "OnPointerClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eventData});
   }
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: OnSubmit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Button::*)(UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::UI::Button::OnSubmit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Button*), "OnSubmit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eventData});
   }
@@ -148,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: OnFinishSubmit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (UnityEngine::UI::Button::*)()>(&UnityEngine::UI::Button::OnFinishSubmit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Button*), "OnFinishSubmit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

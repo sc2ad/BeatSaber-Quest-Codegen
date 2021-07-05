@@ -75,7 +75,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsData::RootCreditsItem*, "", "Cred
 // Il2CppName: HasTitle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::CreditsData::RootCreditsItem::*)()>(&GlobalNamespace::CreditsData::RootCreditsItem::HasTitle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsData::RootCreditsItem*), "HasTitle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: HasText
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::CreditsData::RootCreditsItem::*)()>(&GlobalNamespace::CreditsData::RootCreditsItem::HasText)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsData::RootCreditsItem*), "HasText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: HasRowItems
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::CreditsData::RootCreditsItem::*)()>(&GlobalNamespace::CreditsData::RootCreditsItem::HasRowItems)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsData::RootCreditsItem*), "HasRowItems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

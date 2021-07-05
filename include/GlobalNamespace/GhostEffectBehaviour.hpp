@@ -309,7 +309,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostEffectBehaviour::GhostEffectType, "
 // Il2CppName: EnableObjects
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GhostEffectBehaviour::*)(bool)>(&GlobalNamespace::GhostEffectBehaviour::EnableObjects)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* on = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GhostEffectBehaviour*), "EnableObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{on});
   }
@@ -318,7 +318,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnBehaviourPlay
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GhostEffectBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData)>(&GlobalNamespace::GhostEffectBehaviour::OnBehaviourPlay)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* playable = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")->byval_arg;
     static auto* info = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "FrameData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GhostEffectBehaviour*), "OnBehaviourPlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playable, info});
@@ -328,7 +328,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ProcessFrame
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GhostEffectBehaviour::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::FrameData, ::Il2CppObject*)>(&GlobalNamespace::GhostEffectBehaviour::ProcessFrame)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* playable = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")->byval_arg;
     static auto* info = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "FrameData")->byval_arg;
     static auto* playerData = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

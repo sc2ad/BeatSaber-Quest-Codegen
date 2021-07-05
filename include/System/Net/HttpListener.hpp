@@ -284,7 +284,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListener*, "System.Net", "HttpListener")
 // Il2CppName: LoadCertificateAndKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate* (System::Net::HttpListener::*)(System::Net::IPAddress*, int)>(&System::Net::HttpListener::LoadCertificateAndKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* addr = &::il2cpp_utils::GetClassFromName("System.Net", "IPAddress")->byval_arg;
     static auto* port = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListener*), "LoadCertificateAndKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{addr, port});
@@ -294,7 +294,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Il2CppName: CreateSslStream
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Security::SslStream* (System::Net::HttpListener::*)(System::IO::Stream*, bool, System::Net::Security::RemoteCertificateValidationCallback*)>(&System::Net::HttpListener::CreateSslStream)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* innerStream = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     static auto* ownsStream = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System.Net.Security", "RemoteCertificateValidationCallback")->byval_arg;
@@ -305,7 +305,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: get_AuthenticationSchemes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::AuthenticationSchemes (System::Net::HttpListener::*)()>(&System::Net::HttpListener::get_AuthenticationSchemes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListener*), "get_AuthenticationSchemes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -313,7 +313,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: get_AuthenticationSchemeSelectorDelegate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::AuthenticationSchemeSelector* (System::Net::HttpListener::*)()>(&System::Net::HttpListener::get_AuthenticationSchemeSelectorDelegate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListener*), "get_AuthenticationSchemeSelectorDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -321,7 +321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: get_IgnoreWriteExceptions
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpListener::*)()>(&System::Net::HttpListener::get_IgnoreWriteExceptions)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListener*), "get_IgnoreWriteExceptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -329,7 +329,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_IsListening
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpListener::*)()>(&System::Net::HttpListener::get_IsListening)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListener*), "get_IsListening", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -337,7 +337,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_Prefixes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpListenerPrefixCollection* (System::Net::HttpListener::*)()>(&System::Net::HttpListener::get_Prefixes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListener*), "get_Prefixes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -345,7 +345,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: get_Realm
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::HttpListener::*)()>(&System::Net::HttpListener::get_Realm)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListener*), "get_Realm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -353,7 +353,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: Close
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListener::*)()>(&System::Net::HttpListener::Close)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListener*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -361,7 +361,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Close
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListener::*)(bool)>(&System::Net::HttpListener::Close)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* force = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListener*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{force});
   }
@@ -370,7 +370,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Cleanup
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListener::*)(bool)>(&System::Net::HttpListener::Cleanup)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* close_existing = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListener*), "Cleanup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{close_existing});
   }
@@ -379,7 +379,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: BeginGetContext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::HttpListener::*)(System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::HttpListener::BeginGetContext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListener*), "BeginGetContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callback, state});
@@ -389,7 +389,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndGetContext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpListenerContext* (System::Net::HttpListener::*)(System::IAsyncResult*)>(&System::Net::HttpListener::EndGetContext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* asyncResult = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListener*), "EndGetContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncResult});
   }
@@ -398,7 +398,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: SelectAuthenticationScheme
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::AuthenticationSchemes (System::Net::HttpListener::*)(System::Net::HttpListenerContext*)>(&System::Net::HttpListener::SelectAuthenticationScheme)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Net", "HttpListenerContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListener*), "SelectAuthenticationScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }
@@ -407,7 +407,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: GetContext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpListenerContext* (System::Net::HttpListener::*)()>(&System::Net::HttpListener::GetContext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListener*), "GetContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -415,7 +415,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListener::*)()>(&System::Net::HttpListener::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListener*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -423,7 +423,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Stop
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListener::*)()>(&System::Net::HttpListener::Stop)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListener*), "Stop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -431,7 +431,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: System.IDisposable.Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListener::*)()>(&System::Net::HttpListener::System_IDisposable_Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListener*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -439,7 +439,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: CheckDisposed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListener::*)()>(&System::Net::HttpListener::CheckDisposed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListener*), "CheckDisposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -447,7 +447,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: GetContextFromQueue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpListenerContext* (System::Net::HttpListener::*)()>(&System::Net::HttpListener::GetContextFromQueue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListener*), "GetContextFromQueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -455,7 +455,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: RegisterContext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListener::*)(System::Net::HttpListenerContext*)>(&System::Net::HttpListener::RegisterContext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Net", "HttpListenerContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListener*), "RegisterContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }
@@ -464,7 +464,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: UnregisterContext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListener::*)(System::Net::HttpListenerContext*)>(&System::Net::HttpListener::UnregisterContext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Net", "HttpListenerContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListener*), "UnregisterContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }
@@ -473,7 +473,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: AddConnection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListener::*)(System::Net::HttpConnection*)>(&System::Net::HttpListener::AddConnection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cnc = &::il2cpp_utils::GetClassFromName("System.Net", "HttpConnection")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListener*), "AddConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cnc});
   }
@@ -482,7 +482,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: RemoveConnection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListener::*)(System::Net::HttpConnection*)>(&System::Net::HttpListener::RemoveConnection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cnc = &::il2cpp_utils::GetClassFromName("System.Net", "HttpConnection")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListener*), "RemoveConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cnc});
   }

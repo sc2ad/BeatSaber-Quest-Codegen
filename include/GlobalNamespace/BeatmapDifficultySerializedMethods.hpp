@@ -85,7 +85,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDifficultySerializedMethods*, "",
 // Il2CppName: SerializedName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::BeatmapDifficulty)>(&GlobalNamespace::BeatmapDifficultySerializedMethods::SerializedName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* difficulty = &::il2cpp_utils::GetClassFromName("", "BeatmapDifficulty")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDifficultySerializedMethods*), "SerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{difficulty});
   }
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: BeatmapDifficultyFromSerializedName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, GlobalNamespace::BeatmapDifficulty&)>(&GlobalNamespace::BeatmapDifficultySerializedMethods::BeatmapDifficultyFromSerializedName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* difficulty = &::il2cpp_utils::GetClassFromName("", "BeatmapDifficulty")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDifficultySerializedMethods*), "BeatmapDifficultyFromSerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, difficulty});

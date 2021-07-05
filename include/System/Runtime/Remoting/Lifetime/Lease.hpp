@@ -148,7 +148,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Lifetime::Lease*, "System.Runt
 // Il2CppName: get_CurrentLeaseTime
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (System::Runtime::Remoting::Lifetime::Lease::*)()>(&System::Runtime::Remoting::Lifetime::Lease::get_CurrentLeaseTime)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::Lease*), "get_CurrentLeaseTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tim
 // Il2CppName: get_CurrentState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Lifetime::LeaseState (System::Runtime::Remoting::Lifetime::Lease::*)()>(&System::Runtime::Remoting::Lifetime::Lease::get_CurrentState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::Lease*), "get_CurrentState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: Activate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Lifetime::Lease::*)()>(&System::Runtime::Remoting::Lifetime::Lease::Activate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::Lease*), "Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -172,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_RenewOnCallTime
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (System::Runtime::Remoting::Lifetime::Lease::*)()>(&System::Runtime::Remoting::Lifetime::Lease::get_RenewOnCallTime)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::Lease*), "get_RenewOnCallTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -180,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tim
 // Il2CppName: Renew
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (System::Runtime::Remoting::Lifetime::Lease::*)(System::TimeSpan)>(&System::Runtime::Remoting::Lifetime::Lease::Renew)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* renewalTime = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::Lease*), "Renew", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{renewalTime});
   }
@@ -189,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tim
 // Il2CppName: Unregister
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Lifetime::Lease::*)(System::Runtime::Remoting::Lifetime::ISponsor*)>(&System::Runtime::Remoting::Lifetime::Lease::Unregister)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Lifetime", "ISponsor")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::Lease*), "Unregister", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
@@ -198,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: UpdateState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Lifetime::Lease::*)()>(&System::Runtime::Remoting::Lifetime::Lease::UpdateState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::Lease*), "UpdateState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -206,7 +206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: CheckNextSponsor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Lifetime::Lease::*)()>(&System::Runtime::Remoting::Lifetime::Lease::CheckNextSponsor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::Lease*), "CheckNextSponsor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -214,7 +214,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ProcessSponsorResponse
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Lifetime::Lease::*)(::Il2CppObject*, bool)>(&System::Runtime::Remoting::Lifetime::Lease::ProcessSponsorResponse)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* timedOut = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::Lease*), "ProcessSponsorResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state, timedOut});

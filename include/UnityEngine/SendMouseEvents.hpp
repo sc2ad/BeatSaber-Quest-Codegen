@@ -105,7 +105,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SendMouseEvents::HitInfo, "UnityEngine", "Se
 // Il2CppName: SetMouseMoved
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::SendMouseEvents::SetMouseMoved)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SendMouseEvents*), "SetMouseMoved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: DoSendMouseEvents
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&UnityEngine::SendMouseEvents::DoSendMouseEvents)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* skipRTCameras = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SendMouseEvents*), "DoSendMouseEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{skipRTCameras});
   }
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Il2CppName: SendEvents
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::SendMouseEvents::HitInfo)>(&UnityEngine::SendMouseEvents::SendEvents)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* hit = &::il2cpp_utils::GetClassFromName("UnityEngine", "SendMouseEvents/HitInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SendMouseEvents*), "SendEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i, hit});
@@ -132,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::SendMouseEvents::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SendMouseEvents*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

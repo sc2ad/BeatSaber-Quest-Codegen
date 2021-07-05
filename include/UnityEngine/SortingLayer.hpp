@@ -46,7 +46,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SortingLayer, "UnityEngine", "SortingLayer")
 // Il2CppName: GetLayerValueFromID
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&UnityEngine::SortingLayer::GetLayerValueFromID)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SortingLayer), "GetLayerValueFromID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id});
   }

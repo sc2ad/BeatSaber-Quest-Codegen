@@ -144,7 +144,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HydraulicCarJumpEffect*, "", "HydraulicC
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HydraulicCarJumpEffect::*)()>(&GlobalNamespace::HydraulicCarJumpEffect::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HydraulicCarJumpEffect*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -152,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HydraulicCarJumpEffect::*)()>(&GlobalNamespace::HydraulicCarJumpEffect::OnDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HydraulicCarJumpEffect*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HydraulicCarJumpEffect::*)(GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::HydraulicCarJumpEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmapEventData = &::il2cpp_utils::GetClassFromName("", "BeatmapEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HydraulicCarJumpEffect*), "HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventData});
   }

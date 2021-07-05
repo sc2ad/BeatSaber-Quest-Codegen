@@ -47,7 +47,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IAudioClipAsyncLoader*, "", "IAudioClipA
 // Il2CppName: LoadAudioClipAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* (GlobalNamespace::IAudioClipAsyncLoader::*)(::Il2CppString*, System::Threading::CancellationToken)>(&GlobalNamespace::IAudioClipAsyncLoader::LoadAudioClipAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IAudioClipAsyncLoader*), "LoadAudioClipAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path, cancellationToken});

@@ -67,7 +67,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CachedAssetBundle, "UnityEngine", "CachedAss
 // Il2CppName: get_name
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::CachedAssetBundle::*)()>(&UnityEngine::CachedAssetBundle::get_name)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CachedAssetBundle), "get_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_hash
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Hash128 (UnityEngine::CachedAssetBundle::*)()>(&UnityEngine::CachedAssetBundle::get_hash)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CachedAssetBundle), "get_hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

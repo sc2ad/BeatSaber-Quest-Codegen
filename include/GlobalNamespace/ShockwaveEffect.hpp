@@ -92,7 +92,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShockwaveEffect*, "", "ShockwaveEffect")
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ShockwaveEffect::*)()>(&GlobalNamespace::ShockwaveEffect::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShockwaveEffect*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SpawnShockwave
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ShockwaveEffect::*)(UnityEngine::Vector3)>(&GlobalNamespace::ShockwaveEffect::SpawnShockwave)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShockwaveEffect*), "SpawnShockwave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pos});
   }

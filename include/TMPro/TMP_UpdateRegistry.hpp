@@ -112,7 +112,7 @@ DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_UpdateRegistry*, "TMPro", "TMP_UpdateRegistry"
 // Il2CppName: get_instance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_UpdateRegistry* (*)()>(&TMPro::TMP_UpdateRegistry::get_instance)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateRegistry*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -120,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 // Il2CppName: RegisterCanvasElementForLayoutRebuild
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::ICanvasElement*)>(&TMPro::TMP_UpdateRegistry::RegisterCanvasElementForLayoutRebuild)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "ICanvasElement")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateRegistry*), "RegisterCanvasElementForLayoutRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{element});
   }
@@ -129,7 +129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: InternalRegisterCanvasElementForLayoutRebuild
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_UpdateRegistry::*)(UnityEngine::UI::ICanvasElement*)>(&TMPro::TMP_UpdateRegistry::InternalRegisterCanvasElementForLayoutRebuild)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "ICanvasElement")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateRegistry*), "InternalRegisterCanvasElementForLayoutRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{element});
   }
@@ -138,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 // Il2CppName: RegisterCanvasElementForGraphicRebuild
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::ICanvasElement*)>(&TMPro::TMP_UpdateRegistry::RegisterCanvasElementForGraphicRebuild)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "ICanvasElement")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateRegistry*), "RegisterCanvasElementForGraphicRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{element});
   }
@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: InternalRegisterCanvasElementForGraphicRebuild
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_UpdateRegistry::*)(UnityEngine::UI::ICanvasElement*)>(&TMPro::TMP_UpdateRegistry::InternalRegisterCanvasElementForGraphicRebuild)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "ICanvasElement")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateRegistry*), "InternalRegisterCanvasElementForGraphicRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{element});
   }
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 // Il2CppName: PerformUpdateForCanvasRendererObjects
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_UpdateRegistry::*)()>(&TMPro::TMP_UpdateRegistry::PerformUpdateForCanvasRendererObjects)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateRegistry*), "PerformUpdateForCanvasRendererObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: PerformUpdateForMeshRendererObjects
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_UpdateRegistry::*)()>(&TMPro::TMP_UpdateRegistry::PerformUpdateForMeshRendererObjects)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateRegistry*), "PerformUpdateForMeshRendererObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -172,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: UnRegisterCanvasElementForRebuild
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::ICanvasElement*)>(&TMPro::TMP_UpdateRegistry::UnRegisterCanvasElementForRebuild)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "ICanvasElement")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateRegistry*), "UnRegisterCanvasElementForRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{element});
   }
@@ -181,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: InternalUnRegisterCanvasElementForLayoutRebuild
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_UpdateRegistry::*)(UnityEngine::UI::ICanvasElement*)>(&TMPro::TMP_UpdateRegistry::InternalUnRegisterCanvasElementForLayoutRebuild)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "ICanvasElement")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateRegistry*), "InternalUnRegisterCanvasElementForLayoutRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{element});
   }
@@ -190,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: InternalUnRegisterCanvasElementForGraphicRebuild
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_UpdateRegistry::*)(UnityEngine::UI::ICanvasElement*)>(&TMPro::TMP_UpdateRegistry::InternalUnRegisterCanvasElementForGraphicRebuild)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "ICanvasElement")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateRegistry*), "InternalUnRegisterCanvasElementForGraphicRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{element});
   }

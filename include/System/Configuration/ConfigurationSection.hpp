@@ -54,7 +54,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Configuration::ConfigurationSection*, "System.Con
 // Il2CppName: DeserializeSection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Configuration::ConfigurationSection::*)(System::Xml::XmlReader*)>(&System::Configuration::ConfigurationSection::DeserializeSection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Configuration::ConfigurationSection*), "DeserializeSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
   }
@@ -63,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: SerializeSection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Configuration::ConfigurationSection::*)(System::Configuration::ConfigurationElement*, ::Il2CppString*, System::Configuration::ConfigurationSaveMode)>(&System::Configuration::ConfigurationSection::SerializeSection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* parentElement = &::il2cpp_utils::GetClassFromName("System.Configuration", "ConfigurationElement")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* saveMode = &::il2cpp_utils::GetClassFromName("System.Configuration", "ConfigurationSaveMode")->byval_arg;
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: IsModified
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Configuration::ConfigurationSection::*)()>(&System::Configuration::ConfigurationSection::IsModified)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Configuration::ConfigurationSection*), "IsModified", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: ResetModified
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Configuration::ConfigurationSection::*)()>(&System::Configuration::ConfigurationSection::ResetModified)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Configuration::ConfigurationSection*), "ResetModified", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

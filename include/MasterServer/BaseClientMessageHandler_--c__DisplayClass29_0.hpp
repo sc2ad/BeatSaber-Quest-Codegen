@@ -89,7 +89,7 @@ DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseClientMessageHandler::$$c__DisplayClass
 // Il2CppName: <AuthenticateWithMasterServerAsyncInternal>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<MasterServer::HelloVerifyRequest*>* (MasterServer::BaseClientMessageHandler::$$c__DisplayClass29_0::*)(uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken)>(&MasterServer::BaseClientMessageHandler::$$c__DisplayClass29_0::$AuthenticateWithMasterServerAsyncInternal$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* protocolVersion = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* ep = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* request = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerReliableRequest")->byval_arg;
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: <AuthenticateWithMasterServerAsyncInternal>b__1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Array<uint8_t>*>* (MasterServer::BaseClientMessageHandler::$$c__DisplayClass29_0::*)(System::Threading::Tasks::Task_1<GlobalNamespace::IDiffieHellmanKeyPair*>*)>(&MasterServer::BaseClientMessageHandler::$$c__DisplayClass29_0::$AuthenticateWithMasterServerAsyncInternal$b__1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IDiffieHellmanKeyPair")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler::$$c__DisplayClass29_0*), "<AuthenticateWithMasterServerAsyncInternal>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

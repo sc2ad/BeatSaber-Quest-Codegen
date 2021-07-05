@@ -125,7 +125,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::MissingMethodException*, "System", "MissingMethod
 // Il2CppName: get_Message
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::MissingMethodException::*)()>(&System::MissingMethodException::get_Message)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::MissingMethodException*), "get_Message", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

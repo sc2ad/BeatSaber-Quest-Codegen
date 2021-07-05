@@ -109,7 +109,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlCharType, "System.Xml", "XmlCharType");
 // Il2CppName: get_StaticLock
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)()>(&System::Xml::XmlCharType::get_StaticLock)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlCharType), "get_StaticLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: InitInstance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Xml::XmlCharType::InitInstance)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlCharType), "InitInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: SetProperties
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, uint8_t)>(&System::Xml::XmlCharType::SetProperties)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ranges = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlCharType), "SetProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ranges, value});
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: get_Instance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml::XmlCharType (*)()>(&System::Xml::XmlCharType::get_Instance)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlCharType), "get_Instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Xml
 // Il2CppName: IsWhiteSpace
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlCharType::*)(::Il2CppChar)>(&System::Xml::XmlCharType::IsWhiteSpace)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlCharType), "IsWhiteSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch});
   }
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: IsCharData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlCharType::*)(::Il2CppChar)>(&System::Xml::XmlCharType::IsCharData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlCharType), "IsCharData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch});
   }
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: IsPubidChar
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlCharType::*)(::Il2CppChar)>(&System::Xml::XmlCharType::IsPubidChar)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlCharType), "IsPubidChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch});
   }
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: IsTextChar
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlCharType::*)(::Il2CppChar)>(&System::Xml::XmlCharType::IsTextChar)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlCharType), "IsTextChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch});
   }
@@ -183,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: IsHighSurrogate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&System::Xml::XmlCharType::IsHighSurrogate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlCharType), "IsHighSurrogate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch});
   }
@@ -192,7 +192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Il2CppName: IsLowSurrogate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&System::Xml::XmlCharType::IsLowSurrogate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlCharType), "IsLowSurrogate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch});
   }
@@ -201,7 +201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Il2CppName: IsSurrogate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&System::Xml::XmlCharType::IsSurrogate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlCharType), "IsSurrogate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch});
   }
@@ -210,7 +210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Il2CppName: CombineSurrogateChar
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int)>(&System::Xml::XmlCharType::CombineSurrogateChar)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lowChar = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* highChar = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlCharType), "CombineSurrogateChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lowChar, highChar});
@@ -220,7 +220,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Il2CppName: IsOnlyWhitespace
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::XmlCharType::*)(::Il2CppString*)>(&System::Xml::XmlCharType::IsOnlyWhitespace)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlCharType), "IsOnlyWhitespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
   }
@@ -229,7 +229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: IsOnlyWhitespaceWithPos
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::XmlCharType::*)(::Il2CppString*)>(&System::Xml::XmlCharType::IsOnlyWhitespaceWithPos)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlCharType), "IsOnlyWhitespaceWithPos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
   }
@@ -238,7 +238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: IsOnlyCharData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::XmlCharType::*)(::Il2CppString*)>(&System::Xml::XmlCharType::IsOnlyCharData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlCharType), "IsOnlyCharData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
   }
@@ -247,7 +247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: IsPublicId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::XmlCharType::*)(::Il2CppString*)>(&System::Xml::XmlCharType::IsPublicId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlCharType), "IsPublicId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
   }
@@ -256,7 +256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: InRange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, int, int)>(&System::Xml::XmlCharType::InRange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

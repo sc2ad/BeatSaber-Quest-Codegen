@@ -206,7 +206,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveChecker::Status, "", "Mi
 // Il2CppName: add_statusDidChangeEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveChecker::*)(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>*)>(&GlobalNamespace::MissionObjectiveChecker::add_statusDidChangeEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MissionObjectiveChecker")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "add_statusDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -215,7 +215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_statusDidChangeEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveChecker::*)(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>*)>(&GlobalNamespace::MissionObjectiveChecker::remove_statusDidChangeEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MissionObjectiveChecker")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "remove_statusDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -224,7 +224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_checkedValueDidChangeEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveChecker::*)(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>*)>(&GlobalNamespace::MissionObjectiveChecker::add_checkedValueDidChangeEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MissionObjectiveChecker")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "add_checkedValueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -233,7 +233,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_checkedValueDidChangeEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveChecker::*)(System::Action_1<GlobalNamespace::MissionObjectiveChecker*>*)>(&GlobalNamespace::MissionObjectiveChecker::remove_checkedValueDidChangeEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MissionObjectiveChecker")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "remove_checkedValueDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -242,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_missionObjectiveType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionObjectiveTypeSO* (GlobalNamespace::MissionObjectiveChecker::*)()>(&GlobalNamespace::MissionObjectiveChecker::get_missionObjectiveType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "get_missionObjectiveType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -250,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_missionObjective
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionObjective* (GlobalNamespace::MissionObjectiveChecker::*)()>(&GlobalNamespace::MissionObjectiveChecker::get_missionObjective)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "get_missionObjective", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -258,7 +258,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_disableChecking
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MissionObjectiveChecker::*)()>(&GlobalNamespace::MissionObjectiveChecker::get_disableChecking)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "get_disableChecking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -266,7 +266,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: set_disableChecking
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveChecker::*)(bool)>(&GlobalNamespace::MissionObjectiveChecker::set_disableChecking)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "set_disableChecking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -275,7 +275,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_status
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionObjectiveChecker::Status (GlobalNamespace::MissionObjectiveChecker::*)()>(&GlobalNamespace::MissionObjectiveChecker::get_status)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "get_status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -283,7 +283,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: set_status
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveChecker::*)(GlobalNamespace::MissionObjectiveChecker::Status)>(&GlobalNamespace::MissionObjectiveChecker::set_status)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "MissionObjectiveChecker/Status")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "set_status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -292,7 +292,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_checkedValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MissionObjectiveChecker::*)()>(&GlobalNamespace::MissionObjectiveChecker::get_checkedValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "get_checkedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -300,7 +300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: set_checkedValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveChecker::*)(int)>(&GlobalNamespace::MissionObjectiveChecker::set_checkedValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "set_checkedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -309,7 +309,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetCheckedMissionObjective
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveChecker::*)(GlobalNamespace::MissionObjective*)>(&GlobalNamespace::MissionObjectiveChecker::SetCheckedMissionObjective)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* missionObjective = &::il2cpp_utils::GetClassFromName("", "MissionObjective")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "SetCheckedMissionObjective", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{missionObjective});
   }
@@ -318,7 +318,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveChecker::*)()>(&GlobalNamespace::MissionObjectiveChecker::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveChecker*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -183,7 +183,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Renderer*, "UnityEngine", "Renderer");
 // Il2CppName: get_bounds
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (UnityEngine::Renderer::*)()>(&UnityEngine::Renderer::get_bounds)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "get_bounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -191,7 +191,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetMaterial
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (UnityEngine::Renderer::*)()>(&UnityEngine::Renderer::GetMaterial)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "GetMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -199,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetSharedMaterial
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (UnityEngine::Renderer::*)()>(&UnityEngine::Renderer::GetSharedMaterial)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "GetSharedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -207,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: SetMaterial
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Renderer::*)(UnityEngine::Material*)>(&UnityEngine::Renderer::SetMaterial)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* m = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "SetMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{m});
   }
@@ -216,7 +216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetMaterialArray
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Material*>* (UnityEngine::Renderer::*)()>(&UnityEngine::Renderer::GetMaterialArray)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "GetMaterialArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -224,7 +224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: CopySharedMaterialArray
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Renderer::*)(::Array<UnityEngine::Material*>*&)>(&UnityEngine::Renderer::CopySharedMaterialArray)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* m = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "CopySharedMaterialArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{m});
   }
@@ -233,7 +233,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetMaterialArray
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Renderer::*)(::Array<UnityEngine::Material*>*)>(&UnityEngine::Renderer::SetMaterialArray)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* m = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "SetMaterialArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{m});
   }
@@ -242,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Internal_SetPropertyBlock
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Renderer::*)(UnityEngine::MaterialPropertyBlock*)>(&UnityEngine::Renderer::Internal_SetPropertyBlock)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* properties = &::il2cpp_utils::GetClassFromName("UnityEngine", "MaterialPropertyBlock")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "Internal_SetPropertyBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{properties});
   }
@@ -251,7 +251,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Internal_SetPropertyBlockMaterialIndex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Renderer::*)(UnityEngine::MaterialPropertyBlock*, int)>(&UnityEngine::Renderer::Internal_SetPropertyBlockMaterialIndex)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* properties = &::il2cpp_utils::GetClassFromName("UnityEngine", "MaterialPropertyBlock")->byval_arg;
     static auto* materialIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "Internal_SetPropertyBlockMaterialIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{properties, materialIndex});
@@ -261,7 +261,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetPropertyBlock
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Renderer::*)(UnityEngine::MaterialPropertyBlock*)>(&UnityEngine::Renderer::SetPropertyBlock)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* properties = &::il2cpp_utils::GetClassFromName("UnityEngine", "MaterialPropertyBlock")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "SetPropertyBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{properties});
   }
@@ -270,7 +270,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetPropertyBlock
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Renderer::*)(UnityEngine::MaterialPropertyBlock*, int)>(&UnityEngine::Renderer::SetPropertyBlock)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* properties = &::il2cpp_utils::GetClassFromName("UnityEngine", "MaterialPropertyBlock")->byval_arg;
     static auto* materialIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "SetPropertyBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{properties, materialIndex});
@@ -280,7 +280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_enabled
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Renderer::*)()>(&UnityEngine::Renderer::get_enabled)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "get_enabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -288,7 +288,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: set_enabled
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Renderer::*)(bool)>(&UnityEngine::Renderer::set_enabled)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "set_enabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -297,7 +297,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_isVisible
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Renderer::*)()>(&UnityEngine::Renderer::get_isVisible)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "get_isVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -305,7 +305,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: set_shadowCastingMode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Renderer::*)(UnityEngine::Rendering::ShadowCastingMode)>(&UnityEngine::Renderer::set_shadowCastingMode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "ShadowCastingMode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "set_shadowCastingMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -314,7 +314,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: set_receiveShadows
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Renderer::*)(bool)>(&UnityEngine::Renderer::set_receiveShadows)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "set_receiveShadows", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -323,7 +323,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: set_motionVectorGenerationMode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Renderer::*)(UnityEngine::MotionVectorGenerationMode)>(&UnityEngine::Renderer::set_motionVectorGenerationMode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "MotionVectorGenerationMode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "set_motionVectorGenerationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -332,7 +332,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: set_lightProbeUsage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Renderer::*)(UnityEngine::Rendering::LightProbeUsage)>(&UnityEngine::Renderer::set_lightProbeUsage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "LightProbeUsage")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "set_lightProbeUsage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -341,7 +341,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: set_reflectionProbeUsage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Renderer::*)(UnityEngine::Rendering::ReflectionProbeUsage)>(&UnityEngine::Renderer::set_reflectionProbeUsage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "ReflectionProbeUsage")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "set_reflectionProbeUsage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -350,7 +350,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_sortingLayerID
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Renderer::*)()>(&UnityEngine::Renderer::get_sortingLayerID)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "get_sortingLayerID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -358,7 +358,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: set_sortingLayerID
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Renderer::*)(int)>(&UnityEngine::Renderer::set_sortingLayerID)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "set_sortingLayerID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -367,7 +367,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_sortingOrder
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Renderer::*)()>(&UnityEngine::Renderer::get_sortingOrder)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "get_sortingOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -375,7 +375,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: set_sortingOrder
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Renderer::*)(int)>(&UnityEngine::Renderer::set_sortingOrder)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "set_sortingOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -384,7 +384,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: set_allowOcclusionWhenDynamic
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Renderer::*)(bool)>(&UnityEngine::Renderer::set_allowOcclusionWhenDynamic)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "set_allowOcclusionWhenDynamic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -393,7 +393,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_isPartOfStaticBatch
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Renderer::*)()>(&UnityEngine::Renderer::get_isPartOfStaticBatch)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "get_isPartOfStaticBatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -401,7 +401,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: GetMaterialCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Renderer::*)()>(&UnityEngine::Renderer::GetMaterialCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "GetMaterialCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -409,7 +409,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: GetSharedMaterialArray
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Material*>* (UnityEngine::Renderer::*)()>(&UnityEngine::Renderer::GetSharedMaterialArray)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "GetSharedMaterialArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -417,7 +417,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: get_materials
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Material*>* (UnityEngine::Renderer::*)()>(&UnityEngine::Renderer::get_materials)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "get_materials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -425,7 +425,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: set_materials
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Renderer::*)(::Array<UnityEngine::Material*>*)>(&UnityEngine::Renderer::set_materials)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "set_materials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -434,7 +434,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_material
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (UnityEngine::Renderer::*)()>(&UnityEngine::Renderer::get_material)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "get_material", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -442,7 +442,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_material
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Renderer::*)(UnityEngine::Material*)>(&UnityEngine::Renderer::set_material)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "set_material", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -451,7 +451,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_sharedMaterial
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (UnityEngine::Renderer::*)()>(&UnityEngine::Renderer::get_sharedMaterial)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "get_sharedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -459,7 +459,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_sharedMaterial
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Renderer::*)(UnityEngine::Material*)>(&UnityEngine::Renderer::set_sharedMaterial)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "set_sharedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -468,7 +468,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_sharedMaterials
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Material*>* (UnityEngine::Renderer::*)()>(&UnityEngine::Renderer::get_sharedMaterials)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "get_sharedMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -476,7 +476,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: set_sharedMaterials
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Renderer::*)(::Array<UnityEngine::Material*>*)>(&UnityEngine::Renderer::set_sharedMaterials)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "set_sharedMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -485,7 +485,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetSharedMaterials
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Renderer::*)(System::Collections::Generic::List_1<UnityEngine::Material*>*)>(&UnityEngine::Renderer::GetSharedMaterials)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* m = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Material")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "GetSharedMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{m});
   }
@@ -494,7 +494,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_bounds_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Renderer::*)(UnityEngine::Bounds&)>(&UnityEngine::Renderer::get_bounds_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Bounds")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "get_bounds_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
   }

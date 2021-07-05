@@ -82,7 +82,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Collections::CompatibleComparer*, "System.Collect
 // Il2CppName: Compare
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::CompatibleComparer::*)(::Il2CppObject*, ::Il2CppObject*)>(&System::Collections::CompatibleComparer::Compare)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Collections::CompatibleComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: Equals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Collections::CompatibleComparer::*)(::Il2CppObject*, ::Il2CppObject*)>(&System::Collections::CompatibleComparer::Equals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Collections::CompatibleComparer*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: GetHashCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::CompatibleComparer::*)(::Il2CppObject*)>(&System::Collections::CompatibleComparer::GetHashCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Collections::CompatibleComparer*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
@@ -111,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: get_Comparer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IComparer* (System::Collections::CompatibleComparer::*)()>(&System::Collections::CompatibleComparer::get_Comparer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Collections::CompatibleComparer*), "get_Comparer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: get_HashCodeProvider
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IHashCodeProvider* (System::Collections::CompatibleComparer::*)()>(&System::Collections::CompatibleComparer::get_HashCodeProvider)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Collections::CompatibleComparer*), "get_HashCodeProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

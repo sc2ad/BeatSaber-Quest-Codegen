@@ -56,7 +56,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataTransformHelper*, "", "Beatma
 // Il2CppName: CreateTransformedBeatmapData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IReadonlyBeatmapData* (*)(GlobalNamespace::IReadonlyBeatmapData*, GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::GameplayModifiers*, GlobalNamespace::PracticeSettings*, bool, GlobalNamespace::EnvironmentEffectsFilterPreset, GlobalNamespace::EnvironmentIntensityReductionOptions*)>(&GlobalNamespace::BeatmapDataTransformHelper::CreateTransformedBeatmapData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmapData = &::il2cpp_utils::GetClassFromName("", "IReadonlyBeatmapData")->byval_arg;
     static auto* beatmapLevel = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;

@@ -43,7 +43,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::NonRandomizedStringEquality
 // Il2CppName: Equals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Collections::Generic::NonRandomizedStringEqualityComparer::*)(::Il2CppString*, ::Il2CppString*)>(&System::Collections::Generic::NonRandomizedStringEqualityComparer::Equals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Collections::Generic::NonRandomizedStringEqualityComparer*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y});
@@ -53,7 +53,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: GetHashCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::Generic::NonRandomizedStringEqualityComparer::*)(::Il2CppString*)>(&System::Collections::Generic::NonRandomizedStringEqualityComparer::GetHashCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Collections::Generic::NonRandomizedStringEqualityComparer*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }

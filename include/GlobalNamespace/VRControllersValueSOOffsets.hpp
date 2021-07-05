@@ -86,7 +86,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersValueSOOffsets*, "", "VRCon
 // Il2CppName: get_positionOffset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::VRControllersValueSOOffsets::*)()>(&GlobalNamespace::VRControllersValueSOOffsets::get_positionOffset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersValueSOOffsets*), "get_positionOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_rotationOffset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::VRControllersValueSOOffsets::*)()>(&GlobalNamespace::VRControllersValueSOOffsets::get_rotationOffset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersValueSOOffsets*), "get_rotationOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

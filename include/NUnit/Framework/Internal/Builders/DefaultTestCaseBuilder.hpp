@@ -94,7 +94,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::DefaultTestCaseBuil
 // Il2CppName: CanBuildFrom
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Internal::Builders::DefaultTestCaseBuilder::*)(NUnit::Framework::Interfaces::IMethodInfo*)>(&NUnit::Framework::Internal::Builders::DefaultTestCaseBuilder::CanBuildFrom)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "IMethodInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::DefaultTestCaseBuilder*), "CanBuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method});
   }
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit
 // Il2CppName: CanBuildFrom
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Internal::Builders::DefaultTestCaseBuilder::*)(NUnit::Framework::Interfaces::IMethodInfo*, NUnit::Framework::Internal::Test*)>(&NUnit::Framework::Internal::Builders::DefaultTestCaseBuilder::CanBuildFrom)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "IMethodInfo")->byval_arg;
     static auto* parentSuite = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "Test")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::DefaultTestCaseBuilder*), "CanBuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method, parentSuite});
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit
 // Il2CppName: BuildFrom
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Test* (NUnit::Framework::Internal::Builders::DefaultTestCaseBuilder::*)(NUnit::Framework::Interfaces::IMethodInfo*, NUnit::Framework::Internal::Test*)>(&NUnit::Framework::Internal::Builders::DefaultTestCaseBuilder::BuildFrom)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "IMethodInfo")->byval_arg;
     static auto* parentSuite = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "Test")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::DefaultTestCaseBuilder*), "BuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method, parentSuite});
@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Il2CppName: BuildParameterizedMethodSuite
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Test* (NUnit::Framework::Internal::Builders::DefaultTestCaseBuilder::*)(NUnit::Framework::Interfaces::IMethodInfo*, System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestMethod*>*)>(&NUnit::Framework::Internal::Builders::DefaultTestCaseBuilder::BuildParameterizedMethodSuite)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "IMethodInfo")->byval_arg;
     static auto* tests = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestMethod")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::DefaultTestCaseBuilder*), "BuildParameterizedMethodSuite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method, tests});
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Il2CppName: BuildSingleTestMethod
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Test* (NUnit::Framework::Internal::Builders::DefaultTestCaseBuilder::*)(NUnit::Framework::Interfaces::IMethodInfo*, NUnit::Framework::Internal::Test*)>(&NUnit::Framework::Internal::Builders::DefaultTestCaseBuilder::BuildSingleTestMethod)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "IMethodInfo")->byval_arg;
     static auto* suite = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "Test")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::DefaultTestCaseBuilder*), "BuildSingleTestMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method, suite});

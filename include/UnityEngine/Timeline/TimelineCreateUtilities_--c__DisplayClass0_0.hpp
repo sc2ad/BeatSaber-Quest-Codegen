@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineCreateUtilities::$$c__Disp
 // Il2CppName: <GenerateUniqueActorName>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_0::*)(UnityEngine::ScriptableObject*)>(&UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_0::$GenerateUniqueActorName$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine", "ScriptableObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineCreateUtilities::$$c__DisplayClass0_0*), "<GenerateUniqueActorName>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }

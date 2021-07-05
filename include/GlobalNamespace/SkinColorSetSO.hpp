@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SkinColorSetSO*, "", "SkinColorSetSO");
 // Il2CppName: get_colors
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::SkinColorSO*>* (GlobalNamespace::SkinColorSetSO::*)()>(&GlobalNamespace::SkinColorSetSO::get_colors)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SkinColorSetSO*), "get_colors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

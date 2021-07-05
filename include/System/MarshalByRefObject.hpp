@@ -76,7 +76,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::MarshalByRefObject*, "System", "MarshalByRefObjec
 // Il2CppName: get_ObjectIdentity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ServerIdentity* (System::MarshalByRefObject::*)()>(&System::MarshalByRefObject::get_ObjectIdentity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::MarshalByRefObject*), "get_ObjectIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: set_ObjectIdentity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::MarshalByRefObject::*)(System::Runtime::Remoting::ServerIdentity*)>(&System::MarshalByRefObject::set_ObjectIdentity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ServerIdentity")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::MarshalByRefObject*), "set_ObjectIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: CreateObjRef
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ObjRef* (System::MarshalByRefObject::*)(System::Type*)>(&System::MarshalByRefObject::CreateObjRef)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* requestedType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::MarshalByRefObject*), "CreateObjRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{requestedType});
   }
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: InitializeLifetimeService
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::MarshalByRefObject::*)()>(&System::MarshalByRefObject::InitializeLifetimeService)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::MarshalByRefObject*), "InitializeLifetimeService", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

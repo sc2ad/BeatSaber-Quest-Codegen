@@ -131,7 +131,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerGamepadMac*, "", 
 // Il2CppName: OVR_GamepadController_Initialize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&GlobalNamespace::OVRInput::OVRControllerGamepadMac::OVR_GamepadController_Initialize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerGamepadMac*), "OVR_GamepadController_Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Il2CppName: OVR_GamepadController_Destroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&GlobalNamespace::OVRInput::OVRControllerGamepadMac::OVR_GamepadController_Destroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerGamepadMac*), "OVR_GamepadController_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Il2CppName: OVR_GamepadController_Update
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&GlobalNamespace::OVRInput::OVRControllerGamepadMac::OVR_GamepadController_Update)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerGamepadMac*), "OVR_GamepadController_Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -155,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Il2CppName: OVR_GamepadController_GetAxis
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(int)>(&GlobalNamespace::OVRInput::OVRControllerGamepadMac::OVR_GamepadController_GetAxis)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* axis = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerGamepadMac*), "OVR_GamepadController_GetAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{axis});
   }
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(i
 // Il2CppName: OVR_GamepadController_GetButton
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&GlobalNamespace::OVRInput::OVRControllerGamepadMac::OVR_GamepadController_GetButton)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* button = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerGamepadMac*), "OVR_GamepadController_GetButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{button});
   }
@@ -173,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Il2CppName: OVR_GamepadController_SetVibration
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, float, float)>(&GlobalNamespace::OVRInput::OVRControllerGamepadMac::OVR_GamepadController_SetVibration)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* strength = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* frequency = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -188,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Il2CppName: Finalize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRInput::OVRControllerGamepadMac::*)()>(&GlobalNamespace::OVRInput::OVRControllerGamepadMac::Finalize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerGamepadMac*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -196,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Update
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRInput::Controller (GlobalNamespace::OVRInput::OVRControllerGamepadMac::*)()>(&GlobalNamespace::OVRInput::OVRControllerGamepadMac::Update)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerGamepadMac*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ConfigureButtonMap
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRInput::OVRControllerGamepadMac::*)()>(&GlobalNamespace::OVRInput::OVRControllerGamepadMac::ConfigureButtonMap)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerGamepadMac*), "ConfigureButtonMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -212,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ConfigureTouchMap
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRInput::OVRControllerGamepadMac::*)()>(&GlobalNamespace::OVRInput::OVRControllerGamepadMac::ConfigureTouchMap)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerGamepadMac*), "ConfigureTouchMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -220,7 +220,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ConfigureNearTouchMap
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRInput::OVRControllerGamepadMac::*)()>(&GlobalNamespace::OVRInput::OVRControllerGamepadMac::ConfigureNearTouchMap)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerGamepadMac*), "ConfigureNearTouchMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -228,7 +228,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ConfigureAxis1DMap
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRInput::OVRControllerGamepadMac::*)()>(&GlobalNamespace::OVRInput::OVRControllerGamepadMac::ConfigureAxis1DMap)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerGamepadMac*), "ConfigureAxis1DMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -236,7 +236,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ConfigureAxis2DMap
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRInput::OVRControllerGamepadMac::*)()>(&GlobalNamespace::OVRInput::OVRControllerGamepadMac::ConfigureAxis2DMap)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerGamepadMac*), "ConfigureAxis2DMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -244,7 +244,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetControllerVibration
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRInput::OVRControllerGamepadMac::*)(float, float)>(&GlobalNamespace::OVRInput::OVRControllerGamepadMac::SetControllerVibration)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* frequency = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* amplitude = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerGamepadMac*), "SetControllerVibration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{frequency, amplitude});

@@ -65,7 +65,7 @@ DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::EventBasedNatPunchListener::OnNatIntroduction
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest::*)(System::Net::IPEndPoint*, System::Net::IPEndPoint*, ::Il2CppString*)>(&LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* localEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* token = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest::*)(System::Net::IPEndPoint*, System::Net::IPEndPoint*, ::Il2CppString*, System::AsyncCallback*, ::Il2CppObject*)>(&LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* localEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* token = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest::*)(System::IAsyncResult*)>(&LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionRequest*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

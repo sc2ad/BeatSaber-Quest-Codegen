@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_ComputeDistortion*, "Valve.VR", "I
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::IVRSystem::_ComputeDistortion::*)(Valve::VR::EVREye, float, float, Valve::VR::DistortionCoordinates_t&)>(&Valve::VR::IVRSystem::_ComputeDistortion::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eEye = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVREye")->byval_arg;
     static auto* fU = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* fV = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRSystem::_ComputeDistortion::*)(Valve::VR::EVREye, float, float, Valve::VR::DistortionCoordinates_t&, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRSystem::_ComputeDistortion::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eEye = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVREye")->byval_arg;
     static auto* fU = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* fV = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::IVRSystem::_ComputeDistortion::*)(Valve::VR::DistortionCoordinates_t&, System::IAsyncResult*)>(&Valve::VR::IVRSystem::_ComputeDistortion::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pDistortionCoordinates = &::il2cpp_utils::GetClassFromName("Valve.VR", "DistortionCoordinates_t")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_ComputeDistortion*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pDistortionCoordinates, result});

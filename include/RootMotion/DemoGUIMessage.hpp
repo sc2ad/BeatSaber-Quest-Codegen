@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::DemoGUIMessage*, "RootMotion", "DemoGUIMessag
 // Il2CppName: OnGUI
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::DemoGUIMessage::*)()>(&RootMotion::DemoGUIMessage::OnGUI)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::DemoGUIMessage*), "OnGUI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

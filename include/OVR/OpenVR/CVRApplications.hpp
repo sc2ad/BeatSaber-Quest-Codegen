@@ -165,7 +165,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRApplications*, "OVR.OpenVR", "CVRApplicat
 // Il2CppName: AddApplicationManifest
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::CVRApplications::*)(::Il2CppString*, bool)>(&OVR::OpenVR::CVRApplications::AddApplicationManifest)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchApplicationManifestFullPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* bTemporary = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "AddApplicationManifest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pchApplicationManifestFullPath, bTemporary});
@@ -175,7 +175,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: RemoveApplicationManifest
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::CVRApplications::*)(::Il2CppString*)>(&OVR::OpenVR::CVRApplications::RemoveApplicationManifest)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchApplicationManifestFullPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "RemoveApplicationManifest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pchApplicationManifestFullPath});
   }
@@ -184,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: IsApplicationInstalled
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRApplications::*)(::Il2CppString*)>(&OVR::OpenVR::CVRApplications::IsApplicationInstalled)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchAppKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "IsApplicationInstalled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pchAppKey});
   }
@@ -193,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Il2CppName: GetApplicationCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRApplications::*)()>(&OVR::OpenVR::CVRApplications::GetApplicationCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "GetApplicationCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -201,7 +201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::
 // Il2CppName: GetApplicationKeyByIndex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::CVRApplications::*)(uint, System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRApplications::GetApplicationKeyByIndex)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* unApplicationIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* pchAppKeyBuffer = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* unAppKeyBufferLen = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -212,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: GetApplicationKeyByProcessId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::CVRApplications::*)(uint, System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRApplications::GetApplicationKeyByProcessId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* unProcessId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* pchAppKeyBuffer = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* unAppKeyBufferLen = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -223,7 +223,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: LaunchApplication
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::CVRApplications::*)(::Il2CppString*)>(&OVR::OpenVR::CVRApplications::LaunchApplication)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchAppKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "LaunchApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pchAppKey});
   }
@@ -232,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: LaunchTemplateApplication
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::CVRApplications::*)(::Il2CppString*, ::Il2CppString*, ::Array<OVR::OpenVR::AppOverrideKeys_t>*)>(&OVR::OpenVR::CVRApplications::LaunchTemplateApplication)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchTemplateAppKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchNewAppKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pKeys = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "AppOverrideKeys_t"), 1)->byval_arg;
@@ -243,7 +243,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: LaunchApplicationFromMimeType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::CVRApplications::*)(::Il2CppString*, ::Il2CppString*)>(&OVR::OpenVR::CVRApplications::LaunchApplicationFromMimeType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchMimeType = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchArgs = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "LaunchApplicationFromMimeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pchMimeType, pchArgs});
@@ -253,7 +253,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: LaunchDashboardOverlay
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::CVRApplications::*)(::Il2CppString*)>(&OVR::OpenVR::CVRApplications::LaunchDashboardOverlay)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchAppKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "LaunchDashboardOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pchAppKey});
   }
@@ -262,7 +262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: CancelApplicationLaunch
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRApplications::*)(::Il2CppString*)>(&OVR::OpenVR::CVRApplications::CancelApplicationLaunch)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchAppKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "CancelApplicationLaunch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pchAppKey});
   }
@@ -271,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Il2CppName: IdentifyApplication
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::CVRApplications::*)(uint, ::Il2CppString*)>(&OVR::OpenVR::CVRApplications::IdentifyApplication)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* unProcessId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* pchAppKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "IdentifyApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unProcessId, pchAppKey});
@@ -281,7 +281,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: GetApplicationProcessId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRApplications::*)(::Il2CppString*)>(&OVR::OpenVR::CVRApplications::GetApplicationProcessId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchAppKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "GetApplicationProcessId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pchAppKey});
   }
@@ -290,7 +290,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::
 // Il2CppName: GetApplicationsErrorNameFromEnum
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OVR::OpenVR::CVRApplications::*)(OVR::OpenVR::EVRApplicationError)>(&OVR::OpenVR::CVRApplications::GetApplicationsErrorNameFromEnum)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* error = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRApplicationError")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "GetApplicationsErrorNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
   }
@@ -299,7 +299,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetApplicationPropertyString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRApplications::*)(::Il2CppString*, OVR::OpenVR::EVRApplicationProperty, System::Text::StringBuilder*, uint, OVR::OpenVR::EVRApplicationError&)>(&OVR::OpenVR::CVRApplications::GetApplicationPropertyString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchAppKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* eProperty = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRApplicationProperty")->byval_arg;
     static auto* pchPropertyValueBuffer = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
@@ -312,7 +312,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::
 // Il2CppName: GetApplicationPropertyBool
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRApplications::*)(::Il2CppString*, OVR::OpenVR::EVRApplicationProperty, OVR::OpenVR::EVRApplicationError&)>(&OVR::OpenVR::CVRApplications::GetApplicationPropertyBool)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchAppKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* eProperty = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRApplicationProperty")->byval_arg;
     static auto* peError = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRApplicationError")->this_arg;
@@ -323,7 +323,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Il2CppName: GetApplicationPropertyUint64
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (OVR::OpenVR::CVRApplications::*)(::Il2CppString*, OVR::OpenVR::EVRApplicationProperty, OVR::OpenVR::EVRApplicationError&)>(&OVR::OpenVR::CVRApplications::GetApplicationPropertyUint64)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchAppKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* eProperty = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRApplicationProperty")->byval_arg;
     static auto* peError = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRApplicationError")->this_arg;
@@ -334,7 +334,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (O
 // Il2CppName: SetApplicationAutoLaunch
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::CVRApplications::*)(::Il2CppString*, bool)>(&OVR::OpenVR::CVRApplications::SetApplicationAutoLaunch)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchAppKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* bAutoLaunch = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "SetApplicationAutoLaunch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pchAppKey, bAutoLaunch});
@@ -344,7 +344,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: GetApplicationAutoLaunch
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRApplications::*)(::Il2CppString*)>(&OVR::OpenVR::CVRApplications::GetApplicationAutoLaunch)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchAppKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "GetApplicationAutoLaunch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pchAppKey});
   }
@@ -353,7 +353,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Il2CppName: SetDefaultApplicationForMimeType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::CVRApplications::*)(::Il2CppString*, ::Il2CppString*)>(&OVR::OpenVR::CVRApplications::SetDefaultApplicationForMimeType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchAppKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchMimeType = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "SetDefaultApplicationForMimeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pchAppKey, pchMimeType});
@@ -363,7 +363,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: GetDefaultApplicationForMimeType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRApplications::*)(::Il2CppString*, System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRApplications::GetDefaultApplicationForMimeType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchMimeType = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchAppKeyBuffer = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* unAppKeyBufferLen = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -374,7 +374,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Il2CppName: GetApplicationSupportedMimeTypes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRApplications::*)(::Il2CppString*, System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRApplications::GetApplicationSupportedMimeTypes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchAppKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchMimeTypesBuffer = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* unMimeTypesBuffer = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -385,7 +385,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Il2CppName: GetApplicationsThatSupportMimeType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRApplications::*)(::Il2CppString*, System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRApplications::GetApplicationsThatSupportMimeType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchMimeType = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchAppKeysThatSupportBuffer = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* unAppKeysThatSupportBuffer = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -396,7 +396,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::
 // Il2CppName: GetApplicationLaunchArguments
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRApplications::*)(uint, System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRApplications::GetApplicationLaunchArguments)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* unHandle = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* pchArgs = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* unArgs = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -407,7 +407,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::
 // Il2CppName: GetStartingApplication
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::CVRApplications::*)(System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRApplications::GetStartingApplication)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchAppKeyBuffer = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* unAppKeyBufferLen = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "GetStartingApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pchAppKeyBuffer, unAppKeyBufferLen});
@@ -417,7 +417,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: GetTransitionState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationTransitionState (OVR::OpenVR::CVRApplications::*)()>(&OVR::OpenVR::CVRApplications::GetTransitionState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "GetTransitionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -425,7 +425,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: PerformApplicationPrelaunchCheck
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::CVRApplications::*)(::Il2CppString*)>(&OVR::OpenVR::CVRApplications::PerformApplicationPrelaunchCheck)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchAppKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "PerformApplicationPrelaunchCheck", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pchAppKey});
   }
@@ -434,7 +434,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: GetApplicationsTransitionStateNameFromEnum
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OVR::OpenVR::CVRApplications::*)(OVR::OpenVR::EVRApplicationTransitionState)>(&OVR::OpenVR::CVRApplications::GetApplicationsTransitionStateNameFromEnum)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* state = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRApplicationTransitionState")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "GetApplicationsTransitionStateNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
   }
@@ -443,7 +443,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: IsQuitUserPromptRequested
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRApplications::*)()>(&OVR::OpenVR::CVRApplications::IsQuitUserPromptRequested)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "IsQuitUserPromptRequested", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -451,7 +451,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Il2CppName: LaunchInternalProcess
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::CVRApplications::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&OVR::OpenVR::CVRApplications::LaunchInternalProcess)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchBinaryPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchArguments = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchWorkingDirectory = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -462,7 +462,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: GetCurrentSceneProcessId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRApplications::*)()>(&OVR::OpenVR::CVRApplications::GetCurrentSceneProcessId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRApplications*), "GetCurrentSceneProcessId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

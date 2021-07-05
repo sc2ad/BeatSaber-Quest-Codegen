@@ -54,7 +54,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AchievementSO*, "", "AchievementSO");
 // Il2CppName: get_achievementId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::AchievementSO::*)()>(&GlobalNamespace::AchievementSO::get_achievementId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AchievementSO*), "get_achievementId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

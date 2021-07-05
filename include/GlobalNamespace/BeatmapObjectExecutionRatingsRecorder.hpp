@@ -163,7 +163,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*, 
 // Il2CppName: get_beatmapObjectExecutionRatings
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectExecutionRating*>* (GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::*)()>(&GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::get_beatmapObjectExecutionRatings)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*), "get_beatmapObjectExecutionRatings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -171,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::*)()>(&GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::*)()>(&GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::OnDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Update
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::*)()>(&GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::Update)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -195,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleCutScoreHandlerDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::*)(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder_CutScoreHandler*)>(&GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::HandleCutScoreHandlerDidFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cutScoreHandler = &::il2cpp_utils::GetClassFromName("", "BeatmapObjectExecutionRatingsRecorder/CutScoreHandler")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*), "HandleCutScoreHandlerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cutScoreHandler});
   }
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleScoreControllerNoteWasCut
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::*)(GlobalNamespace::NoteData*, GlobalNamespace::NoteCutInfo&, int)>(&GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::HandleScoreControllerNoteWasCut)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* noteData = &::il2cpp_utils::GetClassFromName("", "NoteData")->byval_arg;
     static auto* noteCutInfo = &::il2cpp_utils::GetClassFromName("", "NoteCutInfo")->this_arg;
     static auto* multiplier = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -215,7 +215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleScoreControllerNoteWasMissed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::*)(GlobalNamespace::NoteData*, int)>(&GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::HandleScoreControllerNoteWasMissed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* noteData = &::il2cpp_utils::GetClassFromName("", "NoteData")->byval_arg;
     static auto* multiplier = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*), "HandleScoreControllerNoteWasMissed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteData, multiplier});
@@ -225,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleObstacleDidPassAvoidedMark
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::*)(GlobalNamespace::ObstacleController*)>(&GlobalNamespace::BeatmapObjectExecutionRatingsRecorder::HandleObstacleDidPassAvoidedMark)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obstacleController = &::il2cpp_utils::GetClassFromName("", "ObstacleController")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*), "HandleObstacleDidPassAvoidedMark", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obstacleController});
   }

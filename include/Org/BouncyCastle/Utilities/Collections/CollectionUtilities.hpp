@@ -44,7 +44,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::CollectionUtil
 // Il2CppName: ReadOnly
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionary* (*)(System::Collections::IDictionary*)>(&Org::BouncyCastle::Utilities::Collections::CollectionUtilities::ReadOnly)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* d = &::il2cpp_utils::GetClassFromName("System.Collections", "IDictionary")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::CollectionUtilities*), "ReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{d});
   }
@@ -53,7 +53,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: RequireNext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Collections::IEnumerator*)>(&Org::BouncyCastle::Utilities::Collections::CollectionUtilities::RequireNext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerator")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::CollectionUtilities*), "RequireNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
   }
@@ -62,7 +62,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: ToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Collections::IEnumerable*)>(&Org::BouncyCastle::Utilities::Collections::CollectionUtilities::ToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::CollectionUtilities*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }

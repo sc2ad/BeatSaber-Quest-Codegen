@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeUtility::$$c*, "UnityEngine.Ti
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Timeline::TimeUtility::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeUtility::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <ParseTimeCode>b__14_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TimeUtility::$$c::*)(::Il2CppChar)>(&UnityEngine::Timeline::TimeUtility::$$c::$ParseTimeCode$b__14_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeUtility::$$c*), "<ParseTimeCode>b__14_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: <ParseTimeCode>b__14_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::TimeUtility::$$c::*)(::Il2CppChar)>(&UnityEngine::Timeline::TimeUtility::$$c::$ParseTimeCode$b__14_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeUtility::$$c*), "<ParseTimeCode>b__14_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }

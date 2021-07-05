@@ -81,7 +81,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::PbeParametersGenerator*, "Org.
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::PbeParametersGenerator::*)(::Array<uint8_t>*, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Crypto::PbeParametersGenerator::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* password = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* salt = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* iterationCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Il2CppName: GenerateDerivedParameters
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::ICipherParameters* (Org::BouncyCastle::Crypto::PbeParametersGenerator::*)(::Il2CppString*, int)>(&Org::BouncyCastle::Crypto::PbeParametersGenerator::GenerateDerivedParameters)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* algorithm = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* keySize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::PbeParametersGenerator*), "GenerateDerivedParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{algorithm, keySize});
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: GenerateDerivedParameters
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::ICipherParameters* (Org::BouncyCastle::Crypto::PbeParametersGenerator::*)(::Il2CppString*, int, int)>(&Org::BouncyCastle::Crypto::PbeParametersGenerator::GenerateDerivedParameters)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* algorithm = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* keySize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* ivSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: GenerateDerivedMacParameters
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::ICipherParameters* (Org::BouncyCastle::Crypto::PbeParametersGenerator::*)(int)>(&Org::BouncyCastle::Crypto::PbeParametersGenerator::GenerateDerivedMacParameters)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* keySize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::PbeParametersGenerator*), "GenerateDerivedMacParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keySize});
   }
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: Pkcs5PasswordToBytes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<::Il2CppChar>*)>(&Org::BouncyCastle::Crypto::PbeParametersGenerator::Pkcs5PasswordToBytes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* password = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::PbeParametersGenerator*), "Pkcs5PasswordToBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{password});
   }
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: Pkcs12PasswordToBytes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<::Il2CppChar>*, bool)>(&Org::BouncyCastle::Crypto::PbeParametersGenerator::Pkcs12PasswordToBytes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* password = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* wrongPkcs12Zero = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::PbeParametersGenerator*), "Pkcs12PasswordToBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{password, wrongPkcs12Zero});

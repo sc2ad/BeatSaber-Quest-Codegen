@@ -80,7 +80,7 @@ DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::RazorPageBaseTypeAttribute*, "Jet
 // Il2CppName: get_BaseType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::RazorPageBaseTypeAttribute::*)()>(&JetBrains::Annotations::RazorPageBaseTypeAttribute::get_BaseType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::RazorPageBaseTypeAttribute*), "get_BaseType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_BaseType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::RazorPageBaseTypeAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::RazorPageBaseTypeAttribute::set_BaseType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::RazorPageBaseTypeAttribute*), "set_BaseType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBr
 // Il2CppName: get_PageName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::RazorPageBaseTypeAttribute::*)()>(&JetBrains::Annotations::RazorPageBaseTypeAttribute::get_PageName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::RazorPageBaseTypeAttribute*), "get_PageName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_PageName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::RazorPageBaseTypeAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::RazorPageBaseTypeAttribute::set_PageName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::RazorPageBaseTypeAttribute*), "set_PageName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

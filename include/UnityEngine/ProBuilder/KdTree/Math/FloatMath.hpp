@@ -67,7 +67,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::KdTree::Math::FloatMath*, "Unity
 // Il2CppName: Compare
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)(float, float)>(&UnityEngine::ProBuilder::KdTree::Math::FloatMath::Compare)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::KdTree::Math::FloatMath*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: AreEqual
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)(float, float)>(&UnityEngine::ProBuilder::KdTree::Math::FloatMath::AreEqual)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::KdTree::Math::FloatMath*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: get_MinValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)()>(&UnityEngine::ProBuilder::KdTree::Math::FloatMath::get_MinValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::KdTree::Math::FloatMath*), "get_MinValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Il2CppName: get_Zero
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)()>(&UnityEngine::ProBuilder::KdTree::Math::FloatMath::get_Zero)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::KdTree::Math::FloatMath*), "get_Zero", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Il2CppName: get_NegativeInfinity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)()>(&UnityEngine::ProBuilder::KdTree::Math::FloatMath::get_NegativeInfinity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::KdTree::Math::FloatMath*), "get_NegativeInfinity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -111,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Il2CppName: get_PositiveInfinity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)()>(&UnityEngine::ProBuilder::KdTree::Math::FloatMath::get_PositiveInfinity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::KdTree::Math::FloatMath*), "get_PositiveInfinity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Il2CppName: Add
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)(float, float)>(&UnityEngine::ProBuilder::KdTree::Math::FloatMath::Add)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::KdTree::Math::FloatMath*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
@@ -129,7 +129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Il2CppName: Subtract
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)(float, float)>(&UnityEngine::ProBuilder::KdTree::Math::FloatMath::Subtract)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::KdTree::Math::FloatMath*), "Subtract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Il2CppName: Multiply
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)(float, float)>(&UnityEngine::ProBuilder::KdTree::Math::FloatMath::Multiply)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::KdTree::Math::FloatMath*), "Multiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Il2CppName: DistanceSquaredBetweenPoints
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)(::Array<float>*, ::Array<float>*)>(&UnityEngine::ProBuilder::KdTree::Math::FloatMath::DistanceSquaredBetweenPoints)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* a = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* b = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::KdTree::Math::FloatMath*), "DistanceSquaredBetweenPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});

@@ -90,7 +90,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockBeatmapLoader*, "", "MockBeatmapLoad
 // Il2CppName: GetBeatmapData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::MockBeatmapData*>* (GlobalNamespace::MockBeatmapLoader::*)(GlobalNamespace::BeatmapIdentifierNetSerializable*, System::Threading::CancellationToken)>(&GlobalNamespace::MockBeatmapLoader::GetBeatmapData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmap = &::il2cpp_utils::GetClassFromName("", "BeatmapIdentifierNetSerializable")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapLoader*), "GetBeatmapData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmap, cancellationToken});
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockBeatmapLoader::*)()>(&GlobalNamespace::MockBeatmapLoader::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapLoader*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

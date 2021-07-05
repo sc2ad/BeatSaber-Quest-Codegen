@@ -82,7 +82,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::PemParser*, "Org.BouncyCastle.X5
 // Il2CppName: ReadLine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::X509::PemParser::*)(System::IO::Stream*)>(&Org::BouncyCastle::X509::PemParser::ReadLine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* inStream = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::PemParser*), "ReadLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inStream});
   }
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: ReadPemObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Sequence* (Org::BouncyCastle::X509::PemParser::*)(System::IO::Stream*)>(&Org::BouncyCastle::X509::PemParser::ReadPemObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* inStream = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::PemParser*), "ReadPemObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inStream});
   }

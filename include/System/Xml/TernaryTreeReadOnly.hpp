@@ -53,7 +53,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Xml::TernaryTreeReadOnly*, "System.Xml", "Ternary
 // Il2CppName: FindCaseInsensitiveString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (System::Xml::TernaryTreeReadOnly::*)(::Il2CppString*)>(&System::Xml::TernaryTreeReadOnly::FindCaseInsensitiveString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stringToFind = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::TernaryTreeReadOnly*), "FindCaseInsensitiveString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stringToFind});
   }

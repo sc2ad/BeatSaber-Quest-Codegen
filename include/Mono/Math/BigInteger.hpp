@@ -276,7 +276,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Math::BigInteger::Sign, "Mono.Math", "BigInteger/Si
 // Il2CppName: get_Rng
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RandomNumberGenerator* (*)()>(&Mono::Math::BigInteger::get_Rng)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "get_Rng", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -284,7 +284,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Il2CppName: GenerateRandom
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (*)(int, System::Security::Cryptography::RandomNumberGenerator*)>(&Mono::Math::BigInteger::GenerateRandom)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bits = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* rng = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "RandomNumberGenerator")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "GenerateRandom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bits, rng});
@@ -294,7 +294,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math:
 // Il2CppName: GenerateRandom
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (*)(int)>(&Mono::Math::BigInteger::GenerateRandom)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bits = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "GenerateRandom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bits});
   }
@@ -303,7 +303,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math:
 // Il2CppName: BitCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Math::BigInteger::*)()>(&Mono::Math::BigInteger::BitCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "BitCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -311,7 +311,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Il2CppName: TestBit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Math::BigInteger::*)(int)>(&Mono::Math::BigInteger::TestBit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bitNum = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "TestBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bitNum});
   }
@@ -320,7 +320,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Il2CppName: SetBit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Math::BigInteger::*)(uint)>(&Mono::Math::BigInteger::SetBit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bitNum = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "SetBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bitNum});
   }
@@ -329,7 +329,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Il2CppName: SetBit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Math::BigInteger::*)(uint, bool)>(&Mono::Math::BigInteger::SetBit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bitNum = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "SetBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bitNum, value});
@@ -339,7 +339,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Il2CppName: LowestSetBit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Math::BigInteger::*)()>(&Mono::Math::BigInteger::LowestSetBit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "LowestSetBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -347,7 +347,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Il2CppName: GetBytes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Math::BigInteger::*)()>(&Mono::Math::BigInteger::GetBytes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -355,7 +355,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: ToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Math::BigInteger::*)(uint)>(&Mono::Math::BigInteger::ToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* radix = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{radix});
   }
@@ -364,7 +364,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: ToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Math::BigInteger::*)(uint, ::Il2CppString*)>(&Mono::Math::BigInteger::ToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* radix = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* characterSet = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{radix, characterSet});
@@ -374,7 +374,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: Normalize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Math::BigInteger::*)()>(&Mono::Math::BigInteger::Normalize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "Normalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -382,7 +382,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Il2CppName: ModInverse
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (Mono::Math::BigInteger::*)(Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::ModInverse)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* modulus = &::il2cpp_utils::GetClassFromName("Mono.Math", "BigInteger")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "ModInverse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{modulus});
   }
@@ -391,7 +391,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math:
 // Il2CppName: GeneratePseudoPrime
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (*)(int)>(&Mono::Math::BigInteger::GeneratePseudoPrime)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bits = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "GeneratePseudoPrime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bits});
   }
@@ -400,7 +400,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math:
 // Il2CppName: Incr2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Math::BigInteger::*)()>(&Mono::Math::BigInteger::Incr2)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "Incr2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -408,7 +408,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Mono::Math::BigInteger::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -416,7 +416,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: GetHashCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Math::BigInteger::*)()>(&Mono::Math::BigInteger::GetHashCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -424,7 +424,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Il2CppName: ToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Math::BigInteger::*)()>(&Mono::Math::BigInteger::ToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -432,7 +432,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: Equals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Math::BigInteger::*)(::Il2CppObject*)>(&Mono::Math::BigInteger::Equals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* o = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{o});
   }

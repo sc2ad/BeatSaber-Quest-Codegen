@@ -58,7 +58,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_30_0*, "", "OVRPlugin/
 // Il2CppName: ovrp_GetCurrentTrackingTransformPose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::Posef&)>(&GlobalNamespace::OVRPlugin::OVRP_1_30_0::ovrp_GetCurrentTrackingTransformPose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* trackingTransformPose = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Posef")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_30_0*), "ovrp_GetCurrentTrackingTransformPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{trackingTransformPose});
   }
@@ -67,7 +67,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_GetTrackingTransformRawPose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::Posef&)>(&GlobalNamespace::OVRPlugin::OVRP_1_30_0::ovrp_GetTrackingTransformRawPose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* trackingTransformRawPose = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Posef")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_30_0*), "ovrp_GetTrackingTransformRawPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{trackingTransformRawPose});
   }
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_SendEvent2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::OVRPlugin::OVRP_1_30_0::ovrp_SendEvent2)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* param = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* source = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_IsPerfMetricsSupported
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::PerfMetrics, GlobalNamespace::OVRPlugin::Bool&)>(&GlobalNamespace::OVRPlugin::OVRP_1_30_0::ovrp_IsPerfMetricsSupported)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* perfMetrics = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/PerfMetrics")->byval_arg;
     static auto* isSupported = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_30_0*), "ovrp_IsPerfMetricsSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{perfMetrics, isSupported});
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_GetPerfMetricsFloat
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::PerfMetrics, float&)>(&GlobalNamespace::OVRPlugin::OVRP_1_30_0::ovrp_GetPerfMetricsFloat)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* perfMetrics = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/PerfMetrics")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_30_0*), "ovrp_GetPerfMetricsFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{perfMetrics, value});
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_GetPerfMetricsInt
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::PerfMetrics, int&)>(&GlobalNamespace::OVRPlugin::OVRP_1_30_0::ovrp_GetPerfMetricsInt)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* perfMetrics = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/PerfMetrics")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_30_0*), "ovrp_GetPerfMetricsInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{perfMetrics, value});
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_30_0::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_30_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

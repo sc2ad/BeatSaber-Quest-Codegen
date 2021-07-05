@@ -77,7 +77,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::BaseInvokableCall*, "UnityEngine.Eve
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::BaseInvokableCall::*)(::Array<::Il2CppObject*>*)>(&UnityEngine::Events::BaseInvokableCall::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::BaseInvokableCall*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});
   }
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: AllowInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Delegate*)>(&UnityEngine::Events::BaseInvokableCall::AllowInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* delegate = &::il2cpp_utils::GetClassFromName("System", "Delegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::BaseInvokableCall*), "AllowInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{delegate});
   }
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: Find
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Events::BaseInvokableCall::*)(::Il2CppObject*, System::Reflection::MethodInfo*)>(&UnityEngine::Events::BaseInvokableCall::Find)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* targetObj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::BaseInvokableCall*), "Find", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{targetObj, method});

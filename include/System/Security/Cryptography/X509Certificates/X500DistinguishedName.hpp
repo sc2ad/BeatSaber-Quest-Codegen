@@ -82,7 +82,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X500Dis
 // Il2CppName: Decode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Cryptography::X509Certificates::X500DistinguishedName::*)(System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags)>(&System::Security::Cryptography::X509Certificates::X500DistinguishedName::Decode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* flag = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X500DistinguishedNameFlags")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X500DistinguishedName*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flag});
   }
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetSeparator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Security::Cryptography::X509Certificates::X500DistinguishedNameFlags)>(&System::Security::Cryptography::X509Certificates::X500DistinguishedName::GetSeparator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* flag = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X500DistinguishedNameFlags")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X500DistinguishedName*), "GetSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flag});
   }
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: DecodeRawData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::X509Certificates::X500DistinguishedName::*)()>(&System::Security::Cryptography::X509Certificates::X500DistinguishedName::DecodeRawData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X500DistinguishedName*), "DecodeRawData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Canonize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Security::Cryptography::X509Certificates::X500DistinguishedName::Canonize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X500DistinguishedName*), "Canonize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: AreEqual
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Security::Cryptography::X509Certificates::X500DistinguishedName*, System::Security::Cryptography::X509Certificates::X500DistinguishedName*)>(&System::Security::Cryptography::X509Certificates::X500DistinguishedName::AreEqual)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name1 = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X500DistinguishedName")->byval_arg;
     static auto* name2 = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X500DistinguishedName")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X500DistinguishedName*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name1, name2});
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: Format
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Cryptography::X509Certificates::X500DistinguishedName::*)(bool)>(&System::Security::Cryptography::X509Certificates::X500DistinguishedName::Format)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* multiLine = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X500DistinguishedName*), "Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multiLine});
   }

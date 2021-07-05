@@ -123,7 +123,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::DllImportAttribute*, "S
 // Il2CppName: GetCustomAttribute
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Attribute* (*)(System::Reflection::RuntimeMethodInfo*)>(&System::Runtime::InteropServices::DllImportAttribute::GetCustomAttribute)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "RuntimeMethodInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::DllImportAttribute*), "GetCustomAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method});
   }
@@ -132,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Att
 // Il2CppName: IsDefined
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::RuntimeMethodInfo*)>(&System::Runtime::InteropServices::DllImportAttribute::IsDefined)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "RuntimeMethodInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::DllImportAttribute*), "IsDefined", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method});
   }
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: get_Value
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::InteropServices::DllImportAttribute::*)()>(&System::Runtime::InteropServices::DllImportAttribute::get_Value)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::DllImportAttribute*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

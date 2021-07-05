@@ -70,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspMvcActionAttribute*, "JetBrain
 // Il2CppName: get_AnonymousProperty
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::AspMvcActionAttribute::*)()>(&JetBrains::Annotations::AspMvcActionAttribute::get_AnonymousProperty)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspMvcActionAttribute*), "get_AnonymousProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_AnonymousProperty
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::AspMvcActionAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::AspMvcActionAttribute::set_AnonymousProperty)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspMvcActionAttribute*), "set_AnonymousProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

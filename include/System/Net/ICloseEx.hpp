@@ -33,7 +33,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::ICloseEx*, "System.Net", "ICloseEx");
 // Il2CppName: CloseEx
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::ICloseEx::*)(System::Net::CloseExState)>(&System::Net::ICloseEx::CloseEx)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* closeState = &::il2cpp_utils::GetClassFromName("System.Net", "CloseExState")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::ICloseEx*), "CloseEx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{closeState});
   }

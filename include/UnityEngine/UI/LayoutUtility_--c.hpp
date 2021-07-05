@@ -115,7 +115,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutUtility::$$c*, "UnityEngine.UI", "
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::UI::LayoutUtility::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutUtility::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <GetMinWidth>b__3_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::LayoutUtility::$$c::*)(UnityEngine::UI::ILayoutElement*)>(&UnityEngine::UI::LayoutUtility::$$c::$GetMinWidth$b__3_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "ILayoutElement")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutUtility::$$c*), "<GetMinWidth>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
   }
@@ -132,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Il2CppName: <GetPreferredWidth>b__4_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::LayoutUtility::$$c::*)(UnityEngine::UI::ILayoutElement*)>(&UnityEngine::UI::LayoutUtility::$$c::$GetPreferredWidth$b__4_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "ILayoutElement")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutUtility::$$c*), "<GetPreferredWidth>b__4_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
   }
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Il2CppName: <GetPreferredWidth>b__4_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::LayoutUtility::$$c::*)(UnityEngine::UI::ILayoutElement*)>(&UnityEngine::UI::LayoutUtility::$$c::$GetPreferredWidth$b__4_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "ILayoutElement")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutUtility::$$c*), "<GetPreferredWidth>b__4_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
   }
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Il2CppName: <GetFlexibleWidth>b__5_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::LayoutUtility::$$c::*)(UnityEngine::UI::ILayoutElement*)>(&UnityEngine::UI::LayoutUtility::$$c::$GetFlexibleWidth$b__5_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "ILayoutElement")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutUtility::$$c*), "<GetFlexibleWidth>b__5_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
   }
@@ -159,7 +159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Il2CppName: <GetMinHeight>b__6_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::LayoutUtility::$$c::*)(UnityEngine::UI::ILayoutElement*)>(&UnityEngine::UI::LayoutUtility::$$c::$GetMinHeight$b__6_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "ILayoutElement")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutUtility::$$c*), "<GetMinHeight>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
   }
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Il2CppName: <GetPreferredHeight>b__7_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::LayoutUtility::$$c::*)(UnityEngine::UI::ILayoutElement*)>(&UnityEngine::UI::LayoutUtility::$$c::$GetPreferredHeight$b__7_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "ILayoutElement")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutUtility::$$c*), "<GetPreferredHeight>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
   }
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Il2CppName: <GetPreferredHeight>b__7_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::LayoutUtility::$$c::*)(UnityEngine::UI::ILayoutElement*)>(&UnityEngine::UI::LayoutUtility::$$c::$GetPreferredHeight$b__7_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "ILayoutElement")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutUtility::$$c*), "<GetPreferredHeight>b__7_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
   }
@@ -186,7 +186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Il2CppName: <GetFlexibleHeight>b__8_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::LayoutUtility::$$c::*)(UnityEngine::UI::ILayoutElement*)>(&UnityEngine::UI::LayoutUtility::$$c::$GetFlexibleHeight$b__8_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "ILayoutElement")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutUtility::$$c*), "<GetFlexibleHeight>b__8_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
   }

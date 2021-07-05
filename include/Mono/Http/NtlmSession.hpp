@@ -67,7 +67,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Http::NtlmSession*, "Mono.Http", "NtlmSession");
 // Il2CppName: Authenticate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Authorization* (Mono::Http::NtlmSession::*)(::Il2CppString*, System::Net::WebRequest*, System::Net::ICredentials*)>(&Mono::Http::NtlmSession::Authenticate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* challenge = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* webRequest = &::il2cpp_utils::GetClassFromName("System.Net", "WebRequest")->byval_arg;
     static auto* credentials = &::il2cpp_utils::GetClassFromName("System.Net", "ICredentials")->byval_arg;

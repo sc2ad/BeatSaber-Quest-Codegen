@@ -80,7 +80,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Resources::ManifestBasedResourceGroveler*, "Syste
 // Il2CppName: GetNeutralResourcesLanguage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (*)(System::Reflection::Assembly*, System::Resources::UltimateResourceFallbackLocation&)>(&System::Resources::ManifestBasedResourceGroveler::GetNeutralResourcesLanguage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     static auto* fallbackLocation = &::il2cpp_utils::GetClassFromName("System.Resources", "UltimateResourceFallbackLocation")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Resources::ManifestBasedResourceGroveler*), "GetNeutralResourcesLanguage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, fallbackLocation});
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Il2CppName: GetNeutralResourcesLanguageAttribute
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::Assembly*, ::Il2CppString*&, int16_t&)>(&System::Resources::ManifestBasedResourceGroveler::GetNeutralResourcesLanguageAttribute)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* assembly = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     static auto* cultureName = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     static auto* fallbackLocation = &::il2cpp_utils::GetClassFromName("System", "Int16")->this_arg;

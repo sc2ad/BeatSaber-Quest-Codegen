@@ -76,7 +76,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpContent::$LoadIntoBufferAsync$d__1
 // Il2CppName: MoveNext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpContent::$LoadIntoBufferAsync$d__17::*)()>(&System::Net::Http::HttpContent::$LoadIntoBufferAsync$d__17::MoveNext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpContent::$LoadIntoBufferAsync$d__17), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: SetStateMachine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpContent::$LoadIntoBufferAsync$d__17::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&System::Net::Http::HttpContent::$LoadIntoBufferAsync$d__17::SetStateMachine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stateMachine = &::il2cpp_utils::GetClassFromName("System.Runtime.CompilerServices", "IAsyncStateMachine")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpContent::$LoadIntoBufferAsync$d__17), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stateMachine});
   }

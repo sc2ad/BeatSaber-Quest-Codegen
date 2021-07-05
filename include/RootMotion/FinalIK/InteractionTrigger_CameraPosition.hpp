@@ -97,7 +97,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTrigger::CameraPosition*,
 // Il2CppName: GetRotation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (RootMotion::FinalIK::InteractionTrigger::CameraPosition::*)()>(&RootMotion::FinalIK::InteractionTrigger::CameraPosition::GetRotation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionTrigger::CameraPosition*), "GetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: IsInRange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::InteractionTrigger::CameraPosition::*)(UnityEngine::Transform*, UnityEngine::RaycastHit, UnityEngine::Transform*, float&)>(&RootMotion::FinalIK::InteractionTrigger::CameraPosition::IsInRange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* raycastFrom = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* hit = &::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit")->byval_arg;
     static auto* trigger = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;

@@ -97,7 +97,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionStageLockView*, "", "MissionStage
 // Il2CppName: UpdateLocalPositionY
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionStageLockView::*)(float, bool, float)>(&GlobalNamespace::MissionStageLockView::UpdateLocalPositionY)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* dstPosY = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* animated = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* animationDuration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Update
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionStageLockView::*)()>(&GlobalNamespace::MissionStageLockView::Update)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionStageLockView*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: UpdateStageLockText
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionStageLockView::*)(::Il2CppString*)>(&GlobalNamespace::MissionStageLockView::UpdateStageLockText)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionStageLockView*), "UpdateStageLockText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});
   }

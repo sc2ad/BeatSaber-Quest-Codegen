@@ -56,7 +56,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssetBundleRequest*, "UnityEngine", "AssetBu
 // Il2CppName: get_asset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (UnityEngine::AssetBundleRequest::*)()>(&UnityEngine::AssetBundleRequest::get_asset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetBundleRequest*), "get_asset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -64,7 +64,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_allAssets
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Object*>* (UnityEngine::AssetBundleRequest::*)()>(&UnityEngine::AssetBundleRequest::get_allAssets)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetBundleRequest*), "get_allAssets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

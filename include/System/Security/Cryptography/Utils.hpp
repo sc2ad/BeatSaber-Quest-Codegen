@@ -80,7 +80,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::Utils*, "System.Security.
 // Il2CppName: get_StaticRandomNumberGenerator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RNGCryptoServiceProvider* (*)()>(&System::Security::Cryptography::Utils::get_StaticRandomNumberGenerator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::Utils*), "get_StaticRandomNumberGenerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Il2CppName: GenerateRandom
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(int)>(&System::Security::Cryptography::Utils::GenerateRandom)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* keySize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::Utils*), "GenerateRandom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keySize});
   }
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: HasAlgorithm
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, int)>(&System::Security::Cryptography::Utils::HasAlgorithm)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* dwCalg = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* dwKeySize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::Utils*), "HasAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dwCalg, dwKeySize});
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Il2CppName: DiscardWhiteSpaces
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Security::Cryptography::Utils::DiscardWhiteSpaces)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* inputBuffer = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::Utils*), "DiscardWhiteSpaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inputBuffer});
   }
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: DiscardWhiteSpaces
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int, int)>(&System::Security::Cryptography::Utils::DiscardWhiteSpaces)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* inputBuffer = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* inputOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* inputCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: ConvertByteArrayToInt
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*)>(&System::Security::Cryptography::Utils::ConvertByteArrayToInt)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::Utils*), "ConvertByteArrayToInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});
   }
@@ -136,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Il2CppName: ConvertIntToByteArray
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(int)>(&System::Security::Cryptography::Utils::ConvertIntToByteArray)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* dwInput = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::Utils*), "ConvertIntToByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dwInput});
   }
@@ -145,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: FixupKeyParity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*)>(&System::Security::Cryptography::Utils::FixupKeyParity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* key = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::Utils*), "FixupKeyParity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
   }
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: DWORDFromLittleEndian
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint*, int, uint8_t*)>(&System::Security::Cryptography::Utils::DWORDFromLittleEndian)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "UInt32"))->byval_arg;
     static auto* digits = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* block = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ui
 // Il2CppName: DWORDToLittleEndian
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, ::Array<uint>*, int)>(&System::Security::Cryptography::Utils::DWORDToLittleEndian)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* block = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* digits = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: DWORDFromBigEndian
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint*, int, uint8_t*)>(&System::Security::Cryptography::Utils::DWORDFromBigEndian)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "UInt32"))->byval_arg;
     static auto* digits = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* block = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ui
 // Il2CppName: DWORDToBigEndian
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, ::Array<uint>*, int)>(&System::Security::Cryptography::Utils::DWORDToBigEndian)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* block = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* digits = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -198,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: QuadWordFromBigEndian
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t*, int, uint8_t*)>(&System::Security::Cryptography::Utils::QuadWordFromBigEndian)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "UInt64"))->byval_arg;
     static auto* digits = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* block = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
@@ -209,7 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ui
 // Il2CppName: QuadWordToBigEndian
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, ::Array<uint64_t>*, int)>(&System::Security::Cryptography::Utils::QuadWordToBigEndian)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* block = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
     static auto* digits = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -220,7 +220,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: _ProduceLegacyHmacValues
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Security::Cryptography::Utils::_ProduceLegacyHmacValues)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::Utils*), "_ProduceLegacyHmacValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

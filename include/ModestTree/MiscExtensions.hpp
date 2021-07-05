@@ -125,7 +125,7 @@ DEFINE_IL2CPP_ARG_TYPE(ModestTree::MiscExtensions*, "ModestTree", "MiscExtension
 // Il2CppName: Fmt
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&ModestTree::MiscExtensions::Fmt)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::MiscExtensions*), "Fmt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, args});
@@ -138,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: Join
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*, ::Il2CppString*)>(&ModestTree::MiscExtensions::Join)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* values = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     static auto* separator = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::MiscExtensions*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{values, separator});

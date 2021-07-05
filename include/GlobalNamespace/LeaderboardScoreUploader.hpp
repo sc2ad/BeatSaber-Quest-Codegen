@@ -149,7 +149,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardScoreUploader*, "", "Leaderbo
 // Il2CppName: add_allScoresDidUploadEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardScoreUploader::*)(System::Action*)>(&GlobalNamespace::LeaderboardScoreUploader::add_allScoresDidUploadEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader*), "add_allScoresDidUploadEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -158,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_allScoresDidUploadEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardScoreUploader::*)(System::Action*)>(&GlobalNamespace::LeaderboardScoreUploader::remove_allScoresDidUploadEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader*), "remove_allScoresDidUploadEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -167,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardScoreUploader::*)(GlobalNamespace::LeaderboardScoreUploader::UploadScoreCallback*, ::Il2CppString*)>(&GlobalNamespace::LeaderboardScoreUploader::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* uploadScoreCallback = &::il2cpp_utils::GetClassFromName("", "LeaderboardScoreUploader/UploadScoreCallback")->byval_arg;
     static auto* playerId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uploadScoreCallback, playerId});
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnApplicationQuit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardScoreUploader::*)()>(&GlobalNamespace::LeaderboardScoreUploader::OnApplicationQuit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader*), "OnApplicationQuit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: UploadScoresCoroutine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::LeaderboardScoreUploader::*)()>(&GlobalNamespace::LeaderboardScoreUploader::UploadScoresCoroutine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader*), "UploadScoresCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -193,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: LoadScoresToUploadFromFile
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardScoreUploader::*)()>(&GlobalNamespace::LeaderboardScoreUploader::LoadScoresToUploadFromFile)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader*), "LoadScoresToUploadFromFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -201,7 +201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SaveScoresToUploadToFile
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardScoreUploader::*)()>(&GlobalNamespace::LeaderboardScoreUploader::SaveScoresToUploadToFile)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader*), "SaveScoresToUploadToFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -209,7 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: AddScore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardScoreUploader::*)(GlobalNamespace::LeaderboardScoreUploader::ScoreData*)>(&GlobalNamespace::LeaderboardScoreUploader::AddScore)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* scoreData = &::il2cpp_utils::GetClassFromName("", "LeaderboardScoreUploader/ScoreData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader*), "AddScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scoreData});
   }
@@ -218,7 +218,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <UploadScoresCoroutine>b__14_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LeaderboardScoreUploader::*)()>(&GlobalNamespace::LeaderboardScoreUploader::$UploadScoresCoroutine$b__14_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardScoreUploader*), "<UploadScoresCoroutine>b__14_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

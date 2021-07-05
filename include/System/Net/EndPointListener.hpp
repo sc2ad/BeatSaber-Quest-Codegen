@@ -188,7 +188,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::EndPointListener*, "System.Net", "EndPointLi
 // Il2CppName: get_Listener
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpListener* (System::Net::EndPointListener::*)()>(&System::Net::EndPointListener::get_Listener)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::EndPointListener*), "get_Listener", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -196,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: Accept
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::Socket*, System::Net::Sockets::SocketAsyncEventArgs*, System::Net::Sockets::Socket*&)>(&System::Net::EndPointListener::Accept)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* socket = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "Socket")->byval_arg;
     static auto* e = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketAsyncEventArgs")->byval_arg;
     static auto* accepted = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "Socket")->this_arg;
@@ -207,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: ProcessAccept
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SocketAsyncEventArgs*)>(&System::Net::EndPointListener::ProcessAccept)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* args = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketAsyncEventArgs")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::EndPointListener*), "ProcessAccept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});
   }
@@ -216,7 +216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: OnAccept
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, System::Net::Sockets::SocketAsyncEventArgs*)>(&System::Net::EndPointListener::OnAccept)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sender = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* e = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketAsyncEventArgs")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::EndPointListener*), "OnAccept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sender, e});
@@ -226,7 +226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: RemoveConnection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::EndPointListener::*)(System::Net::HttpConnection*)>(&System::Net::EndPointListener::RemoveConnection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* conn = &::il2cpp_utils::GetClassFromName("System.Net", "HttpConnection")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::EndPointListener*), "RemoveConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{conn});
   }
@@ -235,7 +235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: BindContext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::EndPointListener::*)(System::Net::HttpListenerContext*)>(&System::Net::EndPointListener::BindContext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Net", "HttpListenerContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::EndPointListener*), "BindContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }
@@ -244,7 +244,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: UnbindContext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::EndPointListener::*)(System::Net::HttpListenerContext*)>(&System::Net::EndPointListener::UnbindContext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Net", "HttpListenerContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::EndPointListener*), "UnbindContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }
@@ -253,7 +253,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: SearchListener
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpListener* (System::Net::EndPointListener::*)(System::Uri*, System::Net::ListenerPrefix*&)>(&System::Net::EndPointListener::SearchListener)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System.Net", "ListenerPrefix")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::EndPointListener*), "SearchListener", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uri, prefix});
@@ -263,7 +263,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: MatchFromList
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpListener* (System::Net::EndPointListener::*)(::Il2CppString*, ::Il2CppString*, System::Collections::ArrayList*, System::Net::ListenerPrefix*&)>(&System::Net::EndPointListener::MatchFromList)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* host = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* list = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->byval_arg;
@@ -275,7 +275,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: AddSpecial
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::EndPointListener::*)(System::Collections::ArrayList*, System::Net::ListenerPrefix*)>(&System::Net::EndPointListener::AddSpecial)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* coll = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->byval_arg;
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System.Net", "ListenerPrefix")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::EndPointListener*), "AddSpecial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{coll, prefix});
@@ -285,7 +285,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: RemoveSpecial
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::EndPointListener::*)(System::Collections::ArrayList*, System::Net::ListenerPrefix*)>(&System::Net::EndPointListener::RemoveSpecial)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* coll = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->byval_arg;
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System.Net", "ListenerPrefix")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::EndPointListener*), "RemoveSpecial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{coll, prefix});
@@ -295,7 +295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: CheckIfRemove
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::EndPointListener::*)()>(&System::Net::EndPointListener::CheckIfRemove)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::EndPointListener*), "CheckIfRemove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -303,7 +303,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Close
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::EndPointListener::*)()>(&System::Net::EndPointListener::Close)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::EndPointListener*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -311,7 +311,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: AddPrefix
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::EndPointListener::*)(System::Net::ListenerPrefix*, System::Net::HttpListener*)>(&System::Net::EndPointListener::AddPrefix)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System.Net", "ListenerPrefix")->byval_arg;
     static auto* listener = &::il2cpp_utils::GetClassFromName("System.Net", "HttpListener")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::EndPointListener*), "AddPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prefix, listener});
@@ -321,7 +321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: RemovePrefix
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::EndPointListener::*)(System::Net::ListenerPrefix*, System::Net::HttpListener*)>(&System::Net::EndPointListener::RemovePrefix)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System.Net", "ListenerPrefix")->byval_arg;
     static auto* listener = &::il2cpp_utils::GetClassFromName("System.Net", "HttpListener")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::EndPointListener*), "RemovePrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prefix, listener});

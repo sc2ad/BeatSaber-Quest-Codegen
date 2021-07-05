@@ -79,7 +79,7 @@ DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetConnectAcceptPacket*, "LiteNetLib", "NetCo
 // Il2CppName: FromData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetConnectAcceptPacket* (*)(LiteNetLib::NetPacket*)>(&LiteNetLib::NetConnectAcceptPacket::FromData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* packet = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPacket")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetConnectAcceptPacket*), "FromData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet});
   }
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib:
 // Il2CppName: Make
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPacket* (*)(int64_t, uint8_t, bool)>(&LiteNetLib::NetConnectAcceptPacket::Make)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* connectId = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* connectNum = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     static auto* reusedPeer = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

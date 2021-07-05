@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSettings::_GetBool*, "OVR.OpenVR", "IVRSe
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::IVRSettings::_GetBool::*)(::Il2CppString*, ::Il2CppString*, OVR::OpenVR::EVRSettingsError&)>(&OVR::OpenVR::IVRSettings::_GetBool::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchSection = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchSettingsKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* peError = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRSettingsError")->this_arg;
@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRSettings::_GetBool::*)(::Il2CppString*, ::Il2CppString*, OVR::OpenVR::EVRSettingsError&, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRSettings::_GetBool::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchSection = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchSettingsKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* peError = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRSettingsError")->this_arg;
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::IVRSettings::_GetBool::*)(OVR::OpenVR::EVRSettingsError&, System::IAsyncResult*)>(&OVR::OpenVR::IVRSettings::_GetBool::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* peError = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRSettingsError")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSettings::_GetBool*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{peError, result});

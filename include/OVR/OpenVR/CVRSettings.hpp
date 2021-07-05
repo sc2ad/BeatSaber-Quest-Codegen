@@ -102,7 +102,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSettings*, "OVR.OpenVR", "CVRSettings");
 // Il2CppName: GetSettingsErrorNameFromEnum
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OVR::OpenVR::CVRSettings::*)(OVR::OpenVR::EVRSettingsError)>(&OVR::OpenVR::CVRSettings::GetSettingsErrorNameFromEnum)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eError = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRSettingsError")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSettings*), "GetSettingsErrorNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eError});
   }
@@ -111,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: Sync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRSettings::*)(bool, OVR::OpenVR::EVRSettingsError&)>(&OVR::OpenVR::CVRSettings::Sync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bForce = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* peError = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRSettingsError")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSettings*), "Sync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bForce, peError});
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Il2CppName: SetBool
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRSettings::*)(::Il2CppString*, ::Il2CppString*, bool, OVR::OpenVR::EVRSettingsError&)>(&OVR::OpenVR::CVRSettings::SetBool)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchSection = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchSettingsKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* bValue = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Il2CppName: SetInt32
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRSettings::*)(::Il2CppString*, ::Il2CppString*, int, OVR::OpenVR::EVRSettingsError&)>(&OVR::OpenVR::CVRSettings::SetInt32)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchSection = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchSettingsKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* nValue = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -145,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Il2CppName: SetFloat
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRSettings::*)(::Il2CppString*, ::Il2CppString*, float, OVR::OpenVR::EVRSettingsError&)>(&OVR::OpenVR::CVRSettings::SetFloat)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchSection = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchSettingsKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* flValue = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -157,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Il2CppName: SetString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRSettings::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, OVR::OpenVR::EVRSettingsError&)>(&OVR::OpenVR::CVRSettings::SetString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchSection = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchSettingsKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchValue = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Il2CppName: GetBool
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRSettings::*)(::Il2CppString*, ::Il2CppString*, OVR::OpenVR::EVRSettingsError&)>(&OVR::OpenVR::CVRSettings::GetBool)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchSection = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchSettingsKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* peError = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRSettingsError")->this_arg;
@@ -180,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Il2CppName: GetInt32
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OVR::OpenVR::CVRSettings::*)(::Il2CppString*, ::Il2CppString*, OVR::OpenVR::EVRSettingsError&)>(&OVR::OpenVR::CVRSettings::GetInt32)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchSection = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchSettingsKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* peError = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRSettingsError")->this_arg;
@@ -191,7 +191,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (OVR::O
 // Il2CppName: GetFloat
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVR::OpenVR::CVRSettings::*)(::Il2CppString*, ::Il2CppString*, OVR::OpenVR::EVRSettingsError&)>(&OVR::OpenVR::CVRSettings::GetFloat)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchSection = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchSettingsKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* peError = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRSettingsError")->this_arg;
@@ -202,7 +202,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVR:
 // Il2CppName: GetString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRSettings::*)(::Il2CppString*, ::Il2CppString*, System::Text::StringBuilder*, uint, OVR::OpenVR::EVRSettingsError&)>(&OVR::OpenVR::CVRSettings::GetString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchSection = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchSettingsKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchValue = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
@@ -215,7 +215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Il2CppName: RemoveSection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRSettings::*)(::Il2CppString*, OVR::OpenVR::EVRSettingsError&)>(&OVR::OpenVR::CVRSettings::RemoveSection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchSection = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* peError = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRSettingsError")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSettings*), "RemoveSection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pchSection, peError});
@@ -225,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Il2CppName: RemoveKeyInSection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRSettings::*)(::Il2CppString*, ::Il2CppString*, OVR::OpenVR::EVRSettingsError&)>(&OVR::OpenVR::CVRSettings::RemoveKeyInSection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchSection = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchSettingsKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* peError = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRSettingsError")->this_arg;

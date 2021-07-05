@@ -73,7 +73,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Diagnostics::DiagnosticE
 // Il2CppName: get_PlayerConnectionGuid
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (*)()>(&UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector::get_PlayerConnectionGuid)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector*), "get_PlayerConnectionGuid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Gui
 // Il2CppName: FindOrCreateGlobalInstance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector* (*)()>(&UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector::FindOrCreateGlobalInstance)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector*), "FindOrCreateGlobalInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: RegisterEventHandler
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*, bool, bool)>(&UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector::RegisterEventHandler)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* handler = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.Diagnostics", "DiagnosticEvent")})->byval_arg;
     static auto* _register = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* create = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: UnregisterEventHandler
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector::*)(System::Action_1<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*)>(&UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector::UnregisterEventHandler)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* handler = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.Diagnostics", "DiagnosticEvent")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector*), "UnregisterEventHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handler});
   }
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: PostEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector::*)(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent)>(&UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector::PostEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* diagnosticEvent = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.Diagnostics", "DiagnosticEvent")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector*), "PostEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{diagnosticEvent});
   }

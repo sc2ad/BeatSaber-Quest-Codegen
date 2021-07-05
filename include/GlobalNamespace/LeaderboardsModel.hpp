@@ -46,7 +46,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardsModel*, "", "LeaderboardsMod
 // Il2CppName: GetLeaderboardID
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::LeaderboardsModel::GetLeaderboardID)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* difficultyBeatmap = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardsModel*), "GetLeaderboardID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{difficultyBeatmap});
   }

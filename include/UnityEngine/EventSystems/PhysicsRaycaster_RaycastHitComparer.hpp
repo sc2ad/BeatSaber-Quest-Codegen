@@ -56,7 +56,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitCo
 // Il2CppName: Compare
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer::*)(UnityEngine::RaycastHit, UnityEngine::RaycastHit)>(&UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer::Compare)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y});
@@ -66,7 +66,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

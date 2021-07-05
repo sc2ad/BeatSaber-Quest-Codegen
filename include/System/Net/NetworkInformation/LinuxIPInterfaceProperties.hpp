@@ -70,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::LinuxIPInterfaceProperti
 // Il2CppName: ParseRouteInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::IPAddressCollection* (System::Net::NetworkInformation::LinuxIPInterfaceProperties::*)(::Il2CppString*)>(&System::Net::NetworkInformation::LinuxIPInterfaceProperties::ParseRouteInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* iface = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::LinuxIPInterfaceProperties*), "ParseRouteInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{iface});
   }
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: get_GatewayAddresses
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::GatewayIPAddressInformationCollection* (System::Net::NetworkInformation::LinuxIPInterfaceProperties::*)()>(&System::Net::NetworkInformation::LinuxIPInterfaceProperties::get_GatewayAddresses)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::LinuxIPInterfaceProperties*), "get_GatewayAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

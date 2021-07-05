@@ -118,7 +118,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Resources*, "UnityEngine", "Resources");
 // Il2CppName: FindObjectsOfTypeAll
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Object*>* (*)(System::Type*)>(&UnityEngine::Resources::FindObjectsOfTypeAll)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Resources*), "FindObjectsOfTypeAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: Load
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(::Il2CppString*)>(&UnityEngine::Resources::Load)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Resources*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
   }
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Load
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(::Il2CppString*, System::Type*)>(&UnityEngine::Resources::Load)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* systemTypeInstance = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Resources*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path, systemTypeInstance});
@@ -152,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: LoadAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceRequest* (*)(::Il2CppString*, System::Type*)>(&UnityEngine::Resources::LoadAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Resources*), "LoadAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path, type});
@@ -162,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: LoadAsyncInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceRequest* (*)(::Il2CppString*, System::Type*)>(&UnityEngine::Resources::LoadAsyncInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Resources*), "LoadAsyncInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path, type});
@@ -172,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: LoadAll
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Object*>* (*)(::Il2CppString*, System::Type*)>(&UnityEngine::Resources::LoadAll)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* systemTypeInstance = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Resources*), "LoadAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path, systemTypeInstance});
@@ -182,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: LoadAll
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Object*>* (*)(::Il2CppString*)>(&UnityEngine::Resources::LoadAll)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Resources*), "LoadAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
   }
@@ -191,7 +191,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: GetBuiltinResource
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(System::Type*, ::Il2CppString*)>(&UnityEngine::Resources::GetBuiltinResource)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Resources*), "GetBuiltinResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, path});
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: UnloadAsset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*)>(&UnityEngine::Resources::UnloadAsset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* assetToUnload = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Resources*), "UnloadAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assetToUnload});
   }
@@ -213,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: UnloadUnusedAssets
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (*)()>(&UnityEngine::Resources::UnloadUnusedAssets)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Resources*), "UnloadUnusedAssets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

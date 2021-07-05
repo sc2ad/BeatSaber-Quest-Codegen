@@ -139,7 +139,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRing*, "", "TrackLaneRing");
 // Il2CppName: get_destRotZ
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::TrackLaneRing::*)()>(&GlobalNamespace::TrackLaneRing::get_destRotZ)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRing*), "get_destRotZ", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrackLaneRing::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&GlobalNamespace::TrackLaneRing::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* positionOffset = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRing*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, positionOffset});
@@ -157,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: FixedUpdateRing
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrackLaneRing::*)(float)>(&GlobalNamespace::TrackLaneRing::FixedUpdateRing)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* fixedDeltaTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRing*), "FixedUpdateRing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fixedDeltaTime});
   }
@@ -166,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: LateUpdateRing
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrackLaneRing::*)(float)>(&GlobalNamespace::TrackLaneRing::LateUpdateRing)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* interpolationFactor = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRing*), "LateUpdateRing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{interpolationFactor});
   }
@@ -175,7 +175,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetDestRotation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrackLaneRing::*)(float, float)>(&GlobalNamespace::TrackLaneRing::SetDestRotation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* destRotZ = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* rotateSpeed = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRing*), "SetDestRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{destRotZ, rotateSpeed});
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: GetRotation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::TrackLaneRing::*)()>(&GlobalNamespace::TrackLaneRing::GetRotation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRing*), "GetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -193,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: GetDestinationRotation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::TrackLaneRing::*)()>(&GlobalNamespace::TrackLaneRing::GetDestinationRotation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRing*), "GetDestinationRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -201,7 +201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: SetPosition
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrackLaneRing::*)(float, float)>(&GlobalNamespace::TrackLaneRing::SetPosition)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* destPosZ = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* moveSpeed = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRing*), "SetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{destPosZ, moveSpeed});

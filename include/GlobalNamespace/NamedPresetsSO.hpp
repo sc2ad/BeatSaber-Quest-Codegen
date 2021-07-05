@@ -51,7 +51,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedPresetsSO*, "", "NamedPresetsSO");
 // Il2CppName: get_namedPresets
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::NamedPreset*>* (GlobalNamespace::NamedPresetsSO::*)()>(&GlobalNamespace::NamedPresetsSO::get_namedPresets)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NamedPresetsSO*), "get_namedPresets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

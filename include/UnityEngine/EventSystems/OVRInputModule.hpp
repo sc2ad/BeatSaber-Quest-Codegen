@@ -395,7 +395,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::OVRInputModule*, "UnityEngine.
 // Il2CppName: get_inputMode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::OVRInputModule::InputMode (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::get_inputMode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "get_inputMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -403,7 +403,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_allowActivationOnMobileDevice
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::get_allowActivationOnMobileDevice)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "get_allowActivationOnMobileDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -411,7 +411,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: set_allowActivationOnMobileDevice
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(bool)>(&UnityEngine::EventSystems::OVRInputModule::set_allowActivationOnMobileDevice)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "set_allowActivationOnMobileDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -420,7 +420,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_inputActionsPerSecond
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::get_inputActionsPerSecond)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "get_inputActionsPerSecond", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -428,7 +428,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Il2CppName: set_inputActionsPerSecond
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(float)>(&UnityEngine::EventSystems::OVRInputModule::set_inputActionsPerSecond)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "set_inputActionsPerSecond", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -437,7 +437,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_horizontalAxis
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::get_horizontalAxis)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "get_horizontalAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -445,7 +445,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_horizontalAxis
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(::Il2CppString*)>(&UnityEngine::EventSystems::OVRInputModule::set_horizontalAxis)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "set_horizontalAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -454,7 +454,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_verticalAxis
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::get_verticalAxis)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "get_verticalAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -462,7 +462,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_verticalAxis
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(::Il2CppString*)>(&UnityEngine::EventSystems::OVRInputModule::set_verticalAxis)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "set_verticalAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -471,7 +471,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_submitButton
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::get_submitButton)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "get_submitButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -479,7 +479,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_submitButton
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(::Il2CppString*)>(&UnityEngine::EventSystems::OVRInputModule::set_submitButton)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "set_submitButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -488,7 +488,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_cancelButton
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::get_cancelButton)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "get_cancelButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -496,7 +496,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_cancelButton
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(::Il2CppString*)>(&UnityEngine::EventSystems::OVRInputModule::set_cancelButton)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "set_cancelButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -505,7 +505,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SendSubmitEventToSelectedObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::SendSubmitEventToSelectedObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "SendSubmitEventToSelectedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -513,7 +513,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: AllowMoveEventProcessing
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::EventSystems::OVRInputModule::*)(float)>(&UnityEngine::EventSystems::OVRInputModule::AllowMoveEventProcessing)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "AllowMoveEventProcessing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
@@ -522,7 +522,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: GetRawMoveVector
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::GetRawMoveVector)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "GetRawMoveVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -530,7 +530,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: SendMoveEventToSelectedObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::SendMoveEventToSelectedObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "SendMoveEventToSelectedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -538,7 +538,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: SendUpdateEventToSelectedObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::SendUpdateEventToSelectedObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "SendUpdateEventToSelectedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -546,7 +546,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: ProcessMousePress
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData*)>(&UnityEngine::EventSystems::OVRInputModule::ProcessMousePress)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerInputModule/MouseButtonEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "ProcessMousePress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
   }
@@ -555,7 +555,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: ProcessMouseEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(UnityEngine::EventSystems::PointerInputModule::MouseState*)>(&UnityEngine::EventSystems::OVRInputModule::ProcessMouseEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mouseData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerInputModule/MouseState")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "ProcessMouseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mouseData});
   }
@@ -564,7 +564,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: UseMouse
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool, bool, UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::OVRInputModule::UseMouse)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pressed = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* released = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* pointerData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->byval_arg;
@@ -575,7 +575,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bo
 // Il2CppName: CopyFromTo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(UnityEngine::EventSystems::OVRPointerEventData*, UnityEngine::EventSystems::OVRPointerEventData*)>(&UnityEngine::EventSystems::OVRInputModule::CopyFromTo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* from = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "OVRPointerEventData")->byval_arg;
     static auto* to = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "OVRPointerEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "CopyFromTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{from, to});
@@ -585,7 +585,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetPointerData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::EventSystems::OVRInputModule::*)(int, UnityEngine::EventSystems::OVRPointerEventData*&, bool)>(&UnityEngine::EventSystems::OVRInputModule::GetPointerData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* data = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "OVRPointerEventData")->this_arg;
     static auto* create = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -596,7 +596,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: GetRectTransformNormal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::RectTransform*)>(&UnityEngine::EventSystems::OVRInputModule::GetRectTransformNormal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rectTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "GetRectTransformNormal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rectTransform});
   }
@@ -605,7 +605,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetGazePointerData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::PointerInputModule::MouseState* (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::GetGazePointerData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "GetGazePointerData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -613,7 +613,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetCanvasPointerData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::PointerInputModule::MouseState* (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::GetCanvasPointerData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "GetCanvasPointerData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -621,7 +621,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: ShouldStartDrag
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::EventSystems::OVRInputModule::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::OVRInputModule::ShouldStartDrag)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pointerEvent = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "ShouldStartDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pointerEvent});
   }
@@ -630,7 +630,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: IsPointerMoving
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::OVRInputModule::IsPointerMoving)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pointerEvent = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "IsPointerMoving", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pointerEvent});
   }
@@ -639,7 +639,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: SwipeAdjustedPosition
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::EventSystems::OVRInputModule::*)(UnityEngine::Vector2, UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::OVRInputModule::SwipeAdjustedPosition)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* originalPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     static auto* pointerEvent = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "SwipeAdjustedPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{originalPosition, pointerEvent});
@@ -649,7 +649,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetGazeButtonState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::PointerEventData::FramePressState (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::GetGazeButtonState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "GetGazeButtonState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -657,7 +657,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetExtraScrollDelta
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::GetExtraScrollDelta)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "GetExtraScrollDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -669,7 +669,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: UpdateModule
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::UpdateModule)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "UpdateModule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -677,7 +677,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: IsModuleSupported
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::IsModuleSupported)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "IsModuleSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -685,7 +685,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: ShouldActivateModule
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::ShouldActivateModule)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "ShouldActivateModule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -693,7 +693,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: ActivateModule
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::ActivateModule)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "ActivateModule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -701,7 +701,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: DeactivateModule
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::DeactivateModule)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "DeactivateModule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -709,7 +709,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Process
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::Process)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "Process", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -717,7 +717,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: CopyFromTo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(UnityEngine::EventSystems::PointerEventData*, UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::OVRInputModule::CopyFromTo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* from = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->byval_arg;
     static auto* to = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "CopyFromTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{from, to});
@@ -727,7 +727,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: ClearSelection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)()>(&UnityEngine::EventSystems::OVRInputModule::ClearSelection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "ClearSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -735,7 +735,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: ProcessDrag
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::OVRInputModule::*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::OVRInputModule::ProcessDrag)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pointerEvent = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRInputModule*), "ProcessDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pointerEvent});
   }

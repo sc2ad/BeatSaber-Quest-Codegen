@@ -163,7 +163,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Security::Claims::Claim*, "System.Security.Claims
 // Il2CppName: OnDeserializedMethod
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Claims::Claim::*)(System::Runtime::Serialization::StreamingContext)>(&System::Security::Claims::Claim::OnDeserializedMethod)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::Claim*), "OnDeserializedMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }
@@ -172,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_Properties
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>* (System::Security::Claims::Claim::*)()>(&System::Security::Claims::Claim::get_Properties)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::Claim*), "get_Properties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -180,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: get_Subject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Claims::ClaimsIdentity* (System::Security::Claims::Claim::*)()>(&System::Security::Claims::Claim::get_Subject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::Claim*), "get_Subject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -188,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Il2CppName: set_Subject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Claims::Claim::*)(System::Security::Claims::ClaimsIdentity*)>(&System::Security::Claims::Claim::set_Subject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Security.Claims", "ClaimsIdentity")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::Claim*), "set_Subject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -197,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_Type
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Claims::Claim::*)()>(&System::Security::Claims::Claim::get_Type)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::Claim*), "get_Type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -205,7 +205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_Value
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Claims::Claim::*)()>(&System::Security::Claims::Claim::get_Value)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::Claim*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -213,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: Clone
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Claims::Claim* (System::Security::Claims::Claim::*)(System::Security::Claims::ClaimsIdentity*)>(&System::Security::Claims::Claim::Clone)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* identity = &::il2cpp_utils::GetClassFromName("System.Security.Claims", "ClaimsIdentity")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::Claim*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{identity});
   }
@@ -222,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Il2CppName: ToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Claims::Claim::*)()>(&System::Security::Claims::Claim::ToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::Claim*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

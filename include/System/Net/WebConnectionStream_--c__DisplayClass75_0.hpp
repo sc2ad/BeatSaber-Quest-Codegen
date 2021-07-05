@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionStream::$$c__DisplayClass75_0*,
 // Il2CppName: <SetHeadersAsync>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebConnectionStream::$$c__DisplayClass75_0::*)(System::Net::SimpleAsyncResult*)>(&System::Net::WebConnectionStream::$$c__DisplayClass75_0::$SetHeadersAsync$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* r = &::il2cpp_utils::GetClassFromName("System.Net", "SimpleAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionStream::$$c__DisplayClass75_0*), "<SetHeadersAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{r});
   }

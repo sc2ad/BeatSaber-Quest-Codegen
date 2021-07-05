@@ -100,7 +100,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsTableCell*, "", "ResultsTableCell
 // Il2CppName: SetData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultsTableCell::*)(int, GlobalNamespace::IConnectedPlayer*, GlobalNamespace::LevelCompletionResults*)>(&GlobalNamespace::ResultsTableCell::SetData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* order = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* connectedPlayer = &::il2cpp_utils::GetClassFromName("", "IConnectedPlayer")->byval_arg;
     static auto* levelCompletionResults = &::il2cpp_utils::GetClassFromName("", "LevelCompletionResults")->byval_arg;

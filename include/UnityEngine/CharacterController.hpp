@@ -56,7 +56,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CharacterController*, "UnityEngine", "Charac
 // Il2CppName: Move
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::CollisionFlags (UnityEngine::CharacterController::*)(UnityEngine::Vector3)>(&UnityEngine::CharacterController::Move)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* motion = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CharacterController*), "Move", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{motion});
   }
@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_isGrounded
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::CharacterController::*)()>(&UnityEngine::CharacterController::get_isGrounded)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CharacterController*), "get_isGrounded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -73,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: get_height
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::CharacterController::*)()>(&UnityEngine::CharacterController::get_height)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CharacterController*), "get_height", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Il2CppName: get_center
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::CharacterController::*)()>(&UnityEngine::CharacterController::get_center)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CharacterController*), "get_center", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_stepOffset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::CharacterController::*)()>(&UnityEngine::CharacterController::get_stepOffset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CharacterController*), "get_stepOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Il2CppName: Move_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::CollisionFlags (UnityEngine::CharacterController::*)(UnityEngine::Vector3&)>(&UnityEngine::CharacterController::Move_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* motion = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CharacterController*), "Move_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{motion});
   }
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_center_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CharacterController::*)(UnityEngine::Vector3&)>(&UnityEngine::CharacterController::get_center_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CharacterController*), "get_center_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
   }

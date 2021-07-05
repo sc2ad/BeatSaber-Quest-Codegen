@@ -768,7 +768,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::Socket*, "System.Net.Sockets", "Soc
 // Il2CppName: get_SupportsIPv4
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Net::Sockets::Socket::get_SupportsIPv4)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_SupportsIPv4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -776,7 +776,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Il2CppName: get_OSSupportsIPv4
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Net::Sockets::Socket::get_OSSupportsIPv4)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_OSSupportsIPv4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -784,7 +784,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Il2CppName: get_SupportsIPv6
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Net::Sockets::Socket::get_SupportsIPv6)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_SupportsIPv6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -792,7 +792,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Il2CppName: get_OSSupportsIPv6
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Net::Sockets::Socket::get_OSSupportsIPv6)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_OSSupportsIPv6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -800,7 +800,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Il2CppName: get_Handle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::get_Handle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_Handle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -808,7 +808,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: get_AddressFamily
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::AddressFamily (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::get_AddressFamily)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_AddressFamily", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -816,7 +816,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: get_SocketType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::SocketType (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::get_SocketType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_SocketType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -824,7 +824,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: get_ProtocolType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::ProtocolType (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::get_ProtocolType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_ProtocolType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -832,7 +832,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: set_ExclusiveAddressUse
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(bool)>(&System::Net::Sockets::Socket::set_ExclusiveAddressUse)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "set_ExclusiveAddressUse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -841,7 +841,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: set_ReceiveBufferSize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(int)>(&System::Net::Sockets::Socket::set_ReceiveBufferSize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "set_ReceiveBufferSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -850,7 +850,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: set_SendBufferSize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(int)>(&System::Net::Sockets::Socket::set_SendBufferSize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "set_SendBufferSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -859,7 +859,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: set_ReceiveTimeout
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(int)>(&System::Net::Sockets::Socket::set_ReceiveTimeout)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "set_ReceiveTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -868,7 +868,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: set_SendTimeout
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(int)>(&System::Net::Sockets::Socket::set_SendTimeout)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "set_SendTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -877,7 +877,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_Ttl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::get_Ttl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_Ttl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -885,7 +885,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (Sy
 // Il2CppName: set_Ttl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(int16_t)>(&System::Net::Sockets::Socket::set_Ttl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int16")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "set_Ttl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -894,7 +894,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: set_DontFragment
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(bool)>(&System::Net::Sockets::Socket::set_DontFragment)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "set_DontFragment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -903,7 +903,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_DualMode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::get_DualMode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_DualMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -911,7 +911,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: set_DualMode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(bool)>(&System::Net::Sockets::Socket::set_DualMode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "set_DualMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -920,7 +920,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_IsDualMode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::get_IsDualMode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_IsDualMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -928,7 +928,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: Send
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>*, System::Net::Sockets::SocketFlags)>(&System::Net::Sockets::Socket::Send)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buffers = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "ArraySegment`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Byte")})})->byval_arg;
     static auto* socketFlags = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketFlags")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Send", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffers, socketFlags});
@@ -938,7 +938,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: Send
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags)>(&System::Net::Sockets::Socket::Send)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -950,7 +950,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: Receive
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags)>(&System::Net::Sockets::Socket::Receive)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -962,7 +962,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: Receive
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>*, System::Net::Sockets::SocketFlags)>(&System::Net::Sockets::Socket::Receive)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buffers = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "ArraySegment`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Byte")})})->byval_arg;
     static auto* socketFlags = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketFlags")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Receive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffers, socketFlags});
@@ -972,7 +972,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: IOControl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(System::Net::Sockets::IOControlCode, ::Array<uint8_t>*, ::Array<uint8_t>*)>(&System::Net::Sockets::Socket::IOControl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ioControlCode = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "IOControlCode")->byval_arg;
     static auto* optionInValue = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* optionOutValue = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -983,7 +983,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: SetIPProtectionLevel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(System::Net::Sockets::IPProtectionLevel)>(&System::Net::Sockets::Socket::SetIPProtectionLevel)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* level = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "IPProtectionLevel")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "SetIPProtectionLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{level});
   }
@@ -992,7 +992,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: BeginSend
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Sockets::Socket::BeginSend)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1006,7 +1006,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndSend
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(System::IAsyncResult*)>(&System::Net::Sockets::Socket::EndSend)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* asyncResult = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "EndSend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncResult});
   }
@@ -1015,7 +1015,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: BeginReceive
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Sockets::Socket::BeginReceive)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1029,7 +1029,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndReceive
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(System::IAsyncResult*)>(&System::Net::Sockets::Socket::EndReceive)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* asyncResult = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "EndReceive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncResult});
   }
@@ -1038,7 +1038,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: get_InternalSyncObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)()>(&System::Net::Sockets::Socket::get_InternalSyncObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_InternalSyncObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1046,7 +1046,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: get_CleanedUp
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::get_CleanedUp)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_CleanedUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1054,7 +1054,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: InitializeSockets
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Net::Sockets::Socket::InitializeSockets)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "InitializeSockets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1062,7 +1062,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1070,7 +1070,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: InternalShutdown
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(System::Net::Sockets::SocketShutdown)>(&System::Net::Sockets::Socket::InternalShutdown)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* how = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketShutdown")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "InternalShutdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{how});
   }
@@ -1083,7 +1083,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: SocketDefaults
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::SocketDefaults)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "SocketDefaults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1091,7 +1091,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Socket_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (System::Net::Sockets::Socket::*)(System::Net::Sockets::AddressFamily, System::Net::Sockets::SocketType, System::Net::Sockets::ProtocolType, int&)>(&System::Net::Sockets::Socket::Socket_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* family = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "AddressFamily")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketType")->byval_arg;
     static auto* proto = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "ProtocolType")->byval_arg;
@@ -1103,7 +1103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: get_Available
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::get_Available)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_Available", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1111,7 +1111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: Available_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::Sockets::SafeSocketHandle*, int&)>(&System::Net::Sockets::Socket::Available_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* safeHandle = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SafeSocketHandle")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Available_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{safeHandle, error});
@@ -1121,7 +1121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: Available_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, int&)>(&System::Net::Sockets::Socket::Available_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* socket = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Available_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{socket, error});
@@ -1131,7 +1131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: set_EnableBroadcast
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(bool)>(&System::Net::Sockets::Socket::set_EnableBroadcast)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "set_EnableBroadcast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1140,7 +1140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_IsBound
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::get_IsBound)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_IsBound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1148,7 +1148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_LocalEndPoint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::EndPoint* (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::get_LocalEndPoint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_LocalEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1156,7 +1156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: LocalEndPoint_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::SocketAddress* (*)(System::Net::Sockets::SafeSocketHandle*, int, int&)>(&System::Net::Sockets::Socket::LocalEndPoint_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* safeHandle = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SafeSocketHandle")->byval_arg;
     static auto* family = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -1167,7 +1167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: LocalEndPoint_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::SocketAddress* (*)(System::IntPtr, int, int&)>(&System::Net::Sockets::Socket::LocalEndPoint_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* socket = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* family = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -1178,7 +1178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: get_Blocking
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::get_Blocking)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_Blocking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1186,7 +1186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: set_Blocking
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(bool)>(&System::Net::Sockets::Socket::set_Blocking)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "set_Blocking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1195,7 +1195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Blocking_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SafeSocketHandle*, bool, int&)>(&System::Net::Sockets::Socket::Blocking_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* safeHandle = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SafeSocketHandle")->byval_arg;
     static auto* block = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -1206,7 +1206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: Blocking_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, bool, int&)>(&System::Net::Sockets::Socket::Blocking_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* socket = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* block = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -1217,7 +1217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: get_Connected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::get_Connected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_Connected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1225,7 +1225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: set_NoDelay
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(bool)>(&System::Net::Sockets::Socket::set_NoDelay)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "set_NoDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1234,7 +1234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Poll
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Sockets::Socket::*)(int, System::Net::Sockets::SelectMode)>(&System::Net::Sockets::Socket::Poll)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* microSeconds = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* mode = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SelectMode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Poll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{microSeconds, mode});
@@ -1244,7 +1244,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: Poll_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::Sockets::SafeSocketHandle*, System::Net::Sockets::SelectMode, int, int&)>(&System::Net::Sockets::Socket::Poll_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* safeHandle = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SafeSocketHandle")->byval_arg;
     static auto* mode = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SelectMode")->byval_arg;
     static auto* timeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1256,7 +1256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: Poll_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::Net::Sockets::SelectMode, int, int&)>(&System::Net::Sockets::Socket::Poll_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* socket = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* mode = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SelectMode")->byval_arg;
     static auto* timeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1268,7 +1268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: Accept
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::Socket* (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::Accept)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Accept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1276,7 +1276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: Accept
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(System::Net::Sockets::Socket*)>(&System::Net::Sockets::Socket::Accept)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* acceptSocket = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "Socket")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Accept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{acceptSocket});
   }
@@ -1285,7 +1285,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: AcceptAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Sockets::Socket::*)(System::Net::Sockets::SocketAsyncEventArgs*)>(&System::Net::Sockets::Socket::AcceptAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketAsyncEventArgs")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "AcceptAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
   }
@@ -1294,7 +1294,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: BeginAccept
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::Sockets::Socket::*)(System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Sockets::Socket::BeginAccept)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "BeginAccept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callback, state});
@@ -1304,7 +1304,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndAccept
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::Socket* (System::Net::Sockets::Socket::*)(System::IAsyncResult*)>(&System::Net::Sockets::Socket::EndAccept)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* asyncResult = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "EndAccept", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncResult});
   }
@@ -1313,7 +1313,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: EndAccept
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::Socket* (System::Net::Sockets::Socket::*)(::Array<uint8_t>*&, int&, System::IAsyncResult*)>(&System::Net::Sockets::Socket::EndAccept)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
     static auto* bytesTransferred = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* asyncResult = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
@@ -1324,7 +1324,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: Accept_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::SafeSocketHandle* (*)(System::Net::Sockets::SafeSocketHandle*, int&, bool)>(&System::Net::Sockets::Socket::Accept_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* safeHandle = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SafeSocketHandle")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* blocking = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -1335,7 +1335,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: Accept_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, int&, bool)>(&System::Net::Sockets::Socket::Accept_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sock = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* blocking = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -1346,7 +1346,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: Bind
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(System::Net::EndPoint*)>(&System::Net::Sockets::Socket::Bind)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* localEP = &::il2cpp_utils::GetClassFromName("System.Net", "EndPoint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Bind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{localEP});
   }
@@ -1355,7 +1355,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Bind_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SafeSocketHandle*, System::Net::SocketAddress*, int&)>(&System::Net::Sockets::Socket::Bind_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* safeHandle = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SafeSocketHandle")->byval_arg;
     static auto* sa = &::il2cpp_utils::GetClassFromName("System.Net", "SocketAddress")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -1366,7 +1366,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: Bind_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::Net::SocketAddress*, int&)>(&System::Net::Sockets::Socket::Bind_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sock = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* sa = &::il2cpp_utils::GetClassFromName("System.Net", "SocketAddress")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -1377,7 +1377,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: Listen
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(int)>(&System::Net::Sockets::Socket::Listen)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* backlog = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Listen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{backlog});
   }
@@ -1386,7 +1386,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Listen_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SafeSocketHandle*, int, int&)>(&System::Net::Sockets::Socket::Listen_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* safeHandle = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SafeSocketHandle")->byval_arg;
     static auto* backlog = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -1397,7 +1397,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: Listen_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, int, int&)>(&System::Net::Sockets::Socket::Listen_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sock = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* backlog = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -1408,7 +1408,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: Connect
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(System::Net::EndPoint*)>(&System::Net::Sockets::Socket::Connect)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* remoteEP = &::il2cpp_utils::GetClassFromName("System.Net", "EndPoint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{remoteEP});
   }
@@ -1417,7 +1417,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: BeginConnect
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::Sockets::Socket::*)(::Il2CppString*, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Sockets::Socket::BeginConnect)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* host = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* port = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* requestCallback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -1429,7 +1429,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: BeginConnect
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::Sockets::Socket::*)(::Array<System::Net::IPAddress*>*, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Sockets::Socket::BeginConnect)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* addresses = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Net", "IPAddress"), 1)->byval_arg;
     static auto* port = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* requestCallback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -1441,7 +1441,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: BeginMConnect
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SocketAsyncResult*)>(&System::Net::Sockets::Socket::BeginMConnect)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sockares = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "BeginMConnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sockares});
   }
@@ -1450,7 +1450,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: BeginSConnect
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SocketAsyncResult*)>(&System::Net::Sockets::Socket::BeginSConnect)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sockares = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "BeginSConnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sockares});
   }
@@ -1459,7 +1459,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: EndConnect
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(System::IAsyncResult*)>(&System::Net::Sockets::Socket::EndConnect)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* asyncResult = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "EndConnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncResult});
   }
@@ -1468,7 +1468,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Connect_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SafeSocketHandle*, System::Net::SocketAddress*, int&, bool)>(&System::Net::Sockets::Socket::Connect_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* safeHandle = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SafeSocketHandle")->byval_arg;
     static auto* sa = &::il2cpp_utils::GetClassFromName("System.Net", "SocketAddress")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -1480,7 +1480,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: Connect_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::Net::SocketAddress*, int&, bool)>(&System::Net::Sockets::Socket::Connect_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sock = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* sa = &::il2cpp_utils::GetClassFromName("System.Net", "SocketAddress")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -1492,7 +1492,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: Disconnect
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(bool)>(&System::Net::Sockets::Socket::Disconnect)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* reuseSocket = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Disconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reuseSocket});
   }
@@ -1501,7 +1501,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: EndDisconnect
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(System::IAsyncResult*)>(&System::Net::Sockets::Socket::EndDisconnect)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* asyncResult = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "EndDisconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncResult});
   }
@@ -1510,7 +1510,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Disconnect_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SafeSocketHandle*, bool, int&)>(&System::Net::Sockets::Socket::Disconnect_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* safeHandle = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SafeSocketHandle")->byval_arg;
     static auto* reuse = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -1521,7 +1521,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: Disconnect_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, bool, int&)>(&System::Net::Sockets::Socket::Disconnect_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sock = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* reuse = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -1532,7 +1532,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: Receive
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, System::Net::Sockets::SocketError&)>(&System::Net::Sockets::Socket::Receive)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1545,7 +1545,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: Receive
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>*, System::Net::Sockets::SocketFlags, System::Net::Sockets::SocketError&)>(&System::Net::Sockets::Socket::Receive)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buffers = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "ArraySegment`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Byte")})})->byval_arg;
     static auto* socketFlags = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketFlags")->byval_arg;
     static auto* errorCode = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketError")->this_arg;
@@ -1556,7 +1556,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: BeginReceive
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, System::Net::Sockets::SocketError&, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Sockets::Socket::BeginReceive)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1571,7 +1571,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndReceive
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(System::IAsyncResult*, System::Net::Sockets::SocketError&)>(&System::Net::Sockets::Socket::EndReceive)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* asyncResult = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     static auto* errorCode = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketError")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "EndReceive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncResult, errorCode});
@@ -1581,7 +1581,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: Receive_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::Sockets::SafeSocketHandle*, System::Net::Sockets::Socket::WSABUF*, int, System::Net::Sockets::SocketFlags, int&, bool)>(&System::Net::Sockets::Socket::Receive_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* safeHandle = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SafeSocketHandle")->byval_arg;
     static auto* bufarray = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System.Net.Sockets", "Socket/WSABUF"))->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1595,7 +1595,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: Receive_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, System::Net::Sockets::Socket::WSABUF*, int, System::Net::Sockets::SocketFlags, int&, bool)>(&System::Net::Sockets::Socket::Receive_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sock = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* bufarray = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System.Net.Sockets", "Socket/WSABUF"))->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1609,7 +1609,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: Receive_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::Sockets::SafeSocketHandle*, uint8_t*, int, System::Net::Sockets::SocketFlags, int&, bool)>(&System::Net::Sockets::Socket::Receive_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* safeHandle = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SafeSocketHandle")->byval_arg;
     static auto* buffer = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1623,7 +1623,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: Receive_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, uint8_t*, int, System::Net::Sockets::SocketFlags, int&, bool)>(&System::Net::Sockets::Socket::Receive_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sock = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* buffer = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1637,7 +1637,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: ReceiveFrom
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, System::Net::EndPoint*&)>(&System::Net::Sockets::Socket::ReceiveFrom)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1650,7 +1650,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: ReceiveFrom
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, System::Net::EndPoint*&, System::Net::Sockets::SocketError&)>(&System::Net::Sockets::Socket::ReceiveFrom)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1664,7 +1664,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: EndReceiveFrom
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(System::IAsyncResult*, System::Net::EndPoint*&)>(&System::Net::Sockets::Socket::EndReceiveFrom)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* asyncResult = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "EndPoint")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "EndReceiveFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncResult, endPoint});
@@ -1674,7 +1674,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: ReceiveFrom_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::Sockets::SafeSocketHandle*, uint8_t*, int, System::Net::Sockets::SocketFlags, System::Net::SocketAddress*&, int&, bool)>(&System::Net::Sockets::Socket::ReceiveFrom_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* safeHandle = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SafeSocketHandle")->byval_arg;
     static auto* buffer = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1689,7 +1689,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: ReceiveFrom_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, uint8_t*, int, System::Net::Sockets::SocketFlags, System::Net::SocketAddress*&, int&, bool)>(&System::Net::Sockets::Socket::ReceiveFrom_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sock = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* buffer = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1704,7 +1704,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: Send
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, System::Net::Sockets::SocketError&)>(&System::Net::Sockets::Socket::Send)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1717,7 +1717,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: Send
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(System::Collections::Generic::IList_1<System::ArraySegment_1<uint8_t>>*, System::Net::Sockets::SocketFlags, System::Net::Sockets::SocketError&)>(&System::Net::Sockets::Socket::Send)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buffers = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "ArraySegment`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Byte")})})->byval_arg;
     static auto* socketFlags = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketFlags")->byval_arg;
     static auto* errorCode = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketError")->this_arg;
@@ -1728,7 +1728,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: BeginSend
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, System::Net::Sockets::SocketError&, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Sockets::Socket::BeginSend)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1743,7 +1743,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: BeginSendCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SocketAsyncResult*, int)>(&System::Net::Sockets::Socket::BeginSendCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sockares = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketAsyncResult")->byval_arg;
     static auto* sent_so_far = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "BeginSendCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sockares, sent_so_far});
@@ -1753,7 +1753,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: EndSend
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(System::IAsyncResult*, System::Net::Sockets::SocketError&)>(&System::Net::Sockets::Socket::EndSend)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* asyncResult = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     static auto* errorCode = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketError")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "EndSend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncResult, errorCode});
@@ -1763,7 +1763,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: Send_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::Sockets::SafeSocketHandle*, System::Net::Sockets::Socket::WSABUF*, int, System::Net::Sockets::SocketFlags, int&, bool)>(&System::Net::Sockets::Socket::Send_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* safeHandle = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SafeSocketHandle")->byval_arg;
     static auto* bufarray = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System.Net.Sockets", "Socket/WSABUF"))->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1777,7 +1777,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: Send_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, System::Net::Sockets::Socket::WSABUF*, int, System::Net::Sockets::SocketFlags, int&, bool)>(&System::Net::Sockets::Socket::Send_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sock = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* bufarray = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System.Net.Sockets", "Socket/WSABUF"))->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1791,7 +1791,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: Send_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::Sockets::SafeSocketHandle*, uint8_t*, int, System::Net::Sockets::SocketFlags, int&, bool)>(&System::Net::Sockets::Socket::Send_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* safeHandle = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SafeSocketHandle")->byval_arg;
     static auto* buffer = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1805,7 +1805,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: Send_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, uint8_t*, int, System::Net::Sockets::SocketFlags, int&, bool)>(&System::Net::Sockets::Socket::Send_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sock = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* buffer = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1819,7 +1819,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: SendTo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int, System::Net::Sockets::SocketFlags, System::Net::EndPoint*)>(&System::Net::Sockets::Socket::SendTo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1832,7 +1832,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: EndSendTo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(System::IAsyncResult*)>(&System::Net::Sockets::Socket::EndSendTo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* asyncResult = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "EndSendTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncResult});
   }
@@ -1841,7 +1841,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: SendTo_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::Sockets::SafeSocketHandle*, uint8_t*, int, System::Net::Sockets::SocketFlags, System::Net::SocketAddress*, int&, bool)>(&System::Net::Sockets::Socket::SendTo_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* safeHandle = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SafeSocketHandle")->byval_arg;
     static auto* buffer = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1856,7 +1856,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: SendTo_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, uint8_t*, int, System::Net::Sockets::SocketFlags, System::Net::SocketAddress*, int&, bool)>(&System::Net::Sockets::Socket::SendTo_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sock = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* buffer = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1871,7 +1871,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: GetSocketOption
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Net::Sockets::Socket::*)(System::Net::Sockets::SocketOptionLevel, System::Net::Sockets::SocketOptionName)>(&System::Net::Sockets::Socket::GetSocketOption)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* optionLevel = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketOptionLevel")->byval_arg;
     static auto* optionName = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketOptionName")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "GetSocketOption", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{optionLevel, optionName});
@@ -1881,7 +1881,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: GetSocketOption_obj_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SafeSocketHandle*, System::Net::Sockets::SocketOptionLevel, System::Net::Sockets::SocketOptionName, ::Il2CppObject*&, int&)>(&System::Net::Sockets::Socket::GetSocketOption_obj_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* safeHandle = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SafeSocketHandle")->byval_arg;
     static auto* level = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketOptionLevel")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketOptionName")->byval_arg;
@@ -1894,7 +1894,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: GetSocketOption_obj_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::Net::Sockets::SocketOptionLevel, System::Net::Sockets::SocketOptionName, ::Il2CppObject*&, int&)>(&System::Net::Sockets::Socket::GetSocketOption_obj_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* socket = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* level = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketOptionLevel")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketOptionName")->byval_arg;
@@ -1907,7 +1907,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: SetSocketOption
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(System::Net::Sockets::SocketOptionLevel, System::Net::Sockets::SocketOptionName, bool)>(&System::Net::Sockets::Socket::SetSocketOption)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* optionLevel = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketOptionLevel")->byval_arg;
     static auto* optionName = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketOptionName")->byval_arg;
     static auto* optionValue = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -1918,7 +1918,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: SetSocketOption
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(System::Net::Sockets::SocketOptionLevel, System::Net::Sockets::SocketOptionName, int)>(&System::Net::Sockets::Socket::SetSocketOption)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* optionLevel = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketOptionLevel")->byval_arg;
     static auto* optionName = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketOptionName")->byval_arg;
     static auto* optionValue = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1929,7 +1929,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: SetSocketOption_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SafeSocketHandle*, System::Net::Sockets::SocketOptionLevel, System::Net::Sockets::SocketOptionName, ::Il2CppObject*, ::Array<uint8_t>*, int, int&)>(&System::Net::Sockets::Socket::SetSocketOption_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* safeHandle = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SafeSocketHandle")->byval_arg;
     static auto* level = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketOptionLevel")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketOptionName")->byval_arg;
@@ -1944,7 +1944,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: SetSocketOption_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::Net::Sockets::SocketOptionLevel, System::Net::Sockets::SocketOptionName, ::Il2CppObject*, ::Array<uint8_t>*, int, int&)>(&System::Net::Sockets::Socket::SetSocketOption_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* socket = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* level = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketOptionLevel")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketOptionName")->byval_arg;
@@ -1959,7 +1959,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: IOControl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::Sockets::Socket::*)(int, ::Array<uint8_t>*, ::Array<uint8_t>*)>(&System::Net::Sockets::Socket::IOControl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ioControlCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* optionInValue = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* optionOutValue = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -1970,7 +1970,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: IOControl_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::Sockets::SafeSocketHandle*, int, ::Array<uint8_t>*, ::Array<uint8_t>*, int&)>(&System::Net::Sockets::Socket::IOControl_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* safeHandle = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SafeSocketHandle")->byval_arg;
     static auto* ioctl_code = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -1983,7 +1983,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: IOControl_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, int, ::Array<uint8_t>*, ::Array<uint8_t>*, int&)>(&System::Net::Sockets::Socket::IOControl_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sock = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* ioctl_code = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -1996,7 +1996,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: Close
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::Close)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -2004,7 +2004,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Close
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(int)>(&System::Net::Sockets::Socket::Close)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* timeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{timeout});
   }
@@ -2013,7 +2013,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Close_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, int&)>(&System::Net::Sockets::Socket::Close_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* socket = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Close_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{socket, error});
@@ -2023,7 +2023,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: Shutdown
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(System::Net::Sockets::SocketShutdown)>(&System::Net::Sockets::Socket::Shutdown)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* how = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketShutdown")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Shutdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{how});
   }
@@ -2032,7 +2032,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Shutdown_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::Sockets::SafeSocketHandle*, System::Net::Sockets::SocketShutdown, int&)>(&System::Net::Sockets::Socket::Shutdown_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* safeHandle = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SafeSocketHandle")->byval_arg;
     static auto* how = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketShutdown")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -2043,7 +2043,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: Shutdown_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::Net::Sockets::SocketShutdown, int&)>(&System::Net::Sockets::Socket::Shutdown_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* socket = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* how = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketShutdown")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -2054,7 +2054,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(bool)>(&System::Net::Sockets::Socket::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* disposing = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{disposing});
   }
@@ -2063,7 +2063,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Linger
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(System::IntPtr)>(&System::Net::Sockets::Socket::Linger)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Linger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle});
   }
@@ -2072,7 +2072,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ThrowIfDisposedAndClosed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::ThrowIfDisposedAndClosed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "ThrowIfDisposedAndClosed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -2080,7 +2080,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ThrowIfBufferNull
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(::Array<uint8_t>*)>(&System::Net::Sockets::Socket::ThrowIfBufferNull)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "ThrowIfBufferNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer});
   }
@@ -2089,7 +2089,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ThrowIfBufferOutOfRange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(::Array<uint8_t>*, int, int)>(&System::Net::Sockets::Socket::ThrowIfBufferOutOfRange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2100,7 +2100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ThrowIfUdp
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::ThrowIfUdp)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "ThrowIfUdp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -2108,7 +2108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ValidateEndIAsyncResult
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::SocketAsyncResult* (System::Net::Sockets::Socket::*)(System::IAsyncResult*, ::Il2CppString*, ::Il2CppString*)>(&System::Net::Sockets::Socket::ValidateEndIAsyncResult)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ares = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* argName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -2119,7 +2119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: QueueIOSelectorJob
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(System::Threading::SemaphoreSlim*, System::IntPtr, System::IOSelectorJob*)>(&System::Net::Sockets::Socket::QueueIOSelectorJob)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sem = &::il2cpp_utils::GetClassFromName("System.Threading", "SemaphoreSlim")->byval_arg;
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* job = &::il2cpp_utils::GetClassFromName("System", "IOSelectorJob")->byval_arg;
@@ -2130,7 +2130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: InitSocketAsyncEventArgs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)(System::Net::Sockets::SocketAsyncEventArgs*, System::AsyncCallback*, ::Il2CppObject*, System::Net::Sockets::SocketOperation)>(&System::Net::Sockets::Socket::InitSocketAsyncEventArgs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketAsyncEventArgs")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -2142,7 +2142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: SocketOperationToSocketAsyncOperation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::SocketAsyncOperation (System::Net::Sockets::Socket::*)(System::Net::Sockets::SocketOperation)>(&System::Net::Sockets::Socket::SocketOperationToSocketAsyncOperation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* op = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketOperation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "SocketOperationToSocketAsyncOperation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{op});
   }
@@ -2151,7 +2151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: RemapIPEndPoint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (System::Net::Sockets::Socket::*)(System::Net::IPEndPoint*)>(&System::Net::Sockets::Socket::RemapIPEndPoint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "RemapIPEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});
   }
@@ -2160,7 +2160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: cancel_blocking_socket_operation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Thread*)>(&System::Net::Sockets::Socket::cancel_blocking_socket_operation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* thread = &::il2cpp_utils::GetClassFromName("System.Threading", "Thread")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "cancel_blocking_socket_operation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{thread});
   }
@@ -2169,7 +2169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: get_FamilyHint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&System::Net::Sockets::Socket::get_FamilyHint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "get_FamilyHint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -2177,7 +2177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 // Il2CppName: IsProtocolSupported_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::NetworkInformation::NetworkInterfaceComponent)>(&System::Net::Sockets::Socket::IsProtocolSupported_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* networkInterface = &::il2cpp_utils::GetClassFromName("System.Net.NetworkInformation", "NetworkInterfaceComponent")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "IsProtocolSupported_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{networkInterface});
   }
@@ -2186,7 +2186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: IsProtocolSupported
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::NetworkInformation::NetworkInterfaceComponent)>(&System::Net::Sockets::Socket::IsProtocolSupported)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* networkInterface = &::il2cpp_utils::GetClassFromName("System.Net.NetworkInformation", "NetworkInterfaceComponent")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "IsProtocolSupported", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{networkInterface});
   }
@@ -2195,7 +2195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Net::Sockets::Socket::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -2203,7 +2203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: Finalize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::Socket::*)()>(&System::Net::Sockets::Socket::Finalize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::Socket*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

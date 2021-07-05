@@ -82,7 +82,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ObjectIDGenerator*, "Syst
 // Il2CppName: FindElement
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Runtime::Serialization::ObjectIDGenerator::*)(::Il2CppObject*, bool&)>(&System::Runtime::Serialization::ObjectIDGenerator::FindElement)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* found = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectIDGenerator*), "FindElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, found});
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: GetId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Runtime::Serialization::ObjectIDGenerator::*)(::Il2CppObject*, bool&)>(&System::Runtime::Serialization::ObjectIDGenerator::GetId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* firstTime = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectIDGenerator*), "GetId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, firstTime});
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Sy
 // Il2CppName: HasId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Runtime::Serialization::ObjectIDGenerator::*)(::Il2CppObject*, bool&)>(&System::Runtime::Serialization::ObjectIDGenerator::HasId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* firstTime = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectIDGenerator*), "HasId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, firstTime});
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Sy
 // Il2CppName: Rehash
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectIDGenerator::*)()>(&System::Runtime::Serialization::ObjectIDGenerator::Rehash)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectIDGenerator*), "Rehash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -120,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Runtime::Serialization::ObjectIDGenerator::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectIDGenerator*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

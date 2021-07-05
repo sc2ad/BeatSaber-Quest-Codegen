@@ -413,7 +413,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUISkin*, "UnityEngine", "GUISkin");
 // Il2CppName: OnEnable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::OnEnable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -421,7 +421,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: CleanupRoots
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::GUISkin::CleanupRoots)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "CleanupRoots", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -429,7 +429,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: get_font
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Font* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_font)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_font", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -437,7 +437,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_font
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::Font*)>(&UnityEngine::GUISkin::set_font)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Font")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_font", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -446,7 +446,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_box
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_box)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_box", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -454,7 +454,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_box
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_box)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_box", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -463,7 +463,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_label
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_label)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_label", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -471,7 +471,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_label
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_label)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_label", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -480,7 +480,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_textField
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_textField)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_textField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -488,7 +488,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_textField
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_textField)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_textField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -497,7 +497,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_textArea
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_textArea)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_textArea", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -505,7 +505,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_textArea
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_textArea)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_textArea", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -514,7 +514,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_button
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_button)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -522,7 +522,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_button
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_button)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -531,7 +531,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_toggle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_toggle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_toggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -539,7 +539,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_toggle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_toggle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_toggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -548,7 +548,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_window
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_window)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_window", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -556,7 +556,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_window
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_window)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_window", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -565,7 +565,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_horizontalSlider
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_horizontalSlider)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_horizontalSlider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -573,7 +573,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_horizontalSlider
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_horizontalSlider)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_horizontalSlider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -582,7 +582,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_horizontalSliderThumb
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_horizontalSliderThumb)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_horizontalSliderThumb", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -590,7 +590,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_horizontalSliderThumb
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_horizontalSliderThumb)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_horizontalSliderThumb", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -599,7 +599,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_horizontalSliderThumbExtent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_horizontalSliderThumbExtent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_horizontalSliderThumbExtent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -607,7 +607,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_horizontalSliderThumbExtent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_horizontalSliderThumbExtent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_horizontalSliderThumbExtent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -616,7 +616,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_verticalSlider
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_verticalSlider)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_verticalSlider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -624,7 +624,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_verticalSlider
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_verticalSlider)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_verticalSlider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -633,7 +633,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_verticalSliderThumb
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_verticalSliderThumb)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_verticalSliderThumb", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -641,7 +641,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_verticalSliderThumb
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_verticalSliderThumb)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_verticalSliderThumb", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -650,7 +650,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_verticalSliderThumbExtent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_verticalSliderThumbExtent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_verticalSliderThumbExtent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -658,7 +658,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_verticalSliderThumbExtent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_verticalSliderThumbExtent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_verticalSliderThumbExtent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -667,7 +667,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_horizontalScrollbar
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_horizontalScrollbar)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_horizontalScrollbar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -675,7 +675,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_horizontalScrollbar
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_horizontalScrollbar)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_horizontalScrollbar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -684,7 +684,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_horizontalScrollbarThumb
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_horizontalScrollbarThumb)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_horizontalScrollbarThumb", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -692,7 +692,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_horizontalScrollbarThumb
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_horizontalScrollbarThumb)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_horizontalScrollbarThumb", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -701,7 +701,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_horizontalScrollbarLeftButton
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_horizontalScrollbarLeftButton)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_horizontalScrollbarLeftButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -709,7 +709,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_horizontalScrollbarLeftButton
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_horizontalScrollbarLeftButton)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_horizontalScrollbarLeftButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -718,7 +718,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_horizontalScrollbarRightButton
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_horizontalScrollbarRightButton)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_horizontalScrollbarRightButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -726,7 +726,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_horizontalScrollbarRightButton
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_horizontalScrollbarRightButton)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_horizontalScrollbarRightButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -735,7 +735,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_verticalScrollbar
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_verticalScrollbar)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_verticalScrollbar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -743,7 +743,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_verticalScrollbar
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_verticalScrollbar)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_verticalScrollbar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -752,7 +752,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_verticalScrollbarThumb
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_verticalScrollbarThumb)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_verticalScrollbarThumb", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -760,7 +760,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_verticalScrollbarThumb
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_verticalScrollbarThumb)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_verticalScrollbarThumb", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -769,7 +769,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_verticalScrollbarUpButton
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_verticalScrollbarUpButton)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_verticalScrollbarUpButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -777,7 +777,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_verticalScrollbarUpButton
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_verticalScrollbarUpButton)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_verticalScrollbarUpButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -786,7 +786,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_verticalScrollbarDownButton
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_verticalScrollbarDownButton)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_verticalScrollbarDownButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -794,7 +794,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_verticalScrollbarDownButton
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_verticalScrollbarDownButton)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_verticalScrollbarDownButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -803,7 +803,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_scrollView
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_scrollView)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_scrollView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -811,7 +811,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_scrollView
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(UnityEngine::GUIStyle*)>(&UnityEngine::GUISkin::set_scrollView)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_scrollView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -820,7 +820,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_customStyles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GUIStyle*>* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_customStyles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_customStyles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -828,7 +828,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: set_customStyles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(::Array<UnityEngine::GUIStyle*>*)>(&UnityEngine::GUISkin::set_customStyles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_customStyles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -837,7 +837,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_settings
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUISettings* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_settings)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_settings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -845,7 +845,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_error
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (*)()>(&UnityEngine::GUISkin::get_error)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_error", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -853,7 +853,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Apply
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::Apply)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "Apply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -861,7 +861,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: BuildStyleCache
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::BuildStyleCache)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "BuildStyleCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -869,7 +869,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetStyle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)(::Il2CppString*)>(&UnityEngine::GUISkin::GetStyle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* styleName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "GetStyle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{styleName});
   }
@@ -878,7 +878,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: FindStyle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyle* (UnityEngine::GUISkin::*)(::Il2CppString*)>(&UnityEngine::GUISkin::FindStyle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* styleName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "FindStyle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{styleName});
   }
@@ -887,7 +887,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: MakeCurrent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::MakeCurrent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "MakeCurrent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -895,7 +895,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetEnumerator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::GetEnumerator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

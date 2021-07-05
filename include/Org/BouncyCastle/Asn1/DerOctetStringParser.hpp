@@ -76,7 +76,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerOctetStringParser*, "Org.Boun
 // Il2CppName: GetOctetStream
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (Org::BouncyCastle::Asn1::DerOctetStringParser::*)()>(&Org::BouncyCastle::Asn1::DerOctetStringParser::GetOctetStream)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerOctetStringParser*), "GetOctetStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO:
 // Il2CppName: ToAsn1Object
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Org::BouncyCastle::Asn1::DerOctetStringParser::*)()>(&Org::BouncyCastle::Asn1::DerOctetStringParser::ToAsn1Object)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerOctetStringParser*), "ToAsn1Object", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

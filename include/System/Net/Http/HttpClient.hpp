@@ -172,7 +172,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpClient*, "System.Net.Http", "HttpC
 // Il2CppName: get_MaxResponseContentBufferSize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Net::Http::HttpClient::*)()>(&System::Net::Http::HttpClient::get_MaxResponseContentBufferSize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpClient*), "get_MaxResponseContentBufferSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -180,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Sy
 // Il2CppName: set_Timeout
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpClient::*)(System::TimeSpan)>(&System::Net::Http::HttpClient::set_Timeout)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpClient*), "set_Timeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -189,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: GetAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* (System::Net::Http::HttpClient::*)(::Il2CppString*, System::Net::Http::HttpCompletionOption)>(&System::Net::Http::HttpClient::GetAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* requestUri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* completionOption = &::il2cpp_utils::GetClassFromName("System.Net.Http", "HttpCompletionOption")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpClient*), "GetAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{requestUri, completionOption});
@@ -199,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: SendAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* (System::Net::Http::HttpClient::*)(System::Net::Http::HttpRequestMessage*, System::Net::Http::HttpCompletionOption)>(&System::Net::Http::HttpClient::SendAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("System.Net.Http", "HttpRequestMessage")->byval_arg;
     static auto* completionOption = &::il2cpp_utils::GetClassFromName("System.Net.Http", "HttpCompletionOption")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpClient*), "SendAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{request, completionOption});
@@ -209,7 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: SendAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* (System::Net::Http::HttpClient::*)(System::Net::Http::HttpRequestMessage*, System::Net::Http::HttpCompletionOption, System::Threading::CancellationToken)>(&System::Net::Http::HttpClient::SendAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("System.Net.Http", "HttpRequestMessage")->byval_arg;
     static auto* completionOption = &::il2cpp_utils::GetClassFromName("System.Net.Http", "HttpCompletionOption")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
@@ -220,7 +220,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: SendAsyncWorker
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* (System::Net::Http::HttpClient::*)(System::Net::Http::HttpRequestMessage*, System::Net::Http::HttpCompletionOption, System::Threading::CancellationToken)>(&System::Net::Http::HttpClient::SendAsyncWorker)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("System.Net.Http", "HttpRequestMessage")->byval_arg;
     static auto* completionOption = &::il2cpp_utils::GetClassFromName("System.Net.Http", "HttpCompletionOption")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
@@ -231,7 +231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: GetStringAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Il2CppString*>* (System::Net::Http::HttpClient::*)(::Il2CppString*)>(&System::Net::Http::HttpClient::GetStringAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* requestUri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpClient*), "GetStringAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{requestUri});
   }
@@ -240,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Net::Http::HttpClient::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpClient*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -248,7 +248,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <>n__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* (System::Net::Http::HttpClient::*)(System::Net::Http::HttpRequestMessage*, System::Threading::CancellationToken)>(&System::Net::Http::HttpClient::$$n__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("System.Net.Http", "HttpRequestMessage")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpClient*), "<>n__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{request, cancellationToken});
@@ -266,7 +266,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpClient::*)(bool)>(&System::Net::Http::HttpClient::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* disposing = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpClient*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{disposing});
   }
@@ -275,7 +275,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: SendAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::Net::Http::HttpResponseMessage*>* (System::Net::Http::HttpClient::*)(System::Net::Http::HttpRequestMessage*, System::Threading::CancellationToken)>(&System::Net::Http::HttpClient::SendAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("System.Net.Http", "HttpRequestMessage")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpClient*), "SendAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{request, cancellationToken});

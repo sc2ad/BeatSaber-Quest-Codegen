@@ -229,7 +229,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerNoteEventManag
 // Il2CppName: add_connectedPlayerNoteWasCutEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::*)(System::Action_1<GlobalNamespace::NoteCutInfoNetSerializable*>*)>(&GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::add_connectedPlayerNoteWasCutEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "NoteCutInfoNetSerializable")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager*), "add_connectedPlayerNoteWasCutEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -238,7 +238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_connectedPlayerNoteWasCutEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::*)(System::Action_1<GlobalNamespace::NoteCutInfoNetSerializable*>*)>(&GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::remove_connectedPlayerNoteWasCutEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "NoteCutInfoNetSerializable")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager*), "remove_connectedPlayerNoteWasCutEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -247,7 +247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_connectedPlayerNoteWasMissedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::*)(System::Action_1<GlobalNamespace::NoteMissInfoNetSerializable*>*)>(&GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::add_connectedPlayerNoteWasMissedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "NoteMissInfoNetSerializable")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager*), "add_connectedPlayerNoteWasMissedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -256,7 +256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_connectedPlayerNoteWasMissedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::*)(System::Action_1<GlobalNamespace::NoteMissInfoNetSerializable*>*)>(&GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::remove_connectedPlayerNoteWasMissedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "NoteMissInfoNetSerializable")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager*), "remove_connectedPlayerNoteWasMissedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -265,7 +265,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::*)()>(&GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -273,7 +273,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::*)()>(&GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::OnDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -281,7 +281,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Update
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::*)()>(&GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::Update)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -289,7 +289,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleNoteWasCut
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::*)(::Il2CppString*, float, float, GlobalNamespace::NoteCutInfoNetSerializable*)>(&GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::HandleNoteWasCut)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* syncTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* songTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -301,7 +301,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleNoteWasMissed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::*)(::Il2CppString*, float, float, GlobalNamespace::NoteMissInfoNetSerializable*)>(&GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::HandleNoteWasMissed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* syncTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* songTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

@@ -85,7 +85,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveTypeSO*, "", "MissionObj
 // Il2CppName: get_objectiveName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MissionObjectiveTypeSO::*)()>(&GlobalNamespace::MissionObjectiveTypeSO::get_objectiveName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveTypeSO*), "get_objectiveName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_objectiveNameLocalized
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MissionObjectiveTypeSO::*)()>(&GlobalNamespace::MissionObjectiveTypeSO::get_objectiveNameLocalized)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveTypeSO*), "get_objectiveNameLocalized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_noConditionValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MissionObjectiveTypeSO::*)()>(&GlobalNamespace::MissionObjectiveTypeSO::get_noConditionValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveTypeSO*), "get_noConditionValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: get_objectiveValueFormater
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ObjectiveValueFormatterSO* (GlobalNamespace::MissionObjectiveTypeSO::*)()>(&GlobalNamespace::MissionObjectiveTypeSO::get_objectiveValueFormater)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveTypeSO*), "get_objectiveValueFormater", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

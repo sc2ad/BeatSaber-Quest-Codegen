@@ -38,7 +38,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::OnDemandRendering*, "UnityEngine.
 // Il2CppName: get_renderFrameInterval
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&UnityEngine::Rendering::OnDemandRendering::get_renderFrameInterval)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::OnDemandRendering*), "get_renderFrameInterval", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -46,7 +46,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 // Il2CppName: GetRenderFrameInterval
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int&)>(&UnityEngine::Rendering::OnDemandRendering::GetRenderFrameInterval)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* frameInterval = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::OnDemandRendering*), "GetRenderFrameInterval", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{frameInterval});
   }
@@ -55,7 +55,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Rendering::OnDemandRendering::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::OnDemandRendering*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

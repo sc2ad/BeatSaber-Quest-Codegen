@@ -439,7 +439,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Transform*, "UnityEngine", "Transform");
 // Il2CppName: get_position
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Transform::*)()>(&UnityEngine::Transform::get_position)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "get_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -447,7 +447,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_position
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3)>(&UnityEngine::Transform::set_position)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "set_position", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -456,7 +456,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_localPosition
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Transform::*)()>(&UnityEngine::Transform::get_localPosition)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "get_localPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -464,7 +464,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_localPosition
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3)>(&UnityEngine::Transform::set_localPosition)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "set_localPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -473,7 +473,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetLocalEulerAngles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Transform::*)(UnityEngine::RotationOrder)>(&UnityEngine::Transform::GetLocalEulerAngles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* order = &::il2cpp_utils::GetClassFromName("UnityEngine", "RotationOrder")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "GetLocalEulerAngles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{order});
   }
@@ -482,7 +482,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: SetLocalEulerAngles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3, UnityEngine::RotationOrder)>(&UnityEngine::Transform::SetLocalEulerAngles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* euler = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* order = &::il2cpp_utils::GetClassFromName("UnityEngine", "RotationOrder")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "SetLocalEulerAngles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{euler, order});
@@ -492,7 +492,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetLocalEulerHint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3)>(&UnityEngine::Transform::SetLocalEulerHint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* euler = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "SetLocalEulerHint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{euler});
   }
@@ -501,7 +501,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_eulerAngles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Transform::*)()>(&UnityEngine::Transform::get_eulerAngles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "get_eulerAngles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -509,7 +509,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_eulerAngles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3)>(&UnityEngine::Transform::set_eulerAngles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "set_eulerAngles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -518,7 +518,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_localEulerAngles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Transform::*)()>(&UnityEngine::Transform::get_localEulerAngles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "get_localEulerAngles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -526,7 +526,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_localEulerAngles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3)>(&UnityEngine::Transform::set_localEulerAngles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "set_localEulerAngles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -535,7 +535,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_right
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Transform::*)()>(&UnityEngine::Transform::get_right)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "get_right", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -543,7 +543,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_right
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3)>(&UnityEngine::Transform::set_right)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "set_right", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -552,7 +552,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_up
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Transform::*)()>(&UnityEngine::Transform::get_up)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "get_up", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -560,7 +560,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_up
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3)>(&UnityEngine::Transform::set_up)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "set_up", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -569,7 +569,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_forward
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Transform::*)()>(&UnityEngine::Transform::get_forward)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "get_forward", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -577,7 +577,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_forward
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3)>(&UnityEngine::Transform::set_forward)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "set_forward", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -586,7 +586,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_rotation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Transform::*)()>(&UnityEngine::Transform::get_rotation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "get_rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -594,7 +594,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_rotation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Quaternion)>(&UnityEngine::Transform::set_rotation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "set_rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -603,7 +603,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_localRotation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (UnityEngine::Transform::*)()>(&UnityEngine::Transform::get_localRotation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "get_localRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -611,7 +611,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_localRotation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Quaternion)>(&UnityEngine::Transform::set_localRotation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "set_localRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -620,7 +620,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_rotationOrder
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RotationOrder (UnityEngine::Transform::*)()>(&UnityEngine::Transform::get_rotationOrder)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "get_rotationOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -628,7 +628,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_rotationOrder
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::RotationOrder)>(&UnityEngine::Transform::set_rotationOrder)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "RotationOrder")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "set_rotationOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -637,7 +637,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetRotationOrderInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Transform::*)()>(&UnityEngine::Transform::GetRotationOrderInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "GetRotationOrderInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -645,7 +645,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: SetRotationOrderInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::RotationOrder)>(&UnityEngine::Transform::SetRotationOrderInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rotationOrder = &::il2cpp_utils::GetClassFromName("UnityEngine", "RotationOrder")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "SetRotationOrderInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rotationOrder});
   }
@@ -654,7 +654,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_localScale
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Transform::*)()>(&UnityEngine::Transform::get_localScale)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "get_localScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -662,7 +662,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_localScale
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3)>(&UnityEngine::Transform::set_localScale)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "set_localScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -671,7 +671,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_parent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (UnityEngine::Transform::*)()>(&UnityEngine::Transform::get_parent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "get_parent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -679,7 +679,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_parent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Transform*)>(&UnityEngine::Transform::set_parent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "set_parent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -688,7 +688,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_parentInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (UnityEngine::Transform::*)()>(&UnityEngine::Transform::get_parentInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "get_parentInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -696,7 +696,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_parentInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Transform*)>(&UnityEngine::Transform::set_parentInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "set_parentInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -705,7 +705,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetParent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (UnityEngine::Transform::*)()>(&UnityEngine::Transform::GetParent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "GetParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -713,7 +713,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: SetParent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Transform*)>(&UnityEngine::Transform::SetParent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "SetParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p});
   }
@@ -722,7 +722,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetParent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Transform*, bool)>(&UnityEngine::Transform::SetParent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* parent = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* worldPositionStays = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "SetParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parent, worldPositionStays});
@@ -732,7 +732,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_worldToLocalMatrix
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (UnityEngine::Transform::*)()>(&UnityEngine::Transform::get_worldToLocalMatrix)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "get_worldToLocalMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -740,7 +740,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_localToWorldMatrix
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Matrix4x4 (UnityEngine::Transform::*)()>(&UnityEngine::Transform::get_localToWorldMatrix)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "get_localToWorldMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -748,7 +748,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: SetPositionAndRotation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3, UnityEngine::Quaternion)>(&UnityEngine::Transform::SetPositionAndRotation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "SetPositionAndRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, rotation});
@@ -758,7 +758,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Translate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3, UnityEngine::Space)>(&UnityEngine::Transform::Translate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* translation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* relativeTo = &::il2cpp_utils::GetClassFromName("UnityEngine", "Space")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "Translate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{translation, relativeTo});
@@ -768,7 +768,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Translate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3)>(&UnityEngine::Transform::Translate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* translation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "Translate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{translation});
   }
@@ -777,7 +777,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Translate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(float, float, float, UnityEngine::Space)>(&UnityEngine::Transform::Translate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* z = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -789,7 +789,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Translate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(float, float, float)>(&UnityEngine::Transform::Translate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* z = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -800,7 +800,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Translate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3, UnityEngine::Transform*)>(&UnityEngine::Transform::Translate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* translation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* relativeTo = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "Translate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{translation, relativeTo});
@@ -810,7 +810,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Translate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(float, float, float, UnityEngine::Transform*)>(&UnityEngine::Transform::Translate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* z = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -822,7 +822,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Rotate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3, UnityEngine::Space)>(&UnityEngine::Transform::Rotate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eulers = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* relativeTo = &::il2cpp_utils::GetClassFromName("UnityEngine", "Space")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "Rotate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eulers, relativeTo});
@@ -832,7 +832,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Rotate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3)>(&UnityEngine::Transform::Rotate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eulers = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "Rotate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eulers});
   }
@@ -841,7 +841,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Rotate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(float, float, float, UnityEngine::Space)>(&UnityEngine::Transform::Rotate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* xAngle = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* yAngle = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* zAngle = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -853,7 +853,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Rotate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(float, float, float)>(&UnityEngine::Transform::Rotate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* xAngle = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* yAngle = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* zAngle = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -864,7 +864,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: RotateAroundInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3, float)>(&UnityEngine::Transform::RotateAroundInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* axis = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* angle = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "RotateAroundInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{axis, angle});
@@ -874,7 +874,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Rotate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3, float, UnityEngine::Space)>(&UnityEngine::Transform::Rotate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* axis = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* angle = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* relativeTo = &::il2cpp_utils::GetClassFromName("UnityEngine", "Space")->byval_arg;
@@ -885,7 +885,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Rotate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3, float)>(&UnityEngine::Transform::Rotate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* axis = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* angle = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "Rotate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{axis, angle});
@@ -895,7 +895,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: RotateAround
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&UnityEngine::Transform::RotateAround)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* point = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* axis = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* angle = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -906,7 +906,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: LookAt
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Transform*, UnityEngine::Vector3)>(&UnityEngine::Transform::LookAt)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* target = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* worldUp = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "LookAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{target, worldUp});
@@ -916,7 +916,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: LookAt
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Transform*)>(&UnityEngine::Transform::LookAt)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* target = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "LookAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{target});
   }
@@ -925,7 +925,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: LookAt
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&UnityEngine::Transform::LookAt)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* worldPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* worldUp = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "LookAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{worldPosition, worldUp});
@@ -935,7 +935,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: LookAt
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3)>(&UnityEngine::Transform::LookAt)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* worldPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "LookAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{worldPosition});
   }
@@ -944,7 +944,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Internal_LookAt
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&UnityEngine::Transform::Internal_LookAt)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* worldPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* worldUp = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "Internal_LookAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{worldPosition, worldUp});
@@ -954,7 +954,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: TransformDirection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Transform::*)(UnityEngine::Vector3)>(&UnityEngine::Transform::TransformDirection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "TransformDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{direction});
   }
@@ -963,7 +963,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: TransformDirection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Transform::*)(float, float, float)>(&UnityEngine::Transform::TransformDirection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* z = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -974,7 +974,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InverseTransformDirection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Transform::*)(UnityEngine::Vector3)>(&UnityEngine::Transform::InverseTransformDirection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "InverseTransformDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{direction});
   }
@@ -983,7 +983,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InverseTransformDirection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Transform::*)(float, float, float)>(&UnityEngine::Transform::InverseTransformDirection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* z = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -994,7 +994,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: TransformVector
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Transform::*)(UnityEngine::Vector3)>(&UnityEngine::Transform::TransformVector)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* vector = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "TransformVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vector});
   }
@@ -1003,7 +1003,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: TransformVector
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Transform::*)(float, float, float)>(&UnityEngine::Transform::TransformVector)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* z = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -1014,7 +1014,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InverseTransformVector
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Transform::*)(UnityEngine::Vector3)>(&UnityEngine::Transform::InverseTransformVector)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* vector = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "InverseTransformVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vector});
   }
@@ -1023,7 +1023,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InverseTransformVector
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Transform::*)(float, float, float)>(&UnityEngine::Transform::InverseTransformVector)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* z = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -1034,7 +1034,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: TransformPoint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Transform::*)(UnityEngine::Vector3)>(&UnityEngine::Transform::TransformPoint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "TransformPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position});
   }
@@ -1043,7 +1043,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: TransformPoint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Transform::*)(float, float, float)>(&UnityEngine::Transform::TransformPoint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* z = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -1054,7 +1054,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InverseTransformPoint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Transform::*)(UnityEngine::Vector3)>(&UnityEngine::Transform::InverseTransformPoint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "InverseTransformPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position});
   }
@@ -1063,7 +1063,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InverseTransformPoint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Transform::*)(float, float, float)>(&UnityEngine::Transform::InverseTransformPoint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* z = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -1074,7 +1074,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_root
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (UnityEngine::Transform::*)()>(&UnityEngine::Transform::get_root)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "get_root", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1082,7 +1082,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetRoot
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (UnityEngine::Transform::*)()>(&UnityEngine::Transform::GetRoot)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "GetRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1090,7 +1090,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_childCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Transform::*)()>(&UnityEngine::Transform::get_childCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "get_childCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1098,7 +1098,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: DetachChildren
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)()>(&UnityEngine::Transform::DetachChildren)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "DetachChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1106,7 +1106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetAsFirstSibling
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)()>(&UnityEngine::Transform::SetAsFirstSibling)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "SetAsFirstSibling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1114,7 +1114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetAsLastSibling
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)()>(&UnityEngine::Transform::SetAsLastSibling)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "SetAsLastSibling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1122,7 +1122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetSiblingIndex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(int)>(&UnityEngine::Transform::SetSiblingIndex)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "SetSiblingIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
   }
@@ -1131,7 +1131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetSiblingIndex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Transform::*)()>(&UnityEngine::Transform::GetSiblingIndex)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "GetSiblingIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1139,7 +1139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: FindRelativeTransformWithPath
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(UnityEngine::Transform*, ::Il2CppString*, bool)>(&UnityEngine::Transform::FindRelativeTransformWithPath)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* isActiveOnly = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -1150,7 +1150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Find
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (UnityEngine::Transform::*)(::Il2CppString*)>(&UnityEngine::Transform::Find)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* n = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "Find", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{n});
   }
@@ -1159,7 +1159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: SendTransformChangedScale
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)()>(&UnityEngine::Transform::SendTransformChangedScale)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "SendTransformChangedScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1167,7 +1167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_lossyScale
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (UnityEngine::Transform::*)()>(&UnityEngine::Transform::get_lossyScale)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "get_lossyScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1175,7 +1175,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: IsChildOf
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Transform::*)(UnityEngine::Transform*)>(&UnityEngine::Transform::IsChildOf)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* parent = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "IsChildOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parent});
   }
@@ -1184,7 +1184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: get_hasChanged
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Transform::*)()>(&UnityEngine::Transform::get_hasChanged)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "get_hasChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1192,7 +1192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: set_hasChanged
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(bool)>(&UnityEngine::Transform::set_hasChanged)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "set_hasChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1201,7 +1201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: FindChild
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (UnityEngine::Transform::*)(::Il2CppString*)>(&UnityEngine::Transform::FindChild)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* n = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "FindChild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{n});
   }
@@ -1210,7 +1210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetEnumerator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (UnityEngine::Transform::*)()>(&UnityEngine::Transform::GetEnumerator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1218,7 +1218,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: RotateAround
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3, float)>(&UnityEngine::Transform::RotateAround)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* axis = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* angle = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "RotateAround", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{axis, angle});
@@ -1228,7 +1228,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: RotateAroundLocal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3, float)>(&UnityEngine::Transform::RotateAroundLocal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* axis = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* angle = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "RotateAroundLocal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{axis, angle});
@@ -1238,7 +1238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetChild
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (UnityEngine::Transform::*)(int)>(&UnityEngine::Transform::GetChild)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "GetChild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
   }
@@ -1247,7 +1247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetChildCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Transform::*)()>(&UnityEngine::Transform::GetChildCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "GetChildCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1255,7 +1255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: get_hierarchyCapacity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Transform::*)()>(&UnityEngine::Transform::get_hierarchyCapacity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "get_hierarchyCapacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1263,7 +1263,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: set_hierarchyCapacity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(int)>(&UnityEngine::Transform::set_hierarchyCapacity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "set_hierarchyCapacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1272,7 +1272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: internal_getHierarchyCapacity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Transform::*)()>(&UnityEngine::Transform::internal_getHierarchyCapacity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "internal_getHierarchyCapacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1280,7 +1280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: internal_setHierarchyCapacity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(int)>(&UnityEngine::Transform::internal_setHierarchyCapacity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "internal_setHierarchyCapacity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1289,7 +1289,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_hierarchyCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Transform::*)()>(&UnityEngine::Transform::get_hierarchyCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "get_hierarchyCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1297,7 +1297,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: internal_getHierarchyCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Transform::*)()>(&UnityEngine::Transform::internal_getHierarchyCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "internal_getHierarchyCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1305,7 +1305,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: IsNonUniformScaleTransform
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Transform::*)()>(&UnityEngine::Transform::IsNonUniformScaleTransform)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "IsNonUniformScaleTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1313,7 +1313,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: get_position_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3&)>(&UnityEngine::Transform::get_position_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "get_position_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
   }
@@ -1322,7 +1322,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: set_position_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3&)>(&UnityEngine::Transform::set_position_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "set_position_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1331,7 +1331,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_localPosition_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3&)>(&UnityEngine::Transform::get_localPosition_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "get_localPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
   }
@@ -1340,7 +1340,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: set_localPosition_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3&)>(&UnityEngine::Transform::set_localPosition_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "set_localPosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1349,7 +1349,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetLocalEulerAngles_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::RotationOrder, UnityEngine::Vector3&)>(&UnityEngine::Transform::GetLocalEulerAngles_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* order = &::il2cpp_utils::GetClassFromName("UnityEngine", "RotationOrder")->byval_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "GetLocalEulerAngles_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{order, ret});
@@ -1359,7 +1359,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetLocalEulerAngles_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3&, UnityEngine::RotationOrder)>(&UnityEngine::Transform::SetLocalEulerAngles_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* euler = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* order = &::il2cpp_utils::GetClassFromName("UnityEngine", "RotationOrder")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "SetLocalEulerAngles_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{euler, order});
@@ -1369,7 +1369,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetLocalEulerHint_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3&)>(&UnityEngine::Transform::SetLocalEulerHint_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* euler = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "SetLocalEulerHint_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{euler});
   }
@@ -1378,7 +1378,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_rotation_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Quaternion&)>(&UnityEngine::Transform::get_rotation_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "get_rotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
   }
@@ -1387,7 +1387,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: set_rotation_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Quaternion&)>(&UnityEngine::Transform::set_rotation_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "set_rotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1396,7 +1396,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_localRotation_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Quaternion&)>(&UnityEngine::Transform::get_localRotation_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "get_localRotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
   }
@@ -1405,7 +1405,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: set_localRotation_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Quaternion&)>(&UnityEngine::Transform::set_localRotation_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "set_localRotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1414,7 +1414,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_localScale_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3&)>(&UnityEngine::Transform::get_localScale_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "get_localScale_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
   }
@@ -1423,7 +1423,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: set_localScale_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3&)>(&UnityEngine::Transform::set_localScale_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "set_localScale_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1432,7 +1432,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_worldToLocalMatrix_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Matrix4x4&)>(&UnityEngine::Transform::get_worldToLocalMatrix_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "get_worldToLocalMatrix_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
   }
@@ -1441,7 +1441,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_localToWorldMatrix_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Matrix4x4&)>(&UnityEngine::Transform::get_localToWorldMatrix_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "get_localToWorldMatrix_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
   }
@@ -1450,7 +1450,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetPositionAndRotation_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3&, UnityEngine::Quaternion&)>(&UnityEngine::Transform::SetPositionAndRotation_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "SetPositionAndRotation_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, rotation});
@@ -1460,7 +1460,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: RotateAroundInternal_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3&, float)>(&UnityEngine::Transform::RotateAroundInternal_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* axis = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* angle = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "RotateAroundInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{axis, angle});
@@ -1470,7 +1470,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Internal_LookAt_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3&, UnityEngine::Vector3&)>(&UnityEngine::Transform::Internal_LookAt_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* worldPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* worldUp = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "Internal_LookAt_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{worldPosition, worldUp});
@@ -1480,7 +1480,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: TransformDirection_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3&, UnityEngine::Vector3&)>(&UnityEngine::Transform::TransformDirection_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "TransformDirection_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{direction, ret});
@@ -1490,7 +1490,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: InverseTransformDirection_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3&, UnityEngine::Vector3&)>(&UnityEngine::Transform::InverseTransformDirection_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "InverseTransformDirection_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{direction, ret});
@@ -1500,7 +1500,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: TransformVector_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3&, UnityEngine::Vector3&)>(&UnityEngine::Transform::TransformVector_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* vector = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "TransformVector_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vector, ret});
@@ -1510,7 +1510,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: InverseTransformVector_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3&, UnityEngine::Vector3&)>(&UnityEngine::Transform::InverseTransformVector_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* vector = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "InverseTransformVector_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vector, ret});
@@ -1520,7 +1520,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: TransformPoint_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3&, UnityEngine::Vector3&)>(&UnityEngine::Transform::TransformPoint_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "TransformPoint_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, ret});
@@ -1530,7 +1530,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: InverseTransformPoint_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3&, UnityEngine::Vector3&)>(&UnityEngine::Transform::InverseTransformPoint_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "InverseTransformPoint_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, ret});
@@ -1540,7 +1540,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_lossyScale_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3&)>(&UnityEngine::Transform::get_lossyScale_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "get_lossyScale_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
   }
@@ -1549,7 +1549,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: RotateAround_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3&, float)>(&UnityEngine::Transform::RotateAround_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* axis = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* angle = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "RotateAround_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{axis, angle});
@@ -1559,7 +1559,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: RotateAroundLocal_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Transform::*)(UnityEngine::Vector3&, float)>(&UnityEngine::Transform::RotateAroundLocal_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* axis = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* angle = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Transform*), "RotateAroundLocal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{axis, angle});

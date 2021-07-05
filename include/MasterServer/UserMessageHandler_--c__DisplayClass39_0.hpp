@@ -130,7 +130,7 @@ DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMessageHandler::$$c__DisplayClass39_0*,
 // Il2CppName: <GetPublicServers>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MasterServer::UserMessageHandler::$$c__DisplayClass39_0::*)()>(&MasterServer::UserMessageHandler::$$c__DisplayClass39_0::$GetPublicServers$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::UserMessageHandler::$$c__DisplayClass39_0*), "<GetPublicServers>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

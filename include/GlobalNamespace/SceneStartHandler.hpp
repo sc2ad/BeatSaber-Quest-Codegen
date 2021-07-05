@@ -169,7 +169,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SceneStartHandler*, "", "SceneStartHandl
 // Il2CppName: add_sceneSetupDidFinishEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartHandler::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::SceneStartHandler::add_sceneSetupDidFinishEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneStartHandler*), "add_sceneSetupDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -178,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_sceneSetupDidFinishEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartHandler::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::SceneStartHandler::remove_sceneSetupDidFinishEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneStartHandler*), "remove_sceneSetupDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_sceneSetupDidReceiveTooLateEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartHandler::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::SceneStartHandler::add_sceneSetupDidReceiveTooLateEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneStartHandler*), "add_sceneSetupDidReceiveTooLateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -196,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_sceneSetupDidReceiveTooLateEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartHandler::*)(System::Action_1<::Il2CppString*>*)>(&GlobalNamespace::SceneStartHandler::remove_sceneSetupDidReceiveTooLateEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneStartHandler*), "remove_sceneSetupDidReceiveTooLateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -209,7 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartHandler::*)()>(&GlobalNamespace::SceneStartHandler::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneStartHandler*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -217,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: GetSceneLoadStatus
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartHandler::*)()>(&GlobalNamespace::SceneStartHandler::GetSceneLoadStatus)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneStartHandler*), "GetSceneLoadStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -225,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ForceStart
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartHandler::*)()>(&GlobalNamespace::SceneStartHandler::ForceStart)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneStartHandler*), "ForceStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -233,7 +233,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleSetGameplaySceneReady
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartHandler::*)(::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsNetSerializable*)>(&GlobalNamespace::SceneStartHandler::HandleSetGameplaySceneReady)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* playerSpecificSettings = &::il2cpp_utils::GetClassFromName("", "PlayerSpecificSettingsNetSerializable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneStartHandler*), "HandleSetGameplaySceneReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId, playerSpecificSettings});
@@ -243,7 +243,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleGetGameplaySceneReady
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartHandler::*)(::Il2CppString*)>(&GlobalNamespace::SceneStartHandler::HandleGetGameplaySceneReady)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneStartHandler*), "HandleGetGameplaySceneReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});
   }
@@ -252,7 +252,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleSetGameplaySceneSyncFinished
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartHandler::*)(::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*)>(&GlobalNamespace::SceneStartHandler::HandleSetGameplaySceneSyncFinished)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* playersAtGameStart = &::il2cpp_utils::GetClassFromName("", "PlayerSpecificSettingsAtStartNetSerializable")->byval_arg;
     static auto* sessionId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -263,7 +263,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleSetPlayerDidConnectLate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartHandler::*)(::Il2CppString*, ::Il2CppString*, GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::Il2CppString*)>(&GlobalNamespace::SceneStartHandler::HandleSetPlayerDidConnectLate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* failedUserId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* playersAtGameStart = &::il2cpp_utils::GetClassFromName("", "PlayerSpecificSettingsAtStartNetSerializable")->byval_arg;
@@ -275,7 +275,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: AddPlayerSpecificSettingsToDictionary
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneStartHandler::*)(GlobalNamespace::PlayerSpecificSettingsNetSerializable*)>(&GlobalNamespace::SceneStartHandler::AddPlayerSpecificSettingsToDictionary)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* playerSpecificSettingsNetSerializable = &::il2cpp_utils::GetClassFromName("", "PlayerSpecificSettingsNetSerializable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneStartHandler*), "AddPlayerSpecificSettingsToDictionary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playerSpecificSettingsNetSerializable});
   }
@@ -284,7 +284,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: CreatePlayersSpecificSettingsAtGameStartData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* (GlobalNamespace::SceneStartHandler::*)()>(&GlobalNamespace::SceneStartHandler::CreatePlayersSpecificSettingsAtGameStartData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneStartHandler*), "CreatePlayersSpecificSettingsAtGameStartData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

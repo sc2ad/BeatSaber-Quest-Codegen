@@ -184,7 +184,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayersTableView*, "", "NetworkPl
 // Il2CppName: CellSize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::NetworkPlayersTableView::*)()>(&GlobalNamespace::NetworkPlayersTableView::CellSize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayersTableView*), "CellSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -192,7 +192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: NumberOfCells
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::NetworkPlayersTableView::*)()>(&GlobalNamespace::NetworkPlayersTableView::NumberOfCells)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayersTableView*), "NumberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -200,7 +200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: CellForIdx
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (GlobalNamespace::NetworkPlayersTableView::*)(HMUI::TableView*, int)>(&GlobalNamespace::NetworkPlayersTableView::CellForIdx)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tableView = &::il2cpp_utils::GetClassFromName("HMUI", "TableView")->byval_arg;
     static auto* row = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayersTableView*), "CellForIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tableView, row});
@@ -210,7 +210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::Table
 // Il2CppName: AddPlayers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetworkPlayersTableView::*)(System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>*, ::Il2CppString*)>(&GlobalNamespace::NetworkPlayersTableView::AddPlayers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* players = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "INetworkPlayer")})->byval_arg;
     static auto* title = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayersTableView*), "AddPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{players, title});
@@ -220,7 +220,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetParties
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetworkPlayersTableView::*)(System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>*, System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>*, ::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::NetworkPlayersTableView::SetParties)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* partyPlayers = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "INetworkPlayer")})->byval_arg;
     static auto* otherPlayers = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "INetworkPlayer")})->byval_arg;
     static auto* myPartyTitle = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -232,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleCellWasPressed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetworkPlayersTableView::*)(HMUI::TableView*, HMUI::TableCell*)>(&GlobalNamespace::NetworkPlayersTableView::HandleCellWasPressed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tableView = &::il2cpp_utils::GetClassFromName("HMUI", "TableView")->byval_arg;
     static auto* tableCell = &::il2cpp_utils::GetClassFromName("HMUI", "TableCell")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayersTableView*), "HandleCellWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tableView, tableCell});
@@ -242,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HasVisibleOptions
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::INetworkPlayer*)>(&GlobalNamespace::NetworkPlayersTableView::HasVisibleOptions)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* player = &::il2cpp_utils::GetClassFromName("", "INetworkPlayer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayersTableView*), "HasVisibleOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{player});
   }

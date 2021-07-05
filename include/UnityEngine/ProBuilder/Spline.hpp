@@ -60,7 +60,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Spline*, "UnityEngine.ProBuilder
 // Il2CppName: Extrude
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::BezierPoint>*, float, int, int, bool, bool)>(&UnityEngine::ProBuilder::Spline::Extrude)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* points = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "BezierPoint")})->byval_arg;
     static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* columns = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Extrude
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::BezierPoint>*, float, int, int, bool, bool, UnityEngine::ProBuilder::ProBuilderMesh*&)>(&UnityEngine::ProBuilder::Spline::Extrude)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bezierPoints = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "BezierPoint")})->byval_arg;
     static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* columns = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: GetControlPoints
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::Vector3>* (*)(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::BezierPoint>*, int, bool, System::Collections::Generic::List_1<UnityEngine::Quaternion>*)>(&UnityEngine::ProBuilder::Spline::GetControlPoints)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bezierPoints = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "BezierPoint")})->byval_arg;
     static auto* subdivisionsPerSegment = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* closeLoop = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: Extrude
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IList_1<UnityEngine::Vector3>*, float, int, bool, bool, UnityEngine::ProBuilder::ProBuilderMesh*&, System::Collections::Generic::IList_1<UnityEngine::Quaternion>*)>(&UnityEngine::ProBuilder::Spline::Extrude)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* points = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* radiusRows = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: GetRingRotation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(System::Collections::Generic::IList_1<UnityEngine::Vector3>*, int, bool, float&)>(&UnityEngine::ProBuilder::Spline::GetRingRotation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* points = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* closeLoop = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: VertexRing
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (*)(UnityEngine::Quaternion, UnityEngine::Vector3, float, int)>(&UnityEngine::ProBuilder::Spline::VertexRing)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* orientation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

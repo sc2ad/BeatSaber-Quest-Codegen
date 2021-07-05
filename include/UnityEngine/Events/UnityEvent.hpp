@@ -89,7 +89,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::UnityEvent*, "UnityEngine.Events", "
 // Il2CppName: AddListener
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent::*)(UnityEngine::Events::UnityAction*)>(&UnityEngine::Events::UnityEvent::AddListener)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* call = &::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::UnityEvent*), "AddListener", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{call});
   }
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: RemoveListener
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent::*)(UnityEngine::Events::UnityAction*)>(&UnityEngine::Events::UnityEvent::RemoveListener)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* call = &::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::UnityEvent*), "RemoveListener", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{call});
   }
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetDelegate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::BaseInvokableCall* (*)(UnityEngine::Events::UnityAction*)>(&UnityEngine::Events::UnityEvent::GetDelegate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::UnityEvent*), "GetDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});
   }
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent::*)()>(&UnityEngine::Events::UnityEvent::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::UnityEvent*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: FindMethod_Impl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (UnityEngine::Events::UnityEvent::*)(::Il2CppString*, ::Il2CppObject*)>(&UnityEngine::Events::UnityEvent::FindMethod_Impl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* targetObj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::UnityEvent*), "FindMethod_Impl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, targetObj});
@@ -138,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Il2CppName: GetDelegate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::BaseInvokableCall* (UnityEngine::Events::UnityEvent::*)(::Il2CppObject*, System::Reflection::MethodInfo*)>(&UnityEngine::Events::UnityEvent::GetDelegate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* theFunction = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::UnityEvent*), "GetDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{target, theFunction});

@@ -73,7 +73,7 @@ DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningTable::$$c*, "TMPro", "KerningTable/<>c");
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TMPro::KerningTable::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::KerningTable::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <SortKerningPairs>b__7_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMPro::KerningTable::$$c::*)(TMPro::KerningPair*)>(&TMPro::KerningTable::$$c::$SortKerningPairs$b__7_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("TMPro", "KerningPair")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::KerningTable::$$c*), "<SortKerningPairs>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMPro
 // Il2CppName: <SortKerningPairs>b__7_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMPro::KerningTable::$$c::*)(TMPro::KerningPair*)>(&TMPro::KerningTable::$$c::$SortKerningPairs$b__7_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("TMPro", "KerningPair")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::KerningTable::$$c*), "<SortKerningPairs>b__7_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }

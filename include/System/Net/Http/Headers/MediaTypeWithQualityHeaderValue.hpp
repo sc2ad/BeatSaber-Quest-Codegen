@@ -59,7 +59,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::MediaTypeWithQualityHeaderVal
 // Il2CppName: TryParseElement
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::Http::Headers::Lexer*, System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*&, System::Net::Http::Headers::Token&)>(&System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::TryParseElement)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lexer = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "Lexer")->byval_arg;
     static auto* parsedValue = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "MediaTypeWithQualityHeaderValue")->this_arg;
     static auto* t = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "Token")->this_arg;
@@ -70,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: TryParse
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int, System::Collections::Generic::List_1<System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*>*&)>(&System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::TryParse)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* minimalCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* result = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "MediaTypeWithQualityHeaderValue")})->this_arg;

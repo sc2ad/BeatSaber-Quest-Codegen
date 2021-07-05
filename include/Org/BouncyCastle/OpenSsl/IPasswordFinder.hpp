@@ -27,7 +27,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::OpenSsl::IPasswordFinder*, "Org.Bouncy
 // Il2CppName: GetPassword
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (Org::BouncyCastle::OpenSsl::IPasswordFinder::*)()>(&Org::BouncyCastle::OpenSsl::IPasswordFinder::GetPassword)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::OpenSsl::IPasswordFinder*), "GetPassword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

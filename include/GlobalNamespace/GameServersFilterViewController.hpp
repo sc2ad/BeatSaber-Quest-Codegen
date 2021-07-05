@@ -180,7 +180,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServersFilterViewController*, "", "G
 // Il2CppName: get_gameServersFilter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameServersFilter* (GlobalNamespace::GameServersFilterViewController::*)()>(&GlobalNamespace::GameServersFilterViewController::get_gameServersFilter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServersFilterViewController*), "get_gameServersFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -188,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: SetupGameServersFilter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServersFilterViewController::*)(GlobalNamespace::GameServersFilter*)>(&GlobalNamespace::GameServersFilterViewController::SetupGameServersFilter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameServersFilter = &::il2cpp_utils::GetClassFromName("", "GameServersFilter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServersFilterViewController*), "SetupGameServersFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameServersFilter});
   }
@@ -197,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Refresh
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServersFilterViewController::*)(GlobalNamespace::GameServersFilter*)>(&GlobalNamespace::GameServersFilterViewController::Refresh)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* currentFilter = &::il2cpp_utils::GetClassFromName("", "GameServersFilter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServersFilterViewController*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{currentFilter});
   }
@@ -206,7 +206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <DidActivate>b__16_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServersFilterViewController::*)(bool)>(&GlobalNamespace::GameServersFilterViewController::$DidActivate$b__16_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* isOn = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServersFilterViewController*), "<DidActivate>b__16_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isOn});
   }
@@ -215,7 +215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <DidActivate>b__16_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServersFilterViewController::*)(bool)>(&GlobalNamespace::GameServersFilterViewController::$DidActivate$b__16_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* isOn = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServersFilterViewController*), "<DidActivate>b__16_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isOn});
   }
@@ -224,7 +224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <DidActivate>b__16_2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServersFilterViewController::*)(bool)>(&GlobalNamespace::GameServersFilterViewController::$DidActivate$b__16_2)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* isOn = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServersFilterViewController*), "<DidActivate>b__16_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isOn});
   }
@@ -233,7 +233,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: DidActivate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServersFilterViewController::*)(bool, bool, bool)>(&GlobalNamespace::GameServersFilterViewController::DidActivate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* firstActivation = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* addedToHierarchy = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* screenSystemEnabling = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -244,7 +244,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServersFilterViewController::*)()>(&GlobalNamespace::GameServersFilterViewController::OnDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServersFilterViewController*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

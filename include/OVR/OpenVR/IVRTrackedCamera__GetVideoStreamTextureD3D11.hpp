@@ -70,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRTrackedCamera::_GetVideoStreamTextureD3D1
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRTrackedCameraError (OVR::OpenVR::IVRTrackedCamera::_GetVideoStreamTextureD3D11::*)(uint64_t, OVR::OpenVR::EVRTrackedCameraFrameType, System::IntPtr, System::IntPtr&, OVR::OpenVR::CameraVideoStreamFrameHeader_t&, uint)>(&OVR::OpenVR::IVRTrackedCamera::_GetVideoStreamTextureD3D11::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hTrackedCamera = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eFrameType = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRTrackedCameraFrameType")->byval_arg;
     static auto* pD3D11DeviceOrResource = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRTrackedCamera::_GetVideoStreamTextureD3D11::*)(uint64_t, OVR::OpenVR::EVRTrackedCameraFrameType, System::IntPtr, System::IntPtr&, OVR::OpenVR::CameraVideoStreamFrameHeader_t&, uint, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRTrackedCamera::_GetVideoStreamTextureD3D11::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hTrackedCamera = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eFrameType = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRTrackedCameraFrameType")->byval_arg;
     static auto* pD3D11DeviceOrResource = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRTrackedCameraError (OVR::OpenVR::IVRTrackedCamera::_GetVideoStreamTextureD3D11::*)(System::IntPtr&, OVR::OpenVR::CameraVideoStreamFrameHeader_t&, System::IAsyncResult*)>(&OVR::OpenVR::IVRTrackedCamera::_GetVideoStreamTextureD3D11::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ppD3D11ShaderResourceView = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
     static auto* pFrameHeader = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "CameraVideoStreamFrameHeader_t")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;

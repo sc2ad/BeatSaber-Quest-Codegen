@@ -36,7 +36,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeConverter*, "", "ColorSchemeC
 // Il2CppName: FromNetSerializable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorScheme* (*)(GlobalNamespace::ColorSchemeNetSerializable)>(&GlobalNamespace::ColorSchemeConverter::FromNetSerializable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* serialized = &::il2cpp_utils::GetClassFromName("", "ColorSchemeNetSerializable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemeConverter*), "FromNetSerializable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serialized});
   }

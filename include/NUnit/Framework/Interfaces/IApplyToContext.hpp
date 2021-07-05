@@ -33,7 +33,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IApplyToContext*, "NUnit.Fr
 // Il2CppName: ApplyToContext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Interfaces::IApplyToContext::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&NUnit::Framework::Interfaces::IApplyToContext::ApplyToContext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "ITestExecutionContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::IApplyToContext*), "ApplyToContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }

@@ -117,7 +117,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemesSettings*, "", "ColorSchemes
 // Il2CppName: set_selectedColorSchemeId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorSchemesSettings::*)(::Il2CppString*)>(&GlobalNamespace::ColorSchemesSettings::set_selectedColorSchemeId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemesSettings*), "set_selectedColorSchemeId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -126,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_selectedColorSchemeId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::ColorSchemesSettings::*)()>(&GlobalNamespace::ColorSchemesSettings::get_selectedColorSchemeId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemesSettings*), "get_selectedColorSchemeId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: ConvertColorSchemeSOs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::ColorScheme*>* (*)(::Array<GlobalNamespace::ColorSchemeSO*>*)>(&GlobalNamespace::ColorSchemesSettings::ConvertColorSchemeSOs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* colorSchemeSOs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "ColorSchemeSO"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemesSettings*), "ConvertColorSchemeSOs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorSchemeSOs});
   }
@@ -151,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 // Il2CppName: GetNumberOfColorSchemes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::ColorSchemesSettings::*)()>(&GlobalNamespace::ColorSchemesSettings::GetNumberOfColorSchemes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemesSettings*), "GetNumberOfColorSchemes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -159,7 +159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: GetColorSchemeForIdx
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorScheme* (GlobalNamespace::ColorSchemesSettings::*)(int)>(&GlobalNamespace::ColorSchemesSettings::GetColorSchemeForIdx)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemesSettings*), "GetColorSchemeForIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{idx});
   }
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: GetColorSchemeForId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorScheme* (GlobalNamespace::ColorSchemesSettings::*)(::Il2CppString*)>(&GlobalNamespace::ColorSchemesSettings::GetColorSchemeForId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemesSettings*), "GetColorSchemeForId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id});
   }
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: SetColorSchemeForId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorSchemesSettings::*)(GlobalNamespace::ColorScheme*)>(&GlobalNamespace::ColorSchemesSettings::SetColorSchemeForId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* colorScheme = &::il2cpp_utils::GetClassFromName("", "ColorScheme")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemesSettings*), "SetColorSchemeForId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorScheme});
   }
@@ -186,7 +186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: GetSelectedColorScheme
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorScheme* (GlobalNamespace::ColorSchemesSettings::*)()>(&GlobalNamespace::ColorSchemesSettings::GetSelectedColorScheme)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemesSettings*), "GetSelectedColorScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -194,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: GetSelectedColorSchemeIdx
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::ColorSchemesSettings::*)()>(&GlobalNamespace::ColorSchemesSettings::GetSelectedColorSchemeIdx)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemesSettings*), "GetSelectedColorSchemeIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -202,7 +202,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: GetOverrideColorScheme
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorScheme* (GlobalNamespace::ColorSchemesSettings::*)()>(&GlobalNamespace::ColorSchemesSettings::GetOverrideColorScheme)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemesSettings*), "GetOverrideColorScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

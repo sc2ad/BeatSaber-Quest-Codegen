@@ -903,7 +903,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Globalization::DateTimeFormatInfo*, "System.Globa
 // Il2CppName: InitPreferExistingTokens
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Globalization::DateTimeFormatInfo::InitPreferExistingTokens)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "InitPreferExistingTokens", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -911,7 +911,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Il2CppName: get_CultureName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_CultureName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_CultureName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -919,7 +919,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_Culture
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_Culture)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_Culture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -927,7 +927,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Il2CppName: get_LanguageName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_LanguageName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_LanguageName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -935,7 +935,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: internalGetAbbreviatedDayOfWeekNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::internalGetAbbreviatedDayOfWeekNames)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "internalGetAbbreviatedDayOfWeekNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -943,7 +943,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: internalGetDayOfWeekNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::internalGetDayOfWeekNames)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "internalGetDayOfWeekNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -951,7 +951,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: internalGetAbbreviatedMonthNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::internalGetAbbreviatedMonthNames)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "internalGetAbbreviatedMonthNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -959,7 +959,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: internalGetMonthNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::internalGetMonthNames)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "internalGetMonthNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -971,7 +971,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: InitializeOverridableProperties
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfo::*)(System::Globalization::CultureData*, int)>(&System::Globalization::DateTimeFormatInfo::InitializeOverridableProperties)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cultureData = &::il2cpp_utils::GetClassFromName("System.Globalization", "CultureData")->byval_arg;
     static auto* calendarID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "InitializeOverridableProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cultureData, calendarID});
@@ -981,7 +981,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: OnDeserialized
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfo::*)(System::Runtime::Serialization::StreamingContext)>(&System::Globalization::DateTimeFormatInfo::OnDeserialized)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ctx = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "OnDeserialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ctx});
   }
@@ -990,7 +990,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: OnSerializing
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfo::*)(System::Runtime::Serialization::StreamingContext)>(&System::Globalization::DateTimeFormatInfo::OnSerializing)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ctx = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "OnSerializing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ctx});
   }
@@ -999,7 +999,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_InvariantInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::DateTimeFormatInfo* (*)()>(&System::Globalization::DateTimeFormatInfo::get_InvariantInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_InvariantInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1007,7 +1007,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Il2CppName: get_CurrentInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::DateTimeFormatInfo* (*)()>(&System::Globalization::DateTimeFormatInfo::get_CurrentInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_CurrentInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1015,7 +1015,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Il2CppName: GetInstance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::DateTimeFormatInfo* (*)(System::IFormatProvider*)>(&System::Globalization::DateTimeFormatInfo::GetInstance)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
   }
@@ -1024,7 +1024,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Il2CppName: GetFormat
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Globalization::DateTimeFormatInfo::*)(System::Type*)>(&System::Globalization::DateTimeFormatInfo::GetFormat)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* formatType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "GetFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{formatType});
   }
@@ -1033,7 +1033,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: Clone
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::Clone)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1041,7 +1041,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: get_AMDesignator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_AMDesignator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_AMDesignator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1049,7 +1049,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_Calendar
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::Calendar* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_Calendar)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_Calendar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1057,7 +1057,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Il2CppName: set_Calendar
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfo::*)(System::Globalization::Calendar*)>(&System::Globalization::DateTimeFormatInfo::set_Calendar)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Globalization", "Calendar")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "set_Calendar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1066,7 +1066,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_OptionalCalendars
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_OptionalCalendars)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_OptionalCalendars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1074,7 +1074,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int
 // Il2CppName: get_EraNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_EraNames)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_EraNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1082,7 +1082,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: GetEraName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)(int)>(&System::Globalization::DateTimeFormatInfo::GetEraName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* era = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "GetEraName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{era});
   }
@@ -1091,7 +1091,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_AbbreviatedEraNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_AbbreviatedEraNames)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_AbbreviatedEraNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1099,7 +1099,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: GetAbbreviatedEraName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)(int)>(&System::Globalization::DateTimeFormatInfo::GetAbbreviatedEraName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* era = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "GetAbbreviatedEraName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{era});
   }
@@ -1108,7 +1108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_AbbreviatedEnglishEraNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_AbbreviatedEnglishEraNames)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_AbbreviatedEnglishEraNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1116,7 +1116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: get_DateSeparator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_DateSeparator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_DateSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1124,7 +1124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_FullDateTimePattern
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_FullDateTimePattern)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_FullDateTimePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1132,7 +1132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_LongDatePattern
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_LongDatePattern)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_LongDatePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1140,7 +1140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_LongDatePattern
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfo::*)(::Il2CppString*)>(&System::Globalization::DateTimeFormatInfo::set_LongDatePattern)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "set_LongDatePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1149,7 +1149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_LongTimePattern
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_LongTimePattern)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_LongTimePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1157,7 +1157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_LongTimePattern
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfo::*)(::Il2CppString*)>(&System::Globalization::DateTimeFormatInfo::set_LongTimePattern)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "set_LongTimePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1166,7 +1166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_MonthDayPattern
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_MonthDayPattern)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_MonthDayPattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1174,7 +1174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_PMDesignator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_PMDesignator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_PMDesignator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1182,7 +1182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_RFC1123Pattern
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_RFC1123Pattern)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_RFC1123Pattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1190,7 +1190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_ShortDatePattern
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_ShortDatePattern)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_ShortDatePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1198,7 +1198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_ShortDatePattern
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfo::*)(::Il2CppString*)>(&System::Globalization::DateTimeFormatInfo::set_ShortDatePattern)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "set_ShortDatePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1207,7 +1207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_ShortTimePattern
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_ShortTimePattern)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_ShortTimePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1215,7 +1215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_ShortTimePattern
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfo::*)(::Il2CppString*)>(&System::Globalization::DateTimeFormatInfo::set_ShortTimePattern)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "set_ShortTimePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1224,7 +1224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_SortableDateTimePattern
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_SortableDateTimePattern)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_SortableDateTimePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1232,7 +1232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_GeneralShortTimePattern
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_GeneralShortTimePattern)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_GeneralShortTimePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1240,7 +1240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_GeneralLongTimePattern
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_GeneralLongTimePattern)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_GeneralLongTimePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1248,7 +1248,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_DateTimeOffsetPattern
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_DateTimeOffsetPattern)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_DateTimeOffsetPattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1256,7 +1256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_TimeSeparator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_TimeSeparator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_TimeSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1264,7 +1264,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_UniversalSortableDateTimePattern
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_UniversalSortableDateTimePattern)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_UniversalSortableDateTimePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1272,7 +1272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_YearMonthPattern
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_YearMonthPattern)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_YearMonthPattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1280,7 +1280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_YearMonthPattern
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfo::*)(::Il2CppString*)>(&System::Globalization::DateTimeFormatInfo::set_YearMonthPattern)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "set_YearMonthPattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1289,7 +1289,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_AbbreviatedDayNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_AbbreviatedDayNames)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_AbbreviatedDayNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1297,7 +1297,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: get_DayNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_DayNames)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_DayNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1305,7 +1305,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: get_AbbreviatedMonthNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_AbbreviatedMonthNames)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_AbbreviatedMonthNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1313,7 +1313,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: get_MonthNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_MonthNames)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_MonthNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1321,7 +1321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: get_HasSpacesInMonthNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_HasSpacesInMonthNames)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_HasSpacesInMonthNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1329,7 +1329,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_HasSpacesInDayNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_HasSpacesInDayNames)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_HasSpacesInDayNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1337,7 +1337,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: internalGetMonthName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)(int, System::Globalization::MonthNameStyles, bool)>(&System::Globalization::DateTimeFormatInfo::internalGetMonthName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* month = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* style = &::il2cpp_utils::GetClassFromName("System.Globalization", "MonthNameStyles")->byval_arg;
     static auto* abbreviated = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -1348,7 +1348,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: internalGetGenitiveMonthNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)(bool)>(&System::Globalization::DateTimeFormatInfo::internalGetGenitiveMonthNames)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* abbreviated = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "internalGetGenitiveMonthNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{abbreviated});
   }
@@ -1357,7 +1357,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: internalGetLeapYearMonthNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::internalGetLeapYearMonthNames)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "internalGetLeapYearMonthNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1365,7 +1365,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: GetAbbreviatedDayName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)(System::DayOfWeek)>(&System::Globalization::DateTimeFormatInfo::GetAbbreviatedDayName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* dayofweek = &::il2cpp_utils::GetClassFromName("System", "DayOfWeek")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "GetAbbreviatedDayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dayofweek});
   }
@@ -1374,7 +1374,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetCombinedPatterns
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Array<::Il2CppString*>*, ::Array<::Il2CppString*>*, ::Il2CppString*)>(&System::Globalization::DateTimeFormatInfo::GetCombinedPatterns)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* patterns1 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* patterns2 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* connectString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -1385,7 +1385,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: GetAllDateTimePatterns
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)(::Il2CppChar)>(&System::Globalization::DateTimeFormatInfo::GetAllDateTimePatterns)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "GetAllDateTimePatterns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format});
   }
@@ -1394,7 +1394,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: GetDayName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)(System::DayOfWeek)>(&System::Globalization::DateTimeFormatInfo::GetDayName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* dayofweek = &::il2cpp_utils::GetClassFromName("System", "DayOfWeek")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "GetDayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dayofweek});
   }
@@ -1403,7 +1403,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetAbbreviatedMonthName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)(int)>(&System::Globalization::DateTimeFormatInfo::GetAbbreviatedMonthName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* month = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "GetAbbreviatedMonthName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{month});
   }
@@ -1412,7 +1412,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetMonthName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)(int)>(&System::Globalization::DateTimeFormatInfo::GetMonthName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* month = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "GetMonthName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{month});
   }
@@ -1421,7 +1421,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetMergedPatterns
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Array<::Il2CppString*>*, ::Il2CppString*)>(&System::Globalization::DateTimeFormatInfo::GetMergedPatterns)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* patterns = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* defaultPattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "GetMergedPatterns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{patterns, defaultPattern});
@@ -1431,7 +1431,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: get_AllYearMonthPatterns
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_AllYearMonthPatterns)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_AllYearMonthPatterns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1439,7 +1439,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: get_AllShortDatePatterns
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_AllShortDatePatterns)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_AllShortDatePatterns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1447,7 +1447,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: get_AllShortTimePatterns
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_AllShortTimePatterns)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_AllShortTimePatterns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1455,7 +1455,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: get_AllLongDatePatterns
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_AllLongDatePatterns)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_AllLongDatePatterns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1463,7 +1463,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: get_AllLongTimePatterns
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_AllLongTimePatterns)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_AllLongTimePatterns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1471,7 +1471,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: get_UnclonedYearMonthPatterns
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_UnclonedYearMonthPatterns)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_UnclonedYearMonthPatterns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1479,7 +1479,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: get_UnclonedShortDatePatterns
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_UnclonedShortDatePatterns)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_UnclonedShortDatePatterns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1487,7 +1487,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: get_UnclonedLongDatePatterns
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_UnclonedLongDatePatterns)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_UnclonedLongDatePatterns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1495,7 +1495,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: get_UnclonedShortTimePatterns
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_UnclonedShortTimePatterns)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_UnclonedShortTimePatterns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1503,7 +1503,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: get_UnclonedLongTimePatterns
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_UnclonedLongTimePatterns)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_UnclonedLongTimePatterns", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1511,7 +1511,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: get_IsReadOnly
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_IsReadOnly)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_IsReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1519,7 +1519,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_MonthGenitiveNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_MonthGenitiveNames)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_MonthGenitiveNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1527,7 +1527,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: get_FullTimeSpanPositivePattern
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_FullTimeSpanPositivePattern)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_FullTimeSpanPositivePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1535,7 +1535,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_FullTimeSpanNegativePattern
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_FullTimeSpanNegativePattern)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_FullTimeSpanNegativePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1543,7 +1543,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_CompareInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CompareInfo* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_CompareInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_CompareInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1551,7 +1551,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Il2CppName: ValidateStyles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Globalization::DateTimeStyles, ::Il2CppString*)>(&System::Globalization::DateTimeFormatInfo::ValidateStyles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* style = &::il2cpp_utils::GetClassFromName("System.Globalization", "DateTimeStyles")->byval_arg;
     static auto* parameterName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "ValidateStyles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{style, parameterName});
@@ -1561,7 +1561,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: get_FormatFlags
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::DateTimeFormatFlags (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_FormatFlags)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_FormatFlags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1569,7 +1569,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Il2CppName: get_HasForceTwoDigitYears
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_HasForceTwoDigitYears)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_HasForceTwoDigitYears", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1577,7 +1577,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_HasYearMonthAdjustment
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::get_HasYearMonthAdjustment)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "get_HasYearMonthAdjustment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1585,7 +1585,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: YearMonthAdjustment
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::DateTimeFormatInfo::*)(int&, int&, bool)>(&System::Globalization::DateTimeFormatInfo::YearMonthAdjustment)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* year = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* month = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* parsedMonthName = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -1596,7 +1596,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: GetJapaneseCalendarDTFI
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::DateTimeFormatInfo* (*)()>(&System::Globalization::DateTimeFormatInfo::GetJapaneseCalendarDTFI)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "GetJapaneseCalendarDTFI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1604,7 +1604,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Il2CppName: GetTaiwanCalendarDTFI
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::DateTimeFormatInfo* (*)()>(&System::Globalization::DateTimeFormatInfo::GetTaiwanCalendarDTFI)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "GetTaiwanCalendarDTFI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1612,7 +1612,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Il2CppName: ClearTokenHashTable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::ClearTokenHashTable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "ClearTokenHashTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1620,7 +1620,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: CreateTokenHashTable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Globalization::TokenHashValue*>* (System::Globalization::DateTimeFormatInfo::*)()>(&System::Globalization::DateTimeFormatInfo::CreateTokenHashTable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "CreateTokenHashTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1628,7 +1628,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Sys
 // Il2CppName: AddMonthNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfo::*)(::Array<System::Globalization::TokenHashValue*>*, ::Il2CppString*)>(&System::Globalization::DateTimeFormatInfo::AddMonthNames)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* temp = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Globalization", "TokenHashValue"), 1)->byval_arg;
     static auto* monthPostfix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "AddMonthNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{temp, monthPostfix});
@@ -1638,7 +1638,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: TryParseHebrewNumber
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::__DTString&, bool&, int&)>(&System::Globalization::DateTimeFormatInfo::TryParseHebrewNumber)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "__DTString")->this_arg;
     static auto* badFormat = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
     static auto* number = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -1649,7 +1649,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: IsHebrewChar
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&System::Globalization::DateTimeFormatInfo::IsHebrewChar)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), "IsHebrewChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch});
   }
@@ -1658,7 +1658,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: Tokenize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::DateTimeFormatInfo::*)(System::TokenType, System::TokenType&, int&, System::__DTString&)>(&System::Globalization::DateTimeFormatInfo::Tokenize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* TokenMask = &::il2cpp_utils::GetClassFromName("System", "TokenType")->byval_arg;
     static auto* tokenType = &::il2cpp_utils::GetClassFromName("System", "TokenType")->this_arg;
     static auto* tokenValue = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -1670,7 +1670,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: InsertAtCurrentHashNode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfo::*)(::Array<System::Globalization::TokenHashValue*>*, ::Il2CppString*, ::Il2CppChar, System::TokenType, int, int, int, int)>(&System::Globalization::DateTimeFormatInfo::InsertAtCurrentHashNode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hashTable = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Globalization", "TokenHashValue"), 1)->byval_arg;
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
@@ -1686,7 +1686,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: InsertHash
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfo::*)(::Array<System::Globalization::TokenHashValue*>*, ::Il2CppString*, System::TokenType, int)>(&System::Globalization::DateTimeFormatInfo::InsertHash)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hashTable = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Globalization", "TokenHashValue"), 1)->byval_arg;
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* tokenType = &::il2cpp_utils::GetClassFromName("System", "TokenType")->byval_arg;
@@ -1698,7 +1698,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Globalization::DateTimeFormatInfo::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfo*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

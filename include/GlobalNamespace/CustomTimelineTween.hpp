@@ -69,7 +69,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomTimelineTween*, "", "CustomTimelin
 // Il2CppName: OnValidate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CustomTimelineTween::*)()>(&GlobalNamespace::CustomTimelineTween::OnValidate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomTimelineTween*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

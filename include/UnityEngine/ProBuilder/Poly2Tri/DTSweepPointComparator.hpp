@@ -52,7 +52,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator
 // Il2CppName: Compare
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator::*)(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator::Compare)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* p1 = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder.Poly2Tri", "TriangulationPoint")->byval_arg;
     static auto* p2 = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder.Poly2Tri", "TriangulationPoint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p1, p2});

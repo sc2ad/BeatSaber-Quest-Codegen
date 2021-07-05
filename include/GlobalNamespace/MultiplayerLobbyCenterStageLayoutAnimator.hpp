@@ -106,7 +106,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimato
 // Il2CppName: StartCountdown
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::*)()>(&GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::StartCountdown)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator*), "StartCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -114,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: StopCountdown
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::*)(bool)>(&GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::StopCountdown)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* instant = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator*), "StopCountdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{instant});
   }
@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Move
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::Move)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* from = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* to = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -134,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <Move>b__7_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::*)(UnityEngine::Vector3)>(&GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator::$Move$b__7_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator*), "<Move>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pos});
   }

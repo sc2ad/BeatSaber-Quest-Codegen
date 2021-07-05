@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRRenderModels::_LoadTextureD3D11_Async*, "
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRRenderModelError (OVR::OpenVR::IVRRenderModels::_LoadTextureD3D11_Async::*)(int, System::IntPtr, System::IntPtr&)>(&OVR::OpenVR::IVRRenderModels::_LoadTextureD3D11_Async::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* textureId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* pD3D11Device = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* ppD3D11Texture2D = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRRenderModels::_LoadTextureD3D11_Async::*)(int, System::IntPtr, System::IntPtr&, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRRenderModels::_LoadTextureD3D11_Async::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* textureId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* pD3D11Device = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* ppD3D11Texture2D = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRRenderModelError (OVR::OpenVR::IVRRenderModels::_LoadTextureD3D11_Async::*)(System::IntPtr&, System::IAsyncResult*)>(&OVR::OpenVR::IVRRenderModels::_LoadTextureD3D11_Async::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ppD3D11Texture2D = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRRenderModels::_LoadTextureD3D11_Async*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ppD3D11Texture2D, result});

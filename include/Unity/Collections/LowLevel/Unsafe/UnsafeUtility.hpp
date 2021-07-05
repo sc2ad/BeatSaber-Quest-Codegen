@@ -124,7 +124,7 @@ DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::UnsafeUtility*, "Un
 // Il2CppName: Free
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, Unity::Collections::Allocator)>(&Unity::Collections::LowLevel::Unsafe::UnsafeUtility::Free)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* memory = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Void"))->byval_arg;
     static auto* allocator = &::il2cpp_utils::GetClassFromName("Unity.Collections", "Allocator")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Unity::Collections::LowLevel::Unsafe::UnsafeUtility*), "Free", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{memory, allocator});
@@ -134,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(vo
 // Il2CppName: IsBlittable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsBlittable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Unity::Collections::LowLevel::Unsafe::UnsafeUtility*), "IsBlittable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
@@ -143,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: IsBlittableValueType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsBlittableValueType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Unity::Collections::LowLevel::Unsafe::UnsafeUtility*), "IsBlittableValueType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
@@ -152,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: GetReasonForTypeNonBlittableImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Type*, ::Il2CppString*)>(&Unity::Collections::LowLevel::Unsafe::UnsafeUtility::GetReasonForTypeNonBlittableImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Unity::Collections::LowLevel::Unsafe::UnsafeUtility*), "GetReasonForTypeNonBlittableImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t, name});
@@ -162,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: IsArrayBlittable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Array*)>(&Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsArrayBlittable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* arr = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Unity::Collections::LowLevel::Unsafe::UnsafeUtility*), "IsArrayBlittable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{arr});
   }
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: GetReasonForArrayNonBlittable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Array*)>(&Unity::Collections::LowLevel::Unsafe::UnsafeUtility::GetReasonForArrayNonBlittable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* arr = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Unity::Collections::LowLevel::Unsafe::UnsafeUtility*), "GetReasonForArrayNonBlittable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{arr});
   }

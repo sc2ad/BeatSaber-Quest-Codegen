@@ -74,7 +74,7 @@ DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizedText*, "Polyglot", "LocalizedText");
 // Il2CppName: SetText
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LocalizedText::*)(UnityEngine::UI::Text*, ::Il2CppString*)>(&Polyglot::LocalizedText::SetText)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Text")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizedText*), "SetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text, value});
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyg
 // Il2CppName: UpdateAlignment
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LocalizedText::*)(UnityEngine::UI::Text*, Polyglot::LanguageDirection)>(&Polyglot::LocalizedText::UpdateAlignment)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Text")->byval_arg;
     static auto* direction = &::il2cpp_utils::GetClassFromName("Polyglot", "LanguageDirection")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizedText*), "UpdateAlignment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text, direction});
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyg
 // Il2CppName: IsOppositeDirection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyglot::LocalizedText::*)(UnityEngine::TextAnchor, Polyglot::LanguageDirection)>(&Polyglot::LocalizedText::IsOppositeDirection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* alignment = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextAnchor")->byval_arg;
     static auto* direction = &::il2cpp_utils::GetClassFromName("Polyglot", "LanguageDirection")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizedText*), "IsOppositeDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{alignment, direction});
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyg
 // Il2CppName: IsAlignmentRight
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyglot::LocalizedText::*)(UnityEngine::TextAnchor)>(&Polyglot::LocalizedText::IsAlignmentRight)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* alignment = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextAnchor")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizedText*), "IsAlignmentRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{alignment});
   }
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyg
 // Il2CppName: IsAlignmentLeft
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyglot::LocalizedText::*)(UnityEngine::TextAnchor)>(&Polyglot::LocalizedText::IsAlignmentLeft)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* alignment = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextAnchor")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizedText*), "IsAlignmentLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{alignment});
   }

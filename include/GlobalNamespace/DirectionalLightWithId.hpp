@@ -82,7 +82,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DirectionalLightWithId*, "", "Directiona
 // Il2CppName: ColorWasSet
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DirectionalLightWithId::*)(UnityEngine::Color)>(&GlobalNamespace::DirectionalLightWithId::ColorWasSet)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DirectionalLightWithId*), "ColorWasSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color});
   }

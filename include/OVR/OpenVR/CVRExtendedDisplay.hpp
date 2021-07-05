@@ -70,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRExtendedDisplay*, "OVR.OpenVR", "CVRExten
 // Il2CppName: GetWindowBounds
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRExtendedDisplay::*)(int&, int&, uint&, uint&)>(&OVR::OpenVR::CVRExtendedDisplay::GetWindowBounds)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pnX = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* pnY = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* pnWidth = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Il2CppName: GetEyeOutputViewport
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRExtendedDisplay::*)(OVR::OpenVR::EVREye, uint&, uint&, uint&, uint&)>(&OVR::OpenVR::CVRExtendedDisplay::GetEyeOutputViewport)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eEye = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVREye")->byval_arg;
     static auto* pnX = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
     static auto* pnY = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Il2CppName: GetDXGIOutputInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRExtendedDisplay::*)(int&, int&)>(&OVR::OpenVR::CVRExtendedDisplay::GetDXGIOutputInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pnAdapterIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* pnAdapterOutputIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRExtendedDisplay*), "GetDXGIOutputInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pnAdapterIndex, pnAdapterOutputIndex});

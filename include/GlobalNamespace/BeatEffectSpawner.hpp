@@ -148,7 +148,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatEffectSpawner*, "", "BeatEffectSpawn
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatEffectSpawner::*)(GlobalNamespace::BeatEffect::Pool*)>(&GlobalNamespace::BeatEffectSpawner::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatEffectPool = &::il2cpp_utils::GetClassFromName("", "BeatEffect/Pool")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatEffectSpawner*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatEffectPool});
   }
@@ -157,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatEffectSpawner::*)()>(&GlobalNamespace::BeatEffectSpawner::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatEffectSpawner*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatEffectSpawner::*)()>(&GlobalNamespace::BeatEffectSpawner::OnDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatEffectSpawner*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -173,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Update
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatEffectSpawner::*)()>(&GlobalNamespace::BeatEffectSpawner::Update)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatEffectSpawner*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -181,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleNoteDidStartJump
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatEffectSpawner::*)(GlobalNamespace::NoteController*)>(&GlobalNamespace::BeatEffectSpawner::HandleNoteDidStartJump)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* noteController = &::il2cpp_utils::GetClassFromName("", "NoteController")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatEffectSpawner*), "HandleNoteDidStartJump", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteController});
   }
@@ -190,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleBeatEffectDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatEffectSpawner::*)(GlobalNamespace::BeatEffect*)>(&GlobalNamespace::BeatEffectSpawner::HandleBeatEffectDidFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatEffect = &::il2cpp_utils::GetClassFromName("", "BeatEffect")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatEffectSpawner*), "HandleBeatEffectDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatEffect});
   }

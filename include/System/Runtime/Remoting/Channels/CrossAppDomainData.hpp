@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::CrossAppDomainData*,
 // Il2CppName: get_DomainID
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Runtime::Remoting::Channels::CrossAppDomainData::*)()>(&System::Runtime::Remoting::Channels::CrossAppDomainData::get_DomainID)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::CrossAppDomainData*), "get_DomainID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: get_ProcessID
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Channels::CrossAppDomainData::*)()>(&System::Runtime::Remoting::Channels::CrossAppDomainData::get_ProcessID)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::CrossAppDomainData*), "get_ProcessID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

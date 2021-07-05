@@ -76,7 +76,7 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollViewItemsVisibilityController::$$c*, "HMUI", 
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&HMUI::ScrollViewItemsVisibilityController::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollViewItemsVisibilityController::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <Start>b__11_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::ScrollViewItemsVisibilityController::$$c::*)(System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*)>(&HMUI::ScrollViewItemsVisibilityController::$$c::$Start$b__11_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* item = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Tuple`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("HMUI", "ScrollViewItemForVisibilityController"), ::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollViewItemsVisibilityController::$$c*), "<Start>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{item});
   }
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI
 // Il2CppName: <Start>b__11_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::ScrollViewItemsVisibilityController::$$c::*)(System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*)>(&HMUI::ScrollViewItemsVisibilityController::$$c::$Start$b__11_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* item = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Tuple`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("HMUI", "ScrollViewItemForVisibilityController"), ::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollViewItemsVisibilityController::$$c*), "<Start>b__11_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{item});
   }

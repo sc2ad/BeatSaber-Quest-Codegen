@@ -73,7 +73,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OverrideEnvironmentSettings*, "", "Overr
 // Il2CppName: SetEnvironmentInfoForType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OverrideEnvironmentSettings::*)(GlobalNamespace::EnvironmentTypeSO*, GlobalNamespace::EnvironmentInfoSO*)>(&GlobalNamespace::OverrideEnvironmentSettings::SetEnvironmentInfoForType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* environmentType = &::il2cpp_utils::GetClassFromName("", "EnvironmentTypeSO")->byval_arg;
     static auto* environmentInfo = &::il2cpp_utils::GetClassFromName("", "EnvironmentInfoSO")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OverrideEnvironmentSettings*), "SetEnvironmentInfoForType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{environmentType, environmentInfo});
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: GetOverrideEnvironmentInfoForType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentInfoSO* (GlobalNamespace::OverrideEnvironmentSettings::*)(GlobalNamespace::EnvironmentTypeSO*)>(&GlobalNamespace::OverrideEnvironmentSettings::GetOverrideEnvironmentInfoForType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* environmentType = &::il2cpp_utils::GetClassFromName("", "EnvironmentTypeSO")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OverrideEnvironmentSettings*), "GetOverrideEnvironmentInfoForType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{environmentType});
   }

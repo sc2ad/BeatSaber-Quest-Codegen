@@ -55,7 +55,7 @@ DEFINE_IL2CPP_ARG_TYPE(DataModels::PlayerAvatar::AvatarRandomizer*, "DataModels.
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&DataModels::PlayerAvatar::AvatarRandomizer::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(DataModels::PlayerAvatar::AvatarRandomizer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -63,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: RandomizeAll
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::AvatarData*, GlobalNamespace::AvatarPartsModel*)>(&DataModels::PlayerAvatar::AvatarRandomizer::RandomizeAll)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* avatarData = &::il2cpp_utils::GetClassFromName("", "AvatarData")->byval_arg;
     static auto* avatarPartsModel = &::il2cpp_utils::GetClassFromName("", "AvatarPartsModel")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(DataModels::PlayerAvatar::AvatarRandomizer*), "RandomizeAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{avatarData, avatarPartsModel});
@@ -73,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Gl
 // Il2CppName: RandomizeModels
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::AvatarData*, GlobalNamespace::AvatarPartsModel*)>(&DataModels::PlayerAvatar::AvatarRandomizer::RandomizeModels)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* avatarData = &::il2cpp_utils::GetClassFromName("", "AvatarData")->byval_arg;
     static auto* avatarPartsModel = &::il2cpp_utils::GetClassFromName("", "AvatarPartsModel")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(DataModels::PlayerAvatar::AvatarRandomizer*), "RandomizeModels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{avatarData, avatarPartsModel});
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Gl
 // Il2CppName: RandomizeColors
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::AvatarData*)>(&DataModels::PlayerAvatar::AvatarRandomizer::RandomizeColors)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* avatarData = &::il2cpp_utils::GetClassFromName("", "AvatarData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(DataModels::PlayerAvatar::AvatarRandomizer*), "RandomizeColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{avatarData});
   }

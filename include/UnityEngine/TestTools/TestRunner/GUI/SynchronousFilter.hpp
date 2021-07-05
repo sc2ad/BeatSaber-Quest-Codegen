@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::GUI::SynchronousFilte
 // Il2CppName: ToXml
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::TNode* (UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::*)(bool)>(&UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::ToXml)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* recursive = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter*), "ToXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{recursive});
   }
@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Il2CppName: AddToXml
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::TNode* (UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::*)(NUnit::Framework::Interfaces::TNode*, bool)>(&UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::AddToXml)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* parentNode = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "TNode")->byval_arg;
     static auto* recursive = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter*), "AddToXml", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parentNode, recursive});
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Il2CppName: Pass
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::*)(NUnit::Framework::Interfaces::ITest*)>(&UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::Pass)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* test = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter*), "Pass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{test});
   }
@@ -96,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: IsExplicitMatch
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::*)(NUnit::Framework::Interfaces::ITest*)>(&UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::IsExplicitMatch)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* test = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter*), "IsExplicitMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{test});
   }

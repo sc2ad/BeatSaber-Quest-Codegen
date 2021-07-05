@@ -41,7 +41,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::KeyBuilder*, "Mono.Security
 // Il2CppName: get_Rng
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RandomNumberGenerator* (*)()>(&Mono::Security::Cryptography::KeyBuilder::get_Rng)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::KeyBuilder*), "get_Rng", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -49,7 +49,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Il2CppName: Key
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(int)>(&Mono::Security::Cryptography::KeyBuilder::Key)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::KeyBuilder*), "Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{size});
   }

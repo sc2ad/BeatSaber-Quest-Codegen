@@ -54,7 +54,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Reflect::BaseTypesFirstCompar
 // Il2CppName: Compare
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NUnit::Framework::Internal::Reflect::BaseTypesFirstComparer::*)(System::Reflection::MethodInfo*, System::Reflection::MethodInfo*)>(&NUnit::Framework::Internal::Reflect::BaseTypesFirstComparer::Compare)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* m1 = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
     static auto* m2 = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Reflect::BaseTypesFirstComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{m1, m2});

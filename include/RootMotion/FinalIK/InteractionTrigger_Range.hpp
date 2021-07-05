@@ -94,7 +94,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTrigger::Range*, "RootMot
 // Il2CppName: IsInRange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::InteractionTrigger::Range::*)(UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::RaycastHit, UnityEngine::Transform*, float&)>(&RootMotion::FinalIK::InteractionTrigger::Range::IsInRange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* character = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* raycastFrom = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* raycastHit = &::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit")->byval_arg;

@@ -82,7 +82,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardEntry*, "", "LeaderboardEntry
 // Il2CppName: SetScore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardEntry::*)(int, ::Il2CppString*, int, bool, bool)>(&GlobalNamespace::LeaderboardEntry::SetScore)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* score = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* playerName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* rank = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

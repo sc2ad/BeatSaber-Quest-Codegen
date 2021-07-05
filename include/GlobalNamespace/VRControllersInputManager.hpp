@@ -147,7 +147,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersInputManager*, "", "VRContr
 // Il2CppName: TriggerValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::VRControllersInputManager::*)(UnityEngine::XR::XRNode)>(&GlobalNamespace::VRControllersInputManager::TriggerValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersInputManager*), "TriggerValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
   }
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: VerticalAxisValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::VRControllersInputManager::*)(UnityEngine::XR::XRNode)>(&GlobalNamespace::VRControllersInputManager::VerticalAxisValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersInputManager*), "VerticalAxisValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
   }
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: HorizontalAxisValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::VRControllersInputManager::*)(UnityEngine::XR::XRNode)>(&GlobalNamespace::VRControllersInputManager::HorizontalAxisValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* node = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersInputManager*), "HorizontalAxisValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
   }
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: MenuButtonDown
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::VRControllersInputManager::*)()>(&GlobalNamespace::VRControllersInputManager::MenuButtonDown)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersInputManager*), "MenuButtonDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -182,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: MenuButton
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::VRControllersInputManager::*)()>(&GlobalNamespace::VRControllersInputManager::MenuButton)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersInputManager*), "MenuButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

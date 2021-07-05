@@ -113,7 +113,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::TextD
 // Il2CppName: GetPercentComplete
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::GetPercentComplete)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp*), "GetPercentComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::*)(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle, UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*, bool)>(&UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* provideHandle = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceProviders", "ProvideHandle")->byval_arg;
     static auto* rawProvider = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceProviders", "TextDataProvider")->byval_arg;
     static auto* ignoreFailures = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -132,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: WaitForCompletionHandler
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::*)()>(&UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::WaitForCompletionHandler)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp*), "WaitForCompletionHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: RequestOperation_completed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::*)(UnityEngine::AsyncOperation*)>(&UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::RequestOperation_completed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* op = &::il2cpp_utils::GetClassFromName("UnityEngine", "AsyncOperation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp*), "RequestOperation_completed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{op});
   }
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: ConvertText
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::*)(::Il2CppString*)>(&UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::ConvertText)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp*), "ConvertText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});
   }
@@ -158,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: <Start>b__7_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::*)(UnityEngine::Networking::UnityWebRequestAsyncOperation*)>(&UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp::$Start$b__7_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* asyncOperation = &::il2cpp_utils::GetClassFromName("UnityEngine.Networking", "UnityWebRequestAsyncOperation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp*), "<Start>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncOperation});
   }

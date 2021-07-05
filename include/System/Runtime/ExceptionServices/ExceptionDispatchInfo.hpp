@@ -71,7 +71,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ExceptionServices::ExceptionDispatchInfo
 // Il2CppName: get_BinaryStackTraceArray
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::ExceptionServices::ExceptionDispatchInfo::*)()>(&System::Runtime::ExceptionServices::ExceptionDispatchInfo::get_BinaryStackTraceArray)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::ExceptionServices::ExceptionDispatchInfo*), "get_BinaryStackTraceArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: Capture
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::ExceptionServices::ExceptionDispatchInfo* (*)(System::Exception*)>(&System::Runtime::ExceptionServices::ExceptionDispatchInfo::Capture)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::ExceptionServices::ExceptionDispatchInfo*), "Capture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source});
   }
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: get_SourceException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (System::Runtime::ExceptionServices::ExceptionDispatchInfo::*)()>(&System::Runtime::ExceptionServices::ExceptionDispatchInfo::get_SourceException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::ExceptionServices::ExceptionDispatchInfo*), "get_SourceException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -96,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Il2CppName: Throw
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::ExceptionServices::ExceptionDispatchInfo::*)()>(&System::Runtime::ExceptionServices::ExceptionDispatchInfo::Throw)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::ExceptionServices::ExceptionDispatchInfo*), "Throw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

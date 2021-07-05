@@ -272,7 +272,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RenderTexture*, "UnityEngine", "RenderTextur
 // Il2CppName: get_graphicsFormat
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Experimental::Rendering::GraphicsFormat (UnityEngine::RenderTexture::*)()>(&UnityEngine::RenderTexture::get_graphicsFormat)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "get_graphicsFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -280,7 +280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_graphicsFormat
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTexture::*)(UnityEngine::Experimental::Rendering::GraphicsFormat)>(&UnityEngine::RenderTexture::set_graphicsFormat)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.Rendering", "GraphicsFormat")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "set_graphicsFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -289,7 +289,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_vrUsage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::VRTextureUsage (UnityEngine::RenderTexture::*)()>(&UnityEngine::RenderTexture::get_vrUsage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "get_vrUsage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -297,7 +297,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_format
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTextureFormat (UnityEngine::RenderTexture::*)()>(&UnityEngine::RenderTexture::get_format)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "get_format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -305,7 +305,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_antiAliasing
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::RenderTexture::*)()>(&UnityEngine::RenderTexture::get_antiAliasing)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "get_antiAliasing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -313,7 +313,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: set_antiAliasing
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTexture::*)(int)>(&UnityEngine::RenderTexture::set_antiAliasing)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "set_antiAliasing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -322,7 +322,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetActive
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (*)()>(&UnityEngine::RenderTexture::GetActive)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "GetActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -330,7 +330,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: SetActive
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RenderTexture*)>(&UnityEngine::RenderTexture::SetActive)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rt = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "SetActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rt});
   }
@@ -339,7 +339,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: get_active
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (*)()>(&UnityEngine::RenderTexture::get_active)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "get_active", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -347,7 +347,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_active
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RenderTexture*)>(&UnityEngine::RenderTexture::set_active)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "set_active", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -356,7 +356,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: GetColorBuffer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderBuffer (UnityEngine::RenderTexture::*)()>(&UnityEngine::RenderTexture::GetColorBuffer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "GetColorBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -364,7 +364,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetDepthBuffer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderBuffer (UnityEngine::RenderTexture::*)()>(&UnityEngine::RenderTexture::GetDepthBuffer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "GetDepthBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -372,7 +372,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_colorBuffer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderBuffer (UnityEngine::RenderTexture::*)()>(&UnityEngine::RenderTexture::get_colorBuffer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "get_colorBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -380,7 +380,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_depthBuffer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderBuffer (UnityEngine::RenderTexture::*)()>(&UnityEngine::RenderTexture::get_depthBuffer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "get_depthBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -388,7 +388,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: DiscardContents
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTexture::*)(bool, bool)>(&UnityEngine::RenderTexture::DiscardContents)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* discardColor = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* discardDepth = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "DiscardContents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{discardColor, discardDepth});
@@ -398,7 +398,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: DiscardContents
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTexture::*)()>(&UnityEngine::RenderTexture::DiscardContents)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "DiscardContents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -406,7 +406,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Create
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::RenderTexture::*)()>(&UnityEngine::RenderTexture::Create)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -414,7 +414,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: Release
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTexture::*)()>(&UnityEngine::RenderTexture::Release)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -422,7 +422,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: IsCreated
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::RenderTexture::*)()>(&UnityEngine::RenderTexture::IsCreated)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "IsCreated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -430,7 +430,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: SetSRGBReadWrite
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTexture::*)(bool)>(&UnityEngine::RenderTexture::SetSRGBReadWrite)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* srgb = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "SetSRGBReadWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{srgb});
   }
@@ -439,7 +439,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Internal_Create
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RenderTexture*)>(&UnityEngine::RenderTexture::Internal_Create)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rt = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "Internal_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rt});
   }
@@ -448,7 +448,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: SetRenderTextureDescriptor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTexture::*)(UnityEngine::RenderTextureDescriptor)>(&UnityEngine::RenderTexture::SetRenderTextureDescriptor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* desc = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTextureDescriptor")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "SetRenderTextureDescriptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{desc});
   }
@@ -457,7 +457,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetDescriptor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTextureDescriptor (UnityEngine::RenderTexture::*)()>(&UnityEngine::RenderTexture::GetDescriptor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "GetDescriptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -465,7 +465,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetTemporary_Internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (*)(UnityEngine::RenderTextureDescriptor)>(&UnityEngine::RenderTexture::GetTemporary_Internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* desc = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTextureDescriptor")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "GetTemporary_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{desc});
   }
@@ -474,7 +474,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: ReleaseTemporary
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RenderTexture*)>(&UnityEngine::RenderTexture::ReleaseTemporary)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* temp = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "ReleaseTemporary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{temp});
   }
@@ -483,7 +483,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: set_depth
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTexture::*)(int)>(&UnityEngine::RenderTexture::set_depth)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "set_depth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -528,7 +528,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_descriptor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTextureDescriptor (UnityEngine::RenderTexture::*)()>(&UnityEngine::RenderTexture::get_descriptor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "get_descriptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -536,7 +536,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_descriptor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTexture::*)(UnityEngine::RenderTextureDescriptor)>(&UnityEngine::RenderTexture::set_descriptor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTextureDescriptor")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "set_descriptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -545,7 +545,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: ValidateRenderTextureDesc
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RenderTextureDescriptor)>(&UnityEngine::RenderTexture::ValidateRenderTextureDesc)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* desc = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTextureDescriptor")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "ValidateRenderTextureDesc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{desc});
   }
@@ -554,7 +554,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: GetCompatibleFormat
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Experimental::Rendering::GraphicsFormat (*)(UnityEngine::RenderTextureFormat, UnityEngine::RenderTextureReadWrite)>(&UnityEngine::RenderTexture::GetCompatibleFormat)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* renderTextureFormat = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTextureFormat")->byval_arg;
     static auto* readWrite = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTextureReadWrite")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "GetCompatibleFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{renderTextureFormat, readWrite});
@@ -564,7 +564,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetTemporary
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (*)(UnityEngine::RenderTextureDescriptor)>(&UnityEngine::RenderTexture::GetTemporary)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* desc = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTextureDescriptor")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "GetTemporary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{desc});
   }
@@ -573,7 +573,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetTemporaryImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (*)(int, int, int, UnityEngine::Experimental::Rendering::GraphicsFormat, int, UnityEngine::RenderTextureMemoryless, UnityEngine::VRTextureUsage, bool)>(&UnityEngine::RenderTexture::GetTemporaryImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* width = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* height = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* depthBuffer = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -589,7 +589,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetTemporary
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (*)(int, int, int, UnityEngine::RenderTextureFormat, UnityEngine::RenderTextureReadWrite, int)>(&UnityEngine::RenderTexture::GetTemporary)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* width = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* height = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* depthBuffer = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -603,7 +603,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetTemporary
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (*)(int, int, int, UnityEngine::RenderTextureFormat, UnityEngine::RenderTextureReadWrite)>(&UnityEngine::RenderTexture::GetTemporary)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* width = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* height = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* depthBuffer = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -616,7 +616,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetTemporary
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (*)(int, int)>(&UnityEngine::RenderTexture::GetTemporary)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* width = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* height = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "GetTemporary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{width, height});
@@ -626,7 +626,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetColorBuffer_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTexture::*)(UnityEngine::RenderBuffer&)>(&UnityEngine::RenderTexture::GetColorBuffer_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderBuffer")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "GetColorBuffer_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
   }
@@ -635,7 +635,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetDepthBuffer_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTexture::*)(UnityEngine::RenderBuffer&)>(&UnityEngine::RenderTexture::GetDepthBuffer_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderBuffer")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "GetDepthBuffer_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
   }
@@ -644,7 +644,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetRenderTextureDescriptor_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTexture::*)(UnityEngine::RenderTextureDescriptor&)>(&UnityEngine::RenderTexture::SetRenderTextureDescriptor_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* desc = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTextureDescriptor")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "SetRenderTextureDescriptor_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{desc});
   }
@@ -653,7 +653,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetDescriptor_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTexture::*)(UnityEngine::RenderTextureDescriptor&)>(&UnityEngine::RenderTexture::GetDescriptor_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTextureDescriptor")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "GetDescriptor_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
   }
@@ -662,7 +662,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetTemporary_Internal_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (*)(UnityEngine::RenderTextureDescriptor&)>(&UnityEngine::RenderTexture::GetTemporary_Internal_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* desc = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTextureDescriptor")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "GetTemporary_Internal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{desc});
   }
@@ -671,7 +671,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_width
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::RenderTexture::*)()>(&UnityEngine::RenderTexture::get_width)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "get_width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -679,7 +679,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: set_width
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTexture::*)(int)>(&UnityEngine::RenderTexture::set_width)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "set_width", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -688,7 +688,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_height
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::RenderTexture::*)()>(&UnityEngine::RenderTexture::get_height)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "get_height", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -696,7 +696,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: set_height
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTexture::*)(int)>(&UnityEngine::RenderTexture::set_height)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "set_height", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -705,7 +705,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: set_dimension
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RenderTexture::*)(UnityEngine::Rendering::TextureDimension)>(&UnityEngine::RenderTexture::set_dimension)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "TextureDimension")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RenderTexture*), "set_dimension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

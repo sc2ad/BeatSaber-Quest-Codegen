@@ -56,7 +56,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalLeaderboardTableView*, "", "LocalLe
 // Il2CppName: SetScores
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalLeaderboardTableView::*)(System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::ScoreData*>*, int, int)>(&GlobalNamespace::LocalLeaderboardTableView::SetScores)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* scores = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "LocalLeaderboardsModel/ScoreData")})->byval_arg;
     static auto* specialScorePos = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* maxNumberOfCells = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

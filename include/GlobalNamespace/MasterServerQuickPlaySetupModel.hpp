@@ -141,7 +141,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerQuickPlaySetupModel*, "", "M
 // Il2CppName: GetQuickPlaySetupAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerQuickPlaySetupData*>* (GlobalNamespace::MasterServerQuickPlaySetupModel::*)(System::Threading::CancellationToken)>(&GlobalNamespace::MasterServerQuickPlaySetupModel::GetQuickPlaySetupAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerQuickPlaySetupModel*), "GetQuickPlaySetupAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
   }
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerQuickPlaySetupModel::*)()>(&GlobalNamespace::MasterServerQuickPlaySetupModel::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerQuickPlaySetupModel*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -158,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: StartRequest
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MasterServerQuickPlaySetupModel::*)()>(&GlobalNamespace::MasterServerQuickPlaySetupModel::StartRequest)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerQuickPlaySetupModel*), "StartRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -166,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: GetQuickPlaySetupInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::MasterServerQuickPlaySetupData*>* (GlobalNamespace::MasterServerQuickPlaySetupModel::*)()>(&GlobalNamespace::MasterServerQuickPlaySetupModel::GetQuickPlaySetupInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerQuickPlaySetupModel*), "GetQuickPlaySetupInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: IsQuickPlaySetupTaskValid
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MasterServerQuickPlaySetupModel::*)()>(&GlobalNamespace::MasterServerQuickPlaySetupModel::IsQuickPlaySetupTaskValid)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerQuickPlaySetupModel*), "IsQuickPlaySetupTaskValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -182,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: IsUrlValid
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MasterServerQuickPlaySetupModel::*)(::Il2CppString*)>(&GlobalNamespace::MasterServerQuickPlaySetupModel::IsUrlValid)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerQuickPlaySetupModel*), "IsUrlValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{url});
   }

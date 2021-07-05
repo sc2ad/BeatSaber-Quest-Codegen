@@ -92,7 +92,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformAdditionalContentModel::$$
 // Il2CppName: <CheckForNewEntitlementsAsync>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusPlatformAdditionalContentModel::$$c__DisplayClass12_0::*)(Oculus::Platform::Message_1<Oculus::Platform::Models::AssetDetailsList*>*)>(&GlobalNamespace::OculusPlatformAdditionalContentModel::$$c__DisplayClass12_0::$CheckForNewEntitlementsAsync$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* getListMsg = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("Oculus.Platform", "Message`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Oculus.Platform.Models", "AssetDetailsList")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusPlatformAdditionalContentModel::$$c__DisplayClass12_0*), "<CheckForNewEntitlementsAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{getListMsg});
   }
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <CheckForNewEntitlementsAsync>b__1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusPlatformAdditionalContentModel::$$c__DisplayClass12_0::*)(Oculus::Platform::Message_1<Oculus::Platform::Models::PurchaseList*>*)>(&GlobalNamespace::OculusPlatformAdditionalContentModel::$$c__DisplayClass12_0::$CheckForNewEntitlementsAsync$b__1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* getPurchasesMsg = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("Oculus.Platform", "Message`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Oculus.Platform.Models", "PurchaseList")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusPlatformAdditionalContentModel::$$c__DisplayClass12_0*), "<CheckForNewEntitlementsAsync>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{getPurchasesMsg});
   }

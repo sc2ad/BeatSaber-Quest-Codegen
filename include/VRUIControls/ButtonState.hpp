@@ -85,7 +85,7 @@ DEFINE_IL2CPP_ARG_TYPE(VRUIControls::ButtonState*, "VRUIControls", "ButtonState"
 // Il2CppName: get_eventData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<VRUIControls::MouseButtonEventData* (VRUIControls::ButtonState::*)()>(&VRUIControls::ButtonState::get_eventData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(VRUIControls::ButtonState*), "get_eventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<VRUIControl
 // Il2CppName: set_eventData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::ButtonState::*)(VRUIControls::MouseButtonEventData*)>(&VRUIControls::ButtonState::set_eventData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("VRUIControls", "MouseButtonEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(VRUIControls::ButtonState*), "set_eventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIC
 // Il2CppName: get_button
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::PointerEventData::InputButton (VRUIControls::ButtonState::*)()>(&VRUIControls::ButtonState::get_button)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(VRUIControls::ButtonState*), "get_button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -110,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_button
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::ButtonState::*)(UnityEngine::EventSystems::PointerEventData::InputButton)>(&VRUIControls::ButtonState::set_button)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData/InputButton")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(VRUIControls::ButtonState*), "set_button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIC
 // Il2CppName: get_pressedValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (VRUIControls::ButtonState::*)()>(&VRUIControls::ButtonState::get_pressedValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(VRUIControls::ButtonState*), "get_pressedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (VRUI
 // Il2CppName: set_pressedValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::ButtonState::*)(float)>(&VRUIControls::ButtonState::set_pressedValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(VRUIControls::ButtonState*), "set_pressedValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

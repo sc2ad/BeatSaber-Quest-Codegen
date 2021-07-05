@@ -148,7 +148,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::HeaderInfo*, "System.Net.Http
 // Il2CppName: CreateCollection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Net::Http::Headers::HeaderInfo::*)(System::Net::Http::Headers::HttpHeaders*)>(&System::Net::Http::Headers::HeaderInfo::CreateCollection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* headers = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "HttpHeaders")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HeaderInfo*), "CreateCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{headers});
   }
@@ -157,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: get_CustomToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Func_2<::Il2CppObject*, ::Il2CppString*>* (System::Net::Http::Headers::HeaderInfo::*)()>(&System::Net::Http::Headers::HeaderInfo::get_CustomToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HeaderInfo*), "get_CustomToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Fun
 // Il2CppName: set_CustomToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::HeaderInfo::*)(System::Func_2<::Il2CppObject*, ::Il2CppString*>*)>(&System::Net::Http::Headers::HeaderInfo::set_CustomToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object"), ::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HeaderInfo*), "set_CustomToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_Separator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::HeaderInfo::*)()>(&System::Net::Http::Headers::HeaderInfo::get_Separator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HeaderInfo*), "get_Separator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -182,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: AddToCollection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::HeaderInfo::*)(::Il2CppObject*, ::Il2CppObject*)>(&System::Net::Http::Headers::HeaderInfo::AddToCollection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* collection = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HeaderInfo*), "AddToCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{collection, value});
@@ -192,7 +192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: CreateCollection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Net::Http::Headers::HeaderInfo::*)(System::Net::Http::Headers::HttpHeaders*, System::Net::Http::Headers::HeaderInfo*)>(&System::Net::Http::Headers::HeaderInfo::CreateCollection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* headers = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "HttpHeaders")->byval_arg;
     static auto* headerInfo = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "HeaderInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HeaderInfo*), "CreateCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{headers, headerInfo});
@@ -202,7 +202,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: ToStringCollection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (System::Net::Http::Headers::HeaderInfo::*)(::Il2CppObject*)>(&System::Net::Http::Headers::HeaderInfo::ToStringCollection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* collection = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HeaderInfo*), "ToStringCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{collection});
   }
@@ -211,7 +211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: TryParse
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::HeaderInfo::*)(::Il2CppString*, ::Il2CppObject*&)>(&System::Net::Http::Headers::HeaderInfo::TryParse)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "Object")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HeaderInfo*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, result});

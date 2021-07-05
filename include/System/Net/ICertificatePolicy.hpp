@@ -40,7 +40,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::ICertificatePolicy*, "System.Net", "ICertifi
 // Il2CppName: CheckValidationResult
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::ICertificatePolicy::*)(System::Net::ServicePoint*, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Net::WebRequest*, int)>(&System::Net::ICertificatePolicy::CheckValidationResult)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* srvPoint = &::il2cpp_utils::GetClassFromName("System.Net", "ServicePoint")->byval_arg;
     static auto* certificate = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate")->byval_arg;
     static auto* request = &::il2cpp_utils::GetClassFromName("System.Net", "WebRequest")->byval_arg;

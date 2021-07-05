@@ -52,7 +52,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AvatarMask*, "UnityEngine", "AvatarMask");
 // Il2CppName: GetHumanoidBodyPartActive
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AvatarMask::*)(UnityEngine::AvatarMaskBodyPart)>(&UnityEngine::AvatarMask::GetHumanoidBodyPartActive)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarMaskBodyPart")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AvatarMask*), "GetHumanoidBodyPartActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
   }
@@ -61,7 +61,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: get_transformCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::AvatarMask::*)()>(&UnityEngine::AvatarMask::get_transformCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AvatarMask*), "get_transformCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -69,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: GetTransformPath
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::AvatarMask::*)(int)>(&UnityEngine::AvatarMask::GetTransformPath)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AvatarMask*), "GetTransformPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
   }
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetTransformWeight
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::AvatarMask::*)(int)>(&UnityEngine::AvatarMask::GetTransformWeight)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AvatarMask*), "GetTransformWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
   }
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Il2CppName: GetTransformActive
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AvatarMask::*)(int)>(&UnityEngine::AvatarMask::GetTransformActive)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AvatarMask*), "GetTransformActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
   }

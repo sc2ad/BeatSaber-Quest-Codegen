@@ -48,7 +48,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CameraRaycastHelper*, "UnityEngine", "Camera
 // Il2CppName: RaycastTry
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::Camera*, UnityEngine::Ray, float, int)>(&UnityEngine::CameraRaycastHelper::RaycastTry)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cam = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
     static auto* distance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -60,7 +60,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: RaycastTry2D
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::Camera*, UnityEngine::Ray, float, int)>(&UnityEngine::CameraRaycastHelper::RaycastTry2D)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cam = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
     static auto* distance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: RaycastTry_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::Camera*, UnityEngine::Ray&, float, int)>(&UnityEngine::CameraRaycastHelper::RaycastTry_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cam = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->this_arg;
     static auto* distance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: RaycastTry2D_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::Camera*, UnityEngine::Ray&, float, int)>(&UnityEngine::CameraRaycastHelper::RaycastTry2D_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cam = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->this_arg;
     static auto* distance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

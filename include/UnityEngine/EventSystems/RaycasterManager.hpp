@@ -53,7 +53,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::RaycasterManager*, "UnityEngin
 // Il2CppName: AddRaycaster
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::BaseRaycaster*)>(&UnityEngine::EventSystems::RaycasterManager::AddRaycaster)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* baseRaycaster = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseRaycaster")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::RaycasterManager*), "AddRaycaster", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{baseRaycaster});
   }
@@ -62,7 +62,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: GetRaycasters
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::EventSystems::BaseRaycaster*>* (*)()>(&UnityEngine::EventSystems::RaycasterManager::GetRaycasters)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::RaycasterManager*), "GetRaycasters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -70,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: RemoveRaycasters
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::BaseRaycaster*)>(&UnityEngine::EventSystems::RaycasterManager::RemoveRaycasters)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* baseRaycaster = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseRaycaster")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::RaycasterManager*), "RemoveRaycasters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{baseRaycaster});
   }
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::EventSystems::RaycasterManager::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::RaycasterManager*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

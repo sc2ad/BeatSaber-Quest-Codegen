@@ -95,7 +95,7 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::AnimatedSwitchView::$$c*, "HMUI", "AnimatedSwitchVi
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&HMUI::AnimatedSwitchView::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <LerpColors>b__31_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (HMUI::AnimatedSwitchView::$$c::*)(HMUI::AnimatedSwitchView::ColorBlock*)>(&HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* colorBlock = &::il2cpp_utils::GetClassFromName("HMUI", "AnimatedSwitchView/ColorBlock")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView::$$c*), "<LerpColors>b__31_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorBlock});
   }
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: <LerpColors>b__31_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (HMUI::AnimatedSwitchView::$$c::*)(HMUI::AnimatedSwitchView::ColorBlock*)>(&HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* colorBlock = &::il2cpp_utils::GetClassFromName("HMUI", "AnimatedSwitchView/ColorBlock")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView::$$c*), "<LerpColors>b__31_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorBlock});
   }
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: <LerpColors>b__31_2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (HMUI::AnimatedSwitchView::$$c::*)(HMUI::AnimatedSwitchView::ColorBlock*)>(&HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_2)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* colorBlock = &::il2cpp_utils::GetClassFromName("HMUI", "AnimatedSwitchView/ColorBlock")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView::$$c*), "<LerpColors>b__31_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorBlock});
   }
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: <LerpColors>b__31_3
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (HMUI::AnimatedSwitchView::$$c::*)(HMUI::AnimatedSwitchView::ColorBlock*)>(&HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_3)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* colorBlock = &::il2cpp_utils::GetClassFromName("HMUI", "AnimatedSwitchView/ColorBlock")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView::$$c*), "<LerpColors>b__31_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorBlock});
   }
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: <LerpColors>b__31_4
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (HMUI::AnimatedSwitchView::$$c::*)(HMUI::AnimatedSwitchView::ColorBlock*)>(&HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_4)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* colorBlock = &::il2cpp_utils::GetClassFromName("HMUI", "AnimatedSwitchView/ColorBlock")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView::$$c*), "<LerpColors>b__31_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorBlock});
   }
@@ -148,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: <LerpColors>b__31_5
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (HMUI::AnimatedSwitchView::$$c::*)(HMUI::AnimatedSwitchView::ColorBlock*)>(&HMUI::AnimatedSwitchView::$$c::$LerpColors$b__31_5)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* colorBlock = &::il2cpp_utils::GetClassFromName("HMUI", "AnimatedSwitchView/ColorBlock")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView::$$c*), "<LerpColors>b__31_5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorBlock});
   }

@@ -90,7 +90,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlwaysOwnedContentContainerSO*, "", "Alw
 // Il2CppName: get_alwaysOwnedBeatmapLevelIds
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::HashSet_1<::Il2CppString*>* (GlobalNamespace::AlwaysOwnedContentContainerSO::*)()>(&GlobalNamespace::AlwaysOwnedContentContainerSO::get_alwaysOwnedBeatmapLevelIds)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AlwaysOwnedContentContainerSO*), "get_alwaysOwnedBeatmapLevelIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: get_alwaysOwnedPacksIds
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::HashSet_1<::Il2CppString*>* (GlobalNamespace::AlwaysOwnedContentContainerSO::*)()>(&GlobalNamespace::AlwaysOwnedContentContainerSO::get_alwaysOwnedPacksIds)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AlwaysOwnedContentContainerSO*), "get_alwaysOwnedPacksIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: InitAlwaysOwnedItems
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AlwaysOwnedContentContainerSO::*)()>(&GlobalNamespace::AlwaysOwnedContentContainerSO::InitAlwaysOwnedItems)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AlwaysOwnedContentContainerSO*), "InitAlwaysOwnedItems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -114,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnEnable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AlwaysOwnedContentContainerSO::*)()>(&GlobalNamespace::AlwaysOwnedContentContainerSO::OnEnable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AlwaysOwnedContentContainerSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

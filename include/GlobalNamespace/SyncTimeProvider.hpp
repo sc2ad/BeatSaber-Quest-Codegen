@@ -65,7 +65,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SyncTimeProvider*, "", "SyncTimeProvider
 // Il2CppName: get_time
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::SyncTimeProvider::*)()>(&GlobalNamespace::SyncTimeProvider::get_time)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SyncTimeProvider*), "get_time", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

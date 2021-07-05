@@ -44,7 +44,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingScoreEffect::Pool*, "", "FlyingSco
 // Il2CppName: OnDespawned
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingScoreEffect::Pool::*)(GlobalNamespace::FlyingScoreEffect*)>(&GlobalNamespace::FlyingScoreEffect::Pool::OnDespawned)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* item = &::il2cpp_utils::GetClassFromName("", "FlyingScoreEffect")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingScoreEffect::Pool*), "OnDespawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{item});
   }

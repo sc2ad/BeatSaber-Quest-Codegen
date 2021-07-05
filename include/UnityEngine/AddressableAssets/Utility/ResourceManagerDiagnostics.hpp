@@ -89,7 +89,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Utility::ResourceManagerD
 // Il2CppName: SumDependencyNameHashCodes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::SumDependencyNameHashCodes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics*), "SumDependencyNameHashCodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle});
   }
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: CalculateHashCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::CalculateHashCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics*), "CalculateHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle});
   }
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: OnResourceManagerDiagnosticEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::*)(UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext)>(&UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::OnResourceManagerDiagnosticEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eventContext = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement", "ResourceManager/DiagnosticEventContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics*), "OnResourceManagerDiagnosticEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eventContext});
   }
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::*)()>(&UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

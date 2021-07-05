@@ -53,7 +53,7 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithDataStoreUnderPrivateUserDat
 // Il2CppName: GetDataFromMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* (Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore::*)(System::IntPtr)>(&Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore::GetDataFromMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c_message = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c_message});
   }
@@ -66,7 +66,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: GetDataStore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* (Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore::*)()>(&Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore::GetDataStore)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore*), "GetDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

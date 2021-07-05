@@ -140,7 +140,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialBeatmapObjectManager*, "", "Tuto
 // Il2CppName: get_activeObstacleControllers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* (GlobalNamespace::TutorialBeatmapObjectManager::*)()>(&GlobalNamespace::TutorialBeatmapObjectManager::get_activeObstacleControllers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialBeatmapObjectManager*), "get_activeObstacleControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -148,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: SpawnObstacleInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ObstacleController* (GlobalNamespace::TutorialBeatmapObjectManager::*)(GlobalNamespace::ObstacleData*, GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData, float)>(&GlobalNamespace::TutorialBeatmapObjectManager::SpawnObstacleInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obstacleData = &::il2cpp_utils::GetClassFromName("", "ObstacleData")->byval_arg;
     static auto* obstacleSpawnData = &::il2cpp_utils::GetClassFromName("", "BeatmapObjectSpawnMovementData/ObstacleSpawnData")->byval_arg;
     static auto* rotation = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -159,7 +159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: SpawnBombNoteInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteController* (GlobalNamespace::TutorialBeatmapObjectManager::*)(GlobalNamespace::NoteData*, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData, float)>(&GlobalNamespace::TutorialBeatmapObjectManager::SpawnBombNoteInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* noteData = &::il2cpp_utils::GetClassFromName("", "NoteData")->byval_arg;
     static auto* noteSpawnData = &::il2cpp_utils::GetClassFromName("", "BeatmapObjectSpawnMovementData/NoteSpawnData")->byval_arg;
     static auto* rotation = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -170,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: SpawnBasicNoteInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteController* (GlobalNamespace::TutorialBeatmapObjectManager::*)(GlobalNamespace::NoteData*, GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData, float, float)>(&GlobalNamespace::TutorialBeatmapObjectManager::SpawnBasicNoteInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* noteData = &::il2cpp_utils::GetClassFromName("", "NoteData")->byval_arg;
     static auto* noteSpawnData = &::il2cpp_utils::GetClassFromName("", "BeatmapObjectSpawnMovementData/NoteSpawnData")->byval_arg;
     static auto* rotation = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -182,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: DespawnInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialBeatmapObjectManager::*)(GlobalNamespace::NoteController*)>(&GlobalNamespace::TutorialBeatmapObjectManager::DespawnInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* noteController = &::il2cpp_utils::GetClassFromName("", "NoteController")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialBeatmapObjectManager*), "DespawnInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteController});
   }
@@ -191,7 +191,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: DespawnInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialBeatmapObjectManager::*)(GlobalNamespace::ObstacleController*)>(&GlobalNamespace::TutorialBeatmapObjectManager::DespawnInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obstacleController = &::il2cpp_utils::GetClassFromName("", "ObstacleController")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialBeatmapObjectManager*), "DespawnInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obstacleController});
   }
@@ -200,7 +200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: DissolveAllObjects
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialBeatmapObjectManager::*)()>(&GlobalNamespace::TutorialBeatmapObjectManager::DissolveAllObjects)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialBeatmapObjectManager*), "DissolveAllObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -208,7 +208,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HideAllBeatmapObjects
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialBeatmapObjectManager::*)(bool)>(&GlobalNamespace::TutorialBeatmapObjectManager::HideAllBeatmapObjects)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hide = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialBeatmapObjectManager*), "HideAllBeatmapObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hide});
   }
@@ -217,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: PauseAllBeatmapObjects
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TutorialBeatmapObjectManager::*)(bool)>(&GlobalNamespace::TutorialBeatmapObjectManager::PauseAllBeatmapObjects)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pause = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TutorialBeatmapObjectManager*), "PauseAllBeatmapObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pause});
   }

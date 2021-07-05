@@ -77,7 +77,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::JumpReceiver*, "", "JumpReceiver");
 // Il2CppName: get_jumpToDestinationValid
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::JumpReceiver::*)()>(&GlobalNamespace::JumpReceiver::get_jumpToDestinationValid)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JumpReceiver*), "get_jumpToDestinationValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: set_jumpToDestinationValid
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::JumpReceiver::*)(bool)>(&GlobalNamespace::JumpReceiver::set_jumpToDestinationValid)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JumpReceiver*), "set_jumpToDestinationValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnNotify
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::JumpReceiver::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::INotification*, ::Il2CppObject*)>(&GlobalNamespace::JumpReceiver::OnNotify)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")->byval_arg;
     static auto* notification = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "INotification")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

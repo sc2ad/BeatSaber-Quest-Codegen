@@ -96,7 +96,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPo
 // Il2CppName: Awake
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::*)()>(&GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::Awake)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Update
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::*)()>(&GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::Update)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetEnabled
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::*)(bool)>(&GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::SetEnabled)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* isEnabled = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*), "SetEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isEnabled});
   }
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: UpdatePositionAndRotationIfNeeded
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::*)()>(&GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition::UpdatePositionAndRotationIfNeeded)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*), "UpdatePositionAndRotationIfNeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

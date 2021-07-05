@@ -77,7 +77,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::UnexpectedLogMessageE
 // Il2CppName: BuildMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::TestTools::Logging::LogMatch*)>(&UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException::BuildMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* log = &::il2cpp_utils::GetClassFromName("UnityEngine.TestTools.Logging", "LogMatch")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException*), "BuildMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{log});
   }
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_ResultState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ResultState* (UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException::*)()>(&UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException::get_ResultState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException*), "get_ResultState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Il2CppName: get_StackTrace
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException::*)()>(&UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException::get_StackTrace)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException*), "get_StackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

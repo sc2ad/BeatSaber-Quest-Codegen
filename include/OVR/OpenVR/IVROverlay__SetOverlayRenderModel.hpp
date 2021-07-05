@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_SetOverlayRenderModel*, "OVR.Op
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::IVROverlay::_SetOverlayRenderModel::*)(uint64_t, ::Il2CppString*, OVR::OpenVR::HmdColor_t&)>(&OVR::OpenVR::IVROverlay::_SetOverlayRenderModel::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pchRenderModel = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pColor = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "HmdColor_t")->this_arg;
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVROverlay::_SetOverlayRenderModel::*)(uint64_t, ::Il2CppString*, OVR::OpenVR::HmdColor_t&, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVROverlay::_SetOverlayRenderModel::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pchRenderModel = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pColor = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "HmdColor_t")->this_arg;
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::IVROverlay::_SetOverlayRenderModel::*)(OVR::OpenVR::HmdColor_t&, System::IAsyncResult*)>(&OVR::OpenVR::IVROverlay::_SetOverlayRenderModel::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pColor = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "HmdColor_t")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVROverlay::_SetOverlayRenderModel*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pColor, result});

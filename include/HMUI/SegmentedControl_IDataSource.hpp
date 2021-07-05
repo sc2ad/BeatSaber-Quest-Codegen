@@ -38,7 +38,7 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::SegmentedControl::IDataSource*, "HMUI", "SegmentedC
 // Il2CppName: NumberOfCells
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HMUI::SegmentedControl::IDataSource::*)()>(&HMUI::SegmentedControl::IDataSource::NumberOfCells)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::SegmentedControl::IDataSource*), "NumberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -46,7 +46,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HMUI::
 // Il2CppName: CellForCellNumber
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::SegmentedControlCell* (HMUI::SegmentedControl::IDataSource::*)(int)>(&HMUI::SegmentedControl::IDataSource::CellForCellNumber)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cellNumber = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::SegmentedControl::IDataSource*), "CellForCellNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cellNumber});
   }

@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::FontUpdateTracker*, "UnityEngine.UI", "F
 // Il2CppName: TrackText
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::Text*)>(&UnityEngine::UI::FontUpdateTracker::TrackText)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Text")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::FontUpdateTracker*), "TrackText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
@@ -70,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: RebuildForFont
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Font*)>(&UnityEngine::UI::FontUpdateTracker::RebuildForFont)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* f = &::il2cpp_utils::GetClassFromName("UnityEngine", "Font")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::FontUpdateTracker*), "RebuildForFont", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{f});
   }
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: UntrackText
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::Text*)>(&UnityEngine::UI::FontUpdateTracker::UntrackText)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Text")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::FontUpdateTracker*), "UntrackText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::UI::FontUpdateTracker::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::FontUpdateTracker*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

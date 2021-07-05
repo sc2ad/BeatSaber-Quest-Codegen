@@ -65,7 +65,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::LocalDataStoreHolder*, "System", "LocalDataStoreH
 // Il2CppName: get_Store
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::LocalDataStore* (System::LocalDataStoreHolder::*)()>(&System::LocalDataStoreHolder::get_Store)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::LocalDataStoreHolder*), "get_Store", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -73,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Loc
 // Il2CppName: Finalize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::LocalDataStoreHolder::*)()>(&System::LocalDataStoreHolder::Finalize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::LocalDataStoreHolder*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

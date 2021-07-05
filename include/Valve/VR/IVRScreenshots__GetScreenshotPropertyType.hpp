@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRScreenshots::_GetScreenshotPropertyType*, "
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRScreenshotType (Valve::VR::IVRScreenshots::_GetScreenshotPropertyType::*)(uint, Valve::VR::EVRScreenshotError&)>(&Valve::VR::IVRScreenshots::_GetScreenshotPropertyType::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* screenshotHandle = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* pError = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRScreenshotError")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRScreenshots::_GetScreenshotPropertyType*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{screenshotHandle, pError});
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRScreenshots::_GetScreenshotPropertyType::*)(uint, Valve::VR::EVRScreenshotError&, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRScreenshots::_GetScreenshotPropertyType::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* screenshotHandle = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* pError = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRScreenshotError")->this_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRScreenshotType (Valve::VR::IVRScreenshots::_GetScreenshotPropertyType::*)(Valve::VR::EVRScreenshotError&, System::IAsyncResult*)>(&Valve::VR::IVRScreenshots::_GetScreenshotPropertyType::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pError = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRScreenshotError")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRScreenshots::_GetScreenshotPropertyType*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pError, result});

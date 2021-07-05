@@ -93,7 +93,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::AddToNewGameObjectComponentProvider*, "Zenject",
 // Il2CppName: get_ShouldToggleActive
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::AddToNewGameObjectComponentProvider::*)()>(&Zenject::AddToNewGameObjectComponentProvider::get_ShouldToggleActive)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::AddToNewGameObjectComponentProvider*), "get_ShouldToggleActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
 // Il2CppName: GetGameObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::AddToNewGameObjectComponentProvider::*)(Zenject::InjectContext*)>(&Zenject::AddToNewGameObjectComponentProvider::GetGameObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::AddToNewGameObjectComponentProvider*), "GetGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }

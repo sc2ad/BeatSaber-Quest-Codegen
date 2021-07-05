@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSettings::_GetSettingsErrorNameFromEnum*, "
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Valve::VR::IVRSettings::_GetSettingsErrorNameFromEnum::*)(Valve::VR::EVRSettingsError)>(&Valve::VR::IVRSettings::_GetSettingsErrorNameFromEnum::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eError = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRSettingsError")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSettings::_GetSettingsErrorNameFromEnum*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eError});
   }
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRSettings::_GetSettingsErrorNameFromEnum::*)(Valve::VR::EVRSettingsError, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRSettings::_GetSettingsErrorNameFromEnum::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eError = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRSettingsError")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Valve::VR::IVRSettings::_GetSettingsErrorNameFromEnum::*)(System::IAsyncResult*)>(&Valve::VR::IVRSettings::_GetSettingsErrorNameFromEnum::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSettings::_GetSettingsErrorNameFromEnum*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

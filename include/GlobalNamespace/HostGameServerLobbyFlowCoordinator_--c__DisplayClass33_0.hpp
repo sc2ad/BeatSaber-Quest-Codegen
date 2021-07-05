@@ -72,7 +72,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c_
 // Il2CppName: <HandleServerPlayerListControllerKickPlayer>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c__DisplayClass33_0::*)(GlobalNamespace::INetworkPlayer*)>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c__DisplayClass33_0::$HandleServerPlayerListControllerKickPlayer$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* player = &::il2cpp_utils::GetClassFromName("", "INetworkPlayer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c__DisplayClass33_0*), "<HandleServerPlayerListControllerKickPlayer>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{player});
   }
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: <HandleServerPlayerListControllerKickPlayer>b__1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c__DisplayClass33_0::*)(int)>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c__DisplayClass33_0::$HandleServerPlayerListControllerKickPlayer$b__1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* btnId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c__DisplayClass33_0*), "<HandleServerPlayerListControllerKickPlayer>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{btnId});
   }

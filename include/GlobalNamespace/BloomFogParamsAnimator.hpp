@@ -84,7 +84,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFogParamsAnimator*, "", "BloomFogPa
 // Il2CppName: AnimateBloomFogParamsChange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomFogParamsAnimator::*)(GlobalNamespace::BloomFogEnvironmentParams*, float)>(&GlobalNamespace::BloomFogParamsAnimator::AnimateBloomFogParamsChange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* envFogParams = &::il2cpp_utils::GetClassFromName("", "BloomFogEnvironmentParams")->byval_arg;
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogParamsAnimator*), "AnimateBloomFogParamsChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{envFogParams, duration});
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: AnimationCoroutine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::BloomFogParamsAnimator::*)(GlobalNamespace::BloomFogEnvironmentParams*, float)>(&GlobalNamespace::BloomFogParamsAnimator::AnimationCoroutine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* envFogParams = &::il2cpp_utils::GetClassFromName("", "BloomFogEnvironmentParams")->byval_arg;
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogParamsAnimator*), "AnimationCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{envFogParams, duration});
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: SetBloomFogParamsChange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomFogParamsAnimator::*)(GlobalNamespace::BloomFogEnvironmentParams*, float)>(&GlobalNamespace::BloomFogParamsAnimator::SetBloomFogParamsChange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* envFogParams = &::il2cpp_utils::GetClassFromName("", "BloomFogEnvironmentParams")->byval_arg;
     static auto* transition = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogParamsAnimator*), "SetBloomFogParamsChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{envFogParams, transition});
@@ -114,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: GetDefaultBloomFogParams
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BloomFogEnvironmentParams* (GlobalNamespace::BloomFogParamsAnimator::*)()>(&GlobalNamespace::BloomFogParamsAnimator::GetDefaultBloomFogParams)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogParamsAnimator*), "GetDefaultBloomFogParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: SetDefaultBloomFogParams
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomFogParamsAnimator::*)(GlobalNamespace::BloomFogEnvironmentParams*)>(&GlobalNamespace::BloomFogParamsAnimator::SetDefaultBloomFogParams)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* newDefaultBloomFogParams = &::il2cpp_utils::GetClassFromName("", "BloomFogEnvironmentParams")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogParamsAnimator*), "SetDefaultBloomFogParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newDefaultBloomFogParams});
   }

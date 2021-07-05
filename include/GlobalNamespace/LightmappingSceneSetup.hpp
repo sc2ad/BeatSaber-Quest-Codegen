@@ -102,7 +102,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightmappingSceneSetup*, "", "Lightmappi
 // Il2CppName: get_colorScheme
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorSchemeSO* (GlobalNamespace::LightmappingSceneSetup::*)()>(&GlobalNamespace::LightmappingSceneSetup::get_colorScheme)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmappingSceneSetup*), "get_colorScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -110,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: set_colorScheme
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightmappingSceneSetup::*)(GlobalNamespace::ColorSchemeSO*)>(&GlobalNamespace::LightmappingSceneSetup::set_colorScheme)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "ColorSchemeSO")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmappingSceneSetup*), "set_colorScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: InstallBindings
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightmappingSceneSetup::*)()>(&GlobalNamespace::LightmappingSceneSetup::InstallBindings)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmappingSceneSetup*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -159,7 +159,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CanvasRenderer*, "UnityEngine", "CanvasRende
 // Il2CppName: set_hasPopInstruction
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CanvasRenderer::*)(bool)>(&UnityEngine::CanvasRenderer::set_hasPopInstruction)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasRenderer*), "set_hasPopInstruction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_materialCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::CanvasRenderer::*)()>(&UnityEngine::CanvasRenderer::get_materialCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasRenderer*), "get_materialCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: set_materialCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CanvasRenderer::*)(int)>(&UnityEngine::CanvasRenderer::set_materialCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasRenderer*), "set_materialCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: set_popMaterialCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CanvasRenderer::*)(int)>(&UnityEngine::CanvasRenderer::set_popMaterialCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasRenderer*), "set_popMaterialCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -194,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_absoluteDepth
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::CanvasRenderer::*)()>(&UnityEngine::CanvasRenderer::get_absoluteDepth)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasRenderer*), "get_absoluteDepth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -202,7 +202,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: get_hasMoved
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::CanvasRenderer::*)()>(&UnityEngine::CanvasRenderer::get_hasMoved)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasRenderer*), "get_hasMoved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -210,7 +210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: get_cull
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::CanvasRenderer::*)()>(&UnityEngine::CanvasRenderer::get_cull)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasRenderer*), "get_cull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -218,7 +218,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: set_cull
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CanvasRenderer::*)(bool)>(&UnityEngine::CanvasRenderer::set_cull)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasRenderer*), "set_cull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -227,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetColor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CanvasRenderer::*)(UnityEngine::Color)>(&UnityEngine::CanvasRenderer::SetColor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasRenderer*), "SetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color});
   }
@@ -236,7 +236,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetColor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (UnityEngine::CanvasRenderer::*)()>(&UnityEngine::CanvasRenderer::GetColor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasRenderer*), "GetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -244,7 +244,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: EnableRectClipping
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CanvasRenderer::*)(UnityEngine::Rect)>(&UnityEngine::CanvasRenderer::EnableRectClipping)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasRenderer*), "EnableRectClipping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rect});
   }
@@ -253,7 +253,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: set_clippingSoftness
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CanvasRenderer::*)(UnityEngine::Vector2)>(&UnityEngine::CanvasRenderer::set_clippingSoftness)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasRenderer*), "set_clippingSoftness", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -262,7 +262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: DisableRectClipping
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CanvasRenderer::*)()>(&UnityEngine::CanvasRenderer::DisableRectClipping)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasRenderer*), "DisableRectClipping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -270,7 +270,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetMaterial
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CanvasRenderer::*)(UnityEngine::Material*, int)>(&UnityEngine::CanvasRenderer::SetMaterial)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* material = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasRenderer*), "SetMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{material, index});
@@ -280,7 +280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetMaterial
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (UnityEngine::CanvasRenderer::*)(int)>(&UnityEngine::CanvasRenderer::GetMaterial)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasRenderer*), "GetMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
   }
@@ -289,7 +289,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: SetPopMaterial
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CanvasRenderer::*)(UnityEngine::Material*, int)>(&UnityEngine::CanvasRenderer::SetPopMaterial)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* material = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasRenderer*), "SetPopMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{material, index});
@@ -299,7 +299,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetTexture
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CanvasRenderer::*)(UnityEngine::Texture*)>(&UnityEngine::CanvasRenderer::SetTexture)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* texture = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasRenderer*), "SetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{texture});
   }
@@ -308,7 +308,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetAlphaTexture
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CanvasRenderer::*)(UnityEngine::Texture*)>(&UnityEngine::CanvasRenderer::SetAlphaTexture)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* texture = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasRenderer*), "SetAlphaTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{texture});
   }
@@ -317,7 +317,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetMesh
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CanvasRenderer::*)(UnityEngine::Mesh*)>(&UnityEngine::CanvasRenderer::SetMesh)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasRenderer*), "SetMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh});
   }
@@ -326,7 +326,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Clear
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CanvasRenderer::*)()>(&UnityEngine::CanvasRenderer::Clear)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasRenderer*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -334,7 +334,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetMaterial
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CanvasRenderer::*)(UnityEngine::Material*, UnityEngine::Texture*)>(&UnityEngine::CanvasRenderer::SetMaterial)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* material = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     static auto* texture = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasRenderer*), "SetMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{material, texture});
@@ -344,7 +344,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetMaterial
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (UnityEngine::CanvasRenderer::*)()>(&UnityEngine::CanvasRenderer::GetMaterial)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasRenderer*), "GetMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -352,7 +352,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: SplitUIVertexStreams
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<UnityEngine::UIVertex>*, System::Collections::Generic::List_1<UnityEngine::Vector3>*, System::Collections::Generic::List_1<UnityEngine::Color32>*, System::Collections::Generic::List_1<UnityEngine::Vector2>*, System::Collections::Generic::List_1<UnityEngine::Vector2>*, System::Collections::Generic::List_1<UnityEngine::Vector2>*, System::Collections::Generic::List_1<UnityEngine::Vector2>*, System::Collections::Generic::List_1<UnityEngine::Vector3>*, System::Collections::Generic::List_1<UnityEngine::Vector4>*, System::Collections::Generic::List_1<int>*)>(&UnityEngine::CanvasRenderer::SplitUIVertexStreams)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* verts = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "UIVertex")})->byval_arg;
     static auto* positions = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     static auto* colors = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Color32")})->byval_arg;
@@ -370,7 +370,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: CreateUIVertexStream
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<UnityEngine::UIVertex>*, System::Collections::Generic::List_1<UnityEngine::Vector3>*, System::Collections::Generic::List_1<UnityEngine::Color32>*, System::Collections::Generic::List_1<UnityEngine::Vector2>*, System::Collections::Generic::List_1<UnityEngine::Vector2>*, System::Collections::Generic::List_1<UnityEngine::Vector2>*, System::Collections::Generic::List_1<UnityEngine::Vector2>*, System::Collections::Generic::List_1<UnityEngine::Vector3>*, System::Collections::Generic::List_1<UnityEngine::Vector4>*, System::Collections::Generic::List_1<int>*)>(&UnityEngine::CanvasRenderer::CreateUIVertexStream)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* verts = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "UIVertex")})->byval_arg;
     static auto* positions = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     static auto* colors = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Color32")})->byval_arg;
@@ -388,7 +388,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: AddUIVertexStream
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<UnityEngine::UIVertex>*, System::Collections::Generic::List_1<UnityEngine::Vector3>*, System::Collections::Generic::List_1<UnityEngine::Color32>*, System::Collections::Generic::List_1<UnityEngine::Vector2>*, System::Collections::Generic::List_1<UnityEngine::Vector2>*, System::Collections::Generic::List_1<UnityEngine::Vector2>*, System::Collections::Generic::List_1<UnityEngine::Vector2>*, System::Collections::Generic::List_1<UnityEngine::Vector3>*, System::Collections::Generic::List_1<UnityEngine::Vector4>*)>(&UnityEngine::CanvasRenderer::AddUIVertexStream)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* verts = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "UIVertex")})->byval_arg;
     static auto* positions = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     static auto* colors = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Color32")})->byval_arg;
@@ -405,7 +405,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: SplitIndicesStreamsInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppObject*)>(&UnityEngine::CanvasRenderer::SplitIndicesStreamsInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* verts = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* indices = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasRenderer*), "SplitIndicesStreamsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{verts, indices});
@@ -415,7 +415,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: SplitUIVertexStreamsInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*)>(&UnityEngine::CanvasRenderer::SplitUIVertexStreamsInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* verts = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* positions = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* colors = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -432,7 +432,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: CreateUIVertexStreamInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*)>(&UnityEngine::CanvasRenderer::CreateUIVertexStreamInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* verts = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* positions = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* colors = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -450,7 +450,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: SetColor_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CanvasRenderer::*)(UnityEngine::Color&)>(&UnityEngine::CanvasRenderer::SetColor_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasRenderer*), "SetColor_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color});
   }
@@ -459,7 +459,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetColor_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CanvasRenderer::*)(UnityEngine::Color&)>(&UnityEngine::CanvasRenderer::GetColor_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasRenderer*), "GetColor_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
   }
@@ -468,7 +468,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: EnableRectClipping_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CanvasRenderer::*)(UnityEngine::Rect&)>(&UnityEngine::CanvasRenderer::EnableRectClipping_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasRenderer*), "EnableRectClipping_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rect});
   }
@@ -477,7 +477,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: set_clippingSoftness_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CanvasRenderer::*)(UnityEngine::Vector2&)>(&UnityEngine::CanvasRenderer::set_clippingSoftness_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CanvasRenderer*), "set_clippingSoftness_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

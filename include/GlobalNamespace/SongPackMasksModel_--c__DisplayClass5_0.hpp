@@ -64,7 +64,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPackMasksModel::$$c__DisplayClass5_0
 // Il2CppName: <GetSongPackMaskText>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SongPackMasksModel::$$c__DisplayClass5_0::*)(System::Tuple_2<GlobalNamespace::SongPackMask, ::Il2CppString*>*)>(&GlobalNamespace::SongPackMasksModel::$$c__DisplayClass5_0::$GetSongPackMaskText$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* songPackTuple = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Tuple`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "SongPackMask"), ::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMasksModel::$$c__DisplayClass5_0*), "<GetSongPackMaskText>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{songPackTuple});
   }

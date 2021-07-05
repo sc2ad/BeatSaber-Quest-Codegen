@@ -335,7 +335,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBIKChain::Smoothing, "RootMotion.Fi
 // Il2CppName: SetNodes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBIKChain::*)(::Array<UnityEngine::Transform*>*)>(&RootMotion::FinalIK::FBIKChain::SetNodes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* boneTransforms = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBIKChain*), "SetNodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boneTransforms});
   }
@@ -344,7 +344,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: GetNodeIndex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RootMotion::FinalIK::FBIKChain::*)(UnityEngine::Transform*)>(&RootMotion::FinalIK::FBIKChain::GetNodeIndex)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* boneTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBIKChain*), "GetNodeIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boneTransform});
   }
@@ -353,7 +353,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RootMo
 // Il2CppName: IsValid
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::FBIKChain::*)(::Il2CppString*&)>(&RootMotion::FinalIK::FBIKChain::IsValid)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBIKChain*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
   }
@@ -362,7 +362,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Il2CppName: Initiate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBIKChain::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&RootMotion::FinalIK::FBIKChain::Initiate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBody")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBIKChain*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solver});
   }
@@ -371,7 +371,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: ReadPose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBIKChain::*)(RootMotion::FinalIK::IKSolverFullBody*, bool)>(&RootMotion::FinalIK::FBIKChain::ReadPose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBody")->byval_arg;
     static auto* fullBody = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBIKChain*), "ReadPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solver, fullBody});
@@ -381,7 +381,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: CalculateBoneLengths
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBIKChain::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&RootMotion::FinalIK::FBIKChain::CalculateBoneLengths)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBody")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBIKChain*), "CalculateBoneLengths", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solver});
   }
@@ -390,7 +390,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: Reach
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBIKChain::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&RootMotion::FinalIK::FBIKChain::Reach)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBody")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBIKChain*), "Reach", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solver});
   }
@@ -399,7 +399,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: Push
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::FBIKChain::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&RootMotion::FinalIK::FBIKChain::Push)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBody")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBIKChain*), "Push", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solver});
   }
@@ -408,7 +408,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: SolveTrigonometric
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBIKChain::*)(RootMotion::FinalIK::IKSolverFullBody*, bool)>(&RootMotion::FinalIK::FBIKChain::SolveTrigonometric)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBody")->byval_arg;
     static auto* calculateBendDirection = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBIKChain*), "SolveTrigonometric", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solver, calculateBendDirection});
@@ -418,7 +418,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: Stage1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBIKChain::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&RootMotion::FinalIK::FBIKChain::Stage1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBody")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBIKChain*), "Stage1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solver});
   }
@@ -427,7 +427,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: Stage2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBIKChain::*)(RootMotion::FinalIK::IKSolverFullBody*, UnityEngine::Vector3)>(&RootMotion::FinalIK::FBIKChain::Stage2)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBody")->byval_arg;
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBIKChain*), "Stage2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solver, position});
@@ -437,7 +437,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: SolveConstraintSystems
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBIKChain::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&RootMotion::FinalIK::FBIKChain::SolveConstraintSystems)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBody")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBIKChain*), "SolveConstraintSystems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solver});
   }
@@ -446,7 +446,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: SolveFABRIKJoint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::FBIKChain::*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&RootMotion::FinalIK::FBIKChain::SolveFABRIKJoint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pos1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* pos2 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -457,7 +457,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetDirToBendPoint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::FBIKChain::*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&RootMotion::FinalIK::FBIKChain::GetDirToBendPoint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* bendDirection = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* directionMagnitude = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -468,7 +468,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: SolveChildConstraints
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBIKChain::*)(RootMotion::FinalIK::IKSolverFullBody*)>(&RootMotion::FinalIK::FBIKChain::SolveChildConstraints)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBody")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBIKChain*), "SolveChildConstraints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solver});
   }
@@ -477,7 +477,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: SolveLinearConstraint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBIKChain::*)(RootMotion::FinalIK::IKSolver::Node*, RootMotion::FinalIK::IKSolver::Node*, float, float)>(&RootMotion::FinalIK::FBIKChain::SolveLinearConstraint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* node1 = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolver/Node")->byval_arg;
     static auto* node2 = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolver/Node")->byval_arg;
     static auto* crossFade = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -489,7 +489,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: ForwardReach
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBIKChain::*)(UnityEngine::Vector3)>(&RootMotion::FinalIK::FBIKChain::ForwardReach)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBIKChain*), "ForwardReach", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position});
   }
@@ -498,7 +498,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: BackwardReach
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBIKChain::*)(UnityEngine::Vector3)>(&RootMotion::FinalIK::FBIKChain::BackwardReach)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBIKChain*), "BackwardReach", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position});
   }

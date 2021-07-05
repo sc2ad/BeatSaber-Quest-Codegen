@@ -75,7 +75,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Projection::$$c*, "UnityEngine.P
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::ProBuilder::Projection::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Projection::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <Sort>b__6_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::Projection::$$c::*)(UnityEngine::ProBuilder::SimpleTuple_2<float, UnityEngine::Vector2>, UnityEngine::ProBuilder::SimpleTuple_2<float, UnityEngine::Vector2>)>(&UnityEngine::ProBuilder::Projection::$$c::$Sort$b__6_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "SimpleTuple`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single"), ::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
     static auto* b = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "SimpleTuple`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single"), ::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Projection::$$c*), "<Sort>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: <Sort>b__6_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (UnityEngine::ProBuilder::Projection::$$c::*)(UnityEngine::ProBuilder::SimpleTuple_2<float, UnityEngine::Vector2>)>(&UnityEngine::ProBuilder::Projection::$$c::$Sort$b__6_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "SimpleTuple`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single"), ::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Projection::$$c*), "<Sort>b__6_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }

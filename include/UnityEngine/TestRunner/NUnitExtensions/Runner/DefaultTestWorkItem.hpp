@@ -84,7 +84,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::Default
 // Il2CppName: PerformWork
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (UnityEngine::TestRunner::NUnitExtensions::Runner::DefaultTestWorkItem::*)()>(&UnityEngine::TestRunner::NUnitExtensions::Runner::DefaultTestWorkItem::PerformWork)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::DefaultTestWorkItem*), "PerformWork", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

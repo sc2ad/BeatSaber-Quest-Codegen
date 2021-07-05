@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSystem::_PollNextEventPacked*, "OVR.OpenV
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRSystem::_PollNextEventPacked::*)(OVR::OpenVR::VREvent_t_Packed&, uint)>(&OVR::OpenVR::CVRSystem::_PollNextEventPacked::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pEvent = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VREvent_t_Packed")->this_arg;
     static auto* uncbVREvent = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSystem::_PollNextEventPacked*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pEvent, uncbVREvent});
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::CVRSystem::_PollNextEventPacked::*)(OVR::OpenVR::VREvent_t_Packed&, uint, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::CVRSystem::_PollNextEventPacked::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pEvent = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VREvent_t_Packed")->this_arg;
     static auto* uncbVREvent = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRSystem::_PollNextEventPacked::*)(OVR::OpenVR::VREvent_t_Packed&, System::IAsyncResult*)>(&OVR::OpenVR::CVRSystem::_PollNextEventPacked::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pEvent = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VREvent_t_Packed")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSystem::_PollNextEventPacked*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pEvent, result});

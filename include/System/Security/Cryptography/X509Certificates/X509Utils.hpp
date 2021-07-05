@@ -37,7 +37,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Uti
 // Il2CppName: FindOidInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(uint, ::Il2CppString*, System::Security::Cryptography::OidGroup)>(&System::Security::Cryptography::X509Certificates::X509Utils::FindOidInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* keyType = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* keyValue = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* oidGroup = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "OidGroup")->byval_arg;
@@ -48,7 +48,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: FindOidInfoWithFallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(uint, ::Il2CppString*, System::Security::Cryptography::OidGroup)>(&System::Security::Cryptography::X509Certificates::X509Utils::FindOidInfoWithFallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* group = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "OidGroup")->byval_arg;

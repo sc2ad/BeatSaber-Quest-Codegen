@@ -505,7 +505,7 @@ DEFINE_IL2CPP_ARG_TYPE(TMPro::TextMeshPro*, "TMPro", "TextMeshPro");
 // Il2CppName: UpdateEnvMapMatrix
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::UpdateEnvMapMatrix)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "UpdateEnvMapMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -513,7 +513,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: SetMask
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)(TMPro::MaskingTypes)>(&TMPro::TextMeshPro::SetMask)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* maskType = &::il2cpp_utils::GetClassFromName("TMPro", "MaskingTypes")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "SetMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{maskType});
   }
@@ -522,7 +522,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: SetMaskCoordinates
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)(UnityEngine::Vector4)>(&TMPro::TextMeshPro::SetMaskCoordinates)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* coords = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "SetMaskCoordinates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{coords});
   }
@@ -531,7 +531,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: SetMaskCoordinates
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)(UnityEngine::Vector4, float, float)>(&TMPro::TextMeshPro::SetMaskCoordinates)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* coords = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
     static auto* softX = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* softY = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -542,7 +542,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: EnableMasking
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::EnableMasking)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "EnableMasking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -550,7 +550,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: DisableMasking
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::DisableMasking)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "DisableMasking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -558,7 +558,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: UpdateMask
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::UpdateMask)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "UpdateMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -566,7 +566,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: CreateMaterialInstance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::CreateMaterialInstance)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "CreateMaterialInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -574,7 +574,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: SetPerspectiveCorrection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::SetPerspectiveCorrection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "SetPerspectiveCorrection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -582,7 +582,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: OnPreRenderObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::OnPreRenderObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "OnPreRenderObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -590,7 +590,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: SetMeshFilters
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)(bool)>(&TMPro::TextMeshPro::SetMeshFilters)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "SetMeshFilters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
   }
@@ -599,7 +599,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: UpdateSDFScale
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)(float)>(&TMPro::TextMeshPro::UpdateSDFScale)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* scaleDelta = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "UpdateSDFScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scaleDelta});
   }
@@ -608,7 +608,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: get_sortingLayerID
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::get_sortingLayerID)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "get_sortingLayerID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -616,7 +616,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro:
 // Il2CppName: set_sortingLayerID
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)(int)>(&TMPro::TextMeshPro::set_sortingLayerID)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "set_sortingLayerID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -625,7 +625,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: get_sortingOrder
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::get_sortingOrder)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "get_sortingOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -633,7 +633,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro:
 // Il2CppName: set_sortingOrder
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)(int)>(&TMPro::TextMeshPro::set_sortingOrder)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "set_sortingOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -642,7 +642,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: get_textContainer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TextContainer* (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::get_textContainer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "get_textContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -650,7 +650,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::Text
 // Il2CppName: get_renderer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Renderer* (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::get_renderer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "get_renderer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -658,7 +658,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_meshFilter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::MeshFilter* (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::get_meshFilter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "get_meshFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -666,7 +666,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_maskType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::MaskingTypes (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::get_maskType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "get_maskType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -674,7 +674,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::Mask
 // Il2CppName: set_maskType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)(TMPro::MaskingTypes)>(&TMPro::TextMeshPro::set_maskType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("TMPro", "MaskingTypes")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "set_maskType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -683,7 +683,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: SetMask
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)(TMPro::MaskingTypes, UnityEngine::Vector4)>(&TMPro::TextMeshPro::SetMask)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("TMPro", "MaskingTypes")->byval_arg;
     static auto* maskCoords = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "SetMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, maskCoords});
@@ -693,7 +693,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: SetMask
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)(TMPro::MaskingTypes, UnityEngine::Vector4, float, float)>(&TMPro::TextMeshPro::SetMask)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("TMPro", "MaskingTypes")->byval_arg;
     static auto* maskCoords = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
     static auto* softnessX = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -705,7 +705,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: UpdateFontAsset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::UpdateFontAsset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "UpdateFontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -713,7 +713,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: CalculateLayoutInputHorizontal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::CalculateLayoutInputHorizontal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "CalculateLayoutInputHorizontal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -721,7 +721,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: CalculateLayoutInputVertical
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::CalculateLayoutInputVertical)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "CalculateLayoutInputVertical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -729,7 +729,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: Awake
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::Awake)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -737,7 +737,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: OnEnable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::OnEnable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -745,7 +745,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: OnDisable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::OnDisable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -753,7 +753,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: OnDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::OnDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -761,7 +761,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: LoadFontAsset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::LoadFontAsset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "LoadFontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -769,7 +769,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: GetMaterial
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (TMPro::TextMeshPro::*)(UnityEngine::Material*)>(&TMPro::TextMeshPro::GetMaterial)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mat = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "GetMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mat});
   }
@@ -778,7 +778,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetMaterials
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Material*>* (TMPro::TextMeshPro::*)(::Array<UnityEngine::Material*>*)>(&TMPro::TextMeshPro::GetMaterials)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mats = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "GetMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mats});
   }
@@ -787,7 +787,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: SetSharedMaterial
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)(UnityEngine::Material*)>(&TMPro::TextMeshPro::SetSharedMaterial)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mat = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "SetSharedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mat});
   }
@@ -796,7 +796,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: GetSharedMaterials
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Material*>* (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::GetSharedMaterials)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "GetSharedMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -804,7 +804,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: SetSharedMaterials
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)(::Array<UnityEngine::Material*>*)>(&TMPro::TextMeshPro::SetSharedMaterials)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* materials = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "SetSharedMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{materials});
   }
@@ -813,7 +813,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: SetOutlineThickness
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)(float)>(&TMPro::TextMeshPro::SetOutlineThickness)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* thickness = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "SetOutlineThickness", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{thickness});
   }
@@ -822,7 +822,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: SetFaceColor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)(UnityEngine::Color32)>(&TMPro::TextMeshPro::SetFaceColor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "SetFaceColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color});
   }
@@ -831,7 +831,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: SetOutlineColor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)(UnityEngine::Color32)>(&TMPro::TextMeshPro::SetOutlineColor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "SetOutlineColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color});
   }
@@ -840,7 +840,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: SetShaderDepth
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::SetShaderDepth)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "SetShaderDepth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -848,7 +848,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: SetCulling
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::SetCulling)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "SetCulling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -856,7 +856,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: GetPaddingForMaterial
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPro::TextMeshPro::*)(UnityEngine::Material*)>(&TMPro::TextMeshPro::GetPaddingForMaterial)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mat = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "GetPaddingForMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mat});
   }
@@ -865,7 +865,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPr
 // Il2CppName: GetPaddingForMaterial
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::GetPaddingForMaterial)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "GetPaddingForMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -873,7 +873,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPr
 // Il2CppName: SetArraySizes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TextMeshPro::*)(::Array<TMPro::TMP_Text::UnicodeChar>*)>(&TMPro::TextMeshPro::SetArraySizes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* chars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "SetArraySizes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{chars});
   }
@@ -882,7 +882,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro:
 // Il2CppName: ComputeMarginSize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::ComputeMarginSize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "ComputeMarginSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -890,7 +890,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: OnDidApplyAnimationProperties
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::OnDidApplyAnimationProperties)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "OnDidApplyAnimationProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -898,7 +898,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: OnTransformParentChanged
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::OnTransformParentChanged)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "OnTransformParentChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -906,7 +906,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: OnRectTransformDimensionsChange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::OnRectTransformDimensionsChange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "OnRectTransformDimensionsChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -914,7 +914,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: InternalUpdate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::InternalUpdate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "InternalUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -922,7 +922,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: GenerateTextMesh
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::GenerateTextMesh)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "GenerateTextMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -930,7 +930,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: GetTextContainerLocalCorners
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::GetTextContainerLocalCorners)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "GetTextContainerLocalCorners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -938,7 +938,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: SetActiveSubMeshes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)(bool)>(&TMPro::TextMeshPro::SetActiveSubMeshes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "SetActiveSubMeshes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
   }
@@ -947,7 +947,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: ClearSubMeshObjects
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::ClearSubMeshObjects)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "ClearSubMeshObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -955,7 +955,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: GetCompoundBounds
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::GetCompoundBounds)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "GetCompoundBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -963,7 +963,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: AdjustLineOffset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)(int, int, float)>(&TMPro::TextMeshPro::AdjustLineOffset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* endIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -974,7 +974,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: get_autoSizeTextContainer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::get_autoSizeTextContainer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "get_autoSizeTextContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -982,7 +982,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 // Il2CppName: set_autoSizeTextContainer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)(bool)>(&TMPro::TextMeshPro::set_autoSizeTextContainer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "set_autoSizeTextContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -991,7 +991,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: get_transform
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::get_transform)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "get_transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -999,7 +999,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_mesh
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::get_mesh)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "get_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1007,7 +1007,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: SetVerticesDirty
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::SetVerticesDirty)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "SetVerticesDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1015,7 +1015,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: SetLayoutDirty
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::SetLayoutDirty)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "SetLayoutDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1023,7 +1023,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: SetMaterialDirty
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::SetMaterialDirty)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "SetMaterialDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1031,7 +1031,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: SetAllDirty
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::SetAllDirty)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "SetAllDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1039,7 +1039,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: Rebuild
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)(UnityEngine::UI::CanvasUpdate)>(&TMPro::TextMeshPro::Rebuild)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* update = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "CanvasUpdate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "Rebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{update});
   }
@@ -1048,7 +1048,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: UpdateMaterial
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::UpdateMaterial)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "UpdateMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1056,7 +1056,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: UpdateMeshPadding
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::UpdateMeshPadding)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "UpdateMeshPadding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1064,7 +1064,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: ForceMeshUpdate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::ForceMeshUpdate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "ForceMeshUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1072,7 +1072,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: ForceMeshUpdate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)(bool)>(&TMPro::TextMeshPro::ForceMeshUpdate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ignoreInactive = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "ForceMeshUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ignoreInactive});
   }
@@ -1081,7 +1081,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: GetTextInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_TextInfo* (TMPro::TextMeshPro::*)(::Il2CppString*)>(&TMPro::TextMeshPro::GetTextInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "GetTextInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});
   }
@@ -1090,7 +1090,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 // Il2CppName: ClearMesh
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)(bool)>(&TMPro::TextMeshPro::ClearMesh)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* updateMesh = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "ClearMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{updateMesh});
   }
@@ -1099,7 +1099,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: UpdateGeometry
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)(UnityEngine::Mesh*, int)>(&TMPro::TextMeshPro::UpdateGeometry)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "UpdateGeometry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh, index});
@@ -1109,7 +1109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: UpdateVertexData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)(TMPro::TMP_VertexDataUpdateFlags)>(&TMPro::TextMeshPro::UpdateVertexData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* flags = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_VertexDataUpdateFlags")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "UpdateVertexData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flags});
   }
@@ -1118,7 +1118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: UpdateVertexData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::UpdateVertexData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "UpdateVertexData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

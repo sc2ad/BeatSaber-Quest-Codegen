@@ -69,7 +69,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::ValidationResult*, "Mono.Secur
 // Il2CppName: get_Trusted
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::Interface::ValidationResult::*)()>(&Mono::Security::Interface::ValidationResult::get_Trusted)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::ValidationResult*), "get_Trusted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Il2CppName: get_UserDenied
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::Interface::ValidationResult::*)()>(&Mono::Security::Interface::ValidationResult::get_UserDenied)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::ValidationResult*), "get_UserDenied", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

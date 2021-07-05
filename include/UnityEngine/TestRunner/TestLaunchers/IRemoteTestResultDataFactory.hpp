@@ -43,7 +43,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::IRemoteTestResult
 // Il2CppName: CreateFromTestResult
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* (UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory::*)(NUnit::Framework::Interfaces::ITestResult*)>(&UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory::CreateFromTestResult)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITestResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory*), "CreateFromTestResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
@@ -52,7 +52,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: CreateFromTest
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* (UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory::*)(NUnit::Framework::Interfaces::ITest*)>(&UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory::CreateFromTest)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* test = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory*), "CreateFromTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{test});
   }

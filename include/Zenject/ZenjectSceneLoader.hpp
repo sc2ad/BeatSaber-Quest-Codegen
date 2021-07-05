@@ -144,7 +144,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectSceneLoader*, "Zenject", "ZenjectSceneLoa
 // Il2CppName: LoadScene
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(::Il2CppString*)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sceneName});
   }
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: LoadScene
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sceneName, loadMode});
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: LoadScene
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
     static auto* extraBindings = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")})->byval_arg;
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: LoadScene
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
     static auto* extraBindings = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")})->byval_arg;
@@ -186,7 +186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: LoadScene
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
     static auto* extraBindings = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")})->byval_arg;
@@ -199,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: LoadSceneAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(::Il2CppString*)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sceneName});
   }
@@ -208,7 +208,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: LoadSceneAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sceneName, loadMode});
@@ -218,7 +218,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: LoadSceneAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
     static auto* extraBindings = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")})->byval_arg;
@@ -229,7 +229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: LoadSceneAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
     static auto* extraBindings = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")})->byval_arg;
@@ -241,7 +241,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: LoadSceneAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(::Il2CppString*, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
     static auto* extraBindingsEarly = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")})->byval_arg;
@@ -255,7 +255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: PrepareForLoadScene
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, System::Action_1<Zenject::DiContainer*>*, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship)>(&Zenject::ZenjectSceneLoader::PrepareForLoadScene)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
     static auto* extraBindingsEarly = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")})->byval_arg;
     static auto* extraBindings = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")})->byval_arg;
@@ -268,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: LoadScene
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(int)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sceneIndex});
   }
@@ -277,7 +277,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: LoadScene
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sceneIndex, loadMode});
@@ -287,7 +287,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: LoadScene
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
     static auto* extraBindings = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")})->byval_arg;
@@ -298,7 +298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: LoadScene
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
     static auto* extraBindings = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")})->byval_arg;
@@ -310,7 +310,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: LoadScene
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadScene)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
     static auto* extraBindings = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")})->byval_arg;
@@ -323,7 +323,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: LoadSceneAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(int)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sceneIndex});
   }
@@ -332,7 +332,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: LoadSceneAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectSceneLoader*), "LoadSceneAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sceneIndex, loadMode});
@@ -342,7 +342,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: LoadSceneAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
     static auto* extraBindings = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")})->byval_arg;
@@ -353,7 +353,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: LoadSceneAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
     static auto* extraBindings = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")})->byval_arg;
@@ -365,7 +365,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: LoadSceneAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (Zenject::ZenjectSceneLoader::*)(int, UnityEngine::SceneManagement::LoadSceneMode, System::Action_1<Zenject::DiContainer*>*, Zenject::LoadSceneRelationship, System::Action_1<Zenject::DiContainer*>*)>(&Zenject::ZenjectSceneLoader::LoadSceneAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
     static auto* extraBindings = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")})->byval_arg;

@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRRenderModels::_LoadIntoTextureD3D11_Async*,
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRRenderModelError (Valve::VR::IVRRenderModels::_LoadIntoTextureD3D11_Async::*)(int, System::IntPtr)>(&Valve::VR::IVRRenderModels::_LoadIntoTextureD3D11_Async::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* textureId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* pDstTexture = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRRenderModels::_LoadIntoTextureD3D11_Async*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{textureId, pDstTexture});
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRRenderModels::_LoadIntoTextureD3D11_Async::*)(int, System::IntPtr, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRRenderModels::_LoadIntoTextureD3D11_Async::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* textureId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* pDstTexture = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRRenderModelError (Valve::VR::IVRRenderModels::_LoadIntoTextureD3D11_Async::*)(System::IAsyncResult*)>(&Valve::VR::IVRRenderModels::_LoadIntoTextureD3D11_Async::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRRenderModels::_LoadIntoTextureD3D11_Async*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

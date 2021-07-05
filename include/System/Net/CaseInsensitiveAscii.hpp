@@ -71,7 +71,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::CaseInsensitiveAscii*, "System.Net", "CaseIn
 // Il2CppName: GetHashCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::CaseInsensitiveAscii::*)(::Il2CppObject*)>(&System::Net::CaseInsensitiveAscii::GetHashCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* myObject = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::CaseInsensitiveAscii*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{myObject});
   }
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: Compare
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::CaseInsensitiveAscii::*)(::Il2CppObject*, ::Il2CppObject*)>(&System::Net::CaseInsensitiveAscii::Compare)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* firstObject = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* secondObject = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::CaseInsensitiveAscii*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{firstObject, secondObject});
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: FastGetHashCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::CaseInsensitiveAscii::*)(::Il2CppString*)>(&System::Net::CaseInsensitiveAscii::FastGetHashCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* myString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::CaseInsensitiveAscii*), "FastGetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{myString});
   }
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: Equals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::CaseInsensitiveAscii::*)(::Il2CppObject*, ::Il2CppObject*)>(&System::Net::CaseInsensitiveAscii::Equals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* firstObject = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* secondObject = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::CaseInsensitiveAscii*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{firstObject, secondObject});
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Net::CaseInsensitiveAscii::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::CaseInsensitiveAscii*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -48,7 +48,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::TestResultExten
 // Il2CppName: RecordPrefixedException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NUnit::Framework::Internal::TestResult*, ::Il2CppString*, System::Exception*, NUnit::Framework::Interfaces::ResultState*)>(&UnityEngine::TestRunner::NUnitExtensions::TestResultExtensions::RecordPrefixedException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* testResult = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestResult")->byval_arg;
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ex = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
@@ -60,7 +60,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NU
 // Il2CppName: RecordPrefixedError
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NUnit::Framework::Internal::TestResult*, ::Il2CppString*, ::Il2CppString*, NUnit::Framework::Interfaces::ResultState*)>(&UnityEngine::TestRunner::NUnitExtensions::TestResultExtensions::RecordPrefixedError)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* testResult = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestResult")->byval_arg;
     static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

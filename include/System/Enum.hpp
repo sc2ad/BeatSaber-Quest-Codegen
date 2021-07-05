@@ -282,7 +282,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Enum*, "System", "Enum");
 // Il2CppName: GetCachedValuesAndNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Enum::ValuesAndNames* (*)(System::RuntimeType*, bool)>(&System::Enum::GetCachedValuesAndNames)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
     static auto* getNames = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "GetCachedValuesAndNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumType, getNames});
@@ -292,7 +292,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Enu
 // Il2CppName: InternalFormattedHexString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppObject*)>(&System::Enum::InternalFormattedHexString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "InternalFormattedHexString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -301,7 +301,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: InternalFormat
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::RuntimeType*, ::Il2CppObject*)>(&System::Enum::InternalFormat)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eT = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "InternalFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eT, value});
@@ -311,7 +311,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: InternalFlagsFormat
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::RuntimeType*, ::Il2CppObject*)>(&System::Enum::InternalFlagsFormat)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eT = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "InternalFlagsFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eT, value});
@@ -321,7 +321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: ToUInt64
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppObject*)>(&System::Enum::ToUInt64)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -330,7 +330,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Il2CppName: InternalCompareTo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppObject*, ::Il2CppObject*)>(&System::Enum::InternalCompareTo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* o1 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* o2 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "InternalCompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{o1, o2});
@@ -340,7 +340,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Il2CppName: InternalGetUnderlyingType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType* (*)(System::RuntimeType*)>(&System::Enum::InternalGetUnderlyingType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "InternalGetUnderlyingType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumType});
   }
@@ -349,7 +349,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: GetEnumValuesAndNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::RuntimeType*, ::Array<uint64_t>*&, ::Array<::Il2CppString*>*&)>(&System::Enum::GetEnumValuesAndNames)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->this_arg;
     static auto* names = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->this_arg;
@@ -360,7 +360,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: InternalBoxEnum
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::RuntimeType*, int64_t)>(&System::Enum::InternalBoxEnum)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "InternalBoxEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumType, value});
@@ -370,7 +370,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: Parse
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, ::Il2CppString*)>(&System::Enum::Parse)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumType, value});
@@ -380,7 +380,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: Parse
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, ::Il2CppString*, bool)>(&System::Enum::Parse)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ignoreCase = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -391,7 +391,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: TryParseEnum
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ::Il2CppString*, bool, System::Enum::EnumResult&)>(&System::Enum::TryParseEnum)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ignoreCase = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -403,7 +403,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: GetUnderlyingType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*)>(&System::Enum::GetUnderlyingType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "GetUnderlyingType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumType});
   }
@@ -412,7 +412,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Il2CppName: GetValues
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(System::Type*)>(&System::Enum::GetValues)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "GetValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumType});
   }
@@ -421,7 +421,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Arr
 // Il2CppName: InternalGetValues
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint64_t>* (*)(System::RuntimeType*)>(&System::Enum::InternalGetValues)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "InternalGetValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumType});
   }
@@ -430,7 +430,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: GetName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Type*, ::Il2CppObject*)>(&System::Enum::GetName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumType, value});
@@ -440,7 +440,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(System::Type*)>(&System::Enum::GetNames)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "GetNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumType});
   }
@@ -449,7 +449,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: InternalGetNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(System::RuntimeType*)>(&System::Enum::InternalGetNames)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "InternalGetNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumType});
   }
@@ -458,7 +458,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: ToObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, ::Il2CppObject*)>(&System::Enum::ToObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "ToObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumType, value});
@@ -468,7 +468,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: IsDefined
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ::Il2CppObject*)>(&System::Enum::IsDefined)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "IsDefined", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumType, value});
@@ -478,7 +478,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: get_value
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Enum::*)()>(&System::Enum::get_value)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "get_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -486,7 +486,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: GetValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Enum::*)()>(&System::Enum::GetValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -494,7 +494,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: InternalHasFlag
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Enum::*)(System::Enum*)>(&System::Enum::InternalHasFlag)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* flags = &::il2cpp_utils::GetClassFromName("System", "Enum")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "InternalHasFlag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flags});
   }
@@ -503,7 +503,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_hashcode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Enum::*)()>(&System::Enum::get_hashcode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "get_hashcode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -511,7 +511,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: ToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Enum::*)(::Il2CppString*, System::IFormatProvider*)>(&System::Enum::ToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format, provider});
@@ -521,7 +521,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: CompareTo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Enum::*)(::Il2CppObject*)>(&System::Enum::CompareTo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{target});
   }
@@ -530,7 +530,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: ToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Enum::*)(::Il2CppString*)>(&System::Enum::ToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format});
   }
@@ -539,7 +539,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: ToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Enum::*)(System::IFormatProvider*)>(&System::Enum::ToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
   }
@@ -548,7 +548,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: HasFlag
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Enum::*)(System::Enum*)>(&System::Enum::HasFlag)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* flag = &::il2cpp_utils::GetClassFromName("System", "Enum")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "HasFlag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flag});
   }
@@ -557,7 +557,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: GetTypeCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeCode (System::Enum::*)()>(&System::Enum::GetTypeCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "GetTypeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -565,7 +565,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Il2CppName: System.IConvertible.ToBoolean
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Enum::*)(System::IFormatProvider*)>(&System::Enum::System_IConvertible_ToBoolean)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "System.IConvertible.ToBoolean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
   }
@@ -574,7 +574,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: System.IConvertible.ToChar
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (System::Enum::*)(System::IFormatProvider*)>(&System::Enum::System_IConvertible_ToChar)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "System.IConvertible.ToChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
   }
@@ -583,7 +583,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 // Il2CppName: System.IConvertible.ToSByte
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (System::Enum::*)(System::IFormatProvider*)>(&System::Enum::System_IConvertible_ToSByte)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "System.IConvertible.ToSByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
   }
@@ -592,7 +592,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (Sys
 // Il2CppName: System.IConvertible.ToByte
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (System::Enum::*)(System::IFormatProvider*)>(&System::Enum::System_IConvertible_ToByte)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "System.IConvertible.ToByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
   }
@@ -601,7 +601,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Sy
 // Il2CppName: System.IConvertible.ToInt16
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (System::Enum::*)(System::IFormatProvider*)>(&System::Enum::System_IConvertible_ToInt16)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "System.IConvertible.ToInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
   }
@@ -610,7 +610,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (Sy
 // Il2CppName: System.IConvertible.ToUInt16
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (System::Enum::*)(System::IFormatProvider*)>(&System::Enum::System_IConvertible_ToUInt16)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "System.IConvertible.ToUInt16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
   }
@@ -619,7 +619,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (S
 // Il2CppName: System.IConvertible.ToInt32
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Enum::*)(System::IFormatProvider*)>(&System::Enum::System_IConvertible_ToInt32)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "System.IConvertible.ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
   }
@@ -628,7 +628,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: System.IConvertible.ToUInt32
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (System::Enum::*)(System::IFormatProvider*)>(&System::Enum::System_IConvertible_ToUInt32)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "System.IConvertible.ToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
   }
@@ -637,7 +637,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Syste
 // Il2CppName: System.IConvertible.ToInt64
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Enum::*)(System::IFormatProvider*)>(&System::Enum::System_IConvertible_ToInt64)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "System.IConvertible.ToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
   }
@@ -646,7 +646,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Sy
 // Il2CppName: System.IConvertible.ToUInt64
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (System::Enum::*)(System::IFormatProvider*)>(&System::Enum::System_IConvertible_ToUInt64)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "System.IConvertible.ToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
   }
@@ -655,7 +655,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (S
 // Il2CppName: System.IConvertible.ToSingle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (System::Enum::*)(System::IFormatProvider*)>(&System::Enum::System_IConvertible_ToSingle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "System.IConvertible.ToSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
   }
@@ -664,7 +664,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Syst
 // Il2CppName: System.IConvertible.ToDouble
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (System::Enum::*)(System::IFormatProvider*)>(&System::Enum::System_IConvertible_ToDouble)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "System.IConvertible.ToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
   }
@@ -673,7 +673,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (Sys
 // Il2CppName: System.IConvertible.ToDecimal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (System::Enum::*)(System::IFormatProvider*)>(&System::Enum::System_IConvertible_ToDecimal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "System.IConvertible.ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
   }
@@ -682,7 +682,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dec
 // Il2CppName: System.IConvertible.ToDateTime
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (System::Enum::*)(System::IFormatProvider*)>(&System::Enum::System_IConvertible_ToDateTime)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "System.IConvertible.ToDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider});
   }
@@ -691,7 +691,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Il2CppName: System.IConvertible.ToType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Enum::*)(System::Type*, System::IFormatProvider*)>(&System::Enum::System_IConvertible_ToType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "System.IConvertible.ToType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, provider});
@@ -701,7 +701,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: ToObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, int8_t)>(&System::Enum::ToObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "SByte")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "ToObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumType, value});
@@ -711,7 +711,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: ToObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, int16_t)>(&System::Enum::ToObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int16")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "ToObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumType, value});
@@ -721,7 +721,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: ToObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, int)>(&System::Enum::ToObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "ToObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumType, value});
@@ -731,7 +731,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: ToObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, uint8_t)>(&System::Enum::ToObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "ToObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumType, value});
@@ -741,7 +741,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: ToObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, uint16_t)>(&System::Enum::ToObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt16")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "ToObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumType, value});
@@ -751,7 +751,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: ToObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, uint)>(&System::Enum::ToObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "ToObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumType, value});
@@ -761,7 +761,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: ToObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, int64_t)>(&System::Enum::ToObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "ToObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumType, value});
@@ -771,7 +771,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: ToObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, uint64_t)>(&System::Enum::ToObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "ToObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumType, value});
@@ -781,7 +781,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: ToObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, ::Il2CppChar)>(&System::Enum::ToObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "ToObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumType, value});
@@ -791,7 +791,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: ToObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, bool)>(&System::Enum::ToObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "ToObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumType, value});
@@ -801,7 +801,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Enum::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -809,7 +809,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: Equals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Enum::*)(::Il2CppObject*)>(&System::Enum::Equals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
@@ -818,7 +818,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: GetHashCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Enum::*)()>(&System::Enum::GetHashCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -826,7 +826,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: ToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Enum::*)()>(&System::Enum::ToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

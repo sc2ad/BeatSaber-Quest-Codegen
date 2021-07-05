@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::WindowsPlatform::UnityLogDelegate*, "Oc
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::WindowsPlatform::UnityLogDelegate::*)(System::IntPtr, System::IntPtr)>(&Oculus::Platform::WindowsPlatform::UnityLogDelegate::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tag = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* msg = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::WindowsPlatform::UnityLogDelegate*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tag, msg});
@@ -71,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Oculus::Platform::WindowsPlatform::UnityLogDelegate::*)(System::IntPtr, System::IntPtr, System::AsyncCallback*, ::Il2CppObject*)>(&Oculus::Platform::WindowsPlatform::UnityLogDelegate::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tag = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* msg = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::WindowsPlatform::UnityLogDelegate::*)(System::IAsyncResult*)>(&Oculus::Platform::WindowsPlatform::UnityLogDelegate::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::WindowsPlatform::UnityLogDelegate*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

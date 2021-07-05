@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::BasicClient*, "System.Net", "BasicClient");
 // Il2CppName: Authenticate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Authorization* (System::Net::BasicClient::*)(::Il2CppString*, System::Net::WebRequest*, System::Net::ICredentials*)>(&System::Net::BasicClient::Authenticate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* challenge = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* webRequest = &::il2cpp_utils::GetClassFromName("System.Net", "WebRequest")->byval_arg;
     static auto* credentials = &::il2cpp_utils::GetClassFromName("System.Net", "ICredentials")->byval_arg;
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: GetBytes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppString*)>(&System::Net::BasicClient::GetBytes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::BasicClient*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
   }
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: InternalAuthenticate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Authorization* (*)(System::Net::WebRequest*, System::Net::ICredentials*)>(&System::Net::BasicClient::InternalAuthenticate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* webRequest = &::il2cpp_utils::GetClassFromName("System.Net", "WebRequest")->byval_arg;
     static auto* credentials = &::il2cpp_utils::GetClassFromName("System.Net", "ICredentials")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::BasicClient*), "InternalAuthenticate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{webRequest, credentials});
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: PreAuthenticate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Authorization* (System::Net::BasicClient::*)(System::Net::WebRequest*, System::Net::ICredentials*)>(&System::Net::BasicClient::PreAuthenticate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* webRequest = &::il2cpp_utils::GetClassFromName("System.Net", "WebRequest")->byval_arg;
     static auto* credentials = &::il2cpp_utils::GetClassFromName("System.Net", "ICredentials")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::BasicClient*), "PreAuthenticate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{webRequest, credentials});
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: get_AuthenticationType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::BasicClient::*)()>(&System::Net::BasicClient::get_AuthenticationType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::BasicClient*), "get_AuthenticationType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

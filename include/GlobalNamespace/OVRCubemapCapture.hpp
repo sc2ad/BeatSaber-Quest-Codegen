@@ -108,7 +108,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRCubemapCapture*, "", "OVRCubemapCaptu
 // Il2CppName: Update
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRCubemapCapture::*)()>(&GlobalNamespace::OVRCubemapCapture::Update)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCubemapCapture*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: TriggerCubemapCapture
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3, int, ::Il2CppString*)>(&GlobalNamespace::OVRCubemapCapture::TriggerCubemapCapture)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* capturePos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* cubemapSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* pathName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: RenderIntoCubemap
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Camera*, UnityEngine::Cubemap*)>(&GlobalNamespace::OVRCubemapCapture::RenderIntoCubemap)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ownerCamera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     static auto* outCubemap = &::il2cpp_utils::GetClassFromName("UnityEngine", "Cubemap")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCubemapCapture*), "RenderIntoCubemap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ownerCamera, outCubemap});
@@ -137,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: SaveCubemapCapture
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Cubemap*, ::Il2CppString*)>(&GlobalNamespace::OVRCubemapCapture::SaveCubemapCapture)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cubemap = &::il2cpp_utils::GetClassFromName("UnityEngine", "Cubemap")->byval_arg;
     static auto* pathName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRCubemapCapture*), "SaveCubemapCapture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cubemap, pathName});

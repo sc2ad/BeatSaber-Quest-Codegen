@@ -43,7 +43,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::IriHelper*, "System", "IriHelper");
 // Il2CppName: CheckIriUnicodeRange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar, bool)>(&System::IriHelper::CheckIriUnicodeRange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* unicode = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* isQuery = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IriHelper*), "CheckIriUnicodeRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unicode, isQuery});
@@ -53,7 +53,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: CheckIriUnicodeRange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar, ::Il2CppChar, bool&, bool)>(&System::IriHelper::CheckIriUnicodeRange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* highSurr = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* lowSurr = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* surrogatePair = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: CheckIsReserved
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar, System::UriComponents)>(&System::IriHelper::CheckIsReserved)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* component = &::il2cpp_utils::GetClassFromName("System", "UriComponents")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IriHelper*), "CheckIsReserved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch, component});
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: EscapeUnescapeIri
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppChar*, int, int, System::UriComponents)>(&System::IriHelper::EscapeUnescapeIri)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pInput = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

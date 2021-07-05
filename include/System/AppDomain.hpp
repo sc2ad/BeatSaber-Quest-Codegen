@@ -360,7 +360,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::AppDomain*, "System", "AppDomain");
 // Il2CppName: getFriendlyName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::AppDomain::*)()>(&System::AppDomain::getFriendlyName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "getFriendlyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -368,7 +368,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_FriendlyName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::AppDomain::*)()>(&System::AppDomain::get_FriendlyName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "get_FriendlyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -376,7 +376,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_DefaultPrincipal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Principal::IPrincipal* (System::AppDomain::*)()>(&System::AppDomain::get_DefaultPrincipal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "get_DefaultPrincipal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -384,7 +384,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Il2CppName: getCurDomain
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::AppDomain* (*)()>(&System::AppDomain::getCurDomain)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "getCurDomain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -392,7 +392,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::App
 // Il2CppName: get_CurrentDomain
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::AppDomain* (*)()>(&System::AppDomain::get_CurrentDomain)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "get_CurrentDomain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -400,7 +400,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::App
 // Il2CppName: GetAssemblies
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::Assembly*>* (System::AppDomain::*)(bool)>(&System::AppDomain::GetAssemblies)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* refOnly = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "GetAssemblies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{refOnly});
   }
@@ -409,7 +409,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Sys
 // Il2CppName: GetAssemblies
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::Assembly*>* (System::AppDomain::*)()>(&System::AppDomain::GetAssemblies)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "GetAssemblies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -417,7 +417,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Sys
 // Il2CppName: GetData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::AppDomain::*)(::Il2CppString*)>(&System::AppDomain::GetData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
   }
@@ -426,7 +426,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: LoadAssembly
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (System::AppDomain::*)(::Il2CppString*, System::Security::Policy::Evidence*, bool)>(&System::AppDomain::LoadAssembly)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* assemblyRef = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* securityEvidence = &::il2cpp_utils::GetClassFromName("System.Security.Policy", "Evidence")->byval_arg;
     static auto* refOnly = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -437,7 +437,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Il2CppName: Load
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (System::AppDomain::*)(::Il2CppString*)>(&System::AppDomain::Load)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* assemblyString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assemblyString});
   }
@@ -446,7 +446,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Il2CppName: Load
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (System::AppDomain::*)(::Il2CppString*, System::Security::Policy::Evidence*, bool)>(&System::AppDomain::Load)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* assemblyString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* assemblySecurity = &::il2cpp_utils::GetClassFromName("System.Security.Policy", "Evidence")->byval_arg;
     static auto* refonly = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -457,7 +457,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Il2CppName: InternalSetDomainByID
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::AppDomain* (*)(int)>(&System::AppDomain::InternalSetDomainByID)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* domain_id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "InternalSetDomainByID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{domain_id});
   }
@@ -466,7 +466,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::App
 // Il2CppName: InternalSetDomain
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::AppDomain* (*)(System::AppDomain*)>(&System::AppDomain::InternalSetDomain)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("System", "AppDomain")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "InternalSetDomain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }
@@ -475,7 +475,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::App
 // Il2CppName: InternalPushDomainRefByID
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&System::AppDomain::InternalPushDomainRefByID)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* domain_id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "InternalPushDomainRefByID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{domain_id});
   }
@@ -484,7 +484,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Il2CppName: InternalPopDomainRef
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::AppDomain::InternalPopDomainRef)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "InternalPopDomainRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -492,7 +492,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: InternalSetContext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::Context* (*)(System::Runtime::Remoting::Contexts::Context*)>(&System::AppDomain::InternalSetContext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Contexts", "Context")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "InternalSetContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }
@@ -501,7 +501,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: InternalGetContext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::Context* (*)()>(&System::AppDomain::InternalGetContext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "InternalGetContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -509,7 +509,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: InternalGetDefaultContext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::Context* (*)()>(&System::AppDomain::InternalGetDefaultContext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "InternalGetDefaultContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -517,7 +517,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: InternalGetProcessGuid
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::AppDomain::InternalGetProcessGuid)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* newguid = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "InternalGetProcessGuid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newguid});
   }
@@ -526,7 +526,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: InvokeInDomainByID
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(int, System::Reflection::MethodInfo*, ::Il2CppObject*, ::Array<::Il2CppObject*>*)>(&System::AppDomain::InvokeInDomainByID)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* domain_id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -538,7 +538,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: GetProcessGuid
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::AppDomain::GetProcessGuid)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "GetProcessGuid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -546,7 +546,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: InternalIsFinalizingForUnload
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&System::AppDomain::InternalIsFinalizingForUnload)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* domain_id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "InternalIsFinalizingForUnload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{domain_id});
   }
@@ -555,7 +555,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Il2CppName: IsFinalizingForUnload
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::AppDomain::*)()>(&System::AppDomain::IsFinalizingForUnload)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "IsFinalizingForUnload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -563,7 +563,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: getDomainID
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::AppDomain::*)()>(&System::AppDomain::getDomainID)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "getDomainID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -571,7 +571,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: DoAssemblyLoad
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::AppDomain::*)(System::Reflection::Assembly*)>(&System::AppDomain::DoAssemblyLoad)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* assembly = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "DoAssemblyLoad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assembly});
   }
@@ -580,7 +580,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: DoAssemblyResolve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (System::AppDomain::*)(::Il2CppString*, System::Reflection::Assembly*, bool)>(&System::AppDomain::DoAssemblyResolve)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* requestingAssembly = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     static auto* refonly = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -591,7 +591,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Il2CppName: DoTypeResolve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (System::AppDomain::*)(::Il2CppObject*)>(&System::AppDomain::DoTypeResolve)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name_or_tb = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "DoTypeResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name_or_tb});
   }
@@ -600,7 +600,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Il2CppName: DoDomainUnload
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::AppDomain::*)()>(&System::AppDomain::DoDomainUnload)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "DoDomainUnload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -608,7 +608,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: GetMarshalledDomainObjRef
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::AppDomain::*)()>(&System::AppDomain::GetMarshalledDomainObjRef)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "GetMarshalledDomainObjRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -616,7 +616,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: ProcessMessageInDomain
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::AppDomain::*)(::Array<uint8_t>*, System::Runtime::Remoting::Messaging::CADMethodCallMessage*, ::Array<uint8_t>*&, System::Runtime::Remoting::Messaging::CADMethodReturnMessage*&)>(&System::AppDomain::ProcessMessageInDomain)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* arrRequest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* cadMsg = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "CADMethodCallMessage")->byval_arg;
     static auto* arrResponse = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
@@ -628,7 +628,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: add_DomainUnload
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::AppDomain::*)(System::EventHandler*)>(&System::AppDomain::add_DomainUnload)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "EventHandler")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "add_DomainUnload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -637,7 +637,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: remove_DomainUnload
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::AppDomain::*)(System::EventHandler*)>(&System::AppDomain::remove_DomainUnload)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "EventHandler")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "remove_DomainUnload", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -646,7 +646,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: add_UnhandledException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::AppDomain::*)(System::UnhandledExceptionEventHandler*)>(&System::AppDomain::add_UnhandledException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "UnhandledExceptionEventHandler")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "add_UnhandledException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -655,7 +655,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: remove_UnhandledException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::AppDomain::*)(System::UnhandledExceptionEventHandler*)>(&System::AppDomain::remove_UnhandledException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "UnhandledExceptionEventHandler")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "remove_UnhandledException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -668,7 +668,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: InitializeLifetimeService
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::AppDomain::*)()>(&System::AppDomain::InitializeLifetimeService)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "InitializeLifetimeService", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -676,7 +676,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: ToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::AppDomain::*)()>(&System::AppDomain::ToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::AppDomain*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

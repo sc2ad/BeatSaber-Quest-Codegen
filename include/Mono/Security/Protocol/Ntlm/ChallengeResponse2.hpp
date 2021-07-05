@@ -71,7 +71,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::ChallengeResponse2*, "Mon
 // Il2CppName: Compute_LM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppString*, ::Array<uint8_t>*)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_LM)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* challenge = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::ChallengeResponse2*), "Compute_LM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{password, challenge});
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: Compute_NTLM_Password
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppString*)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_NTLM_Password)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::ChallengeResponse2*), "Compute_NTLM_Password", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{password});
   }
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: Compute_NTLM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppString*, ::Array<uint8_t>*)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_NTLM)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* challenge = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::ChallengeResponse2*), "Compute_NTLM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{password, challenge});
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: Compute_NTLMv2_Session
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Array<uint8_t>*, ::Array<uint8_t>*&, ::Array<uint8_t>*&)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_NTLMv2_Session)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* challenge = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* lm = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: Compute_NTLMv2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(Mono::Security::Protocol::Ntlm::Type2Message*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute_NTLMv2)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type2 = &::il2cpp_utils::GetClassFromName("Mono.Security.Protocol.Ntlm", "Type2Message")->byval_arg;
     static auto* username = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -124,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: Compute
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Mono::Security::Protocol::Ntlm::Type2Message*, Mono::Security::Protocol::Ntlm::NtlmAuthLevel, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Array<uint8_t>*&, ::Array<uint8_t>*&)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::Compute)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type2 = &::il2cpp_utils::GetClassFromName("Mono.Security.Protocol.Ntlm", "Type2Message")->byval_arg;
     static auto* level = &::il2cpp_utils::GetClassFromName("Mono.Security.Protocol.Ntlm", "NtlmAuthLevel")->byval_arg;
     static auto* username = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Mo
 // Il2CppName: GetResponse
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::GetResponse)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* challenge = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* pwd = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::ChallengeResponse2*), "GetResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{challenge, pwd});
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: PrepareDESKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*, int)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::PrepareDESKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* key56bits = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* position = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::ChallengeResponse2*), "PrepareDESKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key56bits, position});
@@ -159,7 +159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: PasswordToKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppString*, int)>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::PasswordToKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* position = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::ChallengeResponse2*), "PasswordToKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{password, position});
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Mono::Security::Protocol::Ntlm::ChallengeResponse2::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::ChallengeResponse2*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -93,7 +93,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolableManager*, "Zenject", "PoolableManager");
 // Il2CppName: CreatePoolableInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::PoolableManager::PoolableInfo (Zenject::PoolableManager::*)(Zenject::IPoolable*, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*)>(&Zenject::PoolableManager::CreatePoolableInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* poolable = &::il2cpp_utils::GetClassFromName("Zenject", "IPoolable")->byval_arg;
     static auto* priorities = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("ModestTree.Util", "ValuePair`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type"), ::il2cpp_utils::GetClassFromName("System", "Int32")})})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::PoolableManager*), "CreatePoolableInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{poolable, priorities});
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Po
 // Il2CppName: TriggerOnSpawned
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::PoolableManager::*)()>(&Zenject::PoolableManager::TriggerOnSpawned)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::PoolableManager*), "TriggerOnSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -111,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: TriggerOnDespawned
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::PoolableManager::*)()>(&Zenject::PoolableManager::TriggerOnDespawned)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::PoolableManager*), "TriggerOnDespawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

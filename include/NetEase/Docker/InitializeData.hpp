@@ -59,7 +59,7 @@ DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::InitializeData, "NetEase.Docker", "Initi
 // Il2CppName: get_InitializeSuccessful
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetEase::Docker::InitializeData::*)()>(&NetEase::Docker::InitializeData::get_InitializeSuccessful)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::InitializeData), "get_InitializeSuccessful", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -67,7 +67,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetEa
 // Il2CppName: set_InitializeSuccessful
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::InitializeData::*)(bool)>(&NetEase::Docker::InitializeData::set_InitializeSuccessful)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::InitializeData), "set_InitializeSuccessful", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEa
 // Il2CppName: set_InitializeCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::InitializeData::*)(int)>(&NetEase::Docker::InitializeData::set_InitializeCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::InitializeData), "set_InitializeCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

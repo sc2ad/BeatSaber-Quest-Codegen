@@ -64,7 +64,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsData*, "", "CreditsData");
 // Il2CppName: Deserialize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::CreditsData* (*)(::Il2CppString*)>(&GlobalNamespace::CreditsData::Deserialize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsData*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});
   }

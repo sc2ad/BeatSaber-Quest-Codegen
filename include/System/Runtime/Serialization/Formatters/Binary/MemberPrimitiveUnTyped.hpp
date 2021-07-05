@@ -78,7 +78,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::Membe
 // Il2CppName: Set
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped::*)(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE, ::Il2CppObject*)>(&System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped::Set)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* typeInformation = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "InternalPrimitiveTypeE")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped*), "Set", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeInformation, value});
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Set
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped::*)(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE)>(&System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped::Set)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* typeInformation = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "InternalPrimitiveTypeE")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped*), "Set", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeInformation});
   }
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Write
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped::*)(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(&System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped::Write)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sout = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "__BinaryWriter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sout});
   }
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Read
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped::*)(System::Runtime::Serialization::Formatters::Binary::__BinaryParser*)>(&System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped::Read)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "__BinaryParser")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});
   }
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Dump
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped::*)()>(&System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped::Dump)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped*), "Dump", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

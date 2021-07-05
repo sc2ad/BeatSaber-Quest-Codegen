@@ -742,7 +742,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PreferenceKeys*, "UnityEngine.Pr
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::ProBuilder::PreferenceKeys::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::PreferenceKeys*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

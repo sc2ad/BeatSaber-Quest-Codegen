@@ -29,7 +29,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintOperator*, "NUni
 // Il2CppName: Reduce
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::ConstraintOperator::*)(NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack*)>(&NUnit::Framework::Constraints::ConstraintOperator::Reduce)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stack = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "ConstraintBuilder/ConstraintStack")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ConstraintOperator*), "Reduce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stack});
   }

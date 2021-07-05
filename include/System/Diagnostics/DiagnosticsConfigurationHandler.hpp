@@ -53,7 +53,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DiagnosticsConfigurationHandler*, "S
 // Il2CppName: Create
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Diagnostics::DiagnosticsConfigurationHandler::*)(::Il2CppObject*, ::Il2CppObject*, System::Xml::XmlNode*)>(&System::Diagnostics::DiagnosticsConfigurationHandler::Create)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* parent = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* configContext = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* section = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlNode")->byval_arg;

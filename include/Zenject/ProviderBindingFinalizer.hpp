@@ -134,7 +134,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::ProviderBindingFinalizer*, "Zenject", "ProviderB
 // Il2CppName: get_BindingInheritanceMethod
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindingInheritanceMethods (Zenject::ProviderBindingFinalizer::*)()>(&Zenject::ProviderBindingFinalizer::get_BindingInheritanceMethod)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::ProviderBindingFinalizer*), "get_BindingInheritanceMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Bi
 // Il2CppName: get_BindInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindInfo* (Zenject::ProviderBindingFinalizer::*)()>(&Zenject::ProviderBindingFinalizer::get_BindInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::ProviderBindingFinalizer*), "get_BindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Bi
 // Il2CppName: set_BindInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProviderBindingFinalizer::*)(Zenject::BindInfo*)>(&Zenject::ProviderBindingFinalizer::set_BindInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Zenject", "BindInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ProviderBindingFinalizer*), "set_BindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -159,7 +159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: GetScope
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeTypes (Zenject::ProviderBindingFinalizer::*)()>(&Zenject::ProviderBindingFinalizer::GetScope)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::ProviderBindingFinalizer*), "GetScope", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -167,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FinalizeBinding
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProviderBindingFinalizer::*)(Zenject::DiContainer*)>(&Zenject::ProviderBindingFinalizer::FinalizeBinding)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* container = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ProviderBindingFinalizer*), "FinalizeBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
   }
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: OnFinalizeBinding
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProviderBindingFinalizer::*)(Zenject::DiContainer*)>(&Zenject::ProviderBindingFinalizer::OnFinalizeBinding)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* container = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ProviderBindingFinalizer*), "OnFinalizeBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
   }
@@ -188,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: RegisterProvider
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProviderBindingFinalizer::*)(Zenject::DiContainer*, System::Type*, Zenject::IProvider*)>(&Zenject::ProviderBindingFinalizer::RegisterProvider)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* container = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
     static auto* contractType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("Zenject", "IProvider")->byval_arg;
@@ -199,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: RegisterProviderPerContract
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProviderBindingFinalizer::*)(Zenject::DiContainer*, System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>*)>(&Zenject::ProviderBindingFinalizer::RegisterProviderPerContract)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* container = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
     static auto* providerFunc = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`3"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "DiContainer"), ::il2cpp_utils::GetClassFromName("System", "Type"), ::il2cpp_utils::GetClassFromName("Zenject", "IProvider")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ProviderBindingFinalizer*), "RegisterProviderPerContract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container, providerFunc});
@@ -209,7 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: RegisterProviderForAllContracts
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProviderBindingFinalizer::*)(Zenject::DiContainer*, Zenject::IProvider*)>(&Zenject::ProviderBindingFinalizer::RegisterProviderForAllContracts)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* container = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
     static auto* provider = &::il2cpp_utils::GetClassFromName("Zenject", "IProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ProviderBindingFinalizer*), "RegisterProviderForAllContracts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container, provider});
@@ -219,7 +219,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: RegisterProvidersPerContractAndConcreteType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProviderBindingFinalizer::*)(Zenject::DiContainer*, System::Collections::Generic::List_1<System::Type*>*, System::Func_3<System::Type*, System::Type*, Zenject::IProvider*>*)>(&Zenject::ProviderBindingFinalizer::RegisterProvidersPerContractAndConcreteType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* container = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
     static auto* concreteTypes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type")})->byval_arg;
     static auto* providerFunc = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`3"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type"), ::il2cpp_utils::GetClassFromName("System", "Type"), ::il2cpp_utils::GetClassFromName("Zenject", "IProvider")})->byval_arg;
@@ -230,7 +230,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: ValidateBindTypes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::ProviderBindingFinalizer::*)(System::Type*, System::Type*)>(&Zenject::ProviderBindingFinalizer::ValidateBindTypes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* concreteType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* contractType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ProviderBindingFinalizer*), "ValidateBindTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{concreteType, contractType});
@@ -240,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
 // Il2CppName: RegisterProvidersForAllContractsPerConcreteType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProviderBindingFinalizer::*)(Zenject::DiContainer*, System::Collections::Generic::List_1<System::Type*>*, System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>*)>(&Zenject::ProviderBindingFinalizer::RegisterProvidersForAllContractsPerConcreteType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* container = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
     static auto* concreteTypes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type")})->byval_arg;
     static auto* providerFunc = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`3"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "DiContainer"), ::il2cpp_utils::GetClassFromName("System", "Type"), ::il2cpp_utils::GetClassFromName("Zenject", "IProvider")})->byval_arg;

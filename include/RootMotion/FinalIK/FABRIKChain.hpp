@@ -91,7 +91,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FABRIKChain*, "RootMotion.FinalIK", 
 // Il2CppName: IsValid
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::FABRIKChain::*)(::Il2CppString*&)>(&RootMotion::FinalIK::FABRIKChain::IsValid)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FABRIKChain*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
   }
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Il2CppName: Initiate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FABRIKChain::*)()>(&RootMotion::FinalIK::FABRIKChain::Initiate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FABRIKChain*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: Stage1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FABRIKChain::*)(::Array<RootMotion::FinalIK::FABRIKChain*>*)>(&RootMotion::FinalIK::FABRIKChain::Stage1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* chain = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FABRIKChain"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FABRIKChain*), "Stage1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{chain});
   }
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: Stage2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FABRIKChain::*)(UnityEngine::Vector3, ::Array<RootMotion::FinalIK::FABRIKChain*>*)>(&RootMotion::FinalIK::FABRIKChain::Stage2)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rootPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* chain = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FABRIKChain"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FABRIKChain*), "Stage2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rootPosition, chain});
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: GetCentroid
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::FABRIKChain::*)(::Array<RootMotion::FinalIK::FABRIKChain*>*)>(&RootMotion::FinalIK::FABRIKChain::GetCentroid)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* chain = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FABRIKChain"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FABRIKChain*), "GetCentroid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{chain});
   }

@@ -119,7 +119,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConditionalSpriteSwitcher*, "", "Conditi
 // Il2CppName: get_falseSprite
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (GlobalNamespace::ConditionalSpriteSwitcher::*)()>(&GlobalNamespace::ConditionalSpriteSwitcher::get_falseSprite)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConditionalSpriteSwitcher*), "get_falseSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_falseSprite
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConditionalSpriteSwitcher::*)(UnityEngine::Sprite*)>(&GlobalNamespace::ConditionalSpriteSwitcher::set_falseSprite)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Sprite")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConditionalSpriteSwitcher*), "set_falseSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -136,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_trueSprite
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (GlobalNamespace::ConditionalSpriteSwitcher::*)()>(&GlobalNamespace::ConditionalSpriteSwitcher::get_trueSprite)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConditionalSpriteSwitcher*), "get_trueSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_trueSprite
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConditionalSpriteSwitcher::*)(UnityEngine::Sprite*)>(&GlobalNamespace::ConditionalSpriteSwitcher::set_trueSprite)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Sprite")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConditionalSpriteSwitcher*), "set_trueSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Awake
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConditionalSpriteSwitcher::*)()>(&GlobalNamespace::ConditionalSpriteSwitcher::Awake)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConditionalSpriteSwitcher*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Apply
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConditionalSpriteSwitcher::*)()>(&GlobalNamespace::ConditionalSpriteSwitcher::Apply)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConditionalSpriteSwitcher*), "Apply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

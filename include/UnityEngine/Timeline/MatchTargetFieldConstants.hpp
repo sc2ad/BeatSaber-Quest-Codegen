@@ -52,7 +52,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::MatchTargetFieldConstants*, "Unity
 // Il2CppName: HasAny
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Timeline::MatchTargetFields, UnityEngine::Timeline::MatchTargetFields)>(&UnityEngine::Timeline::MatchTargetFieldConstants::HasAny)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* me = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "MatchTargetFields")->byval_arg;
     static auto* fields = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "MatchTargetFields")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::MatchTargetFieldConstants*), "HasAny", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{me, fields});
@@ -62,7 +62,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: Toggle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::MatchTargetFields (*)(UnityEngine::Timeline::MatchTargetFields, UnityEngine::Timeline::MatchTargetFields)>(&UnityEngine::Timeline::MatchTargetFieldConstants::Toggle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* me = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "MatchTargetFields")->byval_arg;
     static auto* flag = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "MatchTargetFields")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::MatchTargetFieldConstants*), "Toggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{me, flag});
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Timeline::MatchTargetFieldConstants::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::MatchTargetFieldConstants*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

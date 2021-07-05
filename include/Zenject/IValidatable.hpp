@@ -26,7 +26,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::IValidatable*, "Zenject", "IValidatable");
 // Il2CppName: Validate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::IValidatable::*)()>(&Zenject::IValidatable::Validate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::IValidatable*), "Validate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

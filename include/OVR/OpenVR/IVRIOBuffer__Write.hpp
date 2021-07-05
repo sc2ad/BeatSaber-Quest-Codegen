@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRIOBuffer::_Write*, "OVR.OpenVR", "IVRIOBu
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EIOBufferError (OVR::OpenVR::IVRIOBuffer::_Write::*)(uint64_t, System::IntPtr, uint)>(&OVR::OpenVR::IVRIOBuffer::_Write::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ulBuffer = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pSrc = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* unBytes = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRIOBuffer::_Write::*)(uint64_t, System::IntPtr, uint, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRIOBuffer::_Write::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ulBuffer = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pSrc = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* unBytes = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EIOBufferError (OVR::OpenVR::IVRIOBuffer::_Write::*)(System::IAsyncResult*)>(&OVR::OpenVR::IVRIOBuffer::_Write::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRIOBuffer::_Write*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

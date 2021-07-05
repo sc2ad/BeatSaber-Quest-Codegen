@@ -69,7 +69,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::ConsoleCancelEventArgs*, "System", "ConsoleCancel
 // Il2CppName: get_Cancel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::ConsoleCancelEventArgs::*)()>(&System::ConsoleCancelEventArgs::get_Cancel)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::ConsoleCancelEventArgs*), "get_Cancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

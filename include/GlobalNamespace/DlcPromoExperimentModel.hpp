@@ -157,7 +157,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DlcPromoExperimentModel*, "", "DlcPromoE
 // Il2CppName: InitAfterPlatformWasInitializedAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoExperimentModel::*)(bool)>(&GlobalNamespace::DlcPromoExperimentModel::InitAfterPlatformWasInitializedAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* force = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DlcPromoExperimentModel*), "InitAfterPlatformWasInitializedAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{force});
   }
@@ -166,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: GetPackDataForMainMenuPromoBanner
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo* (GlobalNamespace::DlcPromoExperimentModel::*)(bool&)>(&GlobalNamespace::DlcPromoExperimentModel::GetPackDataForMainMenuPromoBanner)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* probablyOwned = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DlcPromoExperimentModel*), "GetPackDataForMainMenuPromoBanner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{probablyOwned});
   }
@@ -175,7 +175,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: MainMenuDlcPromoBannerWasShown
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoExperimentModel::*)(GlobalNamespace::IBeatmapLevelPack*, ::Il2CppString*)>(&GlobalNamespace::DlcPromoExperimentModel::MainMenuDlcPromoBannerWasShown)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* promoPack = &::il2cpp_utils::GetClassFromName("", "IBeatmapLevelPack")->byval_arg;
     static auto* customText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DlcPromoExperimentModel*), "MainMenuDlcPromoBannerWasShown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{promoPack, customText});
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: MainMenuDlcPromoBannerWasPressed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoExperimentModel::*)(GlobalNamespace::IBeatmapLevelPack*, ::Il2CppString*)>(&GlobalNamespace::DlcPromoExperimentModel::MainMenuDlcPromoBannerWasPressed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* promoPack = &::il2cpp_utils::GetClassFromName("", "IBeatmapLevelPack")->byval_arg;
     static auto* customText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DlcPromoExperimentModel*), "MainMenuDlcPromoBannerWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{promoPack, customText});
@@ -195,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: BuyLevelButtonWasPressed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoExperimentModel::*)(GlobalNamespace::IPreviewBeatmapLevel*, ::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::DlcPromoExperimentModel::BuyLevelButtonWasPressed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* level = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
     static auto* page = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* customText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -206,7 +206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: BuyLevelButtonWasShown
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoExperimentModel::*)(GlobalNamespace::IPreviewBeatmapLevel*, ::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::DlcPromoExperimentModel::BuyLevelButtonWasShown)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* level = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
     static auto* page = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* customText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -217,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: BuyPackButtonWasPressed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoExperimentModel::*)(GlobalNamespace::IBeatmapLevelPack*, ::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::DlcPromoExperimentModel::BuyPackButtonWasPressed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pack = &::il2cpp_utils::GetClassFromName("", "IBeatmapLevelPack")->byval_arg;
     static auto* page = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* customText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -228,7 +228,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: BuyPackButtonWasShown
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoExperimentModel::*)(GlobalNamespace::IBeatmapLevelPack*, ::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::DlcPromoExperimentModel::BuyPackButtonWasShown)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pack = &::il2cpp_utils::GetClassFromName("", "IBeatmapLevelPack")->byval_arg;
     static auto* page = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* customText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -239,7 +239,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: GetExperimentEventData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* (GlobalNamespace::DlcPromoExperimentModel::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::DlcPromoExperimentModel::GetExperimentEventData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* itemId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* page = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* customText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -250,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: UpdateNotOwnedPacksAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoExperimentModel::*)()>(&GlobalNamespace::DlcPromoExperimentModel::UpdateNotOwnedPacksAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DlcPromoExperimentModel*), "UpdateNotOwnedPacksAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -258,7 +258,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleAdditionalContentModelDidInvalidateData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DlcPromoExperimentModel::*)()>(&GlobalNamespace::DlcPromoExperimentModel::HandleAdditionalContentModelDidInvalidateData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DlcPromoExperimentModel*), "HandleAdditionalContentModelDidInvalidateData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

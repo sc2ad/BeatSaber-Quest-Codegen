@@ -42,7 +42,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ITestFilter*, "NUnit.Framew
 // Il2CppName: Pass
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Interfaces::ITestFilter::*)(NUnit::Framework::Interfaces::ITest*)>(&NUnit::Framework::Interfaces::ITestFilter::Pass)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* test = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITestFilter*), "Pass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{test});
   }
@@ -51,7 +51,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit
 // Il2CppName: IsExplicitMatch
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Interfaces::ITestFilter::*)(NUnit::Framework::Interfaces::ITest*)>(&NUnit::Framework::Interfaces::ITestFilter::IsExplicitMatch)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* test = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITestFilter*), "IsExplicitMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{test});
   }

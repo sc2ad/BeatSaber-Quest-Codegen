@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::$$c*, "System", "TimeZoneInfo/<>c")
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::TimeZoneInfo::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -69,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <CreateLocalUnity>b__19_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::TimeZoneInfo::$$c::*)(System::TimeZoneInfo::AdjustmentRule*, System::TimeZoneInfo::AdjustmentRule*)>(&System::TimeZoneInfo::$$c::$CreateLocalUnity$b__19_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rule1 = &::il2cpp_utils::GetClassFromName("System", "TimeZoneInfo/AdjustmentRule")->byval_arg;
     static auto* rule2 = &::il2cpp_utils::GetClassFromName("System", "TimeZoneInfo/AdjustmentRule")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo::$$c*), "<CreateLocalUnity>b__19_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rule1, rule2});

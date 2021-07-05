@@ -71,7 +71,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FillIndicator*, "", "FillIndicator");
 // Il2CppName: set_fillAmount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FillIndicator::*)(float)>(&GlobalNamespace::FillIndicator::set_fillAmount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FillIndicator*), "set_fillAmount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_fillAmount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::FillIndicator::*)()>(&GlobalNamespace::FillIndicator::get_fillAmount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FillIndicator*), "get_fillAmount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

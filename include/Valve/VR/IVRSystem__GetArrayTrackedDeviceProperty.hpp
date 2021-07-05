@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetArrayTrackedDeviceProperty*, "V
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::IVRSystem::_GetArrayTrackedDeviceProperty::*)(uint, Valve::VR::ETrackedDeviceProperty, uint, System::IntPtr, uint, Valve::VR::ETrackedPropertyError&)>(&Valve::VR::IVRSystem::_GetArrayTrackedDeviceProperty::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* unDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* prop = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackedDeviceProperty")->byval_arg;
     static auto* propType = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRSystem::_GetArrayTrackedDeviceProperty::*)(uint, Valve::VR::ETrackedDeviceProperty, uint, System::IntPtr, uint, Valve::VR::ETrackedPropertyError&, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRSystem::_GetArrayTrackedDeviceProperty::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* unDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* prop = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackedDeviceProperty")->byval_arg;
     static auto* propType = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::IVRSystem::_GetArrayTrackedDeviceProperty::*)(Valve::VR::ETrackedPropertyError&, System::IAsyncResult*)>(&Valve::VR::IVRSystem::_GetArrayTrackedDeviceProperty::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pError = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackedPropertyError")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetArrayTrackedDeviceProperty*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pError, result});

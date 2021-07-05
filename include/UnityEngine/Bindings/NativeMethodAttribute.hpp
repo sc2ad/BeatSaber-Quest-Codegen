@@ -119,7 +119,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeMethodAttribute*, "UnityEngi
 // Il2CppName: set_Name
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeMethodAttribute::*)(::Il2CppString*)>(&UnityEngine::Bindings::NativeMethodAttribute::set_Name)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeMethodAttribute*), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: set_IsThreadSafe
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeMethodAttribute::*)(bool)>(&UnityEngine::Bindings::NativeMethodAttribute::set_IsThreadSafe)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeMethodAttribute*), "set_IsThreadSafe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -137,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: set_IsFreeFunction
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeMethodAttribute::*)(bool)>(&UnityEngine::Bindings::NativeMethodAttribute::set_IsFreeFunction)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeMethodAttribute*), "set_IsFreeFunction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -146,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: set_ThrowsException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeMethodAttribute::*)(bool)>(&UnityEngine::Bindings::NativeMethodAttribute::set_ThrowsException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeMethodAttribute*), "set_ThrowsException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -155,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: set_HasExplicitThis
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Bindings::NativeMethodAttribute::*)(bool)>(&UnityEngine::Bindings::NativeMethodAttribute::set_HasExplicitThis)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Bindings::NativeMethodAttribute*), "set_HasExplicitThis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

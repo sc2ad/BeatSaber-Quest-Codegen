@@ -69,7 +69,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::ExclusiveReference*, "S
 // Il2CppName: Get
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Text::RegularExpressions::ExclusiveReference::*)()>(&System::Text::RegularExpressions::ExclusiveReference::Get)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::ExclusiveReference*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: Release
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::ExclusiveReference::*)(::Il2CppObject*)>(&System::Text::RegularExpressions::ExclusiveReference::Release)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::ExclusiveReference*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }

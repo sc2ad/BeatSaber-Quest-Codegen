@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::AppendElements::
 // Il2CppName: <AppendVerticesToEdge>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Edge (UnityEngine::ProBuilder::MeshOperations::AppendElements::$$c__DisplayClass14_0::*)(UnityEngine::ProBuilder::EdgeLookup)>(&UnityEngine::ProBuilder::MeshOperations::AppendElements::$$c__DisplayClass14_0::$AppendVerticesToEdge$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "EdgeLookup")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::AppendElements::$$c__DisplayClass14_0*), "<AppendVerticesToEdge>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }

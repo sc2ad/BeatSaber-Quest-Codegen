@@ -58,7 +58,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchRendererGroup*, "UnityEngine
 // Il2CppName: InvokeOnPerformCulling
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rendering::BatchRendererGroup*, UnityEngine::Rendering::BatchRendererCullingOutput&, UnityEngine::Rendering::LODParameters&)>(&UnityEngine::Rendering::BatchRendererGroup::InvokeOnPerformCulling)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* group = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "BatchRendererGroup")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "BatchRendererCullingOutput")->this_arg;
     static auto* lodParameters = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "LODParameters")->this_arg;

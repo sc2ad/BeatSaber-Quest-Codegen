@@ -122,7 +122,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::MD4Managed*, "Mono.Security
 // Il2CppName: Padding
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::Cryptography::MD4Managed::*)(int)>(&Mono::Security::Cryptography::MD4Managed::Padding)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* nLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD4Managed*), "Padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nLength});
   }
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: F
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Mono::Security::Cryptography::MD4Managed::*)(uint, uint, uint)>(&Mono::Security::Cryptography::MD4Managed::F)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* z = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Mono:
 // Il2CppName: G
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Mono::Security::Cryptography::MD4Managed::*)(uint, uint, uint)>(&Mono::Security::Cryptography::MD4Managed::G)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* z = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Mono:
 // Il2CppName: H
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Mono::Security::Cryptography::MD4Managed::*)(uint, uint, uint)>(&Mono::Security::Cryptography::MD4Managed::H)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* z = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Mono:
 // Il2CppName: ROL
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Mono::Security::Cryptography::MD4Managed::*)(uint, uint8_t)>(&Mono::Security::Cryptography::MD4Managed::ROL)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* n = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD4Managed*), "ROL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, n});
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Mono:
 // Il2CppName: FF
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD4Managed::*)(uint&, uint, uint, uint, uint, uint8_t)>(&Mono::Security::Cryptography::MD4Managed::FF)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* c = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -188,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Il2CppName: GG
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD4Managed::*)(uint&, uint, uint, uint, uint, uint8_t)>(&Mono::Security::Cryptography::MD4Managed::GG)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* c = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -202,7 +202,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Il2CppName: HH
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD4Managed::*)(uint&, uint, uint, uint, uint, uint8_t)>(&Mono::Security::Cryptography::MD4Managed::HH)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* c = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -216,7 +216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Il2CppName: Encode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD4Managed::*)(::Array<uint8_t>*, ::Array<uint>*)>(&Mono::Security::Cryptography::MD4Managed::Encode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD4Managed*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{output, input});
@@ -226,7 +226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Il2CppName: Decode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD4Managed::*)(::Array<uint>*, ::Array<uint8_t>*, int)>(&Mono::Security::Cryptography::MD4Managed::Decode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -237,7 +237,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Il2CppName: MD4Transform
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD4Managed::*)(::Array<uint>*, ::Array<uint8_t>*, int)>(&Mono::Security::Cryptography::MD4Managed::MD4Transform)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* state = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* block = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -252,7 +252,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Il2CppName: Initialize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD4Managed::*)()>(&Mono::Security::Cryptography::MD4Managed::Initialize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD4Managed*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -260,7 +260,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Il2CppName: HashCore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD4Managed::*)(::Array<uint8_t>*, int, int)>(&Mono::Security::Cryptography::MD4Managed::HashCore)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* ibStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* cbSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -271,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Il2CppName: HashFinal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::Cryptography::MD4Managed::*)()>(&Mono::Security::Cryptography::MD4Managed::HashFinal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD4Managed*), "HashFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

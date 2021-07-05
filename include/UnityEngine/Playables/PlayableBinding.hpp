@@ -105,7 +105,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableBinding, "UnityEngine.Pla
 // Il2CppName: get_streamName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Playables::PlayableBinding::*)()>(&UnityEngine::Playables::PlayableBinding::get_streamName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableBinding), "get_streamName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_sourceObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (UnityEngine::Playables::PlayableBinding::*)()>(&UnityEngine::Playables::PlayableBinding::get_sourceObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableBinding), "get_sourceObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: CreateOutput
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableOutput (UnityEngine::Playables::PlayableBinding::*)(UnityEngine::Playables::PlayableGraph)>(&UnityEngine::Playables::PlayableBinding::CreateOutput)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableBinding), "CreateOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{graph});
   }
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: CreateInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableBinding (*)(::Il2CppString*, UnityEngine::Object*, System::Type*, UnityEngine::Playables::PlayableBinding::CreateOutputMethod*)>(&UnityEngine::Playables::PlayableBinding::CreateInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* sourceObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* sourceType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Playables::PlayableBinding::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableBinding), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

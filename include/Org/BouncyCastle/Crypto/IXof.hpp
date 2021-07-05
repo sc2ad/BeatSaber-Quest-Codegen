@@ -37,7 +37,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::IXof*, "Org.BouncyCastle.Crypt
 // Il2CppName: DoFinal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::IXof::*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Crypto::IXof::DoFinal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* outLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

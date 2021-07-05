@@ -53,7 +53,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::TypeLoadExceptionHolder*,
 // Il2CppName: get_TypeName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Serialization::TypeLoadExceptionHolder::*)()>(&System::Runtime::Serialization::TypeLoadExceptionHolder::get_TypeName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::TypeLoadExceptionHolder*), "get_TypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

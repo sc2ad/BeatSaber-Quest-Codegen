@@ -67,7 +67,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelCollection*, "", "BeatmapLev
 // Il2CppName: get_beatmapLevels
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::IPreviewBeatmapLevel*>* (GlobalNamespace::BeatmapLevelCollection::*)()>(&GlobalNamespace::BeatmapLevelCollection::get_beatmapLevels)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelCollection*), "get_beatmapLevels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 // Il2CppName: CreateBeatmapLevelCollectionByUsingBeatmapCharacteristicFiltering
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapLevelCollection* (*)(GlobalNamespace::IBeatmapLevelCollection*, GlobalNamespace::BeatmapCharacteristicSO*)>(&GlobalNamespace::BeatmapLevelCollection::CreateBeatmapLevelCollectionByUsingBeatmapCharacteristicFiltering)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmapLevelCollection = &::il2cpp_utils::GetClassFromName("", "IBeatmapLevelCollection")->byval_arg;
     static auto* beatmapCharacteristic = &::il2cpp_utils::GetClassFromName("", "BeatmapCharacteristicSO")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelCollection*), "CreateBeatmapLevelCollectionByUsingBeatmapCharacteristicFiltering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapLevelCollection, beatmapCharacteristic});

@@ -135,7 +135,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskScheduler*, "System.Threadi
 // Il2CppName: QueueTask
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::TaskScheduler::*)(System::Threading::Tasks::Task*)>(&System::Threading::Tasks::TaskScheduler::QueueTask)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* task = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskScheduler*), "QueueTask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{task});
   }
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: TryExecuteTaskInline
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::TaskScheduler::*)(System::Threading::Tasks::Task*, bool)>(&System::Threading::Tasks::TaskScheduler::TryExecuteTaskInline)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* task = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
     static auto* taskWasPreviouslyQueued = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskScheduler*), "TryExecuteTaskInline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{task, taskWasPreviouslyQueued});
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: TryRunInline
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::TaskScheduler::*)(System::Threading::Tasks::Task*, bool)>(&System::Threading::Tasks::TaskScheduler::TryRunInline)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* task = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
     static auto* taskWasPreviouslyQueued = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskScheduler*), "TryRunInline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{task, taskWasPreviouslyQueued});
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: TryDequeue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::TaskScheduler::*)(System::Threading::Tasks::Task*)>(&System::Threading::Tasks::TaskScheduler::TryDequeue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* task = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskScheduler*), "TryDequeue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{task});
   }
@@ -173,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: NotifyWorkItemProgress
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::TaskScheduler::*)()>(&System::Threading::Tasks::TaskScheduler::NotifyWorkItemProgress)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskScheduler*), "NotifyWorkItemProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -181,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_RequiresAtomicStartTransition
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::TaskScheduler::*)()>(&System::Threading::Tasks::TaskScheduler::get_RequiresAtomicStartTransition)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskScheduler*), "get_RequiresAtomicStartTransition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -189,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: InternalQueueTask
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::TaskScheduler::*)(System::Threading::Tasks::Task*)>(&System::Threading::Tasks::TaskScheduler::InternalQueueTask)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* task = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskScheduler*), "InternalQueueTask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{task});
   }
@@ -198,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: AddToActiveTaskSchedulers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::TaskScheduler::*)()>(&System::Threading::Tasks::TaskScheduler::AddToActiveTaskSchedulers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskScheduler*), "AddToActiveTaskSchedulers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -206,7 +206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_Default
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::TaskScheduler* (*)()>(&System::Threading::Tasks::TaskScheduler::get_Default)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskScheduler*), "get_Default", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -214,7 +214,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: get_Current
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::TaskScheduler* (*)()>(&System::Threading::Tasks::TaskScheduler::get_Current)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskScheduler*), "get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -222,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: get_InternalCurrent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::TaskScheduler* (*)()>(&System::Threading::Tasks::TaskScheduler::get_InternalCurrent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskScheduler*), "get_InternalCurrent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -230,7 +230,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: get_Id
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Threading::Tasks::TaskScheduler::*)()>(&System::Threading::Tasks::TaskScheduler::get_Id)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskScheduler*), "get_Id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -238,7 +238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: PublishUnobservedTaskException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, System::Threading::Tasks::UnobservedTaskExceptionEventArgs*)>(&System::Threading::Tasks::TaskScheduler::PublishUnobservedTaskException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sender = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* ueea = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "UnobservedTaskExceptionEventArgs")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskScheduler*), "PublishUnobservedTaskException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sender, ueea});
@@ -248,7 +248,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Threading::Tasks::TaskScheduler::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskScheduler*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

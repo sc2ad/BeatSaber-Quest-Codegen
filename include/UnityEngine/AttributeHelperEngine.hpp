@@ -85,7 +85,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AttributeHelperEngine*, "UnityEngine", "Attr
 // Il2CppName: GetParentTypeDisallowingMultipleInclusion
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*)>(&UnityEngine::AttributeHelperEngine::GetParentTypeDisallowingMultipleInclusion)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AttributeHelperEngine*), "GetParentTypeDisallowingMultipleInclusion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Il2CppName: GetRequiredComponents
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (*)(System::Type*)>(&UnityEngine::AttributeHelperEngine::GetRequiredComponents)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* klass = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AttributeHelperEngine*), "GetRequiredComponents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{klass});
   }
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Sys
 // Il2CppName: GetExecuteMode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Type*)>(&UnityEngine::AttributeHelperEngine::GetExecuteMode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* klass = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AttributeHelperEngine*), "GetExecuteMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{klass});
   }
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: CheckIsEditorScript
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Type*)>(&UnityEngine::AttributeHelperEngine::CheckIsEditorScript)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* klass = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AttributeHelperEngine*), "CheckIsEditorScript", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{klass});
   }
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: GetDefaultExecutionOrderFor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Type*)>(&UnityEngine::AttributeHelperEngine::GetDefaultExecutionOrderFor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* klass = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AttributeHelperEngine*), "GetDefaultExecutionOrderFor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{klass});
   }
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::AttributeHelperEngine::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AttributeHelperEngine*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

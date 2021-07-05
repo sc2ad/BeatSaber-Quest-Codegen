@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_GetProjectionRaw*, "OVR.OpenVR",
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRSystem::_GetProjectionRaw::*)(OVR::OpenVR::EVREye, float&, float&, float&, float&)>(&OVR::OpenVR::IVRSystem::_GetProjectionRaw::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eEye = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVREye")->byval_arg;
     static auto* pfLeft = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
     static auto* pfRight = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRSystem::_GetProjectionRaw::*)(OVR::OpenVR::EVREye, float&, float&, float&, float&, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRSystem::_GetProjectionRaw::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eEye = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVREye")->byval_arg;
     static auto* pfLeft = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
     static auto* pfRight = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRSystem::_GetProjectionRaw::*)(float&, float&, float&, float&, System::IAsyncResult*)>(&OVR::OpenVR::IVRSystem::_GetProjectionRaw::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pfLeft = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
     static auto* pfRight = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
     static auto* pfTop = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;

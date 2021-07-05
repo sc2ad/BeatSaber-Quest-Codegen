@@ -106,7 +106,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewPrefabWithParams*, "Zenj
 // Il2CppName: get_Container
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (Zenject::SubContainerCreatorByNewPrefabWithParams::*)()>(&Zenject::SubContainerCreatorByNewPrefabWithParams::get_Container)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorByNewPrefabWithParams*), "get_Container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -114,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Di
 // Il2CppName: CreateTempContainer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (Zenject::SubContainerCreatorByNewPrefabWithParams::*)(System::Collections::Generic::List_1<Zenject::TypeValuePair>*)>(&Zenject::SubContainerCreatorByNewPrefabWithParams::CreateTempContainer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* args = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "TypeValuePair")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorByNewPrefabWithParams*), "CreateTempContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});
   }
@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Di
 // Il2CppName: CreateSubContainer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (Zenject::SubContainerCreatorByNewPrefabWithParams::*)(System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::InjectContext*)>(&Zenject::SubContainerCreatorByNewPrefabWithParams::CreateSubContainer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* args = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "TypeValuePair")})->byval_arg;
     static auto* parentContext = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorByNewPrefabWithParams*), "CreateSubContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args, parentContext});

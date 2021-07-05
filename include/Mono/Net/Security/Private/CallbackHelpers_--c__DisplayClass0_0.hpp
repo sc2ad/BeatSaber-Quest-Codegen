@@ -73,7 +73,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::Private::CallbackHelpers::$$c__Displ
 // Il2CppName: <PublicToMono>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass0_0::*)(::Il2CppString*, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509Chain*, Mono::Security::Interface::MonoSslPolicyErrors)>(&Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass0_0::$PublicToMono$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* h = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* c = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate")->byval_arg;
     static auto* ch = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Chain")->byval_arg;

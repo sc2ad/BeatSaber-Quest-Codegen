@@ -94,7 +94,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Texture2DArray*, "UnityEngine", "Texture2DAr
 // Il2CppName: get_allSlices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&UnityEngine::Texture2DArray::get_allSlices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture2DArray*), "get_allSlices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 // Il2CppName: Internal_CreateImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Texture2DArray*, int, int, int, int, UnityEngine::Experimental::Rendering::GraphicsFormat, UnityEngine::Experimental::Rendering::TextureCreationFlags)>(&UnityEngine::Texture2DArray::Internal_CreateImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mono = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture2DArray")->byval_arg;
     static auto* w = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* h = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: Internal_Create
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture2DArray*, int, int, int, int, UnityEngine::Experimental::Rendering::GraphicsFormat, UnityEngine::Experimental::Rendering::TextureCreationFlags)>(&UnityEngine::Texture2DArray::Internal_Create)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mono = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture2DArray")->byval_arg;
     static auto* w = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* h = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: get_isReadable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Texture2DArray::*)()>(&UnityEngine::Texture2DArray::get_isReadable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture2DArray*), "get_isReadable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

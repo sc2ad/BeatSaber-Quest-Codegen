@@ -302,7 +302,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnMovementData*, "", "Be
 // Il2CppName: get_spawnAheadTime
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnMovementData::*)()>(&GlobalNamespace::BeatmapObjectSpawnMovementData::get_spawnAheadTime)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "get_spawnAheadTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -310,7 +310,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: get_moveDuration
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnMovementData::*)()>(&GlobalNamespace::BeatmapObjectSpawnMovementData::get_moveDuration)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "get_moveDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -318,7 +318,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: get_jumpDuration
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnMovementData::*)()>(&GlobalNamespace::BeatmapObjectSpawnMovementData::get_jumpDuration)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "get_jumpDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -326,7 +326,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: get_noteLinesDistance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnMovementData::*)()>(&GlobalNamespace::BeatmapObjectSpawnMovementData::get_noteLinesDistance)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "get_noteLinesDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -334,7 +334,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: get_verticalLayersDistance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnMovementData::*)()>(&GlobalNamespace::BeatmapObjectSpawnMovementData::get_verticalLayersDistance)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "get_verticalLayersDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -342,7 +342,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: get_jumpDistance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnMovementData::*)()>(&GlobalNamespace::BeatmapObjectSpawnMovementData::get_jumpDistance)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "get_jumpDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -350,7 +350,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: get_noteJumpMovementSpeed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnMovementData::*)()>(&GlobalNamespace::BeatmapObjectSpawnMovementData::get_noteJumpMovementSpeed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "get_noteJumpMovementSpeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -358,7 +358,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnMovementData::*)(int, float, float, float, float, UnityEngine::Vector3, UnityEngine::Vector3)>(&GlobalNamespace::BeatmapObjectSpawnMovementData::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* noteLinesCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* startNoteJumpMovementSpeed = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* startBpm = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -373,7 +373,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Update
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapObjectSpawnMovementData::*)(float, float)>(&GlobalNamespace::BeatmapObjectSpawnMovementData::Update)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bpm = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* jumpOffsetY = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bpm, jumpOffsetY});
@@ -383,7 +383,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: GetObstacleSpawnData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapObjectSpawnMovementData::ObstacleSpawnData (GlobalNamespace::BeatmapObjectSpawnMovementData::*)(GlobalNamespace::ObstacleData*)>(&GlobalNamespace::BeatmapObjectSpawnMovementData::GetObstacleSpawnData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obstacleData = &::il2cpp_utils::GetClassFromName("", "ObstacleData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "GetObstacleSpawnData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obstacleData});
   }
@@ -392,7 +392,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: GetJumpingNoteSpawnData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData (GlobalNamespace::BeatmapObjectSpawnMovementData::*)(GlobalNamespace::NoteData*)>(&GlobalNamespace::BeatmapObjectSpawnMovementData::GetJumpingNoteSpawnData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* noteData = &::il2cpp_utils::GetClassFromName("", "NoteData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "GetJumpingNoteSpawnData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteData});
   }
@@ -401,7 +401,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: GetNoteOffset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::BeatmapObjectSpawnMovementData::*)(int, GlobalNamespace::NoteLineLayer)>(&GlobalNamespace::BeatmapObjectSpawnMovementData::GetNoteOffset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* noteLineIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* noteLineLayer = &::il2cpp_utils::GetClassFromName("", "NoteLineLayer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "GetNoteOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteLineIndex, noteLineLayer});
@@ -411,7 +411,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Get2DNoteOffset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (GlobalNamespace::BeatmapObjectSpawnMovementData::*)(int, GlobalNamespace::NoteLineLayer)>(&GlobalNamespace::BeatmapObjectSpawnMovementData::Get2DNoteOffset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* noteLineIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* noteLineLayer = &::il2cpp_utils::GetClassFromName("", "NoteLineLayer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "Get2DNoteOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteLineIndex, noteLineLayer});
@@ -421,7 +421,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnMovementData::*)(GlobalNamespace::NoteLineLayer, float)>(&GlobalNamespace::BeatmapObjectSpawnMovementData::JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lineLayer = &::il2cpp_utils::GetClassFromName("", "NoteLineLayer")->byval_arg;
     static auto* distanceFromPlayer = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lineLayer, distanceFromPlayer});
@@ -431,7 +431,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: HighestJumpPosYForLineLayer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnMovementData::*)(GlobalNamespace::NoteLineLayer)>(&GlobalNamespace::BeatmapObjectSpawnMovementData::HighestJumpPosYForLineLayer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lineLayer = &::il2cpp_utils::GetClassFromName("", "NoteLineLayer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "HighestJumpPosYForLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lineLayer});
   }
@@ -440,7 +440,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: HighestJumpPosYForLineLayerWithoutJumpOffset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnMovementData::*)(GlobalNamespace::NoteLineLayer)>(&GlobalNamespace::BeatmapObjectSpawnMovementData::HighestJumpPosYForLineLayerWithoutJumpOffset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lineLayer = &::il2cpp_utils::GetClassFromName("", "NoteLineLayer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "HighestJumpPosYForLineLayerWithoutJumpOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lineLayer});
   }
@@ -449,7 +449,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: LineYPosForLineLayer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnMovementData::*)(GlobalNamespace::NoteLineLayer)>(&GlobalNamespace::BeatmapObjectSpawnMovementData::LineYPosForLineLayer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lineLayer = &::il2cpp_utils::GetClassFromName("", "NoteLineLayer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "LineYPosForLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lineLayer});
   }
@@ -458,7 +458,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: NoteJumpGravityForLineLayer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnMovementData::*)(GlobalNamespace::NoteLineLayer, GlobalNamespace::NoteLineLayer)>(&GlobalNamespace::BeatmapObjectSpawnMovementData::NoteJumpGravityForLineLayer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lineLayer = &::il2cpp_utils::GetClassFromName("", "NoteLineLayer")->byval_arg;
     static auto* startLineLayer = &::il2cpp_utils::GetClassFromName("", "NoteLineLayer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "NoteJumpGravityForLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lineLayer, startLineLayer});
@@ -468,7 +468,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: NoteJumpGravityForLineLayerWithoutJumpOffset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::BeatmapObjectSpawnMovementData::*)(GlobalNamespace::NoteLineLayer, GlobalNamespace::NoteLineLayer)>(&GlobalNamespace::BeatmapObjectSpawnMovementData::NoteJumpGravityForLineLayerWithoutJumpOffset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lineLayer = &::il2cpp_utils::GetClassFromName("", "NoteLineLayer")->byval_arg;
     static auto* startLineLayer = &::il2cpp_utils::GetClassFromName("", "NoteLineLayer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapObjectSpawnMovementData*), "NoteJumpGravityForLineLayerWithoutJumpOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lineLayer, startLineLayer});

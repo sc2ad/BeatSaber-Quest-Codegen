@@ -89,7 +89,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SignalReceiver::EventKeyValue*, "U
 // Il2CppName: TryGetValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Timeline::SignalReceiver::EventKeyValue::*)(UnityEngine::Timeline::SignalAsset*, UnityEngine::Events::UnityEvent*&)>(&UnityEngine::Timeline::SignalReceiver::EventKeyValue::TryGetValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "SignalAsset")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityEvent")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver::EventKeyValue*), "TryGetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key, value});
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: Append
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::SignalReceiver::EventKeyValue::*)(UnityEngine::Timeline::SignalAsset*, UnityEngine::Events::UnityEvent*)>(&UnityEngine::Timeline::SignalReceiver::EventKeyValue::Append)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "SignalAsset")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityEvent")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver::EventKeyValue*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key, value});
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Remove
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::SignalReceiver::EventKeyValue::*)(int)>(&UnityEngine::Timeline::SignalReceiver::EventKeyValue::Remove)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver::EventKeyValue*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{idx});
   }
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Remove
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::SignalReceiver::EventKeyValue::*)(UnityEngine::Timeline::SignalAsset*)>(&UnityEngine::Timeline::SignalReceiver::EventKeyValue::Remove)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "SignalAsset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver::EventKeyValue*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
   }
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_signals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::Timeline::SignalAsset*>* (UnityEngine::Timeline::SignalReceiver::EventKeyValue::*)()>(&UnityEngine::Timeline::SignalReceiver::EventKeyValue::get_signals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver::EventKeyValue*), "get_signals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -135,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: get_events
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::Events::UnityEvent*>* (UnityEngine::Timeline::SignalReceiver::EventKeyValue::*)()>(&UnityEngine::Timeline::SignalReceiver::EventKeyValue::get_events)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver::EventKeyValue*), "get_events", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

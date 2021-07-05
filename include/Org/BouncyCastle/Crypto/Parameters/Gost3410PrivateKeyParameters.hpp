@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::Gost3410PrivateKey
 // Il2CppName: get_X
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Crypto::Parameters::Gost3410PrivateKeyParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::Gost3410PrivateKeyParameters::get_X)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::Gost3410PrivateKeyParameters*), "get_X", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

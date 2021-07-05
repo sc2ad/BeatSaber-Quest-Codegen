@@ -56,7 +56,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::OptionalFieldAttribute*, 
 // Il2CppName: set_VersionAdded
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::OptionalFieldAttribute::*)(int)>(&System::Runtime::Serialization::OptionalFieldAttribute::set_VersionAdded)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::OptionalFieldAttribute*), "set_VersionAdded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

@@ -67,7 +67,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRDriverManager*, "Valve.VR", "CVRDriverManag
 // Il2CppName: GetDriverCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRDriverManager::*)()>(&Valve::VR::CVRDriverManager::GetDriverCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRDriverManager*), "GetDriverCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve
 // Il2CppName: GetDriverName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRDriverManager::*)(uint, System::Text::StringBuilder*, uint)>(&Valve::VR::CVRDriverManager::GetDriverName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* nDriver = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* pchValue = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* unBufferSize = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;

@@ -82,7 +82,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TimelinePauseReceiver*, "", "TimelinePau
 // Il2CppName: add_timelinePauseEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TimelinePauseReceiver::*)(System::Action*)>(&GlobalNamespace::TimelinePauseReceiver::add_timelinePauseEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimelinePauseReceiver*), "add_timelinePauseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_timelinePauseEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TimelinePauseReceiver::*)(System::Action*)>(&GlobalNamespace::TimelinePauseReceiver::remove_timelinePauseEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TimelinePauseReceiver*), "remove_timelinePauseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnNotify
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TimelinePauseReceiver::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::INotification*, ::Il2CppObject*)>(&GlobalNamespace::TimelinePauseReceiver::OnNotify)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")->byval_arg;
     static auto* notification = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "INotification")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

@@ -27,7 +27,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioHelpers*, "", "AudioHelpers");
 // Il2CppName: NormalizedVolumeToDB
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&GlobalNamespace::AudioHelpers::NormalizedVolumeToDB)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* normalizedVolume = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioHelpers*), "NormalizedVolumeToDB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{normalizedVolume});
   }

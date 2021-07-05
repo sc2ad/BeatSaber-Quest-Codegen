@@ -274,7 +274,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_RenderModel*, "", "SteamVR_Rende
 // Il2CppName: get_renderModelName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SteamVR_RenderModel::*)()>(&GlobalNamespace::SteamVR_RenderModel::get_renderModelName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel*), "get_renderModelName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -282,7 +282,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_renderModelName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_RenderModel::*)(::Il2CppString*)>(&GlobalNamespace::SteamVR_RenderModel::set_renderModelName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel*), "set_renderModelName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -291,7 +291,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnModelSkinSettingsHaveChanged
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_RenderModel::*)(Valve::VR::VREvent_t)>(&GlobalNamespace::SteamVR_RenderModel::OnModelSkinSettingsHaveChanged)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* vrEvent = &::il2cpp_utils::GetClassFromName("Valve.VR", "VREvent_t")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel*), "OnModelSkinSettingsHaveChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vrEvent});
   }
@@ -300,7 +300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnHideRenderModels
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_RenderModel::*)(bool)>(&GlobalNamespace::SteamVR_RenderModel::OnHideRenderModels)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hidden = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel*), "OnHideRenderModels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hidden});
   }
@@ -309,7 +309,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnDeviceConnected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_RenderModel::*)(int, bool)>(&GlobalNamespace::SteamVR_RenderModel::OnDeviceConnected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* connected = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel*), "OnDeviceConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i, connected});
@@ -319,7 +319,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: UpdateModel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_RenderModel::*)()>(&GlobalNamespace::SteamVR_RenderModel::UpdateModel)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel*), "UpdateModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -327,7 +327,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetModelAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::SteamVR_RenderModel::*)(::Il2CppString*)>(&GlobalNamespace::SteamVR_RenderModel::SetModelAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* renderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel*), "SetModelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{renderModelName});
   }
@@ -336,7 +336,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: SetModel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_RenderModel::*)(::Il2CppString*)>(&GlobalNamespace::SteamVR_RenderModel::SetModel)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* renderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel*), "SetModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{renderModelName});
   }
@@ -345,7 +345,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: LoadRenderModel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_RenderModel::RenderModel* (GlobalNamespace::SteamVR_RenderModel::*)(Valve::VR::CVRRenderModels*, ::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::SteamVR_RenderModel::LoadRenderModel)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* renderModels = &::il2cpp_utils::GetClassFromName("Valve.VR", "CVRRenderModels")->byval_arg;
     static auto* renderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* baseName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -356,7 +356,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: FreeRenderModel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::SteamVR_RenderModel::*)(System::IntPtr)>(&GlobalNamespace::SteamVR_RenderModel::FreeRenderModel)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pRenderModel = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel*), "FreeRenderModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pRenderModel});
   }
@@ -365,7 +365,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: FindComponent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (GlobalNamespace::SteamVR_RenderModel::*)(::Il2CppString*)>(&GlobalNamespace::SteamVR_RenderModel::FindComponent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* componentName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel*), "FindComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{componentName});
   }
@@ -374,7 +374,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: StripMesh
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_RenderModel::*)(UnityEngine::GameObject*)>(&GlobalNamespace::SteamVR_RenderModel::StripMesh)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel*), "StripMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{go});
   }
@@ -383,7 +383,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: LoadComponents
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_RenderModel::*)(GlobalNamespace::SteamVR_RenderModel::RenderModelInterfaceHolder*, ::Il2CppString*)>(&GlobalNamespace::SteamVR_RenderModel::LoadComponents)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* holder = &::il2cpp_utils::GetClassFromName("", "SteamVR_RenderModel/RenderModelInterfaceHolder")->byval_arg;
     static auto* renderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel*), "LoadComponents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{holder, renderModelName});
@@ -393,7 +393,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: OnEnable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_RenderModel::*)()>(&GlobalNamespace::SteamVR_RenderModel::OnEnable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -401,7 +401,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnDisable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_RenderModel::*)()>(&GlobalNamespace::SteamVR_RenderModel::OnDisable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -409,7 +409,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Update
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_RenderModel::*)()>(&GlobalNamespace::SteamVR_RenderModel::Update)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -417,7 +417,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: UpdateComponents
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_RenderModel::*)(Valve::VR::CVRRenderModels*)>(&GlobalNamespace::SteamVR_RenderModel::UpdateComponents)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* renderModels = &::il2cpp_utils::GetClassFromName("Valve.VR", "CVRRenderModels")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel*), "UpdateComponents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{renderModels});
   }
@@ -426,7 +426,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetDeviceIndex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_RenderModel::*)(int)>(&GlobalNamespace::SteamVR_RenderModel::SetDeviceIndex)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel*), "SetDeviceIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
   }
@@ -435,7 +435,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Sleep
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::SteamVR_RenderModel::Sleep)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel*), "Sleep", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -443,7 +443,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: MarshalRenderModel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::RenderModel_t (GlobalNamespace::SteamVR_RenderModel::*)(System::IntPtr)>(&GlobalNamespace::SteamVR_RenderModel::MarshalRenderModel)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pRenderModel = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel*), "MarshalRenderModel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pRenderModel});
   }
@@ -452,7 +452,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Il2CppName: MarshalRenderModel_TextureMap
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::RenderModel_TextureMap_t (GlobalNamespace::SteamVR_RenderModel::*)(System::IntPtr)>(&GlobalNamespace::SteamVR_RenderModel::MarshalRenderModel_TextureMap)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pRenderModel = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel*), "MarshalRenderModel_TextureMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pRenderModel});
   }
@@ -465,7 +465,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::SteamVR_RenderModel::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_RenderModel*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -74,7 +74,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor::_Submit*, "OVR.OpenVR", "IVRC
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRCompositorError (OVR::OpenVR::IVRCompositor::_Submit::*)(OVR::OpenVR::EVREye, OVR::OpenVR::Texture_t&, OVR::OpenVR::VRTextureBounds_t&, OVR::OpenVR::EVRSubmitFlags)>(&OVR::OpenVR::IVRCompositor::_Submit::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eEye = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVREye")->byval_arg;
     static auto* pTexture = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "Texture_t")->this_arg;
     static auto* pBounds = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRTextureBounds_t")->this_arg;
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRCompositor::_Submit::*)(OVR::OpenVR::EVREye, OVR::OpenVR::Texture_t&, OVR::OpenVR::VRTextureBounds_t&, OVR::OpenVR::EVRSubmitFlags, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRCompositor::_Submit::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eEye = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVREye")->byval_arg;
     static auto* pTexture = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "Texture_t")->this_arg;
     static auto* pBounds = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRTextureBounds_t")->this_arg;
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRCompositorError (OVR::OpenVR::IVRCompositor::_Submit::*)(OVR::OpenVR::Texture_t&, OVR::OpenVR::VRTextureBounds_t&, System::IAsyncResult*)>(&OVR::OpenVR::IVRCompositor::_Submit::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pTexture = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "Texture_t")->this_arg;
     static auto* pBounds = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRTextureBounds_t")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;

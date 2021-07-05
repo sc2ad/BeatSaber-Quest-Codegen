@@ -30,7 +30,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::EqualityAdapter*, "NUnit.F
 // Il2CppName: AreEqual
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::EqualityAdapter::*)(::Il2CppObject*, ::Il2CppObject*)>(&NUnit::Framework::Constraints::EqualityAdapter::AreEqual)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::EqualityAdapter*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y});
@@ -40,7 +40,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit
 // Il2CppName: CanCompare
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::EqualityAdapter::*)(::Il2CppObject*, ::Il2CppObject*)>(&NUnit::Framework::Constraints::EqualityAdapter::CanCompare)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::EqualityAdapter*), "CanCompare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y});

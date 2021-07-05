@@ -87,7 +87,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuantizedMathf*, "", "QuantizedMathf");
 // Il2CppName: Approximately
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Quaternion, UnityEngine::Quaternion)>(&GlobalNamespace::QuantizedMathf::Approximately)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuantizedMathf*), "Approximately", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: Approximately
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(float, float, float)>(&GlobalNamespace::QuantizedMathf::Approximately)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* epsilon = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(fl
 // Il2CppName: Approximately
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, int, int)>(&GlobalNamespace::QuantizedMathf::Approximately)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* epsilon = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Il2CppName: Approximately
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&GlobalNamespace::QuantizedMathf::Approximately)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuantizedMathf*), "Approximately", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
@@ -129,7 +129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: Approximately
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Pose, UnityEngine::Pose)>(&GlobalNamespace::QuantizedMathf::Approximately)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Pose")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine", "Pose")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuantizedMathf*), "Approximately", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: QuantizedVectorComponentToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&GlobalNamespace::QuantizedMathf::QuantizedVectorComponentToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* v = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuantizedMathf*), "QuantizedVectorComponentToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});
   }

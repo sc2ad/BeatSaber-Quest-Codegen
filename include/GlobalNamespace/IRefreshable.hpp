@@ -26,7 +26,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IRefreshable*, "", "IRefreshable");
 // Il2CppName: Refresh
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IRefreshable::*)()>(&GlobalNamespace::IRefreshable::Refresh)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IRefreshable*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -72,7 +72,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RuntimeLightWithIds::LightIntensitiesDat
 // Il2CppName: get_intensity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData::*)()>(&GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData::get_intensity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData*), "get_intensity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: set_intensity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData::*)(float)>(&GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData::set_intensity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData*), "set_intensity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ProcessColor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData::*)(UnityEngine::Color)>(&GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData::ProcessColor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* newColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData*), "ProcessColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newColor});
   }

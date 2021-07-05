@@ -78,7 +78,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::CompletionActionInvoker*, "Syst
 // Il2CppName: ExecuteWorkItem
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::CompletionActionInvoker::*)()>(&System::Threading::Tasks::CompletionActionInvoker::ExecuteWorkItem)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::CompletionActionInvoker*), "ExecuteWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: MarkAborted
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::CompletionActionInvoker::*)(System::Threading::ThreadAbortException*)>(&System::Threading::Tasks::CompletionActionInvoker::MarkAborted)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tae = &::il2cpp_utils::GetClassFromName("System.Threading", "ThreadAbortException")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::CompletionActionInvoker*), "MarkAborted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tae});
   }

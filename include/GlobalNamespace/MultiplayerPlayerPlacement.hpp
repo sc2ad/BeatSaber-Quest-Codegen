@@ -67,7 +67,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerPlayerPlacement*, "", "Multip
 // Il2CppName: GetPlayerWorldPosition
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(float, float, GlobalNamespace::MultiplayerPlayerLayout)>(&GlobalNamespace::MultiplayerPlayerPlacement::GetPlayerWorldPosition)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* outerCircleRadius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* outerCirclePositionAngle = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* layout = &::il2cpp_utils::GetClassFromName("", "MultiplayerPlayerLayout")->byval_arg;
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetOuterCirclePositionAngleForPlayer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(int, int, float)>(&GlobalNamespace::MultiplayerPlayerPlacement::GetOuterCirclePositionAngleForPlayer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* playerIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* localPlayerIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* angleBetweenPlayers = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(i
 // Il2CppName: GetOuterCircleRadius
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float)>(&GlobalNamespace::MultiplayerPlayerPlacement::GetOuterCircleRadius)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* angleBetweenPlayers = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* innerCircleRadius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerPlayerPlacement*), "GetOuterCircleRadius", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{angleBetweenPlayers, innerCircleRadius});
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(f
 // Il2CppName: GetAngleBetweenPlayersWithEvenAdjustment
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(int, GlobalNamespace::MultiplayerPlayerLayout)>(&GlobalNamespace::MultiplayerPlayerPlacement::GetAngleBetweenPlayersWithEvenAdjustment)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* numberOfPlayers = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* layout = &::il2cpp_utils::GetClassFromName("", "MultiplayerPlayerLayout")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerPlayerPlacement*), "GetAngleBetweenPlayersWithEvenAdjustment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{numberOfPlayers, layout});
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(i
 // Il2CppName: SortPlayers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>*)>(&GlobalNamespace::MultiplayerPlayerPlacement::SortPlayers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* players = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IConnectedPlayer")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerPlayerPlacement*), "SortPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{players});
   }
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: GetLocalPlayerIndex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Collections::Generic::IList_1<GlobalNamespace::IConnectedPlayer*>*, GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::MultiplayerPlayerPlacement::GetLocalPlayerIndex)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* otherPlayers = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IConnectedPlayer")})->byval_arg;
     static auto* localPlayer = &::il2cpp_utils::GetClassFromName("", "IConnectedPlayer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerPlayerPlacement*), "GetLocalPlayerIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{otherPlayers, localPlayer});

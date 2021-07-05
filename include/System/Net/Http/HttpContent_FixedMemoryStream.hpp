@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpContent::FixedMemoryStream*, "Syst
 // Il2CppName: CheckOverflow
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpContent::FixedMemoryStream::*)(int)>(&System::Net::Http::HttpContent::FixedMemoryStream::CheckOverflow)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpContent::FixedMemoryStream*), "CheckOverflow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{count});
   }
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: WriteByte
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpContent::FixedMemoryStream::*)(uint8_t)>(&System::Net::Http::HttpContent::FixedMemoryStream::WriteByte)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpContent::FixedMemoryStream*), "WriteByte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Write
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpContent::FixedMemoryStream::*)(::Array<uint8_t>*, int, int)>(&System::Net::Http::HttpContent::FixedMemoryStream::Write)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

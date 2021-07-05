@@ -110,7 +110,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator*, 
 // Il2CppName: AddSeedMaterial
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::AddSeedMaterial)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* inSeed = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator*), "AddSeedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inSeed});
   }
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Il2CppName: AddSeedMaterial
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::*)(int64_t)>(&Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::AddSeedMaterial)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rSeed = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator*), "AddSeedMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rSeed});
   }
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Il2CppName: NextBytes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::NextBytes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator*), "NextBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytes});
   }
@@ -137,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Il2CppName: NextBytes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::NextBytes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -148,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Il2CppName: CycleSeed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::*)()>(&Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::CycleSeed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator*), "CycleSeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Il2CppName: GenerateState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::*)()>(&Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::GenerateState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator*), "GenerateState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Il2CppName: DigestAddCounter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::*)(int64_t)>(&Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::DigestAddCounter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* seedVal = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator*), "DigestAddCounter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{seedVal});
   }
@@ -173,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Il2CppName: DigestUpdate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::DigestUpdate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* inSeed = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator*), "DigestUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inSeed});
   }
@@ -182,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Il2CppName: DigestDoFinal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator::DigestDoFinal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator*), "DigestDoFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

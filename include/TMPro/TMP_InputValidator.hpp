@@ -43,7 +43,7 @@ DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputValidator*, "TMPro", "TMP_InputValidator"
 // Il2CppName: Validate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (TMPro::TMP_InputValidator::*)(::Il2CppString*&, int&, ::Il2CppChar)>(&TMPro::TMP_InputValidator::Validate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     static auto* pos = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;

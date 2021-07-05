@@ -102,7 +102,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::ScriptableRenderContext, "UnityEn
 // Il2CppName: GetNumberOfCameras_Internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Rendering::ScriptableRenderContext::*)()>(&UnityEngine::Rendering::ScriptableRenderContext::GetNumberOfCameras_Internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::ScriptableRenderContext), "GetNumberOfCameras_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -110,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: GetCamera_Internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (UnityEngine::Rendering::ScriptableRenderContext::*)(int)>(&UnityEngine::Rendering::ScriptableRenderContext::GetCamera_Internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::ScriptableRenderContext), "GetCamera_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
   }
@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetNumberOfCameras
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Rendering::ScriptableRenderContext::*)()>(&UnityEngine::Rendering::ScriptableRenderContext::GetNumberOfCameras)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::ScriptableRenderContext), "GetNumberOfCameras", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: GetCamera
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (UnityEngine::Rendering::ScriptableRenderContext::*)(int)>(&UnityEngine::Rendering::ScriptableRenderContext::GetCamera)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::ScriptableRenderContext), "GetCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
   }
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Equals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Rendering::ScriptableRenderContext::*)(UnityEngine::Rendering::ScriptableRenderContext)>(&UnityEngine::Rendering::ScriptableRenderContext::Equals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "ScriptableRenderContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::ScriptableRenderContext), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: GetNumberOfCameras_Internal_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Rendering::ScriptableRenderContext&)>(&UnityEngine::Rendering::ScriptableRenderContext::GetNumberOfCameras_Internal_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* _unity_self = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "ScriptableRenderContext")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::ScriptableRenderContext), "GetNumberOfCameras_Internal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_unity_self});
   }
@@ -158,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 // Il2CppName: GetCamera_Internal_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Camera* (*)(UnityEngine::Rendering::ScriptableRenderContext&, int)>(&UnityEngine::Rendering::ScriptableRenderContext::GetCamera_Internal_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* _unity_self = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "ScriptableRenderContext")->this_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::ScriptableRenderContext), "GetCamera_Internal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_unity_self, index});
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Equals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Rendering::ScriptableRenderContext::*)(::Il2CppObject*)>(&UnityEngine::Rendering::ScriptableRenderContext::Equals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::ScriptableRenderContext), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: GetHashCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Rendering::ScriptableRenderContext::*)()>(&UnityEngine::Rendering::ScriptableRenderContext::GetHashCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::ScriptableRenderContext), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

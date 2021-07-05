@@ -59,7 +59,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::DefaultGameObjectParentInstaller*, "Zenject", "D
 // Il2CppName: InstallBindings
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DefaultGameObjectParentInstaller::*)()>(&Zenject::DefaultGameObjectParentInstaller::InstallBindings)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DefaultGameObjectParentInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

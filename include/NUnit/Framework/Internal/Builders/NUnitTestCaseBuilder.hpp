@@ -79,7 +79,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::NUnitTestCaseBuilde
 // Il2CppName: BuildTestMethod
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestMethod* (NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::*)(NUnit::Framework::Interfaces::IMethodInfo*, NUnit::Framework::Internal::Test*, NUnit::Framework::Internal::TestCaseParameters*)>(&NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::BuildTestMethod)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "IMethodInfo")->byval_arg;
     static auto* parentSuite = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "Test")->byval_arg;
     static auto* parms = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestCaseParameters")->byval_arg;
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Il2CppName: CheckTestMethodSignature
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(NUnit::Framework::Internal::TestMethod*, NUnit::Framework::Internal::TestCaseParameters*)>(&NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::CheckTestMethodSignature)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* testMethod = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestMethod")->byval_arg;
     static auto* parms = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestCaseParameters")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*), "CheckTestMethodSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{testMethod, parms});
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(NU
 // Il2CppName: MarkAsNotRunnable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(NUnit::Framework::Internal::TestMethod*, ::Il2CppString*)>(&NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::MarkAsNotRunnable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* testMethod = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestMethod")->byval_arg;
     static auto* reason = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*), "MarkAsNotRunnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{testMethod, reason});

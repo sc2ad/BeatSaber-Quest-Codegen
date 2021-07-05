@@ -104,7 +104,7 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::PanelAnimationSO*, "HMUI", "PanelAnimationSO");
 // Il2CppName: ExecuteAnimation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::PanelAnimationSO::*)(UnityEngine::GameObject*)>(&HMUI::PanelAnimationSO::ExecuteAnimation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::PanelAnimationSO*), "ExecuteAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{go});
   }
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: ExecuteAnimation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::PanelAnimationSO::*)(UnityEngine::GameObject*, System::Action*)>(&HMUI::PanelAnimationSO::ExecuteAnimation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* finishedCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::PanelAnimationSO*), "ExecuteAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{go, finishedCallback});
@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: ExecuteAnimation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::PanelAnimationSO::*)(UnityEngine::GameObject*, UnityEngine::CanvasGroup*, System::Action*)>(&HMUI::PanelAnimationSO::ExecuteAnimation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* parentCanvasGroup = &::il2cpp_utils::GetClassFromName("UnityEngine", "CanvasGroup")->byval_arg;
     static auto* finishedCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
@@ -134,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: ExecuteAnimation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::PanelAnimationSO::*)(UnityEngine::GameObject*, UnityEngine::CanvasGroup*, bool, System::Action*)>(&HMUI::PanelAnimationSO::ExecuteAnimation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* parentCanvasGroup = &::il2cpp_utils::GetClassFromName("UnityEngine", "CanvasGroup")->byval_arg;
     static auto* instant = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

@@ -222,7 +222,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersModelSO*, "", "Gameplay
 // Il2CppName: CreateGameplayModifiers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers* (GlobalNamespace::GameplayModifiersModelSO::*)(System::Func_2<GlobalNamespace::GameplayModifierParamsSO*, bool>*)>(&GlobalNamespace::GameplayModifiersModelSO::CreateGameplayModifiers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* valueGetter = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "GameplayModifierParamsSO"), ::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO*), "CreateGameplayModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{valueGetter});
   }
@@ -231,7 +231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: GetModifierBoolValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameplayModifiersModelSO::*)(GlobalNamespace::GameplayModifiers*, GlobalNamespace::GameplayModifierParamsSO*)>(&GlobalNamespace::GameplayModifiersModelSO::GetModifierBoolValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     static auto* gameplayModifierParams = &::il2cpp_utils::GetClassFromName("", "GameplayModifierParamsSO")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO*), "GetModifierBoolValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers, gameplayModifierParams});
@@ -241,7 +241,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: CreateModifierParamsList
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* (GlobalNamespace::GameplayModifiersModelSO::*)(GlobalNamespace::GameplayModifiers*)>(&GlobalNamespace::GameplayModifiersModelSO::CreateModifierParamsList)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO*), "CreateModifierParamsList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameplayModifiers});
   }
@@ -250,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: GetTotalMultiplier
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::GameplayModifiersModelSO::*)(System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*, float)>(&GlobalNamespace::GameplayModifiersModelSO::GetTotalMultiplier)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* modifierParams = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "GameplayModifierParamsSO")})->byval_arg;
     static auto* energy = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO*), "GetTotalMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{modifierParams, energy});
@@ -260,7 +260,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: MaxModifiedScoreForMaxRawScore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::GameplayModifiersModelSO::*)(int, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*, float)>(&GlobalNamespace::GameplayModifiersModelSO::MaxModifiedScoreForMaxRawScore)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* maxRawScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* modifierParams = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "GameplayModifierParamsSO")})->byval_arg;
     static auto* energy = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -271,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: MaxModifiedScoreForMaxRawScore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::GameplayModifiersModelSO::*)(int, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*, GlobalNamespace::GameplayModifiersModelSO*, float)>(&GlobalNamespace::GameplayModifiersModelSO::MaxModifiedScoreForMaxRawScore)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* maxRawScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* modifierParams = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "GameplayModifierParamsSO")})->byval_arg;
     static auto* gameplayModifiersModel = &::il2cpp_utils::GetClassFromName("", "GameplayModifiersModelSO")->byval_arg;
@@ -283,7 +283,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: GetModifiedScoreForGameplayModifiers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::GameplayModifiersModelSO::*)(int, System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*, float)>(&GlobalNamespace::GameplayModifiersModelSO::GetModifiedScoreForGameplayModifiers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rawScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* modifierParams = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "GameplayModifierParamsSO")})->byval_arg;
     static auto* energy = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -294,7 +294,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: GetGameplayModifierParams
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifierParamsSO* (GlobalNamespace::GameplayModifiersModelSO::*)(GlobalNamespace::GameplayModifierMask)>(&GlobalNamespace::GameplayModifiersModelSO::GetGameplayModifierParams)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* modifier = &::il2cpp_utils::GetClassFromName("", "GameplayModifierMask")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO*), "GetGameplayModifierParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{modifier});
   }
@@ -303,7 +303,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: GetSongSpeedFromValueGetter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayModifiers::SongSpeed (GlobalNamespace::GameplayModifiersModelSO::*)(System::Func_2<GlobalNamespace::GameplayModifierParamsSO*, bool>*)>(&GlobalNamespace::GameplayModifiersModelSO::GetSongSpeedFromValueGetter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* valueGetter = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "GameplayModifierParamsSO"), ::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO*), "GetSongSpeedFromValueGetter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{valueGetter});
   }
@@ -312,7 +312,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: OnEnable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayModifiersModelSO::*)()>(&GlobalNamespace::GameplayModifiersModelSO::OnEnable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifiersModelSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

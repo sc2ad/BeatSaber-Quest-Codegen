@@ -160,7 +160,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataLoaderSO::AssetBundleLev
 // Il2CppName: LoadBeatmapLevelFormAssetBundleAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapLevel*>* (GlobalNamespace::BeatmapLevelDataLoaderSO::*)(GlobalNamespace::IPreviewBeatmapLevel*, ::Il2CppString*, ::Il2CppString*, System::Threading::CancellationToken)>(&GlobalNamespace::BeatmapLevelDataLoaderSO::LoadBeatmapLevelFormAssetBundleAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* previewBeatmapLevel = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
     static auto* assetBundlePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* levelDataAssetName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -172,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: LoadBeatmapLevelAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapLevel*>* (GlobalNamespace::BeatmapLevelDataLoaderSO::*)(::Il2CppString*)>(&GlobalNamespace::BeatmapLevelDataLoaderSO::LoadBeatmapLevelAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* levelID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelDataLoaderSO*), "LoadBeatmapLevelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelID});
   }
@@ -181,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: LoadBeatmalLevelDataAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::BeatmapLevelDataSO*>* (GlobalNamespace::BeatmapLevelDataLoaderSO::*)(::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::BeatmapLevelDataLoaderSO::LoadBeatmalLevelDataAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* assetBundlePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* levelDataAssetName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelDataLoaderSO*), "LoadBeatmalLevelDataAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assetBundlePath, levelDataAssetName});

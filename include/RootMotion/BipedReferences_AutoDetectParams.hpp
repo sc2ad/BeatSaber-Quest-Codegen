@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedReferences::AutoDetectParams, "RootMotio
 // Il2CppName: get_Default
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::BipedReferences::AutoDetectParams (*)()>(&RootMotion::BipedReferences::AutoDetectParams::get_Default)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedReferences::AutoDetectParams), "get_Default", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

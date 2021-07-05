@@ -38,7 +38,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RankModelHelper*, "", "RankModelHelper")
 // Il2CppName: MaxRankForGameplayModifiers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::RankModel::Rank (*)(GlobalNamespace::GameplayModifiers*, GlobalNamespace::GameplayModifiersModelSO*, float)>(&GlobalNamespace::RankModelHelper::MaxRankForGameplayModifiers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     static auto* gameplayModifiersModel = &::il2cpp_utils::GetClassFromName("", "GameplayModifiersModelSO")->byval_arg;
     static auto* energy = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

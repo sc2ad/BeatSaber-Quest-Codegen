@@ -37,7 +37,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::IObjectReference*, "Syste
 // Il2CppName: GetRealObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Serialization::IObjectReference::*)(System::Runtime::Serialization::StreamingContext)>(&System::Runtime::Serialization::IObjectReference::GetRealObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::IObjectReference*), "GetRealObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }

@@ -124,7 +124,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectTypeInfo*, "Zenject", "InjectTypeInfo");
 // Il2CppName: get_BaseTypeInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectTypeInfo* (Zenject::InjectTypeInfo::*)()>(&Zenject::InjectTypeInfo::get_BaseTypeInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::InjectTypeInfo*), "get_BaseTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -132,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::In
 // Il2CppName: set_BaseTypeInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::InjectTypeInfo::*)(Zenject::InjectTypeInfo*)>(&Zenject::InjectTypeInfo::set_BaseTypeInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Zenject", "InjectTypeInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::InjectTypeInfo*), "set_BaseTypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: get_AllInjectables
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::InjectableInfo*>* (Zenject::InjectTypeInfo::*)()>(&Zenject::InjectTypeInfo::get_AllInjectables)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::InjectTypeInfo*), "get_AllInjectables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: <get_AllInjectables>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectableInfo* (*)(Zenject::InjectTypeInfo::InjectMemberInfo*)>(&Zenject::InjectTypeInfo::$get_AllInjectables$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("Zenject", "InjectTypeInfo/InjectMemberInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::InjectTypeInfo*), "<get_AllInjectables>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
@@ -158,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::In
 // Il2CppName: <get_AllInjectables>b__1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::InjectableInfo*>* (*)(Zenject::InjectTypeInfo::InjectMethodInfo*)>(&Zenject::InjectTypeInfo::$get_AllInjectables$b__1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("Zenject", "InjectTypeInfo/InjectMethodInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::InjectTypeInfo*), "<get_AllInjectables>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }

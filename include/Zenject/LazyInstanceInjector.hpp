@@ -84,7 +84,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::LazyInstanceInjector*, "Zenject", "LazyInstanceI
 // Il2CppName: get_Instances
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* (Zenject::LazyInstanceInjector::*)()>(&Zenject::LazyInstanceInjector::get_Instances)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::LazyInstanceInjector*), "get_Instances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: AddInstance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::LazyInstanceInjector::*)(::Il2CppObject*)>(&Zenject::LazyInstanceInjector::AddInstance)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* instance = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::LazyInstanceInjector*), "AddInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{instance});
   }
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: AddInstances
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::LazyInstanceInjector::*)(System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&Zenject::LazyInstanceInjector::AddInstances)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* instances = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::LazyInstanceInjector*), "AddInstances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{instances});
   }
@@ -110,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: LazyInject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::LazyInstanceInjector::*)(::Il2CppObject*)>(&Zenject::LazyInstanceInjector::LazyInject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* instance = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::LazyInstanceInjector*), "LazyInject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{instance});
   }
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: LazyInjectAll
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::LazyInstanceInjector::*)()>(&Zenject::LazyInstanceInjector::LazyInjectAll)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::LazyInstanceInjector*), "LazyInjectAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -113,7 +113,7 @@ DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPAdminLeaderboardsHelper*, "Onlin
 // Il2CppName: ServerStatus
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Il2CppString*>* (OnlineServices::API::HTTPAdminLeaderboardsHelper::*)(System::Threading::CancellationToken)>(&OnlineServices::API::HTTPAdminLeaderboardsHelper::ServerStatus)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPAdminLeaderboardsHelper*), "ServerStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
   }
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: LeaderboardsExist
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoResultDto*>* (OnlineServices::API::HTTPAdminLeaderboardsHelper::*)(::Array<::Il2CppString*>*, System::Threading::CancellationToken)>(&OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsExist)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* leaderboardIds = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPAdminLeaderboardsHelper*), "LeaderboardsExist", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardIds, cancellationToken});
@@ -132,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: CreateOrUpdateLeaderboards
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (OnlineServices::API::HTTPAdminLeaderboardsHelper::*)(::Array<::Il2CppString*>*, System::Threading::CancellationToken)>(&OnlineServices::API::HTTPAdminLeaderboardsHelper::CreateOrUpdateLeaderboards)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* leaderboardIds = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPAdminLeaderboardsHelper*), "CreateOrUpdateLeaderboards", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardIds, cancellationToken});
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: SendWebRequestAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Il2CppString*>* (OnlineServices::API::HTTPAdminLeaderboardsHelper::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, System::Threading::CancellationToken)>(&OnlineServices::API::HTTPAdminLeaderboardsHelper::SendWebRequestAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* method = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* bodyData = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: SendAndWaitAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (OnlineServices::API::HTTPAdminLeaderboardsHelper::*)(UnityEngine::Networking::UnityWebRequest*, System::Threading::CancellationToken)>(&OnlineServices::API::HTTPAdminLeaderboardsHelper::SendAndWaitAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* webRequest = &::il2cpp_utils::GetClassFromName("UnityEngine.Networking", "UnityWebRequest")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPAdminLeaderboardsHelper*), "SendAndWaitAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{webRequest, cancellationToken});

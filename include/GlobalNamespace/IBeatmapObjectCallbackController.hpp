@@ -87,7 +87,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBeatmapObjectCallbackController*, "", "
 // Il2CppName: add_beatmapEventDidTriggerEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IBeatmapObjectCallbackController::*)(System::Action_1<GlobalNamespace::BeatmapEventData*>*)>(&GlobalNamespace::IBeatmapObjectCallbackController::add_beatmapEventDidTriggerEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "BeatmapEventData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBeatmapObjectCallbackController*), "add_beatmapEventDidTriggerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -96,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_beatmapEventDidTriggerEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IBeatmapObjectCallbackController::*)(System::Action_1<GlobalNamespace::BeatmapEventData*>*)>(&GlobalNamespace::IBeatmapObjectCallbackController::remove_beatmapEventDidTriggerEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "BeatmapEventData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBeatmapObjectCallbackController*), "remove_beatmapEventDidTriggerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_callbacksForThisFrameWereProcessedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IBeatmapObjectCallbackController::*)(System::Action*)>(&GlobalNamespace::IBeatmapObjectCallbackController::add_callbacksForThisFrameWereProcessedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBeatmapObjectCallbackController*), "add_callbacksForThisFrameWereProcessedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -114,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_callbacksForThisFrameWereProcessedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IBeatmapObjectCallbackController::*)(System::Action*)>(&GlobalNamespace::IBeatmapObjectCallbackController::remove_callbacksForThisFrameWereProcessedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBeatmapObjectCallbackController*), "remove_callbacksForThisFrameWereProcessedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: AddBeatmapObjectCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapObjectCallbackData* (GlobalNamespace::IBeatmapObjectCallbackController::*)(GlobalNamespace::BeatmapObjectCallback*, float)>(&GlobalNamespace::IBeatmapObjectCallbackController::AddBeatmapObjectCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* callback = &::il2cpp_utils::GetClassFromName("", "BeatmapObjectCallback")->byval_arg;
     static auto* aheadTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBeatmapObjectCallbackController*), "AddBeatmapObjectCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callback, aheadTime});
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: RemoveBeatmapObjectCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IBeatmapObjectCallbackController::*)(GlobalNamespace::BeatmapObjectCallbackData*)>(&GlobalNamespace::IBeatmapObjectCallbackController::RemoveBeatmapObjectCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* callbackData = &::il2cpp_utils::GetClassFromName("", "BeatmapObjectCallbackData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBeatmapObjectCallbackController*), "RemoveBeatmapObjectCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callbackData});
   }
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: AddBeatmapEventCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapEventCallbackData* (GlobalNamespace::IBeatmapObjectCallbackController::*)(GlobalNamespace::BeatmapEventCallback*, float)>(&GlobalNamespace::IBeatmapObjectCallbackController::AddBeatmapEventCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* callback = &::il2cpp_utils::GetClassFromName("", "BeatmapEventCallback")->byval_arg;
     static auto* aheadTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBeatmapObjectCallbackController*), "AddBeatmapEventCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callback, aheadTime});
@@ -152,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: RemoveBeatmapEventCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IBeatmapObjectCallbackController::*)(GlobalNamespace::BeatmapEventCallbackData*)>(&GlobalNamespace::IBeatmapObjectCallbackController::RemoveBeatmapEventCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* callbackData = &::il2cpp_utils::GetClassFromName("", "BeatmapEventCallbackData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBeatmapObjectCallbackController*), "RemoveBeatmapEventCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callbackData});
   }
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SendBeatmapEventDidTriggerEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IBeatmapObjectCallbackController::*)(GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::IBeatmapObjectCallbackController::SendBeatmapEventDidTriggerEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmapEventData = &::il2cpp_utils::GetClassFromName("", "BeatmapEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBeatmapObjectCallbackController*), "SendBeatmapEventDidTriggerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventData});
   }
@@ -170,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetNewBeatmapData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IBeatmapObjectCallbackController::*)(GlobalNamespace::IReadonlyBeatmapData*)>(&GlobalNamespace::IBeatmapObjectCallbackController::SetNewBeatmapData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmapData = &::il2cpp_utils::GetClassFromName("", "IReadonlyBeatmapData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBeatmapObjectCallbackController*), "SetNewBeatmapData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapData});
   }
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Pause
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IBeatmapObjectCallbackController::*)()>(&GlobalNamespace::IBeatmapObjectCallbackController::Pause)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBeatmapObjectCallbackController*), "Pause", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Resume
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IBeatmapObjectCallbackController::*)()>(&GlobalNamespace::IBeatmapObjectCallbackController::Resume)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBeatmapObjectCallbackController*), "Resume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -195,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_isPaused
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IBeatmapObjectCallbackController::*)()>(&GlobalNamespace::IBeatmapObjectCallbackController::get_isPaused)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBeatmapObjectCallbackController*), "get_isPaused", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

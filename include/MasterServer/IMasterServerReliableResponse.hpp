@@ -38,7 +38,7 @@ DEFINE_IL2CPP_ARG_TYPE(MasterServer::IMasterServerReliableResponse*, "MasterServ
 // Il2CppName: WithRequestAndResponseId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::IMasterServerReliableResponse* (MasterServer::IMasterServerReliableResponse::*)(uint, uint)>(&MasterServer::IMasterServerReliableResponse::WithRequestAndResponseId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* requestId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* responseId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IMasterServerReliableResponse*), "WithRequestAndResponseId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{requestId, responseId});

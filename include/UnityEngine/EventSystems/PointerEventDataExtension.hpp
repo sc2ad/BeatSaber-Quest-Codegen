@@ -51,7 +51,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerEventDataExtension*, "U
 // Il2CppName: IsVRPointer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::PointerEventDataExtension::IsVRPointer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pointerEventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventDataExtension*), "IsVRPointer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pointerEventData});
   }
@@ -60,7 +60,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: GetRay
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Ray (*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::PointerEventDataExtension::GetRay)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pointerEventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventDataExtension*), "GetRay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pointerEventData});
   }
@@ -69,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetSwipeStart
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::EventSystems::PointerEventData*)>(&UnityEngine::EventSystems::PointerEventDataExtension::GetSwipeStart)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pointerEventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventDataExtension*), "GetSwipeStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pointerEventData});
   }
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: SetSwipeStart
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::EventSystems::PointerEventData*, UnityEngine::Vector2)>(&UnityEngine::EventSystems::PointerEventDataExtension::SetSwipeStart)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pointerEventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PointerEventDataExtension*), "SetSwipeStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pointerEventData, start});

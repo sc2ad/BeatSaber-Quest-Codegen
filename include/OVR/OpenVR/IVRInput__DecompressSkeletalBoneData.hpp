@@ -70,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRInput::_DecompressSkeletalBoneData*, "OVR
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::IVRInput::_DecompressSkeletalBoneData::*)(System::IntPtr, uint, OVR::OpenVR::EVRSkeletalTransformSpace&, ::Array<OVR::OpenVR::VRBoneTransform_t>*&, uint)>(&OVR::OpenVR::IVRInput::_DecompressSkeletalBoneData::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pvCompressedBuffer = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* unCompressedBufferSize = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* peTransformSpace = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRSkeletalTransformSpace")->this_arg;
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRInput::_DecompressSkeletalBoneData::*)(System::IntPtr, uint, OVR::OpenVR::EVRSkeletalTransformSpace&, ::Array<OVR::OpenVR::VRBoneTransform_t>*&, uint, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRInput::_DecompressSkeletalBoneData::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pvCompressedBuffer = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* unCompressedBufferSize = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* peTransformSpace = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRSkeletalTransformSpace")->this_arg;
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::IVRInput::_DecompressSkeletalBoneData::*)(OVR::OpenVR::EVRSkeletalTransformSpace&, System::IAsyncResult*)>(&OVR::OpenVR::IVRInput::_DecompressSkeletalBoneData::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* peTransformSpace = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRSkeletalTransformSpace")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRInput::_DecompressSkeletalBoneData*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{peTransformSpace, result});

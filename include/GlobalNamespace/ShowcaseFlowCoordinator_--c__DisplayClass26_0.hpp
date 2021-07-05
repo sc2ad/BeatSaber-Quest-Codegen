@@ -79,7 +79,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayCla
 // Il2CppName: <ProcessLevelCompletionResultsAfterLevelDidFinish>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayClass26_0::*)(GlobalNamespace::EnterPlayerGuestNameViewController*, ::Il2CppString*)>(&GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayClass26_0::$ProcessLevelCompletionResultsAfterLevelDidFinish$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* viewController = &::il2cpp_utils::GetClassFromName("", "EnterPlayerGuestNameViewController")->byval_arg;
     static auto* playerName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayClass26_0*), "<ProcessLevelCompletionResultsAfterLevelDidFinish>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{viewController, playerName});

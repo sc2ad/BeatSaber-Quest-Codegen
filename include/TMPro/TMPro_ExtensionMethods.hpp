@@ -95,7 +95,7 @@ DEFINE_IL2CPP_ARG_TYPE(TMPro::TMPro_ExtensionMethods*, "TMPro", "TMPro_Extension
 // Il2CppName: ArrayToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<::Il2CppChar>*)>(&TMPro::TMPro_ExtensionMethods::ArrayToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* chars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_ExtensionMethods*), "ArrayToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{chars});
   }
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: IntToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<int>*)>(&TMPro::TMPro_ExtensionMethods::IntToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* unicodes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_ExtensionMethods*), "IntToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unicodes});
   }
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: IntToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<int>*, int, int)>(&TMPro::TMPro_ExtensionMethods::IntToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* unicodes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: Compare
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Color32, UnityEngine::Color32)>(&TMPro::TMPro_ExtensionMethods::Compare)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color32")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_ExtensionMethods*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
@@ -137,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: CompareRGB
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Color32, UnityEngine::Color32)>(&TMPro::TMPro_ExtensionMethods::CompareRGB)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color32")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_ExtensionMethods*), "CompareRGB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: Compare
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Color, UnityEngine::Color)>(&TMPro::TMPro_ExtensionMethods::Compare)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_ExtensionMethods*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
@@ -157,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: CompareRGB
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Color, UnityEngine::Color)>(&TMPro::TMPro_ExtensionMethods::CompareRGB)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_ExtensionMethods*), "CompareRGB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
@@ -167,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: Multiply
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color32 (*)(UnityEngine::Color32, UnityEngine::Color32)>(&TMPro::TMPro_ExtensionMethods::Multiply)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color32")->byval_arg;
     static auto* c2 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_ExtensionMethods*), "Multiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c1, c2});
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Tint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color32 (*)(UnityEngine::Color32, UnityEngine::Color32)>(&TMPro::TMPro_ExtensionMethods::Tint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color32")->byval_arg;
     static auto* c2 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_ExtensionMethods*), "Tint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c1, c2});
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Tint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color32 (*)(UnityEngine::Color32, float)>(&TMPro::TMPro_ExtensionMethods::Tint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color32")->byval_arg;
     static auto* tint = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_ExtensionMethods*), "Tint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c1, tint});
@@ -197,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Compare
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector3, UnityEngine::Vector3, int)>(&TMPro::TMPro_ExtensionMethods::Compare)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* v1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* v2 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* accuracy = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -208,7 +208,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: Compare
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Quaternion, UnityEngine::Quaternion, int)>(&TMPro::TMPro_ExtensionMethods::Compare)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* q1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* q2 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* accuracy = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

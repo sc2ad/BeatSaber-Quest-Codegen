@@ -73,7 +73,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Signal*, "", "Signal");
 // Il2CppName: add__event
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::Signal::*)(System::Action*)>(&GlobalNamespace::Signal::add__event)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Signal*), "add__event", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove__event
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::Signal::*)(System::Action*)>(&GlobalNamespace::Signal::remove__event)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Signal*), "remove__event", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Raise
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::Signal::*)()>(&GlobalNamespace::Signal::Raise)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Signal*), "Raise", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Subscribe
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::Signal::*)(System::Action*)>(&GlobalNamespace::Signal::Subscribe)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* foo = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Signal*), "Subscribe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{foo});
   }
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Unsubscribe
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::Signal::*)(System::Action*)>(&GlobalNamespace::Signal::Unsubscribe)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* foo = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Signal*), "Unsubscribe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{foo});
   }

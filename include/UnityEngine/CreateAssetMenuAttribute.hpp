@@ -64,7 +64,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CreateAssetMenuAttribute*, "UnityEngine", "C
 // Il2CppName: set_menuName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CreateAssetMenuAttribute::*)(::Il2CppString*)>(&UnityEngine::CreateAssetMenuAttribute::set_menuName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CreateAssetMenuAttribute*), "set_menuName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -73,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: set_fileName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CreateAssetMenuAttribute::*)(::Il2CppString*)>(&UnityEngine::CreateAssetMenuAttribute::set_fileName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CreateAssetMenuAttribute*), "set_fileName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

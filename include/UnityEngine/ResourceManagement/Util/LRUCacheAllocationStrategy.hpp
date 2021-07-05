@@ -106,7 +106,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::LRUCacheAllocation
 // Il2CppName: GetPool
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppObject*>* (UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::*)()>(&UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::GetPool)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy*), "GetPool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -114,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: ReleasePool
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::*)(System::Collections::Generic::List_1<::Il2CppObject*>*)>(&UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::ReleasePool)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pool = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy*), "ReleasePool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pool});
   }
@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: New
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::*)(System::Type*, int)>(&UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::New)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* typeHash = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy*), "New", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, typeHash});
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: Release
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::*)(int, ::Il2CppObject*)>(&UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::Release)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* typeHash = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeHash, obj});

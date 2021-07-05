@@ -74,7 +74,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObjectiveListItem*, "", "ObjectiveListIt
 // Il2CppName: set_title
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObjectiveListItem::*)(::Il2CppString*)>(&GlobalNamespace::ObjectiveListItem::set_title)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObjectiveListItem*), "set_title", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: set_conditionText
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObjectiveListItem::*)(::Il2CppString*)>(&GlobalNamespace::ObjectiveListItem::set_conditionText)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObjectiveListItem*), "set_conditionText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: set_hideCondition
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObjectiveListItem::*)(bool)>(&GlobalNamespace::ObjectiveListItem::set_hideCondition)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObjectiveListItem*), "set_hideCondition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

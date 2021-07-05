@@ -145,7 +145,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BtsResultsEnvironmentController*, "", "B
 // Il2CppName: SpawnBtsCharacters
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BtsResultsEnvironmentController::*)(GlobalNamespace::BTSCharacterDataModel::PrefabWithId*, bool)>(&GlobalNamespace::BtsResultsEnvironmentController::SpawnBtsCharacters)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* btsCharacterPrefabToSpawn = &::il2cpp_utils::GetClassFromName("", "BTSCharacterDataModel/PrefabWithId")->byval_arg;
     static auto* useAlternativeMaterial = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BtsResultsEnvironmentController*), "SpawnBtsCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{btsCharacterPrefabToSpawn, useAlternativeMaterial});
@@ -155,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: DestroyCharactersDelayed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::BtsResultsEnvironmentController::*)()>(&GlobalNamespace::BtsResultsEnvironmentController::DestroyCharactersDelayed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BtsResultsEnvironmentController*), "DestroyCharactersDelayed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: DestroyCharactersAndStopAnimations
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BtsResultsEnvironmentController::*)()>(&GlobalNamespace::BtsResultsEnvironmentController::DestroyCharactersAndStopAnimations)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BtsResultsEnvironmentController*), "DestroyCharactersAndStopAnimations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -171,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Setup
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BtsResultsEnvironmentController::*)(GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::BtsResultsEnvironmentController::Setup)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* difficultyBeatmap = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BtsResultsEnvironmentController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{difficultyBeatmap});
   }
@@ -180,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Activate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BtsResultsEnvironmentController::*)(bool)>(&GlobalNamespace::BtsResultsEnvironmentController::Activate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* immediately = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BtsResultsEnvironmentController*), "Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{immediately});
   }
@@ -189,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Deactivate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BtsResultsEnvironmentController::*)(bool)>(&GlobalNamespace::BtsResultsEnvironmentController::Deactivate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* immediately = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BtsResultsEnvironmentController*), "Deactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{immediately});
   }

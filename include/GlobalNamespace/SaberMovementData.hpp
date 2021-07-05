@@ -144,7 +144,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberMovementData*, "", "SaberMovementDa
 // Il2CppName: get_dataProcessors
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ISaberMovementDataProcessor*>* (GlobalNamespace::SaberMovementData::*)()>(&GlobalNamespace::SaberMovementData::get_dataProcessors)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberMovementData*), "get_dataProcessors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -152,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_bladeSpeed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::SaberMovementData::*)()>(&GlobalNamespace::SaberMovementData::get_bladeSpeed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberMovementData*), "get_bladeSpeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: get_lastAddedData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BladeMovementDataElement (GlobalNamespace::SaberMovementData::*)()>(&GlobalNamespace::SaberMovementData::get_lastAddedData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberMovementData*), "get_lastAddedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_prevAddedData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BladeMovementDataElement (GlobalNamespace::SaberMovementData::*)()>(&GlobalNamespace::SaberMovementData::get_prevAddedData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberMovementData*), "get_prevAddedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: RequestLastDataProcessing
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberMovementData::*)(GlobalNamespace::ISaberMovementDataProcessor*)>(&GlobalNamespace::SaberMovementData::RequestLastDataProcessing)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* dataProcessor = &::il2cpp_utils::GetClassFromName("", "ISaberMovementDataProcessor")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberMovementData*), "RequestLastDataProcessing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dataProcessor});
   }
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: AddNewData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberMovementData::*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&GlobalNamespace::SaberMovementData::AddNewData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* topPos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* bottomPos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -196,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ComputeAdditionalData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberMovementData::*)(UnityEngine::Vector3, UnityEngine::Vector3, int, UnityEngine::Vector3&, float&)>(&GlobalNamespace::SaberMovementData::ComputeAdditionalData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* topPos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* bottomPos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* idxOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -209,7 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ComputePlaneNormal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::SaberMovementData::*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3)>(&GlobalNamespace::SaberMovementData::ComputePlaneNormal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tp0 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* bp0 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* tp1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -221,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: ComputeCutPlaneNormal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::SaberMovementData::*)()>(&GlobalNamespace::SaberMovementData::ComputeCutPlaneNormal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberMovementData*), "ComputeCutPlaneNormal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -229,7 +229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: ComputeSwingRating
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::SaberMovementData::*)(float)>(&GlobalNamespace::SaberMovementData::ComputeSwingRating)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* overrideSegmentAngle = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberMovementData*), "ComputeSwingRating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{overrideSegmentAngle});
   }
@@ -238,7 +238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: ComputeSwingRating
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::SaberMovementData::*)()>(&GlobalNamespace::SaberMovementData::ComputeSwingRating)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberMovementData*), "ComputeSwingRating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -246,7 +246,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: ComputeSwingRating
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::SaberMovementData::*)(bool, float)>(&GlobalNamespace::SaberMovementData::ComputeSwingRating)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* overrideSegmenAngle = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* overrideValue = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberMovementData*), "ComputeSwingRating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{overrideSegmenAngle, overrideValue});

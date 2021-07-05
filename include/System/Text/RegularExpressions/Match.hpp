@@ -154,7 +154,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::Match*, "System.Text.Re
 // Il2CppName: get_Empty
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::Match* (*)()>(&System::Text::RegularExpressions::Match::get_Empty)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::Match*), "get_Empty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -166,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Il2CppName: Reset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::Match::*)(System::Text::RegularExpressions::Regex*, ::Il2CppString*, int, int, int)>(&System::Text::RegularExpressions::Match::Reset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* regex = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "Regex")->byval_arg;
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* textbeg = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_Groups
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::GroupCollection* (System::Text::RegularExpressions::Match::*)()>(&System::Text::RegularExpressions::Match::get_Groups)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::Match*), "get_Groups", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Il2CppName: NextMatch
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::Match* (System::Text::RegularExpressions::Match::*)()>(&System::Text::RegularExpressions::Match::NextMatch)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::Match*), "NextMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -195,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Il2CppName: AddMatch
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::Match::*)(int, int, int)>(&System::Text::RegularExpressions::Match::AddMatch)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cap = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -206,7 +206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: BalanceMatch
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::Match::*)(int)>(&System::Text::RegularExpressions::Match::BalanceMatch)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cap = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::Match*), "BalanceMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cap});
   }
@@ -215,7 +215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: RemoveMatch
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::Match::*)(int)>(&System::Text::RegularExpressions::Match::RemoveMatch)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cap = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::Match*), "RemoveMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cap});
   }
@@ -224,7 +224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: IsMatched
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::RegularExpressions::Match::*)(int)>(&System::Text::RegularExpressions::Match::IsMatched)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cap = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::Match*), "IsMatched", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cap});
   }
@@ -233,7 +233,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: MatchIndex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::RegularExpressions::Match::*)(int)>(&System::Text::RegularExpressions::Match::MatchIndex)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cap = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::Match*), "MatchIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cap});
   }
@@ -242,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: MatchLength
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::RegularExpressions::Match::*)(int)>(&System::Text::RegularExpressions::Match::MatchLength)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cap = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::Match*), "MatchLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cap});
   }
@@ -251,7 +251,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: Tidy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::Match::*)(int)>(&System::Text::RegularExpressions::Match::Tidy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* textpos = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::Match*), "Tidy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{textpos});
   }
@@ -260,7 +260,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Text::RegularExpressions::Match::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::Match*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

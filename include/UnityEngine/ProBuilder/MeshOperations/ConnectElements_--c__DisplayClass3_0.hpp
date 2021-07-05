@@ -67,7 +67,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ConnectElements:
 // Il2CppName: <Connect>b__3
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0::*)(UnityEngine::ProBuilder::Edge)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0::$Connect$b__3)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0*), "<Connect>b__3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }

@@ -57,7 +57,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKCalibrator*, "RootMotion.FinalIK
 // Il2CppName: RecalibrateScale
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(RootMotion::FinalIK::VRIK*, RootMotion::FinalIK::VRIKCalibrator::Settings*)>(&RootMotion::FinalIK::VRIKCalibrator::RecalibrateScale)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ik = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "VRIK")->byval_arg;
     static auto* settings = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "VRIKCalibrator/Settings")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIKCalibrator*), "RecalibrateScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ik, settings});
@@ -67,7 +67,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ro
 // Il2CppName: Calibrate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::VRIKCalibrator::CalibrationData* (*)(RootMotion::FinalIK::VRIK*, RootMotion::FinalIK::VRIKCalibrator::Settings*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*)>(&RootMotion::FinalIK::VRIKCalibrator::Calibrate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ik = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "VRIK")->byval_arg;
     static auto* settings = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "VRIKCalibrator/Settings")->byval_arg;
     static auto* headTracker = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion:
 // Il2CppName: CalibrateLeg
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(RootMotion::FinalIK::VRIKCalibrator::Settings*, UnityEngine::Transform*, RootMotion::FinalIK::IKSolverVR::Leg*, UnityEngine::Transform*, UnityEngine::Vector3, bool)>(&RootMotion::FinalIK::VRIKCalibrator::CalibrateLeg)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* settings = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "VRIKCalibrator/Settings")->byval_arg;
     static auto* tracker = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* leg = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverVR/Leg")->byval_arg;
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ro
 // Il2CppName: Calibrate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(RootMotion::FinalIK::VRIK*, RootMotion::FinalIK::VRIKCalibrator::CalibrationData*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*)>(&RootMotion::FinalIK::VRIKCalibrator::Calibrate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ik = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "VRIK")->byval_arg;
     static auto* data = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "VRIKCalibrator/CalibrationData")->byval_arg;
     static auto* headTracker = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ro
 // Il2CppName: CalibrateLeg
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(RootMotion::FinalIK::VRIKCalibrator::CalibrationData*, UnityEngine::Transform*, RootMotion::FinalIK::IKSolverVR::Leg*, UnityEngine::Transform*, UnityEngine::Vector3, bool)>(&RootMotion::FinalIK::VRIKCalibrator::CalibrateLeg)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "VRIKCalibrator/CalibrationData")->byval_arg;
     static auto* tracker = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* leg = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverVR/Leg")->byval_arg;

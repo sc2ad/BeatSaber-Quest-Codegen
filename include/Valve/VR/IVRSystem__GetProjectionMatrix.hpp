@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetProjectionMatrix*, "Valve.VR", 
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::HmdMatrix44_t (Valve::VR::IVRSystem::_GetProjectionMatrix::*)(Valve::VR::EVREye, float, float)>(&Valve::VR::IVRSystem::_GetProjectionMatrix::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eEye = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVREye")->byval_arg;
     static auto* fNearZ = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* fFarZ = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRSystem::_GetProjectionMatrix::*)(Valve::VR::EVREye, float, float, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRSystem::_GetProjectionMatrix::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eEye = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVREye")->byval_arg;
     static auto* fNearZ = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* fFarZ = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::HmdMatrix44_t (Valve::VR::IVRSystem::_GetProjectionMatrix::*)(System::IAsyncResult*)>(&Valve::VR::IVRSystem::_GetProjectionMatrix::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetProjectionMatrix*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

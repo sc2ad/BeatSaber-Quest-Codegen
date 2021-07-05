@@ -48,7 +48,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ManagedStreamHelpers*, "UnityEngine", "Manag
 // Il2CppName: ValidateLoadFromStream
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IO::Stream*)>(&UnityEngine::ManagedStreamHelpers::ValidateLoadFromStream)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stream = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ManagedStreamHelpers*), "ValidateLoadFromStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stream});
   }
@@ -57,7 +57,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: ManagedStreamRead
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, int, System::IO::Stream*, System::IntPtr)>(&UnityEngine::ManagedStreamHelpers::ManagedStreamRead)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -70,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: ManagedStreamSeek
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int64_t, uint, System::IO::Stream*, System::IntPtr)>(&UnityEngine::ManagedStreamHelpers::ManagedStreamSeek)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* origin = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* stream = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Il2CppName: ManagedStreamLength
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IO::Stream*, System::IntPtr)>(&UnityEngine::ManagedStreamHelpers::ManagedStreamLength)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stream = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     static auto* returnValueAddress = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ManagedStreamHelpers*), "ManagedStreamLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stream, returnValueAddress});

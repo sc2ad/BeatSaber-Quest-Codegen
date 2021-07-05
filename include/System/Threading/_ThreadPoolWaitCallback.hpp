@@ -27,7 +27,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::_ThreadPoolWaitCallback*, "System.Thre
 // Il2CppName: PerformWaitCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Threading::_ThreadPoolWaitCallback::PerformWaitCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::_ThreadPoolWaitCallback*), "PerformWaitCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

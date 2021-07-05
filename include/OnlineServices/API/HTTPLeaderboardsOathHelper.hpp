@@ -146,7 +146,7 @@ DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPLeaderboardsOathHelper*, "Online
 // Il2CppName: SendWebRequestWithOathAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Il2CppString*>* (OnlineServices::API::HTTPLeaderboardsOathHelper::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppObject*, System::Threading::CancellationToken)>(&OnlineServices::API::HTTPLeaderboardsOathHelper::SendWebRequestWithOathAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* method = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* objectToSendAsJson = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -158,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: LogOut
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (OnlineServices::API::HTTPLeaderboardsOathHelper::*)()>(&OnlineServices::API::HTTPLeaderboardsOathHelper::LogOut)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPLeaderboardsOathHelper*), "LogOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -166,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: LoginIfNeededAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (OnlineServices::API::HTTPLeaderboardsOathHelper::*)(System::Threading::CancellationToken)>(&OnlineServices::API::HTTPLeaderboardsOathHelper::LoginIfNeededAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPLeaderboardsOathHelper*), "LoginIfNeededAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
   }
@@ -175,7 +175,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: IsUserLoggedIn
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OnlineServices::API::HTTPLeaderboardsOathHelper::*)()>(&OnlineServices::API::HTTPLeaderboardsOathHelper::IsUserLoggedIn)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPLeaderboardsOathHelper*), "IsUserLoggedIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -183,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Onlin
 // Il2CppName: GetAccessTokenAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<BeatSaberAPI::DataTransferObjects::AccessToken*>* (OnlineServices::API::HTTPLeaderboardsOathHelper::*)(System::Threading::CancellationToken)>(&OnlineServices::API::HTTPLeaderboardsOathHelper::GetAccessTokenAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPLeaderboardsOathHelper*), "GetAccessTokenAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
   }
@@ -192,7 +192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: SendWebRequestAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Il2CppString*>* (OnlineServices::API::HTTPLeaderboardsOathHelper::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&OnlineServices::API::HTTPLeaderboardsOathHelper::SendWebRequestAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* method = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* bodyData = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: SendAndWaitAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (OnlineServices::API::HTTPLeaderboardsOathHelper::*)(UnityEngine::Networking::UnityWebRequest*, System::Threading::CancellationToken)>(&OnlineServices::API::HTTPLeaderboardsOathHelper::SendAndWaitAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* webRequest = &::il2cpp_utils::GetClassFromName("UnityEngine.Networking", "UnityWebRequest")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPLeaderboardsOathHelper*), "SendAndWaitAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{webRequest, cancellationToken});
@@ -214,7 +214,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: Log
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&OnlineServices::API::HTTPLeaderboardsOathHelper::Log)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPLeaderboardsOathHelper*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
   }

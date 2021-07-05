@@ -86,7 +86,7 @@ DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetUtils*, "LiteNetLib", "NetUtils");
 // Il2CppName: MakeEndPoint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (*)(::Il2CppString*, int)>(&LiteNetLib::NetUtils::MakeEndPoint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hostStr = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* port = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetUtils*), "MakeEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hostStr, port});
@@ -96,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: ResolveAddress
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPAddress* (*)(::Il2CppString*)>(&LiteNetLib::NetUtils::ResolveAddress)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hostStr = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetUtils*), "ResolveAddress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hostStr});
   }
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: ResolveAddress
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPAddress* (*)(::Il2CppString*, System::Net::Sockets::AddressFamily)>(&LiteNetLib::NetUtils::ResolveAddress)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hostStr = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* addressFamily = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "AddressFamily")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetUtils*), "ResolveAddress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hostStr, addressFamily});
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: ResolveAddresses
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Net::IPAddress*>* (*)(::Il2CppString*)>(&LiteNetLib::NetUtils::ResolveAddresses)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hostStr = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetUtils*), "ResolveAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hostStr});
   }
@@ -124,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Sys
 // Il2CppName: GetLocalIpList
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (*)(LiteNetLib::LocalAddrType)>(&LiteNetLib::NetUtils::GetLocalIpList)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* addrType = &::il2cpp_utils::GetClassFromName("LiteNetLib", "LocalAddrType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetUtils*), "GetLocalIpList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{addrType});
   }
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: GetLocalIpList
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::IList_1<::Il2CppString*>*, LiteNetLib::LocalAddrType)>(&LiteNetLib::NetUtils::GetLocalIpList)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* targetList = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     static auto* addrType = &::il2cpp_utils::GetClassFromName("LiteNetLib", "LocalAddrType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetUtils*), "GetLocalIpList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{targetList, addrType});
@@ -143,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: GetLocalIp
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(LiteNetLib::LocalAddrType)>(&LiteNetLib::NetUtils::GetLocalIp)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* addrType = &::il2cpp_utils::GetClassFromName("LiteNetLib", "LocalAddrType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetUtils*), "GetLocalIp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{addrType});
   }
@@ -152,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: PrintInterfaceInfos
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&LiteNetLib::NetUtils::PrintInterfaceInfos)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetUtils*), "PrintInterfaceInfos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: RelativeSequenceNumber
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int)>(&LiteNetLib::NetUtils::RelativeSequenceNumber)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* number = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* expected = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetUtils*), "RelativeSequenceNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{number, expected});
@@ -170,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&LiteNetLib::NetUtils::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetUtils*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

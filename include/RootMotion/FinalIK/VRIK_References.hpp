@@ -203,7 +203,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIK::References*, "RootMotion.Final
 // Il2CppName: GetTransforms
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Transform*>* (RootMotion::FinalIK::VRIK::References::*)()>(&RootMotion::FinalIK::VRIK::References::GetTransforms)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIK::References*), "GetTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -211,7 +211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: get_isFilled
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::VRIK::References::*)()>(&RootMotion::FinalIK::VRIK::References::get_isFilled)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIK::References*), "get_isFilled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -219,7 +219,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Il2CppName: get_isEmpty
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::VRIK::References::*)()>(&RootMotion::FinalIK::VRIK::References::get_isEmpty)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIK::References*), "get_isEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -227,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Il2CppName: AutoDetectReferences
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, RootMotion::FinalIK::VRIK::References*&)>(&RootMotion::FinalIK::VRIK::References::AutoDetectReferences)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* root = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* references = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "VRIK/References")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIK::References*), "AutoDetectReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{root, references});

@@ -113,7 +113,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleSaberSoundEffect*, "", "Obstacle
 // Il2CppName: Awake
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleSaberSoundEffect::*)()>(&GlobalNamespace::ObstacleSaberSoundEffect::Awake)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSoundEffect*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleSaberSoundEffect::*)()>(&GlobalNamespace::ObstacleSaberSoundEffect::OnDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSoundEffect*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -129,7 +129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: LateUpdate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleSaberSoundEffect::*)()>(&GlobalNamespace::ObstacleSaberSoundEffect::LateUpdate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSoundEffect*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -137,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleSparkleEffectDidStart
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleSaberSoundEffect::*)(GlobalNamespace::SaberType)>(&GlobalNamespace::ObstacleSaberSoundEffect::HandleSparkleEffectDidStart)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* saberType = &::il2cpp_utils::GetClassFromName("", "SaberType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSoundEffect*), "HandleSparkleEffectDidStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{saberType});
   }
@@ -146,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleSparkleEffecDidEnd
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleSaberSoundEffect::*)(GlobalNamespace::SaberType)>(&GlobalNamespace::ObstacleSaberSoundEffect::HandleSparkleEffecDidEnd)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* saberType = &::il2cpp_utils::GetClassFromName("", "SaberType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleSaberSoundEffect*), "HandleSparkleEffecDidEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{saberType});
   }

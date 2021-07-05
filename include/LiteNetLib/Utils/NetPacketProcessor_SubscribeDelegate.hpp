@@ -65,7 +65,7 @@ DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate*
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate::*)(LiteNetLib::Utils::NetDataReader*, ::Il2CppObject*)>(&LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataReader")->byval_arg;
     static auto* userData = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader, userData});
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate::*)(LiteNetLib::Utils::NetDataReader*, ::Il2CppObject*, System::AsyncCallback*, ::Il2CppObject*)>(&LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataReader")->byval_arg;
     static auto* userData = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate::*)(System::IAsyncResult*)>(&LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetPacketProcessor::SubscribeDelegate*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

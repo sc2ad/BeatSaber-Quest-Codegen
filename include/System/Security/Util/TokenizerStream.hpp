@@ -129,7 +129,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::TokenizerStream*, "System.Securit
 // Il2CppName: AddToken
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Util::TokenizerStream::*)(int16_t)>(&System::Security::Util::TokenizerStream::AddToken)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* token = &::il2cpp_utils::GetClassFromName("System", "Int16")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Util::TokenizerStream*), "AddToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{token});
   }
@@ -138,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: AddString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Util::TokenizerStream::*)(::Il2CppString*)>(&System::Security::Util::TokenizerStream::AddString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Util::TokenizerStream*), "AddString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
   }
@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Reset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Util::TokenizerStream::*)()>(&System::Security::Util::TokenizerStream::Reset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Util::TokenizerStream*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -155,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: GetNextFullToken
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (System::Security::Util::TokenizerStream::*)()>(&System::Security::Util::TokenizerStream::GetNextFullToken)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Util::TokenizerStream*), "GetNextFullToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (Sy
 // Il2CppName: GetNextToken
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (System::Security::Util::TokenizerStream::*)()>(&System::Security::Util::TokenizerStream::GetNextToken)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Util::TokenizerStream*), "GetNextToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -171,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (Sy
 // Il2CppName: GetNextString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Util::TokenizerStream::*)()>(&System::Security::Util::TokenizerStream::GetNextString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Util::TokenizerStream*), "GetNextString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: ThrowAwayNextString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Util::TokenizerStream::*)()>(&System::Security::Util::TokenizerStream::ThrowAwayNextString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Util::TokenizerStream*), "ThrowAwayNextString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: TagLastToken
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Util::TokenizerStream::*)(int16_t)>(&System::Security::Util::TokenizerStream::TagLastToken)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tag = &::il2cpp_utils::GetClassFromName("System", "Int16")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Util::TokenizerStream*), "TagLastToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tag});
   }
@@ -196,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: GetTokenCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Util::TokenizerStream::*)()>(&System::Security::Util::TokenizerStream::GetTokenCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Util::TokenizerStream*), "GetTokenCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: GoToPosition
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Util::TokenizerStream::*)(int)>(&System::Security::Util::TokenizerStream::GoToPosition)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Util::TokenizerStream*), "GoToPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position});
   }

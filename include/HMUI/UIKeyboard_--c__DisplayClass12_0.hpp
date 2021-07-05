@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::UIKeyboard::$$c__DisplayClass12_0*, "HMUI", "UIKeyb
 // Il2CppName: <Awake>b__2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::UIKeyboard::$$c__DisplayClass12_0::*)()>(&HMUI::UIKeyboard::$$c__DisplayClass12_0::$Awake$b__2)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::UIKeyboard::$$c__DisplayClass12_0*), "<Awake>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

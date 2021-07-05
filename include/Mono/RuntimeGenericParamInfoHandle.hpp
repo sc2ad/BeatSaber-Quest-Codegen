@@ -86,7 +86,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeGenericParamInfoHandle, "Mono", "RuntimeGene
 // Il2CppName: get_Constraints
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (Mono::RuntimeGenericParamInfoHandle::*)()>(&Mono::RuntimeGenericParamInfoHandle::get_Constraints)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeGenericParamInfoHandle), "get_Constraints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Sys
 // Il2CppName: get_Attributes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::GenericParameterAttributes (Mono::RuntimeGenericParamInfoHandle::*)()>(&Mono::RuntimeGenericParamInfoHandle::get_Attributes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeGenericParamInfoHandle), "get_Attributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Il2CppName: GetConstraints
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (Mono::RuntimeGenericParamInfoHandle::*)()>(&Mono::RuntimeGenericParamInfoHandle::GetConstraints)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeGenericParamInfoHandle), "GetConstraints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -110,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Sys
 // Il2CppName: GetConstraintsCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::RuntimeGenericParamInfoHandle::*)()>(&Mono::RuntimeGenericParamInfoHandle::GetConstraintsCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeGenericParamInfoHandle), "GetConstraintsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

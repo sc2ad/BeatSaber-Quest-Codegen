@@ -71,7 +71,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberSwingRating*, "", "SaberSwingRating
 // Il2CppName: NormalRating
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&GlobalNamespace::SaberSwingRating::NormalRating)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* normalDiff = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberSwingRating*), "NormalRating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{normalDiff});
   }
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(f
 // Il2CppName: BeforeCutStepRating
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float)>(&GlobalNamespace::SaberSwingRating::BeforeCutStepRating)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* angleDiff = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* normalDiff = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberSwingRating*), "BeforeCutStepRating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{angleDiff, normalDiff});
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(f
 // Il2CppName: AfterCutStepRating
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float)>(&GlobalNamespace::SaberSwingRating::AfterCutStepRating)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* angleDiff = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* normalDiff = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberSwingRating*), "AfterCutStepRating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{angleDiff, normalDiff});

@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Playables::MaterialEffectPlaya
 // Il2CppName: GetHandle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (UnityEngine::Experimental::Playables::MaterialEffectPlayable::*)()>(&UnityEngine::Experimental::Playables::MaterialEffectPlayable::GetHandle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::Playables::MaterialEffectPlayable), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Equals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Experimental::Playables::MaterialEffectPlayable::*)(UnityEngine::Experimental::Playables::MaterialEffectPlayable)>(&UnityEngine::Experimental::Playables::MaterialEffectPlayable::Equals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.Playables", "MaterialEffectPlayable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::Playables::MaterialEffectPlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }

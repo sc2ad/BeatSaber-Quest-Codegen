@@ -60,7 +60,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMAsyncRequest::CancelHander*, "", "HMAs
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HMAsyncRequest::CancelHander::*)(GlobalNamespace::HMAsyncRequest*)>(&GlobalNamespace::HMAsyncRequest::CancelHander::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("", "HMAsyncRequest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMAsyncRequest::CancelHander*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{request});
   }
@@ -69,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GlobalNamespace::HMAsyncRequest::CancelHander::*)(GlobalNamespace::HMAsyncRequest*, System::AsyncCallback*, ::Il2CppObject*)>(&GlobalNamespace::HMAsyncRequest::CancelHander::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("", "HMAsyncRequest")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HMAsyncRequest::CancelHander::*)(System::IAsyncResult*)>(&GlobalNamespace::HMAsyncRequest::CancelHander::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMAsyncRequest::CancelHander*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

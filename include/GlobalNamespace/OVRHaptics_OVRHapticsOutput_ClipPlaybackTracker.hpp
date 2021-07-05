@@ -73,7 +73,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHaptics::OVRHapticsOutput::ClipPlayba
 // Il2CppName: get_ReadCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::*)()>(&GlobalNamespace::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::get_ReadCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker*), "get_ReadCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: set_ReadCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::*)(int)>(&GlobalNamespace::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::set_ReadCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker*), "set_ReadCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_Clip
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRHapticsClip* (GlobalNamespace::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::*)()>(&GlobalNamespace::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::get_Clip)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker*), "get_Clip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: set_Clip
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::*)(GlobalNamespace::OVRHapticsClip*)>(&GlobalNamespace::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::set_Clip)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "OVRHapticsClip")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker*), "set_Clip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

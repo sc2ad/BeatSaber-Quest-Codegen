@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMMainThreadDispatcher::$$c__DisplayClas
 // Il2CppName: <Enqueue>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HMMainThreadDispatcher::$$c__DisplayClass2_0::*)()>(&GlobalNamespace::HMMainThreadDispatcher::$$c__DisplayClass2_0::$Enqueue$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMMainThreadDispatcher::$$c__DisplayClass2_0*), "<Enqueue>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

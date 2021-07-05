@@ -33,7 +33,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Check*, "Org.BouncyCastle.Cryp
 // Il2CppName: DataLength
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::Il2CppString*)>(&Org::BouncyCastle::Crypto::Check::DataLength)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* condition = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* msg = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Check*), "DataLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{condition, msg});
@@ -43,7 +43,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Il2CppName: DataLength
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, int, ::Il2CppString*)>(&Org::BouncyCastle::Crypto::Check::DataLength)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -55,7 +55,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: OutputLength
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, int, ::Il2CppString*)>(&Org::BouncyCastle::Crypto::Check::OutputLength)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

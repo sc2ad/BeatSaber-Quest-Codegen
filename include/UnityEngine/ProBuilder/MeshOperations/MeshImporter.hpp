@@ -142,7 +142,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::MeshImporter*, "
 // Il2CppName: Import
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::MeshOperations::MeshImporter::*)(UnityEngine::GameObject*, UnityEngine::ProBuilder::MeshOperations::MeshImportSettings*)>(&UnityEngine::ProBuilder::MeshOperations::MeshImporter::Import)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* importSettings = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder.MeshOperations", "MeshImportSettings")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::MeshImporter*), "Import", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{go, importSettings});
@@ -152,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: Import
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::MeshOperations::MeshImporter::*)(UnityEngine::ProBuilder::MeshOperations::MeshImportSettings*)>(&UnityEngine::ProBuilder::MeshOperations::MeshImporter::Import)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* importSettings = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder.MeshOperations", "MeshImportSettings")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::MeshImporter*), "Import", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{importSettings});
   }
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetBestQuadConnection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Face* (*)(UnityEngine::ProBuilder::WingedEdge*, System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::EdgeLookup, float>*)>(&UnityEngine::ProBuilder::MeshOperations::MeshImporter::GetBestQuadConnection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* wing = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "WingedEdge")->byval_arg;
     static auto* connections = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Dictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "EdgeLookup"), ::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::MeshImporter*), "GetBestQuadConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{wing, connections});
@@ -171,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetQuadScore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ProBuilder::MeshOperations::MeshImporter::*)(UnityEngine::ProBuilder::WingedEdge*, UnityEngine::ProBuilder::WingedEdge*, float)>(&UnityEngine::ProBuilder::MeshOperations::MeshImporter::GetQuadScore)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* left = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "WingedEdge")->byval_arg;
     static auto* right = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "WingedEdge")->byval_arg;
     static auto* normalThreshold = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -182,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::ProBuilder::MeshOperations::MeshImporter::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::MeshImporter*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -722,7 +722,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceManager::Diagnos
 // Il2CppName: get_ExceptionHandler
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Action_2<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, System::Exception*>* (*)()>(&UnityEngine::ResourceManagement::ResourceManager::get_ExceptionHandler)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "get_ExceptionHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -730,7 +730,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Act
 // Il2CppName: set_ExceptionHandler
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_2<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, System::Exception*>*)>(&UnityEngine::ResourceManagement::ResourceManager::set_ExceptionHandler)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle"), ::il2cpp_utils::GetClassFromName("System", "Exception")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "set_ExceptionHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -739,7 +739,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: get_InternalIdTransformFunc
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppString*>* (UnityEngine::ResourceManagement::ResourceManager::*)()>(&UnityEngine::ResourceManagement::ResourceManager::get_InternalIdTransformFunc)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "get_InternalIdTransformFunc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -747,7 +747,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Fun
 // Il2CppName: set_InternalIdTransformFunc
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceManager::*)(System::Func_2<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppString*>*)>(&UnityEngine::ResourceManagement::ResourceManager::set_InternalIdTransformFunc)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceLocations", "IResourceLocation"), ::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "set_InternalIdTransformFunc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -756,7 +756,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: TransformInternalId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ResourceManagement::ResourceManager::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&UnityEngine::ResourceManagement::ResourceManager::TransformInternalId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* location = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceLocations", "IResourceLocation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "TransformInternalId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{location});
   }
@@ -765,7 +765,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_OperationCacheCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ResourceManagement::ResourceManager::*)()>(&UnityEngine::ResourceManagement::ResourceManager::get_OperationCacheCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "get_OperationCacheCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -773,7 +773,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: get_InstanceOperationCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ResourceManagement::ResourceManager::*)()>(&UnityEngine::ResourceManagement::ResourceManager::get_InstanceOperationCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "get_InstanceOperationCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -781,7 +781,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: AddUpdateReceiver
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceManager::*)(UnityEngine::ResourceManagement::IUpdateReceiver*)>(&UnityEngine::ResourceManagement::ResourceManager::AddUpdateReceiver)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* receiver = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement", "IUpdateReceiver")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "AddUpdateReceiver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{receiver});
   }
@@ -790,7 +790,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: RemoveUpdateReciever
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceManager::*)(UnityEngine::ResourceManagement::IUpdateReceiver*)>(&UnityEngine::ResourceManagement::ResourceManager::RemoveUpdateReciever)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* receiver = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement", "IUpdateReceiver")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "RemoveUpdateReciever", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{receiver});
   }
@@ -799,7 +799,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_Allocator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::Util::IAllocationStrategy* (UnityEngine::ResourceManagement::ResourceManager::*)()>(&UnityEngine::ResourceManagement::ResourceManager::get_Allocator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "get_Allocator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -807,7 +807,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_Allocator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceManager::*)(UnityEngine::ResourceManagement::Util::IAllocationStrategy*)>(&UnityEngine::ResourceManagement::ResourceManager::set_Allocator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.Util", "IAllocationStrategy")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "set_Allocator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -816,7 +816,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_ResourceProviders
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>* (UnityEngine::ResourceManagement::ResourceManager::*)()>(&UnityEngine::ResourceManagement::ResourceManager::get_ResourceProviders)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "get_ResourceProviders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -824,7 +824,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: get_CertificateHandlerInstance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::CertificateHandler* (UnityEngine::ResourceManagement::ResourceManager::*)()>(&UnityEngine::ResourceManagement::ResourceManager::get_CertificateHandlerInstance)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "get_CertificateHandlerInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -832,7 +832,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_CertificateHandlerInstance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceManager::*)(UnityEngine::Networking::CertificateHandler*)>(&UnityEngine::ResourceManagement::ResourceManager::set_CertificateHandlerInstance)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.Networking", "CertificateHandler")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "set_CertificateHandlerInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -845,7 +845,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: OnObjectAdded
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceManager::*)(::Il2CppObject*)>(&UnityEngine::ResourceManagement::ResourceManager::OnObjectAdded)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "OnObjectAdded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
@@ -854,7 +854,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: OnObjectRemoved
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceManager::*)(::Il2CppObject*)>(&UnityEngine::ResourceManagement::ResourceManager::OnObjectRemoved)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "OnObjectRemoved", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
@@ -863,7 +863,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: RegisterForCallbacks
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceManager::*)()>(&UnityEngine::ResourceManagement::ResourceManager::RegisterForCallbacks)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "RegisterForCallbacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -871,7 +871,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: ClearDiagnosticsCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceManager::*)()>(&UnityEngine::ResourceManagement::ResourceManager::ClearDiagnosticsCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "ClearDiagnosticsCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -879,7 +879,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: ClearDiagnosticCallbacks
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceManager::*)()>(&UnityEngine::ResourceManagement::ResourceManager::ClearDiagnosticCallbacks)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "ClearDiagnosticCallbacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -887,7 +887,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: UnregisterDiagnosticCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceManager::*)(System::Action_1<UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext>*)>(&UnityEngine::ResourceManagement::ResourceManager::UnregisterDiagnosticCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* func = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement", "ResourceManager/DiagnosticEventContext")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "UnregisterDiagnosticCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{func});
   }
@@ -896,7 +896,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: RegisterDiagnosticCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceManager::*)(System::Action_4<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType, int, ::Il2CppObject*>*)>(&UnityEngine::ResourceManagement::ResourceManager::RegisterDiagnosticCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* func = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`4"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle"), ::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement", "ResourceManager/DiagnosticEventType"), ::il2cpp_utils::GetClassFromName("System", "Int32"), ::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "RegisterDiagnosticCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{func});
   }
@@ -905,7 +905,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: RegisterDiagnosticCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceManager::*)(System::Action_1<UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext>*)>(&UnityEngine::ResourceManagement::ResourceManager::RegisterDiagnosticCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* func = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement", "ResourceManager/DiagnosticEventContext")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "RegisterDiagnosticCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{func});
   }
@@ -914,7 +914,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: PostDiagnosticEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceManager::*)(UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext)>(&UnityEngine::ResourceManagement::ResourceManager::PostDiagnosticEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement", "ResourceManager/DiagnosticEventContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "PostDiagnosticEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }
@@ -923,7 +923,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetResourceProvider
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* (UnityEngine::ResourceManagement::ResourceManager::*)(System::Type*, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&UnityEngine::ResourceManagement::ResourceManager::GetResourceProvider)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* location = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceLocations", "IResourceLocation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "GetResourceProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t, location});
@@ -933,7 +933,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetDefaultTypeForLocation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (UnityEngine::ResourceManagement::ResourceManager::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&UnityEngine::ResourceManagement::ResourceManager::GetDefaultTypeForLocation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* loc = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceLocations", "IResourceLocation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "GetDefaultTypeForLocation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{loc});
   }
@@ -942,7 +942,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Il2CppName: CalculateLocationsHash
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ResourceManagement::ResourceManager::*)(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*, System::Type*)>(&UnityEngine::ResourceManagement::ResourceManager::CalculateLocationsHash)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* locations = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceLocations", "IResourceLocation")})->byval_arg;
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "CalculateLocationsHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{locations, t});
@@ -952,7 +952,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: ProvideResource
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (UnityEngine::ResourceManagement::ResourceManager::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, System::Type*, bool)>(&UnityEngine::ResourceManagement::ResourceManager::ProvideResource)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* location = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceLocations", "IResourceLocation")->byval_arg;
     static auto* desiredType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* releaseDependenciesOnFailure = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -969,7 +969,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: StartOperation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (UnityEngine::ResourceManagement::ResourceManager::*)(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&UnityEngine::ResourceManagement::ResourceManager::StartOperation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* operation = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.AsyncOperations", "IAsyncOperation")->byval_arg;
     static auto* dependency = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "StartOperation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{operation, dependency});
@@ -979,7 +979,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: OnInstanceOperationDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceManager::*)(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*)>(&UnityEngine::ResourceManagement::ResourceManager::OnInstanceOperationDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* o = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.AsyncOperations", "IAsyncOperation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "OnInstanceOperationDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{o});
   }
@@ -988,7 +988,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: OnOperationDestroyNonCached
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceManager::*)(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*)>(&UnityEngine::ResourceManagement::ResourceManager::OnOperationDestroyNonCached)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* o = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.AsyncOperations", "IAsyncOperation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "OnOperationDestroyNonCached", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{o});
   }
@@ -997,7 +997,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: OnOperationDestroyCached
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceManager::*)(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*)>(&UnityEngine::ResourceManagement::ResourceManager::OnOperationDestroyCached)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* o = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.AsyncOperations", "IAsyncOperation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "OnOperationDestroyCached", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{o});
   }
@@ -1009,7 +1009,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: AddOperationToCache
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceManager::*)(int, UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*)>(&UnityEngine::ResourceManagement::ResourceManager::AddOperationToCache)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hash = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* operation = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.AsyncOperations", "IAsyncOperation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "AddOperationToCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hash, operation});
@@ -1019,7 +1019,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: RemoveOperationFromCache
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ResourceManagement::ResourceManager::*)(int)>(&UnityEngine::ResourceManagement::ResourceManager::RemoveOperationFromCache)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hash = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "RemoveOperationFromCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hash});
   }
@@ -1028,7 +1028,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: IsOperationCached
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ResourceManagement::ResourceManager::*)(int)>(&UnityEngine::ResourceManagement::ResourceManager::IsOperationCached)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hash = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "IsOperationCached", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hash});
   }
@@ -1037,7 +1037,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: CachedOperationCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ResourceManagement::ResourceManager::*)()>(&UnityEngine::ResourceManagement::ResourceManager::CachedOperationCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "CachedOperationCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1051,7 +1051,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: Release
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceManager::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&UnityEngine::ResourceManagement::ResourceManager::Release)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle});
   }
@@ -1060,7 +1060,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Acquire
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceManager::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&UnityEngine::ResourceManagement::ResourceManager::Acquire)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "Acquire", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle});
   }
@@ -1069,7 +1069,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: AcquireGroupOpFromCache
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::GroupOperation* (UnityEngine::ResourceManagement::ResourceManager::*)(int)>(&UnityEngine::ResourceManagement::ResourceManager::AcquireGroupOpFromCache)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hash = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "AcquireGroupOpFromCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hash});
   }
@@ -1084,7 +1084,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: CreateGenericGroupOperation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> (UnityEngine::ResourceManagement::ResourceManager::*)(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*, bool)>(&UnityEngine::ResourceManagement::ResourceManager::CreateGenericGroupOperation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* operations = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle")})->byval_arg;
     static auto* releasedCachedOpOnComplete = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "CreateGenericGroupOperation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{operations, releasedCachedOpOnComplete});
@@ -1094,7 +1094,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: ProvideResourceGroupCached
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> (UnityEngine::ResourceManagement::ResourceManager::*)(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*, int, System::Type*, System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*, bool)>(&UnityEngine::ResourceManagement::ResourceManager::ProvideResourceGroupCached)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* locations = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceLocations", "IResourceLocation")})->byval_arg;
     static auto* groupHash = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* desiredType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -1125,7 +1125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: ProvideScene
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (UnityEngine::ResourceManagement::ResourceManager::*)(UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider*, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::SceneManagement::LoadSceneMode, bool, int)>(&UnityEngine::ResourceManagement::ResourceManager::ProvideScene)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneProvider = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceProviders", "ISceneProvider")->byval_arg;
     static auto* location = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceLocations", "IResourceLocation")->byval_arg;
     static auto* loadMode = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
@@ -1138,7 +1138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: ReleaseScene
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (UnityEngine::ResourceManagement::ResourceManager::*)(UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider*, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>)>(&UnityEngine::ResourceManagement::ResourceManager::ReleaseScene)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneProvider = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceProviders", "ISceneProvider")->byval_arg;
     static auto* sceneLoadHandle = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceProviders", "SceneInstance")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "ReleaseScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sceneProvider, sceneLoadHandle});
@@ -1148,7 +1148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: ProvideInstance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*> (UnityEngine::ResourceManagement::ResourceManager::*)(UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider*, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters)>(&UnityEngine::ResourceManagement::ResourceManager::ProvideInstance)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceProviders", "IInstanceProvider")->byval_arg;
     static auto* location = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceLocations", "IResourceLocation")->byval_arg;
     static auto* instantiateParameters = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceProviders", "InstantiationParameters")->byval_arg;
@@ -1159,7 +1159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: CleanupSceneInstances
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceManager::*)(UnityEngine::SceneManagement::Scene)>(&UnityEngine::ResourceManagement::ResourceManager::CleanupSceneInstances)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* scene = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "Scene")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "CleanupSceneInstances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scene});
   }
@@ -1168,7 +1168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: ExecuteDeferredCallbacks
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceManager::*)()>(&UnityEngine::ResourceManagement::ResourceManager::ExecuteDeferredCallbacks)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "ExecuteDeferredCallbacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1176,7 +1176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: RegisterForDeferredCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceManager::*)(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*, bool)>(&UnityEngine::ResourceManagement::ResourceManager::RegisterForDeferredCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* op = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.AsyncOperations", "IAsyncOperation")->byval_arg;
     static auto* incrementRefCount = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "RegisterForDeferredCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{op, incrementRefCount});
@@ -1186,7 +1186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Update
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceManager::*)(float)>(&UnityEngine::ResourceManagement::ResourceManager::Update)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* unscaledDeltaTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unscaledDeltaTime});
   }
@@ -1195,7 +1195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceManager::*)()>(&UnityEngine::ResourceManagement::ResourceManager::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1203,7 +1203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::ResourceManagement::ResourceManager::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1211,7 +1211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <.ctor>b__45_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::ResourceManager::*)(UnityEngine::ResourceManagement::IUpdateReceiver*)>(&UnityEngine::ResourceManagement::ResourceManager::$_ctor$b__45_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement", "IUpdateReceiver")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceManager*), "<.ctor>b__45_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }

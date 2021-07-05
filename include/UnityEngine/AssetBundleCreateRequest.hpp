@@ -53,7 +53,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssetBundleCreateRequest*, "UnityEngine", "A
 // Il2CppName: get_assetBundle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundle* (UnityEngine::AssetBundleCreateRequest::*)()>(&UnityEngine::AssetBundleCreateRequest::get_assetBundle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetBundleCreateRequest*), "get_assetBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

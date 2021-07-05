@@ -50,7 +50,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::StackTraceUtility*, "UnityEngine", "StackTra
 // Il2CppName: SetProjectFolder
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&UnityEngine::StackTraceUtility::SetProjectFolder)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* folder = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::StackTraceUtility*), "SetProjectFolder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{folder});
   }
@@ -59,7 +59,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: ExtractStackTrace
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::StackTraceUtility::ExtractStackTrace)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::StackTraceUtility*), "ExtractStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -67,7 +67,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: ExtractStringFromExceptionInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppString*&, ::Il2CppString*&)>(&UnityEngine::StackTraceUtility::ExtractStringFromExceptionInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* exceptiono = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     static auto* stackTrace = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: ExtractFormattedStackTrace
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Diagnostics::StackTrace*)>(&UnityEngine::StackTraceUtility::ExtractFormattedStackTrace)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stackTrace = &::il2cpp_utils::GetClassFromName("System.Diagnostics", "StackTrace")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::StackTraceUtility*), "ExtractFormattedStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stackTrace});
   }
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::StackTraceUtility::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::StackTraceUtility*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

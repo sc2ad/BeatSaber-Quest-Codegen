@@ -39,7 +39,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Lifetime::ISponsor*, "System.R
 // Il2CppName: Renewal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (System::Runtime::Remoting::Lifetime::ISponsor::*)(System::Runtime::Remoting::Lifetime::ILease*)>(&System::Runtime::Remoting::Lifetime::ISponsor::Renewal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lease = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Lifetime", "ILease")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::ISponsor*), "Renewal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lease});
   }

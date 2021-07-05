@@ -265,7 +265,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVROverlayMeshGenerator*, "", "OVROverla
 // Il2CppName: Awake
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVROverlayMeshGenerator::*)()>(&GlobalNamespace::OVROverlayMeshGenerator::Awake)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlayMeshGenerator*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -273,7 +273,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetOverlay
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVROverlayMeshGenerator::*)(GlobalNamespace::OVROverlay*)>(&GlobalNamespace::OVROverlayMeshGenerator::SetOverlay)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* overlay = &::il2cpp_utils::GetClassFromName("", "OVROverlay")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlayMeshGenerator*), "SetOverlay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{overlay});
   }
@@ -282,7 +282,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: GetBoundingRect
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (GlobalNamespace::OVROverlayMeshGenerator::*)(UnityEngine::Rect, UnityEngine::Rect)>(&GlobalNamespace::OVROverlayMeshGenerator::GetBoundingRect)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlayMeshGenerator*), "GetBoundingRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
@@ -292,7 +292,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: OnEnable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVROverlayMeshGenerator::*)()>(&GlobalNamespace::OVROverlayMeshGenerator::OnEnable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlayMeshGenerator*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -300,7 +300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnDisable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVROverlayMeshGenerator::*)()>(&GlobalNamespace::OVROverlayMeshGenerator::OnDisable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlayMeshGenerator*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -308,7 +308,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Update
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVROverlayMeshGenerator::*)()>(&GlobalNamespace::OVROverlayMeshGenerator::Update)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlayMeshGenerator*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -316,7 +316,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: UpdateMesh
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVROverlayMeshGenerator::*)(GlobalNamespace::OVROverlay::OverlayShape, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Vector3, UnityEngine::Rect)>(&GlobalNamespace::OVROverlayMeshGenerator::UpdateMesh)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* shape = &::il2cpp_utils::GetClassFromName("", "OVROverlay/OverlayShape")->byval_arg;
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -329,7 +329,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: GenerateMesh
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*, System::Collections::Generic::List_1<UnityEngine::Vector2>*, System::Collections::Generic::List_1<int>*, GlobalNamespace::OVROverlay::OverlayShape, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Vector3, UnityEngine::Rect)>(&GlobalNamespace::OVROverlayMeshGenerator::GenerateMesh)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* verts = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     static auto* uvs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
     static auto* tris = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
@@ -345,7 +345,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: GetSphereUV
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(float, float, float)>(&GlobalNamespace::OVROverlayMeshGenerator::GetSphereUV)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* theta = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* phi = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* expand_coef = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -356,7 +356,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetSphereVert
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(float, float)>(&GlobalNamespace::OVROverlayMeshGenerator::GetSphereVert)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* theta = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* phi = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlayMeshGenerator*), "GetSphereVert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{theta, phi});
@@ -366,7 +366,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: BuildSphere
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*, System::Collections::Generic::List_1<UnityEngine::Vector2>*, System::Collections::Generic::List_1<int>*, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Vector3, UnityEngine::Rect, float, int, int, float)>(&GlobalNamespace::OVROverlayMeshGenerator::BuildSphere)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* verts = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     static auto* uv = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
     static auto* triangles = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
@@ -385,7 +385,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: GetCubeUV
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(GlobalNamespace::OVROverlayMeshGenerator::CubeFace, UnityEngine::Vector2, float)>(&GlobalNamespace::OVROverlayMeshGenerator::GetCubeUV)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* face = &::il2cpp_utils::GetClassFromName("", "OVROverlayMeshGenerator/CubeFace")->byval_arg;
     static auto* sideUV = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     static auto* expand_coef = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -396,7 +396,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetCubeVert
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(GlobalNamespace::OVROverlayMeshGenerator::CubeFace, UnityEngine::Vector2, float)>(&GlobalNamespace::OVROverlayMeshGenerator::GetCubeVert)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* face = &::il2cpp_utils::GetClassFromName("", "OVROverlayMeshGenerator/CubeFace")->byval_arg;
     static auto* sideUV = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     static auto* expand_coef = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -407,7 +407,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: BuildCube
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*, System::Collections::Generic::List_1<UnityEngine::Vector2>*, System::Collections::Generic::List_1<int>*, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Vector3, float, int, float)>(&GlobalNamespace::OVROverlayMeshGenerator::BuildCube)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* verts = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     static auto* uv = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
     static auto* triangles = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
@@ -424,7 +424,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: BuildQuad
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*, System::Collections::Generic::List_1<UnityEngine::Vector2>*, System::Collections::Generic::List_1<int>*, UnityEngine::Rect)>(&GlobalNamespace::OVROverlayMeshGenerator::BuildQuad)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* verts = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     static auto* uv = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
     static auto* triangles = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
@@ -436,7 +436,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: BuildHemicylinder
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*, System::Collections::Generic::List_1<UnityEngine::Vector2>*, System::Collections::Generic::List_1<int>*, UnityEngine::Vector3, UnityEngine::Rect, int)>(&GlobalNamespace::OVROverlayMeshGenerator::BuildHemicylinder)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* verts = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     static auto* uv = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
     static auto* triangles = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
@@ -454,7 +454,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVROverlayMeshGenerator::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlayMeshGenerator*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

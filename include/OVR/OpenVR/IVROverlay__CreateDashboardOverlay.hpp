@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_CreateDashboardOverlay*, "OVR.O
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::IVROverlay::_CreateDashboardOverlay::*)(::Il2CppString*, ::Il2CppString*, uint64_t&, uint64_t&)>(&OVR::OpenVR::IVROverlay::_CreateDashboardOverlay::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchOverlayKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchOverlayFriendlyName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pMainHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVROverlay::_CreateDashboardOverlay::*)(::Il2CppString*, ::Il2CppString*, uint64_t&, uint64_t&, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVROverlay::_CreateDashboardOverlay::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchOverlayKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchOverlayFriendlyName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pMainHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::IVROverlay::_CreateDashboardOverlay::*)(uint64_t&, uint64_t&, System::IAsyncResult*)>(&OVR::OpenVR::IVROverlay::_CreateDashboardOverlay::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pMainHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
     static auto* pThumbnailHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;

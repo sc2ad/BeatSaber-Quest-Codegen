@@ -70,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewGameObjectDynamicContext
 // Il2CppName: CreateGameObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::SubContainerCreatorByNewGameObjectDynamicContext::*)(bool&)>(&Zenject::SubContainerCreatorByNewGameObjectDynamicContext::CreateGameObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* shouldMakeActive = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorByNewGameObjectDynamicContext*), "CreateGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{shouldMakeActive});
   }

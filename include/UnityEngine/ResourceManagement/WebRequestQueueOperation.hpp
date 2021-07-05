@@ -75,7 +75,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::WebRequestQueueOperation
 // Il2CppName: get_IsDone
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ResourceManagement::WebRequestQueueOperation::*)()>(&UnityEngine::ResourceManagement::WebRequestQueueOperation::get_IsDone)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::WebRequestQueueOperation*), "get_IsDone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: Complete
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::WebRequestQueueOperation::*)(UnityEngine::Networking::UnityWebRequestAsyncOperation*)>(&UnityEngine::ResourceManagement::WebRequestQueueOperation::Complete)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* asyncOp = &::il2cpp_utils::GetClassFromName("UnityEngine.Networking", "UnityWebRequestAsyncOperation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::WebRequestQueueOperation*), "Complete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncOp});
   }

@@ -95,7 +95,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneContextRegistry*, "Zenject", "SceneContextR
 // Il2CppName: get_SceneContexts
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::SceneContext*>* (Zenject::SceneContextRegistry::*)()>(&Zenject::SceneContextRegistry::get_SceneContexts)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::SceneContextRegistry*), "get_SceneContexts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: Add
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SceneContextRegistry::*)(Zenject::SceneContext*)>(&Zenject::SceneContextRegistry::Add)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "SceneContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SceneContextRegistry*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: GetSceneContextForScene
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::SceneContext* (Zenject::SceneContextRegistry::*)(::Il2CppString*)>(&Zenject::SceneContextRegistry::GetSceneContextForScene)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SceneContextRegistry*), "GetSceneContextForScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
   }
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: GetSceneContextForScene
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::SceneContext* (Zenject::SceneContextRegistry::*)(UnityEngine::SceneManagement::Scene)>(&Zenject::SceneContextRegistry::GetSceneContextForScene)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* scene = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "Scene")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SceneContextRegistry*), "GetSceneContextForScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scene});
   }
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: TryGetSceneContextForScene
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::SceneContext* (Zenject::SceneContextRegistry::*)(::Il2CppString*)>(&Zenject::SceneContextRegistry::TryGetSceneContextForScene)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SceneContextRegistry*), "TryGetSceneContextForScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
   }
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: TryGetSceneContextForScene
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::SceneContext* (Zenject::SceneContextRegistry::*)(UnityEngine::SceneManagement::Scene)>(&Zenject::SceneContextRegistry::TryGetSceneContextForScene)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* scene = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "Scene")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SceneContextRegistry*), "TryGetSceneContextForScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scene});
   }
@@ -148,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: GetContainerForScene
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (Zenject::SceneContextRegistry::*)(UnityEngine::SceneManagement::Scene)>(&Zenject::SceneContextRegistry::GetContainerForScene)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* scene = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "Scene")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SceneContextRegistry*), "GetContainerForScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scene});
   }
@@ -157,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Di
 // Il2CppName: TryGetContainerForScene
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (Zenject::SceneContextRegistry::*)(UnityEngine::SceneManagement::Scene)>(&Zenject::SceneContextRegistry::TryGetContainerForScene)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* scene = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "Scene")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SceneContextRegistry*), "TryGetContainerForScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scene});
   }
@@ -166,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Di
 // Il2CppName: Remove
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SceneContextRegistry::*)(Zenject::SceneContext*)>(&Zenject::SceneContextRegistry::Remove)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "SceneContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SceneContextRegistry*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }

@@ -99,7 +99,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandlerTexture*, "UnityE
 // Il2CppName: Create
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::Networking::DownloadHandlerTexture*, bool)>(&UnityEngine::Networking::DownloadHandlerTexture::Create)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine.Networking", "DownloadHandlerTexture")->byval_arg;
     static auto* readable = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerTexture*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, readable});
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: InternalCreateTexture
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::DownloadHandlerTexture::*)(bool)>(&UnityEngine::Networking::DownloadHandlerTexture::InternalCreateTexture)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* readable = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerTexture*), "InternalCreateTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{readable});
   }
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_texture
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (UnityEngine::Networking::DownloadHandlerTexture::*)()>(&UnityEngine::Networking::DownloadHandlerTexture::get_texture)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerTexture*), "get_texture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InternalGetTexture
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (UnityEngine::Networking::DownloadHandlerTexture::*)()>(&UnityEngine::Networking::DownloadHandlerTexture::InternalGetTexture)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerTexture*), "InternalGetTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -138,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InternalGetTextureNative
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (UnityEngine::Networking::DownloadHandlerTexture::*)()>(&UnityEngine::Networking::DownloadHandlerTexture::InternalGetTextureNative)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerTexture*), "InternalGetTextureNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -146,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetContent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (*)(UnityEngine::Networking::UnityWebRequest*)>(&UnityEngine::Networking::DownloadHandlerTexture::GetContent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* www = &::il2cpp_utils::GetClassFromName("UnityEngine.Networking", "UnityWebRequest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerTexture*), "GetContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{www});
   }
@@ -155,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (UnityEngine::Networking::DownloadHandlerTexture::*)()>(&UnityEngine::Networking::DownloadHandlerTexture::GetData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerTexture*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

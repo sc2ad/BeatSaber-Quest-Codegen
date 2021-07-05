@@ -102,7 +102,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarEditHistory*, "", "AvatarEditHisto
 // Il2CppName: get_undoAvailable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::AvatarEditHistory::*)()>(&GlobalNamespace::AvatarEditHistory::get_undoAvailable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarEditHistory*), "get_undoAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -110,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: get_redoAvailable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::AvatarEditHistory::*)()>(&GlobalNamespace::AvatarEditHistory::get_redoAvailable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarEditHistory*), "get_redoAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: get_currentSnapShot
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Menu::ViewControllers::EditAvatarHistorySnapshot* (GlobalNamespace::AvatarEditHistory::*)()>(&GlobalNamespace::AvatarEditHistory::get_currentSnapShot)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarEditHistory*), "get_currentSnapShot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -126,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Menu::ViewC
 // Il2CppName: get_lastEditedPart
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EditAvatarViewController::AvatarEditPart (GlobalNamespace::AvatarEditHistory::*)()>(&GlobalNamespace::AvatarEditHistory::get_lastEditedPart)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarEditHistory*), "get_lastEditedPart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -134,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: Clear
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarEditHistory::*)()>(&GlobalNamespace::AvatarEditHistory::Clear)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarEditHistory*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Undo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarEditHistory::*)()>(&GlobalNamespace::AvatarEditHistory::Undo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarEditHistory*), "Undo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Redo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarEditHistory::*)()>(&GlobalNamespace::AvatarEditHistory::Redo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarEditHistory*), "Redo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -158,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: UpdateEditHistory
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarEditHistory::*)(GlobalNamespace::AvatarData*, GlobalNamespace::EditAvatarViewController::AvatarEditPart)>(&GlobalNamespace::AvatarEditHistory::UpdateEditHistory)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* avatarData = &::il2cpp_utils::GetClassFromName("", "AvatarData")->byval_arg;
     static auto* avatarEditPart = &::il2cpp_utils::GetClassFromName("", "EditAvatarViewController/AvatarEditPart")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarEditHistory*), "UpdateEditHistory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{avatarData, avatarEditPart});

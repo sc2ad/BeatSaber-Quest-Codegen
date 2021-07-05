@@ -78,7 +78,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningNoTransitionInstaller*, "",
 // Il2CppName: InstallBindings
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HealthWarningNoTransitionInstaller::*)(Zenject::DiContainer*)>(&GlobalNamespace::HealthWarningNoTransitionInstaller::InstallBindings)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* container = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthWarningNoTransitionInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
   }

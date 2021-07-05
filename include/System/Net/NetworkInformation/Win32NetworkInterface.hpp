@@ -46,7 +46,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32NetworkInterface*, 
 // Il2CppName: GetNetworkParams
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, int&)>(&System::Net::NetworkInformation::Win32NetworkInterface::GetNetworkParams)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ptr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::Win32NetworkInterface*), "GetNetworkParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ptr, size});
@@ -56,7 +56,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: get_FixedInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::Win32_FIXED_INFO (*)()>(&System::Net::NetworkInformation::Win32NetworkInterface::get_FixedInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::Win32NetworkInterface*), "get_FixedInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

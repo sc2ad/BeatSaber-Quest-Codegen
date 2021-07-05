@@ -104,7 +104,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Globalization::SortKey*, "System.Globalization", 
 // Il2CppName: Compare
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Globalization::SortKey*, System::Globalization::SortKey*)>(&System::Globalization::SortKey::Compare)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sortkey1 = &::il2cpp_utils::GetClassFromName("System.Globalization", "SortKey")->byval_arg;
     static auto* sortkey2 = &::il2cpp_utils::GetClassFromName("System.Globalization", "SortKey")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::SortKey*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sortkey1, sortkey2});
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: get_OriginalString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::SortKey::*)()>(&System::Globalization::SortKey::get_OriginalString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::SortKey*), "get_OriginalString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_KeyData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (System::Globalization::SortKey::*)()>(&System::Globalization::SortKey::get_KeyData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::SortKey*), "get_KeyData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -138,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: Equals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::SortKey::*)(::Il2CppObject*)>(&System::Globalization::SortKey::Equals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::SortKey*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: GetHashCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::SortKey::*)()>(&System::Globalization::SortKey::GetHashCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::SortKey*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -155,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: ToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::SortKey::*)()>(&System::Globalization::SortKey::ToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::SortKey*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

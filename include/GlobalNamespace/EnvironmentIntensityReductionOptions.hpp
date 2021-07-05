@@ -145,7 +145,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentIntensityReductionOptions::Ro
 // Il2CppName: get_compressExpand
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentIntensityReductionOptions::CompressExpandReductionType (GlobalNamespace::EnvironmentIntensityReductionOptions::*)()>(&GlobalNamespace::EnvironmentIntensityReductionOptions::get_compressExpand)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentIntensityReductionOptions*), "get_compressExpand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_rotateRings
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType (GlobalNamespace::EnvironmentIntensityReductionOptions::*)()>(&GlobalNamespace::EnvironmentIntensityReductionOptions::get_rotateRings)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentIntensityReductionOptions*), "get_rotateRings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

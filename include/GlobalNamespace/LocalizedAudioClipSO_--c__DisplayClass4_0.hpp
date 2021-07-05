@@ -56,7 +56,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedAudioClipSO::$$c__DisplayClass4
 // Il2CppName: <get_localizedAudioClip>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LocalizedAudioClipSO::$$c__DisplayClass4_0::*)(GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*)>(&GlobalNamespace::LocalizedAudioClipSO::$$c__DisplayClass4_0::$get_localizedAudioClip$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("", "LocalizedAudioClipSO/LocalizedAudioClipInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalizedAudioClipSO::$$c__DisplayClass4_0*), "<get_localizedAudioClip>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }

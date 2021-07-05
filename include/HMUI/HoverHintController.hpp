@@ -126,7 +126,7 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverHintController*, "HMUI", "HoverHintController"
 // Il2CppName: Awake
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::HoverHintController::*)()>(&HMUI::HoverHintController::Awake)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::HoverHintController*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -134,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: OnApplicationFocus
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::HoverHintController::*)(bool)>(&HMUI::HoverHintController::OnApplicationFocus)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hasFocus = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::HoverHintController*), "OnApplicationFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hasFocus});
   }
@@ -143,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: ShowHint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::HoverHintController::*)(HMUI::HoverHint*)>(&HMUI::HoverHintController::ShowHint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hoverHint = &::il2cpp_utils::GetClassFromName("HMUI", "HoverHint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::HoverHintController*), "ShowHint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hoverHint});
   }
@@ -152,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: HideHint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::HoverHintController::*)()>(&HMUI::HoverHintController::HideHint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::HoverHintController*), "HideHint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: HideHintInstant
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::HoverHintController::*)()>(&HMUI::HoverHintController::HideHintInstant)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::HoverHintController*), "HideHintInstant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: ShowHintAfterDelay
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (HMUI::HoverHintController::*)(HMUI::HoverHint*, float)>(&HMUI::HoverHintController::ShowHintAfterDelay)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hoverHint = &::il2cpp_utils::GetClassFromName("HMUI", "HoverHint")->byval_arg;
     static auto* delay = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::HoverHintController*), "ShowHintAfterDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hoverHint, delay});
@@ -178,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: HideHintAfterDelay
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (HMUI::HoverHintController::*)(float)>(&HMUI::HoverHintController::HideHintAfterDelay)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* delay = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::HoverHintController*), "HideHintAfterDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{delay});
   }
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: SetupAndShowHintPanel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::HoverHintController::*)(HMUI::HoverHint*)>(&HMUI::HoverHintController::SetupAndShowHintPanel)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hoverHint = &::il2cpp_utils::GetClassFromName("HMUI", "HoverHint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::HoverHintController*), "SetupAndShowHintPanel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hoverHint});
   }
@@ -196,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: GetScreenTransformForHoverHint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(HMUI::HoverHint*)>(&HMUI::HoverHintController::GetScreenTransformForHoverHint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hoverHint = &::il2cpp_utils::GetClassFromName("HMUI", "HoverHint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::HoverHintController*), "GetScreenTransformForHoverHint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hoverHint});
   }

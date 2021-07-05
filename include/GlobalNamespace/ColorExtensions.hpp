@@ -53,7 +53,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorExtensions*, "", "ColorExtensions")
 // Il2CppName: SaturatedColor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, float)>(&GlobalNamespace::ColorExtensions::SaturatedColor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* saturation = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorExtensions*), "SaturatedColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color, saturation});
@@ -63,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: ColorWithAlpha
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, float)>(&GlobalNamespace::ColorExtensions::ColorWithAlpha)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* alpha = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorExtensions*), "ColorWithAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color, alpha});
@@ -73,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: ColorWithR
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, float)>(&GlobalNamespace::ColorExtensions::ColorWithR)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* r = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorExtensions*), "ColorWithR", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color, r});
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: ColorWithG
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, float)>(&GlobalNamespace::ColorExtensions::ColorWithG)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* g = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorExtensions*), "ColorWithG", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color, g});
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: ColorWithB
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, float)>(&GlobalNamespace::ColorExtensions::ColorWithB)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorExtensions*), "ColorWithB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color, b});
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: ColorWithValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, float)>(&GlobalNamespace::ColorExtensions::ColorWithValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorExtensions*), "ColorWithValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color, value});
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: LerpRGBUnclamped
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(UnityEngine::Color, UnityEngine::Color, float)>(&GlobalNamespace::ColorExtensions::LerpRGBUnclamped)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

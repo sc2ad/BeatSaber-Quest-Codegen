@@ -82,7 +82,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Gizmos*, "UnityEngine", "Gizmos");
 // Il2CppName: DrawLine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&UnityEngine::Gizmos::DrawLine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* from = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* to = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gizmos*), "DrawLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{from, to});
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: DrawWireSphere
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3, float)>(&UnityEngine::Gizmos::DrawWireSphere)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* center = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gizmos*), "DrawWireSphere", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{center, radius});
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: DrawSphere
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3, float)>(&UnityEngine::Gizmos::DrawSphere)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* center = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gizmos*), "DrawSphere", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{center, radius});
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: DrawWireCube
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&UnityEngine::Gizmos::DrawWireCube)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* center = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gizmos*), "DrawWireCube", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{center, size});
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: DrawCube
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&UnityEngine::Gizmos::DrawCube)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* center = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gizmos*), "DrawCube", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{center, size});
@@ -132,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: set_color
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Color)>(&UnityEngine::Gizmos::set_color)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gizmos*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: set_matrix
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Matrix4x4)>(&UnityEngine::Gizmos::set_matrix)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gizmos*), "set_matrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: DrawRay
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&UnityEngine::Gizmos::DrawRay)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* from = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gizmos*), "DrawRay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{from, direction});
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: DrawLine_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3&, UnityEngine::Vector3&)>(&UnityEngine::Gizmos::DrawLine_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* from = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* to = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gizmos*), "DrawLine_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{from, to});
@@ -170,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: DrawWireSphere_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3&, float)>(&UnityEngine::Gizmos::DrawWireSphere_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* center = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gizmos*), "DrawWireSphere_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{center, radius});
@@ -180,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: DrawSphere_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3&, float)>(&UnityEngine::Gizmos::DrawSphere_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* center = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gizmos*), "DrawSphere_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{center, radius});
@@ -190,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: DrawWireCube_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3&, UnityEngine::Vector3&)>(&UnityEngine::Gizmos::DrawWireCube_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* center = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gizmos*), "DrawWireCube_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{center, size});
@@ -200,7 +200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: DrawCube_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3&, UnityEngine::Vector3&)>(&UnityEngine::Gizmos::DrawCube_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* center = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gizmos*), "DrawCube_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{center, size});
@@ -210,7 +210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: set_color_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Color&)>(&UnityEngine::Gizmos::set_color_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gizmos*), "set_color_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -219,7 +219,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: set_matrix_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Matrix4x4&)>(&UnityEngine::Gizmos::set_matrix_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Gizmos*), "set_matrix_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

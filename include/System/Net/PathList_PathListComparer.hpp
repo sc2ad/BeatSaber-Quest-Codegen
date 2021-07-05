@@ -54,7 +54,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::PathList::PathListComparer*, "System.Net", "
 // Il2CppName: System.Collections.IComparer.Compare
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::PathList::PathListComparer::*)(::Il2CppObject*, ::Il2CppObject*)>(&System::Net::PathList::PathListComparer::System_Collections_IComparer_Compare)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ol = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* _or = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::PathList::PathListComparer*), "System.Collections.IComparer.Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ol, _or});
@@ -64,7 +64,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Net::PathList::PathListComparer::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::PathList::PathListComparer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

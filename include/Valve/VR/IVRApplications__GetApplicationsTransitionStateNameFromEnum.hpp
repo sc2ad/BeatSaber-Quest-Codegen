@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRApplications::_GetApplicationsTransitionSta
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Valve::VR::IVRApplications::_GetApplicationsTransitionStateNameFromEnum::*)(Valve::VR::EVRApplicationTransitionState)>(&Valve::VR::IVRApplications::_GetApplicationsTransitionStateNameFromEnum::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* state = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRApplicationTransitionState")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRApplications::_GetApplicationsTransitionStateNameFromEnum*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
   }
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRApplications::_GetApplicationsTransitionStateNameFromEnum::*)(Valve::VR::EVRApplicationTransitionState, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRApplications::_GetApplicationsTransitionStateNameFromEnum::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* state = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRApplicationTransitionState")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Valve::VR::IVRApplications::_GetApplicationsTransitionStateNameFromEnum::*)(System::IAsyncResult*)>(&Valve::VR::IVRApplications::_GetApplicationsTransitionStateNameFromEnum::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRApplications::_GetApplicationsTransitionStateNameFromEnum*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

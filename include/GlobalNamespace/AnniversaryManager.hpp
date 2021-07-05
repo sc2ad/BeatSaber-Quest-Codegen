@@ -83,7 +83,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnniversaryManager*, "", "AnniversaryMan
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnniversaryManager::*)()>(&GlobalNamespace::AnniversaryManager::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnniversaryManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnniversaryManager::*)()>(&GlobalNamespace::AnniversaryManager::OnDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnniversaryManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleMainMenuViewControllerDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnniversaryManager::*)(GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton)>(&GlobalNamespace::AnniversaryManager::HandleMainMenuViewControllerDidFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mainMenuViewController = &::il2cpp_utils::GetClassFromName("", "MainMenuViewController")->byval_arg;
     static auto* menuButton = &::il2cpp_utils::GetClassFromName("", "MainMenuViewController/MenuButton")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnniversaryManager*), "HandleMainMenuViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mainMenuViewController, menuButton});
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: StartFireworks
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnniversaryManager::*)()>(&GlobalNamespace::AnniversaryManager::StartFireworks)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnniversaryManager*), "StartFireworks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: StopFireworks
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnniversaryManager::*)()>(&GlobalNamespace::AnniversaryManager::StopFireworks)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnniversaryManager*), "StopFireworks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -62,7 +62,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Math::Prime::Generator::PrimeGeneratorBase*, "Mono.
 // Il2CppName: get_Confidence
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::Prime::ConfidenceFactor (Mono::Math::Prime::Generator::PrimeGeneratorBase::*)()>(&Mono::Math::Prime::Generator::PrimeGeneratorBase::get_Confidence)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::Prime::Generator::PrimeGeneratorBase*), "get_Confidence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -70,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math:
 // Il2CppName: get_PrimalityTest
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::Prime::PrimalityTest* (Mono::Math::Prime::Generator::PrimeGeneratorBase::*)()>(&Mono::Math::Prime::Generator::PrimeGeneratorBase::get_PrimalityTest)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::Prime::Generator::PrimeGeneratorBase*), "get_PrimalityTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math:
 // Il2CppName: get_TrialDivisionBounds
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Math::Prime::Generator::PrimeGeneratorBase::*)()>(&Mono::Math::Prime::Generator::PrimeGeneratorBase::get_TrialDivisionBounds)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::Prime::Generator::PrimeGeneratorBase*), "get_TrialDivisionBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Il2CppName: GenerateNewPrime
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (Mono::Math::Prime::Generator::PrimeGeneratorBase::*)(int)>(&Mono::Math::Prime::Generator::PrimeGeneratorBase::GenerateNewPrime)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bits = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::Prime::Generator::PrimeGeneratorBase*), "GenerateNewPrime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bits});
   }

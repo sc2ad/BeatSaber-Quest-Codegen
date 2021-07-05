@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::SetPropertyUtility*, "HMUI", "SetPropertyUtility");
 // Il2CppName: SetColor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Color&, UnityEngine::Color)>(&HMUI::SetPropertyUtility::SetColor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* currentValue = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->this_arg;
     static auto* newValue = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::SetPropertyUtility*), "SetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{currentValue, newValue});

@@ -73,7 +73,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneContext::$$c__DisplayClass49_0*, "Zenject",
 // Il2CppName: <GetParentContainers>b__2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::SceneContext::$$c__DisplayClass49_0::*)(Zenject::SceneContext*)>(&Zenject::SceneContext::$$c__DisplayClass49_0::$GetParentContainers$b__2)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneContext = &::il2cpp_utils::GetClassFromName("Zenject", "SceneContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SceneContext::$$c__DisplayClass49_0*), "<GetParentContainers>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sceneContext});
   }
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
 // Il2CppName: <GetParentContainers>b__4
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::SceneContext::$$c__DisplayClass49_0::*)(::Il2CppString*)>(&Zenject::SceneContext::$$c__DisplayClass49_0::$GetParentContainers$b__4)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SceneContext::$$c__DisplayClass49_0*), "<GetParentContainers>b__4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }

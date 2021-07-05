@@ -261,7 +261,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuTransitionsHelper*, "", "MenuTransit
 // Il2CppName: StartStandardLevel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(::Il2CppString*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::OverrideEnvironmentSettings*, GlobalNamespace::ColorScheme*, GlobalNamespace::GameplayModifiers*, GlobalNamespace::PlayerSpecificSettings*, GlobalNamespace::PracticeSettings*, ::Il2CppString*, bool, System::Action*, System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>*)>(&GlobalNamespace::MenuTransitionsHelper::StartStandardLevel)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameMode = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* difficultyBeatmap = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;
     static auto* previewBeatmapLevel = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
@@ -281,7 +281,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: StartStandardLevel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(::Il2CppString*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::OverrideEnvironmentSettings*, GlobalNamespace::ColorScheme*, GlobalNamespace::GameplayModifiers*, GlobalNamespace::PlayerSpecificSettings*, GlobalNamespace::PracticeSettings*, ::Il2CppString*, bool, System::Action*, System::Action_1<Zenject::DiContainer*>*, System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>*)>(&GlobalNamespace::MenuTransitionsHelper::StartStandardLevel)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameMode = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* difficultyBeatmap = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;
     static auto* previewBeatmapLevel = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
@@ -302,7 +302,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: StartMissionLevel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(::Il2CppString*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::ColorScheme*, GlobalNamespace::GameplayModifiers*, ::Array<GlobalNamespace::MissionObjective*>*, GlobalNamespace::PlayerSpecificSettings*, System::Action*, System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>*)>(&GlobalNamespace::MenuTransitionsHelper::StartMissionLevel)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* missionId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* difficultyBeatmap = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;
     static auto* previewBeatmapLevel = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
@@ -319,7 +319,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: StartMultiplayerLevel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(::Il2CppString*, GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::BeatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::ColorScheme*, GlobalNamespace::GameplayModifiers*, GlobalNamespace::PlayerSpecificSettings*, GlobalNamespace::PracticeSettings*, ::Il2CppString*, bool, System::Action*, System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>*, System::Action_1<GlobalNamespace::DisconnectedReason>*)>(&GlobalNamespace::MenuTransitionsHelper::StartMultiplayerLevel)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameMode = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* previewBeatmapLevel = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
     static auto* beatmapDifficulty = &::il2cpp_utils::GetClassFromName("", "BeatmapDifficulty")->byval_arg;
@@ -341,7 +341,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: StartMultiplayerLevel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(::Il2CppString*, GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::BeatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::ColorScheme*, GlobalNamespace::GameplayModifiers*, GlobalNamespace::PlayerSpecificSettings*, GlobalNamespace::PracticeSettings*, ::Il2CppString*, bool, System::Action*, System::Action_1<Zenject::DiContainer*>*, System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>*, System::Action_1<GlobalNamespace::DisconnectedReason>*)>(&GlobalNamespace::MenuTransitionsHelper::StartMultiplayerLevel)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameMode = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* previewBeatmapLevel = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
     static auto* beatmapDifficulty = &::il2cpp_utils::GetClassFromName("", "BeatmapDifficulty")->byval_arg;
@@ -364,7 +364,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: StartTutorial
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(System::Action*)>(&GlobalNamespace::MenuTransitionsHelper::StartTutorial)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beforeSceneSwitchCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper*), "StartTutorial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beforeSceneSwitchCallback});
   }
@@ -373,7 +373,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ShowCredits
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)()>(&GlobalNamespace::MenuTransitionsHelper::ShowCredits)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper*), "ShowCredits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -381,7 +381,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: StartBeatmapEditor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(System::Action*)>(&GlobalNamespace::MenuTransitionsHelper::StartBeatmapEditor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmapEditorFinishedCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper*), "StartBeatmapEditor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEditorFinishedCallback});
   }
@@ -390,7 +390,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: RestartGame
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(System::Action_1<Zenject::DiContainer*>*)>(&GlobalNamespace::MenuTransitionsHelper::RestartGame)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* finishCallback = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper*), "RestartGame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{finishCallback});
   }
@@ -399,7 +399,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleMainGameSceneDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*)>(&GlobalNamespace::MenuTransitionsHelper::HandleMainGameSceneDidFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* standardLevelScenesTransitionSetupData = &::il2cpp_utils::GetClassFromName("", "StandardLevelScenesTransitionSetupDataSO")->byval_arg;
     static auto* levelCompletionResults = &::il2cpp_utils::GetClassFromName("", "LevelCompletionResults")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper*), "HandleMainGameSceneDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{standardLevelScenesTransitionSetupData, levelCompletionResults});
@@ -409,7 +409,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleMultiplayerLevelDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*)>(&GlobalNamespace::MenuTransitionsHelper::HandleMultiplayerLevelDidFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* multiplayerLevelScenesTransitionSetupData = &::il2cpp_utils::GetClassFromName("", "MultiplayerLevelScenesTransitionSetupDataSO")->byval_arg;
     static auto* multiplayerResultsData = &::il2cpp_utils::GetClassFromName("", "MultiplayerResultsData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper*), "HandleMultiplayerLevelDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multiplayerLevelScenesTransitionSetupData, multiplayerResultsData});
@@ -419,7 +419,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleMultiplayerLevelDidDisconnect
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::DisconnectedReason)>(&GlobalNamespace::MenuTransitionsHelper::HandleMultiplayerLevelDidDisconnect)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* multiplayerLevelScenesTransitionSetupData = &::il2cpp_utils::GetClassFromName("", "MultiplayerLevelScenesTransitionSetupDataSO")->byval_arg;
     static auto* disconnectedReason = &::il2cpp_utils::GetClassFromName("", "DisconnectedReason")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper*), "HandleMultiplayerLevelDidDisconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multiplayerLevelScenesTransitionSetupData, disconnectedReason});
@@ -429,7 +429,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleMissionLevelSceneDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*)>(&GlobalNamespace::MenuTransitionsHelper::HandleMissionLevelSceneDidFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* missionLevelScenesTransitionSetupData = &::il2cpp_utils::GetClassFromName("", "MissionLevelScenesTransitionSetupDataSO")->byval_arg;
     static auto* missionCompletionResults = &::il2cpp_utils::GetClassFromName("", "MissionCompletionResults")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper*), "HandleMissionLevelSceneDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{missionLevelScenesTransitionSetupData, missionCompletionResults});
@@ -439,7 +439,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleTutorialSceneDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(GlobalNamespace::TutorialScenesTransitionSetupDataSO*, GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType)>(&GlobalNamespace::MenuTransitionsHelper::HandleTutorialSceneDidFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tutorialSceneTransitionSetupData = &::il2cpp_utils::GetClassFromName("", "TutorialScenesTransitionSetupDataSO")->byval_arg;
     static auto* endState = &::il2cpp_utils::GetClassFromName("", "TutorialScenesTransitionSetupDataSO/TutorialEndStateType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper*), "HandleTutorialSceneDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tutorialSceneTransitionSetupData, endState});
@@ -449,7 +449,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleCreditsSceneDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(GlobalNamespace::CreditsScenesTransitionSetupDataSO*)>(&GlobalNamespace::MenuTransitionsHelper::HandleCreditsSceneDidFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* creditsSceneTransitionSetupData = &::il2cpp_utils::GetClassFromName("", "CreditsScenesTransitionSetupDataSO")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper*), "HandleCreditsSceneDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{creditsSceneTransitionSetupData});
   }
@@ -458,7 +458,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleBeatmapEditorSceneDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*)>(&GlobalNamespace::MenuTransitionsHelper::HandleBeatmapEditorSceneDidFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmapEditorScenesTransitionSetupData = &::il2cpp_utils::GetClassFromName("", "BeatmapEditorScenesTransitionSetupDataSO")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper*), "HandleBeatmapEditorSceneDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEditorScenesTransitionSetupData});
   }
@@ -467,7 +467,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <HandleBeatmapEditorSceneDidFinish>b__29_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(Zenject::DiContainer*)>(&GlobalNamespace::MenuTransitionsHelper::$HandleBeatmapEditorSceneDidFinish$b__29_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* container = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper*), "<HandleBeatmapEditorSceneDidFinish>b__29_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
   }

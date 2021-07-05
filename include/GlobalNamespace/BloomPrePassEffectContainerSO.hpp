@@ -64,7 +64,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassEffectContainerSO*, "", "Blo
 // Il2CppName: get_bloomPrePassEffect
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BloomPrePassEffectSO* (GlobalNamespace::BloomPrePassEffectContainerSO::*)()>(&GlobalNamespace::BloomPrePassEffectContainerSO::get_bloomPrePassEffect)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassEffectContainerSO*), "get_bloomPrePassEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassEffectContainerSO::*)(GlobalNamespace::BloomPrePassEffectSO*)>(&GlobalNamespace::BloomPrePassEffectContainerSO::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bloomPrePassEffect = &::il2cpp_utils::GetClassFromName("", "BloomPrePassEffectSO")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassEffectContainerSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bloomPrePassEffect});
   }

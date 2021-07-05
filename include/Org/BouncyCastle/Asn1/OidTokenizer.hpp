@@ -58,7 +58,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::OidTokenizer*, "Org.BouncyCastle
 // Il2CppName: get_HasMoreTokens
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Asn1::OidTokenizer::*)()>(&Org::BouncyCastle::Asn1::OidTokenizer::get_HasMoreTokens)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::OidTokenizer*), "get_HasMoreTokens", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -66,7 +66,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::
 // Il2CppName: NextToken
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Org::BouncyCastle::Asn1::OidTokenizer::*)()>(&Org::BouncyCastle::Asn1::OidTokenizer::NextToken)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::OidTokenizer*), "NextToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

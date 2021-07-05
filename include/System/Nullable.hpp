@@ -35,7 +35,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Nullable*, "System", "Nullable");
 // Il2CppName: GetUnderlyingType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*)>(&System::Nullable::GetUnderlyingType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* nullableType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Nullable*), "GetUnderlyingType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nullableType});
   }

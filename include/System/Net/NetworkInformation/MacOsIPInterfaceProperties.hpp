@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsIPInterfaceProperti
 // Il2CppName: ParseRouteInfo_internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Array<::Il2CppString*>*&)>(&System::Net::NetworkInformation::MacOsIPInterfaceProperties::ParseRouteInfo_internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* iface = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* gw_addr_list = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::MacOsIPInterfaceProperties*), "ParseRouteInfo_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{iface, gw_addr_list});
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: get_GatewayAddresses
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::GatewayIPAddressInformationCollection* (System::Net::NetworkInformation::MacOsIPInterfaceProperties::*)()>(&System::Net::NetworkInformation::MacOsIPInterfaceProperties::get_GatewayAddresses)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::MacOsIPInterfaceProperties*), "get_GatewayAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

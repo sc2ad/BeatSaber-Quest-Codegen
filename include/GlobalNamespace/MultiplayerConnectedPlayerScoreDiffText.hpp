@@ -227,7 +227,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText:
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::*)()>(&GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -235,7 +235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::*)()>(&GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::OnDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -243,7 +243,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetHorizontalPositionRelativeToLocalPlayer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::*)(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::HorizontalPosition)>(&GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::SetHorizontalPositionRelativeToLocalPlayer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* relativePosition = &::il2cpp_utils::GetClassFromName("", "MultiplayerConnectedPlayerScoreDiffText/HorizontalPosition")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText*), "SetHorizontalPositionRelativeToLocalPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{relativePosition});
   }
@@ -252,7 +252,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: AnimateScoreDiff
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::*)(int)>(&GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::AnimateScoreDiff)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* scoreDiff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText*), "AnimateScoreDiff", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scoreDiff});
   }
@@ -261,7 +261,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: AnimateHide
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::*)()>(&GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::AnimateHide)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText*), "AnimateHide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -269,7 +269,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleNewLeaderWasSelected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::*)(::Il2CppString*)>(&GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::HandleNewLeaderWasSelected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText*), "HandleNewLeaderWasSelected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});
   }
@@ -278,7 +278,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <Start>b__13_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::*)(float)>(&GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::$Start$b__13_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* val = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText*), "<Start>b__13_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val});
   }
@@ -287,7 +287,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <AnimateScoreDiff>b__16_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::*)()>(&GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::$AnimateScoreDiff$b__16_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText*), "<AnimateScoreDiff>b__16_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -295,7 +295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <AnimateHide>b__17_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::*)()>(&GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::$AnimateHide$b__17_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText*), "<AnimateHide>b__17_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

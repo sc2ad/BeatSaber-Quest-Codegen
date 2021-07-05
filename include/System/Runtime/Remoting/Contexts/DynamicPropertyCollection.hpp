@@ -82,7 +82,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::DynamicPropertyColle
 // Il2CppName: get_HasProperties
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Remoting::Contexts::DynamicPropertyCollection::*)()>(&System::Runtime::Remoting::Contexts::DynamicPropertyCollection::get_HasProperties)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::DynamicPropertyCollection*), "get_HasProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: RegisterDynamicProperty
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Remoting::Contexts::DynamicPropertyCollection::*)(System::Runtime::Remoting::Contexts::IDynamicProperty*)>(&System::Runtime::Remoting::Contexts::DynamicPropertyCollection::RegisterDynamicProperty)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prop = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Contexts", "IDynamicProperty")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::DynamicPropertyCollection*), "RegisterDynamicProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prop});
   }
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: UnregisterDynamicProperty
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Remoting::Contexts::DynamicPropertyCollection::*)(::Il2CppString*)>(&System::Runtime::Remoting::Contexts::DynamicPropertyCollection::UnregisterDynamicProperty)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::DynamicPropertyCollection*), "UnregisterDynamicProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
   }
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: NotifyMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Contexts::DynamicPropertyCollection::*)(bool, System::Runtime::Remoting::Messaging::IMessage*, bool, bool)>(&System::Runtime::Remoting::Contexts::DynamicPropertyCollection::NotifyMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* msg = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "IMessage")->byval_arg;
     static auto* client_site = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -120,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: FindProperty
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Runtime::Remoting::Contexts::DynamicPropertyCollection::*)(::Il2CppString*)>(&System::Runtime::Remoting::Contexts::DynamicPropertyCollection::FindProperty)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::DynamicPropertyCollection*), "FindProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
   }

@@ -60,7 +60,7 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Message::Callback*, "Oculus.Platform", 
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::Message::Callback::*)(Oculus::Platform::Message*)>(&Oculus::Platform::Message::Callback::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "Message")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message::Callback*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
   }
@@ -69,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Oculus::Platform::Message::Callback::*)(Oculus::Platform::Message*, System::AsyncCallback*, ::Il2CppObject*)>(&Oculus::Platform::Message::Callback::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "Message")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::Message::Callback::*)(System::IAsyncResult*)>(&Oculus::Platform::Message::Callback::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message::Callback*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

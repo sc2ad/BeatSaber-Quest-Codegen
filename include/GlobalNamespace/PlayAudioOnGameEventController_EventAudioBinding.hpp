@@ -96,7 +96,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayAudioOnGameEventController::EventAud
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding::*)(GlobalNamespace::AudioClipQueue*)>(&GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* audioClipQueue = &::il2cpp_utils::GetClassFromName("", "AudioClipQueue")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{audioClipQueue});
   }
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Deinit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding::*)()>(&GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding::Deinit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*), "Deinit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleGameEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding::*)()>(&GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding::HandleGameEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*), "HandleGameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

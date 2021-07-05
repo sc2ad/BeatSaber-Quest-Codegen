@@ -71,7 +71,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceRequest*, "UnityEngine", "ResourceRe
 // Il2CppName: get_asset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (UnityEngine::ResourceRequest::*)()>(&UnityEngine::ResourceRequest::get_asset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceRequest*), "get_asset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

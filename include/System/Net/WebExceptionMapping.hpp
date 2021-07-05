@@ -41,7 +41,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::WebExceptionMapping*, "System.Net", "WebExce
 // Il2CppName: GetWebStatusString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Net::WebExceptionStatus)>(&System::Net::WebExceptionMapping::GetWebStatusString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* status = &::il2cpp_utils::GetClassFromName("System.Net", "WebExceptionStatus")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebExceptionMapping*), "GetWebStatusString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{status});
   }
@@ -50,7 +50,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Net::WebExceptionMapping::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebExceptionMapping*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

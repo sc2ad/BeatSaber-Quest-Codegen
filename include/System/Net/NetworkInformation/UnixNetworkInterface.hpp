@@ -108,7 +108,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::UnixNetworkInterface*, "
 // Il2CppName: AddAddress
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::UnixNetworkInterface::*)(System::Net::IPAddress*)>(&System::Net::NetworkInformation::UnixNetworkInterface::AddAddress)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* address = &::il2cpp_utils::GetClassFromName("System.Net", "IPAddress")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::UnixNetworkInterface*), "AddAddress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{address});
   }
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: SetLinkLayerInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::UnixNetworkInterface::*)(int, ::Array<uint8_t>*, System::Net::NetworkInformation::NetworkInterfaceType)>(&System::Net::NetworkInformation::UnixNetworkInterface::SetLinkLayerInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* macAddress = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System.Net.NetworkInformation", "NetworkInterfaceType")->byval_arg;
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_Name
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::NetworkInformation::UnixNetworkInterface::*)()>(&System::Net::NetworkInformation::UnixNetworkInterface::get_Name)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::UnixNetworkInterface*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -136,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_NetworkInterfaceType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::NetworkInterfaceType (System::Net::NetworkInformation::UnixNetworkInterface::*)()>(&System::Net::NetworkInformation::UnixNetworkInterface::get_NetworkInterfaceType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::UnixNetworkInterface*), "get_NetworkInterfaceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

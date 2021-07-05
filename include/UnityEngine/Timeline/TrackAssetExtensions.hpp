@@ -40,7 +40,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackAssetExtensions*, "UnityEngin
 // Il2CppName: GetGroup
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::GroupTrack* (*)(UnityEngine::Timeline::TrackAsset*)>(&UnityEngine::Timeline::TrackAssetExtensions::GetGroup)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* asset = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TrackAsset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAssetExtensions*), "GetGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asset});
   }
@@ -49,7 +49,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: SetGroup
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::TrackAsset*, UnityEngine::Timeline::GroupTrack*)>(&UnityEngine::Timeline::TrackAssetExtensions::SetGroup)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* asset = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TrackAsset")->byval_arg;
     static auto* group = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "GroupTrack")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAssetExtensions*), "SetGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asset, group});

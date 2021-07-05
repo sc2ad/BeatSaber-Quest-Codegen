@@ -93,7 +93,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::_Assert*, "NUnit.Framework", "Assert");
 // Il2CppName: AreEqual
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppObject*)>(&NUnit::Framework::_Assert::AreEqual)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* expected = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* actual = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::_Assert*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expected, actual});
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: IncrementAssertCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NUnit::Framework::_Assert::IncrementAssertCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::_Assert*), "IncrementAssertCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -114,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: GreaterOrEqual
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, float, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&NUnit::Framework::_Assert::GreaterOrEqual)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* arg1 = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* arg2 = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -126,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(fl
 // Il2CppName: LessOrEqual
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, float, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&NUnit::Framework::_Assert::LessOrEqual)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* arg1 = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* arg2 = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -138,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(fl
 // Il2CppName: IsTrue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&NUnit::Framework::_Assert::IsTrue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* condition = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Il2CppName: IsTrue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&NUnit::Framework::_Assert::IsTrue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* condition = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::_Assert*), "IsTrue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{condition});
   }

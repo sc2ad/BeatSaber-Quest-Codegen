@@ -134,7 +134,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Hash128, "UnityEngine", "Hash128");
 // Il2CppName: get_isValid
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Hash128::*)()>(&UnityEngine::Hash128::get_isValid)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Hash128), "get_isValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: CompareTo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Hash128::*)(UnityEngine::Hash128)>(&UnityEngine::Hash128::CompareTo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rhs = &::il2cpp_utils::GetClassFromName("UnityEngine", "Hash128")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Hash128), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rhs});
   }
@@ -151,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: Parse
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Hash128 (*)(::Il2CppString*)>(&UnityEngine::Hash128::Parse)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hashString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Hash128), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hashString});
   }
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Internal_Hash128ToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::Hash128)>(&UnityEngine::Hash128::Internal_Hash128ToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hash128 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Hash128")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Hash128), "Internal_Hash128ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hash128});
   }
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: Compute
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Hash128 (*)(::Il2CppString*)>(&UnityEngine::Hash128::Compute)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hashString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Hash128), "Compute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hashString});
   }
@@ -178,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Equals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Hash128::*)(UnityEngine::Hash128)>(&UnityEngine::Hash128::Equals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "Hash128")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Hash128), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: CompareTo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Hash128::*)(::Il2CppObject*)>(&UnityEngine::Hash128::CompareTo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Hash128), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
@@ -196,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: Parse_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::Hash128&)>(&UnityEngine::Hash128::Parse_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hashString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Hash128")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Hash128), "Parse_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hashString, ret});
@@ -206,7 +206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: Internal_Hash128ToString_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::Hash128&)>(&UnityEngine::Hash128::Internal_Hash128ToString_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hash128 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Hash128")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Hash128), "Internal_Hash128ToString_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hash128});
   }
@@ -215,7 +215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: Compute_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::Hash128&)>(&UnityEngine::Hash128::Compute_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hashString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Hash128")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Hash128), "Compute_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hashString, ret});
@@ -225,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: ToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Hash128::*)()>(&UnityEngine::Hash128::ToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Hash128), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -233,7 +233,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: Equals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Hash128::*)(::Il2CppObject*)>(&UnityEngine::Hash128::Equals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Hash128), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
@@ -242,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: GetHashCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Hash128::*)()>(&UnityEngine::Hash128::GetHashCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Hash128), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

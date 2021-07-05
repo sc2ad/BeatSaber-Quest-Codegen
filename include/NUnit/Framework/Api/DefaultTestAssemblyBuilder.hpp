@@ -112,7 +112,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Api::DefaultTestAssemblyBuilder*, "NUni
 // Il2CppName: Build
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITest* (NUnit::Framework::Api::DefaultTestAssemblyBuilder::*)(System::Reflection::Assembly*, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*)>(&NUnit::Framework::Api::DefaultTestAssemblyBuilder::Build)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* assembly = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     static auto* options = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IDictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Api::DefaultTestAssemblyBuilder*), "Build", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assembly, options});
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Il2CppName: Build
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestSuite* (NUnit::Framework::Api::DefaultTestAssemblyBuilder::*)(System::Reflection::Assembly*, ::Il2CppString*, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*)>(&NUnit::Framework::Api::DefaultTestAssemblyBuilder::Build)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* assembly = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     static auto* assemblyPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* options = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IDictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Il2CppName: GetFixtures
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<NUnit::Framework::Internal::Test*>* (NUnit::Framework::Api::DefaultTestAssemblyBuilder::*)(System::Reflection::Assembly*, System::Collections::IList*)>(&NUnit::Framework::Api::DefaultTestAssemblyBuilder::GetFixtures)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* assembly = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     static auto* names = &::il2cpp_utils::GetClassFromName("System.Collections", "IList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Api::DefaultTestAssemblyBuilder*), "GetFixtures", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assembly, names});
@@ -143,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: GetCandidateFixtureTypes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<System::Type*>* (NUnit::Framework::Api::DefaultTestAssemblyBuilder::*)(System::Reflection::Assembly*, System::Collections::IList*)>(&NUnit::Framework::Api::DefaultTestAssemblyBuilder::GetCandidateFixtureTypes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* assembly = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     static auto* names = &::il2cpp_utils::GetClassFromName("System.Collections", "IList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Api::DefaultTestAssemblyBuilder*), "GetCandidateFixtureTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assembly, names});
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: BuildTestAssembly
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestSuite* (NUnit::Framework::Api::DefaultTestAssemblyBuilder::*)(System::Reflection::Assembly*, ::Il2CppString*, System::Collections::Generic::IList_1<NUnit::Framework::Internal::Test*>*)>(&NUnit::Framework::Api::DefaultTestAssemblyBuilder::BuildTestAssembly)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* assembly = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     static auto* assemblyName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* fixtures = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "Test")})->byval_arg;
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NUnit::Framework::Api::DefaultTestAssemblyBuilder::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Api::DefaultTestAssemblyBuilder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -84,7 +84,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuLightsPresetSO*, "", "MenuLightsPres
 // Il2CppName: get_playersPlaceNeonsColor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ColorSO* (GlobalNamespace::MenuLightsPresetSO::*)()>(&GlobalNamespace::MenuLightsPresetSO::get_playersPlaceNeonsColor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuLightsPresetSO*), "get_playersPlaceNeonsColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_playersPlaceNeonsIntensity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MenuLightsPresetSO::*)()>(&GlobalNamespace::MenuLightsPresetSO::get_playersPlaceNeonsIntensity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuLightsPresetSO*), "get_playersPlaceNeonsIntensity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: get_lightIdColorPairs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*>* (GlobalNamespace::MenuLightsPresetSO::*)()>(&GlobalNamespace::MenuLightsPresetSO::get_lightIdColorPairs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuLightsPresetSO*), "get_lightIdColorPairs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

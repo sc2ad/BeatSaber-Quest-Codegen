@@ -74,7 +74,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::Objec
 // Il2CppName: isCompatible
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo::*)(int, ::Array<::Il2CppString*>*, ::Array<System::Type*>*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo::isCompatible)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* numMembers = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* memberNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* memberTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;

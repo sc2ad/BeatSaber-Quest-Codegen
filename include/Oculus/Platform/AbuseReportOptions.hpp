@@ -71,7 +71,7 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AbuseReportOptions*, "Oculus.Platform",
 // Il2CppName: SetPreventPeopleChooser
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::AbuseReportOptions::*)(bool)>(&Oculus::Platform::AbuseReportOptions::SetPreventPeopleChooser)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AbuseReportOptions*), "SetPreventPeopleChooser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Il2CppName: SetReportType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::AbuseReportOptions::*)(Oculus::Platform::AbuseReportType)>(&Oculus::Platform::AbuseReportOptions::SetReportType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "AbuseReportType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AbuseReportOptions*), "SetReportType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -96,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Il2CppName: Finalize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::AbuseReportOptions::*)()>(&Oculus::Platform::AbuseReportOptions::Finalize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AbuseReportOptions*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

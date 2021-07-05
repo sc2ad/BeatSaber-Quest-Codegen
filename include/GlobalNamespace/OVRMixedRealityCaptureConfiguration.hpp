@@ -215,7 +215,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedRealityCaptureConfiguration*, ""
 // Il2CppName: get_enableMixedReality
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_enableMixedReality)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_enableMixedReality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -223,7 +223,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: set_enableMixedReality
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(bool)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_enableMixedReality)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_enableMixedReality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -232,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_extraHiddenLayers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_extraHiddenLayers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_extraHiddenLayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -240,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_extraHiddenLayers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(UnityEngine::LayerMask)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_extraHiddenLayers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "LayerMask")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_extraHiddenLayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -249,7 +249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_extraVisibleLayers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_extraVisibleLayers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_extraVisibleLayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -257,7 +257,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_extraVisibleLayers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(UnityEngine::LayerMask)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_extraVisibleLayers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "LayerMask")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_extraVisibleLayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -266,7 +266,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_dynamicCullingMask
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_dynamicCullingMask)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_dynamicCullingMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -274,7 +274,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: set_dynamicCullingMask
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(bool)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_dynamicCullingMask)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_dynamicCullingMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -283,7 +283,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_compositionMethod
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRManager_CompositionMethod (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_compositionMethod)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_compositionMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -291,7 +291,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: set_compositionMethod
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(GlobalNamespace::OVRManager_CompositionMethod)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_compositionMethod)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "OVRManager/CompositionMethod")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_compositionMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -300,7 +300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_externalCompositionBackdropColorRift
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_externalCompositionBackdropColorRift)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_externalCompositionBackdropColorRift", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -308,7 +308,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_externalCompositionBackdropColorRift
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(UnityEngine::Color)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_externalCompositionBackdropColorRift)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_externalCompositionBackdropColorRift", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -317,7 +317,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_externalCompositionBackdropColorQuest
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_externalCompositionBackdropColorQuest)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_externalCompositionBackdropColorQuest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -325,7 +325,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_externalCompositionBackdropColorQuest
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(UnityEngine::Color)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_externalCompositionBackdropColorQuest)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_externalCompositionBackdropColorQuest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -334,7 +334,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_capturingCameraDevice
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRManager_CameraDevice (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_capturingCameraDevice)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_capturingCameraDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -342,7 +342,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: set_capturingCameraDevice
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(GlobalNamespace::OVRManager_CameraDevice)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_capturingCameraDevice)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "OVRManager/CameraDevice")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_capturingCameraDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -351,7 +351,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_flipCameraFrameHorizontally
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_flipCameraFrameHorizontally)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_flipCameraFrameHorizontally", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -359,7 +359,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: set_flipCameraFrameHorizontally
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(bool)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_flipCameraFrameHorizontally)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_flipCameraFrameHorizontally", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -368,7 +368,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_flipCameraFrameVertically
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_flipCameraFrameVertically)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_flipCameraFrameVertically", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -376,7 +376,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: set_flipCameraFrameVertically
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(bool)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_flipCameraFrameVertically)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_flipCameraFrameVertically", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -385,7 +385,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_handPoseStateLatency
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_handPoseStateLatency)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_handPoseStateLatency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -393,7 +393,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: set_handPoseStateLatency
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(float)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_handPoseStateLatency)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_handPoseStateLatency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -402,7 +402,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_sandwichCompositionRenderLatency
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_sandwichCompositionRenderLatency)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_sandwichCompositionRenderLatency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -410,7 +410,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: set_sandwichCompositionRenderLatency
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(float)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_sandwichCompositionRenderLatency)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_sandwichCompositionRenderLatency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -419,7 +419,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_sandwichCompositionBufferedFrames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_sandwichCompositionBufferedFrames)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_sandwichCompositionBufferedFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -427,7 +427,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: set_sandwichCompositionBufferedFrames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(int)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_sandwichCompositionBufferedFrames)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_sandwichCompositionBufferedFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -436,7 +436,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_chromaKeyColor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_chromaKeyColor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_chromaKeyColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -444,7 +444,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_chromaKeyColor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(UnityEngine::Color)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_chromaKeyColor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_chromaKeyColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -453,7 +453,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_chromaKeySimilarity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_chromaKeySimilarity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_chromaKeySimilarity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -461,7 +461,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: set_chromaKeySimilarity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(float)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_chromaKeySimilarity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_chromaKeySimilarity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -470,7 +470,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_chromaKeySmoothRange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_chromaKeySmoothRange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_chromaKeySmoothRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -478,7 +478,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: set_chromaKeySmoothRange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(float)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_chromaKeySmoothRange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_chromaKeySmoothRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -487,7 +487,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_chromaKeySpillRange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_chromaKeySpillRange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_chromaKeySpillRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -495,7 +495,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: set_chromaKeySpillRange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(float)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_chromaKeySpillRange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_chromaKeySpillRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -504,7 +504,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_useDynamicLighting
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_useDynamicLighting)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_useDynamicLighting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -512,7 +512,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: set_useDynamicLighting
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(bool)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_useDynamicLighting)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_useDynamicLighting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -521,7 +521,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_depthQuality
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRManager_DepthQuality (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_depthQuality)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_depthQuality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -529,7 +529,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: set_depthQuality
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(GlobalNamespace::OVRManager_DepthQuality)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_depthQuality)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "OVRManager/DepthQuality")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_depthQuality", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -538,7 +538,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_dynamicLightingSmoothFactor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_dynamicLightingSmoothFactor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_dynamicLightingSmoothFactor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -546,7 +546,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: set_dynamicLightingSmoothFactor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(float)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_dynamicLightingSmoothFactor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_dynamicLightingSmoothFactor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -555,7 +555,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_dynamicLightingDepthVariationClampingValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_dynamicLightingDepthVariationClampingValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_dynamicLightingDepthVariationClampingValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -563,7 +563,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: set_dynamicLightingDepthVariationClampingValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(float)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_dynamicLightingDepthVariationClampingValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_dynamicLightingDepthVariationClampingValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -572,7 +572,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_virtualGreenScreenType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRManager_VirtualGreenScreenType (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_virtualGreenScreenType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_virtualGreenScreenType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -580,7 +580,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: set_virtualGreenScreenType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(GlobalNamespace::OVRManager_VirtualGreenScreenType)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_virtualGreenScreenType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "OVRManager/VirtualGreenScreenType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_virtualGreenScreenType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -589,7 +589,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_virtualGreenScreenTopY
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_virtualGreenScreenTopY)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_virtualGreenScreenTopY", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -597,7 +597,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: set_virtualGreenScreenTopY
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(float)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_virtualGreenScreenTopY)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_virtualGreenScreenTopY", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -606,7 +606,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_virtualGreenScreenBottomY
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_virtualGreenScreenBottomY)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_virtualGreenScreenBottomY", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -614,7 +614,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: set_virtualGreenScreenBottomY
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(float)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_virtualGreenScreenBottomY)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_virtualGreenScreenBottomY", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -623,7 +623,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_virtualGreenScreenApplyDepthCulling
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_virtualGreenScreenApplyDepthCulling)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_virtualGreenScreenApplyDepthCulling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -631,7 +631,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: set_virtualGreenScreenApplyDepthCulling
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(bool)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_virtualGreenScreenApplyDepthCulling)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_virtualGreenScreenApplyDepthCulling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -640,7 +640,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_virtualGreenScreenDepthTolerance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_virtualGreenScreenDepthTolerance)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_virtualGreenScreenDepthTolerance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -648,7 +648,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: set_virtualGreenScreenDepthTolerance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(float)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_virtualGreenScreenDepthTolerance)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_virtualGreenScreenDepthTolerance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -657,7 +657,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_mrcActivationMode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRManager_MrcActivationMode (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_mrcActivationMode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_mrcActivationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -665,7 +665,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: set_mrcActivationMode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(GlobalNamespace::OVRManager_MrcActivationMode)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_mrcActivationMode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "OVRManager/MrcActivationMode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_mrcActivationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -674,7 +674,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_instantiateMixedRealityCameraGameObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)()>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_instantiateMixedRealityCameraGameObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "get_instantiateMixedRealityCameraGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -682,7 +682,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: set_instantiateMixedRealityCameraGameObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMixedRealityCaptureConfiguration::*)(GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*)>(&GlobalNamespace::OVRMixedRealityCaptureConfiguration::set_instantiateMixedRealityCameraGameObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "OVRManager/InstantiateMrcCameraDelegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfiguration*), "set_instantiateMixedRealityCameraGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

@@ -53,7 +53,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PseudoHDREncoding*, "", "PseudoHDREncodi
 // Il2CppName: CreatePseudoHDREncodedTexture
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (*)(UnityEngine::RenderTexture*)>(&GlobalNamespace::PseudoHDREncoding::CreatePseudoHDREncodedTexture)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* src = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PseudoHDREncoding*), "CreatePseudoHDREncodedTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src});
   }

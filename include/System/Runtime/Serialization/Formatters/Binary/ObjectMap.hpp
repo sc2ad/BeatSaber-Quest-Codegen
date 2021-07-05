@@ -155,7 +155,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::Objec
 // Il2CppName: CreateObjectInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* (System::Runtime::Serialization::Formatters::Binary::ObjectMap::*)(System::Runtime::Serialization::SerializationInfo*&, ::Array<::Il2CppObject*>*&)>(&System::Runtime::Serialization::Formatters::Binary::ObjectMap::CreateObjectInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* si = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->this_arg;
     static auto* memberData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectMap*), "CreateObjectInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{si, memberData});
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: Create
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::ObjectMap* (*)(::Il2CppString*, System::Type*, ::Array<::Il2CppString*>*, System::Runtime::Serialization::Formatters::Binary::ObjectReader*, int, System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectMap::Create)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* objectType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* memberNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: Create
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::ObjectMap* (*)(::Il2CppString*, ::Array<::Il2CppString*>*, ::Array<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>*, ::Array<::Il2CppObject*>*, ::Array<int>*, System::Runtime::Serialization::Formatters::Binary::ObjectReader*, int, System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*, System::Runtime::Serialization::Formatters::Binary::SizedArray*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectMap::Create)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* memberNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* binaryTypeEnumA = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "BinaryTypeEnum"), 1)->byval_arg;

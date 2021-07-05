@@ -146,7 +146,7 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollViewItemsVisibilityController*, "HMUI", "Scro
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollViewItemsVisibilityController::*)()>(&HMUI::ScrollViewItemsVisibilityController::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollViewItemsVisibilityController*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: Update
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollViewItemsVisibilityController::*)()>(&HMUI::ScrollViewItemsVisibilityController::Update)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollViewItemsVisibilityController*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -162,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: UpdateVisibilityUpDirection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollViewItemsVisibilityController::*)(float)>(&HMUI::ScrollViewItemsVisibilityController::UpdateVisibilityUpDirection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* newContentAnchoredPositionY = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollViewItemsVisibilityController*), "UpdateVisibilityUpDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newContentAnchoredPositionY});
   }
@@ -171,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: UpdateVisibilityDownDirection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollViewItemsVisibilityController::*)(float)>(&HMUI::ScrollViewItemsVisibilityController::UpdateVisibilityDownDirection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* newContentAnchoredPositionY = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollViewItemsVisibilityController*), "UpdateVisibilityDownDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newContentAnchoredPositionY});
   }

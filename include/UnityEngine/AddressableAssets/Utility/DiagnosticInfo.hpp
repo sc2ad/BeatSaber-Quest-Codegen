@@ -70,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Utility::DiagnosticInfo*,
 // Il2CppName: CreateEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent (UnityEngine::AddressableAssets::Utility::DiagnosticInfo::*)(::Il2CppString*, UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType, int, int)>(&UnityEngine::AddressableAssets::Utility::DiagnosticInfo::CreateEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* category = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* eventType = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement", "ResourceManager/DiagnosticEventType")->byval_arg;
     static auto* frame = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

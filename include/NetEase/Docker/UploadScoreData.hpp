@@ -116,7 +116,7 @@ DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::UploadScoreData, "NetEase.Docker", "Uplo
 // Il2CppName: set_Track
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::UploadScoreData::*)(::Il2CppString*)>(&NetEase::Docker::UploadScoreData::set_Track)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::UploadScoreData), "set_Track", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEa
 // Il2CppName: set_Score
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::UploadScoreData::*)(int)>(&NetEase::Docker::UploadScoreData::set_Score)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::UploadScoreData), "set_Score", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

@@ -80,7 +80,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinato
 // Il2CppName: <StartLevelOrShow360Prompt>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::$$c__DisplayClass37_0::*)(int)>(&GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::$$c__DisplayClass37_0::$StartLevelOrShow360Prompt$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buttonNumber = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::$$c__DisplayClass37_0*), "<StartLevelOrShow360Prompt>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buttonNumber});
   }
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <StartLevelOrShow360Prompt>b__1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::$$c__DisplayClass37_0::*)()>(&GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::$$c__DisplayClass37_0::$StartLevelOrShow360Prompt$b__1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::$$c__DisplayClass37_0*), "<StartLevelOrShow360Prompt>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

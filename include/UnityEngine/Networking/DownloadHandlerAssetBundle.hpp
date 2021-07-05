@@ -87,7 +87,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandlerAssetBundle*, "Un
 // Il2CppName: Create
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::Networking::DownloadHandlerAssetBundle*, ::Il2CppString*, uint)>(&UnityEngine::Networking::DownloadHandlerAssetBundle::Create)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine.Networking", "DownloadHandlerAssetBundle")->byval_arg;
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* crc = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: CreateCached
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::Networking::DownloadHandlerAssetBundle*, ::Il2CppString*, ::Il2CppString*, UnityEngine::Hash128, uint)>(&UnityEngine::Networking::DownloadHandlerAssetBundle::CreateCached)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine.Networking", "DownloadHandlerAssetBundle")->byval_arg;
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -111,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: InternalCreateAssetBundle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::DownloadHandlerAssetBundle::*)(::Il2CppString*, uint)>(&UnityEngine::Networking::DownloadHandlerAssetBundle::InternalCreateAssetBundle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* crc = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerAssetBundle*), "InternalCreateAssetBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{url, crc});
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: InternalCreateAssetBundleCached
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::DownloadHandlerAssetBundle::*)(::Il2CppString*, ::Il2CppString*, UnityEngine::Hash128, uint)>(&UnityEngine::Networking::DownloadHandlerAssetBundle::InternalCreateAssetBundleCached)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* hash = &::il2cpp_utils::GetClassFromName("UnityEngine", "Hash128")->byval_arg;
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_assetBundle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AssetBundle* (UnityEngine::Networking::DownloadHandlerAssetBundle::*)()>(&UnityEngine::Networking::DownloadHandlerAssetBundle::get_assetBundle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerAssetBundle*), "get_assetBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: CreateCached_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::Networking::DownloadHandlerAssetBundle*, ::Il2CppString*, ::Il2CppString*, UnityEngine::Hash128&, uint)>(&UnityEngine::Networking::DownloadHandlerAssetBundle::CreateCached_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine.Networking", "DownloadHandlerAssetBundle")->byval_arg;
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -162,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: GetData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (UnityEngine::Networking::DownloadHandlerAssetBundle::*)()>(&UnityEngine::Networking::DownloadHandlerAssetBundle::GetData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerAssetBundle*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -170,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: GetText
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Networking::DownloadHandlerAssetBundle::*)()>(&UnityEngine::Networking::DownloadHandlerAssetBundle::GetText)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerAssetBundle*), "GetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

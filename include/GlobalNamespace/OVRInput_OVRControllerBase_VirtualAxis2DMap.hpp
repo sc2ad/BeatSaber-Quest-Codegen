@@ -75,7 +75,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis
 // Il2CppName: ToRawMask
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRInput::RawAxis2D (GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis2DMap::*)(GlobalNamespace::OVRInput::Axis2D)>(&GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis2DMap::ToRawMask)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Axis2D")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis2DMap*), "ToRawMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask});
   }

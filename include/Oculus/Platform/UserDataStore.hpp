@@ -67,7 +67,7 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::UserDataStore*, "Oculus.Platform", "Use
 // Il2CppName: PrivateDeleteEntryByKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::UserDataStoreUpdateResponse*>* (*)(uint64_t, ::Il2CppString*)>(&Oculus::Platform::UserDataStore::PrivateDeleteEntryByKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* userID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::UserDataStore*), "PrivateDeleteEntryByKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userID, key});
@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: PrivateGetEntries
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>* (*)(uint64_t)>(&Oculus::Platform::UserDataStore::PrivateGetEntries)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* userID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::UserDataStore*), "PrivateGetEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userID});
   }
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: PrivateGetEntryByKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>* (*)(uint64_t, ::Il2CppString*)>(&Oculus::Platform::UserDataStore::PrivateGetEntryByKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* userID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::UserDataStore*), "PrivateGetEntryByKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userID, key});
@@ -96,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: PrivateWriteEntry
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::UserDataStoreUpdateResponse*>* (*)(uint64_t, ::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::UserDataStore::PrivateWriteEntry)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* userID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: PublicDeleteEntryByKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::UserDataStoreUpdateResponse*>* (*)(uint64_t, ::Il2CppString*)>(&Oculus::Platform::UserDataStore::PublicDeleteEntryByKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* userID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::UserDataStore*), "PublicDeleteEntryByKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userID, key});
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: PublicGetEntries
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>* (*)(uint64_t)>(&Oculus::Platform::UserDataStore::PublicGetEntries)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* userID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::UserDataStore*), "PublicGetEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userID});
   }
@@ -126,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: PublicGetEntryByKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>* (*)(uint64_t, ::Il2CppString*)>(&Oculus::Platform::UserDataStore::PublicGetEntryByKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* userID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::UserDataStore*), "PublicGetEntryByKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userID, key});
@@ -136,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: PublicWriteEntry
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::UserDataStoreUpdateResponse*>* (*)(uint64_t, ::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::UserDataStore::PublicWriteEntry)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* userID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

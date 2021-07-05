@@ -123,7 +123,7 @@ DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizationImporter*, "Polyglot", "Localizatio
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Polyglot::LocalizationImporter::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationImporter*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: Initialize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Polyglot::LocalizationImporter::Initialize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationImporter*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: ImportFromGoogle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Polyglot::Localization*)>(&Polyglot::LocalizationImporter::ImportFromGoogle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* settings = &::il2cpp_utils::GetClassFromName("Polyglot", "Localization")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationImporter*), "ImportFromGoogle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{settings});
   }
@@ -148,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Po
 // Il2CppName: Import
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, Polyglot::GoogleDriveDownloadFormat)>(&Polyglot::LocalizationImporter::Import)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("Polyglot", "GoogleDriveDownloadFormat")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationImporter*), "Import", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text, format});
@@ -158,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: Download
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (*)(Polyglot::LocalizationDocument*, System::Action_1<::Il2CppString*>*, System::Func_2<float, bool>*)>(&Polyglot::LocalizationImporter::Download)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* document = &::il2cpp_utils::GetClassFromName("Polyglot", "LocalizationDocument")->byval_arg;
     static auto* done = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     static auto* progressbar = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single"), ::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: DownloadCustomSheet
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (*)(System::Func_2<float, bool>*)>(&Polyglot::LocalizationImporter::DownloadCustomSheet)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* progressbar = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single"), ::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationImporter*), "DownloadCustomSheet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{progressbar});
   }
@@ -178,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: ImportFromFiles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Polyglot::Localization*)>(&Polyglot::LocalizationImporter::ImportFromFiles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* settings = &::il2cpp_utils::GetClassFromName("Polyglot", "Localization")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationImporter*), "ImportFromFiles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{settings});
   }
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Po
 // Il2CppName: ImportInputFiles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Polyglot::LocalizationImporter::ImportInputFiles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationImporter*), "ImportInputFiles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -195,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: ImportTextFile
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, Polyglot::GoogleDriveDownloadFormat)>(&Polyglot::LocalizationImporter::ImportTextFile)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("Polyglot", "GoogleDriveDownloadFormat")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationImporter*), "ImportTextFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text, format});
@@ -205,7 +205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: IsLineBreak
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Polyglot::LocalizationImporter::IsLineBreak)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* currentString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationImporter*), "IsLineBreak", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{currentString});
   }
@@ -214,7 +214,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: GetLanguages
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (*)(::Il2CppString*, System::Collections::Generic::List_1<Polyglot::Language>*)>(&Polyglot::LocalizationImporter::GetLanguages)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* supportedLanguages = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Polyglot", "Language")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationImporter*), "GetLanguages", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key, supportedLanguages});
@@ -224,7 +224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: GetLanguagesStartsWith
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<::Il2CppString*>*>* (*)(::Il2CppString*)>(&Polyglot::LocalizationImporter::GetLanguagesStartsWith)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationImporter*), "GetLanguagesStartsWith", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
   }
@@ -233,7 +233,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: GetLanguagesContains
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<::Il2CppString*>*>* (*)(::Il2CppString*)>(&Polyglot::LocalizationImporter::GetLanguagesContains)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationImporter*), "GetLanguagesContains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
   }
@@ -242,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: Refresh
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Polyglot::LocalizationImporter::Refresh)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationImporter*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -250,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: GetKeys
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (*)()>(&Polyglot::LocalizationImporter::GetKeys)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationImporter*), "GetKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

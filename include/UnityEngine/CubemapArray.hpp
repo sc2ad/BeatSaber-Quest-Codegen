@@ -91,7 +91,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CubemapArray*, "UnityEngine", "CubemapArray"
 // Il2CppName: Internal_CreateImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::CubemapArray*, int, int, int, UnityEngine::Experimental::Rendering::GraphicsFormat, UnityEngine::Experimental::Rendering::TextureCreationFlags)>(&UnityEngine::CubemapArray::Internal_CreateImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mono = &::il2cpp_utils::GetClassFromName("UnityEngine", "CubemapArray")->byval_arg;
     static auto* ext = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: Internal_Create
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::CubemapArray*, int, int, int, UnityEngine::Experimental::Rendering::GraphicsFormat, UnityEngine::Experimental::Rendering::TextureCreationFlags)>(&UnityEngine::CubemapArray::Internal_Create)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mono = &::il2cpp_utils::GetClassFromName("UnityEngine", "CubemapArray")->byval_arg;
     static auto* ext = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -143,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: get_isReadable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::CubemapArray::*)()>(&UnityEngine::CubemapArray::get_isReadable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::CubemapArray*), "get_isReadable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

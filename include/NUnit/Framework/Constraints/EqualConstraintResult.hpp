@@ -168,7 +168,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::EqualConstraintResult*, "N
 // Il2CppName: DisplayDifferences
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::EqualConstraintResult::*)(NUnit::Framework::Constraints::MessageWriter*, ::Il2CppObject*, ::Il2CppObject*, int)>(&NUnit::Framework::Constraints::EqualConstraintResult::DisplayDifferences)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "MessageWriter")->byval_arg;
     static auto* expected = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* actual = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -180,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Il2CppName: DisplayStringDifferences
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::EqualConstraintResult::*)(NUnit::Framework::Constraints::MessageWriter*, ::Il2CppString*, ::Il2CppString*)>(&NUnit::Framework::Constraints::EqualConstraintResult::DisplayStringDifferences)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "MessageWriter")->byval_arg;
     static auto* expected = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* actual = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -191,7 +191,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Il2CppName: DisplayStreamDifferences
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::EqualConstraintResult::*)(NUnit::Framework::Constraints::MessageWriter*, System::IO::Stream*, System::IO::Stream*, int)>(&NUnit::Framework::Constraints::EqualConstraintResult::DisplayStreamDifferences)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "MessageWriter")->byval_arg;
     static auto* expected = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     static auto* actual = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
@@ -203,7 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Il2CppName: DisplayCollectionDifferences
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::EqualConstraintResult::*)(NUnit::Framework::Constraints::MessageWriter*, System::Collections::ICollection*, System::Collections::ICollection*, int)>(&NUnit::Framework::Constraints::EqualConstraintResult::DisplayCollectionDifferences)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "MessageWriter")->byval_arg;
     static auto* expected = &::il2cpp_utils::GetClassFromName("System.Collections", "ICollection")->byval_arg;
     static auto* actual = &::il2cpp_utils::GetClassFromName("System.Collections", "ICollection")->byval_arg;
@@ -215,7 +215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Il2CppName: DisplayTypesAndSizes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::EqualConstraintResult::*)(NUnit::Framework::Constraints::MessageWriter*, System::Collections::IEnumerable*, System::Collections::IEnumerable*, int)>(&NUnit::Framework::Constraints::EqualConstraintResult::DisplayTypesAndSizes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "MessageWriter")->byval_arg;
     static auto* expected = &::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerable")->byval_arg;
     static auto* actual = &::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerable")->byval_arg;
@@ -227,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Il2CppName: DisplayFailurePoint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::EqualConstraintResult::*)(NUnit::Framework::Constraints::MessageWriter*, System::Collections::IEnumerable*, System::Collections::IEnumerable*, NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*, int)>(&NUnit::Framework::Constraints::EqualConstraintResult::DisplayFailurePoint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "MessageWriter")->byval_arg;
     static auto* expected = &::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerable")->byval_arg;
     static auto* actual = &::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerable")->byval_arg;
@@ -240,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Il2CppName: DisplayEnumerableDifferences
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::EqualConstraintResult::*)(NUnit::Framework::Constraints::MessageWriter*, System::Collections::IEnumerable*, System::Collections::IEnumerable*, int)>(&NUnit::Framework::Constraints::EqualConstraintResult::DisplayEnumerableDifferences)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "MessageWriter")->byval_arg;
     static auto* expected = &::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerable")->byval_arg;
     static auto* actual = &::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerable")->byval_arg;
@@ -252,7 +252,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NUnit::Framework::Constraints::EqualConstraintResult::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::EqualConstraintResult*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -260,7 +260,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: WriteMessageTo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::EqualConstraintResult::*)(NUnit::Framework::Constraints::MessageWriter*)>(&NUnit::Framework::Constraints::EqualConstraintResult::WriteMessageTo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "MessageWriter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::EqualConstraintResult*), "WriteMessageTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{writer});
   }

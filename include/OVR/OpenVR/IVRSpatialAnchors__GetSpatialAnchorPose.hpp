@@ -70,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorPose*, "
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRSpatialAnchorError (OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorPose::*)(uint, OVR::OpenVR::ETrackingUniverseOrigin, OVR::OpenVR::SpatialAnchorPose_t&)>(&OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorPose::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* unHandle = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* eOrigin = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackingUniverseOrigin")->byval_arg;
     static auto* pPoseOut = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "SpatialAnchorPose_t")->this_arg;
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorPose::*)(uint, OVR::OpenVR::ETrackingUniverseOrigin, OVR::OpenVR::SpatialAnchorPose_t&, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorPose::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* unHandle = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* eOrigin = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackingUniverseOrigin")->byval_arg;
     static auto* pPoseOut = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "SpatialAnchorPose_t")->this_arg;
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRSpatialAnchorError (OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorPose::*)(OVR::OpenVR::SpatialAnchorPose_t&, System::IAsyncResult*)>(&OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorPose::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pPoseOut = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "SpatialAnchorPose_t")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorPose*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pPoseOut, result});

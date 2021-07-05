@@ -70,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNetwork::$$c__DisplayClass13_0*, "Mono.Net",
 // Il2CppName: <ExecuteProxyAutoConfigurationURL>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::CFNetwork::$$c__DisplayClass13_0::*)(System::IntPtr, System::IntPtr, System::IntPtr)>(&Mono::Net::CFNetwork::$$c__DisplayClass13_0::$ExecuteProxyAutoConfigurationURL$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* client = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* proxyList = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;

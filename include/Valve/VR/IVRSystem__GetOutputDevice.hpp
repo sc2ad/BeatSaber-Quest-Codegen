@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetOutputDevice*, "Valve.VR", "IVR
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRSystem::_GetOutputDevice::*)(uint64_t&, Valve::VR::ETextureType, System::IntPtr)>(&Valve::VR::IVRSystem::_GetOutputDevice::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pnDevice = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
     static auto* textureType = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETextureType")->byval_arg;
     static auto* pInstance = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRSystem::_GetOutputDevice::*)(uint64_t&, Valve::VR::ETextureType, System::IntPtr, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRSystem::_GetOutputDevice::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pnDevice = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
     static auto* textureType = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETextureType")->byval_arg;
     static auto* pInstance = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRSystem::_GetOutputDevice::*)(uint64_t&, System::IAsyncResult*)>(&Valve::VR::IVRSystem::_GetOutputDevice::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pnDevice = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetOutputDevice*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pnDevice, result});

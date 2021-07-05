@@ -36,7 +36,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Field::IFiniteField*, "Org.Bounc
 // Il2CppName: get_Characteristic
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Math::Field::IFiniteField::*)()>(&Org::BouncyCastle::Math::Field::IFiniteField::get_Characteristic)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Field::IFiniteField*), "get_Characteristic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -44,7 +44,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: get_Dimension
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Math::Field::IFiniteField::*)()>(&Org::BouncyCastle::Math::Field::IFiniteField::get_Dimension)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Field::IFiniteField*), "get_Dimension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

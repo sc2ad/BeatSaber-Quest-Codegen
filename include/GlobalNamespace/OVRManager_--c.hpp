@@ -74,7 +74,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRManager_$$c*, "", "OVRManager/<>c");
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRManager_$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRManager_$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <InitOVRManager>b__337_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::OVRManager_$$c::*)(float)>(&GlobalNamespace::OVRManager_$$c::$InitOVRManager$b__337_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* f = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRManager_$$c*), "<InitOVRManager>b__337_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{f});
   }
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: <FindMainCamera>b__345_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::OVRManager_$$c::*)(UnityEngine::Camera*, UnityEngine::Camera*)>(&GlobalNamespace::OVRManager_$$c::$FindMainCamera$b__345_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c0 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     static auto* c1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRManager_$$c*), "<FindMainCamera>b__345_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c0, c1});

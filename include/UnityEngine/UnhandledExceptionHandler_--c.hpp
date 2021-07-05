@@ -62,7 +62,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnhandledExceptionHandler::$$c*, "UnityEngin
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::UnhandledExceptionHandler::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UnhandledExceptionHandler::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -70,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <RegisterUECatcher>b__0_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UnhandledExceptionHandler::$$c::*)(::Il2CppObject*, System::UnhandledExceptionEventArgs*)>(&UnityEngine::UnhandledExceptionHandler::$$c::$RegisterUECatcher$b__0_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sender = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* e = &::il2cpp_utils::GetClassFromName("System", "UnhandledExceptionEventArgs")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UnhandledExceptionHandler::$$c*), "<RegisterUECatcher>b__0_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sender, e});

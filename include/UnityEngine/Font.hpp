@@ -103,7 +103,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Font*, "UnityEngine", "Font");
 // Il2CppName: add_textureRebuilt
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<UnityEngine::Font*>*)>(&UnityEngine::Font::add_textureRebuilt)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Font")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Font*), "add_textureRebuilt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: remove_textureRebuilt
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<UnityEngine::Font*>*)>(&UnityEngine::Font::remove_textureRebuilt)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Font")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Font*), "remove_textureRebuilt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: get_material
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (UnityEngine::Font::*)()>(&UnityEngine::Font::get_material)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Font*), "get_material", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -129,7 +129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_dynamic
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Font::*)()>(&UnityEngine::Font::get_dynamic)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Font*), "get_dynamic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -137,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: get_fontSize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Font::*)()>(&UnityEngine::Font::get_fontSize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Font*), "get_fontSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -145,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: InvokeTextureRebuilt_Internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Font*)>(&UnityEngine::Font::InvokeTextureRebuilt_Internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* font = &::il2cpp_utils::GetClassFromName("UnityEngine", "Font")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Font*), "InvokeTextureRebuilt_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{font});
   }
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: HasCharacter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Font::*)(::Il2CppChar)>(&UnityEngine::Font::HasCharacter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Font*), "HasCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: HasCharacter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Font::*)(int)>(&UnityEngine::Font::HasCharacter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Font*), "HasCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
@@ -172,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: Internal_CreateFont
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Font*, ::Il2CppString*)>(&UnityEngine::Font::Internal_CreateFont)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* self = &::il2cpp_utils::GetClassFromName("UnityEngine", "Font")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Font*), "Internal_CreateFont", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{self, name});

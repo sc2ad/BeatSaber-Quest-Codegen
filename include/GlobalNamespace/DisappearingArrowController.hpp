@@ -58,7 +58,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisappearingArrowController*, "", "Disap
 // Il2CppName: get_gameNoteController
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameNoteController* (GlobalNamespace::DisappearingArrowController::*)()>(&GlobalNamespace::DisappearingArrowController::get_gameNoteController)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisappearingArrowController*), "get_gameNoteController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

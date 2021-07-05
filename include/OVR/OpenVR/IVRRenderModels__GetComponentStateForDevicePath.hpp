@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRRenderModels::_GetComponentStateForDevice
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::IVRRenderModels::_GetComponentStateForDevicePath::*)(::Il2CppString*, ::Il2CppString*, uint64_t, OVR::OpenVR::RenderModel_ControllerMode_State_t&, OVR::OpenVR::RenderModel_ComponentState_t&)>(&OVR::OpenVR::IVRRenderModels::_GetComponentStateForDevicePath::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchRenderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchComponentName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* devicePath = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRRenderModels::_GetComponentStateForDevicePath::*)(::Il2CppString*, ::Il2CppString*, uint64_t, OVR::OpenVR::RenderModel_ControllerMode_State_t&, OVR::OpenVR::RenderModel_ComponentState_t&, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRRenderModels::_GetComponentStateForDevicePath::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchRenderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchComponentName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* devicePath = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
@@ -96,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::IVRRenderModels::_GetComponentStateForDevicePath::*)(OVR::OpenVR::RenderModel_ControllerMode_State_t&, OVR::OpenVR::RenderModel_ComponentState_t&, System::IAsyncResult*)>(&OVR::OpenVR::IVRRenderModels::_GetComponentStateForDevicePath::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pState = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "RenderModel_ControllerMode_State_t")->this_arg;
     static auto* pComponentState = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "RenderModel_ComponentState_t")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;

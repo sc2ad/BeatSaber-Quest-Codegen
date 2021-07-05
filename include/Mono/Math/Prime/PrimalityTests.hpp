@@ -42,7 +42,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Math::Prime::PrimalityTests*, "Mono.Math.Prime", "P
 // Il2CppName: GetSPPRounds
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Mono::Math::BigInteger*, Mono::Math::Prime::ConfidenceFactor)>(&Mono::Math::Prime::PrimalityTests::GetSPPRounds)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bi = &::il2cpp_utils::GetClassFromName("Mono.Math", "BigInteger")->byval_arg;
     static auto* confidence = &::il2cpp_utils::GetClassFromName("Mono.Math.Prime", "ConfidenceFactor")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::Prime::PrimalityTests*), "GetSPPRounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bi, confidence});
@@ -52,7 +52,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Mon
 // Il2CppName: RabinMillerTest
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Mono::Math::BigInteger*, Mono::Math::Prime::ConfidenceFactor)>(&Mono::Math::Prime::PrimalityTests::RabinMillerTest)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* n = &::il2cpp_utils::GetClassFromName("Mono.Math", "BigInteger")->byval_arg;
     static auto* confidence = &::il2cpp_utils::GetClassFromName("Mono.Math.Prime", "ConfidenceFactor")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::Prime::PrimalityTests*), "RabinMillerTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{n, confidence});

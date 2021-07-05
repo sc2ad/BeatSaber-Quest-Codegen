@@ -49,7 +49,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::ICertificateValidator2*, "Mono
 // Il2CppName: ValidateCertificate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::ValidationResult* (Mono::Security::Interface::ICertificateValidator2::*)(::Il2CppString*, bool, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509Chain*)>(&Mono::Security::Interface::ICertificateValidator2::ValidateCertificate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* targetHost = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* serverMode = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* leaf = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate")->byval_arg;

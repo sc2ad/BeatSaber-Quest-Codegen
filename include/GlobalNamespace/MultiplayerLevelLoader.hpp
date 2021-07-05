@@ -250,7 +250,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelLoader::MultiplayerBeatm
 // Il2CppName: add_stillDownloadingSongEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelLoader::*)(System::Action*)>(&GlobalNamespace::MultiplayerLevelLoader::add_stillDownloadingSongEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelLoader*), "add_stillDownloadingSongEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -259,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_stillDownloadingSongEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelLoader::*)(System::Action*)>(&GlobalNamespace::MultiplayerLevelLoader::remove_stillDownloadingSongEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelLoader*), "remove_stillDownloadingSongEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -268,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_countdownFinishedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelLoader::*)(System::Action_5<GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::BeatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::GameplayModifiers*>*)>(&GlobalNamespace::MultiplayerLevelLoader::add_countdownFinishedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`5"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel"), ::il2cpp_utils::GetClassFromName("", "BeatmapDifficulty"), ::il2cpp_utils::GetClassFromName("", "BeatmapCharacteristicSO"), ::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap"), ::il2cpp_utils::GetClassFromName("", "GameplayModifiers")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelLoader*), "add_countdownFinishedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -277,7 +277,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_countdownFinishedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelLoader::*)(System::Action_5<GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::BeatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::GameplayModifiers*>*)>(&GlobalNamespace::MultiplayerLevelLoader::remove_countdownFinishedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`5"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel"), ::il2cpp_utils::GetClassFromName("", "BeatmapDifficulty"), ::il2cpp_utils::GetClassFromName("", "BeatmapCharacteristicSO"), ::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap"), ::il2cpp_utils::GetClassFromName("", "GameplayModifiers")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelLoader*), "remove_countdownFinishedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -286,7 +286,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: LoadLevel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelLoader::*)(GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayModifiers*, float)>(&GlobalNamespace::MultiplayerLevelLoader::LoadLevel)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmapId = &::il2cpp_utils::GetClassFromName("", "BeatmapIdentifierNetSerializable")->byval_arg;
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     static auto* initialStartTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -297,7 +297,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetNewStartTime
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelLoader::*)(float)>(&GlobalNamespace::MultiplayerLevelLoader::SetNewStartTime)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* newStartTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelLoader*), "SetNewStartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newStartTime});
   }
@@ -306,7 +306,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ClearLoading
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelLoader::*)()>(&GlobalNamespace::MultiplayerLevelLoader::ClearLoading)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelLoader*), "ClearLoading", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -314,7 +314,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Tick
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerLevelLoader::*)()>(&GlobalNamespace::MultiplayerLevelLoader::Tick)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelLoader*), "Tick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -322,7 +322,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <LoadLevel>b__19_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerLevelLoader::*)(GlobalNamespace::PreviewDifficultyBeatmapSet*)>(&GlobalNamespace::MultiplayerLevelLoader::$LoadLevel$b__19_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* set = &::il2cpp_utils::GetClassFromName("", "PreviewDifficultyBeatmapSet")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelLoader*), "<LoadLevel>b__19_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{set});
   }

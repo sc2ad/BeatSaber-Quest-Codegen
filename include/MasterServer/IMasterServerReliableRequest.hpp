@@ -35,7 +35,7 @@ DEFINE_IL2CPP_ARG_TYPE(MasterServer::IMasterServerReliableRequest*, "MasterServe
 // Il2CppName: get_requestId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (MasterServer::IMasterServerReliableRequest::*)()>(&MasterServer::IMasterServerReliableRequest::get_requestId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IMasterServerReliableRequest*), "get_requestId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -43,7 +43,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Maste
 // Il2CppName: WithRequestId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::IMasterServerReliableRequest* (MasterServer::IMasterServerReliableRequest::*)(uint)>(&MasterServer::IMasterServerReliableRequest::WithRequestId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* requestId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IMasterServerReliableRequest*), "WithRequestId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{requestId});
   }

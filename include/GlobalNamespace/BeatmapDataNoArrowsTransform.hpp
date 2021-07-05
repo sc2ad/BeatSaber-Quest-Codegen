@@ -46,7 +46,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataNoArrowsTransform*, "", "Beat
 // Il2CppName: CreateTransformedData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IReadonlyBeatmapData* (*)(GlobalNamespace::IReadonlyBeatmapData*)>(&GlobalNamespace::BeatmapDataNoArrowsTransform::CreateTransformedData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmapData = &::il2cpp_utils::GetClassFromName("", "IReadonlyBeatmapData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataNoArrowsTransform*), "CreateTransformedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapData});
   }

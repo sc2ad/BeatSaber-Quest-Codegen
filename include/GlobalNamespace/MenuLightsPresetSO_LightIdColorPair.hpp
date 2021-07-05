@@ -76,7 +76,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*, "
 // Il2CppName: get_lightColor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::MenuLightsPresetSO::LightIdColorPair::*)()>(&GlobalNamespace::MenuLightsPresetSO::LightIdColorPair::get_lightColor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuLightsPresetSO::LightIdColorPair*), "get_lightColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -77,7 +77,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowTextOnGameEventController::EventText
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ShowTextOnGameEventController::EventTextBinding::*)(GlobalNamespace::TextFadeTransitions*)>(&GlobalNamespace::ShowTextOnGameEventController::EventTextBinding::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* textFadeTransitions = &::il2cpp_utils::GetClassFromName("", "TextFadeTransitions")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{textFadeTransitions});
   }
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Deinit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ShowTextOnGameEventController::EventTextBinding::*)()>(&GlobalNamespace::ShowTextOnGameEventController::EventTextBinding::Deinit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*), "Deinit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleGameEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ShowTextOnGameEventController::EventTextBinding::*)()>(&GlobalNamespace::ShowTextOnGameEventController::EventTextBinding::HandleGameEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShowTextOnGameEventController::EventTextBinding*), "HandleGameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

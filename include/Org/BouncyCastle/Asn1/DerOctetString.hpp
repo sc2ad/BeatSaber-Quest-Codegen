@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerOctetString*, "Org.BouncyCast
 // Il2CppName: Encode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::DerOctetString::*)(Org::BouncyCastle::Asn1::DerOutputStream*)>(&Org::BouncyCastle::Asn1::DerOctetString::Encode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* derOut = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "DerOutputStream")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerOctetString*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{derOut});
   }

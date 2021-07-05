@@ -122,7 +122,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerGamePoseGeneratorMirror*, "", 
 // Il2CppName: FindPlayerToMirror
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)()>(&GlobalNamespace::MockPlayerGamePoseGeneratorMirror::FindPlayerToMirror)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerGamePoseGeneratorMirror*), "FindPlayerToMirror", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleNoteWasMissed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)(::Il2CppString*, float, float, GlobalNamespace::NoteMissInfoNetSerializable*)>(&GlobalNamespace::MockPlayerGamePoseGeneratorMirror::HandleNoteWasMissed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* syncTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* songTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleNoteWasCut
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)(::Il2CppString*, float, float, GlobalNamespace::NoteCutInfoNetSerializable*)>(&GlobalNamespace::MockPlayerGamePoseGeneratorMirror::HandleNoteWasCut)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* syncTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* songTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleScoreSyncStateUpdate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)(GlobalNamespace::StandardScoreSyncStateNetSerializable*, GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::MockPlayerGamePoseGeneratorMirror::HandleScoreSyncStateUpdate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* nodePose = &::il2cpp_utils::GetClassFromName("", "StandardScoreSyncStateNetSerializable")->byval_arg;
     static auto* player = &::il2cpp_utils::GetClassFromName("", "IConnectedPlayer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerGamePoseGeneratorMirror*), "HandleScoreSyncStateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodePose, player});
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleLevelFinished
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)(::Il2CppString*, GlobalNamespace::MultiplayerLevelCompletionResults*)>(&GlobalNamespace::MockPlayerGamePoseGeneratorMirror::HandleLevelFinished)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* results = &::il2cpp_utils::GetClassFromName("", "MultiplayerLevelCompletionResults")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerGamePoseGeneratorMirror*), "HandleLevelFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId, results});
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)()>(&GlobalNamespace::MockPlayerGamePoseGeneratorMirror::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerGamePoseGeneratorMirror*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -182,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SendPoses
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)(float, GlobalNamespace::MockBeatmapData*, GlobalNamespace::GameplayModifiers*, System::Threading::CancellationToken, System::Action*)>(&GlobalNamespace::MockPlayerGamePoseGeneratorMirror::SendPoses)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* introStartTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* beatmapData = &::il2cpp_utils::GetClassFromName("", "MockBeatmapData")->byval_arg;
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;

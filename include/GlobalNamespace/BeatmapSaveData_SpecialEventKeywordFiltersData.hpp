@@ -59,7 +59,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFilt
 // Il2CppName: get_keywords
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword*>* (GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData::*)()>(&GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData::get_keywords)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData*), "get_keywords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

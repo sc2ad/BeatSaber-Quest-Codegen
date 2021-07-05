@@ -62,7 +62,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::DateTimeParse::MatchNumberDelegate*, "System", "D
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::DateTimeParse::MatchNumberDelegate::*)(System::__DTString&, int, int&)>(&System::DateTimeParse::MatchNumberDelegate::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "__DTString")->this_arg;
     static auto* digitLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -73,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::DateTimeParse::MatchNumberDelegate::*)(System::__DTString&, int, int&, System::AsyncCallback*, ::Il2CppObject*)>(&System::DateTimeParse::MatchNumberDelegate::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "__DTString")->this_arg;
     static auto* digitLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::DateTimeParse::MatchNumberDelegate::*)(System::__DTString&, int&, System::IAsyncResult*)>(&System::DateTimeParse::MatchNumberDelegate::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "__DTString")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* __result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;

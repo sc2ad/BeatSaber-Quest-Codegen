@@ -67,7 +67,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::MonoCustomAttrs::AttributeInfo*, "System", "MonoC
 // Il2CppName: get_Usage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::AttributeUsageAttribute* (System::MonoCustomAttrs::AttributeInfo::*)()>(&System::MonoCustomAttrs::AttributeInfo::get_Usage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::MonoCustomAttrs::AttributeInfo*), "get_Usage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Att
 // Il2CppName: get_InheritanceLevel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::MonoCustomAttrs::AttributeInfo::*)()>(&System::MonoCustomAttrs::AttributeInfo::get_InheritanceLevel)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::MonoCustomAttrs::AttributeInfo*), "get_InheritanceLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

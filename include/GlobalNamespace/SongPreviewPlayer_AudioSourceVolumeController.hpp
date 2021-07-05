@@ -76,7 +76,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeCont
 // Il2CppName: set_volume
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::*)(float)>(&GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::set_volume)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController*), "set_volume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_volume
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::*)()>(&GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::get_volume)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController*), "get_volume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: get_maxVolume
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::*)()>(&GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::get_maxVolume)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController*), "get_maxVolume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: set_maxVolume
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::*)(float)>(&GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController::set_maxVolume)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPreviewPlayer::AudioSourceVolumeController*), "set_maxVolume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

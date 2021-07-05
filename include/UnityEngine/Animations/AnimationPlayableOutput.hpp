@@ -103,7 +103,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationPlayableOutput, "UnityE
 // Il2CppName: Create
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animations::AnimationPlayableOutput (*)(UnityEngine::Playables::PlayableGraph, ::Il2CppString*, UnityEngine::Animator*)>(&UnityEngine::Animations::AnimationPlayableOutput::Create)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("UnityEngine", "Animator")->byval_arg;
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_Null
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animations::AnimationPlayableOutput (*)()>(&UnityEngine::Animations::AnimationPlayableOutput::get_Null)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationPlayableOutput), "get_Null", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -126,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetHandle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableOutputHandle (UnityEngine::Animations::AnimationPlayableOutput::*)()>(&UnityEngine::Animations::AnimationPlayableOutput::GetHandle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationPlayableOutput), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -137,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetTarget
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animator* (UnityEngine::Animations::AnimationPlayableOutput::*)()>(&UnityEngine::Animations::AnimationPlayableOutput::GetTarget)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationPlayableOutput), "GetTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -145,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: SetTarget
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animations::AnimationPlayableOutput::*)(UnityEngine::Animator*)>(&UnityEngine::Animations::AnimationPlayableOutput::SetTarget)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Animator")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationPlayableOutput), "SetTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: InternalGetTarget
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Animator* (*)(UnityEngine::Playables::PlayableOutputHandle&)>(&UnityEngine::Animations::AnimationPlayableOutput::InternalGetTarget)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableOutputHandle")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationPlayableOutput), "InternalGetTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle});
   }
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InternalSetTarget
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableOutputHandle&, UnityEngine::Animator*)>(&UnityEngine::Animations::AnimationPlayableOutput::InternalSetTarget)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableOutputHandle")->this_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("UnityEngine", "Animator")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimationPlayableOutput), "InternalSetTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle, target});

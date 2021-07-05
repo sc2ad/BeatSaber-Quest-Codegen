@@ -116,7 +116,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformUserAuthTokenData::PlatformEnvir
 // Il2CppName: get_token
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PlatformUserAuthTokenData::*)()>(&GlobalNamespace::PlatformUserAuthTokenData::get_token)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformUserAuthTokenData*), "get_token", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -124,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_token
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformUserAuthTokenData::*)(::Il2CppString*)>(&GlobalNamespace::PlatformUserAuthTokenData::set_token)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformUserAuthTokenData*), "set_token", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_validPlatformEnvironment
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment (GlobalNamespace::PlatformUserAuthTokenData::*)()>(&GlobalNamespace::PlatformUserAuthTokenData::get_validPlatformEnvironment)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformUserAuthTokenData*), "get_validPlatformEnvironment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: set_validPlatformEnvironment
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformUserAuthTokenData::*)(GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment)>(&GlobalNamespace::PlatformUserAuthTokenData::set_validPlatformEnvironment)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "PlatformUserAuthTokenData/PlatformEnviroment")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformUserAuthTokenData*), "set_validPlatformEnvironment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

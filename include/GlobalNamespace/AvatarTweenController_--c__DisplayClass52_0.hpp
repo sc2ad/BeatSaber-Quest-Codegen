@@ -65,7 +65,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarTweenController::$$c__DisplayClass
 // Il2CppName: <CreatePopTween>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarTweenController::$$c__DisplayClass52_0::*)(float)>(&GlobalNamespace::AvatarTweenController::$$c__DisplayClass52_0::$CreatePopTween$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* val = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarTweenController::$$c__DisplayClass52_0*), "<CreatePopTween>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val});
   }

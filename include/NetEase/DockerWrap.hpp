@@ -80,7 +80,7 @@ DEFINE_IL2CPP_ARG_TYPE(NetEase::DockerWrap*, "NetEase", "DockerWrap");
 // Il2CppName: SetInitializeCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<NetEase::Docker::InitializeData>*)>(&NetEase::DockerWrap::SetInitializeCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* callback = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("NetEase.Docker", "InitializeData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NetEase::DockerWrap*), "SetInitializeCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callback});
   }
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: Initialize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NetEase::DockerWrap::Initialize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NetEase::DockerWrap*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: SetLoginCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<NetEase::Docker::LoginData>*)>(&NetEase::DockerWrap::SetLoginCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* callback = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("NetEase.Docker", "LoginData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NetEase::DockerWrap*), "SetLoginCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callback});
   }
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: Login
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NetEase::DockerWrap::Login)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NetEase::DockerWrap*), "Login", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -114,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: SetLogoutCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<NetEase::Docker::LogoutData>*)>(&NetEase::DockerWrap::SetLogoutCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* callback = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("NetEase.Docker", "LogoutData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NetEase::DockerWrap*), "SetLogoutCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callback});
   }
@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: Logout
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NetEase::DockerWrap::Logout)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NetEase::DockerWrap*), "Logout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: UploadScore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NetEase::Docker::UploadScoreData)>(&NetEase::DockerWrap::UploadScore)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* scoreData = &::il2cpp_utils::GetClassFromName("NetEase.Docker", "UploadScoreData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NetEase::DockerWrap*), "UploadScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scoreData});
   }
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ne
 // Il2CppName: WillProvideHighscore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&NetEase::DockerWrap::WillProvideHighscore)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NetEase::DockerWrap*), "WillProvideHighscore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -148,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Il2CppName: SetHighscoreReceivedCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<NetEase::Docker::ReceivedHighscoreData>*)>(&NetEase::DockerWrap::SetHighscoreReceivedCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* callbackAction = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("NetEase.Docker", "ReceivedHighscoreData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NetEase::DockerWrap*), "SetHighscoreReceivedCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callbackAction});
   }
@@ -157,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: RequestHighscoreList
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NetEase::Docker::RequestHighscoreData)>(&NetEase::DockerWrap::RequestHighscoreList)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* highscoreRequest = &::il2cpp_utils::GetClassFromName("NetEase.Docker", "RequestHighscoreData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NetEase::DockerWrap*), "RequestHighscoreList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{highscoreRequest});
   }
@@ -166,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ne
 // Il2CppName: UpdateLoop
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NetEase::DockerWrap::UpdateLoop)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NetEase::DockerWrap*), "UpdateLoop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

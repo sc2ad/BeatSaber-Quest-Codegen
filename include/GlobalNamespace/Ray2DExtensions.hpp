@@ -37,7 +37,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Ray2DExtensions*, "", "Ray2DExtensions")
 // Il2CppName: CircleIntersections
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Ray2D, UnityEngine::Vector2, float, ::Array<float>*)>(&GlobalNamespace::Ray2DExtensions::CircleIntersections)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray2D")->byval_arg;
     static auto* circleCenter = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

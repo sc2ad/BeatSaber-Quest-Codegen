@@ -67,7 +67,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRResources*, "OVR.OpenVR", "CVRResources")
 // Il2CppName: LoadSharedResource
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRResources::*)(::Il2CppString*, ::Il2CppString*, uint)>(&OVR::OpenVR::CVRResources::LoadSharedResource)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchResourceName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchBuffer = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* unBufferLen = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::
 // Il2CppName: GetResourceFullPath
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRResources::*)(::Il2CppString*, ::Il2CppString*, System::Text::StringBuilder*, uint)>(&OVR::OpenVR::CVRResources::GetResourceFullPath)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchResourceName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchResourceTypeDirectory = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchPathBuffer = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;

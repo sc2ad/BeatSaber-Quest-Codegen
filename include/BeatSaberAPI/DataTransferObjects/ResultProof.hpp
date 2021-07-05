@@ -55,7 +55,7 @@ DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::ResultProof*, "BeatSab
 // Il2CppName: get_proof
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (BeatSaberAPI::DataTransferObjects::ResultProof::*)()>(&BeatSaberAPI::DataTransferObjects::ResultProof::get_proof)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(BeatSaberAPI::DataTransferObjects::ResultProof*), "get_proof", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -63,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_proof
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatSaberAPI::DataTransferObjects::ResultProof::*)(::Il2CppString*)>(&BeatSaberAPI::DataTransferObjects::ResultProof::set_proof)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(BeatSaberAPI::DataTransferObjects::ResultProof*), "set_proof", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

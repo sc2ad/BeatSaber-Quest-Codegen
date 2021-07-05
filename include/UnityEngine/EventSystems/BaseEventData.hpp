@@ -75,7 +75,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::BaseEventData*, "UnityEngine.E
 // Il2CppName: get_currentInputModule
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::BaseInputModule* (UnityEngine::EventSystems::BaseEventData::*)()>(&UnityEngine::EventSystems::BaseEventData::get_currentInputModule)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::BaseEventData*), "get_currentInputModule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_selectedObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (UnityEngine::EventSystems::BaseEventData::*)()>(&UnityEngine::EventSystems::BaseEventData::get_selectedObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::BaseEventData*), "get_selectedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_selectedObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::BaseEventData::*)(UnityEngine::GameObject*)>(&UnityEngine::EventSystems::BaseEventData::set_selectedObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::BaseEventData*), "set_selectedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

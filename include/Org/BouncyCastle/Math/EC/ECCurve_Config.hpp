@@ -86,7 +86,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECCurve::Config*, "Org.Bounc
 // Il2CppName: SetEndomorphism
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECCurve::Config* (Org::BouncyCastle::Math::EC::ECCurve::Config::*)(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*)>(&Org::BouncyCastle::Math::EC::ECCurve::Config::SetEndomorphism)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* endomorphism = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC.Endo", "ECEndomorphism")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECCurve::Config*), "SetEndomorphism", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{endomorphism});
   }
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: Create
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECCurve* (Org::BouncyCastle::Math::EC::ECCurve::Config::*)()>(&Org::BouncyCastle::Math::EC::ECCurve::Config::Create)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECCurve::Config*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

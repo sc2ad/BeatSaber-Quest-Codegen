@@ -140,7 +140,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestSaberModulationData::ModulationType,
 // Il2CppName: Evaluate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::TestSaberModulationData::*)(float)>(&GlobalNamespace::TestSaberModulationData::Evaluate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TestSaberModulationData*), "Evaluate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }

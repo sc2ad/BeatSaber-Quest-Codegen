@@ -90,7 +90,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskToApm::TaskWrapperAsyncResu
 // Il2CppName: System.IAsyncResult.get_AsyncState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Threading::Tasks::TaskToApm::TaskWrapperAsyncResult::*)()>(&System::Threading::Tasks::TaskToApm::TaskWrapperAsyncResult::System_IAsyncResult_get_AsyncState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskToApm::TaskWrapperAsyncResult*), "System.IAsyncResult.get_AsyncState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: System.IAsyncResult.get_CompletedSynchronously
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::TaskToApm::TaskWrapperAsyncResult::*)()>(&System::Threading::Tasks::TaskToApm::TaskWrapperAsyncResult::System_IAsyncResult_get_CompletedSynchronously)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskToApm::TaskWrapperAsyncResult*), "System.IAsyncResult.get_CompletedSynchronously", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: System.IAsyncResult.get_IsCompleted
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::TaskToApm::TaskWrapperAsyncResult::*)()>(&System::Threading::Tasks::TaskToApm::TaskWrapperAsyncResult::System_IAsyncResult_get_IsCompleted)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskToApm::TaskWrapperAsyncResult*), "System.IAsyncResult.get_IsCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -114,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: System.IAsyncResult.get_AsyncWaitHandle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::WaitHandle* (System::Threading::Tasks::TaskToApm::TaskWrapperAsyncResult::*)()>(&System::Threading::Tasks::TaskToApm::TaskWrapperAsyncResult::System_IAsyncResult_get_AsyncWaitHandle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskToApm::TaskWrapperAsyncResult*), "System.IAsyncResult.get_AsyncWaitHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

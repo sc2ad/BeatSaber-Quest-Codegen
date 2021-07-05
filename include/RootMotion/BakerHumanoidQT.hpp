@@ -202,7 +202,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::BakerHumanoidQT*, "RootMotion", "BakerHumanoi
 // Il2CppName: Reset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerHumanoidQT::*)()>(&RootMotion::BakerHumanoidQT::Reset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerHumanoidQT*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -210,7 +210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: SetIKKeyframes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerHumanoidQT::*)(float, UnityEngine::Avatar*, float, UnityEngine::Vector3, UnityEngine::Quaternion)>(&RootMotion::BakerHumanoidQT::SetIKKeyframes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* avatar = &::il2cpp_utils::GetClassFromName("UnityEngine", "Avatar")->byval_arg;
     static auto* humanScale = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -223,7 +223,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: SetKeyframes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerHumanoidQT::*)(float, UnityEngine::Vector3, UnityEngine::Quaternion)>(&RootMotion::BakerHumanoidQT::SetKeyframes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* pos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* rot = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -234,7 +234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: MoveLastKeyframes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerHumanoidQT::*)(float)>(&RootMotion::BakerHumanoidQT::MoveLastKeyframes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerHumanoidQT*), "MoveLastKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
@@ -243,7 +243,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: SetLoopFrame
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerHumanoidQT::*)(float)>(&RootMotion::BakerHumanoidQT::SetLoopFrame)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerHumanoidQT*), "SetLoopFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
@@ -252,7 +252,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: MoveLastKeyframe
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerHumanoidQT::*)(float, UnityEngine::AnimationCurve*)>(&RootMotion::BakerHumanoidQT::MoveLastKeyframe)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* curve = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationCurve")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerHumanoidQT*), "MoveLastKeyframe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time, curve});
@@ -262,7 +262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: MultiplyLength
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerHumanoidQT::*)(UnityEngine::AnimationCurve*, float)>(&RootMotion::BakerHumanoidQT::MultiplyLength)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* curve = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationCurve")->byval_arg;
     static auto* mlp = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerHumanoidQT*), "MultiplyLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{curve, mlp});
@@ -272,7 +272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: SetCurves
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerHumanoidQT::*)(UnityEngine::AnimationClip*&, float, float)>(&RootMotion::BakerHumanoidQT::SetCurves)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")->this_arg;
     static auto* maxError = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* lengthMlp = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

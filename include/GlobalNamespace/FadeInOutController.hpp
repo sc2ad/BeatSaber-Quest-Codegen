@@ -136,7 +136,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeInOutController*, "", "FadeInOutCont
 // Il2CppName: FadeOutInstant
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FadeInOutController::*)()>(&GlobalNamespace::FadeInOutController::FadeOutInstant)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FadeInOutController*), "FadeOutInstant", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: FadeIn
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FadeInOutController::*)()>(&GlobalNamespace::FadeInOutController::FadeIn)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FadeInOutController*), "FadeIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -152,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: FadeOut
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FadeInOutController::*)()>(&GlobalNamespace::FadeInOutController::FadeOut)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FadeInOutController*), "FadeOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: FadeIn
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FadeInOutController::*)(float)>(&GlobalNamespace::FadeInOutController::FadeIn)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FadeInOutController*), "FadeIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{duration});
   }
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: FadeOut
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FadeInOutController::*)(float)>(&GlobalNamespace::FadeInOutController::FadeOut)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FadeInOutController*), "FadeOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{duration});
   }
@@ -178,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: FadeIn
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FadeInOutController::*)(System::Action*)>(&GlobalNamespace::FadeInOutController::FadeIn)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* fadeInCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FadeInOutController*), "FadeIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fadeInCallback});
   }
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: FadeOut
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FadeInOutController::*)(System::Action*)>(&GlobalNamespace::FadeInOutController::FadeOut)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* fadeOutCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FadeInOutController*), "FadeOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fadeOutCallback});
   }
@@ -196,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: FadeIn
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FadeInOutController::*)(float, System::Action*)>(&GlobalNamespace::FadeInOutController::FadeIn)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* fadeInFinishedCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FadeInOutController*), "FadeIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{duration, fadeInFinishedCallback});
@@ -206,7 +206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: FadeOut
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FadeInOutController::*)(float, System::Action*)>(&GlobalNamespace::FadeInOutController::FadeOut)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* fadeOutFinishedCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FadeInOutController*), "FadeOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{duration, fadeOutFinishedCallback});
@@ -216,7 +216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Fade
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::FadeInOutController::*)(float, float, float, float, UnityEngine::AnimationCurve*, System::Action*)>(&GlobalNamespace::FadeInOutController::Fade)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* fromValue = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* toValue = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

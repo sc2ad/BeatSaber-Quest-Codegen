@@ -80,7 +80,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DlcPromoExperimentDataSO*, "", "DlcPromo
 // Il2CppName: get_musicPackPromoInfos
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>* (GlobalNamespace::DlcPromoExperimentDataSO::*)()>(&GlobalNamespace::DlcPromoExperimentDataSO::get_musicPackPromoInfos)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DlcPromoExperimentDataSO*), "get_musicPackPromoInfos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 // Il2CppName: get_aaTestExperimentDefinition
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ExperimentDefinitionSO* (GlobalNamespace::DlcPromoExperimentDataSO::*)()>(&GlobalNamespace::DlcPromoExperimentDataSO::get_aaTestExperimentDefinition)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DlcPromoExperimentDataSO*), "get_aaTestExperimentDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -96,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_abTestExperimentDefinition
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ExperimentDefinitionSO* (GlobalNamespace::DlcPromoExperimentDataSO::*)()>(&GlobalNamespace::DlcPromoExperimentDataSO::get_abTestExperimentDefinition)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DlcPromoExperimentDataSO*), "get_abTestExperimentDefinition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

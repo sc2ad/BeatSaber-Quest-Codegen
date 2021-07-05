@@ -113,7 +113,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::GroupCollection*, "Syst
 // Il2CppName: get_Count
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::RegularExpressions::GroupCollection::*)()>(&System::Text::RegularExpressions::GroupCollection::get_Count)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::GroupCollection*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: get_Item
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::Group* (System::Text::RegularExpressions::GroupCollection::*)(int)>(&System::Text::RegularExpressions::GroupCollection::get_Item)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* groupnum = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::GroupCollection*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{groupnum});
   }
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Il2CppName: GetGroup
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::Group* (System::Text::RegularExpressions::GroupCollection::*)(int)>(&System::Text::RegularExpressions::GroupCollection::GetGroup)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* groupnum = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::GroupCollection*), "GetGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{groupnum});
   }
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Il2CppName: GetGroupImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::Group* (System::Text::RegularExpressions::GroupCollection::*)(int)>(&System::Text::RegularExpressions::GroupCollection::GetGroupImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* groupnum = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::GroupCollection*), "GetGroupImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{groupnum});
   }
@@ -148,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Il2CppName: CopyTo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::GroupCollection::*)(System::Array*, int)>(&System::Text::RegularExpressions::GroupCollection::CopyTo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
     static auto* arrayIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::GroupCollection*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array, arrayIndex});
@@ -158,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: GetEnumerator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::Text::RegularExpressions::GroupCollection::*)()>(&System::Text::RegularExpressions::GroupCollection::GetEnumerator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::GroupCollection*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

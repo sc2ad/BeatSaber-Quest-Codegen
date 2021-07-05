@@ -70,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_GetOverlayDualAnalogTransform*, "
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::IVROverlay::_GetOverlayDualAnalogTransform::*)(uint64_t, Valve::VR::EDualAnalogWhich, Valve::VR::HmdVector2_t&, float&)>(&Valve::VR::IVROverlay::_GetOverlayDualAnalogTransform::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ulOverlay = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eWhich = &::il2cpp_utils::GetClassFromName("Valve.VR", "EDualAnalogWhich")->byval_arg;
     static auto* pvCenter = &::il2cpp_utils::GetClassFromName("Valve.VR", "HmdVector2_t")->this_arg;
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVROverlay::_GetOverlayDualAnalogTransform::*)(uint64_t, Valve::VR::EDualAnalogWhich, Valve::VR::HmdVector2_t&, float&, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVROverlay::_GetOverlayDualAnalogTransform::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ulOverlay = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eWhich = &::il2cpp_utils::GetClassFromName("Valve.VR", "EDualAnalogWhich")->byval_arg;
     static auto* pvCenter = &::il2cpp_utils::GetClassFromName("Valve.VR", "HmdVector2_t")->this_arg;
@@ -96,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::IVROverlay::_GetOverlayDualAnalogTransform::*)(Valve::VR::HmdVector2_t&, float&, System::IAsyncResult*)>(&Valve::VR::IVROverlay::_GetOverlayDualAnalogTransform::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pvCenter = &::il2cpp_utils::GetClassFromName("Valve.VR", "HmdVector2_t")->this_arg;
     static auto* pfRadius = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;

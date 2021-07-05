@@ -45,7 +45,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Text::StringBuilderCache*, "System.Text", "String
 // Il2CppName: Acquire
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (*)(int)>(&System::Text::StringBuilderCache::Acquire)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* capacity = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilderCache*), "Acquire", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{capacity});
   }
@@ -54,7 +54,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Il2CppName: Release
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*)>(&System::Text::StringBuilderCache::Release)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilderCache*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sb});
   }
@@ -63,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: GetStringAndRelease
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Text::StringBuilder*)>(&System::Text::StringBuilderCache::GetStringAndRelease)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilderCache*), "GetStringAndRelease", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sb});
   }

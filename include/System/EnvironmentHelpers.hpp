@@ -27,7 +27,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::EnvironmentHelpers*, "System", "EnvironmentHelper
 // Il2CppName: IsWindowsVistaOrAbove
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::EnvironmentHelpers::IsWindowsVistaOrAbove)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::EnvironmentHelpers*), "IsWindowsVistaOrAbove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

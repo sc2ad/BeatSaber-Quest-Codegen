@@ -147,7 +147,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileBrowserTableView*, "", "FileBrowserT
 // Il2CppName: add_didSelectRow
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FileBrowserTableView::*)(System::Action_2<GlobalNamespace::FileBrowserTableView*, GlobalNamespace::FileBrowserItem*>*)>(&GlobalNamespace::FileBrowserTableView::add_didSelectRow)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "FileBrowserTableView"), ::il2cpp_utils::GetClassFromName("", "FileBrowserItem")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserTableView*), "add_didSelectRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_didSelectRow
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FileBrowserTableView::*)(System::Action_2<GlobalNamespace::FileBrowserTableView*, GlobalNamespace::FileBrowserItem*>*)>(&GlobalNamespace::FileBrowserTableView::remove_didSelectRow)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "FileBrowserTableView"), ::il2cpp_utils::GetClassFromName("", "FileBrowserItem")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserTableView*), "remove_didSelectRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FileBrowserTableView::*)(::Array<GlobalNamespace::FileBrowserItem*>*)>(&GlobalNamespace::FileBrowserTableView::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* items = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "FileBrowserItem"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserTableView*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{items});
   }
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetItems
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FileBrowserTableView::*)(::Array<GlobalNamespace::FileBrowserItem*>*)>(&GlobalNamespace::FileBrowserTableView::SetItems)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* items = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "FileBrowserItem"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserTableView*), "SetItems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{items});
   }
@@ -183,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SelectAndScrollRowToItemWithPath
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::FileBrowserTableView::*)(::Il2CppString*)>(&GlobalNamespace::FileBrowserTableView::SelectAndScrollRowToItemWithPath)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* folderPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserTableView*), "SelectAndScrollRowToItemWithPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{folderPath});
   }
@@ -192,7 +192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: CellSize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::FileBrowserTableView::*)()>(&GlobalNamespace::FileBrowserTableView::CellSize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserTableView*), "CellSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -200,7 +200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: NumberOfCells
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::FileBrowserTableView::*)()>(&GlobalNamespace::FileBrowserTableView::NumberOfCells)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserTableView*), "NumberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -208,7 +208,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: CellForIdx
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (GlobalNamespace::FileBrowserTableView::*)(HMUI::TableView*, int)>(&GlobalNamespace::FileBrowserTableView::CellForIdx)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tableView = &::il2cpp_utils::GetClassFromName("HMUI", "TableView")->byval_arg;
     static auto* row = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserTableView*), "CellForIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tableView, row});
@@ -218,7 +218,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::Table
 // Il2CppName: HandleDidSelectRowEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FileBrowserTableView::*)(HMUI::TableView*, int)>(&GlobalNamespace::FileBrowserTableView::HandleDidSelectRowEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tableView = &::il2cpp_utils::GetClassFromName("HMUI", "TableView")->byval_arg;
     static auto* row = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserTableView*), "HandleDidSelectRowEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tableView, row});
@@ -228,7 +228,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SelectAndScrollRow
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FileBrowserTableView::*)(int)>(&GlobalNamespace::FileBrowserTableView::SelectAndScrollRow)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* row = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserTableView*), "SelectAndScrollRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{row});
   }
@@ -237,7 +237,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ClearSelection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FileBrowserTableView::*)(bool, bool)>(&GlobalNamespace::FileBrowserTableView::ClearSelection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* animated = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* scrollToRow0 = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserTableView*), "ClearSelection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{animated, scrollToRow0});

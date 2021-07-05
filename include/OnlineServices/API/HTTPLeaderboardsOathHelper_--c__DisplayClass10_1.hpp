@@ -69,7 +69,7 @@ DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__Dis
 // Il2CppName: <SendWebRequestAsync>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1::*)(UnityEngine::AsyncOperation*)>(&OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1::$SendWebRequestAsync$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* asyncOperation2 = &::il2cpp_utils::GetClassFromName("UnityEngine", "AsyncOperation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1*), "<SendWebRequestAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncOperation2});
   }

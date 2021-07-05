@@ -41,7 +41,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::IesWithCipherParam
 // Il2CppName: get_CipherKeySize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Parameters::IesWithCipherParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::IesWithCipherParameters::get_CipherKeySize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::IesWithCipherParameters*), "get_CipherKeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

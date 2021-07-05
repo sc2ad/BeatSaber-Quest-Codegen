@@ -70,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestPlatformUserModel::$GetUserFriendsUs
 // Il2CppName: MoveNext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TestPlatformUserModel::$GetUserFriendsUserIds$d__1::*)()>(&GlobalNamespace::TestPlatformUserModel::$GetUserFriendsUserIds$d__1::MoveNext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TestPlatformUserModel::$GetUserFriendsUserIds$d__1), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetStateMachine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TestPlatformUserModel::$GetUserFriendsUserIds$d__1::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&GlobalNamespace::TestPlatformUserModel::$GetUserFriendsUserIds$d__1::SetStateMachine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stateMachine = &::il2cpp_utils::GetClassFromName("System.Runtime.CompilerServices", "IAsyncStateMachine")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TestPlatformUserModel::$GetUserFriendsUserIds$d__1), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stateMachine});
   }

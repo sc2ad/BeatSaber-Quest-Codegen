@@ -93,7 +93,7 @@ DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontAssetUtilities*, "TMPro", "TMP_FontAssetUt
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TMPro::TMP_FontAssetUtilities::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAssetUtilities*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: get_instance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_FontAssetUtilities* (*)()>(&TMPro::TMP_FontAssetUtilities::get_instance)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAssetUtilities*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 // Il2CppName: GetCharacterFromFontAsset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Character* (*)(uint, TMPro::TMP_FontAsset*, bool, TMPro::FontStyles, TMPro::FontWeight, bool&, TMPro::TMP_FontAsset*&)>(&TMPro::TMP_FontAssetUtilities::GetCharacterFromFontAsset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* unicode = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* sourceFontAsset = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_FontAsset")->byval_arg;
     static auto* includeFallbacks = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -124,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 // Il2CppName: GetCharacterFromFontAsset_Internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Character* (*)(uint, TMPro::TMP_FontAsset*, bool, TMPro::FontStyles, TMPro::FontWeight, bool&, TMPro::TMP_FontAsset*&)>(&TMPro::TMP_FontAssetUtilities::GetCharacterFromFontAsset_Internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* unicode = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* sourceFontAsset = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_FontAsset")->byval_arg;
     static auto* includeFallbacks = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 // Il2CppName: GetCharacterFromFontAssets
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Character* (*)(uint, System::Collections::Generic::List_1<TMPro::TMP_FontAsset*>*, bool, TMPro::FontStyles, TMPro::FontWeight, bool&, TMPro::TMP_FontAsset*&)>(&TMPro::TMP_FontAssetUtilities::GetCharacterFromFontAssets)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* unicode = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* fontAssets = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("TMPro", "TMP_FontAsset")})->byval_arg;
     static auto* includeFallbacks = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 // Il2CppName: TryGetCharacterFromFontFile
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint, TMPro::TMP_FontAsset*, TMPro::TMP_Character*&)>(&TMPro::TMP_FontAssetUtilities::TryGetCharacterFromFontFile)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* unicode = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* fontAsset = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_FontAsset")->byval_arg;
     static auto* character = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_Character")->this_arg;
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ui
 // Il2CppName: TryGetGlyphFromFontFile
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint, TMPro::TMP_FontAsset*, UnityEngine::TextCore::Glyph*&)>(&TMPro::TMP_FontAssetUtilities::TryGetGlyphFromFontFile)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* glyphIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* fontAsset = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_FontAsset")->byval_arg;
     static auto* glyph = &::il2cpp_utils::GetClassFromName("UnityEngine.TextCore", "Glyph")->this_arg;

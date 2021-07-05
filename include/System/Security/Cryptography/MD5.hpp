@@ -43,7 +43,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::MD5*, "System.Security.Cr
 // Il2CppName: Create
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::MD5* (*)()>(&System::Security::Cryptography::MD5::Create)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::MD5*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

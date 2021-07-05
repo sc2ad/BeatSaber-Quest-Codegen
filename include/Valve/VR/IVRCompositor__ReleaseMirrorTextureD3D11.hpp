@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_ReleaseMirrorTextureD3D11*, "V
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRCompositor::_ReleaseMirrorTextureD3D11::*)(System::IntPtr)>(&Valve::VR::IVRCompositor::_ReleaseMirrorTextureD3D11::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pD3D11ShaderResourceView = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_ReleaseMirrorTextureD3D11*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pD3D11ShaderResourceView});
   }
@@ -70,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRCompositor::_ReleaseMirrorTextureD3D11::*)(System::IntPtr, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRCompositor::_ReleaseMirrorTextureD3D11::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pD3D11ShaderResourceView = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRCompositor::_ReleaseMirrorTextureD3D11::*)(System::IAsyncResult*)>(&Valve::VR::IVRCompositor::_ReleaseMirrorTextureD3D11::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_ReleaseMirrorTextureD3D11*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

@@ -104,7 +104,7 @@ DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizedTextMesh*, "Polyglot", "LocalizedTextM
 // Il2CppName: get_Key
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Polyglot::LocalizedTextMesh::*)()>(&Polyglot::LocalizedTextMesh::get_Key)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizedTextMesh*), "get_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: Reset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LocalizedTextMesh::*)()>(&Polyglot::LocalizedTextMesh::Reset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizedTextMesh*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -120,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyg
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LocalizedTextMesh::*)()>(&Polyglot::LocalizedTextMesh::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizedTextMesh*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyg
 // Il2CppName: OnLocalize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LocalizedTextMesh::*)()>(&Polyglot::LocalizedTextMesh::OnLocalize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizedTextMesh*), "OnLocalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -136,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyg
 // Il2CppName: IsOppositeDirection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyglot::LocalizedTextMesh::*)(UnityEngine::TextAlignment, Polyglot::LanguageDirection)>(&Polyglot::LocalizedTextMesh::IsOppositeDirection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* alignment = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextAlignment")->byval_arg;
     static auto* direction = &::il2cpp_utils::GetClassFromName("Polyglot", "LanguageDirection")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizedTextMesh*), "IsOppositeDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{alignment, direction});
@@ -146,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyg
 // Il2CppName: IsAlignmentRight
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyglot::LocalizedTextMesh::*)(UnityEngine::TextAlignment)>(&Polyglot::LocalizedTextMesh::IsAlignmentRight)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* alignment = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextAlignment")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizedTextMesh*), "IsAlignmentRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{alignment});
   }
@@ -155,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyg
 // Il2CppName: IsAlignmentLeft
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyglot::LocalizedTextMesh::*)(UnityEngine::TextAlignment)>(&Polyglot::LocalizedTextMesh::IsAlignmentLeft)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* alignment = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextAlignment")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizedTextMesh*), "IsAlignmentLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{alignment});
   }

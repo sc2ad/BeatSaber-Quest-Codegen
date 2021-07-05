@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRIOBuffer::_Open*, "OVR.OpenVR", "IVRIOBuf
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EIOBufferError (OVR::OpenVR::IVRIOBuffer::_Open::*)(::Il2CppString*, OVR::OpenVR::EIOBufferMode, uint, uint, uint64_t&)>(&OVR::OpenVR::IVRIOBuffer::_Open::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* mode = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EIOBufferMode")->byval_arg;
     static auto* unElementSize = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRIOBuffer::_Open::*)(::Il2CppString*, OVR::OpenVR::EIOBufferMode, uint, uint, uint64_t&, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRIOBuffer::_Open::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* mode = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EIOBufferMode")->byval_arg;
     static auto* unElementSize = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -96,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EIOBufferError (OVR::OpenVR::IVRIOBuffer::_Open::*)(uint64_t&, System::IAsyncResult*)>(&OVR::OpenVR::IVRIOBuffer::_Open::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pulBuffer = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRIOBuffer::_Open*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pulBuffer, result});

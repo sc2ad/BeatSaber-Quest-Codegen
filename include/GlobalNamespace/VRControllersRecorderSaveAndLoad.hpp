@@ -50,7 +50,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderSaveAndLoad*, "", "
 // Il2CppName: LoadSaveDataFromFile
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::VRControllersRecorderSaveData* (*)(::Il2CppString*)>(&GlobalNamespace::VRControllersRecorderSaveAndLoad::LoadSaveDataFromFile)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorderSaveAndLoad*), "LoadSaveDataFromFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filePath});
   }
@@ -59,7 +59,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: LoadSaveDataFromTextAsset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::VRControllersRecorderSaveData* (*)(UnityEngine::TextAsset*)>(&GlobalNamespace::VRControllersRecorderSaveAndLoad::LoadSaveDataFromTextAsset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* textAsset = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextAsset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorderSaveAndLoad*), "LoadSaveDataFromTextAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{textAsset});
   }
@@ -68,7 +68,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: LoadFromFile
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, GlobalNamespace::VRControllersRecorderData*)>(&GlobalNamespace::VRControllersRecorderSaveAndLoad::LoadFromFile)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* data = &::il2cpp_utils::GetClassFromName("", "VRControllersRecorderData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorderSaveAndLoad*), "LoadFromFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filePath, data});
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: SaveToFile
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, GlobalNamespace::VRControllersRecorderData*)>(&GlobalNamespace::VRControllersRecorderSaveAndLoad::SaveToFile)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* data = &::il2cpp_utils::GetClassFromName("", "VRControllersRecorderData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorderSaveAndLoad*), "SaveToFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filePath, data});

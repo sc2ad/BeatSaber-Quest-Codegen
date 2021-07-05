@@ -113,7 +113,7 @@ DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::SequencedChannel*, "LiteNetLib", "SequencedCh
 // Il2CppName: SendNextPackets
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::SequencedChannel::*)()>(&LiteNetLib::SequencedChannel::SendNextPackets)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::SequencedChannel*), "SendNextPackets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Il2CppName: ProcessPacket
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::SequencedChannel::*)(LiteNetLib::NetPacket*)>(&LiteNetLib::SequencedChannel::ProcessPacket)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* packet = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPacket")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::SequencedChannel*), "ProcessPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet});
   }

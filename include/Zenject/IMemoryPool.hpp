@@ -60,7 +60,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::IMemoryPool*, "Zenject", "IMemoryPool");
 // Il2CppName: get_NumTotal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenject::IMemoryPool::*)()>(&Zenject::IMemoryPool::get_NumTotal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::IMemoryPool*), "get_NumTotal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -68,7 +68,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenjec
 // Il2CppName: get_NumActive
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenject::IMemoryPool::*)()>(&Zenject::IMemoryPool::get_NumActive)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::IMemoryPool*), "get_NumActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenjec
 // Il2CppName: get_NumInactive
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenject::IMemoryPool::*)()>(&Zenject::IMemoryPool::get_NumInactive)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::IMemoryPool*), "get_NumInactive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenjec
 // Il2CppName: get_ItemType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (Zenject::IMemoryPool::*)()>(&Zenject::IMemoryPool::get_ItemType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::IMemoryPool*), "get_ItemType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Il2CppName: Resize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::IMemoryPool::*)(int)>(&Zenject::IMemoryPool::Resize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* desiredPoolSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::IMemoryPool*), "Resize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{desiredPoolSize});
   }
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: Clear
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::IMemoryPool::*)()>(&Zenject::IMemoryPool::Clear)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::IMemoryPool*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: ExpandBy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::IMemoryPool::*)(int)>(&Zenject::IMemoryPool::ExpandBy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* numToAdd = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::IMemoryPool*), "ExpandBy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{numToAdd});
   }
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: ShrinkBy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::IMemoryPool::*)(int)>(&Zenject::IMemoryPool::ShrinkBy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* numToRemove = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::IMemoryPool*), "ShrinkBy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{numToRemove});
   }
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: Despawn
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::IMemoryPool::*)(::Il2CppObject*)>(&Zenject::IMemoryPool::Despawn)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::IMemoryPool*), "Despawn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }

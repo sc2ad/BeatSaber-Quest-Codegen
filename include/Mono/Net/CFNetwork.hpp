@@ -132,7 +132,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNetwork*, "Mono.Net", "CFNetwork");
 // Il2CppName: CFNetworkCopyProxiesForAutoConfigurationScriptSequential
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::IntPtr, System::IntPtr&)>(&Mono::Net::CFNetwork::CFNetworkCopyProxiesForAutoConfigurationScriptSequential)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* proxyAutoConfigurationScript = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* targetURL = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
@@ -143,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: CFNetworkExecuteProxyAutoConfigurationURL
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::IntPtr, Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback*, Mono::Net::CFStreamClientContext&)>(&Mono::Net::CFNetwork::CFNetworkExecuteProxyAutoConfigurationURL)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* proxyAutoConfigURL = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* targetURL = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* cb = &::il2cpp_utils::GetClassFromName("Mono.Net", "CFNetwork/CFProxyAutoConfigurationResultCallback")->byval_arg;
@@ -155,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: CFNetworkCopyProxiesForAutoConfigurationScriptThread
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Mono::Net::CFNetwork::CFNetworkCopyProxiesForAutoConfigurationScriptThread)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork*), "CFNetworkCopyProxiesForAutoConfigurationScriptThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: CFNetworkCopyProxiesForAutoConfigurationScript
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::IntPtr, System::IntPtr&)>(&Mono::Net::CFNetwork::CFNetworkCopyProxiesForAutoConfigurationScript)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* proxyAutoConfigurationScript = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* targetURL = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* error = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: CopyProxiesForAutoConfigurationScript
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::CFArray* (*)(System::IntPtr, Mono::Net::CFUrl*)>(&Mono::Net::CFNetwork::CopyProxiesForAutoConfigurationScript)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* proxyAutoConfigurationScript = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* targetURL = &::il2cpp_utils::GetClassFromName("Mono.Net", "CFUrl")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork*), "CopyProxiesForAutoConfigurationScript", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{proxyAutoConfigurationScript, targetURL});
@@ -184,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::
 // Il2CppName: GetProxiesForAutoConfigurationScript
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Mono::Net::CFProxy*>* (*)(System::IntPtr, Mono::Net::CFUrl*)>(&Mono::Net::CFNetwork::GetProxiesForAutoConfigurationScript)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* proxyAutoConfigurationScript = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* targetURL = &::il2cpp_utils::GetClassFromName("Mono.Net", "CFUrl")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork*), "GetProxiesForAutoConfigurationScript", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{proxyAutoConfigurationScript, targetURL});
@@ -194,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Mon
 // Il2CppName: GetProxiesForAutoConfigurationScript
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Mono::Net::CFProxy*>* (*)(System::IntPtr, System::Uri*)>(&Mono::Net::CFNetwork::GetProxiesForAutoConfigurationScript)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* proxyAutoConfigurationScript = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* targetUri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork*), "GetProxiesForAutoConfigurationScript", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{proxyAutoConfigurationScript, targetUri});
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Mon
 // Il2CppName: ExecuteProxyAutoConfigurationURL
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Mono::Net::CFProxy*>* (*)(System::IntPtr, System::Uri*)>(&Mono::Net::CFNetwork::ExecuteProxyAutoConfigurationURL)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* proxyAutoConfigURL = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* targetURL = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork*), "ExecuteProxyAutoConfigurationURL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{proxyAutoConfigURL, targetURL});
@@ -214,7 +214,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Mon
 // Il2CppName: CFNetworkCopyProxiesForURL
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::IntPtr)>(&Mono::Net::CFNetwork::CFNetworkCopyProxiesForURL)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* proxySettings = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork*), "CFNetworkCopyProxiesForURL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{url, proxySettings});
@@ -224,7 +224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: CopyProxiesForURL
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::CFArray* (*)(Mono::Net::CFUrl*, Mono::Net::CFDictionary*)>(&Mono::Net::CFNetwork::CopyProxiesForURL)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* url = &::il2cpp_utils::GetClassFromName("Mono.Net", "CFUrl")->byval_arg;
     static auto* proxySettings = &::il2cpp_utils::GetClassFromName("Mono.Net", "CFDictionary")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork*), "CopyProxiesForURL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{url, proxySettings});
@@ -234,7 +234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::
 // Il2CppName: GetProxiesForURL
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Mono::Net::CFProxy*>* (*)(Mono::Net::CFUrl*, Mono::Net::CFProxySettings*)>(&Mono::Net::CFNetwork::GetProxiesForURL)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* url = &::il2cpp_utils::GetClassFromName("Mono.Net", "CFUrl")->byval_arg;
     static auto* proxySettings = &::il2cpp_utils::GetClassFromName("Mono.Net", "CFProxySettings")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork*), "GetProxiesForURL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{url, proxySettings});
@@ -244,7 +244,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Mon
 // Il2CppName: GetProxiesForUri
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Mono::Net::CFProxy*>* (*)(System::Uri*, Mono::Net::CFProxySettings*)>(&Mono::Net::CFNetwork::GetProxiesForUri)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     static auto* proxySettings = &::il2cpp_utils::GetClassFromName("Mono.Net", "CFProxySettings")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork*), "GetProxiesForUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uri, proxySettings});
@@ -254,7 +254,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Mon
 // Il2CppName: CFNetworkCopySystemProxySettings
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&Mono::Net::CFNetwork::CFNetworkCopySystemProxySettings)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork*), "CFNetworkCopySystemProxySettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -262,7 +262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: GetSystemProxySettings
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::CFProxySettings* (*)()>(&Mono::Net::CFNetwork::GetSystemProxySettings)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork*), "GetSystemProxySettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -270,7 +270,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::
 // Il2CppName: GetDefaultProxy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IWebProxy* (*)()>(&Mono::Net::CFNetwork::GetDefaultProxy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork*), "GetDefaultProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -278,7 +278,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Mono::Net::CFNetwork::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

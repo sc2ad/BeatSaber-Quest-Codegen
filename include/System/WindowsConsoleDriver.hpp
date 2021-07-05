@@ -92,7 +92,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::WindowsConsoleDriver*, "System", "WindowsConsoleD
 // Il2CppName: ReadKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ConsoleKeyInfo (System::WindowsConsoleDriver::*)(bool)>(&System::WindowsConsoleDriver::ReadKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* intercept = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::WindowsConsoleDriver*), "ReadKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{intercept});
   }
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Con
 // Il2CppName: IsModifierKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int16_t)>(&System::WindowsConsoleDriver::IsModifierKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* virtualKeyCode = &::il2cpp_utils::GetClassFromName("System", "Int16")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::WindowsConsoleDriver*), "IsModifierKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualKeyCode});
   }
@@ -110,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Il2CppName: GetStdHandle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::Handles)>(&System::WindowsConsoleDriver::GetStdHandle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "Handles")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::WindowsConsoleDriver*), "GetStdHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle});
   }
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: GetConsoleScreenBufferInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::ConsoleScreenBufferInfo&)>(&System::WindowsConsoleDriver::GetConsoleScreenBufferInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* info = &::il2cpp_utils::GetClassFromName("System", "ConsoleScreenBufferInfo")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::WindowsConsoleDriver*), "GetConsoleScreenBufferInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle, info});
@@ -129,7 +129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: ReadConsoleInput
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::InputRecord&, int, int&)>(&System::WindowsConsoleDriver::ReadConsoleInput)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* record = &::il2cpp_utils::GetClassFromName("System", "InputRecord")->this_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

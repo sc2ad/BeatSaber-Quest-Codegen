@@ -55,7 +55,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UrlInputFieldSettingsController*, "", "U
 // Il2CppName: HandleInputFieldDidChange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UrlInputFieldSettingsController::*)(HMUI::InputFieldView*)>(&GlobalNamespace::UrlInputFieldSettingsController::HandleInputFieldDidChange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* inputFieldView = &::il2cpp_utils::GetClassFromName("HMUI", "InputFieldView")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UrlInputFieldSettingsController*), "HandleInputFieldDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inputFieldView});
   }

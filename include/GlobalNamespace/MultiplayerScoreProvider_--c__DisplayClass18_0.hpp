@@ -54,7 +54,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayCl
 // Il2CppName: <GetPositionOfPlayer>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0::*)(GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*)>(&GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0::$GetPositionOfPlayer$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("", "MultiplayerScoreProvider/RankedPlayer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0*), "<GetPositionOfPlayer>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p});
   }

@@ -301,7 +301,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::ExecutionContext::Flags, "System.Threa
 // Il2CppName: get_isNewCapture
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ExecutionContext::*)()>(&System::Threading::ExecutionContext::get_isNewCapture)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext*), "get_isNewCapture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -309,7 +309,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: set_isNewCapture
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ExecutionContext::*)(bool)>(&System::Threading::ExecutionContext::set_isNewCapture)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext*), "set_isNewCapture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -318,7 +318,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_isFlowSuppressed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ExecutionContext::*)()>(&System::Threading::ExecutionContext::get_isFlowSuppressed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext*), "get_isFlowSuppressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -326,7 +326,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: set_isFlowSuppressed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ExecutionContext::*)(bool)>(&System::Threading::ExecutionContext::set_isFlowSuppressed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext*), "set_isFlowSuppressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -335,7 +335,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_PreAllocatedDefault
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ExecutionContext* (*)()>(&System::Threading::ExecutionContext::get_PreAllocatedDefault)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext*), "get_PreAllocatedDefault", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -343,7 +343,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: get_IsPreAllocatedDefault
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ExecutionContext::*)()>(&System::Threading::ExecutionContext::get_IsPreAllocatedDefault)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext*), "get_IsPreAllocatedDefault", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -355,7 +355,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: OnAsyncLocalContextChanged
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::ExecutionContext*, System::Threading::ExecutionContext*)>(&System::Threading::ExecutionContext::OnAsyncLocalContextChanged)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* previous = &::il2cpp_utils::GetClassFromName("System.Threading", "ExecutionContext")->byval_arg;
     static auto* current = &::il2cpp_utils::GetClassFromName("System.Threading", "ExecutionContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext*), "OnAsyncLocalContextChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{previous, current});
@@ -365,7 +365,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: get_LogicalCallContext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::LogicalCallContext* (System::Threading::ExecutionContext::*)()>(&System::Threading::ExecutionContext::get_LogicalCallContext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext*), "get_LogicalCallContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -373,7 +373,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: set_LogicalCallContext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ExecutionContext::*)(System::Runtime::Remoting::Messaging::LogicalCallContext*)>(&System::Threading::ExecutionContext::set_LogicalCallContext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "LogicalCallContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext*), "set_LogicalCallContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -382,7 +382,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_IllogicalCallContext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IllogicalCallContext* (System::Threading::ExecutionContext::*)()>(&System::Threading::ExecutionContext::get_IllogicalCallContext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext*), "get_IllogicalCallContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -390,7 +390,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: set_IllogicalCallContext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ExecutionContext::*)(System::Runtime::Remoting::Messaging::IllogicalCallContext*)>(&System::Threading::ExecutionContext::set_IllogicalCallContext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "IllogicalCallContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext*), "set_IllogicalCallContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -399,7 +399,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_SynchronizationContext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::SynchronizationContext* (System::Threading::ExecutionContext::*)()>(&System::Threading::ExecutionContext::get_SynchronizationContext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext*), "get_SynchronizationContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -407,7 +407,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: set_SynchronizationContext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ExecutionContext::*)(System::Threading::SynchronizationContext*)>(&System::Threading::ExecutionContext::set_SynchronizationContext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Threading", "SynchronizationContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext*), "set_SynchronizationContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -416,7 +416,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_SynchronizationContextNoFlow
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::SynchronizationContext* (System::Threading::ExecutionContext::*)()>(&System::Threading::ExecutionContext::get_SynchronizationContextNoFlow)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext*), "get_SynchronizationContextNoFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -424,7 +424,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: set_SynchronizationContextNoFlow
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ExecutionContext::*)(System::Threading::SynchronizationContext*)>(&System::Threading::ExecutionContext::set_SynchronizationContextNoFlow)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Threading", "SynchronizationContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext*), "set_SynchronizationContextNoFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -433,7 +433,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ExecutionContext::*)()>(&System::Threading::ExecutionContext::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -441,7 +441,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Run
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::ExecutionContext*, System::Threading::ContextCallback*, ::Il2CppObject*)>(&System::Threading::ExecutionContext::Run)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* executionContext = &::il2cpp_utils::GetClassFromName("System.Threading", "ExecutionContext")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System.Threading", "ContextCallback")->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -452,7 +452,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: Run
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::ExecutionContext*, System::Threading::ContextCallback*, ::Il2CppObject*, bool)>(&System::Threading::ExecutionContext::Run)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* executionContext = &::il2cpp_utils::GetClassFromName("System.Threading", "ExecutionContext")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System.Threading", "ContextCallback")->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -464,7 +464,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: RunInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::ExecutionContext*, System::Threading::ContextCallback*, ::Il2CppObject*, bool)>(&System::Threading::ExecutionContext::RunInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* executionContext = &::il2cpp_utils::GetClassFromName("System.Threading", "ExecutionContext")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System.Threading", "ContextCallback")->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -476,7 +476,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: EstablishCopyOnWriteScope
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::ExecutionContextSwitcher&)>(&System::Threading::ExecutionContext::EstablishCopyOnWriteScope)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ecsw = &::il2cpp_utils::GetClassFromName("System.Threading", "ExecutionContextSwitcher")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext*), "EstablishCopyOnWriteScope", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ecsw});
   }
@@ -485,7 +485,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: EstablishCopyOnWriteScope
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Thread*, bool, System::Threading::ExecutionContextSwitcher&)>(&System::Threading::ExecutionContext::EstablishCopyOnWriteScope)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* currentThread = &::il2cpp_utils::GetClassFromName("System.Threading", "Thread")->byval_arg;
     static auto* knownNullWindowsIdentity = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* ecsw = &::il2cpp_utils::GetClassFromName("System.Threading", "ExecutionContextSwitcher")->this_arg;
@@ -496,7 +496,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: SetExecutionContext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ExecutionContextSwitcher (*)(System::Threading::ExecutionContext*, bool)>(&System::Threading::ExecutionContext::SetExecutionContext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* executionContext = &::il2cpp_utils::GetClassFromName("System.Threading", "ExecutionContext")->byval_arg;
     static auto* preserveSyncCtx = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext*), "SetExecutionContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{executionContext, preserveSyncCtx});
@@ -506,7 +506,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: CreateCopy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ExecutionContext* (System::Threading::ExecutionContext::*)()>(&System::Threading::ExecutionContext::CreateCopy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext*), "CreateCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -514,7 +514,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: CreateMutableCopy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ExecutionContext* (System::Threading::ExecutionContext::*)()>(&System::Threading::ExecutionContext::CreateMutableCopy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext*), "CreateMutableCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -522,7 +522,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: IsFlowSuppressed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Threading::ExecutionContext::IsFlowSuppressed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext*), "IsFlowSuppressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -530,7 +530,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Il2CppName: Capture
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ExecutionContext* (*)()>(&System::Threading::ExecutionContext::Capture)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext*), "Capture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -538,7 +538,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: FastCapture
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ExecutionContext* (*)()>(&System::Threading::ExecutionContext::FastCapture)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext*), "FastCapture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -546,7 +546,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: Capture
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ExecutionContext* (*)(System::Threading::StackCrawlMark&, System::Threading::ExecutionContext::CaptureOptions)>(&System::Threading::ExecutionContext::Capture)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stackMark = &::il2cpp_utils::GetClassFromName("System.Threading", "StackCrawlMark")->this_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("System.Threading", "ExecutionContext/CaptureOptions")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext*), "Capture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stackMark, options});
@@ -556,7 +556,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: GetObjectData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ExecutionContext::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Threading::ExecutionContext::GetObjectData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{info, context});
@@ -570,7 +570,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: IsDefaultFTContext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ExecutionContext::*)(bool)>(&System::Threading::ExecutionContext::IsDefaultFTContext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ignoreSyncCtx = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext*), "IsDefaultFTContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ignoreSyncCtx});
   }
@@ -579,7 +579,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Threading::ExecutionContext::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

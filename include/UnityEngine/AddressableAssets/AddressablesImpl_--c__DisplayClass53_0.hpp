@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AddressablesImpl::$$c__Di
 // Il2CppName: <RemoveResourceLocator>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass53_0::*)(UnityEngine::AddressableAssets::AddressablesImpl::ResourceLocatorInfo*)>(&UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass53_0::$RemoveResourceLocator$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* l = &::il2cpp_utils::GetClassFromName("UnityEngine.AddressableAssets", "AddressablesImpl/ResourceLocatorInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass53_0*), "<RemoveResourceLocator>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{l});
   }

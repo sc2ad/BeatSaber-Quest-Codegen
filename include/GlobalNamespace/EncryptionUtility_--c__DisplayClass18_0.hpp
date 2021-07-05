@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EncryptionUtility::$$c__DisplayClass18_0
 // Il2CppName: <CreateEncryptionStateAsync>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EncryptionUtility::IEncryptionState* (GlobalNamespace::EncryptionUtility::$$c__DisplayClass18_0::*)()>(&GlobalNamespace::EncryptionUtility::$$c__DisplayClass18_0::$CreateEncryptionStateAsync$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EncryptionUtility::$$c__DisplayClass18_0*), "<CreateEncryptionStateAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

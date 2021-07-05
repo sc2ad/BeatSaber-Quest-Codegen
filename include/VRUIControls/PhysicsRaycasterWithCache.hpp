@@ -123,7 +123,7 @@ DEFINE_IL2CPP_ARG_TYPE(VRUIControls::PhysicsRaycasterWithCache::CachedRaycast, "
 // Il2CppName: Raycast
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRUIControls::PhysicsRaycasterWithCache::*)(UnityEngine::Ray, UnityEngine::RaycastHit&, float, int)>(&VRUIControls::PhysicsRaycasterWithCache::Raycast)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
     static auto* hitInfo = &::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit")->this_arg;
     static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

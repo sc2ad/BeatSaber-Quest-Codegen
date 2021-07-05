@@ -109,7 +109,7 @@ DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontStyleStack, "TMPro", "TMP_FontStyleStack")
 // Il2CppName: Clear
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontStyleStack::*)()>(&TMPro::TMP_FontStyleStack::Clear)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontStyleStack), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: Add
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (TMPro::TMP_FontStyleStack::*)(TMPro::FontStyles)>(&TMPro::TMP_FontStyleStack::Add)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* style = &::il2cpp_utils::GetClassFromName("TMPro", "FontStyles")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontStyleStack), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{style});
   }
@@ -126,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (TM
 // Il2CppName: Remove
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (TMPro::TMP_FontStyleStack::*)(TMPro::FontStyles)>(&TMPro::TMP_FontStyleStack::Remove)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* style = &::il2cpp_utils::GetClassFromName("TMPro", "FontStyles")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontStyleStack), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{style});
   }

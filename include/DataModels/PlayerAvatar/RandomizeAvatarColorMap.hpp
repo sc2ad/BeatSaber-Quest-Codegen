@@ -58,7 +58,7 @@ DEFINE_IL2CPP_ARG_TYPE(DataModels::PlayerAvatar::RandomizeAvatarColorMap*, "Data
 // Il2CppName: get_totalIndices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DataModels::PlayerAvatar::RandomizeAvatarColorMap::*)()>(&DataModels::PlayerAvatar::RandomizeAvatarColorMap::get_totalIndices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(DataModels::PlayerAvatar::RandomizeAvatarColorMap*), "get_totalIndices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -66,7 +66,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DataMo
 // Il2CppName: get_colorIndices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (DataModels::PlayerAvatar::RandomizeAvatarColorMap::*)()>(&DataModels::PlayerAvatar::RandomizeAvatarColorMap::get_colorIndices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(DataModels::PlayerAvatar::RandomizeAvatarColorMap*), "get_colorIndices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

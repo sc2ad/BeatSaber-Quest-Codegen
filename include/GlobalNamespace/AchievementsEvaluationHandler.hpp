@@ -268,7 +268,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AchievementsEvaluationHandler*, "", "Ach
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AchievementsEvaluationHandler::*)()>(&GlobalNamespace::AchievementsEvaluationHandler::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AchievementsEvaluationHandler*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -276,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AchievementsEvaluationHandler::*)()>(&GlobalNamespace::AchievementsEvaluationHandler::OnDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AchievementsEvaluationHandler*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -284,7 +284,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleSoloFreePlayOverallStatsDataDidUpdate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AchievementsEvaluationHandler::*)(GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::AchievementsEvaluationHandler::HandleSoloFreePlayOverallStatsDataDidUpdate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* levelCompletionResults = &::il2cpp_utils::GetClassFromName("", "LevelCompletionResults")->byval_arg;
     static auto* difficultyBeatmap = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AchievementsEvaluationHandler*), "HandleSoloFreePlayOverallStatsDataDidUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelCompletionResults, difficultyBeatmap});
@@ -294,7 +294,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandlePartyFreePlayOverallStatsDataDidUpdate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AchievementsEvaluationHandler::*)(GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::AchievementsEvaluationHandler::HandlePartyFreePlayOverallStatsDataDidUpdate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* levelCompletionResults = &::il2cpp_utils::GetClassFromName("", "LevelCompletionResults")->byval_arg;
     static auto* difficultyBeatmap = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AchievementsEvaluationHandler*), "HandlePartyFreePlayOverallStatsDataDidUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelCompletionResults, difficultyBeatmap});
@@ -304,7 +304,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleCampaignOverallStatsDataDidUpdate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AchievementsEvaluationHandler::*)(GlobalNamespace::MissionCompletionResults*, GlobalNamespace::MissionNode*)>(&GlobalNamespace::AchievementsEvaluationHandler::HandleCampaignOverallStatsDataDidUpdate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* missionCompletionResults = &::il2cpp_utils::GetClassFromName("", "MissionCompletionResults")->byval_arg;
     static auto* missionNode = &::il2cpp_utils::GetClassFromName("", "MissionNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AchievementsEvaluationHandler*), "HandleCampaignOverallStatsDataDidUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{missionCompletionResults, missionNode});
@@ -314,7 +314,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ProcessMissionFinishData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AchievementsEvaluationHandler::*)(GlobalNamespace::MissionNode*, GlobalNamespace::MissionCompletionResults*)>(&GlobalNamespace::AchievementsEvaluationHandler::ProcessMissionFinishData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* missionNode = &::il2cpp_utils::GetClassFromName("", "MissionNode")->byval_arg;
     static auto* missionCompletionResults = &::il2cpp_utils::GetClassFromName("", "MissionCompletionResults")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AchievementsEvaluationHandler*), "ProcessMissionFinishData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{missionNode, missionCompletionResults});
@@ -324,7 +324,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ProcessSoloFreePlayLevelFinishData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AchievementsEvaluationHandler::*)(GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::LevelCompletionResults*)>(&GlobalNamespace::AchievementsEvaluationHandler::ProcessSoloFreePlayLevelFinishData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* difficultyBeatmap = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;
     static auto* levelCompletionResults = &::il2cpp_utils::GetClassFromName("", "LevelCompletionResults")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AchievementsEvaluationHandler*), "ProcessSoloFreePlayLevelFinishData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{difficultyBeatmap, levelCompletionResults});
@@ -334,7 +334,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ProcessLevelFinishData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AchievementsEvaluationHandler::*)(GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::LevelCompletionResults*)>(&GlobalNamespace::AchievementsEvaluationHandler::ProcessLevelFinishData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* difficultyBeatmap = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;
     static auto* levelCompletionResults = &::il2cpp_utils::GetClassFromName("", "LevelCompletionResults")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AchievementsEvaluationHandler*), "ProcessLevelFinishData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{difficultyBeatmap, levelCompletionResults});

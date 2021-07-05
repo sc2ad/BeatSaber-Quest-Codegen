@@ -62,7 +62,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderWarmupSceneSetupData*, "", "Shader
 // Il2CppName: get_nextScenesTransitionSetupData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ScenesTransitionSetupDataSO* (GlobalNamespace::ShaderWarmupSceneSetupData::*)()>(&GlobalNamespace::ShaderWarmupSceneSetupData::get_nextScenesTransitionSetupData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShaderWarmupSceneSetupData*), "get_nextScenesTransitionSetupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -70,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: set_nextScenesTransitionSetupData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ShaderWarmupSceneSetupData::*)(GlobalNamespace::ScenesTransitionSetupDataSO*)>(&GlobalNamespace::ShaderWarmupSceneSetupData::set_nextScenesTransitionSetupData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "ScenesTransitionSetupDataSO")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShaderWarmupSceneSetupData*), "set_nextScenesTransitionSetupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

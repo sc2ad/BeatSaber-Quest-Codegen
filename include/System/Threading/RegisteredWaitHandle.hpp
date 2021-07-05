@@ -121,7 +121,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::RegisteredWaitHandle*, "System.Threadi
 // Il2CppName: Wait
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::RegisteredWaitHandle::*)(::Il2CppObject*)>(&System::Threading::RegisteredWaitHandle::Wait)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::RegisteredWaitHandle*), "Wait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
   }
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: DoCallBack
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::RegisteredWaitHandle::*)(::Il2CppObject*)>(&System::Threading::RegisteredWaitHandle::DoCallBack)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* timedOut = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::RegisteredWaitHandle*), "DoCallBack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{timedOut});
   }
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Unregister
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::RegisteredWaitHandle::*)(System::Threading::WaitHandle*)>(&System::Threading::RegisteredWaitHandle::Unregister)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* waitObject = &::il2cpp_utils::GetClassFromName("System.Threading", "WaitHandle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::RegisteredWaitHandle*), "Unregister", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{waitObject});
   }

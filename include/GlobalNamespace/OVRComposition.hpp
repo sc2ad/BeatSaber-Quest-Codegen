@@ -111,7 +111,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRComposition*, "", "OVRComposition");
 // Il2CppName: CompositionMethod
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRManager_CompositionMethod (GlobalNamespace::OVRComposition::*)()>(&GlobalNamespace::OVRComposition::CompositionMethod)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRComposition*), "CompositionMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: Update
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRComposition::*)(UnityEngine::GameObject*, UnityEngine::Camera*, GlobalNamespace::OVRMixedRealityCaptureConfiguration*, GlobalNamespace::OVRManager_TrackingOrigin)>(&GlobalNamespace::OVRComposition::Update)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* mainCamera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     static auto* configuration = &::il2cpp_utils::GetClassFromName("", "OVRMixedRealityCaptureConfiguration")->byval_arg;
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Cleanup
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRComposition::*)()>(&GlobalNamespace::OVRComposition::Cleanup)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRComposition*), "Cleanup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: RecenterPose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRComposition::*)()>(&GlobalNamespace::OVRComposition::RecenterPose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRComposition*), "RecenterPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: RefreshCameraRig
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRComposition::*)(UnityEngine::GameObject*, UnityEngine::Camera*)>(&GlobalNamespace::OVRComposition::RefreshCameraRig)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* parentObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* mainCamera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRComposition*), "RefreshCameraRig", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parentObject, mainCamera});
@@ -157,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ComputeCameraWorldSpacePose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPose (GlobalNamespace::OVRComposition::*)(GlobalNamespace::OVRPlugin::CameraExtrinsics)>(&GlobalNamespace::OVRComposition::ComputeCameraWorldSpacePose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* extrinsics = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/CameraExtrinsics")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRComposition*), "ComputeCameraWorldSpacePose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{extrinsics});
   }
@@ -166,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ComputeCameraTrackingSpacePose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPose (GlobalNamespace::OVRComposition::*)(GlobalNamespace::OVRPlugin::CameraExtrinsics)>(&GlobalNamespace::OVRComposition::ComputeCameraTrackingSpacePose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* extrinsics = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/CameraExtrinsics")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRComposition*), "ComputeCameraTrackingSpacePose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{extrinsics});
   }

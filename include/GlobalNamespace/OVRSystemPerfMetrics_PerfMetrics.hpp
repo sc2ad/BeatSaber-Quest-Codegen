@@ -232,7 +232,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics*, "", 
 // Il2CppName: ToJSON
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics::*)()>(&GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics::ToJSON)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics*), "ToJSON", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -240,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: LoadFromJSON
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics::*)(::Il2CppString*)>(&GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics::LoadFromJSON)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* json = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSystemPerfMetrics::PerfMetrics*), "LoadFromJSON", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{json});
   }

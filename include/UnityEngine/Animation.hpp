@@ -105,7 +105,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animation*, "UnityEngine", "Animation");
 // Il2CppName: get_clip
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationClip* (UnityEngine::Animation::*)()>(&UnityEngine::Animation::get_clip)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animation*), "get_clip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Rewind
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animation::*)(::Il2CppString*)>(&UnityEngine::Animation::Rewind)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animation*), "Rewind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
   }
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Internal_RewindByName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animation::*)(::Il2CppString*)>(&UnityEngine::Animation::Internal_RewindByName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animation*), "Internal_RewindByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
   }
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Rewind
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animation::*)()>(&UnityEngine::Animation::Rewind)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animation*), "Rewind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: INTERNAL_CALL_Rewind
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Animation*)>(&UnityEngine::Animation::INTERNAL_CALL_Rewind)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* self = &::il2cpp_utils::GetClassFromName("UnityEngine", "Animation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animation*), "INTERNAL_CALL_Rewind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{self});
   }
@@ -148,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: Sample
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animation::*)()>(&UnityEngine::Animation::Sample)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animation*), "Sample", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: INTERNAL_CALL_Sample
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Animation*)>(&UnityEngine::Animation::INTERNAL_CALL_Sample)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* self = &::il2cpp_utils::GetClassFromName("UnityEngine", "Animation")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animation*), "INTERNAL_CALL_Sample", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{self});
   }
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: get_Item
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationState* (UnityEngine::Animation::*)(::Il2CppString*)>(&UnityEngine::Animation::get_Item)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animation*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
   }
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Play
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animation::*)()>(&UnityEngine::Animation::Play)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animation*), "Play", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -182,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: Play
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animation::*)(UnityEngine::PlayMode)>(&UnityEngine::Animation::Play)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mode = &::il2cpp_utils::GetClassFromName("UnityEngine", "PlayMode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animation*), "Play", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mode});
   }
@@ -191,7 +191,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: CrossFade
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animation::*)(::Il2CppString*, float, UnityEngine::PlayMode)>(&UnityEngine::Animation::CrossFade)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* animation = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* fadeLength = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* mode = &::il2cpp_utils::GetClassFromName("UnityEngine", "PlayMode")->byval_arg;
@@ -202,7 +202,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: CrossFade
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animation::*)(::Il2CppString*, float)>(&UnityEngine::Animation::CrossFade)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* animation = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* fadeLength = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animation*), "CrossFade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{animation, fadeLength});
@@ -212,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: PlayDefaultAnimation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animation::*)(UnityEngine::PlayMode)>(&UnityEngine::Animation::PlayDefaultAnimation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mode = &::il2cpp_utils::GetClassFromName("UnityEngine", "PlayMode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animation*), "PlayDefaultAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mode});
   }
@@ -221,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: GetEnumerator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (UnityEngine::Animation::*)()>(&UnityEngine::Animation::GetEnumerator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animation*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -229,7 +229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: GetState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationState* (UnityEngine::Animation::*)(::Il2CppString*)>(&UnityEngine::Animation::GetState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animation*), "GetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
   }
@@ -238,7 +238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetStateAtIndex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AnimationState* (UnityEngine::Animation::*)(int)>(&UnityEngine::Animation::GetStateAtIndex)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animation*), "GetStateAtIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
   }
@@ -247,7 +247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetStateCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Animation::*)()>(&UnityEngine::Animation::GetStateCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animation*), "GetStateCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -255,7 +255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: get_animatePhysics
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animation::*)()>(&UnityEngine::Animation::get_animatePhysics)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animation*), "get_animatePhysics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

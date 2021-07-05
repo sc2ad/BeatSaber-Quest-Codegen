@@ -59,7 +59,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::IPlayerEditorConnectionNative*, "UnityEngine
 // Il2CppName: Initialize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::IPlayerEditorConnectionNative::*)()>(&UnityEngine::IPlayerEditorConnectionNative::Initialize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::IPlayerEditorConnectionNative*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -67,7 +67,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: DisconnectAll
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::IPlayerEditorConnectionNative::*)()>(&UnityEngine::IPlayerEditorConnectionNative::DisconnectAll)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::IPlayerEditorConnectionNative*), "DisconnectAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SendMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::IPlayerEditorConnectionNative::*)(System::Guid, ::Array<uint8_t>*, int)>(&UnityEngine::IPlayerEditorConnectionNative::SendMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* messageId = &::il2cpp_utils::GetClassFromName("System", "Guid")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* playerId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: TrySendMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::IPlayerEditorConnectionNative::*)(System::Guid, ::Array<uint8_t>*, int)>(&UnityEngine::IPlayerEditorConnectionNative::TrySendMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* messageId = &::il2cpp_utils::GetClassFromName("System", "Guid")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* playerId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: Poll
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::IPlayerEditorConnectionNative::*)()>(&UnityEngine::IPlayerEditorConnectionNative::Poll)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::IPlayerEditorConnectionNative*), "Poll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: RegisterInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::IPlayerEditorConnectionNative::*)(System::Guid)>(&UnityEngine::IPlayerEditorConnectionNative::RegisterInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* messageId = &::il2cpp_utils::GetClassFromName("System", "Guid")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::IPlayerEditorConnectionNative*), "RegisterInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{messageId});
   }
@@ -114,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: UnregisterInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::IPlayerEditorConnectionNative::*)(System::Guid)>(&UnityEngine::IPlayerEditorConnectionNative::UnregisterInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* messageId = &::il2cpp_utils::GetClassFromName("System", "Guid")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::IPlayerEditorConnectionNative*), "UnregisterInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{messageId});
   }
@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: IsConnected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::IPlayerEditorConnectionNative::*)()>(&UnityEngine::IPlayerEditorConnectionNative::IsConnected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::IPlayerEditorConnectionNative*), "IsConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

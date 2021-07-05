@@ -30,7 +30,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::IO::PathInternal*, "System.IO", "PathInternal");
 // Il2CppName: IsPartiallyQualified
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&System::IO::PathInternal::IsPartiallyQualified)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::PathInternal*), "IsPartiallyQualified", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
   }
@@ -39,7 +39,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: HasIllegalCharacters
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, bool)>(&System::IO::PathInternal::HasIllegalCharacters)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* checkAdditional = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::PathInternal*), "HasIllegalCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path, checkAdditional});

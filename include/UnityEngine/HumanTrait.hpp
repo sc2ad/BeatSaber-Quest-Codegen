@@ -34,7 +34,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanTrait*, "UnityEngine", "HumanTrait");
 // Il2CppName: get_MuscleCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&UnityEngine::HumanTrait::get_MuscleCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::HumanTrait*), "get_MuscleCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -42,7 +42,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 // Il2CppName: GetBoneIndexFromMono
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&UnityEngine::HumanTrait::GetBoneIndexFromMono)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* humanId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::HumanTrait*), "GetBoneIndexFromMono", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{humanId});
   }
@@ -51,7 +51,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Il2CppName: get_MuscleName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)()>(&UnityEngine::HumanTrait::get_MuscleName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::HumanTrait*), "get_MuscleName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

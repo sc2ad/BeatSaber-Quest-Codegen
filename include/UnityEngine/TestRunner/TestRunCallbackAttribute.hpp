@@ -54,7 +54,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestRunCallbackAttribute*, "Unit
 // Il2CppName: ConstructCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestRunner::ITestRunCallback* (UnityEngine::TestRunner::TestRunCallbackAttribute::*)()>(&UnityEngine::TestRunner::TestRunCallbackAttribute::ConstructCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::TestRunCallbackAttribute*), "ConstructCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

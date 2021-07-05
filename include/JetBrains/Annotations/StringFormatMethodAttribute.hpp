@@ -60,7 +60,7 @@ DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::StringFormatMethodAttribute*, "Je
 // Il2CppName: get_FormatParameterName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::StringFormatMethodAttribute::*)()>(&JetBrains::Annotations::StringFormatMethodAttribute::get_FormatParameterName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::StringFormatMethodAttribute*), "get_FormatParameterName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -68,7 +68,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_FormatParameterName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::StringFormatMethodAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::StringFormatMethodAttribute::set_FormatParameterName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::StringFormatMethodAttribute*), "set_FormatParameterName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

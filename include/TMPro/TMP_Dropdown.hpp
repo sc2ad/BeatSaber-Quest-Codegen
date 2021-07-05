@@ -375,7 +375,7 @@ DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Dropdown*, "TMPro", "TMP_Dropdown");
 // Il2CppName: get_template
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RectTransform* (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_template)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "get_template", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -383,7 +383,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_template
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(UnityEngine::RectTransform*)>(&TMPro::TMP_Dropdown::set_template)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "set_template", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -392,7 +392,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: get_captionText
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Text* (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_captionText)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "get_captionText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -400,7 +400,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 // Il2CppName: set_captionText
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(TMPro::TMP_Text*)>(&TMPro::TMP_Dropdown::set_captionText)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "set_captionText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -409,7 +409,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: get_captionImage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Image* (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_captionImage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "get_captionImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -417,7 +417,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_captionImage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(UnityEngine::UI::Image*)>(&TMPro::TMP_Dropdown::set_captionImage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Image")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "set_captionImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -426,7 +426,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: get_itemText
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Text* (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_itemText)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "get_itemText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -434,7 +434,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 // Il2CppName: set_itemText
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(TMPro::TMP_Text*)>(&TMPro::TMP_Dropdown::set_itemText)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "set_itemText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -443,7 +443,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: get_itemImage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Image* (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_itemImage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "get_itemImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -451,7 +451,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_itemImage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(UnityEngine::UI::Image*)>(&TMPro::TMP_Dropdown::set_itemImage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Image")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "set_itemImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -460,7 +460,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: get_options
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>* (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_options)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "get_options", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -468,7 +468,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: set_options
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>*)>(&TMPro::TMP_Dropdown::set_options)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("TMPro", "TMP_Dropdown/OptionData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "set_options", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -477,7 +477,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: get_onValueChanged
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Dropdown::DropdownEvent* (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_onValueChanged)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "get_onValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -485,7 +485,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 // Il2CppName: set_onValueChanged
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(TMPro::TMP_Dropdown::DropdownEvent*)>(&TMPro::TMP_Dropdown::set_onValueChanged)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_Dropdown/DropdownEvent")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "set_onValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -494,7 +494,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: get_value
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_value)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "get_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -502,7 +502,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro:
 // Il2CppName: set_value
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(int)>(&TMPro::TMP_Dropdown::set_value)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "set_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -511,7 +511,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: SetValueWithoutNotify
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(int)>(&TMPro::TMP_Dropdown::SetValueWithoutNotify)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "SetValueWithoutNotify", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});
   }
@@ -520,7 +520,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: SetValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(int, bool)>(&TMPro::TMP_Dropdown::SetValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* sendCallback = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "SetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, sendCallback});
@@ -530,7 +530,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: get_IsExpanded
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::get_IsExpanded)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "get_IsExpanded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -538,7 +538,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 // Il2CppName: RefreshShownValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::RefreshShownValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "RefreshShownValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -546,7 +546,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: AddOptions
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>*)>(&TMPro::TMP_Dropdown::AddOptions)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* options = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("TMPro", "TMP_Dropdown/OptionData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "AddOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{options});
   }
@@ -555,7 +555,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: AddOptions
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(System::Collections::Generic::List_1<::Il2CppString*>*)>(&TMPro::TMP_Dropdown::AddOptions)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* options = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "AddOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{options});
   }
@@ -564,7 +564,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: AddOptions
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(System::Collections::Generic::List_1<UnityEngine::Sprite*>*)>(&TMPro::TMP_Dropdown::AddOptions)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* options = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Sprite")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "AddOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{options});
   }
@@ -573,7 +573,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: ClearOptions
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::ClearOptions)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "ClearOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -581,7 +581,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: SetupTemplate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::SetupTemplate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "SetupTemplate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -592,7 +592,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: OnPointerClick
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(UnityEngine::EventSystems::PointerEventData*)>(&TMPro::TMP_Dropdown::OnPointerClick)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "OnPointerClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eventData});
   }
@@ -601,7 +601,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: OnSubmit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(UnityEngine::EventSystems::BaseEventData*)>(&TMPro::TMP_Dropdown::OnSubmit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "OnSubmit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eventData});
   }
@@ -610,7 +610,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: OnCancel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(UnityEngine::EventSystems::BaseEventData*)>(&TMPro::TMP_Dropdown::OnCancel)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "OnCancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eventData});
   }
@@ -619,7 +619,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: Show
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::Show)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "Show", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -627,7 +627,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: CreateBlocker
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (TMPro::TMP_Dropdown::*)(UnityEngine::Canvas*)>(&TMPro::TMP_Dropdown::CreateBlocker)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rootCanvas = &::il2cpp_utils::GetClassFromName("UnityEngine", "Canvas")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "CreateBlocker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rootCanvas});
   }
@@ -636,7 +636,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: DestroyBlocker
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(UnityEngine::GameObject*)>(&TMPro::TMP_Dropdown::DestroyBlocker)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* blocker = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "DestroyBlocker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{blocker});
   }
@@ -645,7 +645,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: CreateDropdownList
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (TMPro::TMP_Dropdown::*)(UnityEngine::GameObject*)>(&TMPro::TMP_Dropdown::CreateDropdownList)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* _template = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "CreateDropdownList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_template});
   }
@@ -654,7 +654,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: DestroyDropdownList
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(UnityEngine::GameObject*)>(&TMPro::TMP_Dropdown::DestroyDropdownList)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* dropdownList = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "DestroyDropdownList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dropdownList});
   }
@@ -663,7 +663,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: CreateItem
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Dropdown::DropdownItem* (TMPro::TMP_Dropdown::*)(TMPro::TMP_Dropdown::DropdownItem*)>(&TMPro::TMP_Dropdown::CreateItem)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* itemTemplate = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_Dropdown/DropdownItem")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "CreateItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{itemTemplate});
   }
@@ -672,7 +672,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 // Il2CppName: DestroyItem
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(TMPro::TMP_Dropdown::DropdownItem*)>(&TMPro::TMP_Dropdown::DestroyItem)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* item = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_Dropdown/DropdownItem")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "DestroyItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{item});
   }
@@ -681,7 +681,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: AddItem
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Dropdown::DropdownItem* (TMPro::TMP_Dropdown::*)(TMPro::TMP_Dropdown::OptionData*, bool, TMPro::TMP_Dropdown::DropdownItem*, System::Collections::Generic::List_1<TMPro::TMP_Dropdown::DropdownItem*>*)>(&TMPro::TMP_Dropdown::AddItem)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_Dropdown/OptionData")->byval_arg;
     static auto* selected = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* itemTemplate = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_Dropdown/DropdownItem")->byval_arg;
@@ -693,7 +693,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 // Il2CppName: AlphaFadeList
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(float, float)>(&TMPro::TMP_Dropdown::AlphaFadeList)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* alpha = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "AlphaFadeList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{duration, alpha});
@@ -703,7 +703,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: AlphaFadeList
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(float, float, float)>(&TMPro::TMP_Dropdown::AlphaFadeList)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* end = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -714,7 +714,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: SetAlpha
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(float)>(&TMPro::TMP_Dropdown::SetAlpha)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* alpha = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "SetAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{alpha});
   }
@@ -723,7 +723,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: Hide
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::Hide)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "Hide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -731,7 +731,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: DelayedDestroyDropdownList
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (TMPro::TMP_Dropdown::*)(float)>(&TMPro::TMP_Dropdown::DelayedDestroyDropdownList)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* delay = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "DelayedDestroyDropdownList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{delay});
   }
@@ -740,7 +740,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: ImmediateDestroyDropdownList
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::ImmediateDestroyDropdownList)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "ImmediateDestroyDropdownList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -748,7 +748,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: OnSelectItem
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)(UnityEngine::UI::Toggle*)>(&TMPro::TMP_Dropdown::OnSelectItem)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* toggle = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Toggle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "OnSelectItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{toggle});
   }
@@ -761,7 +761,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: Awake
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::Awake)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -769,7 +769,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -777,7 +777,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: OnDisable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Dropdown::*)()>(&TMPro::TMP_Dropdown::OnDisable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -785,7 +785,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TMPro::TMP_Dropdown::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Dropdown*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

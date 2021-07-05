@@ -51,7 +51,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::NameTransformScopeConcreteIdArgConditionCopyNonL
 // Il2CppName: WithGameObjectName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder::*)(::Il2CppString*)>(&Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder::WithGameObjectName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameObjectName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*), "WithGameObjectName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameObjectName});
   }

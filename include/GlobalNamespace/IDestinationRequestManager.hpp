@@ -51,7 +51,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IDestinationRequestManager*, "", "IDesti
 // Il2CppName: add_didSendMenuDestinationRequestEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IDestinationRequestManager::*)(System::Action_1<GlobalNamespace::MenuDestination*>*)>(&GlobalNamespace::IDestinationRequestManager::add_didSendMenuDestinationRequestEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MenuDestination")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IDestinationRequestManager*), "add_didSendMenuDestinationRequestEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -60,7 +60,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_didSendMenuDestinationRequestEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IDestinationRequestManager::*)(System::Action_1<GlobalNamespace::MenuDestination*>*)>(&GlobalNamespace::IDestinationRequestManager::remove_didSendMenuDestinationRequestEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MenuDestination")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IDestinationRequestManager*), "remove_didSendMenuDestinationRequestEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -69,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_currentMenuDestinationRequest
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MenuDestination* (GlobalNamespace::IDestinationRequestManager::*)()>(&GlobalNamespace::IDestinationRequestManager::get_currentMenuDestinationRequest)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IDestinationRequestManager*), "get_currentMenuDestinationRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: set_currentMenuDestinationRequest
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IDestinationRequestManager::*)(GlobalNamespace::MenuDestination*)>(&GlobalNamespace::IDestinationRequestManager::set_currentMenuDestinationRequest)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "MenuDestination")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IDestinationRequestManager*), "set_currentMenuDestinationRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Clear
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IDestinationRequestManager::*)()>(&GlobalNamespace::IDestinationRequestManager::Clear)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IDestinationRequestManager*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

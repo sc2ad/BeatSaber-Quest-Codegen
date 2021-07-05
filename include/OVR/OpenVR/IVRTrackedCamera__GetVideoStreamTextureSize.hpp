@@ -70,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRTrackedCamera::_GetVideoStreamTextureSize
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRTrackedCameraError (OVR::OpenVR::IVRTrackedCamera::_GetVideoStreamTextureSize::*)(uint, OVR::OpenVR::EVRTrackedCameraFrameType, OVR::OpenVR::VRTextureBounds_t&, uint&, uint&)>(&OVR::OpenVR::IVRTrackedCamera::_GetVideoStreamTextureSize::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* nDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* eFrameType = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRTrackedCameraFrameType")->byval_arg;
     static auto* pTextureBounds = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRTextureBounds_t")->this_arg;
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRTrackedCamera::_GetVideoStreamTextureSize::*)(uint, OVR::OpenVR::EVRTrackedCameraFrameType, OVR::OpenVR::VRTextureBounds_t&, uint&, uint&, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRTrackedCamera::_GetVideoStreamTextureSize::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* nDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* eFrameType = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRTrackedCameraFrameType")->byval_arg;
     static auto* pTextureBounds = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRTextureBounds_t")->this_arg;
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRTrackedCameraError (OVR::OpenVR::IVRTrackedCamera::_GetVideoStreamTextureSize::*)(OVR::OpenVR::VRTextureBounds_t&, uint&, uint&, System::IAsyncResult*)>(&OVR::OpenVR::IVRTrackedCamera::_GetVideoStreamTextureSize::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pTextureBounds = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRTextureBounds_t")->this_arg;
     static auto* pnWidth = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
     static auto* pnHeight = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;

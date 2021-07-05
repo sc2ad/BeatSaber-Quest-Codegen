@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_WaitGetPoses*, "Valve.VR", "IV
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRCompositorError (Valve::VR::IVRCompositor::_WaitGetPoses::*)(::Array<Valve::VR::TrackedDevicePose_t>*&, uint, ::Array<Valve::VR::TrackedDevicePose_t>*&, uint)>(&Valve::VR::IVRCompositor::_WaitGetPoses::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pRenderPoseArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t"), 1)->this_arg;
     static auto* unRenderPoseArrayCount = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* pGamePoseArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t"), 1)->this_arg;
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRCompositor::_WaitGetPoses::*)(::Array<Valve::VR::TrackedDevicePose_t>*&, uint, ::Array<Valve::VR::TrackedDevicePose_t>*&, uint, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRCompositor::_WaitGetPoses::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pRenderPoseArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t"), 1)->this_arg;
     static auto* unRenderPoseArrayCount = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* pGamePoseArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t"), 1)->this_arg;
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRCompositorError (Valve::VR::IVRCompositor::_WaitGetPoses::*)(System::IAsyncResult*)>(&Valve::VR::IVRCompositor::_WaitGetPoses::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_WaitGetPoses*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

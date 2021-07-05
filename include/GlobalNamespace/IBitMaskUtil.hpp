@@ -123,7 +123,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBitMaskUtil*, "", "IBitMaskUtil");
 // Il2CppName: GetHexDigit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Il2CppChar)>(&GlobalNamespace::IBitMaskUtil::GetHexDigit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBitMaskUtil*), "GetHexDigit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
@@ -132,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::
 // Il2CppName: GetBase64Digit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Il2CppChar)>(&GlobalNamespace::IBitMaskUtil::GetBase64Digit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBitMaskUtil*), "GetBase64Digit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::
 // Il2CppName: GetBase64Char
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(uint64_t)>(&GlobalNamespace::IBitMaskUtil::GetBase64Char)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* digit = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBitMaskUtil*), "GetBase64Char", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{digit});
   }

@@ -73,7 +73,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer::StreamTokenReader*, "S
 // Il2CppName: Read
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Util::Tokenizer::StreamTokenReader::*)()>(&System::Security::Util::Tokenizer::StreamTokenReader::Read)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Tokenizer::StreamTokenReader*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: get_NumCharEncountered
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Util::Tokenizer::StreamTokenReader::*)()>(&System::Security::Util::Tokenizer::StreamTokenReader::get_NumCharEncountered)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Tokenizer::StreamTokenReader*), "get_NumCharEncountered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

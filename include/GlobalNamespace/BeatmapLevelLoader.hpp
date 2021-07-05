@@ -120,7 +120,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResu
 // Il2CppName: LoadBeatmapLevelAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult>* (GlobalNamespace::BeatmapLevelLoader::*)(GlobalNamespace::IPreviewBeatmapLevel*, System::Threading::CancellationToken)>(&GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* previewLevel = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelLoader*), "LoadBeatmapLevelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{previewLevel, cancellationToken});

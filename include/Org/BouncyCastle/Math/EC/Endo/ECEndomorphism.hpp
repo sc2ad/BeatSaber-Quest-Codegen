@@ -36,7 +36,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*, "Org.
 // Il2CppName: get_PointMap
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPointMap* (Org::BouncyCastle::Math::EC::Endo::ECEndomorphism::*)()>(&Org::BouncyCastle::Math::EC::Endo::ECEndomorphism::get_PointMap)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*), "get_PointMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -44,7 +44,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: get_HasEfficientPointMap
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Math::EC::Endo::ECEndomorphism::*)()>(&Org::BouncyCastle::Math::EC::Endo::ECEndomorphism::get_HasEfficientPointMap)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*), "get_HasEfficientPointMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

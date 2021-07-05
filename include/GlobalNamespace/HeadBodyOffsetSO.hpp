@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HeadBodyOffsetSO*, "", "HeadBodyOffsetSO
 // Il2CppName: get_headNeckOffset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::HeadBodyOffsetSO::*)()>(&GlobalNamespace::HeadBodyOffsetSO::get_headNeckOffset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HeadBodyOffsetSO*), "get_headNeckOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -71,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_verticalOffset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::HeadBodyOffsetSO::*)()>(&GlobalNamespace::HeadBodyOffsetSO::get_verticalOffset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HeadBodyOffsetSO*), "get_verticalOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

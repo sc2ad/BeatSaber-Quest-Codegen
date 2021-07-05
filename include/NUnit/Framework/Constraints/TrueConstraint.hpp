@@ -54,7 +54,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::TrueConstraint*, "NUnit.Fr
 // Il2CppName: ApplyTo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ConstraintResult* (NUnit::Framework::Constraints::TrueConstraint::*)(::Il2CppObject*)>(&NUnit::Framework::Constraints::TrueConstraint::ApplyTo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* actual = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::TrueConstraint*), "ApplyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{actual});
   }

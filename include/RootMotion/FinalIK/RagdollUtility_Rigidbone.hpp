@@ -133,7 +133,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RagdollUtility::Rigidbone*, "RootMot
 // Il2CppName: RecordVelocity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RagdollUtility::Rigidbone::*)()>(&RootMotion::FinalIK::RagdollUtility::Rigidbone::RecordVelocity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RagdollUtility::Rigidbone*), "RecordVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: WakeUp
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RagdollUtility::Rigidbone::*)(float, float)>(&RootMotion::FinalIK::RagdollUtility::Rigidbone::WakeUp)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* velocityWeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* angularVelocityWeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RagdollUtility::Rigidbone*), "WakeUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{velocityWeight, angularVelocityWeight});

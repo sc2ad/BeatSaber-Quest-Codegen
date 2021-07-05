@@ -71,7 +71,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Activation::IConstructionCallM
 // Il2CppName: get_ActivationType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Runtime::Remoting::Activation::IConstructionCallMessage::*)()>(&System::Runtime::Remoting::Activation::IConstructionCallMessage::get_ActivationType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::IConstructionCallMessage*), "get_ActivationType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Il2CppName: get_ActivationTypeName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Activation::IConstructionCallMessage::*)()>(&System::Runtime::Remoting::Activation::IConstructionCallMessage::get_ActivationTypeName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::IConstructionCallMessage*), "get_ActivationTypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_Activator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Activation::IActivator* (System::Runtime::Remoting::Activation::IConstructionCallMessage::*)()>(&System::Runtime::Remoting::Activation::IConstructionCallMessage::get_Activator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::IConstructionCallMessage*), "get_Activator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: set_Activator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Activation::IConstructionCallMessage::*)(System::Runtime::Remoting::Activation::IActivator*)>(&System::Runtime::Remoting::Activation::IConstructionCallMessage::set_Activator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Activation", "IActivator")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::IConstructionCallMessage*), "set_Activator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_CallSiteActivationAttributes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Runtime::Remoting::Activation::IConstructionCallMessage::*)()>(&System::Runtime::Remoting::Activation::IConstructionCallMessage::get_CallSiteActivationAttributes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::IConstructionCallMessage*), "get_CallSiteActivationAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: get_ContextProperties
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (System::Runtime::Remoting::Activation::IConstructionCallMessage::*)()>(&System::Runtime::Remoting::Activation::IConstructionCallMessage::get_ContextProperties)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::IConstructionCallMessage*), "get_ContextProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -200,7 +200,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::VertexHelper*, "UnityEngine.UI", "Vertex
 // Il2CppName: InitializeListIfRequired
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::VertexHelper::*)()>(&UnityEngine::UI::VertexHelper::InitializeListIfRequired)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::VertexHelper*), "InitializeListIfRequired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -208,7 +208,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::VertexHelper::*)()>(&UnityEngine::UI::VertexHelper::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::VertexHelper*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -216,7 +216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Clear
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::VertexHelper::*)()>(&UnityEngine::UI::VertexHelper::Clear)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::VertexHelper*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -224,7 +224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_currentVertCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::UI::VertexHelper::*)()>(&UnityEngine::UI::VertexHelper::get_currentVertCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::VertexHelper*), "get_currentVertCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -232,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: get_currentIndexCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::UI::VertexHelper::*)()>(&UnityEngine::UI::VertexHelper::get_currentIndexCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::VertexHelper*), "get_currentIndexCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -240,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: PopulateUIVertex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::VertexHelper::*)(UnityEngine::UIVertex&, int)>(&UnityEngine::UI::VertexHelper::PopulateUIVertex)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* vertex = &::il2cpp_utils::GetClassFromName("UnityEngine", "UIVertex")->this_arg;
     static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::VertexHelper*), "PopulateUIVertex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vertex, i});
@@ -250,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetUIVertex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::VertexHelper::*)(UnityEngine::UIVertex, int)>(&UnityEngine::UI::VertexHelper::SetUIVertex)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* vertex = &::il2cpp_utils::GetClassFromName("UnityEngine", "UIVertex")->byval_arg;
     static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::VertexHelper*), "SetUIVertex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vertex, i});
@@ -260,7 +260,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: FillMesh
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::VertexHelper::*)(UnityEngine::Mesh*)>(&UnityEngine::UI::VertexHelper::FillMesh)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::VertexHelper*), "FillMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh});
   }
@@ -269,7 +269,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: AddVert
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::VertexHelper::*)(UnityEngine::Vector3, UnityEngine::Color32, UnityEngine::Vector2, UnityEngine::Vector2, UnityEngine::Vector2, UnityEngine::Vector2, UnityEngine::Vector3, UnityEngine::Vector4)>(&UnityEngine::UI::VertexHelper::AddVert)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color32")->byval_arg;
     static auto* uv0 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
@@ -285,7 +285,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: AddVert
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::VertexHelper::*)(UnityEngine::Vector3, UnityEngine::Color32, UnityEngine::Vector2, UnityEngine::Vector2, UnityEngine::Vector3, UnityEngine::Vector4)>(&UnityEngine::UI::VertexHelper::AddVert)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color32")->byval_arg;
     static auto* uv0 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
@@ -299,7 +299,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: AddVert
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::VertexHelper::*)(UnityEngine::Vector3, UnityEngine::Color32, UnityEngine::Vector2)>(&UnityEngine::UI::VertexHelper::AddVert)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color32")->byval_arg;
     static auto* uv0 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
@@ -310,7 +310,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: AddVert
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::VertexHelper::*)(UnityEngine::UIVertex)>(&UnityEngine::UI::VertexHelper::AddVert)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* v = &::il2cpp_utils::GetClassFromName("UnityEngine", "UIVertex")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::VertexHelper*), "AddVert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});
   }
@@ -319,7 +319,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: AddTriangle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::VertexHelper::*)(int, int, int)>(&UnityEngine::UI::VertexHelper::AddTriangle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* idx0 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* idx1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* idx2 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -330,7 +330,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: AddUIVertexQuad
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::VertexHelper::*)(::Array<UnityEngine::UIVertex>*)>(&UnityEngine::UI::VertexHelper::AddUIVertexQuad)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* verts = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "UIVertex"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::VertexHelper*), "AddUIVertexQuad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{verts});
   }
@@ -339,7 +339,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: AddUIVertexStream
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::VertexHelper::*)(System::Collections::Generic::List_1<UnityEngine::UIVertex>*, System::Collections::Generic::List_1<int>*)>(&UnityEngine::UI::VertexHelper::AddUIVertexStream)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* verts = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "UIVertex")})->byval_arg;
     static auto* indices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::VertexHelper*), "AddUIVertexStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{verts, indices});
@@ -349,7 +349,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: AddUIVertexTriangleStream
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::VertexHelper::*)(System::Collections::Generic::List_1<UnityEngine::UIVertex>*)>(&UnityEngine::UI::VertexHelper::AddUIVertexTriangleStream)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* verts = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "UIVertex")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::VertexHelper*), "AddUIVertexTriangleStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{verts});
   }
@@ -358,7 +358,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetUIVertexStream
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::VertexHelper::*)(System::Collections::Generic::List_1<UnityEngine::UIVertex>*)>(&UnityEngine::UI::VertexHelper::GetUIVertexStream)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stream = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "UIVertex")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::VertexHelper*), "GetUIVertexStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stream});
   }
@@ -367,7 +367,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::UI::VertexHelper::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::VertexHelper*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

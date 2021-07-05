@@ -55,7 +55,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Motion*, "UnityEngine", "Motion");
 // Il2CppName: get_isLooping
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Motion::*)()>(&UnityEngine::Motion::get_isLooping)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Motion*), "get_isLooping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

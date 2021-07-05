@@ -60,7 +60,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlQualifiedName::HashCodeOfStringDelegate*,
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::XmlQualifiedName::HashCodeOfStringDelegate::*)(::Il2CppString*, int, int64_t)>(&System::Xml::XmlQualifiedName::HashCodeOfStringDelegate::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* sLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* additionalEntropy = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
@@ -71,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Xml::XmlQualifiedName::HashCodeOfStringDelegate::*)(::Il2CppString*, int, int64_t, System::AsyncCallback*, ::Il2CppObject*)>(&System::Xml::XmlQualifiedName::HashCodeOfStringDelegate::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* sLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* additionalEntropy = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::XmlQualifiedName::HashCodeOfStringDelegate::*)(System::IAsyncResult*)>(&System::Xml::XmlQualifiedName::HashCodeOfStringDelegate::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlQualifiedName::HashCodeOfStringDelegate*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

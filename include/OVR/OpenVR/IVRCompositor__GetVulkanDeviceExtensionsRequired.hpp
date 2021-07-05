@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsReq
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired::*)(System::IntPtr, System::Text::StringBuilder*, uint)>(&OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pPhysicalDevice = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* pchValue = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* unBufferSize = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired::*)(System::IntPtr, System::Text::StringBuilder*, uint, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pPhysicalDevice = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* pchValue = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* unBufferSize = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired::*)(System::IAsyncResult*)>(&OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRCompositor::_GetVulkanDeviceExtensionsRequired*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

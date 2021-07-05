@@ -158,7 +158,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::BakerTransform*, "RootMotion", "BakerTransfor
 // Il2CppName: SetRelativeSpace
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerTransform::*)(UnityEngine::Vector3, UnityEngine::Quaternion)>(&RootMotion::BakerTransform::SetRelativeSpace)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerTransform*), "SetRelativeSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, rotation});
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: SetCurves
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerTransform::*)(UnityEngine::AnimationClip*&)>(&RootMotion::BakerTransform::SetCurves)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerTransform*), "SetCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clip});
   }
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: AddRootMotionCurves
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerTransform::*)(UnityEngine::AnimationClip*&)>(&RootMotion::BakerTransform::AddRootMotionCurves)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerTransform*), "AddRootMotionCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clip});
   }
@@ -186,7 +186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: Reset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerTransform::*)()>(&RootMotion::BakerTransform::Reset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerTransform*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -194,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: ReduceKeyframes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerTransform::*)(float)>(&RootMotion::BakerTransform::ReduceKeyframes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* maxError = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerTransform*), "ReduceKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{maxError});
   }
@@ -203,7 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: SetKeyframes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerTransform::*)(float)>(&RootMotion::BakerTransform::SetKeyframes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerTransform*), "SetKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
@@ -212,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: AddLoopFrame
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerTransform::*)(float)>(&RootMotion::BakerTransform::AddLoopFrame)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerTransform*), "AddLoopFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }

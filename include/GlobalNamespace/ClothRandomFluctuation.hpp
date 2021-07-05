@@ -129,7 +129,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ClothRandomFluctuation*, "", "ClothRando
 // Il2CppName: Update
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ClothRandomFluctuation::*)()>(&GlobalNamespace::ClothRandomFluctuation::Update)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ClothRandomFluctuation*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -137,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: FluctuateCloth
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ClothRandomFluctuation::*)(UnityEngine::Cloth*)>(&GlobalNamespace::ClothRandomFluctuation::FluctuateCloth)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cloth = &::il2cpp_utils::GetClassFromName("UnityEngine", "Cloth")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ClothRandomFluctuation*), "FluctuateCloth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cloth});
   }
@@ -146,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: GetNoise
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ClothRandomFluctuation::*)(float, float)>(&GlobalNamespace::ClothRandomFluctuation::GetNoise)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ClothRandomFluctuation*), "GetNoise", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time, offset});

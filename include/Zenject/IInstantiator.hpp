@@ -314,7 +314,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::IInstantiator*, "Zenject", "IInstantiator");
 // Il2CppName: Instantiate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::IInstantiator::*)(System::Type*)>(&Zenject::IInstantiator::Instantiate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* concreteType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::IInstantiator*), "Instantiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{concreteType});
   }
@@ -323,7 +323,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: Instantiate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::IInstantiator::*)(System::Type*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&Zenject::IInstantiator::Instantiate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* concreteType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* extraArgs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::IInstantiator*), "Instantiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{concreteType, extraArgs});
@@ -339,7 +339,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: InstantiateComponent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (Zenject::IInstantiator::*)(System::Type*, UnityEngine::GameObject*)>(&Zenject::IInstantiator::InstantiateComponent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* componentType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* gameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::IInstantiator*), "InstantiateComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{componentType, gameObject});
@@ -349,7 +349,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InstantiateComponent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (Zenject::IInstantiator::*)(System::Type*, UnityEngine::GameObject*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&Zenject::IInstantiator::InstantiateComponent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* componentType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* gameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* extraArgs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
@@ -372,7 +372,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InstantiatePrefab
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::IInstantiator::*)(UnityEngine::Object*)>(&Zenject::IInstantiator::InstantiatePrefab)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prefab = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::IInstantiator*), "InstantiatePrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prefab});
   }
@@ -381,7 +381,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InstantiatePrefab
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::IInstantiator::*)(UnityEngine::Object*, UnityEngine::Transform*)>(&Zenject::IInstantiator::InstantiatePrefab)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prefab = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* parentTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::IInstantiator*), "InstantiatePrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prefab, parentTransform});
@@ -391,7 +391,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InstantiatePrefab
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::IInstantiator::*)(UnityEngine::Object*, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Transform*)>(&Zenject::IInstantiator::InstantiatePrefab)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prefab = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -403,7 +403,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InstantiatePrefabResource
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::IInstantiator::*)(::Il2CppString*)>(&Zenject::IInstantiator::InstantiatePrefabResource)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::IInstantiator*), "InstantiatePrefabResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resourcePath});
   }
@@ -412,7 +412,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InstantiatePrefabResource
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::IInstantiator::*)(::Il2CppString*, UnityEngine::Transform*)>(&Zenject::IInstantiator::InstantiatePrefabResource)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* parentTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::IInstantiator*), "InstantiatePrefabResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resourcePath, parentTransform});
@@ -422,7 +422,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InstantiatePrefabResource
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::IInstantiator::*)(::Il2CppString*, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Transform*)>(&Zenject::IInstantiator::InstantiatePrefabResource)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
@@ -452,7 +452,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InstantiatePrefabForComponent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::IInstantiator::*)(System::Type*, UnityEngine::Object*, UnityEngine::Transform*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&Zenject::IInstantiator::InstantiatePrefabForComponent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* concreteType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* prefab = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* parentTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -482,7 +482,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: InstantiatePrefabResourceForComponent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::IInstantiator::*)(System::Type*, ::Il2CppString*, UnityEngine::Transform*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&Zenject::IInstantiator::InstantiatePrefabResourceForComponent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* concreteType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* parentTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -500,7 +500,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: InstantiateScriptableObjectResource
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::IInstantiator::*)(System::Type*, ::Il2CppString*)>(&Zenject::IInstantiator::InstantiateScriptableObjectResource)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* scriptableObjectType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::IInstantiator*), "InstantiateScriptableObjectResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scriptableObjectType, resourcePath});
@@ -510,7 +510,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: InstantiateScriptableObjectResource
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::IInstantiator::*)(System::Type*, ::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&Zenject::IInstantiator::InstantiateScriptableObjectResource)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* scriptableObjectType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* extraArgs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
@@ -521,7 +521,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: CreateEmptyGameObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::IInstantiator::*)(::Il2CppString*)>(&Zenject::IInstantiator::CreateEmptyGameObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::IInstantiator*), "CreateEmptyGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
   }

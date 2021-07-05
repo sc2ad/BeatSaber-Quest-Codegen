@@ -75,7 +75,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsAvatarController*, "",
 // Il2CppName: SetScale
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerResultsAvatarController::*)(float)>(&GlobalNamespace::MultiplayerResultsAvatarController::SetScale)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* scale = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsAvatarController*), "SetScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scale});
   }
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Setup
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerResultsAvatarController::*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::MultiplayerResultsAvatarController::Setup)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* connectedPlayer = &::il2cpp_utils::GetClassFromName("", "IConnectedPlayer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsAvatarController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connectedPlayer});
   }

@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::UnhandledExceptionEventHandler*, "System", "Unhan
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UnhandledExceptionEventHandler::*)(::Il2CppObject*, System::UnhandledExceptionEventArgs*)>(&System::UnhandledExceptionEventHandler::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sender = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* e = &::il2cpp_utils::GetClassFromName("System", "UnhandledExceptionEventArgs")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::UnhandledExceptionEventHandler*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sender, e});
@@ -71,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::UnhandledExceptionEventHandler::*)(::Il2CppObject*, System::UnhandledExceptionEventArgs*, System::AsyncCallback*, ::Il2CppObject*)>(&System::UnhandledExceptionEventHandler::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sender = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* e = &::il2cpp_utils::GetClassFromName("System", "UnhandledExceptionEventArgs")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::UnhandledExceptionEventHandler::*)(System::IAsyncResult*)>(&System::UnhandledExceptionEventHandler::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::UnhandledExceptionEventHandler*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

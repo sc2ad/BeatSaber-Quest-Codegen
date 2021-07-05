@@ -94,7 +94,7 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Challenges*, "Oculus.Platform", "Challe
 // Il2CppName: GetNextEntries
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::ChallengeEntryList*>* (*)(Oculus::Platform::Models::ChallengeEntryList*)>(&Oculus::Platform::Challenges::GetNextEntries)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* list = &::il2cpp_utils::GetClassFromName("Oculus.Platform.Models", "ChallengeEntryList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Challenges*), "GetNextEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{list});
   }
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: GetPreviousEntries
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::ChallengeEntryList*>* (*)(Oculus::Platform::Models::ChallengeEntryList*)>(&Oculus::Platform::Challenges::GetPreviousEntries)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* list = &::il2cpp_utils::GetClassFromName("Oculus.Platform.Models", "ChallengeEntryList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Challenges*), "GetPreviousEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{list});
   }
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: GetNextChallenges
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::ChallengeList*>* (*)(Oculus::Platform::Models::ChallengeList*)>(&Oculus::Platform::Challenges::GetNextChallenges)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* list = &::il2cpp_utils::GetClassFromName("Oculus.Platform.Models", "ChallengeList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Challenges*), "GetNextChallenges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{list});
   }
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: GetPreviousChallenges
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::ChallengeList*>* (*)(Oculus::Platform::Models::ChallengeList*)>(&Oculus::Platform::Challenges::GetPreviousChallenges)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* list = &::il2cpp_utils::GetClassFromName("Oculus.Platform.Models", "ChallengeList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Challenges*), "GetPreviousChallenges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{list});
   }
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: Create
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Challenge*>* (*)(::Il2CppString*, Oculus::Platform::ChallengeOptions*)>(&Oculus::Platform::Challenges::Create)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* leaderboardName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* challengeOptions = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "ChallengeOptions")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Challenges*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardName, challengeOptions});
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: DeclineInvite
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Challenge*>* (*)(uint64_t)>(&Oculus::Platform::Challenges::DeclineInvite)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* challengeID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Challenges*), "DeclineInvite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{challengeID});
   }
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: Delete
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request* (*)(uint64_t)>(&Oculus::Platform::Challenges::Delete)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* challengeID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Challenges*), "Delete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{challengeID});
   }
@@ -158,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: Get
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Challenge*>* (*)(uint64_t)>(&Oculus::Platform::Challenges::Get)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* challengeID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Challenges*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{challengeID});
   }
@@ -167,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: GetEntries
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::ChallengeEntryList*>* (*)(uint64_t, int, Oculus::Platform::LeaderboardFilterType, Oculus::Platform::LeaderboardStartAt)>(&Oculus::Platform::Challenges::GetEntries)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* challengeID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* limit = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* filter = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "LeaderboardFilterType")->byval_arg;
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: GetEntriesAfterRank
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::ChallengeEntryList*>* (*)(uint64_t, int, uint64_t)>(&Oculus::Platform::Challenges::GetEntriesAfterRank)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* challengeID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* limit = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* afterRank = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
@@ -190,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: GetEntriesByIds
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::ChallengeEntryList*>* (*)(uint64_t, int, Oculus::Platform::LeaderboardStartAt, ::Array<uint64_t>*)>(&Oculus::Platform::Challenges::GetEntriesByIds)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* challengeID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* limit = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* startAt = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "LeaderboardStartAt")->byval_arg;
@@ -202,7 +202,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: GetList
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::ChallengeList*>* (*)(Oculus::Platform::ChallengeOptions*, int)>(&Oculus::Platform::Challenges::GetList)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* challengeOptions = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "ChallengeOptions")->byval_arg;
     static auto* limit = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Challenges*), "GetList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{challengeOptions, limit});
@@ -212,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: Join
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Challenge*>* (*)(uint64_t)>(&Oculus::Platform::Challenges::Join)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* challengeID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Challenges*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{challengeID});
   }
@@ -221,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: Leave
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Challenge*>* (*)(uint64_t)>(&Oculus::Platform::Challenges::Leave)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* challengeID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Challenges*), "Leave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{challengeID});
   }
@@ -230,7 +230,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: UpdateInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Challenge*>* (*)(uint64_t, Oculus::Platform::ChallengeOptions*)>(&Oculus::Platform::Challenges::UpdateInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* challengeID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* challengeOptions = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "ChallengeOptions")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Challenges*), "UpdateInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{challengeID, challengeOptions});

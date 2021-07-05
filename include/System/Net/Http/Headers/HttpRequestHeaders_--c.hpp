@@ -87,7 +87,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::HttpRequestHeaders::$$c*, "Sy
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Net::Http::Headers::HttpRequestHeaders::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpRequestHeaders::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <get_ConnectionClose>b__19_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::HttpRequestHeaders::$$c::*)(::Il2CppString*)>(&System::Net::Http::Headers::HttpRequestHeaders::$$c::$get_ConnectionClose$b__19_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* l = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpRequestHeaders::$$c*), "<get_ConnectionClose>b__19_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{l});
   }
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: <get_ConnectionKeepAlive>b__22_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::HttpRequestHeaders::$$c::*)(::Il2CppString*)>(&System::Net::Http::Headers::HttpRequestHeaders::$$c::$get_ConnectionKeepAlive$b__22_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* l = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpRequestHeaders::$$c*), "<get_ConnectionKeepAlive>b__22_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{l});
   }
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: <get_ExpectContinue>b__29_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::HttpRequestHeaders::$$c::*)(System::Net::Http::Headers::TransferCodingHeaderValue*)>(&System::Net::Http::Headers::HttpRequestHeaders::$$c::$get_ExpectContinue$b__29_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* l = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "TransferCodingHeaderValue")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpRequestHeaders::$$c*), "<get_ExpectContinue>b__29_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{l});
   }
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: <get_TransferEncodingChunked>b__71_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::HttpRequestHeaders::$$c::*)(System::Net::Http::Headers::TransferCodingHeaderValue*)>(&System::Net::Http::Headers::HttpRequestHeaders::$$c::$get_TransferEncodingChunked$b__71_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* l = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "TransferCodingHeaderValue")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpRequestHeaders::$$c*), "<get_TransferEncodingChunked>b__71_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{l});
   }

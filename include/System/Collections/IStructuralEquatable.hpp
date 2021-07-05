@@ -39,7 +39,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Collections::IStructuralEquatable*, "System.Colle
 // Il2CppName: Equals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Collections::IStructuralEquatable::*)(::Il2CppObject*, System::Collections::IEqualityComparer*)>(&System::Collections::IStructuralEquatable::Equals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* comparer = &::il2cpp_utils::GetClassFromName("System.Collections", "IEqualityComparer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Collections::IStructuralEquatable*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other, comparer});
@@ -49,7 +49,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: GetHashCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::IStructuralEquatable::*)(System::Collections::IEqualityComparer*)>(&System::Collections::IStructuralEquatable::GetHashCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* comparer = &::il2cpp_utils::GetClassFromName("System.Collections", "IEqualityComparer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Collections::IStructuralEquatable*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{comparer});
   }

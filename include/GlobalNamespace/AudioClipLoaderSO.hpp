@@ -85,7 +85,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioClipLoaderSO*, "", "AudioClipLoader
 // Il2CppName: LoadAudioFile
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioClipLoaderSO::*)(::Il2CppString*, System::Action_1<UnityEngine::AudioClip*>*)>(&GlobalNamespace::AudioClipLoaderSO::LoadAudioFile)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* finishCallback = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipLoaderSO*), "LoadAudioFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filePath, finishCallback});
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: LoadAudioFileCoroutine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::AudioClipLoaderSO::*)(::Il2CppString*, System::Action_1<UnityEngine::AudioClip*>*)>(&GlobalNamespace::AudioClipLoaderSO::LoadAudioFileCoroutine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* finishCallback = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipLoaderSO*), "LoadAudioFileCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filePath, finishCallback});
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: OnEnable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioClipLoaderSO::*)()>(&GlobalNamespace::AudioClipLoaderSO::OnEnable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipLoaderSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

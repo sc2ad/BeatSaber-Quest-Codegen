@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpContinueDelegate*, "System.Net", "HttpCo
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpContinueDelegate::*)(int, System::Net::WebHeaderCollection*)>(&System::Net::HttpContinueDelegate::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* StatusCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* httpHeaders = &::il2cpp_utils::GetClassFromName("System.Net", "WebHeaderCollection")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpContinueDelegate*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{StatusCode, httpHeaders});
@@ -73,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::HttpContinueDelegate::*)(int, System::Net::WebHeaderCollection*, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::HttpContinueDelegate::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* StatusCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* httpHeaders = &::il2cpp_utils::GetClassFromName("System.Net", "WebHeaderCollection")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpContinueDelegate::*)(System::IAsyncResult*)>(&System::Net::HttpContinueDelegate::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpContinueDelegate*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

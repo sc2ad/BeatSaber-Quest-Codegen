@@ -140,7 +140,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Proxies::RemotingProxy*, "Syst
 // Il2CppName: AttachIdentity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Proxies::RemotingProxy::*)(System::Runtime::Remoting::Identity*)>(&System::Runtime::Remoting::Proxies::RemotingProxy::AttachIdentity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* identity = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "Identity")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::RemotingProxy*), "AttachIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{identity});
   }
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ActivateRemoteObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (System::Runtime::Remoting::Proxies::RemotingProxy::*)(System::Runtime::Remoting::Messaging::IMethodMessage*)>(&System::Runtime::Remoting::Proxies::RemotingProxy::ActivateRemoteObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "IMethodMessage")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::RemotingProxy*), "ActivateRemoteObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{request});
   }
@@ -158,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: get_TypeName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::Remoting::Proxies::RemotingProxy::*)()>(&System::Runtime::Remoting::Proxies::RemotingProxy::get_TypeName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::RemotingProxy*), "get_TypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -166,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: CanCastTo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Remoting::Proxies::RemotingProxy::*)(System::Type*, ::Il2CppObject*)>(&System::Runtime::Remoting::Proxies::RemotingProxy::CanCastTo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* fromType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* o = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::RemotingProxy*), "CanCastTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fromType, o});
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Runtime::Remoting::Proxies::RemotingProxy::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::RemotingProxy*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -188,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (System::Runtime::Remoting::Proxies::RemotingProxy::*)(System::Runtime::Remoting::Messaging::IMessage*)>(&System::Runtime::Remoting::Proxies::RemotingProxy::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "IMessage")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::RemotingProxy*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{request});
   }
@@ -197,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: Finalize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Proxies::RemotingProxy::*)()>(&System::Runtime::Remoting::Proxies::RemotingProxy::Finalize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::RemotingProxy*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

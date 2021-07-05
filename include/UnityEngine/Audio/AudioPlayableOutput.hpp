@@ -101,7 +101,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioPlayableOutput, "UnityEngine.Aud
 // Il2CppName: Create
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Audio::AudioPlayableOutput (*)(UnityEngine::Playables::PlayableGraph, ::Il2CppString*, UnityEngine::AudioSource*)>(&UnityEngine::Audio::AudioPlayableOutput::Create)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioSource")->byval_arg;
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_Null
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Audio::AudioPlayableOutput (*)()>(&UnityEngine::Audio::AudioPlayableOutput::get_Null)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioPlayableOutput), "get_Null", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -124,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetHandle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableOutputHandle (UnityEngine::Audio::AudioPlayableOutput::*)()>(&UnityEngine::Audio::AudioPlayableOutput::GetHandle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioPlayableOutput), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -135,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: SetTarget
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Audio::AudioPlayableOutput::*)(UnityEngine::AudioSource*)>(&UnityEngine::Audio::AudioPlayableOutput::SetTarget)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioSource")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioPlayableOutput), "SetTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetEvaluateOnSeek
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Audio::AudioPlayableOutput::*)(bool)>(&UnityEngine::Audio::AudioPlayableOutput::SetEvaluateOnSeek)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioPlayableOutput), "SetEvaluateOnSeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: InternalSetTarget
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableOutputHandle&, UnityEngine::AudioSource*)>(&UnityEngine::Audio::AudioPlayableOutput::InternalSetTarget)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* output = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableOutputHandle")->this_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioSource")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioPlayableOutput), "InternalSetTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{output, target});
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: InternalSetEvaluateOnSeek
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableOutputHandle&, bool)>(&UnityEngine::Audio::AudioPlayableOutput::InternalSetEvaluateOnSeek)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* output = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableOutputHandle")->this_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioPlayableOutput), "InternalSetEvaluateOnSeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{output, value});

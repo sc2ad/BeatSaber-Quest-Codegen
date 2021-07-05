@@ -39,7 +39,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioPlayableGraphExtensions*, "Unity
 // Il2CppName: InternalCreateAudioOutput
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&, ::Il2CppString*, UnityEngine::Playables::PlayableOutputHandle&)>(&UnityEngine::Audio::AudioPlayableGraphExtensions::InternalCreateAudioOutput)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->this_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* handle = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableOutputHandle")->this_arg;

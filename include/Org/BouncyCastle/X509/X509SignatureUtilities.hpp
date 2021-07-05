@@ -51,7 +51,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509SignatureUtilities*, "Org.Bo
 // Il2CppName: GetSignatureName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(&Org::BouncyCastle::X509::X509SignatureUtilities::GetSignatureName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sigAlgId = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1.X509", "AlgorithmIdentifier")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509SignatureUtilities*), "GetSignatureName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sigAlgId});
   }
@@ -60,7 +60,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetDigestAlgName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&Org::BouncyCastle::X509::X509SignatureUtilities::GetDigestAlgName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* digestAlgOID = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "DerObjectIdentifier")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509SignatureUtilities*), "GetDigestAlgName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{digestAlgOID});
   }
@@ -69,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::X509::X509SignatureUtilities::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509SignatureUtilities*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

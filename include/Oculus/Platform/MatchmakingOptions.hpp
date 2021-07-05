@@ -101,7 +101,7 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MatchmakingOptions*, "Oculus.Platform",
 // Il2CppName: SetCreateRoomDataStore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MatchmakingOptions::*)(::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::MatchmakingOptions::SetCreateRoomDataStore)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MatchmakingOptions*), "SetCreateRoomDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key, value});
@@ -111,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Il2CppName: ClearCreateRoomDataStore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MatchmakingOptions::*)()>(&Oculus::Platform::MatchmakingOptions::ClearCreateRoomDataStore)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MatchmakingOptions*), "ClearCreateRoomDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Il2CppName: SetCreateRoomJoinPolicy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MatchmakingOptions::*)(Oculus::Platform::RoomJoinPolicy)>(&Oculus::Platform::MatchmakingOptions::SetCreateRoomJoinPolicy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "RoomJoinPolicy")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MatchmakingOptions*), "SetCreateRoomJoinPolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Il2CppName: SetCreateRoomMaxUsers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MatchmakingOptions::*)(uint)>(&Oculus::Platform::MatchmakingOptions::SetCreateRoomMaxUsers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MatchmakingOptions*), "SetCreateRoomMaxUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -137,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Il2CppName: AddEnqueueAdditionalUser
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MatchmakingOptions::*)(uint64_t)>(&Oculus::Platform::MatchmakingOptions::AddEnqueueAdditionalUser)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* userID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MatchmakingOptions*), "AddEnqueueAdditionalUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userID});
   }
@@ -146,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Il2CppName: ClearEnqueueAdditionalUsers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MatchmakingOptions::*)()>(&Oculus::Platform::MatchmakingOptions::ClearEnqueueAdditionalUsers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MatchmakingOptions*), "ClearEnqueueAdditionalUsers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Il2CppName: SetEnqueueDataSettings
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MatchmakingOptions::*)(::Il2CppString*, int)>(&Oculus::Platform::MatchmakingOptions::SetEnqueueDataSettings)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MatchmakingOptions*), "SetEnqueueDataSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key, value});
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Il2CppName: SetEnqueueDataSettings
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MatchmakingOptions::*)(::Il2CppString*, double)>(&Oculus::Platform::MatchmakingOptions::SetEnqueueDataSettings)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MatchmakingOptions*), "SetEnqueueDataSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key, value});
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Il2CppName: SetEnqueueDataSettings
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MatchmakingOptions::*)(::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::MatchmakingOptions::SetEnqueueDataSettings)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MatchmakingOptions*), "SetEnqueueDataSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key, value});
@@ -184,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Il2CppName: ClearEnqueueDataSettings
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MatchmakingOptions::*)()>(&Oculus::Platform::MatchmakingOptions::ClearEnqueueDataSettings)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MatchmakingOptions*), "ClearEnqueueDataSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -192,7 +192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Il2CppName: SetEnqueueIsDebug
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MatchmakingOptions::*)(bool)>(&Oculus::Platform::MatchmakingOptions::SetEnqueueIsDebug)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MatchmakingOptions*), "SetEnqueueIsDebug", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -201,7 +201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Il2CppName: SetEnqueueQueryKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MatchmakingOptions::*)(::Il2CppString*)>(&Oculus::Platform::MatchmakingOptions::SetEnqueueQueryKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MatchmakingOptions*), "SetEnqueueQueryKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -217,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Il2CppName: Finalize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::MatchmakingOptions::*)()>(&Oculus::Platform::MatchmakingOptions::Finalize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MatchmakingOptions*), "Finalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfC
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::*)(OVR::OpenVR::ETrackedDeviceClass, ::Array<uint>*&, uint, uint)>(&OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eTrackedDeviceClass = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackedDeviceClass")->byval_arg;
     static auto* punTrackedDeviceIndexArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->this_arg;
     static auto* unTrackedDeviceIndexArrayCount = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::*)(OVR::OpenVR::ETrackedDeviceClass, ::Array<uint>*&, uint, uint, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eTrackedDeviceClass = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackedDeviceClass")->byval_arg;
     static auto* punTrackedDeviceIndexArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->this_arg;
     static auto* unTrackedDeviceIndexArrayCount = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::*)(System::IAsyncResult*)>(&OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

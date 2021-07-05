@@ -145,7 +145,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CutScoreBuffer*, "", "CutScoreBuffer");
 // Il2CppName: get_scoreWithMultiplier
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::CutScoreBuffer::*)()>(&GlobalNamespace::CutScoreBuffer::get_scoreWithMultiplier)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CutScoreBuffer*), "get_scoreWithMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: get_multiplier
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::CutScoreBuffer::*)()>(&GlobalNamespace::CutScoreBuffer::get_multiplier)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CutScoreBuffer*), "get_multiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: get_didFinishEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ILazyCopyHashSet_1<GlobalNamespace::ICutScoreBufferDidFinishEvent*>* (GlobalNamespace::CutScoreBuffer::*)()>(&GlobalNamespace::CutScoreBuffer::get_didFinishEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CutScoreBuffer*), "get_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CutScoreBuffer::*)(GlobalNamespace::NoteCutInfo&, int)>(&GlobalNamespace::CutScoreBuffer::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* noteCutInfo = &::il2cpp_utils::GetClassFromName("", "NoteCutInfo")->this_arg;
     static auto* multiplier = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CutScoreBuffer*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteCutInfo, multiplier});
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: RefreshScores
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CutScoreBuffer::*)()>(&GlobalNamespace::CutScoreBuffer::RefreshScores)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CutScoreBuffer*), "RefreshScores", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleSaberSwingRatingCounterDidChange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CutScoreBuffer::*)(GlobalNamespace::ISaberSwingRatingCounter*, float)>(&GlobalNamespace::CutScoreBuffer::HandleSaberSwingRatingCounterDidChange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* swingRatingCounter = &::il2cpp_utils::GetClassFromName("", "ISaberSwingRatingCounter")->byval_arg;
     static auto* rating = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CutScoreBuffer*), "HandleSaberSwingRatingCounterDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{swingRatingCounter, rating});
@@ -197,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleSaberSwingRatingCounterDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CutScoreBuffer::*)(GlobalNamespace::ISaberSwingRatingCounter*)>(&GlobalNamespace::CutScoreBuffer::HandleSaberSwingRatingCounterDidFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* swingRatingCounter = &::il2cpp_utils::GetClassFromName("", "ISaberSwingRatingCounter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CutScoreBuffer*), "HandleSaberSwingRatingCounterDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{swingRatingCounter});
   }

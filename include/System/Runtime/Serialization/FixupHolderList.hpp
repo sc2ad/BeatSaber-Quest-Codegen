@@ -74,7 +74,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::FixupHolderList*, "System
 // Il2CppName: Add
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::FixupHolderList::*)(System::Runtime::Serialization::FixupHolder*)>(&System::Runtime::Serialization::FixupHolderList::Add)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* fixup = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "FixupHolder")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::FixupHolderList*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fixup});
   }
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: EnlargeArray
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::FixupHolderList::*)()>(&System::Runtime::Serialization::FixupHolderList::EnlargeArray)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::FixupHolderList*), "EnlargeArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -62,7 +62,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyValuesSetter::PropertyVa
 // Il2CppName: get_propertyId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MaterialPropertyValuesSetter::PropertyValuePairBase::*)()>(&GlobalNamespace::MaterialPropertyValuesSetter::PropertyValuePairBase::get_propertyId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MaterialPropertyValuesSetter::PropertyValuePairBase*), "get_propertyId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -70,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: set_propertyId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MaterialPropertyValuesSetter::PropertyValuePairBase::*)(int)>(&GlobalNamespace::MaterialPropertyValuesSetter::PropertyValuePairBase::set_propertyId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MaterialPropertyValuesSetter::PropertyValuePairBase*), "set_propertyId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: RefreshPropertyId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MaterialPropertyValuesSetter::PropertyValuePairBase::*)()>(&GlobalNamespace::MaterialPropertyValuesSetter::PropertyValuePairBase::RefreshPropertyId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MaterialPropertyValuesSetter::PropertyValuePairBase*), "RefreshPropertyId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

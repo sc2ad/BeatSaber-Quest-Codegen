@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Collections::HashHelpers*, "System.Collections", 
 // Il2CppName: get_SerializationInfoTable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, System::Runtime::Serialization::SerializationInfo*>* (*)()>(&System::Collections::HashHelpers::get_SerializationInfoTable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Collections::HashHelpers*), "get_SerializationInfoTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -69,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: IsPrime
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&System::Collections::HashHelpers::IsPrime)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* candidate = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Collections::HashHelpers*), "IsPrime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{candidate});
   }
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Il2CppName: GetPrime
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&System::Collections::HashHelpers::GetPrime)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* min = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Collections::HashHelpers*), "GetPrime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{min});
   }
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Il2CppName: ExpandPrime
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&System::Collections::HashHelpers::ExpandPrime)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* oldSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Collections::HashHelpers*), "ExpandPrime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{oldSize});
   }
@@ -96,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Collections::HashHelpers::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Collections::HashHelpers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

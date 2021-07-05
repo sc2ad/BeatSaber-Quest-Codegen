@@ -114,7 +114,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataSO*, "", "BeatmapDataSO");
 // Il2CppName: get_beatmapData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapData* (GlobalNamespace::BeatmapDataSO::*)()>(&GlobalNamespace::BeatmapDataSO::get_beatmapData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataSO*), "get_beatmapData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: set_beatmapData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapDataSO::*)(GlobalNamespace::BeatmapData*)>(&GlobalNamespace::BeatmapDataSO::set_beatmapData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "BeatmapData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataSO*), "set_beatmapData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetJsonData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapDataSO::*)(::Il2CppString*)>(&GlobalNamespace::BeatmapDataSO::SetJsonData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* jsonData = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataSO*), "SetJsonData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{jsonData});
   }
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetRequiredDataForLoad
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapDataSO::*)(float, float, float)>(&GlobalNamespace::BeatmapDataSO::SetRequiredDataForLoad)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatsPerMinute = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* shuffle = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* shufflePeriod = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -151,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Load
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapDataSO::*)()>(&GlobalNamespace::BeatmapDataSO::Load)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataSO*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -106,7 +106,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Guid::GuidResult, "System", "Guid/GuidResult");
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Guid::GuidResult::*)(System::Guid::GuidParseThrowStyle)>(&System::Guid::GuidResult::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* canThrow = &::il2cpp_utils::GetClassFromName("System", "Guid/GuidParseThrowStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Guid::GuidResult), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{canThrow});
   }
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: SetFailure
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Guid::GuidResult::*)(System::Exception*)>(&System::Guid::GuidResult::SetFailure)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* nativeException = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Guid::GuidResult), "SetFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nativeException});
   }
@@ -124,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: SetFailure
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Guid::GuidResult::*)(System::Guid::ParseFailureKind, ::Il2CppString*)>(&System::Guid::GuidResult::SetFailure)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* failure = &::il2cpp_utils::GetClassFromName("System", "Guid/ParseFailureKind")->byval_arg;
     static auto* failureMessageID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Guid::GuidResult), "SetFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{failure, failureMessageID});
@@ -134,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: SetFailure
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Guid::GuidResult::*)(System::Guid::ParseFailureKind, ::Il2CppString*, ::Il2CppObject*)>(&System::Guid::GuidResult::SetFailure)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* failure = &::il2cpp_utils::GetClassFromName("System", "Guid/ParseFailureKind")->byval_arg;
     static auto* failureMessageID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* failureMessageFormatArgument = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -145,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: SetFailure
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Guid::GuidResult::*)(System::Guid::ParseFailureKind, ::Il2CppString*, ::Il2CppObject*, ::Il2CppString*, System::Exception*)>(&System::Guid::GuidResult::SetFailure)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* failure = &::il2cpp_utils::GetClassFromName("System", "Guid/ParseFailureKind")->byval_arg;
     static auto* failureMessageID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* failureMessageFormatArgument = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -158,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: GetGuidParseException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (System::Guid::GuidResult::*)()>(&System::Guid::GuidResult::GetGuidParseException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Guid::GuidResult), "GetGuidParseException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

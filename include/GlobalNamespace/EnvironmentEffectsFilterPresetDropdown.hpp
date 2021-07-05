@@ -123,7 +123,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentEffectsFilterPresetDropdown*,
 // Il2CppName: add_didSelectCellWithIdxEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnvironmentEffectsFilterPresetDropdown::*)(System::Action_1<int>*)>(&GlobalNamespace::EnvironmentEffectsFilterPresetDropdown::add_didSelectCellWithIdxEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentEffectsFilterPresetDropdown*), "add_didSelectCellWithIdxEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -132,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_didSelectCellWithIdxEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnvironmentEffectsFilterPresetDropdown::*)(System::Action_1<int>*)>(&GlobalNamespace::EnvironmentEffectsFilterPresetDropdown::remove_didSelectCellWithIdxEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentEffectsFilterPresetDropdown*), "remove_didSelectCellWithIdxEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_lightReductionAmountData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::EnvironmentEffectsFilterPreset, ::Il2CppString*>*>* (GlobalNamespace::EnvironmentEffectsFilterPresetDropdown::*)()>(&GlobalNamespace::EnvironmentEffectsFilterPresetDropdown::get_lightReductionAmountData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentEffectsFilterPresetDropdown*), "get_lightReductionAmountData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnvironmentEffectsFilterPresetDropdown::*)()>(&GlobalNamespace::EnvironmentEffectsFilterPresetDropdown::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentEffectsFilterPresetDropdown*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -157,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnvironmentEffectsFilterPresetDropdown::*)()>(&GlobalNamespace::EnvironmentEffectsFilterPresetDropdown::OnDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentEffectsFilterPresetDropdown*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: GetLightsReductionAmount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentEffectsFilterPreset (GlobalNamespace::EnvironmentEffectsFilterPresetDropdown::*)()>(&GlobalNamespace::EnvironmentEffectsFilterPresetDropdown::GetLightsReductionAmount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentEffectsFilterPresetDropdown*), "GetLightsReductionAmount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -173,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: SelectCellWithLightReductionAmount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnvironmentEffectsFilterPresetDropdown::*)(GlobalNamespace::EnvironmentEffectsFilterPreset)>(&GlobalNamespace::EnvironmentEffectsFilterPresetDropdown::SelectCellWithLightReductionAmount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* environmentEffectsFilterPreset = &::il2cpp_utils::GetClassFromName("", "EnvironmentEffectsFilterPreset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentEffectsFilterPresetDropdown*), "SelectCellWithLightReductionAmount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{environmentEffectsFilterPreset});
   }
@@ -182,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: GetIdxForLightReductionAmount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::EnvironmentEffectsFilterPresetDropdown::*)(GlobalNamespace::EnvironmentEffectsFilterPreset)>(&GlobalNamespace::EnvironmentEffectsFilterPresetDropdown::GetIdxForLightReductionAmount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* environmentEffectsFilterPreset = &::il2cpp_utils::GetClassFromName("", "EnvironmentEffectsFilterPreset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentEffectsFilterPresetDropdown*), "GetIdxForLightReductionAmount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{environmentEffectsFilterPreset});
   }
@@ -191,7 +191,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: HandleSimpleTextDropdownDidSelectCellWithIdx
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnvironmentEffectsFilterPresetDropdown::*)(HMUI::DropdownWithTableView*, int)>(&GlobalNamespace::EnvironmentEffectsFilterPresetDropdown::HandleSimpleTextDropdownDidSelectCellWithIdx)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* dropdownWithTableView = &::il2cpp_utils::GetClassFromName("HMUI", "DropdownWithTableView")->byval_arg;
     static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentEffectsFilterPresetDropdown*), "HandleSimpleTextDropdownDidSelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dropdownWithTableView, idx});

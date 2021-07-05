@@ -109,7 +109,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::IPAddressCollection*, "S
 // Il2CppName: CopyTo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::IPAddressCollection::*)(::Array<System::Net::IPAddress*>*, int)>(&System::Net::NetworkInformation::IPAddressCollection::CopyTo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Net", "IPAddress"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::IPAddressCollection*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array, offset});
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_Count
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::NetworkInformation::IPAddressCollection::*)()>(&System::Net::NetworkInformation::IPAddressCollection::get_Count)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::IPAddressCollection*), "get_Count", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: get_IsReadOnly
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::NetworkInformation::IPAddressCollection::*)()>(&System::Net::NetworkInformation::IPAddressCollection::get_IsReadOnly)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::IPAddressCollection*), "get_IsReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -135,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: Add
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::IPAddressCollection::*)(System::Net::IPAddress*)>(&System::Net::NetworkInformation::IPAddressCollection::Add)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* address = &::il2cpp_utils::GetClassFromName("System.Net", "IPAddress")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::IPAddressCollection*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{address});
   }
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: InternalAdd
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::IPAddressCollection::*)(System::Net::IPAddress*)>(&System::Net::NetworkInformation::IPAddressCollection::InternalAdd)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* address = &::il2cpp_utils::GetClassFromName("System.Net", "IPAddress")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::IPAddressCollection*), "InternalAdd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{address});
   }
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Contains
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::NetworkInformation::IPAddressCollection::*)(System::Net::IPAddress*)>(&System::Net::NetworkInformation::IPAddressCollection::Contains)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* address = &::il2cpp_utils::GetClassFromName("System.Net", "IPAddress")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::IPAddressCollection*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{address});
   }
@@ -162,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: System.Collections.IEnumerable.GetEnumerator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (System::Net::NetworkInformation::IPAddressCollection::*)()>(&System::Net::NetworkInformation::IPAddressCollection::System_Collections_IEnumerable_GetEnumerator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::IPAddressCollection*), "System.Collections.IEnumerable.GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -170,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: GetEnumerator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<System::Net::IPAddress*>* (System::Net::NetworkInformation::IPAddressCollection::*)()>(&System::Net::NetworkInformation::IPAddressCollection::GetEnumerator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::IPAddressCollection*), "GetEnumerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -178,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: Remove
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::NetworkInformation::IPAddressCollection::*)(System::Net::IPAddress*)>(&System::Net::NetworkInformation::IPAddressCollection::Remove)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* address = &::il2cpp_utils::GetClassFromName("System.Net", "IPAddress")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::IPAddressCollection*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{address});
   }
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: Clear
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::IPAddressCollection::*)()>(&System::Net::NetworkInformation::IPAddressCollection::Clear)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::IPAddressCollection*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -110,7 +110,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IUnifiedNetworkPlayerModel*, "", "IUnifi
 // Il2CppName: get_discoveryPolicy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::DiscoveryPolicy (GlobalNamespace::IUnifiedNetworkPlayerModel::*)()>(&GlobalNamespace::IUnifiedNetworkPlayerModel::get_discoveryPolicy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnifiedNetworkPlayerModel*), "get_discoveryPolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: add_partyRefreshingEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IUnifiedNetworkPlayerModel::*)(System::Action*)>(&GlobalNamespace::IUnifiedNetworkPlayerModel::add_partyRefreshingEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnifiedNetworkPlayerModel*), "add_partyRefreshingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_partyRefreshingEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IUnifiedNetworkPlayerModel::*)(System::Action*)>(&GlobalNamespace::IUnifiedNetworkPlayerModel::remove_partyRefreshingEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnifiedNetworkPlayerModel*), "remove_partyRefreshingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -136,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_localPlayer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::INetworkPlayer* (GlobalNamespace::IUnifiedNetworkPlayerModel::*)()>(&GlobalNamespace::IUnifiedNetworkPlayerModel::get_localPlayer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnifiedNetworkPlayerModel*), "get_localPlayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_enableLocalNetwork
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::IUnifiedNetworkPlayerModel::*)()>(&GlobalNamespace::IUnifiedNetworkPlayerModel::get_enableLocalNetwork)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnifiedNetworkPlayerModel*), "get_enableLocalNetwork", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -152,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: set_enableLocalNetwork
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IUnifiedNetworkPlayerModel::*)(bool)>(&GlobalNamespace::IUnifiedNetworkPlayerModel::set_enableLocalNetwork)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnifiedNetworkPlayerModel*), "set_enableLocalNetwork", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_publicServers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* (GlobalNamespace::IUnifiedNetworkPlayerModel::*)()>(&GlobalNamespace::IUnifiedNetworkPlayerModel::get_publicServers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnifiedNetworkPlayerModel*), "get_publicServers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: get_localNetworkPlayers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::INetworkPlayer*>* (GlobalNamespace::IUnifiedNetworkPlayerModel::*)()>(&GlobalNamespace::IUnifiedNetworkPlayerModel::get_localNetworkPlayers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnifiedNetworkPlayerModel*), "get_localNetworkPlayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: get_serverFilter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::GameplayServerFilter (GlobalNamespace::IUnifiedNetworkPlayerModel::*)()>(&GlobalNamespace::IUnifiedNetworkPlayerModel::get_serverFilter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnifiedNetworkPlayerModel*), "get_serverFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: SetServerFilter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IUnifiedNetworkPlayerModel::*)(GlobalNamespace::GameplayServerFilter)>(&GlobalNamespace::IUnifiedNetworkPlayerModel::SetServerFilter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* filter = &::il2cpp_utils::GetClassFromName("", "GameplayServerFilter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnifiedNetworkPlayerModel*), "SetServerFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filter});
   }
@@ -194,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: JoinMatchmaking
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IUnifiedNetworkPlayerModel::*)(GlobalNamespace::GameplayServerConfiguration, GlobalNamespace::DiscoveryPolicy, ::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::IUnifiedNetworkPlayerModel::JoinMatchmaking)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* configuration = &::il2cpp_utils::GetClassFromName("", "GameplayServerConfiguration")->byval_arg;
     static auto* discoveryPolicy = &::il2cpp_utils::GetClassFromName("", "DiscoveryPolicy")->byval_arg;
     static auto* secret = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -206,7 +206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ConnectToServerWithCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IUnifiedNetworkPlayerModel::*)(::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::IUnifiedNetworkPlayerModel::ConnectToServerWithCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* serverCode = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* serverPassword = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnifiedNetworkPlayerModel*), "ConnectToServerWithCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serverCode, serverPassword});
@@ -216,7 +216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ConnectToServerWithSecret
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IUnifiedNetworkPlayerModel::*)(::Il2CppString*)>(&GlobalNamespace::IUnifiedNetworkPlayerModel::ConnectToServerWithSecret)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* serverSecret = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnifiedNetworkPlayerModel*), "ConnectToServerWithSecret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serverSecret});
   }
@@ -225,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ResetMasterServerReachability
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IUnifiedNetworkPlayerModel::*)()>(&GlobalNamespace::IUnifiedNetworkPlayerModel::ResetMasterServerReachability)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnifiedNetworkPlayerModel*), "ResetMasterServerReachability", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -233,7 +233,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_userId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::IUnifiedNetworkPlayerModel::*)()>(&GlobalNamespace::IUnifiedNetworkPlayerModel::get_userId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnifiedNetworkPlayerModel*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -241,7 +241,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_userName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::IUnifiedNetworkPlayerModel::*)()>(&GlobalNamespace::IUnifiedNetworkPlayerModel::get_userName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnifiedNetworkPlayerModel*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -249,7 +249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_secret
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::IUnifiedNetworkPlayerModel::*)()>(&GlobalNamespace::IUnifiedNetworkPlayerModel::get_secret)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnifiedNetworkPlayerModel*), "get_secret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -257,7 +257,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_code
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::IUnifiedNetworkPlayerModel::*)()>(&GlobalNamespace::IUnifiedNetworkPlayerModel::get_code)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IUnifiedNetworkPlayerModel*), "get_code", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -46,7 +46,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::Warning*, "RootMotion", "Warning");
 // Il2CppName: Log
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, RootMotion::Warning::Logger*, bool)>(&RootMotion::Warning::Log)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* logger = &::il2cpp_utils::GetClassFromName("RootMotion", "Warning/Logger")->byval_arg;
     static auto* logInEditMode = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -57,7 +57,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: Log
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::Transform*, bool)>(&RootMotion::Warning::Log)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* logInEditMode = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

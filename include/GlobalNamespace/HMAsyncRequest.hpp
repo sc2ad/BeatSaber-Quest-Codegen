@@ -76,7 +76,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMAsyncRequest*, "", "HMAsyncRequest");
 // Il2CppName: get_CancelHandler
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::HMAsyncRequest::CancelHander* (GlobalNamespace::HMAsyncRequest::*)()>(&GlobalNamespace::HMAsyncRequest::get_CancelHandler)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMAsyncRequest*), "get_CancelHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: set_CancelHandler
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HMAsyncRequest::*)(GlobalNamespace::HMAsyncRequest::CancelHander*)>(&GlobalNamespace::HMAsyncRequest::set_CancelHandler)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "HMAsyncRequest/CancelHander")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMAsyncRequest*), "set_CancelHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_cancelled
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::HMAsyncRequest::*)()>(&GlobalNamespace::HMAsyncRequest::get_cancelled)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMAsyncRequest*), "get_cancelled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: Cancel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HMAsyncRequest::*)()>(&GlobalNamespace::HMAsyncRequest::Cancel)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMAsyncRequest*), "Cancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

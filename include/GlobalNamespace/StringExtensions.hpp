@@ -28,7 +28,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StringExtensions*, "", "StringExtensions
 // Il2CppName: Truncate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int, bool)>(&GlobalNamespace::StringExtensions::Truncate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* appendEllipsis = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

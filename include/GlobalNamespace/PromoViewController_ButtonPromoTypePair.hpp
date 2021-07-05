@@ -94,7 +94,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PromoViewController::ButtonPromoTypePair
 // Il2CppName: get_annotatedBeatmapLevelCollection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IAnnotatedBeatmapLevelCollection* (GlobalNamespace::PromoViewController::ButtonPromoTypePair::*)()>(&GlobalNamespace::PromoViewController::ButtonPromoTypePair::get_annotatedBeatmapLevelCollection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PromoViewController::ButtonPromoTypePair*), "get_annotatedBeatmapLevelCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

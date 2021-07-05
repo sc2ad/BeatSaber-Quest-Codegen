@@ -33,7 +33,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IFlyingObjectEffectDidFinishEvent*, "", 
 // Il2CppName: HandleFlyingObjectEffectDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IFlyingObjectEffectDidFinishEvent::*)(GlobalNamespace::FlyingObjectEffect*)>(&GlobalNamespace::IFlyingObjectEffectDidFinishEvent::HandleFlyingObjectEffectDidFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* flyingObjectEffect = &::il2cpp_utils::GetClassFromName("", "FlyingObjectEffect")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IFlyingObjectEffectDidFinishEvent*), "HandleFlyingObjectEffectDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flyingObjectEffect});
   }

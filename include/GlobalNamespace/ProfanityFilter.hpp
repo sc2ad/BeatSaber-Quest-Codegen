@@ -74,7 +74,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ProfanityFilter*, "", "ProfanityFilter")
 // Il2CppName: IsProfane
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ProfanityFilter::*)(::Il2CppString*)>(&GlobalNamespace::ProfanityFilter::IsProfane)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* word = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ProfanityFilter*), "IsProfane", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{word});
   }
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: GetLookalikeLetters
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppChar>* (*)(::Il2CppChar)>(&GlobalNamespace::ProfanityFilter::GetLookalikeLetters)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ProfanityFilter*), "GetLookalikeLetters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: GetLeetEquivalent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::Il2CppChar)>(&GlobalNamespace::ProfanityFilter::GetLeetEquivalent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ProfanityFilter*), "GetLeetEquivalent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }

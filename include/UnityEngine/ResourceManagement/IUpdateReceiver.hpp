@@ -26,7 +26,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::IUpdateReceiver*, "Unity
 // Il2CppName: Update
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::IUpdateReceiver::*)(float)>(&UnityEngine::ResourceManagement::IUpdateReceiver::Update)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* unscaledDeltaTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::IUpdateReceiver*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unscaledDeltaTime});
   }

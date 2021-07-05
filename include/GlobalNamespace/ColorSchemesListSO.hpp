@@ -60,7 +60,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemesListSO*, "", "ColorSchemesLi
 // Il2CppName: get_colorSchemes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::ColorSchemeSO*>* (GlobalNamespace::ColorSchemesListSO::*)()>(&GlobalNamespace::ColorSchemesListSO::get_colorSchemes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemesListSO*), "get_colorSchemes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

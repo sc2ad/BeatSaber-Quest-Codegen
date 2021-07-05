@@ -38,7 +38,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::ICustomFormatter*, "System", "ICustomFormatter");
 // Il2CppName: Format
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::ICustomFormatter::*)(::Il2CppString*, ::Il2CppObject*, System::IFormatProvider*)>(&System::ICustomFormatter::Format)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* arg = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* formatProvider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;

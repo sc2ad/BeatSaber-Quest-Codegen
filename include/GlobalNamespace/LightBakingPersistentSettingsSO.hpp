@@ -304,7 +304,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightBakingPersistentSettingsSO*, "", "L
 // Il2CppName: get_reflectionsCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&GlobalNamespace::LightBakingPersistentSettingsSO::get_reflectionsCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "get_reflectionsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -312,7 +312,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: set_reflectionsCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightBakingPersistentSettingsSO::*)(int)>(&GlobalNamespace::LightBakingPersistentSettingsSO::set_reflectionsCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "set_reflectionsCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -321,7 +321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_colorFromSchemeAlpha
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&GlobalNamespace::LightBakingPersistentSettingsSO::get_colorFromSchemeAlpha)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "get_colorFromSchemeAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -329,7 +329,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: set_colorFromSchemeAlpha
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightBakingPersistentSettingsSO::*)(float)>(&GlobalNamespace::LightBakingPersistentSettingsSO::set_colorFromSchemeAlpha)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "set_colorFromSchemeAlpha", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -338,7 +338,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_bakedLightEditorColors
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Color>* (GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&GlobalNamespace::LightBakingPersistentSettingsSO::get_bakedLightEditorColors)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "get_bakedLightEditorColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -346,7 +346,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: get_defaultDepthOnlyWriteMaterialForFakeMirror
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&GlobalNamespace::LightBakingPersistentSettingsSO::get_defaultDepthOnlyWriteMaterialForFakeMirror)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "get_defaultDepthOnlyWriteMaterialForFakeMirror", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -354,7 +354,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_mainEffectForBakingIsOn
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&GlobalNamespace::LightBakingPersistentSettingsSO::get_mainEffectForBakingIsOn)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "get_mainEffectForBakingIsOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -362,7 +362,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: set_mainEffectForBakingIsOn
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightBakingPersistentSettingsSO::*)(bool)>(&GlobalNamespace::LightBakingPersistentSettingsSO::set_mainEffectForBakingIsOn)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "set_mainEffectForBakingIsOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -371,7 +371,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_bakedLightDataLoaderPrefab
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BakedLightDataLoader* (GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&GlobalNamespace::LightBakingPersistentSettingsSO::get_bakedLightDataLoaderPrefab)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "get_bakedLightDataLoaderPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -379,7 +379,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_bakedReflectionProbePrefab
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BakedReflectionProbe* (GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&GlobalNamespace::LightBakingPersistentSettingsSO::get_bakedReflectionProbePrefab)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "get_bakedReflectionProbePrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -387,7 +387,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_lightmapLightWithIds
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LightmapLightWithIds* (GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&GlobalNamespace::LightBakingPersistentSettingsSO::get_lightmapLightWithIds)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "get_lightmapLightWithIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -395,7 +395,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_fakeMirrorObjectsInstallerPrefab
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::FakeMirrorObjectsInstaller* (GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&GlobalNamespace::LightBakingPersistentSettingsSO::get_fakeMirrorObjectsInstallerPrefab)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "get_fakeMirrorObjectsInstallerPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -403,7 +403,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_fakeMirrorSettingsPrefab
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::FakeMirrorSettings* (GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&GlobalNamespace::LightBakingPersistentSettingsSO::get_fakeMirrorSettingsPrefab)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "get_fakeMirrorSettingsPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -411,7 +411,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: SetGraphicsSettingsForBaking
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&GlobalNamespace::LightBakingPersistentSettingsSO::SetGraphicsSettingsForBaking)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "SetGraphicsSettingsForBaking", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -419,7 +419,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetPlatformGraphics
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&GlobalNamespace::LightBakingPersistentSettingsSO::SetPlatformGraphics)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "SetPlatformGraphics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -427,7 +427,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetToneMappingOn
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightBakingPersistentSettingsSO::*)(bool)>(&GlobalNamespace::LightBakingPersistentSettingsSO::SetToneMappingOn)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* isOn = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "SetToneMappingOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isOn});
   }
@@ -436,7 +436,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: IsToneMappingOn
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&GlobalNamespace::LightBakingPersistentSettingsSO::IsToneMappingOn)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "IsToneMappingOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

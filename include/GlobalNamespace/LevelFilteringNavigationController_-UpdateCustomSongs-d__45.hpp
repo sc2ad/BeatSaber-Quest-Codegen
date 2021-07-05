@@ -84,7 +84,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelFilteringNavigationController::$Upd
 // Il2CppName: MoveNext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelFilteringNavigationController::$UpdateCustomSongs$d__45::*)()>(&GlobalNamespace::LevelFilteringNavigationController::$UpdateCustomSongs$d__45::MoveNext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelFilteringNavigationController::$UpdateCustomSongs$d__45), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetStateMachine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelFilteringNavigationController::$UpdateCustomSongs$d__45::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&GlobalNamespace::LevelFilteringNavigationController::$UpdateCustomSongs$d__45::SetStateMachine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stateMachine = &::il2cpp_utils::GetClassFromName("System.Runtime.CompilerServices", "IAsyncStateMachine")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelFilteringNavigationController::$UpdateCustomSongs$d__45), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stateMachine});
   }

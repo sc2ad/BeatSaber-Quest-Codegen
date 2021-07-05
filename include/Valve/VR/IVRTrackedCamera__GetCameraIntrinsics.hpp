@@ -70,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRTrackedCamera::_GetCameraIntrinsics*, "Valv
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (Valve::VR::IVRTrackedCamera::_GetCameraIntrinsics::*)(uint, Valve::VR::EVRTrackedCameraFrameType, Valve::VR::HmdVector2_t&, Valve::VR::HmdVector2_t&)>(&Valve::VR::IVRTrackedCamera::_GetCameraIntrinsics::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* nDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* eFrameType = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRTrackedCameraFrameType")->byval_arg;
     static auto* pFocalLength = &::il2cpp_utils::GetClassFromName("Valve.VR", "HmdVector2_t")->this_arg;
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRTrackedCamera::_GetCameraIntrinsics::*)(uint, Valve::VR::EVRTrackedCameraFrameType, Valve::VR::HmdVector2_t&, Valve::VR::HmdVector2_t&, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRTrackedCamera::_GetCameraIntrinsics::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* nDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* eFrameType = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRTrackedCameraFrameType")->byval_arg;
     static auto* pFocalLength = &::il2cpp_utils::GetClassFromName("Valve.VR", "HmdVector2_t")->this_arg;
@@ -96,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRTrackedCameraError (Valve::VR::IVRTrackedCamera::_GetCameraIntrinsics::*)(Valve::VR::HmdVector2_t&, Valve::VR::HmdVector2_t&, System::IAsyncResult*)>(&Valve::VR::IVRTrackedCamera::_GetCameraIntrinsics::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pFocalLength = &::il2cpp_utils::GetClassFromName("Valve.VR", "HmdVector2_t")->this_arg;
     static auto* pCenter = &::il2cpp_utils::GetClassFromName("Valve.VR", "HmdVector2_t")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;

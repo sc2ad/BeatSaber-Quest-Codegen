@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::*)(UnityEngine::GameObject*, GlobalNamespace::OVRManager_MrcCameraType)>(&GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mainCameraGameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* cameraType = &::il2cpp_utils::GetClassFromName("", "OVRManager/MrcCameraType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mainCameraGameObject, cameraType});
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::*)(UnityEngine::GameObject*, GlobalNamespace::OVRManager_MrcCameraType, System::AsyncCallback*, ::Il2CppObject*)>(&GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mainCameraGameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* cameraType = &::il2cpp_utils::GetClassFromName("", "OVRManager/MrcCameraType")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::*)(System::IAsyncResult*)>(&GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

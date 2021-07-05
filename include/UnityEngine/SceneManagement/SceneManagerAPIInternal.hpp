@@ -49,7 +49,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SceneManagement::SceneManagerAPIInternal*, "
 // Il2CppName: LoadSceneAsyncNameIndexInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (*)(::Il2CppString*, int, UnityEngine::SceneManagement::LoadSceneParameters, bool)>(&UnityEngine::SceneManagement::SceneManagerAPIInternal::LoadSceneAsyncNameIndexInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* sceneBuildIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* parameters = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneParameters")->byval_arg;
@@ -61,7 +61,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: UnloadSceneNameIndexInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (*)(::Il2CppString*, int, bool, UnityEngine::SceneManagement::UnloadSceneOptions, bool&)>(&UnityEngine::SceneManagement::SceneManagerAPIInternal::UnloadSceneNameIndexInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* sceneBuildIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* immediately = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: LoadSceneAsyncNameIndexInternal_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (*)(::Il2CppString*, int, UnityEngine::SceneManagement::LoadSceneParameters&, bool)>(&UnityEngine::SceneManagement::SceneManagerAPIInternal::LoadSceneAsyncNameIndexInternal_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* sceneBuildIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* parameters = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneParameters")->this_arg;

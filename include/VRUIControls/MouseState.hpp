@@ -75,7 +75,7 @@ DEFINE_IL2CPP_ARG_TYPE(VRUIControls::MouseState*, "VRUIControls", "MouseState");
 // Il2CppName: AnyPressesThisFrame
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRUIControls::MouseState::*)()>(&VRUIControls::MouseState::AnyPressesThisFrame)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(VRUIControls::MouseState*), "AnyPressesThisFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRUIC
 // Il2CppName: AnyReleasesThisFrame
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRUIControls::MouseState::*)()>(&VRUIControls::MouseState::AnyReleasesThisFrame)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(VRUIControls::MouseState*), "AnyReleasesThisFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRUIC
 // Il2CppName: GetButtonState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<VRUIControls::ButtonState* (VRUIControls::MouseState::*)(UnityEngine::EventSystems::PointerEventData::InputButton)>(&VRUIControls::MouseState::GetButtonState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* button = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData/InputButton")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(VRUIControls::MouseState*), "GetButtonState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{button});
   }
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<VRUIControl
 // Il2CppName: SetButtonState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::MouseState::*)(UnityEngine::EventSystems::PointerEventData::InputButton, UnityEngine::EventSystems::PointerEventData::FramePressState, UnityEngine::EventSystems::PointerEventData*)>(&VRUIControls::MouseState::SetButtonState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* button = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData/InputButton")->byval_arg;
     static auto* stateForMouseButton = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData/FramePressState")->byval_arg;
     static auto* data = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->byval_arg;

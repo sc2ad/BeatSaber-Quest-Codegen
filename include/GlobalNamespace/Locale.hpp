@@ -27,7 +27,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Locale*, "", "Locale");
 // Il2CppName: GetText
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&GlobalNamespace::Locale::GetText)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* msg = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Locale*), "GetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{msg});
   }

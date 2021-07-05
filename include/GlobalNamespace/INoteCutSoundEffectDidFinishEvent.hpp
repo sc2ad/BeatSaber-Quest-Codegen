@@ -33,7 +33,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoteCutSoundEffectDidFinishEvent*, "", 
 // Il2CppName: HandleNoteCutSoundEffectDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::INoteCutSoundEffectDidFinishEvent::*)(GlobalNamespace::NoteCutSoundEffect*)>(&GlobalNamespace::INoteCutSoundEffectDidFinishEvent::HandleNoteCutSoundEffectDidFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* noteCutSoundEffect = &::il2cpp_utils::GetClassFromName("", "NoteCutSoundEffect")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INoteCutSoundEffectDidFinishEvent*), "HandleNoteCutSoundEffectDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteCutSoundEffect});
   }

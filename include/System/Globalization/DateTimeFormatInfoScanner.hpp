@@ -177,7 +177,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Globalization::DateTimeFormatInfoScanner::FoundDa
 // Il2CppName: get_KnownWords
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* (*)()>(&System::Globalization::DateTimeFormatInfoScanner::get_KnownWords)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfoScanner*), "get_KnownWords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: SkipWhiteSpacesAndNonLetter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, int)>(&System::Globalization::DateTimeFormatInfoScanner::SkipWhiteSpacesAndNonLetter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* currentIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfoScanner*), "SkipWhiteSpacesAndNonLetter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pattern, currentIndex});
@@ -195,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Il2CppName: AddDateWordOrPostfix
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfoScanner::*)(::Il2CppString*, ::Il2CppString*)>(&System::Globalization::DateTimeFormatInfoScanner::AddDateWordOrPostfix)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* formatPostfix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfoScanner*), "AddDateWordOrPostfix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{formatPostfix, str});
@@ -205,7 +205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: AddDateWords
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::DateTimeFormatInfoScanner::*)(::Il2CppString*, int, ::Il2CppString*)>(&System::Globalization::DateTimeFormatInfoScanner::AddDateWords)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* formatPostfix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -216,7 +216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: ScanRepeatChar
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, ::Il2CppChar, int, int&)>(&System::Globalization::DateTimeFormatInfoScanner::ScanRepeatChar)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -228,7 +228,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Il2CppName: AddIgnorableSymbols
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfoScanner::*)(::Il2CppString*)>(&System::Globalization::DateTimeFormatInfoScanner::AddIgnorableSymbols)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfoScanner*), "AddIgnorableSymbols", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});
   }
@@ -237,7 +237,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ScanDateWord
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::DateTimeFormatInfoScanner::*)(::Il2CppString*)>(&System::Globalization::DateTimeFormatInfoScanner::ScanDateWord)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfoScanner*), "ScanDateWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pattern});
   }
@@ -246,7 +246,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: GetDateWordsOfDTFI
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::Globalization::DateTimeFormatInfoScanner::*)(System::Globalization::DateTimeFormatInfo*)>(&System::Globalization::DateTimeFormatInfoScanner::GetDateWordsOfDTFI)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* dtfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "DateTimeFormatInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfoScanner*), "GetDateWordsOfDTFI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dtfi});
   }
@@ -255,7 +255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: GetFormatFlagGenitiveMonth
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::FORMATFLAGS (*)(::Array<::Il2CppString*>*, ::Array<::Il2CppString*>*, ::Array<::Il2CppString*>*, ::Array<::Il2CppString*>*)>(&System::Globalization::DateTimeFormatInfoScanner::GetFormatFlagGenitiveMonth)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* monthNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* genitveMonthNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* abbrevMonthNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -267,7 +267,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Il2CppName: GetFormatFlagUseSpaceInMonthNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::FORMATFLAGS (*)(::Array<::Il2CppString*>*, ::Array<::Il2CppString*>*, ::Array<::Il2CppString*>*, ::Array<::Il2CppString*>*)>(&System::Globalization::DateTimeFormatInfoScanner::GetFormatFlagUseSpaceInMonthNames)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* monthNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* genitveMonthNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* abbrevMonthNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -279,7 +279,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Il2CppName: GetFormatFlagUseSpaceInDayNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::FORMATFLAGS (*)(::Array<::Il2CppString*>*, ::Array<::Il2CppString*>*)>(&System::Globalization::DateTimeFormatInfoScanner::GetFormatFlagUseSpaceInDayNames)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* dayNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* abbrevDayNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfoScanner*), "GetFormatFlagUseSpaceInDayNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dayNames, abbrevDayNames});
@@ -289,7 +289,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Il2CppName: GetFormatFlagUseHebrewCalendar
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::FORMATFLAGS (*)(int)>(&System::Globalization::DateTimeFormatInfoScanner::GetFormatFlagUseHebrewCalendar)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* calID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfoScanner*), "GetFormatFlagUseHebrewCalendar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{calID});
   }
@@ -298,7 +298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Il2CppName: EqualStringArrays
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<::Il2CppString*>*, ::Array<::Il2CppString*>*)>(&System::Globalization::DateTimeFormatInfoScanner::EqualStringArrays)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* array1 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* array2 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfoScanner*), "EqualStringArrays", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array1, array2});
@@ -308,7 +308,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: ArrayElementsHaveSpace
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<::Il2CppString*>*)>(&System::Globalization::DateTimeFormatInfoScanner::ArrayElementsHaveSpace)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfoScanner*), "ArrayElementsHaveSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
   }
@@ -317,7 +317,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: ArrayElementsBeginWithDigit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<::Il2CppString*>*)>(&System::Globalization::DateTimeFormatInfoScanner::ArrayElementsBeginWithDigit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfoScanner*), "ArrayElementsBeginWithDigit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
   }

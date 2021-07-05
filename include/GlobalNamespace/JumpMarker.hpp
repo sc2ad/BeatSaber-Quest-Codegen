@@ -78,7 +78,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::JumpMarker*, "", "JumpMarker");
 // Il2CppName: get_id
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::PropertyName (GlobalNamespace::JumpMarker::*)()>(&GlobalNamespace::JumpMarker::get_id)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JumpMarker*), "get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_jumpDestination
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::JumpDestinationMarker* (GlobalNamespace::JumpMarker::*)()>(&GlobalNamespace::JumpMarker::get_jumpDestination)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::JumpMarker*), "get_jumpDestination", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

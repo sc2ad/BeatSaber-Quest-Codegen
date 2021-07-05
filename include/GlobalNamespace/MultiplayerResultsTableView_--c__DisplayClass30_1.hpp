@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsTableView::$$c__Displa
 // Il2CppName: <StartAnimation>b__3
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerResultsTableView::$$c__DisplayClass30_1::*)(UnityEngine::Vector2)>(&GlobalNamespace::MultiplayerResultsTableView::$$c__DisplayClass30_1::$StartAnimation$b__3)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* val = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsTableView::$$c__DisplayClass30_1*), "<StartAnimation>b__3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val});
   }

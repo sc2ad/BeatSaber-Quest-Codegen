@@ -105,7 +105,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Globalization::Bootstring*, "System.Globalization
 // Il2CppName: Encode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::Bootstring::*)(::Il2CppString*, int)>(&System::Globalization::Bootstring::Encode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::Bootstring*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, offset});
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: EncodeDigit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (System::Globalization::Bootstring::*)(int)>(&System::Globalization::Bootstring::EncodeDigit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* d = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::Bootstring*), "EncodeDigit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{d});
   }
@@ -124,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 // Il2CppName: DecodeDigit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::Bootstring::*)(::Il2CppChar)>(&System::Globalization::Bootstring::DecodeDigit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::Bootstring*), "DecodeDigit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: Adapt
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Globalization::Bootstring::*)(int, int, bool)>(&System::Globalization::Bootstring::Adapt)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* delta = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* numPoints = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* firstTime = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: Decode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::Bootstring::*)(::Il2CppString*, int)>(&System::Globalization::Bootstring::Decode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::Bootstring*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, offset});

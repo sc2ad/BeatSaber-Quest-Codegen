@@ -144,7 +144,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ServerIdentity*, "System.Runti
 // Il2CppName: get_ObjectType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Runtime::Remoting::ServerIdentity::*)()>(&System::Runtime::Remoting::ServerIdentity::get_ObjectType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "get_ObjectType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -152,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Il2CppName: StartTrackingLifetime
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ServerIdentity::*)(System::Runtime::Remoting::Lifetime::ILease*)>(&System::Runtime::Remoting::ServerIdentity::StartTrackingLifetime)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lease = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Lifetime", "ILease")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "StartTrackingLifetime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lease});
   }
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: OnLifetimeExpired
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ServerIdentity::*)()>(&System::Runtime::Remoting::ServerIdentity::OnLifetimeExpired)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "OnLifetimeExpired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: AttachServerObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ServerIdentity::*)(System::MarshalByRefObject*, System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::ServerIdentity::AttachServerObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* serverObject = &::il2cpp_utils::GetClassFromName("System", "MarshalByRefObject")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Contexts", "Context")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "AttachServerObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serverObject, context});
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_Lease
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Lifetime::Lease* (System::Runtime::Remoting::ServerIdentity::*)()>(&System::Runtime::Remoting::ServerIdentity::get_Lease)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "get_Lease", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: get_Context
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Contexts::Context* (System::Runtime::Remoting::ServerIdentity::*)()>(&System::Runtime::Remoting::ServerIdentity::get_Context)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "get_Context", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -195,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: set_Context
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ServerIdentity::*)(System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::ServerIdentity::set_Context)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Contexts", "Context")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "set_Context", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: SyncObjectProcessMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (System::Runtime::Remoting::ServerIdentity::*)(System::Runtime::Remoting::Messaging::IMessage*)>(&System::Runtime::Remoting::ServerIdentity::SyncObjectProcessMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* msg = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "IMessage")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "SyncObjectProcessMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{msg});
   }
@@ -213,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: AsyncObjectProcessMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageCtrl* (System::Runtime::Remoting::ServerIdentity::*)(System::Runtime::Remoting::Messaging::IMessage*, System::Runtime::Remoting::Messaging::IMessageSink*)>(&System::Runtime::Remoting::ServerIdentity::AsyncObjectProcessMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* msg = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "IMessage")->byval_arg;
     static auto* replySink = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "IMessageSink")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "AsyncObjectProcessMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{msg, replySink});
@@ -223,7 +223,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: DisposeServerObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ServerIdentity::*)()>(&System::Runtime::Remoting::ServerIdentity::DisposeServerObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "DisposeServerObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -231,7 +231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: CreateObjRef
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ObjRef* (System::Runtime::Remoting::ServerIdentity::*)(System::Type*)>(&System::Runtime::Remoting::ServerIdentity::CreateObjRef)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* requestedType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ServerIdentity*), "CreateObjRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{requestedType});
   }

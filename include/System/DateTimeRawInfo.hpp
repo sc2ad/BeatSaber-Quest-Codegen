@@ -104,7 +104,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::DateTimeRawInfo, "System", "DateTimeRawInfo");
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::DateTimeRawInfo::*)(int*)>(&System::DateTimeRawInfo::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* numberBuffer = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Int32"))->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::DateTimeRawInfo), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{numberBuffer});
   }
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: AddNumber
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::DateTimeRawInfo::*)(int)>(&System::DateTimeRawInfo::AddNumber)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::DateTimeRawInfo), "AddNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: GetNumber
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::DateTimeRawInfo::*)(int)>(&System::DateTimeRawInfo::GetNumber)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::DateTimeRawInfo), "GetNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
   }

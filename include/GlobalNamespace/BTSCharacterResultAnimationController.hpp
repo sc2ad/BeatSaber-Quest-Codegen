@@ -93,7 +93,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterResultAnimationController*, 
 // Il2CppName: SetCharacter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterResultAnimationController::*)(GlobalNamespace::BTSCharacter*)>(&GlobalNamespace::BTSCharacterResultAnimationController::SetCharacter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* btsCharacter = &::il2cpp_utils::GetClassFromName("", "BTSCharacter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterResultAnimationController*), "SetCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{btsCharacter});
   }
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: StopAnimation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterResultAnimationController::*)()>(&GlobalNamespace::BTSCharacterResultAnimationController::StopAnimation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterResultAnimationController*), "StopAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

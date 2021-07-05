@@ -88,7 +88,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRResources*, "", "OVRResources");
 // Il2CppName: Load
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(::Il2CppString*)>(&GlobalNamespace::OVRResources::Load)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRResources*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
   }
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: SetResourceBundle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AssetBundle*)>(&GlobalNamespace::OVRResources::SetResourceBundle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bundle = &::il2cpp_utils::GetClassFromName("UnityEngine", "AssetBundle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRResources*), "SetResourceBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bundle});
   }

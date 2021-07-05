@@ -53,7 +53,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelInfoSaveData_V100::VersionC
 // Il2CppName: get_version
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::StandardLevelInfoSaveData_V100::VersionCheck::*)()>(&GlobalNamespace::StandardLevelInfoSaveData_V100::VersionCheck::get_version)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelInfoSaveData_V100::VersionCheck*), "get_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_FadeGrid*, "Valve.VR", "IVRCom
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRCompositor::_FadeGrid::*)(float, bool)>(&Valve::VR::IVRCompositor::_FadeGrid::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* fSeconds = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* bFadeIn = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_FadeGrid*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fSeconds, bFadeIn});
@@ -71,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRCompositor::_FadeGrid::*)(float, bool, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRCompositor::_FadeGrid::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* fSeconds = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* bFadeIn = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRCompositor::_FadeGrid::*)(System::IAsyncResult*)>(&Valve::VR::IVRCompositor::_FadeGrid::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_FadeGrid*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

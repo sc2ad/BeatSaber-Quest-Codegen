@@ -44,7 +44,7 @@ DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::INatPunchListener*, "LiteNetLib", "INatPunchL
 // Il2CppName: OnNatIntroductionRequest
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::INatPunchListener::*)(System::Net::IPEndPoint*, System::Net::IPEndPoint*, ::Il2CppString*)>(&LiteNetLib::INatPunchListener::OnNatIntroductionRequest)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* localEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* token = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -55,7 +55,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Il2CppName: OnNatIntroductionSuccess
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::INatPunchListener::*)(System::Net::IPEndPoint*, LiteNetLib::NatAddressType, ::Il2CppString*)>(&LiteNetLib::INatPunchListener::OnNatIntroductionSuccess)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* targetEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NatAddressType")->byval_arg;
     static auto* token = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

@@ -72,7 +72,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRNotifications::_CreateNotification*, "OVR
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRNotificationError (OVR::OpenVR::IVRNotifications::_CreateNotification::*)(uint64_t, uint64_t, OVR::OpenVR::EVRNotificationType, ::Il2CppString*, OVR::OpenVR::EVRNotificationStyle, OVR::OpenVR::NotificationBitmap_t&, uint&)>(&OVR::OpenVR::IVRNotifications::_CreateNotification::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* ulUserValue = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRNotificationType")->byval_arg;
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRNotifications::_CreateNotification::*)(uint64_t, uint64_t, OVR::OpenVR::EVRNotificationType, ::Il2CppString*, OVR::OpenVR::EVRNotificationStyle, OVR::OpenVR::NotificationBitmap_t&, uint&, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRNotifications::_CreateNotification::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* ulUserValue = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRNotificationType")->byval_arg;
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRNotificationError (OVR::OpenVR::IVRNotifications::_CreateNotification::*)(OVR::OpenVR::NotificationBitmap_t&, uint&, System::IAsyncResult*)>(&OVR::OpenVR::IVRNotifications::_CreateNotification::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pImage = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "NotificationBitmap_t")->this_arg;
     static auto* pNotificationId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;

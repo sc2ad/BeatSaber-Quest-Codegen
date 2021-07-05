@@ -236,7 +236,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalLeaderboardsModel::LeaderboardType,
 // Il2CppName: add_newScoreWasAddedToLeaderboardEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalLeaderboardsModel::*)(System::Action_2<::Il2CppString*, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType>*)>(&GlobalNamespace::LocalLeaderboardsModel::add_newScoreWasAddedToLeaderboardEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "LocalLeaderboardsModel/LeaderboardType")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalLeaderboardsModel*), "add_newScoreWasAddedToLeaderboardEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -245,7 +245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_newScoreWasAddedToLeaderboardEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalLeaderboardsModel::*)(System::Action_2<::Il2CppString*, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType>*)>(&GlobalNamespace::LocalLeaderboardsModel::remove_newScoreWasAddedToLeaderboardEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "LocalLeaderboardsModel/LeaderboardType")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalLeaderboardsModel*), "remove_newScoreWasAddedToLeaderboardEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -254,7 +254,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnDisable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalLeaderboardsModel::*)()>(&GlobalNamespace::LocalLeaderboardsModel::OnDisable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalLeaderboardsModel*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -262,7 +262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: LoadLeaderboardsData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>*&)>(&GlobalNamespace::LocalLeaderboardsModel::LoadLeaderboardsData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* filename = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* leaderboardsData = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "LocalLeaderboardsModel/LeaderboardData")})->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalLeaderboardsModel*), "LoadLeaderboardsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filename, leaderboardsData});
@@ -272,7 +272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: SaveLeaderboardsData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>*)>(&GlobalNamespace::LocalLeaderboardsModel::SaveLeaderboardsData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* filename = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* leaderboardsData = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "LocalLeaderboardsModel/LeaderboardData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalLeaderboardsModel*), "SaveLeaderboardsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filename, leaderboardsData});
@@ -282,7 +282,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: Load
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalLeaderboardsModel::*)()>(&GlobalNamespace::LocalLeaderboardsModel::Load)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalLeaderboardsModel*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -290,7 +290,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Save
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalLeaderboardsModel::*)()>(&GlobalNamespace::LocalLeaderboardsModel::Save)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalLeaderboardsModel*), "Save", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -298,7 +298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: GetLeaderboardsData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>* (GlobalNamespace::LocalLeaderboardsModel::*)(GlobalNamespace::LocalLeaderboardsModel::LeaderboardType)>(&GlobalNamespace::LocalLeaderboardsModel::GetLeaderboardsData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* leaderboardType = &::il2cpp_utils::GetClassFromName("", "LocalLeaderboardsModel/LeaderboardType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalLeaderboardsModel*), "GetLeaderboardsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardType});
   }
@@ -307,7 +307,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: GetLeaderboardData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData* (GlobalNamespace::LocalLeaderboardsModel::*)(::Il2CppString*, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType)>(&GlobalNamespace::LocalLeaderboardsModel::GetLeaderboardData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* leaderboardId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* leaderboardType = &::il2cpp_utils::GetClassFromName("", "LocalLeaderboardsModel/LeaderboardType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalLeaderboardsModel*), "GetLeaderboardData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardId, leaderboardType});
@@ -317,7 +317,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: GetCurrentTimestamp
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (GlobalNamespace::LocalLeaderboardsModel::*)()>(&GlobalNamespace::LocalLeaderboardsModel::GetCurrentTimestamp)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalLeaderboardsModel*), "GetCurrentTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -325,7 +325,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Gl
 // Il2CppName: UpdateDailyLeaderboard
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalLeaderboardsModel::*)(::Il2CppString*)>(&GlobalNamespace::LocalLeaderboardsModel::UpdateDailyLeaderboard)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* leaderboardId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalLeaderboardsModel*), "UpdateDailyLeaderboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardId});
   }
@@ -334,7 +334,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: AddScore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalLeaderboardsModel::*)(::Il2CppString*, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType, ::Il2CppString*, int, bool)>(&GlobalNamespace::LocalLeaderboardsModel::AddScore)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* leaderboardId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* leaderboardType = &::il2cpp_utils::GetClassFromName("", "LocalLeaderboardsModel/LeaderboardType")->byval_arg;
     static auto* playerName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -347,7 +347,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: WillScoreGoIntoLeaderboard
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LocalLeaderboardsModel::*)(::Il2CppString*, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType, int)>(&GlobalNamespace::LocalLeaderboardsModel::WillScoreGoIntoLeaderboard)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* leaderboardId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* leaderboardType = &::il2cpp_utils::GetClassFromName("", "LocalLeaderboardsModel/LeaderboardType")->byval_arg;
     static auto* score = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -358,7 +358,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: GetScores
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::ScoreData*>* (GlobalNamespace::LocalLeaderboardsModel::*)(::Il2CppString*, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType)>(&GlobalNamespace::LocalLeaderboardsModel::GetScores)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* leaderboardId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* leaderboardType = &::il2cpp_utils::GetClassFromName("", "LocalLeaderboardsModel/LeaderboardType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalLeaderboardsModel*), "GetScores", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardId, leaderboardType});
@@ -368,7 +368,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: GetHighScore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::LocalLeaderboardsModel::*)(::Il2CppString*, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType)>(&GlobalNamespace::LocalLeaderboardsModel::GetHighScore)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* leaderboardId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* leaderboardType = &::il2cpp_utils::GetClassFromName("", "LocalLeaderboardsModel/LeaderboardType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalLeaderboardsModel*), "GetHighScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardId, leaderboardType});
@@ -378,7 +378,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: GetPositionInLeaderboard
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::LocalLeaderboardsModel::*)(::Il2CppString*, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType, int)>(&GlobalNamespace::LocalLeaderboardsModel::GetPositionInLeaderboard)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* leaderboardId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* leaderboardType = &::il2cpp_utils::GetClassFromName("", "LocalLeaderboardsModel/LeaderboardType")->byval_arg;
     static auto* score = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -389,7 +389,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: GetLastScorePosition
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::LocalLeaderboardsModel::*)(::Il2CppString*, GlobalNamespace::LocalLeaderboardsModel::LeaderboardType)>(&GlobalNamespace::LocalLeaderboardsModel::GetLastScorePosition)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* leaderboardId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* leaderboardType = &::il2cpp_utils::GetClassFromName("", "LocalLeaderboardsModel/LeaderboardType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalLeaderboardsModel*), "GetLastScorePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardId, leaderboardType});
@@ -399,7 +399,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: ClearLastScorePosition
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalLeaderboardsModel::*)()>(&GlobalNamespace::LocalLeaderboardsModel::ClearLastScorePosition)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalLeaderboardsModel*), "ClearLastScorePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -407,7 +407,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: AddScore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalLeaderboardsModel::*)(::Il2CppString*, ::Il2CppString*, int, bool)>(&GlobalNamespace::LocalLeaderboardsModel::AddScore)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* leaderboardId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* playerName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* score = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -419,7 +419,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: WillScoreGoIntoLeaderboard
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LocalLeaderboardsModel::*)(::Il2CppString*, int)>(&GlobalNamespace::LocalLeaderboardsModel::WillScoreGoIntoLeaderboard)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* leaderboardId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* score = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalLeaderboardsModel*), "WillScoreGoIntoLeaderboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardId, score});
@@ -429,7 +429,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: ClearLeaderboard
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalLeaderboardsModel::*)(::Il2CppString*)>(&GlobalNamespace::LocalLeaderboardsModel::ClearLeaderboard)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* leaderboardId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalLeaderboardsModel*), "ClearLeaderboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardId});
   }
@@ -438,7 +438,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ClearAllLeaderboards
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalLeaderboardsModel::*)(bool)>(&GlobalNamespace::LocalLeaderboardsModel::ClearAllLeaderboards)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* deleteLeaderboardFile = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalLeaderboardsModel*), "ClearAllLeaderboards", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{deleteLeaderboardFile});
   }
@@ -447,7 +447,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnEnable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalLeaderboardsModel::*)()>(&GlobalNamespace::LocalLeaderboardsModel::OnEnable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalLeaderboardsModel*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

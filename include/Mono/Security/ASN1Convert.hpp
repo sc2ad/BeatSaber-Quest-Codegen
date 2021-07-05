@@ -54,7 +54,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Security::ASN1Convert*, "Mono.Security", "ASN1Conve
 // Il2CppName: FromInt32
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (*)(int)>(&Mono::Security::ASN1Convert::FromInt32)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1Convert*), "FromInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -63,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Il2CppName: FromOid
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (*)(::Il2CppString*)>(&Mono::Security::ASN1Convert::FromOid)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* oid = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1Convert*), "FromOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{oid});
   }
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Il2CppName: FromUnsignedBigInteger
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (*)(::Array<uint8_t>*)>(&Mono::Security::ASN1Convert::FromUnsignedBigInteger)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* big = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1Convert*), "FromUnsignedBigInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{big});
   }
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Il2CppName: ToInt32
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Mono::Security::ASN1*)>(&Mono::Security::ASN1Convert::ToInt32)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* asn1 = &::il2cpp_utils::GetClassFromName("Mono.Security", "ASN1")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1Convert*), "ToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asn1});
   }
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Mon
 // Il2CppName: ToOid
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Mono::Security::ASN1*)>(&Mono::Security::ASN1Convert::ToOid)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* asn1 = &::il2cpp_utils::GetClassFromName("Mono.Security", "ASN1")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1Convert*), "ToOid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asn1});
   }
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: ToDateTime
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(Mono::Security::ASN1*)>(&Mono::Security::ASN1Convert::ToDateTime)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("Mono.Security", "ASN1")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1Convert*), "ToDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }

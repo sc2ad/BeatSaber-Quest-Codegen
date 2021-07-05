@@ -37,7 +37,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpStatusDescription*, "System.Net", "HttpS
 // Il2CppName: Get
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Net::HttpStatusCode)>(&System::Net::HttpStatusDescription::Get)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* code = &::il2cpp_utils::GetClassFromName("System.Net", "HttpStatusCode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpStatusDescription*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{code});
   }
@@ -46,7 +46,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: Get
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&System::Net::HttpStatusDescription::Get)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* code = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpStatusDescription*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{code});
   }

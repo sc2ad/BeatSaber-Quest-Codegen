@@ -60,7 +60,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRMeshSubsystem*, "UnityEngine.XR", "XRM
 // Il2CppName: InvokeMeshReadyDelegate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::XR::XRMeshSubsystem::*)(UnityEngine::XR::MeshGenerationResult, System::Action_1<UnityEngine::XR::MeshGenerationResult>*)>(&UnityEngine::XR::XRMeshSubsystem::InvokeMeshReadyDelegate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "MeshGenerationResult")->byval_arg;
     static auto* onMeshGenerationComplete = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.XR", "MeshGenerationResult")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRMeshSubsystem*), "InvokeMeshReadyDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result, onMeshGenerationComplete});

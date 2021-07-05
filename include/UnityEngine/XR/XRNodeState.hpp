@@ -138,7 +138,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRNodeState, "UnityEngine.XR", "XRNodeSt
 // Il2CppName: set_uniqueID
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::XR::XRNodeState::*)(uint64_t)>(&UnityEngine::XR::XRNodeState::set_uniqueID)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "set_uniqueID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_nodeType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::XR::XRNode (UnityEngine::XR::XRNodeState::*)()>(&UnityEngine::XR::XRNodeState::get_nodeType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "get_nodeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -155,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_nodeType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::XR::XRNodeState::*)(UnityEngine::XR::XRNode)>(&UnityEngine::XR::XRNodeState::set_nodeType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "set_nodeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: set_tracked
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::XR::XRNodeState::*)(bool)>(&UnityEngine::XR::XRNodeState::set_tracked)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "set_tracked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -173,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: TryGetPosition
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::XRNodeState::*)(UnityEngine::Vector3&)>(&UnityEngine::XR::XRNodeState::TryGetPosition)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "TryGetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position});
   }
@@ -182,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: TryGetRotation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::XRNodeState::*)(UnityEngine::Quaternion&)>(&UnityEngine::XR::XRNodeState::TryGetRotation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "TryGetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rotation});
   }
@@ -191,7 +191,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: TryGetVelocity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::XRNodeState::*)(UnityEngine::Vector3&)>(&UnityEngine::XR::XRNodeState::TryGetVelocity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* velocity = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "TryGetVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{velocity});
   }
@@ -200,7 +200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: TryGetAngularVelocity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::XRNodeState::*)(UnityEngine::Vector3&)>(&UnityEngine::XR::XRNodeState::TryGetAngularVelocity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* angularVelocity = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "TryGetAngularVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{angularVelocity});
   }
@@ -209,7 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: TryGetAcceleration
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::XRNodeState::*)(UnityEngine::Vector3&)>(&UnityEngine::XR::XRNodeState::TryGetAcceleration)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* acceleration = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "TryGetAcceleration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{acceleration});
   }
@@ -218,7 +218,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: TryGetAngularAcceleration
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::XRNodeState::*)(UnityEngine::Vector3&)>(&UnityEngine::XR::XRNodeState::TryGetAngularAcceleration)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* angularAcceleration = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRNodeState), "TryGetAngularAcceleration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{angularAcceleration});
   }
@@ -227,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: TryGet
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::XRNodeState::*)(UnityEngine::Vector3, UnityEngine::XR::AvailableTrackingData, UnityEngine::Vector3&)>(&UnityEngine::XR::XRNodeState::TryGet)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* inValue = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* availabilityFlag = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "AvailableTrackingData")->byval_arg;
     static auto* outValue = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
@@ -238,7 +238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: TryGet
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::XR::XRNodeState::*)(UnityEngine::Quaternion, UnityEngine::XR::AvailableTrackingData, UnityEngine::Quaternion&)>(&UnityEngine::XR::XRNodeState::TryGet)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* inValue = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* availabilityFlag = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "AvailableTrackingData")->byval_arg;
     static auto* outValue = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;

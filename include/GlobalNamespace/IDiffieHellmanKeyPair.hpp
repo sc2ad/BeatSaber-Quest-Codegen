@@ -45,7 +45,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IDiffieHellmanKeyPair*, "", "IDiffieHell
 // Il2CppName: get_publicKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (GlobalNamespace::IDiffieHellmanKeyPair::*)()>(&GlobalNamespace::IDiffieHellmanKeyPair::get_publicKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IDiffieHellmanKeyPair*), "get_publicKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -53,7 +53,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: GetPreMasterSecretAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<::Array<uint8_t>*>* (GlobalNamespace::IDiffieHellmanKeyPair::*)(::Array<uint8_t>*)>(&GlobalNamespace::IDiffieHellmanKeyPair::GetPreMasterSecretAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* clientPublicKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IDiffieHellmanKeyPair*), "GetPreMasterSecretAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clientPublicKey});
   }
@@ -62,7 +62,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: GetPreMasterSecret
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (GlobalNamespace::IDiffieHellmanKeyPair::*)(::Array<uint8_t>*)>(&GlobalNamespace::IDiffieHellmanKeyPair::GetPreMasterSecret)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* clientPublicKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IDiffieHellmanKeyPair*), "GetPreMasterSecret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clientPublicKey});
   }

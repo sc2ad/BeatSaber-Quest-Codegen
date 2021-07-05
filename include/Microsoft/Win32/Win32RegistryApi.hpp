@@ -138,7 +138,7 @@ DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::Win32RegistryApi*, "Microsoft.Win32", "
 // Il2CppName: RegCloseKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&Microsoft::Win32::Win32RegistryApi::RegCloseKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* keyHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "RegCloseKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keyHandle});
   }
@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: RegFlushKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&Microsoft::Win32::Win32RegistryApi::RegFlushKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* keyHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "RegFlushKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keyHandle});
   }
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: RegOpenKeyEx
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, ::Il2CppString*, System::IntPtr, int, System::IntPtr&)>(&Microsoft::Win32::Win32RegistryApi::RegOpenKeyEx)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* keyBase = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* keyName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* reserved = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: RegEnumKeyEx
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, int, ::Il2CppChar*, int&, ::Array<int>*, System::Text::StringBuilder*&, ::Array<int>*, ::Array<int64_t>*)>(&Microsoft::Win32::Win32RegistryApi::RegEnumKeyEx)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* keyHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* dwIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* lpName = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: RegQueryValueEx
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, ::Il2CppString*, System::IntPtr, Microsoft::Win32::RegistryValueKind&, System::IntPtr, int&)>(&Microsoft::Win32::Win32RegistryApi::RegQueryValueEx)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* keyBase = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* valueName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* reserved = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -199,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: RegQueryValueEx
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, ::Il2CppString*, System::IntPtr, Microsoft::Win32::RegistryValueKind&, ::Array<uint8_t>*&, int&)>(&Microsoft::Win32::Win32RegistryApi::RegQueryValueEx)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* keyBase = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* valueName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* reserved = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -213,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: RegQueryValueEx
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, ::Il2CppString*, System::IntPtr, Microsoft::Win32::RegistryValueKind&, int&, int&)>(&Microsoft::Win32::Win32RegistryApi::RegQueryValueEx)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* keyBase = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* valueName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* reserved = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -227,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: RegQueryValueEx
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, ::Il2CppString*, System::IntPtr, Microsoft::Win32::RegistryValueKind&, int64_t&, int&)>(&Microsoft::Win32::Win32RegistryApi::RegQueryValueEx)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* keyBase = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* valueName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* reserved = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -241,7 +241,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: RegQueryInfoKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, System::Text::StringBuilder*&, ::Array<int>*, System::IntPtr, int&, ::Array<int>*, ::Array<int>*, int&, ::Array<int>*, ::Array<int>*, ::Array<int>*, ::Array<int>*)>(&Microsoft::Win32::Win32RegistryApi::RegQueryInfoKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hKey = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* lpClass = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->this_arg;
     static auto* lpcbClass = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -261,7 +261,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: GetHandle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Microsoft::Win32::Win32RegistryApi::*)(Microsoft::Win32::RegistryKey*)>(&Microsoft::Win32::Win32RegistryApi::GetHandle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("Microsoft.Win32", "RegistryKey")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
   }
@@ -270,7 +270,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: IsHandleValid
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Microsoft::Win32::RegistryKey*)>(&Microsoft::Win32::Win32RegistryApi::IsHandleValid)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("Microsoft.Win32", "RegistryKey")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "IsHandleValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
   }
@@ -279,7 +279,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Mi
 // Il2CppName: GetValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Microsoft::Win32::Win32RegistryApi::*)(Microsoft::Win32::RegistryKey*, ::Il2CppString*, ::Il2CppObject*, Microsoft::Win32::RegistryValueOptions)>(&Microsoft::Win32::Win32RegistryApi::GetValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rkey = &::il2cpp_utils::GetClassFromName("Microsoft.Win32", "RegistryKey")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* defaultValue = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -291,7 +291,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: GetBinaryValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Microsoft::Win32::Win32RegistryApi::*)(Microsoft::Win32::RegistryKey*, ::Il2CppString*, Microsoft::Win32::RegistryValueKind, ::Array<uint8_t>*&, int)>(&Microsoft::Win32::Win32RegistryApi::GetBinaryValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rkey = &::il2cpp_utils::GetClassFromName("Microsoft.Win32", "RegistryKey")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("Microsoft.Win32", "RegistryValueKind")->byval_arg;
@@ -304,7 +304,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Micros
 // Il2CppName: SubKeyCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Microsoft::Win32::Win32RegistryApi::*)(Microsoft::Win32::RegistryKey*)>(&Microsoft::Win32::Win32RegistryApi::SubKeyCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rkey = &::il2cpp_utils::GetClassFromName("Microsoft.Win32", "RegistryKey")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "SubKeyCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rkey});
   }
@@ -313,7 +313,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Micros
 // Il2CppName: OpenSubKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::Win32::RegistryKey* (Microsoft::Win32::Win32RegistryApi::*)(Microsoft::Win32::RegistryKey*, ::Il2CppString*, bool)>(&Microsoft::Win32::Win32RegistryApi::OpenSubKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rkey = &::il2cpp_utils::GetClassFromName("Microsoft.Win32", "RegistryKey")->byval_arg;
     static auto* keyName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* writable = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -324,7 +324,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::
 // Il2CppName: Flush
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Microsoft::Win32::Win32RegistryApi::*)(Microsoft::Win32::RegistryKey*)>(&Microsoft::Win32::Win32RegistryApi::Flush)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rkey = &::il2cpp_utils::GetClassFromName("Microsoft.Win32", "RegistryKey")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rkey});
   }
@@ -333,7 +333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Micro
 // Il2CppName: Close
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Microsoft::Win32::Win32RegistryApi::*)(Microsoft::Win32::RegistryKey*)>(&Microsoft::Win32::Win32RegistryApi::Close)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rkey = &::il2cpp_utils::GetClassFromName("Microsoft.Win32", "RegistryKey")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rkey});
   }
@@ -342,7 +342,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Micro
 // Il2CppName: GetSubKeyNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (Microsoft::Win32::Win32RegistryApi::*)(Microsoft::Win32::RegistryKey*)>(&Microsoft::Win32::Win32RegistryApi::GetSubKeyNames)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rkey = &::il2cpp_utils::GetClassFromName("Microsoft.Win32", "RegistryKey")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "GetSubKeyNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rkey});
   }
@@ -351,7 +351,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: GenerateException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Microsoft::Win32::Win32RegistryApi::*)(int)>(&Microsoft::Win32::Win32RegistryApi::GenerateException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* errorCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "GenerateException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{errorCode});
   }
@@ -360,7 +360,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Micro
 // Il2CppName: ToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Microsoft::Win32::Win32RegistryApi::*)(Microsoft::Win32::RegistryKey*)>(&Microsoft::Win32::Win32RegistryApi::ToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rkey = &::il2cpp_utils::GetClassFromName("Microsoft.Win32", "RegistryKey")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rkey});
   }
@@ -369,7 +369,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: CombineName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Microsoft::Win32::RegistryKey*, ::Il2CppString*)>(&Microsoft::Win32::Win32RegistryApi::CombineName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rkey = &::il2cpp_utils::GetClassFromName("Microsoft.Win32", "RegistryKey")->byval_arg;
     static auto* localName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::Win32RegistryApi*), "CombineName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rkey, localName});

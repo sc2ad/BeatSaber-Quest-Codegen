@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Events::ActionNoArgs*, "", "Stea
 // Il2CppName: Enable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Events::ActionNoArgs::*)(bool)>(&GlobalNamespace::SteamVR_Events::ActionNoArgs::Enable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enabled = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Events::ActionNoArgs*), "Enable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enabled});
   }

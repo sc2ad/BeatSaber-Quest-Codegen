@@ -62,7 +62,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::RuntimeHelpers*, "Syst
 // Il2CppName: InitializeArray
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Array*, System::IntPtr)>(&System::Runtime::CompilerServices::RuntimeHelpers::InitializeArray)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
     static auto* fldHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::RuntimeHelpers*), "InitializeArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array, fldHandle});
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: InitializeArray
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Array*, System::RuntimeFieldHandle)>(&System::Runtime::CompilerServices::RuntimeHelpers::InitializeArray)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
     static auto* fldHandle = &::il2cpp_utils::GetClassFromName("System", "RuntimeFieldHandle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::RuntimeHelpers*), "InitializeArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array, fldHandle});
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: get_OffsetToStringData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&System::Runtime::CompilerServices::RuntimeHelpers::get_OffsetToStringData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::RuntimeHelpers*), "get_OffsetToStringData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 // Il2CppName: GetHashCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppObject*)>(&System::Runtime::CompilerServices::RuntimeHelpers::GetHashCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* o = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::RuntimeHelpers*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{o});
   }
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Il2CppName: PrepareConstrainedRegions
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Runtime::CompilerServices::RuntimeHelpers::PrepareConstrainedRegions)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::RuntimeHelpers*), "PrepareConstrainedRegions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

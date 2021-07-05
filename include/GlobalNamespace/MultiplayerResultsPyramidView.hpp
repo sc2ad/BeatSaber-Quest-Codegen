@@ -144,7 +144,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsPyramidView*, "", "Mul
 // Il2CppName: get_resultAvatarDirectors
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GameObject*>* (GlobalNamespace::MultiplayerResultsPyramidView::*)()>(&GlobalNamespace::MultiplayerResultsPyramidView::get_resultAvatarDirectors)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsPyramidView*), "get_resultAvatarDirectors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -152,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: get_badgeTimelines
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::GameObject*>* (GlobalNamespace::MultiplayerResultsPyramidView::*)()>(&GlobalNamespace::MultiplayerResultsPyramidView::get_badgeTimelines)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsPyramidView*), "get_badgeTimelines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: PrespawnAvatars
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerResultsPyramidView::*)(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>*)>(&GlobalNamespace::MultiplayerResultsPyramidView::PrespawnAvatars)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* activePlayers = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IReadOnlyList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "IConnectedPlayer")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsPyramidView*), "PrespawnAvatars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{activePlayers});
   }
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetupResults
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerResultsPyramidView::*)(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*, UnityEngine::Transform*, UnityEngine::Transform*)>(&GlobalNamespace::MultiplayerResultsPyramidView::SetupResults)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resultsData = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IReadOnlyList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MultiplayerPlayerResultsData")})->byval_arg;
     static auto* badgeStartTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* badgeMidTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;

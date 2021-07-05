@@ -275,7 +275,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*
 // Il2CppName: get_connection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IConnection* (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_connection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "get_connection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -283,7 +283,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_connectionId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_connectionId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "get_connectionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -291,7 +291,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Gl
 // Il2CppName: get_remoteConnectionId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_remoteConnectionId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "get_remoteConnectionId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -299,7 +299,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Gl
 // Il2CppName: get_isConnected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_isConnected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "get_isConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -307,7 +307,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: get_isConnectionOwner
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_isConnectionOwner)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "get_isConnectionOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -315,7 +315,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: get_isKicked
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_isKicked)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "get_isKicked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -323,7 +323,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: get_disconnectedReason
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::DisconnectedReason (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_disconnectedReason)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "get_disconnectedReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -331,7 +331,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_sortIndex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_sortIndex)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "get_sortIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -339,7 +339,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: get_userId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_userId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "get_userId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -347,7 +347,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_userName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_userName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "get_userName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -355,7 +355,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_isMe
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_isMe)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "get_isMe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -363,7 +363,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: get_currentLatency
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_currentLatency)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "get_currentLatency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -371,7 +371,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: get_offsetSyncTime
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_offsetSyncTime)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "get_offsetSyncTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -379,7 +379,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: get_multiplayerAvatarData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerAvatarData (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_multiplayerAvatarData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "get_multiplayerAvatarData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -387,7 +387,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_isDirectConnection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::get_isDirectConnection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "get_isDirectConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -399,7 +399,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: CreateLocalPlayer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* (*)(GlobalNamespace::ConnectedPlayerManager*, ::Il2CppString*, ::Il2CppString*, bool)>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::CreateLocalPlayer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* manager = &::il2cpp_utils::GetClassFromName("", "ConnectedPlayerManager")->byval_arg;
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* userName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -411,7 +411,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: CreateDirectlyConnectedPlayer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* (*)(GlobalNamespace::ConnectedPlayerManager*, uint8_t, GlobalNamespace::IConnection*)>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::CreateDirectlyConnectedPlayer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* manager = &::il2cpp_utils::GetClassFromName("", "ConnectedPlayerManager")->byval_arg;
     static auto* connectionId = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     static auto* connection = &::il2cpp_utils::GetClassFromName("", "IConnection")->byval_arg;
@@ -422,7 +422,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: CreateRemoteConnectedPlayer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer* (*)(GlobalNamespace::ConnectedPlayerManager*, uint8_t, GlobalNamespace::ConnectedPlayerManager::PlayerConnectedPacket*, GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*)>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::CreateRemoteConnectedPlayer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* manager = &::il2cpp_utils::GetClassFromName("", "ConnectedPlayerManager")->byval_arg;
     static auto* connectionId = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     static auto* packet = &::il2cpp_utils::GetClassFromName("", "ConnectedPlayerManager/PlayerConnectedPacket")->byval_arg;
@@ -434,7 +434,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: GetPlayerConnectedPacket
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::PlayerConnectedPacket* (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::GetPlayerConnectedPacket)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "GetPlayerConnectedPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -442,7 +442,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: GetPlayerIdentityPacket
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket* (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::GetPlayerIdentityPacket)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "GetPlayerIdentityPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -450,7 +450,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: GetPlayerStatePacket
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket* (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::GetPlayerStatePacket)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "GetPlayerStatePacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -458,7 +458,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: GetPlayerAvatarPacket
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::PlayerAvatarPacket* (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::GetPlayerAvatarPacket)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "GetPlayerAvatarPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -466,7 +466,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: GetPlayerSortOrderPacket
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ConnectedPlayerManager::PlayerSortOrderPacket* (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::GetPlayerSortOrderPacket)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "GetPlayerSortOrderPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -474,7 +474,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: Disconnect
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)(GlobalNamespace::DisconnectedReason)>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::Disconnect)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* disconnectedReason = &::il2cpp_utils::GetClassFromName("", "DisconnectedReason")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "Disconnect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{disconnectedReason});
   }
@@ -483,7 +483,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: UpdateLatency
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)(float)>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::UpdateLatency)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* latency = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "UpdateLatency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{latency});
   }
@@ -492,7 +492,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: UpdateSortIndex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)(int)>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::UpdateSortIndex)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "UpdateSortIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
   }
@@ -501,7 +501,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: SetKicked
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::SetKicked)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "SetKicked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -509,7 +509,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: UpdateIdentity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)(GlobalNamespace::ConnectedPlayerManager::PlayerIdentityPacket*)>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::UpdateIdentity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* packet = &::il2cpp_utils::GetClassFromName("", "ConnectedPlayerManager/PlayerIdentityPacket")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "UpdateIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet});
   }
@@ -518,7 +518,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: UpdateState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)(GlobalNamespace::ConnectedPlayerManager::PlayerStatePacket*)>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::UpdateState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* packet = &::il2cpp_utils::GetClassFromName("", "ConnectedPlayerManager/PlayerStatePacket")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "UpdateState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet});
   }
@@ -527,7 +527,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: UpdateAvatar
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)(GlobalNamespace::ConnectedPlayerManager::PlayerAvatarPacket*)>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::UpdateAvatar)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* packet = &::il2cpp_utils::GetClassFromName("", "ConnectedPlayerManager/PlayerAvatarPacket")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "UpdateAvatar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet});
   }
@@ -536,7 +536,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HasState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)(::Il2CppString*)>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::HasState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "HasState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
   }
@@ -545,7 +545,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: SetPlayerState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)(GlobalNamespace::PlayerStateHash)>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::SetPlayerState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* playerState = &::il2cpp_utils::GetClassFromName("", "PlayerStateHash")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "SetPlayerState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playerState});
   }
@@ -554,7 +554,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetPlayerAvatar
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)(GlobalNamespace::MultiplayerAvatarData)>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::SetPlayerAvatar)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* avatarData = &::il2cpp_utils::GetClassFromName("", "MultiplayerAvatarData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "SetPlayerAvatar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{avatarData});
   }
@@ -563,7 +563,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::*)()>(&GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer::ToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectedPlayerManager::ConnectedPlayer*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

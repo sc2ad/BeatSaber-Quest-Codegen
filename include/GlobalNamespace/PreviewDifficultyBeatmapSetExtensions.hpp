@@ -40,7 +40,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PreviewDifficultyBeatmapSetExtensions*, 
 // Il2CppName: GetBeatmapCharacteristics
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::BeatmapCharacteristicSO*>* (*)(::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>*)>(&GlobalNamespace::PreviewDifficultyBeatmapSetExtensions::GetBeatmapCharacteristics)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* previewDifficultyBeatmapSet = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "PreviewDifficultyBeatmapSet"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PreviewDifficultyBeatmapSetExtensions*), "GetBeatmapCharacteristics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{previewDifficultyBeatmapSet});
   }
@@ -49,7 +49,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 // Il2CppName: GetPreviewDifficultyBeatmapSetWithout360Movement
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>* (*)(::Array<GlobalNamespace::PreviewDifficultyBeatmapSet*>*)>(&GlobalNamespace::PreviewDifficultyBeatmapSetExtensions::GetPreviewDifficultyBeatmapSetWithout360Movement)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* previewDifficultyBeatmapSet = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "PreviewDifficultyBeatmapSet"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PreviewDifficultyBeatmapSetExtensions*), "GetPreviewDifficultyBeatmapSetWithout360Movement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{previewDifficultyBeatmapSet});
   }

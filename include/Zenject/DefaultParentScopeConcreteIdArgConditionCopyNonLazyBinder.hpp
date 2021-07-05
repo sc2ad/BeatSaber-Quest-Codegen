@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonL
 // Il2CppName: get_SubContainerCreatorBindInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::SubContainerCreatorBindInfo* (Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::*)()>(&Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::get_SubContainerCreatorBindInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder*), "get_SubContainerCreatorBindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Su
 // Il2CppName: set_SubContainerCreatorBindInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::*)(Zenject::SubContainerCreatorBindInfo*)>(&Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::set_SubContainerCreatorBindInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Zenject", "SubContainerCreatorBindInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder*), "set_SubContainerCreatorBindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: WithDefaultGameObjectParent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::*)(::Il2CppString*)>(&Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::WithDefaultGameObjectParent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* defaultParentName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder*), "WithDefaultGameObjectParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{defaultParentName});
   }

@@ -73,7 +73,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskSchedulerAwaitTaskContinuat
 // Il2CppName: Run
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::*)(System::Threading::Tasks::Task*, bool)>(&System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::Run)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ignored = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
     static auto* canInlineContinuationTask = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ignored, canInlineContinuationTask});

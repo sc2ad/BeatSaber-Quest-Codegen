@@ -56,7 +56,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::AsyncCausalityTracer*, "System.
 // Il2CppName: get_LoggingOn
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Threading::Tasks::AsyncCausalityTracer::get_LoggingOn)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::AsyncCausalityTracer*), "get_LoggingOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -64,7 +64,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Il2CppName: TraceOperationCreation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Tasks::CausalityTraceLevel, int, ::Il2CppString*, uint64_t)>(&System::Threading::Tasks::AsyncCausalityTracer::TraceOperationCreation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* traceLevel = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "CausalityTraceLevel")->byval_arg;
     static auto* taskId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* operationName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: TraceOperationCompletion
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Tasks::CausalityTraceLevel, int, System::Threading::Tasks::AsyncCausalityStatus)>(&System::Threading::Tasks::AsyncCausalityTracer::TraceOperationCompletion)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* traceLevel = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "CausalityTraceLevel")->byval_arg;
     static auto* taskId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* status = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "AsyncCausalityStatus")->byval_arg;
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: TraceOperationRelation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Tasks::CausalityTraceLevel, int, System::Threading::Tasks::CausalityRelation)>(&System::Threading::Tasks::AsyncCausalityTracer::TraceOperationRelation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* traceLevel = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "CausalityTraceLevel")->byval_arg;
     static auto* taskId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* relation = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "CausalityRelation")->byval_arg;
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: TraceSynchronousWorkStart
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Tasks::CausalityTraceLevel, int, System::Threading::Tasks::CausalitySynchronousWork)>(&System::Threading::Tasks::AsyncCausalityTracer::TraceSynchronousWorkStart)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* traceLevel = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "CausalityTraceLevel")->byval_arg;
     static auto* taskId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* work = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "CausalitySynchronousWork")->byval_arg;
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: TraceSynchronousWorkCompletion
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Tasks::CausalityTraceLevel, System::Threading::Tasks::CausalitySynchronousWork)>(&System::Threading::Tasks::AsyncCausalityTracer::TraceSynchronousWorkCompletion)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* traceLevel = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "CausalityTraceLevel")->byval_arg;
     static auto* work = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "CausalitySynchronousWork")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::AsyncCausalityTracer*), "TraceSynchronousWorkCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{traceLevel, work});

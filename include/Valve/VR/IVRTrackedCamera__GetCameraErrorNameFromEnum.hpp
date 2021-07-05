@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRTrackedCamera::_GetCameraErrorNameFromEnum*
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Valve::VR::IVRTrackedCamera::_GetCameraErrorNameFromEnum::*)(Valve::VR::EVRTrackedCameraError)>(&Valve::VR::IVRTrackedCamera::_GetCameraErrorNameFromEnum::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eCameraError = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRTrackedCameraError")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRTrackedCamera::_GetCameraErrorNameFromEnum*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eCameraError});
   }
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRTrackedCamera::_GetCameraErrorNameFromEnum::*)(Valve::VR::EVRTrackedCameraError, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRTrackedCamera::_GetCameraErrorNameFromEnum::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eCameraError = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRTrackedCameraError")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Valve::VR::IVRTrackedCamera::_GetCameraErrorNameFromEnum::*)(System::IAsyncResult*)>(&Valve::VR::IVRTrackedCamera::_GetCameraErrorNameFromEnum::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRTrackedCamera::_GetCameraErrorNameFromEnum*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

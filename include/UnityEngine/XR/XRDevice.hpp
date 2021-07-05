@@ -64,7 +64,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRDevice*, "UnityEngine.XR", "XRDevice")
 // Il2CppName: get_isPresent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::XR::XRDevice::get_isPresent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRDevice*), "get_isPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Il2CppName: get_model
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::XR::XRDevice::get_model)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRDevice*), "get_model", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetNativePtr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)()>(&UnityEngine::XR::XRDevice::GetNativePtr)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRDevice*), "GetNativePtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: SetTrackingSpaceType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::XR::TrackingSpaceType)>(&UnityEngine::XR::XRDevice::SetTrackingSpaceType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* trackingSpaceType = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "TrackingSpaceType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRDevice*), "SetTrackingSpaceType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{trackingSpaceType});
   }
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: InvokeDeviceLoaded
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&UnityEngine::XR::XRDevice::InvokeDeviceLoaded)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* loadedDeviceName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRDevice*), "InvokeDeviceLoaded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{loadedDeviceName});
   }
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::XR::XRDevice::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::XRDevice*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

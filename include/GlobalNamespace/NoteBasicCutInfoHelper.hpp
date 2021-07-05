@@ -53,7 +53,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteBasicCutInfoHelper*, "", "NoteBasicC
 // Il2CppName: GetBasicCutInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*, GlobalNamespace::ColorType, GlobalNamespace::NoteCutDirection, GlobalNamespace::SaberType, float, UnityEngine::Vector3, float, bool&, bool&, bool&, float&, float&)>(&GlobalNamespace::NoteBasicCutInfoHelper::GetBasicCutInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* noteTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* colorType = &::il2cpp_utils::GetClassFromName("", "ColorType")->byval_arg;
     static auto* cutDirection = &::il2cpp_utils::GetClassFromName("", "NoteCutDirection")->byval_arg;

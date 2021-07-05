@@ -60,7 +60,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionCompletionResults*, "", "MissionC
 // Il2CppName: get_IsMissionComplete
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MissionCompletionResults::*)()>(&GlobalNamespace::MissionCompletionResults::get_IsMissionComplete)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionCompletionResults*), "get_IsMissionComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

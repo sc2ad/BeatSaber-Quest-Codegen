@@ -101,7 +101,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunne
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <BuildNUnitFilter>b__5_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestFilter* (UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::*)(::Il2CppString*)>(&UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::$BuildNUnitFilter$b__5_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c*), "<BuildNUnitFilter>b__5_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Il2CppName: <BuildNUnitFilter>b__5_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestFilter* (UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::*)(::Il2CppString*)>(&UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::$BuildNUnitFilter$b__5_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c*), "<BuildNUnitFilter>b__5_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Il2CppName: <BuildNUnitFilter>b__5_2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestFilter* (UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::*)(::Il2CppString*)>(&UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::$BuildNUnitFilter$b__5_2)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c*), "<BuildNUnitFilter>b__5_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
@@ -136,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Il2CppName: <BuildNUnitFilter>b__5_3
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestFilter* (UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::*)(::Il2CppString*)>(&UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::$BuildNUnitFilter$b__5_3)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c*), "<BuildNUnitFilter>b__5_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
@@ -145,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Il2CppName: <AddFilters>b__6_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::*)(::Il2CppString*)>(&UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::$AddFilters$b__6_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* v = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c*), "<AddFilters>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});
   }
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: <AddFilters>b__6_2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::*)(::Il2CppString*)>(&UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c::$AddFilters$b__6_2)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* v = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::$$c*), "<AddFilters>b__6_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});
   }

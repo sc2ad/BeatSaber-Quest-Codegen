@@ -39,7 +39,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IStartSeekSongController*, "", "IStartSe
 // Il2CppName: get_waitUntilIsReadyToStartTheSong
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::WaitUntil* (GlobalNamespace::IStartSeekSongController::*)()>(&GlobalNamespace::IStartSeekSongController::get_waitUntilIsReadyToStartTheSong)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IStartSeekSongController*), "get_waitUntilIsReadyToStartTheSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -47,7 +47,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: StartSong
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IStartSeekSongController::*)(float)>(&GlobalNamespace::IStartSeekSongController::StartSong)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* offsetTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IStartSeekSongController*), "StartSong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{offsetTime});
   }
@@ -56,7 +56,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SeekTo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IStartSeekSongController::*)(float)>(&GlobalNamespace::IStartSeekSongController::SeekTo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* songTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IStartSeekSongController*), "SeekTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{songTime});
   }

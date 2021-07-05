@@ -50,7 +50,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarMeshPartSO*, "", "AvatarMeshPartSO
 // Il2CppName: get_mesh
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (GlobalNamespace::AvatarMeshPartSO::*)()>(&GlobalNamespace::AvatarMeshPartSO::get_mesh)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarMeshPartSO*), "get_mesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

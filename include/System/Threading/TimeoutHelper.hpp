@@ -30,7 +30,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::TimeoutHelper*, "System.Threading", "T
 // Il2CppName: GetTime
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)()>(&System::Threading::TimeoutHelper::GetTime)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::TimeoutHelper*), "GetTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -38,7 +38,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)()>
 // Il2CppName: UpdateTimeOut
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uint, int)>(&System::Threading::TimeoutHelper::UpdateTimeOut)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* startTime = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* originalWaitMillisecondsTimeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::TimeoutHelper*), "UpdateTimeOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{startTime, originalWaitMillisecondsTimeout});

@@ -73,7 +73,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::GUI::SynchronousFilte
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <Pass>b__2_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c::*)(System::Reflection::MethodInfo*)>(&UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c::$Pass$b__2_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mi = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c*), "<Pass>b__2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mi});
   }
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: <Pass>b__2_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c::*)(System::Reflection::MethodInfo*)>(&UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c::$Pass$b__2_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mi = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c*), "<Pass>b__2_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mi});
   }

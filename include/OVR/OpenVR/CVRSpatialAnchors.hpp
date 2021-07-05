@@ -82,7 +82,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSpatialAnchors*, "OVR.OpenVR", "CVRSpatia
 // Il2CppName: CreateSpatialAnchorFromDescriptor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRSpatialAnchorError (OVR::OpenVR::CVRSpatialAnchors::*)(::Il2CppString*, uint&)>(&OVR::OpenVR::CVRSpatialAnchors::CreateSpatialAnchorFromDescriptor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchDescriptor = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pHandleOut = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRSpatialAnchors*), "CreateSpatialAnchorFromDescriptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pchDescriptor, pHandleOut});
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: CreateSpatialAnchorFromPose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRSpatialAnchorError (OVR::OpenVR::CVRSpatialAnchors::*)(uint, OVR::OpenVR::ETrackingUniverseOrigin, OVR::OpenVR::SpatialAnchorPose_t&, uint&)>(&OVR::OpenVR::CVRSpatialAnchors::CreateSpatialAnchorFromPose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* unDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* eOrigin = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackingUniverseOrigin")->byval_arg;
     static auto* pPose = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "SpatialAnchorPose_t")->this_arg;
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: GetSpatialAnchorPose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRSpatialAnchorError (OVR::OpenVR::CVRSpatialAnchors::*)(uint, OVR::OpenVR::ETrackingUniverseOrigin, OVR::OpenVR::SpatialAnchorPose_t&)>(&OVR::OpenVR::CVRSpatialAnchors::GetSpatialAnchorPose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* unHandle = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* eOrigin = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackingUniverseOrigin")->byval_arg;
     static auto* pPoseOut = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "SpatialAnchorPose_t")->this_arg;
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: GetSpatialAnchorDescriptor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRSpatialAnchorError (OVR::OpenVR::CVRSpatialAnchors::*)(uint, System::Text::StringBuilder*, uint&)>(&OVR::OpenVR::CVRSpatialAnchors::GetSpatialAnchorDescriptor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* unHandle = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* pchDescriptorOut = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* punDescriptorBufferLenInOut = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;

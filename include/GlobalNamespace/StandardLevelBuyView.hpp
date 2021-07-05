@@ -78,7 +78,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelBuyView*, "", "StandardLeve
 // Il2CppName: get_buyButton
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::Button* (GlobalNamespace::StandardLevelBuyView::*)()>(&GlobalNamespace::StandardLevelBuyView::get_buyButton)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelBuyView*), "get_buyButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: SetContent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelBuyView::*)(GlobalNamespace::IPreviewBeatmapLevel*)>(&GlobalNamespace::StandardLevelBuyView::SetContent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* previewBeatmapLevel = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelBuyView*), "SetContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{previewBeatmapLevel});
   }

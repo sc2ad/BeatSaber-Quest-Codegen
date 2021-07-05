@@ -51,7 +51,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSO*, "", "ColorSO");
 // Il2CppName: get_color
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::ColorSO::*)()>(&GlobalNamespace::ColorSO::get_color)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSO*), "get_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

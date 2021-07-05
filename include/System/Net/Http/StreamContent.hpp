@@ -130,7 +130,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::StreamContent*, "System.Net.Http", "St
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::StreamContent::*)(bool)>(&System::Net::Http::StreamContent::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* disposing = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::StreamContent*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{disposing});
   }
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: SerializeToStreamAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::Net::Http::StreamContent::*)(System::IO::Stream*, System::Net::TransportContext*)>(&System::Net::Http::StreamContent::SerializeToStreamAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stream = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Net", "TransportContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::StreamContent*), "SerializeToStreamAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stream, context});
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: TryComputeLength
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::StreamContent::*)(int64_t&)>(&System::Net::Http::StreamContent::TryComputeLength)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int64")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::StreamContent*), "TryComputeLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{length});
   }

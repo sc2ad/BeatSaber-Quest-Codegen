@@ -42,7 +42,7 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Media*, "Oculus.Platform", "Media");
 // Il2CppName: ShareToFacebook
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::ShareMediaResult*>* (*)(::Il2CppString*, ::Il2CppString*, Oculus::Platform::MediaContentType)>(&Oculus::Platform::Media::ShareToFacebook)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* postTextSuggestion = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* contentType = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "MediaContentType")->byval_arg;

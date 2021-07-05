@@ -47,7 +47,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IServerBeatmapProviderManager*, "", "ISe
 // Il2CppName: GetServerBeatmapProvider
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IServerBeatmapProvider* (GlobalNamespace::IServerBeatmapProviderManager::*)()>(&GlobalNamespace::IServerBeatmapProviderManager::GetServerBeatmapProvider)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IServerBeatmapProviderManager*), "GetServerBeatmapProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -55,7 +55,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: RefreshAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (GlobalNamespace::IServerBeatmapProviderManager::*)()>(&GlobalNamespace::IServerBeatmapProviderManager::RefreshAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IServerBeatmapProviderManager*), "RefreshAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

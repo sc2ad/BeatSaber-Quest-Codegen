@@ -34,7 +34,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SplineUtils*, "", "SplineUtils");
 // Il2CppName: Interpolate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, float)>(&GlobalNamespace::SplineUtils::Interpolate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* t0 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* p0 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* p1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;

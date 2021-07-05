@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRRaycaster::$$c*, "", "OVRRaycaster/<>
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRRaycaster::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRRaycaster::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -69,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <GraphicRaycast>b__16_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::OVRRaycaster::$$c::*)(GlobalNamespace::OVRRaycaster::RaycastHit, GlobalNamespace::OVRRaycaster::RaycastHit)>(&GlobalNamespace::OVRRaycaster::$$c::$GraphicRaycast$b__16_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* g1 = &::il2cpp_utils::GetClassFromName("", "OVRRaycaster/RaycastHit")->byval_arg;
     static auto* g2 = &::il2cpp_utils::GetClassFromName("", "OVRRaycaster/RaycastHit")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRRaycaster::$$c*), "<GraphicRaycast>b__16_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{g1, g2});

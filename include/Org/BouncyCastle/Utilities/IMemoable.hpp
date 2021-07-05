@@ -29,7 +29,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IMemoable*, "Org.BouncyCast
 // Il2CppName: Copy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Utilities::IMemoable* (Org::BouncyCastle::Utilities::IMemoable::*)()>(&Org::BouncyCastle::Utilities::IMemoable::Copy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IMemoable*), "Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -37,7 +37,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: Reset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Utilities::IMemoable::*)(Org::BouncyCastle::Utilities::IMemoable*)>(&Org::BouncyCastle::Utilities::IMemoable::Reset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Utilities", "IMemoable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IMemoable*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }

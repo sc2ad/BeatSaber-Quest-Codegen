@@ -104,7 +104,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreModel*, "", "ScoreModel");
 // Il2CppName: MaxRawScoreForNumberOfNotes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&GlobalNamespace::ScoreModel::MaxRawScoreForNumberOfNotes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* noteCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreModel*), "MaxRawScoreForNumberOfNotes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteCount});
   }
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Il2CppName: RawScoreWithoutMultiplier
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::ISaberSwingRatingCounter*, float, int&, int&, int&)>(&GlobalNamespace::ScoreModel::RawScoreWithoutMultiplier)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* saberSwingRatingCounter = &::il2cpp_utils::GetClassFromName("", "ISaberSwingRatingCounter")->byval_arg;
     static auto* cutDistanceToCenter = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* beforeCutRawScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -126,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Gl
 // Il2CppName: GetModifiedScoreForGameplayModifiersScoreMultiplier
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, float)>(&GlobalNamespace::ScoreModel::GetModifiedScoreForGameplayModifiersScoreMultiplier)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rawScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* gameplayModifiersScoreMultiplier = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreModel*), "GetModifiedScoreForGameplayModifiersScoreMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rawScore, gameplayModifiersScoreMultiplier});

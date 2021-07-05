@@ -104,7 +104,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AudioTrack*, "UnityEngine.Timeline
 // Il2CppName: CreateClip
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::TimelineClip* (UnityEngine::Timeline::AudioTrack::*)(UnityEngine::AudioClip*)>(&UnityEngine::Timeline::AudioTrack::CreateClip)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AudioTrack*), "CreateClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clip});
   }
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: OnValidate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::AudioTrack::*)()>(&UnityEngine::Timeline::AudioTrack::OnValidate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AudioTrack*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: CompileClips
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (UnityEngine::Timeline::AudioTrack::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, System::Collections::Generic::IList_1<UnityEngine::Timeline::TimelineClip*>*, UnityEngine::Timeline::IntervalTree_1<UnityEngine::Timeline::RuntimeElement*>*)>(&UnityEngine::Timeline::AudioTrack::CompileClips)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->byval_arg;
     static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* timelineClips = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TimelineClip")})->byval_arg;
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_outputs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>* (UnityEngine::Timeline::AudioTrack::*)()>(&UnityEngine::Timeline::AudioTrack::get_outputs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AudioTrack*), "get_outputs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

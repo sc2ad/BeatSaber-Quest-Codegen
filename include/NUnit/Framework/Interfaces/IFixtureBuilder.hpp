@@ -44,7 +44,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IFixtureBuilder*, "NUnit.Fr
 // Il2CppName: BuildFrom
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestSuite*>* (NUnit::Framework::Interfaces::IFixtureBuilder::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&NUnit::Framework::Interfaces::IFixtureBuilder::BuildFrom)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* typeInfo = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITypeInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::IFixtureBuilder*), "BuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeInfo});
   }

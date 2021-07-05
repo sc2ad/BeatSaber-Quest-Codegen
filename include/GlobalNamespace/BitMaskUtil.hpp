@@ -37,7 +37,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BitMaskUtil*, "", "BitMaskUtil");
 // Il2CppName: NumberOfSetBits
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint64_t)>(&GlobalNamespace::BitMaskUtil::NumberOfSetBits)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* i = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BitMaskUtil*), "NumberOfSetBits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i});
   }
@@ -46,7 +46,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(ui
 // Il2CppName: NumberOfSetBits
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint)>(&GlobalNamespace::BitMaskUtil::NumberOfSetBits)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* i = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BitMaskUtil*), "NumberOfSetBits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i});
   }
@@ -55,7 +55,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(ui
 // Il2CppName: ShiftLeft
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t&, int&)>(&GlobalNamespace::BitMaskUtil::ShiftLeft)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
     static auto* shift = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BitMaskUtil*), "ShiftLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, shift});
@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Il2CppName: ShiftRight
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t&, int&)>(&GlobalNamespace::BitMaskUtil::ShiftRight)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
     static auto* shift = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BitMaskUtil*), "ShiftRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, shift});

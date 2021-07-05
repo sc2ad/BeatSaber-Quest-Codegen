@@ -65,7 +65,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsEnvironmentManager::ResultEnviron
 // Il2CppName: get_keyword
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword::*)()>(&GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword::get_keyword)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*), "get_keyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -73,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_resultsEnvironmentController
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BaseResultsEnvironmentController* (GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword::*)()>(&GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword::get_resultsEnvironmentController)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*), "get_resultsEnvironmentController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

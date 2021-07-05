@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::SemaphoreSlim::TaskNode*, "System.Thre
 // Il2CppName: System.Threading.IThreadPoolWorkItem.ExecuteWorkItem
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::SemaphoreSlim::TaskNode::*)()>(&System::Threading::SemaphoreSlim::TaskNode::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SemaphoreSlim::TaskNode*), "System.Threading.IThreadPoolWorkItem.ExecuteWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: System.Threading.IThreadPoolWorkItem.MarkAborted
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::SemaphoreSlim::TaskNode::*)(System::Threading::ThreadAbortException*)>(&System::Threading::SemaphoreSlim::TaskNode::System_Threading_IThreadPoolWorkItem_MarkAborted)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tae = &::il2cpp_utils::GetClassFromName("System.Threading", "ThreadAbortException")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SemaphoreSlim::TaskNode*), "System.Threading.IThreadPoolWorkItem.MarkAborted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tae});
   }

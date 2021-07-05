@@ -95,7 +95,7 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Users*, "Oculus.Platform", "Users");
 // Il2CppName: GetLoggedInUserLocale
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&Oculus::Platform::Users::GetLoggedInUserLocale)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Users*), "GetLoggedInUserLocale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: Get
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::User*>* (*)(uint64_t)>(&Oculus::Platform::Users::Get)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* userID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Users*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userID});
   }
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: GetAccessToken
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<::Il2CppString*>* (*)()>(&Oculus::Platform::Users::GetAccessToken)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Users*), "GetAccessToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -120,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: GetLoggedInUser
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::User*>* (*)()>(&Oculus::Platform::Users::GetLoggedInUser)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Users*), "GetLoggedInUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: GetLoggedInUserFriends
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::UserList*>* (*)()>(&Oculus::Platform::Users::GetLoggedInUserFriends)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Users*), "GetLoggedInUserFriends", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -136,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: GetLoggedInUserFriendsAndRooms
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::UserAndRoomList*>* (*)()>(&Oculus::Platform::Users::GetLoggedInUserFriendsAndRooms)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Users*), "GetLoggedInUserFriendsAndRooms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: GetLoggedInUserRecentlyMetUsersAndRooms
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::UserAndRoomList*>* (*)(Oculus::Platform::UserOptions*)>(&Oculus::Platform::Users::GetLoggedInUserRecentlyMetUsersAndRooms)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* userOptions = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "UserOptions")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Users*), "GetLoggedInUserRecentlyMetUsersAndRooms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userOptions});
   }
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: GetOrgScopedID
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::OrgScopedID*>* (*)(uint64_t)>(&Oculus::Platform::Users::GetOrgScopedID)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* userID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Users*), "GetOrgScopedID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userID});
   }
@@ -162,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: GetSdkAccounts
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::SdkAccountList*>* (*)()>(&Oculus::Platform::Users::GetSdkAccounts)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Users*), "GetSdkAccounts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -170,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: GetUserProof
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::UserProof*>* (*)()>(&Oculus::Platform::Users::GetUserProof)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Users*), "GetUserProof", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -178,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: LaunchFriendRequestFlow
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::LaunchFriendRequestFlowResult*>* (*)(uint64_t)>(&Oculus::Platform::Users::LaunchFriendRequestFlow)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* userID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Users*), "LaunchFriendRequestFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userID});
   }
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: LaunchProfile
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request* (*)(uint64_t)>(&Oculus::Platform::Users::LaunchProfile)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* userID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Users*), "LaunchProfile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userID});
   }
@@ -196,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: GetNextUserAndRoomListPage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::UserAndRoomList*>* (*)(Oculus::Platform::Models::UserAndRoomList*)>(&Oculus::Platform::Users::GetNextUserAndRoomListPage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* list = &::il2cpp_utils::GetClassFromName("Oculus.Platform.Models", "UserAndRoomList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Users*), "GetNextUserAndRoomListPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{list});
   }
@@ -205,7 +205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: GetNextUserListPage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::UserList*>* (*)(Oculus::Platform::Models::UserList*)>(&Oculus::Platform::Users::GetNextUserListPage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* list = &::il2cpp_utils::GetClassFromName("Oculus.Platform.Models", "UserList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Users*), "GetNextUserListPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{list});
   }

@@ -62,7 +62,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::IO::NullFileWatcher*, "System.IO", "NullFileWatch
 // Il2CppName: StartDispatching
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::NullFileWatcher::*)(System::IO::FileSystemWatcher*)>(&System::IO::NullFileWatcher::StartDispatching)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* fsw = &::il2cpp_utils::GetClassFromName("System.IO", "FileSystemWatcher")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::NullFileWatcher*), "StartDispatching", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fsw});
   }
@@ -71,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: StopDispatching
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::NullFileWatcher::*)(System::IO::FileSystemWatcher*)>(&System::IO::NullFileWatcher::StopDispatching)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* fsw = &::il2cpp_utils::GetClassFromName("System.IO", "FileSystemWatcher")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::NullFileWatcher*), "StopDispatching", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fsw});
   }
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: GetInstance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IO::IFileWatcher*&)>(&System::IO::NullFileWatcher::GetInstance)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* watcher = &::il2cpp_utils::GetClassFromName("System.IO", "IFileWatcher")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::NullFileWatcher*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{watcher});
   }

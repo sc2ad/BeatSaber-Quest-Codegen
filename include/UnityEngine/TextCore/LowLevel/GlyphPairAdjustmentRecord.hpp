@@ -65,7 +65,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecor
 // Il2CppName: get_firstAdjustmentRecord
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord (UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)()>(&UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::get_firstAdjustmentRecord)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord), "get_firstAdjustmentRecord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -73,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_secondAdjustmentRecord
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord (UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::*)()>(&UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord::get_secondAdjustmentRecord)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord), "get_secondAdjustmentRecord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

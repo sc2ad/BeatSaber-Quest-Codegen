@@ -55,7 +55,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::TestCom
 // Il2CppName: BuildTestCommand
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Commands::TestCommand* (*)(NUnit::Framework::Internal::TestMethod*, NUnit::Framework::Interfaces::ITestFilter*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::BuildTestCommand)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* test = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestMethod")->byval_arg;
     static auto* filter = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITestFilter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder*), "BuildTestCommand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{test, filter});
@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Il2CppName: GetTestBuilderName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(NUnit::Framework::Internal::TestMethod*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::GetTestBuilderName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* testMethod = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestMethod")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder*), "GetTestBuilderName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{testMethod});
   }
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: TryReplaceWithEnumerableCommand
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Commands::TestCommand* (*)(NUnit::Framework::Internal::Commands::TestCommand*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::TryReplaceWithEnumerableCommand)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* command = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal.Commands", "TestCommand")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder*), "TryReplaceWithEnumerableCommand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{command});
   }

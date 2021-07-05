@@ -79,7 +79,7 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::RaycastUITopLevelChecker*, "HMUI", "RaycastUITopLev
 // Il2CppName: Awake
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::RaycastUITopLevelChecker::*)()>(&HMUI::RaycastUITopLevelChecker::Awake)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::RaycastUITopLevelChecker*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: get_isOnTop
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI::RaycastUITopLevelChecker::*)()>(&HMUI::RaycastUITopLevelChecker::get_isOnTop)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::RaycastUITopLevelChecker*), "get_isOnTop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

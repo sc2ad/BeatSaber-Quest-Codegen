@@ -94,7 +94,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPool*, "System.Threading", "Thre
 // Il2CppName: RegisterWaitForSingleObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::RegisteredWaitHandle* (*)(System::Threading::WaitHandle*, System::Threading::WaitOrTimerCallback*, ::Il2CppObject*, uint, bool, System::Threading::StackCrawlMark&, bool)>(&System::Threading::ThreadPool::RegisterWaitForSingleObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* waitObject = &::il2cpp_utils::GetClassFromName("System.Threading", "WaitHandle")->byval_arg;
     static auto* callBack = &::il2cpp_utils::GetClassFromName("System.Threading", "WaitOrTimerCallback")->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: RegisterWaitForSingleObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::RegisteredWaitHandle* (*)(System::Threading::WaitHandle*, System::Threading::WaitOrTimerCallback*, ::Il2CppObject*, System::TimeSpan, bool)>(&System::Threading::ThreadPool::RegisterWaitForSingleObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* waitObject = &::il2cpp_utils::GetClassFromName("System.Threading", "WaitHandle")->byval_arg;
     static auto* callBack = &::il2cpp_utils::GetClassFromName("System.Threading", "WaitOrTimerCallback")->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: QueueUserWorkItem
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Threading::WaitCallback*, ::Il2CppObject*)>(&System::Threading::ThreadPool::QueueUserWorkItem)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* callBack = &::il2cpp_utils::GetClassFromName("System.Threading", "WaitCallback")->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPool*), "QueueUserWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callBack, state});
@@ -132,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: QueueUserWorkItem
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Threading::WaitCallback*)>(&System::Threading::ThreadPool::QueueUserWorkItem)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* callBack = &::il2cpp_utils::GetClassFromName("System.Threading", "WaitCallback")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPool*), "QueueUserWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callBack});
   }
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: UnsafeQueueUserWorkItem
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Threading::WaitCallback*, ::Il2CppObject*)>(&System::Threading::ThreadPool::UnsafeQueueUserWorkItem)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* callBack = &::il2cpp_utils::GetClassFromName("System.Threading", "WaitCallback")->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPool*), "UnsafeQueueUserWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callBack, state});
@@ -151,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: QueueUserWorkItemHelper
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Threading::WaitCallback*, ::Il2CppObject*, System::Threading::StackCrawlMark&, bool)>(&System::Threading::ThreadPool::QueueUserWorkItemHelper)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* callBack = &::il2cpp_utils::GetClassFromName("System.Threading", "WaitCallback")->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* stackMark = &::il2cpp_utils::GetClassFromName("System.Threading", "StackCrawlMark")->this_arg;
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: UnsafeQueueCustomWorkItem
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::IThreadPoolWorkItem*, bool)>(&System::Threading::ThreadPool::UnsafeQueueCustomWorkItem)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* workItem = &::il2cpp_utils::GetClassFromName("System.Threading", "IThreadPoolWorkItem")->byval_arg;
     static auto* forceGlobal = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPool*), "UnsafeQueueCustomWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{workItem, forceGlobal});
@@ -173,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: TryPopCustomWorkItem
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Threading::IThreadPoolWorkItem*)>(&System::Threading::ThreadPool::TryPopCustomWorkItem)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* workItem = &::il2cpp_utils::GetClassFromName("System.Threading", "IThreadPoolWorkItem")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPool*), "TryPopCustomWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{workItem});
   }
@@ -182,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: RequestWorkerThread
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Threading::ThreadPool::RequestWorkerThread)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPool*), "RequestWorkerThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -190,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Il2CppName: EnsureVMInitialized
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Threading::ThreadPool::EnsureVMInitialized)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPool*), "EnsureVMInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -198,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: NotifyWorkItemComplete
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Threading::ThreadPool::NotifyWorkItemComplete)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPool*), "NotifyWorkItemComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -206,7 +206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Il2CppName: ReportThreadStatus
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&System::Threading::ThreadPool::ReportThreadStatus)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* isWorking = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPool*), "ReportThreadStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isWorking});
   }
@@ -215,7 +215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Il2CppName: NotifyWorkItemProgress
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Threading::ThreadPool::NotifyWorkItemProgress)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPool*), "NotifyWorkItemProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -223,7 +223,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: NotifyWorkItemProgressNative
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Threading::ThreadPool::NotifyWorkItemProgressNative)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPool*), "NotifyWorkItemProgressNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -231,7 +231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: IsThreadPoolHosted
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Threading::ThreadPool::IsThreadPoolHosted)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPool*), "IsThreadPoolHosted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -239,7 +239,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Il2CppName: InitializeVMTp
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool&)>(&System::Threading::ThreadPool::InitializeVMTp)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enableWorkerTracking = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPool*), "InitializeVMTp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enableWorkerTracking});
   }

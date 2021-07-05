@@ -44,7 +44,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::ITestAction*, "NUnit.Framework", "ITest
 // Il2CppName: BeforeTest
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::ITestAction::*)(NUnit::Framework::Interfaces::ITest*)>(&NUnit::Framework::ITestAction::BeforeTest)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* test = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::ITestAction*), "BeforeTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{test});
   }
@@ -53,7 +53,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Il2CppName: AfterTest
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::ITestAction::*)(NUnit::Framework::Interfaces::ITest*)>(&NUnit::Framework::ITestAction::AfterTest)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* test = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::ITestAction*), "AfterTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{test});
   }
@@ -62,7 +62,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Il2CppName: get_Targets
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::ActionTargets (NUnit::Framework::ITestAction::*)()>(&NUnit::Framework::ITestAction::get_Targets)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::ITestAction*), "get_Targets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileCompressionHelper*, "", "FileCompres
 // Il2CppName: CreateZipFromDirectoryAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*, System::Action_1<bool>*)>(&GlobalNamespace::FileCompressionHelper::CreateZipFromDirectoryAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sourceDirectoryName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* destinationArchiveFileName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* finishCallback = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: ExtractZipToDirectoryAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*, System::Action_1<bool>*)>(&GlobalNamespace::FileCompressionHelper::ExtractZipToDirectoryAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sourceArchiveFileName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* destinationDirectoryName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* finishCallback = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: CreateZipFromDirectory
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::FileCompressionHelper::CreateZipFromDirectory)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sourceDirectoryName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* destinationArchiveFileName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileCompressionHelper*), "CreateZipFromDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourceDirectoryName, destinationArchiveFileName});
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: ExtractZipToDirectory
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::FileCompressionHelper::ExtractZipToDirectory)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sourceArchiveFileName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* destinationDirectoryName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileCompressionHelper*), "ExtractZipToDirectory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourceArchiveFileName, destinationDirectoryName});

@@ -70,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRSystem::_GetControllerStateWithPosePacked
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRSystem::_GetControllerStateWithPosePacked::*)(OVR::OpenVR::ETrackingUniverseOrigin, uint, OVR::OpenVR::VRControllerState_t_Packed&, uint, OVR::OpenVR::TrackedDevicePose_t&)>(&OVR::OpenVR::CVRSystem::_GetControllerStateWithPosePacked::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eOrigin = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackingUniverseOrigin")->byval_arg;
     static auto* unControllerDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* pControllerState = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRControllerState_t_Packed")->this_arg;
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::CVRSystem::_GetControllerStateWithPosePacked::*)(OVR::OpenVR::ETrackingUniverseOrigin, uint, OVR::OpenVR::VRControllerState_t_Packed&, uint, OVR::OpenVR::TrackedDevicePose_t&, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::CVRSystem::_GetControllerStateWithPosePacked::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eOrigin = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackingUniverseOrigin")->byval_arg;
     static auto* unControllerDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* pControllerState = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRControllerState_t_Packed")->this_arg;
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRSystem::_GetControllerStateWithPosePacked::*)(OVR::OpenVR::VRControllerState_t_Packed&, OVR::OpenVR::TrackedDevicePose_t&, System::IAsyncResult*)>(&OVR::OpenVR::CVRSystem::_GetControllerStateWithPosePacked::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pControllerState = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRControllerState_t_Packed")->this_arg;
     static auto* pTrackedDevicePose = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "TrackedDevicePose_t")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;

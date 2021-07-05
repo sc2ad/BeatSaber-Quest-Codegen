@@ -64,7 +64,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::LinuxUnicastIPAddressInf
 // Il2CppName: get_Address
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPAddress* (System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::*)()>(&System::Net::NetworkInformation::LinuxUnicastIPAddressInformation::get_Address)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::LinuxUnicastIPAddressInformation*), "get_Address", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

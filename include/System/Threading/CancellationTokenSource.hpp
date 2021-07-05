@@ -263,7 +263,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationTokenSource*, "System.Thre
 // Il2CppName: LinkedTokenCancelDelegate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&System::Threading::CancellationTokenSource::LinkedTokenCancelDelegate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationTokenSource*), "LinkedTokenCancelDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source});
   }
@@ -272,7 +272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: get_IsCancellationRequested
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::CancellationTokenSource::*)()>(&System::Threading::CancellationTokenSource::get_IsCancellationRequested)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationTokenSource*), "get_IsCancellationRequested", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -280,7 +280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_IsCancellationCompleted
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::CancellationTokenSource::*)()>(&System::Threading::CancellationTokenSource::get_IsCancellationCompleted)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationTokenSource*), "get_IsCancellationCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -288,7 +288,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_IsDisposed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::CancellationTokenSource::*)()>(&System::Threading::CancellationTokenSource::get_IsDisposed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationTokenSource*), "get_IsDisposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -296,7 +296,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: set_ThreadIDExecutingCallbacks
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::CancellationTokenSource::*)(int)>(&System::Threading::CancellationTokenSource::set_ThreadIDExecutingCallbacks)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationTokenSource*), "set_ThreadIDExecutingCallbacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -305,7 +305,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_ThreadIDExecutingCallbacks
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Threading::CancellationTokenSource::*)()>(&System::Threading::CancellationTokenSource::get_ThreadIDExecutingCallbacks)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationTokenSource*), "get_ThreadIDExecutingCallbacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -313,7 +313,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: get_Token
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::CancellationToken (System::Threading::CancellationTokenSource::*)()>(&System::Threading::CancellationTokenSource::get_Token)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationTokenSource*), "get_Token", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -321,7 +321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: get_CanBeCanceled
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::CancellationTokenSource::*)()>(&System::Threading::CancellationTokenSource::get_CanBeCanceled)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationTokenSource*), "get_CanBeCanceled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -329,7 +329,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_ExecutingCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::CancellationCallbackInfo* (System::Threading::CancellationTokenSource::*)()>(&System::Threading::CancellationTokenSource::get_ExecutingCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationTokenSource*), "get_ExecutingCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -341,7 +341,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: Cancel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::CancellationTokenSource::*)()>(&System::Threading::CancellationTokenSource::Cancel)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationTokenSource*), "Cancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -349,7 +349,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Cancel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::CancellationTokenSource::*)(bool)>(&System::Threading::CancellationTokenSource::Cancel)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* throwOnFirstException = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationTokenSource*), "Cancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{throwOnFirstException});
   }
@@ -358,7 +358,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: CancelAfter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::CancellationTokenSource::*)(System::TimeSpan)>(&System::Threading::CancellationTokenSource::CancelAfter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* delay = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationTokenSource*), "CancelAfter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{delay});
   }
@@ -367,7 +367,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: CancelAfter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::CancellationTokenSource::*)(int)>(&System::Threading::CancellationTokenSource::CancelAfter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* millisecondsDelay = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationTokenSource*), "CancelAfter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{millisecondsDelay});
   }
@@ -376,7 +376,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: TimerCallbackLogic
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&System::Threading::CancellationTokenSource::TimerCallbackLogic)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationTokenSource*), "TimerCallbackLogic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
@@ -385,7 +385,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::CancellationTokenSource::*)()>(&System::Threading::CancellationTokenSource::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationTokenSource*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -393,7 +393,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::CancellationTokenSource::*)(bool)>(&System::Threading::CancellationTokenSource::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* disposing = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationTokenSource*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{disposing});
   }
@@ -402,7 +402,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ThrowIfDisposed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::CancellationTokenSource::*)()>(&System::Threading::CancellationTokenSource::ThrowIfDisposed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationTokenSource*), "ThrowIfDisposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -410,7 +410,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ThrowObjectDisposedException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Threading::CancellationTokenSource::ThrowObjectDisposedException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationTokenSource*), "ThrowObjectDisposedException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -418,7 +418,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: InternalGetStaticSource
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::CancellationTokenSource* (*)(bool)>(&System::Threading::CancellationTokenSource::InternalGetStaticSource)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* set = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationTokenSource*), "InternalGetStaticSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{set});
   }
@@ -427,7 +427,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: InternalRegister
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::CancellationTokenRegistration (System::Threading::CancellationTokenSource::*)(System::Action_1<::Il2CppObject*>*, ::Il2CppObject*, System::Threading::SynchronizationContext*, System::Threading::ExecutionContext*)>(&System::Threading::CancellationTokenSource::InternalRegister)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* callback = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
     static auto* stateForCallback = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* targetSyncContext = &::il2cpp_utils::GetClassFromName("System.Threading", "SynchronizationContext")->byval_arg;
@@ -439,7 +439,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: NotifyCancellation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::CancellationTokenSource::*)(bool)>(&System::Threading::CancellationTokenSource::NotifyCancellation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* throwOnFirstException = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationTokenSource*), "NotifyCancellation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{throwOnFirstException});
   }
@@ -448,7 +448,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ExecuteCallbackHandlers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::CancellationTokenSource::*)(bool)>(&System::Threading::CancellationTokenSource::ExecuteCallbackHandlers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* throwOnFirstException = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationTokenSource*), "ExecuteCallbackHandlers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{throwOnFirstException});
   }
@@ -457,7 +457,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: CancellationCallbackCoreWork_OnSyncContext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::CancellationTokenSource::*)(::Il2CppObject*)>(&System::Threading::CancellationTokenSource::CancellationCallbackCoreWork_OnSyncContext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationTokenSource*), "CancellationCallbackCoreWork_OnSyncContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
@@ -466,7 +466,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: CancellationCallbackCoreWork
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::CancellationTokenSource::*)(System::Threading::CancellationCallbackCoreWorkArguments)>(&System::Threading::CancellationTokenSource::CancellationCallbackCoreWork)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* args = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationCallbackCoreWorkArguments")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationTokenSource*), "CancellationCallbackCoreWork", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});
   }
@@ -475,7 +475,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: CreateLinkedTokenSource
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::CancellationTokenSource* (*)(System::Threading::CancellationToken, System::Threading::CancellationToken)>(&System::Threading::CancellationTokenSource::CreateLinkedTokenSource)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* token1 = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     static auto* token2 = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationTokenSource*), "CreateLinkedTokenSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{token1, token2});
@@ -485,7 +485,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: WaitForCallbackToComplete
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::CancellationTokenSource::*)(System::Threading::CancellationCallbackInfo*)>(&System::Threading::CancellationTokenSource::WaitForCallbackToComplete)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* callbackInfo = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationCallbackInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationTokenSource*), "WaitForCallbackToComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callbackInfo});
   }
@@ -494,7 +494,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Threading::CancellationTokenSource::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::CancellationTokenSource*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -62,7 +62,7 @@ DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AssertionConditionAttribute*, "Je
 // Il2CppName: get_ConditionType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<JetBrains::Annotations::AssertionConditionType (JetBrains::Annotations::AssertionConditionAttribute::*)()>(&JetBrains::Annotations::AssertionConditionAttribute::get_ConditionType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AssertionConditionAttribute*), "get_ConditionType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -70,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<JetBrains::
 // Il2CppName: set_ConditionType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::AssertionConditionAttribute::*)(JetBrains::Annotations::AssertionConditionType)>(&JetBrains::Annotations::AssertionConditionAttribute::set_ConditionType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("JetBrains.Annotations", "AssertionConditionType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AssertionConditionAttribute*), "set_ConditionType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

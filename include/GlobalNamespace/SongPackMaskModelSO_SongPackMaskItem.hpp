@@ -122,7 +122,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*, 
 // Il2CppName: get_serializedName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::*)()>(&GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::get_serializedName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*), "get_serializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_songPackMask
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SongPackMask (GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::*)()>(&GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::get_songPackMask)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*), "get_songPackMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

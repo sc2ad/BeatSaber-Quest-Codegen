@@ -34,7 +34,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IContributeServerCon
 // Il2CppName: GetServerContextSink
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (System::Runtime::Remoting::Contexts::IContributeServerContextSink::*)(System::Runtime::Remoting::Messaging::IMessageSink*)>(&System::Runtime::Remoting::Contexts::IContributeServerContextSink::GetServerContextSink)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* nextSink = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "IMessageSink")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::IContributeServerContextSink*), "GetServerContextSink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nextSink});
   }

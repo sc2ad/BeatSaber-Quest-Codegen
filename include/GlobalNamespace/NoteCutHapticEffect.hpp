@@ -76,7 +76,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutHapticEffect*, "", "NoteCutHaptic
 // Il2CppName: HitNote
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteCutHapticEffect::*)(GlobalNamespace::SaberType)>(&GlobalNamespace::NoteCutHapticEffect::HitNote)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* saberType = &::il2cpp_utils::GetClassFromName("", "SaberType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutHapticEffect*), "HitNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{saberType});
   }

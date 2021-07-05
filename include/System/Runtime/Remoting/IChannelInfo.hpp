@@ -32,7 +32,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::IChannelInfo*, "System.Runtime
 // Il2CppName: get_ChannelData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Runtime::Remoting::IChannelInfo::*)()>(&System::Runtime::Remoting::IChannelInfo::get_ChannelData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::IChannelInfo*), "get_ChannelData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

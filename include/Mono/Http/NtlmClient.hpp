@@ -84,7 +84,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Http::NtlmClient*, "Mono.Http", "NtlmClient");
 // Il2CppName: Authenticate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Authorization* (Mono::Http::NtlmClient::*)(::Il2CppString*, System::Net::WebRequest*, System::Net::ICredentials*)>(&Mono::Http::NtlmClient::Authenticate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* challenge = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* webRequest = &::il2cpp_utils::GetClassFromName("System.Net", "WebRequest")->byval_arg;
     static auto* credentials = &::il2cpp_utils::GetClassFromName("System.Net", "ICredentials")->byval_arg;
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: PreAuthenticate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Authorization* (Mono::Http::NtlmClient::*)(System::Net::WebRequest*, System::Net::ICredentials*)>(&Mono::Http::NtlmClient::PreAuthenticate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* webRequest = &::il2cpp_utils::GetClassFromName("System.Net", "WebRequest")->byval_arg;
     static auto* credentials = &::il2cpp_utils::GetClassFromName("System.Net", "ICredentials")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Http::NtlmClient*), "PreAuthenticate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{webRequest, credentials});
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: get_AuthenticationType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Http::NtlmClient::*)()>(&Mono::Http::NtlmClient::get_AuthenticationType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Http::NtlmClient*), "get_AuthenticationType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Mono::Http::NtlmClient::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Http::NtlmClient*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

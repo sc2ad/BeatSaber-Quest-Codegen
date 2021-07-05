@@ -70,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::X509CertificateUtility::$$c*, "", "X509C
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::X509CertificateUtility::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::X509CertificateUtility::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <ValidateCertificateChainUnity>b__6_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::X509CertificateUtility::$$c::*)(System::Security::Cryptography::X509Certificates::X509ChainStatus)>(&GlobalNamespace::X509CertificateUtility::$$c::$ValidateCertificateChainUnity$b__6_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509ChainStatus")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::X509CertificateUtility::$$c*), "<ValidateCertificateChainUnity>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: <ValidateCertificateChainDotNet>b__7_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::X509CertificateUtility::$$c::*)(System::Security::Cryptography::X509Certificates::X509ChainStatus)>(&GlobalNamespace::X509CertificateUtility::$$c::$ValidateCertificateChainDotNet$b__7_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509ChainStatus")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::X509CertificateUtility::$$c*), "<ValidateCertificateChainDotNet>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }

@@ -172,7 +172,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyMessageHandler::MessageType, "", "P
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PartyMessageHandler::*)()>(&GlobalNamespace::PartyMessageHandler::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -180,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_serverStatusUpdatedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PartyMessageHandler::*)(GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate*)>(&GlobalNamespace::PartyMessageHandler::add_serverStatusUpdatedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "PartyMessageHandler/ServerStatusUpdatedDelegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler*), "add_serverStatusUpdatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -189,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_serverStatusUpdatedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PartyMessageHandler::*)(GlobalNamespace::PartyMessageHandler::ServerStatusUpdatedDelegate*)>(&GlobalNamespace::PartyMessageHandler::remove_serverStatusUpdatedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "PartyMessageHandler/ServerStatusUpdatedDelegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler*), "remove_serverStatusUpdatedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -198,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetServerStatus
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PartyMessageHandler::*)(::Il2CppString*, ::Il2CppString*, GlobalNamespace::DiscoveryPolicy, GlobalNamespace::InvitePolicy, int, GlobalNamespace::GameplayServerConfiguration)>(&GlobalNamespace::PartyMessageHandler::SetServerStatus)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* serverName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* discoveryPolicy = &::il2cpp_utils::GetClassFromName("", "DiscoveryPolicy")->byval_arg;
@@ -212,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleServerStatusUpdate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PartyMessageHandler::*)(GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage*)>(&GlobalNamespace::PartyMessageHandler::HandleServerStatusUpdate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* packet = &::il2cpp_utils::GetClassFromName("", "PartyMessageHandler/ServerStatusUpdateMessage")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler*), "HandleServerStatusUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet});
   }
@@ -221,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_connectToMasterServerEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PartyMessageHandler::*)(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate*)>(&GlobalNamespace::PartyMessageHandler::add_connectToMasterServerEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "PartyMessageHandler/ConnectToMasterServerDelegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler*), "add_connectToMasterServerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -230,7 +230,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_connectToMasterServerEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PartyMessageHandler::*)(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerDelegate*)>(&GlobalNamespace::PartyMessageHandler::remove_connectToMasterServerEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "PartyMessageHandler/ConnectToMasterServerDelegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler*), "remove_connectToMasterServerEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -239,7 +239,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ConnectToMasterServer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PartyMessageHandler::*)(System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, GlobalNamespace::DiscoveryPolicy, GlobalNamespace::InvitePolicy, int, GlobalNamespace::GameplayServerConfiguration)>(&GlobalNamespace::PartyMessageHandler::ConnectToMasterServer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* serverName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -257,7 +257,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleConnectToMasterServer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PartyMessageHandler::*)(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage*)>(&GlobalNamespace::PartyMessageHandler::HandleConnectToMasterServer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* packet = &::il2cpp_utils::GetClassFromName("", "PartyMessageHandler/ConnectToMasterServerMessage")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyMessageHandler*), "HandleConnectToMasterServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet});
   }

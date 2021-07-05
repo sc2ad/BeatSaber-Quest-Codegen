@@ -52,7 +52,7 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithNetSyncSetSessionPropertyRes
 // Il2CppName: GetDataFromMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::NetSyncSetSessionPropertyResult* (Oculus::Platform::MessageWithNetSyncSetSessionPropertyResult::*)(System::IntPtr)>(&Oculus::Platform::MessageWithNetSyncSetSessionPropertyResult::GetDataFromMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c_message = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithNetSyncSetSessionPropertyResult*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c_message});
   }
@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: GetNetSyncSetSessionPropertyResult
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::NetSyncSetSessionPropertyResult* (Oculus::Platform::MessageWithNetSyncSetSessionPropertyResult::*)()>(&Oculus::Platform::MessageWithNetSyncSetSessionPropertyResult::GetNetSyncSetSessionPropertyResult)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithNetSyncSetSessionPropertyResult*), "GetNetSyncSetSessionPropertyResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

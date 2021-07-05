@@ -70,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRTrackedCamera::_GetCameraIntrinsics*, "OV
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRTrackedCameraError (OVR::OpenVR::IVRTrackedCamera::_GetCameraIntrinsics::*)(uint, OVR::OpenVR::EVRTrackedCameraFrameType, OVR::OpenVR::HmdVector2_t&, OVR::OpenVR::HmdVector2_t&)>(&OVR::OpenVR::IVRTrackedCamera::_GetCameraIntrinsics::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* nDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* eFrameType = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRTrackedCameraFrameType")->byval_arg;
     static auto* pFocalLength = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "HmdVector2_t")->this_arg;
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRTrackedCamera::_GetCameraIntrinsics::*)(uint, OVR::OpenVR::EVRTrackedCameraFrameType, OVR::OpenVR::HmdVector2_t&, OVR::OpenVR::HmdVector2_t&, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRTrackedCamera::_GetCameraIntrinsics::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* nDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* eFrameType = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRTrackedCameraFrameType")->byval_arg;
     static auto* pFocalLength = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "HmdVector2_t")->this_arg;
@@ -96,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRTrackedCameraError (OVR::OpenVR::IVRTrackedCamera::_GetCameraIntrinsics::*)(OVR::OpenVR::HmdVector2_t&, OVR::OpenVR::HmdVector2_t&, System::IAsyncResult*)>(&OVR::OpenVR::IVRTrackedCamera::_GetCameraIntrinsics::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pFocalLength = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "HmdVector2_t")->this_arg;
     static auto* pCenter = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "HmdVector2_t")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;

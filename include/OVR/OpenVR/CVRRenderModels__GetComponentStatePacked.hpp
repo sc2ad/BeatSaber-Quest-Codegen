@@ -70,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked*, 
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked::*)(::Il2CppString*, ::Il2CppString*, OVR::OpenVR::VRControllerState_t_Packed&, OVR::OpenVR::RenderModel_ControllerMode_State_t&, OVR::OpenVR::RenderModel_ComponentState_t&)>(&OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchRenderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchComponentName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pControllerState = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRControllerState_t_Packed")->this_arg;
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked::*)(::Il2CppString*, ::Il2CppString*, OVR::OpenVR::VRControllerState_t_Packed&, OVR::OpenVR::RenderModel_ControllerMode_State_t&, OVR::OpenVR::RenderModel_ComponentState_t&, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchRenderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchComponentName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pControllerState = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRControllerState_t_Packed")->this_arg;
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked::*)(OVR::OpenVR::VRControllerState_t_Packed&, OVR::OpenVR::RenderModel_ControllerMode_State_t&, OVR::OpenVR::RenderModel_ComponentState_t&, System::IAsyncResult*)>(&OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pControllerState = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRControllerState_t_Packed")->this_arg;
     static auto* pState = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "RenderModel_ControllerMode_State_t")->this_arg;
     static auto* pComponentState = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "RenderModel_ComponentState_t")->this_arg;

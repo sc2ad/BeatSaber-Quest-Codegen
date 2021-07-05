@@ -43,7 +43,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SetupCoroutine*, "UnityEngine", "SetupCorout
 // Il2CppName: InvokeMoveNext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::IEnumerator*, System::IntPtr)>(&UnityEngine::SetupCoroutine::InvokeMoveNext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enumerator = &::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerator")->byval_arg;
     static auto* returnValueAddress = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SetupCoroutine*), "InvokeMoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumerator, returnValueAddress});
@@ -53,7 +53,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: InvokeMember
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*, ::Il2CppString*, ::Il2CppObject*)>(&UnityEngine::SetupCoroutine::InvokeMember)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* behaviour = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* variable = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

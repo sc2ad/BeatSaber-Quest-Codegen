@@ -54,7 +54,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuickPlaySongPacksDropdown::$$c__Display
 // Il2CppName: <SelectCellWithSerializedName>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::QuickPlaySongPacksDropdown::$$c__DisplayClass13_0::*)(GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem*)>(&GlobalNamespace::QuickPlaySongPacksDropdown::$$c__DisplayClass13_0::$SelectCellWithSerializedName$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* item = &::il2cpp_utils::GetClassFromName("", "QuickPlaySongPacksDropdown/SongPackMaskItem")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlaySongPacksDropdown::$$c__DisplayClass13_0*), "<SelectCellWithSerializedName>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{item});
   }

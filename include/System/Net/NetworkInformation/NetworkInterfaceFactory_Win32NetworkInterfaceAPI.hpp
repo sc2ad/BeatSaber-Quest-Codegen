@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::NetworkInterfaceFactory:
 // Il2CppName: GetAdaptersAddresses
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uint, uint, System::IntPtr, System::IntPtr, int&)>(&System::Net::NetworkInformation::NetworkInterfaceFactory::Win32NetworkInterfaceAPI::GetAdaptersAddresses)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* family = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* flags = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* reserved = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uin
 // Il2CppName: GetAdaptersAddresses
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES>* (*)()>(&System::Net::NetworkInformation::NetworkInterfaceFactory::Win32NetworkInterfaceAPI::GetAdaptersAddresses)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::NetworkInterfaceFactory::Win32NetworkInterfaceAPI*), "GetAdaptersAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Sys
 // Il2CppName: GetAllNetworkInterfaces
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Net::NetworkInformation::NetworkInterface*>* (System::Net::NetworkInformation::NetworkInterfaceFactory::Win32NetworkInterfaceAPI::*)()>(&System::Net::NetworkInformation::NetworkInterfaceFactory::Win32NetworkInterfaceAPI::GetAllNetworkInterfaces)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::NetworkInterfaceFactory::Win32NetworkInterfaceAPI*), "GetAllNetworkInterfaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

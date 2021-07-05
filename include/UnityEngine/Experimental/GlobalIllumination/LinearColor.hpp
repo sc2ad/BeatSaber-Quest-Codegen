@@ -69,7 +69,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::LinearColo
 // Il2CppName: Convert
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Experimental::GlobalIllumination::LinearColor (*)(UnityEngine::Color, float)>(&UnityEngine::Experimental::GlobalIllumination::LinearColor::Convert)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* intensity = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::GlobalIllumination::LinearColor), "Convert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color, intensity});
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Black
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Experimental::GlobalIllumination::LinearColor (*)()>(&UnityEngine::Experimental::GlobalIllumination::LinearColor::Black)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::GlobalIllumination::LinearColor), "Black", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

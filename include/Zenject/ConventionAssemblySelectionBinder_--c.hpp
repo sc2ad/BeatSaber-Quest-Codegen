@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionAssemblySelectionBinder::$$c*, "Zenjec
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Zenject::ConventionAssemblySelectionBinder::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionAssemblySelectionBinder::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <FromAssembliesContaining>b__8_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (Zenject::ConventionAssemblySelectionBinder::$$c::*)(System::Type*)>(&Zenject::ConventionAssemblySelectionBinder::$$c::$FromAssembliesContaining$b__8_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionAssemblySelectionBinder::$$c*), "<FromAssembliesContaining>b__8_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }

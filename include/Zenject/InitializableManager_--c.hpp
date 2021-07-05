@@ -76,7 +76,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::InitializableManager::$$c*, "Zenject", "Initiali
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Zenject::InitializableManager::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::InitializableManager::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <.ctor>b__2_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenject::InitializableManager::$$c::*)(ModestTree::Util::ValuePair_2<System::Type*, int>*)>(&Zenject::InitializableManager::$$c::$_ctor$b__2_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("ModestTree.Util", "ValuePair`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type"), ::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::InitializableManager::$$c*), "<.ctor>b__2_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenjec
 // Il2CppName: <Initialize>b__5_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenject::InitializableManager::$$c::*)(Zenject::InitializableManager::InitializableInfo*)>(&Zenject::InitializableManager::$$c::$Initialize$b__5_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("Zenject", "InitializableManager/InitializableInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::InitializableManager::$$c*), "<Initialize>b__5_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }

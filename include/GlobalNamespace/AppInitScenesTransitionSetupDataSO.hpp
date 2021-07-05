@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppInitScenesTransitionSetupDataSO*, "",
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AppInitScenesTransitionSetupDataSO::*)()>(&GlobalNamespace::AppInitScenesTransitionSetupDataSO::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AppInitScenesTransitionSetupDataSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -71,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: InitAsAppStart
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AppInitScenesTransitionSetupDataSO::*)()>(&GlobalNamespace::AppInitScenesTransitionSetupDataSO::InitAsAppStart)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AppInitScenesTransitionSetupDataSO*), "InitAsAppStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: __Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AppInitScenesTransitionSetupDataSO::*)(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType, GlobalNamespace::MockPlayersModel*)>(&GlobalNamespace::AppInitScenesTransitionSetupDataSO::__Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* appInitOverrideStartType = &::il2cpp_utils::GetClassFromName("", "AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType")->byval_arg;
     static auto* mockPlayersModel = &::il2cpp_utils::GetClassFromName("", "MockPlayersModel")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AppInitScenesTransitionSetupDataSO*), "__Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{appInitOverrideStartType, mockPlayersModel});

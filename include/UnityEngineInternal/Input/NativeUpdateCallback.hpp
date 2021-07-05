@@ -65,7 +65,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::Input::NativeUpdateCallback*, "Unity
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngineInternal::Input::NativeUpdateCallback::*)(UnityEngineInternal::Input::NativeInputUpdateType, UnityEngineInternal::Input::NativeInputEventBuffer*)>(&UnityEngineInternal::Input::NativeUpdateCallback::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* updateType = &::il2cpp_utils::GetClassFromName("UnityEngineInternal.Input", "NativeInputUpdateType")->byval_arg;
     static auto* buffer = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("UnityEngineInternal.Input", "NativeInputEventBuffer"))->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngineInternal::Input::NativeUpdateCallback*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{updateType, buffer});
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (UnityEngineInternal::Input::NativeUpdateCallback::*)(UnityEngineInternal::Input::NativeInputUpdateType, UnityEngineInternal::Input::NativeInputEventBuffer*, System::AsyncCallback*, ::Il2CppObject*)>(&UnityEngineInternal::Input::NativeUpdateCallback::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* updateType = &::il2cpp_utils::GetClassFromName("UnityEngineInternal.Input", "NativeInputUpdateType")->byval_arg;
     static auto* buffer = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("UnityEngineInternal.Input", "NativeInputEventBuffer"))->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngineInternal::Input::NativeUpdateCallback::*)(System::IAsyncResult*)>(&UnityEngineInternal::Input::NativeUpdateCallback::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngineInternal::Input::NativeUpdateCallback*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRExtendedDisplay::_GetDXGIOutputInfo*, "OV
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRExtendedDisplay::_GetDXGIOutputInfo::*)(int&, int&)>(&OVR::OpenVR::IVRExtendedDisplay::_GetDXGIOutputInfo::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pnAdapterIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* pnAdapterOutputIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRExtendedDisplay::_GetDXGIOutputInfo*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pnAdapterIndex, pnAdapterOutputIndex});
@@ -71,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRExtendedDisplay::_GetDXGIOutputInfo::*)(int&, int&, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRExtendedDisplay::_GetDXGIOutputInfo::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pnAdapterIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* pnAdapterOutputIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRExtendedDisplay::_GetDXGIOutputInfo::*)(int&, int&, System::IAsyncResult*)>(&OVR::OpenVR::IVRExtendedDisplay::_GetDXGIOutputInfo::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pnAdapterIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* pnAdapterOutputIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;

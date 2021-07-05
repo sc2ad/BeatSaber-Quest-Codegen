@@ -141,7 +141,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRExtensions*, "", "OVRExtensions");
 // Il2CppName: ToTrackingSpacePose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPose (*)(UnityEngine::Transform*, UnityEngine::Camera*)>(&GlobalNamespace::OVRExtensions::ToTrackingSpacePose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* camera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExtensions*), "ToTrackingSpacePose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transform, camera});
@@ -151,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ToWorldSpacePose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPose (*)(GlobalNamespace::OVRPose)>(&GlobalNamespace::OVRExtensions::ToWorldSpacePose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* trackingSpacePose = &::il2cpp_utils::GetClassFromName("", "OVRPose")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExtensions*), "ToWorldSpacePose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{trackingSpacePose});
   }
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ToHeadSpacePose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPose (*)(UnityEngine::Transform*, UnityEngine::Camera*)>(&GlobalNamespace::OVRExtensions::ToHeadSpacePose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* camera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExtensions*), "ToHeadSpacePose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transform, camera});
@@ -170,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ToOVRPose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPose (*)(UnityEngine::Transform*, bool)>(&GlobalNamespace::OVRExtensions::ToOVRPose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* isLocal = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExtensions*), "ToOVRPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t, isLocal});
@@ -180,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: FromOVRPose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*, GlobalNamespace::OVRPose, bool)>(&GlobalNamespace::OVRExtensions::FromOVRPose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* pose = &::il2cpp_utils::GetClassFromName("", "OVRPose")->byval_arg;
     static auto* isLocal = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -191,7 +191,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: ToOVRPose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPose (*)(GlobalNamespace::OVRPlugin::Posef)>(&GlobalNamespace::OVRExtensions::ToOVRPose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Posef")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExtensions*), "ToOVRPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p});
   }
@@ -200,7 +200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ToFrustum
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRTracker::Frustum (*)(GlobalNamespace::OVRPlugin::Frustumf)>(&GlobalNamespace::OVRExtensions::ToFrustum)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* f = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Frustumf")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExtensions*), "ToFrustum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{f});
   }
@@ -209,7 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: FromColorf
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (*)(GlobalNamespace::OVRPlugin::Colorf)>(&GlobalNamespace::OVRExtensions::FromColorf)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Colorf")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExtensions*), "FromColorf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
@@ -218,7 +218,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: ToColorf
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Colorf (*)(UnityEngine::Color)>(&GlobalNamespace::OVRExtensions::ToColorf)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExtensions*), "ToColorf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
@@ -227,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: FromVector3f
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(GlobalNamespace::OVRPlugin::Vector3f)>(&GlobalNamespace::OVRExtensions::FromVector3f)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* v = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Vector3f")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExtensions*), "FromVector3f", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});
   }
@@ -236,7 +236,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: FromFlippedXVector3f
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(GlobalNamespace::OVRPlugin::Vector3f)>(&GlobalNamespace::OVRExtensions::FromFlippedXVector3f)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* v = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Vector3f")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExtensions*), "FromFlippedXVector3f", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});
   }
@@ -245,7 +245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: FromFlippedZVector3f
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(GlobalNamespace::OVRPlugin::Vector3f)>(&GlobalNamespace::OVRExtensions::FromFlippedZVector3f)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* v = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Vector3f")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExtensions*), "FromFlippedZVector3f", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});
   }
@@ -254,7 +254,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: ToVector3f
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Vector3f (*)(UnityEngine::Vector3)>(&GlobalNamespace::OVRExtensions::ToVector3f)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* v = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExtensions*), "ToVector3f", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});
   }
@@ -263,7 +263,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ToFlippedXVector3f
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Vector3f (*)(UnityEngine::Vector3)>(&GlobalNamespace::OVRExtensions::ToFlippedXVector3f)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* v = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExtensions*), "ToFlippedXVector3f", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});
   }
@@ -272,7 +272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ToFlippedZVector3f
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Vector3f (*)(UnityEngine::Vector3)>(&GlobalNamespace::OVRExtensions::ToFlippedZVector3f)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* v = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExtensions*), "ToFlippedZVector3f", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});
   }
@@ -281,7 +281,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: FromVector4f
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector4 (*)(GlobalNamespace::OVRPlugin::Vector4f)>(&GlobalNamespace::OVRExtensions::FromVector4f)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* v = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Vector4f")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExtensions*), "FromVector4f", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});
   }
@@ -290,7 +290,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: ToVector4f
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Vector4f (*)(UnityEngine::Vector4)>(&GlobalNamespace::OVRExtensions::ToVector4f)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* v = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExtensions*), "ToVector4f", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});
   }
@@ -299,7 +299,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: FromQuatf
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(GlobalNamespace::OVRPlugin::Quatf)>(&GlobalNamespace::OVRExtensions::FromQuatf)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* q = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Quatf")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExtensions*), "FromQuatf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{q});
   }
@@ -308,7 +308,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: FromFlippedXQuatf
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(GlobalNamespace::OVRPlugin::Quatf)>(&GlobalNamespace::OVRExtensions::FromFlippedXQuatf)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* q = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Quatf")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExtensions*), "FromFlippedXQuatf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{q});
   }
@@ -317,7 +317,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: FromFlippedZQuatf
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(GlobalNamespace::OVRPlugin::Quatf)>(&GlobalNamespace::OVRExtensions::FromFlippedZQuatf)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* q = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Quatf")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExtensions*), "FromFlippedZQuatf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{q});
   }
@@ -326,7 +326,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: ToQuatf
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Quatf (*)(UnityEngine::Quaternion)>(&GlobalNamespace::OVRExtensions::ToQuatf)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* q = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExtensions*), "ToQuatf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{q});
   }
@@ -335,7 +335,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ToFlippedXQuatf
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Quatf (*)(UnityEngine::Quaternion)>(&GlobalNamespace::OVRExtensions::ToFlippedXQuatf)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* q = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExtensions*), "ToFlippedXQuatf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{q});
   }
@@ -344,7 +344,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ToFlippedZQuatf
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Quatf (*)(UnityEngine::Quaternion)>(&GlobalNamespace::OVRExtensions::ToFlippedZQuatf)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* q = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExtensions*), "ToFlippedZQuatf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{q});
   }
@@ -353,7 +353,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ConvertToHMDMatrix34
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::HmdMatrix34_t (*)(UnityEngine::Matrix4x4)>(&GlobalNamespace::OVRExtensions::ConvertToHMDMatrix34)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* m = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExtensions*), "ConvertToHMDMatrix34", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{m});
   }
@@ -362,7 +362,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: FindChildRecursive
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(UnityEngine::Transform*, ::Il2CppString*)>(&GlobalNamespace::OVRExtensions::FindChildRecursive)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* parent = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExtensions*), "FindChildRecursive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parent, name});
@@ -372,7 +372,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Equals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Gradient*, UnityEngine::Gradient*)>(&GlobalNamespace::OVRExtensions::Equals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gradient = &::il2cpp_utils::GetClassFromName("UnityEngine", "Gradient")->byval_arg;
     static auto* otherGradient = &::il2cpp_utils::GetClassFromName("UnityEngine", "Gradient")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExtensions*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gradient, otherGradient});
@@ -382,7 +382,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: CopyFrom
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Gradient*, UnityEngine::Gradient*)>(&GlobalNamespace::OVRExtensions::CopyFrom)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gradient = &::il2cpp_utils::GetClassFromName("UnityEngine", "Gradient")->byval_arg;
     static auto* otherGradient = &::il2cpp_utils::GetClassFromName("UnityEngine", "Gradient")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRExtensions*), "CopyFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gradient, otherGradient});

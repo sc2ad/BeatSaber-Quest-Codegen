@@ -70,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ScriptableObject*, "UnityEngine", "Scriptabl
 // Il2CppName: CreateInstance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ScriptableObject* (*)(System::Type*)>(&UnityEngine::ScriptableObject::CreateInstance)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ScriptableObject*), "CreateInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: CreateScriptableObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ScriptableObject*)>(&UnityEngine::ScriptableObject::CreateScriptableObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* self = &::il2cpp_utils::GetClassFromName("UnityEngine", "ScriptableObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ScriptableObject*), "CreateScriptableObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{self});
   }
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: CreateScriptableObjectInstanceFromType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ScriptableObject* (*)(System::Type*, bool)>(&UnityEngine::ScriptableObject::CreateScriptableObjectInstanceFromType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* applyDefaultsAndReset = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ScriptableObject*), "CreateScriptableObjectInstanceFromType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, applyDefaultsAndReset});

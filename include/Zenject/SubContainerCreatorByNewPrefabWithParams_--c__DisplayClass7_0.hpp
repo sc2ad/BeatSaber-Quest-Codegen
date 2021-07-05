@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__D
 // Il2CppName: <CreateTempContainer>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0::*)(Zenject::InjectableInfo*)>(&Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0::$CreateTempContainer$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("Zenject", "InjectableInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0*), "<CreateTempContainer>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
 // Il2CppName: <CreateTempContainer>b__1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0::*)(Zenject::InjectableInfo*)>(&Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0::$CreateTempContainer$b__1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("Zenject", "InjectableInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0*), "<CreateTempContainer>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }

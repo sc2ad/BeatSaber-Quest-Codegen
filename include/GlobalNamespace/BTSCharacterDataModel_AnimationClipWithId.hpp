@@ -67,7 +67,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterDataModel::AnimationClipWith
 // Il2CppName: get_id
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId::*)()>(&GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId::get_id)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*), "get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: get_animationClipAssetReference
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AddressableAssets::AssetReference* (GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId::*)()>(&GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId::get_animationClipAssetReference)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*), "get_animationClipAssetReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

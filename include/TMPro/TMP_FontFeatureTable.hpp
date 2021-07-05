@@ -77,7 +77,7 @@ DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontFeatureTable*, "TMPro", "TMP_FontFeatureTa
 // Il2CppName: get_glyphPairAdjustmentRecords
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<TMPro::TMP_GlyphPairAdjustmentRecord*>* (TMPro::TMP_FontFeatureTable::*)()>(&TMPro::TMP_FontFeatureTable::get_glyphPairAdjustmentRecords)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontFeatureTable*), "get_glyphPairAdjustmentRecords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: set_glyphPairAdjustmentRecords
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontFeatureTable::*)(System::Collections::Generic::List_1<TMPro::TMP_GlyphPairAdjustmentRecord*>*)>(&TMPro::TMP_FontFeatureTable::set_glyphPairAdjustmentRecords)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("TMPro", "TMP_GlyphPairAdjustmentRecord")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontFeatureTable*), "set_glyphPairAdjustmentRecords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Il2CppName: SortGlyphPairAdjustmentRecords
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontFeatureTable::*)()>(&TMPro::TMP_FontFeatureTable::SortGlyphPairAdjustmentRecords)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontFeatureTable*), "SortGlyphPairAdjustmentRecords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

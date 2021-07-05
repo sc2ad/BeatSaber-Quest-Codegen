@@ -107,7 +107,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::MarshalAsAttribute*, "S
 // Il2CppName: Copy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::InteropServices::MarshalAsAttribute* (System::Runtime::InteropServices::MarshalAsAttribute::*)()>(&System::Runtime::InteropServices::MarshalAsAttribute::Copy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::MarshalAsAttribute*), "Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

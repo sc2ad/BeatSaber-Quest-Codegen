@@ -78,7 +78,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsEnvironmentManager*, "", "Results
 // Il2CppName: GetResultEnvironmentControllerForKeyword
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BaseResultsEnvironmentController* (GlobalNamespace::ResultsEnvironmentManager::*)(::Il2CppString*)>(&GlobalNamespace::ResultsEnvironmentManager::GetResultEnvironmentControllerForKeyword)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* keyword = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsEnvironmentManager*), "GetResultEnvironmentControllerForKeyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keyword});
   }
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ShowResultForKeyword
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultsEnvironmentManager::*)(::Il2CppString*, bool)>(&GlobalNamespace::ResultsEnvironmentManager::ShowResultForKeyword)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* keyword = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* immediately = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsEnvironmentManager*), "ShowResultForKeyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keyword, immediately});
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HideResultForKeyword
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultsEnvironmentManager::*)(::Il2CppString*, bool)>(&GlobalNamespace::ResultsEnvironmentManager::HideResultForKeyword)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* keyword = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* immediately = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsEnvironmentManager*), "HideResultForKeyword", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keyword, immediately});

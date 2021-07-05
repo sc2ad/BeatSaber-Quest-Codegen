@@ -87,7 +87,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerUnavailableReasonMethods*, ""
 // Il2CppName: LocalizedKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::MultiplayerUnavailableReason)>(&GlobalNamespace::MultiplayerUnavailableReasonMethods::LocalizedKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* multiplayerUnavailableReason = &::il2cpp_utils::GetClassFromName("", "MultiplayerUnavailableReason")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerUnavailableReasonMethods*), "LocalizedKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multiplayerUnavailableReason});
   }
@@ -96,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: ErrorCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::MultiplayerUnavailableReason)>(&GlobalNamespace::MultiplayerUnavailableReasonMethods::ErrorCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* multiplayerUnavailableReason = &::il2cpp_utils::GetClassFromName("", "MultiplayerUnavailableReason")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerUnavailableReasonMethods*), "ErrorCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multiplayerUnavailableReason});
   }
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: TryGetMultiplayerUnavailableReason
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::MasterServerAvailabilityData*, GlobalNamespace::MultiplayerUnavailableReason&)>(&GlobalNamespace::MultiplayerUnavailableReasonMethods::TryGetMultiplayerUnavailableReason)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("", "MasterServerAvailabilityData")->byval_arg;
     static auto* reason = &::il2cpp_utils::GetClassFromName("", "MultiplayerUnavailableReason")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerUnavailableReasonMethods*), "TryGetMultiplayerUnavailableReason", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, reason});
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Il2CppName: GetLocalizedMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::MasterServerAvailabilityData*, Polyglot::Language)>(&GlobalNamespace::MultiplayerUnavailableReasonMethods::GetLocalizedMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("", "MasterServerAvailabilityData")->byval_arg;
     static auto* language = &::il2cpp_utils::GetClassFromName("Polyglot", "Language")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerUnavailableReasonMethods*), "GetLocalizedMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, language});
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: VersionLessThan
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::MultiplayerUnavailableReasonMethods::VersionLessThan)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* currentVersion = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* minVersion = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerUnavailableReasonMethods*), "VersionLessThan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{currentVersion, minVersion});

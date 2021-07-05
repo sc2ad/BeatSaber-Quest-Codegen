@@ -70,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::GraphicsFormatUtili
 // Il2CppName: GetGraphicsFormat
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Experimental::Rendering::GraphicsFormat (*)(UnityEngine::TextureFormat, bool)>(&UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetGraphicsFormat)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextureFormat")->byval_arg;
     static auto* isSRGB = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::Rendering::GraphicsFormatUtility*), "GetGraphicsFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format, isSRGB});
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetGraphicsFormat_Native_TextureFormat
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Experimental::Rendering::GraphicsFormat (*)(UnityEngine::TextureFormat, bool)>(&UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetGraphicsFormat_Native_TextureFormat)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextureFormat")->byval_arg;
     static auto* isSRGB = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::Rendering::GraphicsFormatUtility*), "GetGraphicsFormat_Native_TextureFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format, isSRGB});
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetGraphicsFormat
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Experimental::Rendering::GraphicsFormat (*)(UnityEngine::RenderTextureFormat, bool)>(&UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetGraphicsFormat)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTextureFormat")->byval_arg;
     static auto* isSRGB = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::Rendering::GraphicsFormatUtility*), "GetGraphicsFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format, isSRGB});
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetGraphicsFormat_Native_RenderTextureFormat
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Experimental::Rendering::GraphicsFormat (*)(UnityEngine::RenderTextureFormat, bool)>(&UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetGraphicsFormat_Native_RenderTextureFormat)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTextureFormat")->byval_arg;
     static auto* isSRGB = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::Rendering::GraphicsFormatUtility*), "GetGraphicsFormat_Native_RenderTextureFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format, isSRGB});
@@ -110,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetGraphicsFormat
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Experimental::Rendering::GraphicsFormat (*)(UnityEngine::RenderTextureFormat, UnityEngine::RenderTextureReadWrite)>(&UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetGraphicsFormat)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTextureFormat")->byval_arg;
     static auto* readWrite = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTextureReadWrite")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::Rendering::GraphicsFormatUtility*), "GetGraphicsFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format, readWrite});
@@ -120,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: IsSRGBFormat
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Experimental::Rendering::GraphicsFormat)>(&UnityEngine::Experimental::Rendering::GraphicsFormatUtility::IsSRGBFormat)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.Rendering", "GraphicsFormat")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::Rendering::GraphicsFormatUtility*), "IsSRGBFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format});
   }
@@ -129,7 +129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: GetRenderTextureFormat
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTextureFormat (*)(UnityEngine::Experimental::Rendering::GraphicsFormat)>(&UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetRenderTextureFormat)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.Rendering", "GraphicsFormat")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::Rendering::GraphicsFormatUtility*), "GetRenderTextureFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format});
   }
@@ -138,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: IsCompressedTextureFormat
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::TextureFormat)>(&UnityEngine::Experimental::Rendering::GraphicsFormatUtility::IsCompressedTextureFormat)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextureFormat")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::Rendering::GraphicsFormatUtility*), "IsCompressedTextureFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format});
   }
@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: IsCrunchFormat
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::TextureFormat)>(&UnityEngine::Experimental::Rendering::GraphicsFormatUtility::IsCrunchFormat)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextureFormat")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::Rendering::GraphicsFormatUtility*), "IsCrunchFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format});
   }

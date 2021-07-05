@@ -44,7 +44,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::IChannelSender*, "Sy
 // Il2CppName: CreateMessageSink
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (System::Runtime::Remoting::Channels::IChannelSender::*)(::Il2CppString*, ::Il2CppObject*, ::Il2CppString*&)>(&System::Runtime::Remoting::Channels::IChannelSender::CreateMessageSink)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* remoteChannelData = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* objectURI = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;

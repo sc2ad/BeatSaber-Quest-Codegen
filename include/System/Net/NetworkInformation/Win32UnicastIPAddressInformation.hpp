@@ -78,7 +78,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32UnicastIPAddressInf
 // Il2CppName: PrefixLengthToSubnetMask
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPAddress* (*)(uint8_t, System::Net::Sockets::AddressFamily)>(&System::Net::NetworkInformation::Win32UnicastIPAddressInformation::PrefixLengthToSubnetMask)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prefixLength = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     static auto* family = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "AddressFamily")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::Win32UnicastIPAddressInformation*), "PrefixLengthToSubnetMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prefixLength, family});
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: get_Address
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPAddress* (System::Net::NetworkInformation::Win32UnicastIPAddressInformation::*)()>(&System::Net::NetworkInformation::Win32UnicastIPAddressInformation::get_Address)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::Win32UnicastIPAddressInformation*), "get_Address", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

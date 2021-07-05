@@ -38,7 +38,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PropertyNameUtils*, "UnityEngine", "Property
 // Il2CppName: PropertyNameFromString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::PropertyName (*)(::Il2CppString*)>(&UnityEngine::PropertyNameUtils::PropertyNameFromString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::PropertyNameUtils*), "PropertyNameFromString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
   }
@@ -47,7 +47,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: PropertyNameFromString_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::PropertyName&)>(&UnityEngine::PropertyNameUtils::PropertyNameFromString_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "PropertyName")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::PropertyNameUtils*), "PropertyNameFromString_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, ret});

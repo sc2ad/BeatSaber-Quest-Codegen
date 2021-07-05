@@ -72,7 +72,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_GetOverlayTexture*, "OVR.OpenVR
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::IVROverlay::_GetOverlayTexture::*)(uint64_t, System::IntPtr&, System::IntPtr, uint&, uint&, uint&, OVR::OpenVR::ETextureType&, OVR::OpenVR::EColorSpace&, OVR::OpenVR::VRTextureBounds_t&)>(&OVR::OpenVR::IVROverlay::_GetOverlayTexture::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pNativeTextureHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
     static auto* pNativeTextureRef = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVROverlay::_GetOverlayTexture::*)(uint64_t, System::IntPtr&, System::IntPtr, uint&, uint&, uint&, OVR::OpenVR::ETextureType&, OVR::OpenVR::EColorSpace&, OVR::OpenVR::VRTextureBounds_t&, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVROverlay::_GetOverlayTexture::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pNativeTextureHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
     static auto* pNativeTextureRef = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::IVROverlay::_GetOverlayTexture::*)(System::IntPtr&, uint&, uint&, uint&, OVR::OpenVR::ETextureType&, OVR::OpenVR::EColorSpace&, OVR::OpenVR::VRTextureBounds_t&, System::IAsyncResult*)>(&OVR::OpenVR::IVROverlay::_GetOverlayTexture::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pNativeTextureHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
     static auto* pWidth = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
     static auto* pHeight = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;

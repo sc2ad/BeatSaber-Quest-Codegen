@@ -45,7 +45,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::StackTraceFilter*, "UnityE
 // Il2CppName: Filter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&UnityEngine::TestTools::Utils::StackTraceFilter::Filter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* inputStackTrace = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Utils::StackTraceFilter*), "Filter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inputStackTrace});
   }
@@ -54,7 +54,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::TestTools::Utils::StackTraceFilter::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Utils::StackTraceFilter*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

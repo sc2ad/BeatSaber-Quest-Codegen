@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(Assets::OVR::Scripts::FixMethodDelegate*, "Assets.OVR.Scr
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Assets::OVR::Scripts::FixMethodDelegate::*)(UnityEngine::Object*, bool, int)>(&Assets::OVR::Scripts::FixMethodDelegate::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* isLastInSet = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* selectedIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Asset
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Assets::OVR::Scripts::FixMethodDelegate::*)(UnityEngine::Object*, bool, int, System::AsyncCallback*, ::Il2CppObject*)>(&Assets::OVR::Scripts::FixMethodDelegate::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* isLastInSet = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* selectedIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Assets::OVR::Scripts::FixMethodDelegate::*)(System::IAsyncResult*)>(&Assets::OVR::Scripts::FixMethodDelegate::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Assets::OVR::Scripts::FixMethodDelegate*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

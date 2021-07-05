@@ -26,7 +26,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::IGuiRenderable*, "Zenject", "IGuiRenderable");
 // Il2CppName: GuiRender
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::IGuiRenderable::*)()>(&Zenject::IGuiRenderable::GuiRender)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::IGuiRenderable*), "GuiRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

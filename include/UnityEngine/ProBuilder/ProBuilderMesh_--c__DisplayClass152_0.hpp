@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClas
 // Il2CppName: <UnusedElementGroup>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass152_0::*)(UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass152_0::$UnusedElementGroup$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* element = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass152_0*), "<UnusedElementGroup>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{element});
   }

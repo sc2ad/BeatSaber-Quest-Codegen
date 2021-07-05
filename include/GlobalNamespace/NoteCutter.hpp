@@ -83,7 +83,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutter*, "", "NoteCutter");
 // Il2CppName: Cut
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteCutter::*)(GlobalNamespace::Saber*)>(&GlobalNamespace::NoteCutter::Cut)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* saber = &::il2cpp_utils::GetClassFromName("", "Saber")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutter*), "Cut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{saber});
   }

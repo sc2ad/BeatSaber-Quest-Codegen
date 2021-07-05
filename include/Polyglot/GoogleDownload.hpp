@@ -50,7 +50,7 @@ DEFINE_IL2CPP_ARG_TYPE(Polyglot::GoogleDownload*, "Polyglot", "GoogleDownload");
 // Il2CppName: DownloadSheet
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (*)(::Il2CppString*, ::Il2CppString*, System::Action_1<::Il2CppString*>*, Polyglot::GoogleDriveDownloadFormat, System::Func_2<float, bool>*)>(&Polyglot::GoogleDownload::DownloadSheet)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* docsId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* sheetId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* done = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;

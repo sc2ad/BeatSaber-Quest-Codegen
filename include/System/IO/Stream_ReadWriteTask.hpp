@@ -119,7 +119,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::ReadWriteTask*, "System.IO", "Stream/
 // Il2CppName: ClearBeginState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Stream::ReadWriteTask::*)()>(&System::IO::Stream::ReadWriteTask::ClearBeginState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::Stream::ReadWriteTask*), "ClearBeginState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: InvokeAsyncCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&System::IO::Stream::ReadWriteTask::InvokeAsyncCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* completedTask = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Stream::ReadWriteTask*), "InvokeAsyncCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{completedTask});
   }
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: System.Threading.Tasks.ITaskCompletionAction.Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Stream::ReadWriteTask::*)(System::Threading::Tasks::Task*)>(&System::IO::Stream::ReadWriteTask::System_Threading_Tasks_ITaskCompletionAction_Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* completingTask = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Stream::ReadWriteTask*), "System.Threading.Tasks.ITaskCompletionAction.Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{completingTask});
   }

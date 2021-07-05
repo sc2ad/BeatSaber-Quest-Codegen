@@ -155,7 +155,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionMapAnimationController*, "", "Mis
 // Il2CppName: get_animatedUpdateIsRequired
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MissionMapAnimationController::*)()>(&GlobalNamespace::MissionMapAnimationController::get_animatedUpdateIsRequired)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionMapAnimationController*), "get_animatedUpdateIsRequired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: ScrollToTopMostNotClearedMission
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionMapAnimationController::*)()>(&GlobalNamespace::MissionMapAnimationController::ScrollToTopMostNotClearedMission)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionMapAnimationController*), "ScrollToTopMostNotClearedMission", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -171,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: UpdateMissionMapAfterMissionWasCleared
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionMapAnimationController::*)(bool, System::Action*)>(&GlobalNamespace::MissionMapAnimationController::UpdateMissionMapAfterMissionWasCleared)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* animated = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* finishCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionMapAnimationController*), "UpdateMissionMapAfterMissionWasCleared", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{animated, finishCallback});
@@ -181,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: UpdateMissionMapCoroutine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::MissionMapAnimationController::*)(GlobalNamespace::MissionNode*, System::Action*)>(&GlobalNamespace::MissionMapAnimationController::UpdateMissionMapCoroutine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lastClearedMissionNode = &::il2cpp_utils::GetClassFromName("", "MissionNode")->byval_arg;
     static auto* finishCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionMapAnimationController*), "UpdateMissionMapCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lastClearedMissionNode, finishCallback});
@@ -191,7 +191,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: UpdateClearedNodeStateCoroutine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::MissionMapAnimationController::*)(GlobalNamespace::MissionNode*)>(&GlobalNamespace::MissionMapAnimationController::UpdateClearedNodeStateCoroutine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lastClearedMissionNode = &::il2cpp_utils::GetClassFromName("", "MissionNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionMapAnimationController*), "UpdateClearedNodeStateCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lastClearedMissionNode});
   }
@@ -200,7 +200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: UpdateStageCoroutine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::MissionMapAnimationController::*)()>(&GlobalNamespace::MissionMapAnimationController::UpdateStageCoroutine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionMapAnimationController*), "UpdateStageCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -208,7 +208,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: UpdateNodesAndConnectionCoroutine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::MissionMapAnimationController::*)()>(&GlobalNamespace::MissionMapAnimationController::UpdateNodesAndConnectionCoroutine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionMapAnimationController*), "UpdateNodesAndConnectionCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

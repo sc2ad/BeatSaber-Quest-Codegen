@@ -70,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRSystem::_GetControllerStateWithPosePacked*,
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRSystem::_GetControllerStateWithPosePacked::*)(Valve::VR::ETrackingUniverseOrigin, uint, Valve::VR::VRControllerState_t_Packed&, uint, Valve::VR::TrackedDevicePose_t&)>(&Valve::VR::CVRSystem::_GetControllerStateWithPosePacked::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eOrigin = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackingUniverseOrigin")->byval_arg;
     static auto* unControllerDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* pControllerState = &::il2cpp_utils::GetClassFromName("Valve.VR", "VRControllerState_t_Packed")->this_arg;
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::CVRSystem::_GetControllerStateWithPosePacked::*)(Valve::VR::ETrackingUniverseOrigin, uint, Valve::VR::VRControllerState_t_Packed&, uint, Valve::VR::TrackedDevicePose_t&, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::CVRSystem::_GetControllerStateWithPosePacked::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eOrigin = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackingUniverseOrigin")->byval_arg;
     static auto* unControllerDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* pControllerState = &::il2cpp_utils::GetClassFromName("Valve.VR", "VRControllerState_t_Packed")->this_arg;
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRSystem::_GetControllerStateWithPosePacked::*)(Valve::VR::VRControllerState_t_Packed&, Valve::VR::TrackedDevicePose_t&, System::IAsyncResult*)>(&Valve::VR::CVRSystem::_GetControllerStateWithPosePacked::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pControllerState = &::il2cpp_utils::GetClassFromName("Valve.VR", "VRControllerState_t_Packed")->this_arg;
     static auto* pTrackedDevicePose = &::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;

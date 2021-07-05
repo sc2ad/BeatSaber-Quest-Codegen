@@ -96,7 +96,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKey
 // Il2CppName: get_pos
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe::*)()>(&GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe::get_pos)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*), "get_pos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_rot
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe::*)()>(&GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe::get_rot)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*), "get_rot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

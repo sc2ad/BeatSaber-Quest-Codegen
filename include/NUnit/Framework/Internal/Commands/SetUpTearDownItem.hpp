@@ -91,7 +91,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::SetUpTearDownItem*,
 // Il2CppName: get_HasMethods
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Internal::Commands::SetUpTearDownItem::*)()>(&NUnit::Framework::Internal::Commands::SetUpTearDownItem::get_HasMethods)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::SetUpTearDownItem*), "get_HasMethods", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit
 // Il2CppName: RunSetUp
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Commands::SetUpTearDownItem::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&NUnit::Framework::Internal::Commands::SetUpTearDownItem::RunSetUp)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "ITestExecutionContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::SetUpTearDownItem*), "RunSetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Il2CppName: RunTearDown
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Commands::SetUpTearDownItem::*)(NUnit::Framework::Internal::ITestExecutionContext*)>(&NUnit::Framework::Internal::Commands::SetUpTearDownItem::RunTearDown)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "ITestExecutionContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::SetUpTearDownItem*), "RunTearDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Il2CppName: RunSetUpOrTearDownMethod
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Commands::SetUpTearDownItem::*)(NUnit::Framework::Internal::ITestExecutionContext*, System::Reflection::MethodInfo*)>(&NUnit::Framework::Internal::Commands::SetUpTearDownItem::RunSetUpOrTearDownMethod)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "ITestExecutionContext")->byval_arg;
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::SetUpTearDownItem*), "RunSetUpOrTearDownMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context, method});
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Il2CppName: RunNonAsyncMethod
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (NUnit::Framework::Internal::Commands::SetUpTearDownItem::*)(System::Reflection::MethodInfo*, NUnit::Framework::Internal::ITestExecutionContext*)>(&NUnit::Framework::Internal::Commands::SetUpTearDownItem::RunNonAsyncMethod)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "ITestExecutionContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::SetUpTearDownItem*), "RunNonAsyncMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method, context});

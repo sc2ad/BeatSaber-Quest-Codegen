@@ -76,7 +76,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::XYZColor*, "UnityEngine.ProBuild
 // Il2CppName: FromRGB
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::XYZColor* (*)(UnityEngine::Color)>(&UnityEngine::ProBuilder::XYZColor::FromRGB)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* col = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::XYZColor*), "FromRGB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{col});
   }
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: FromRGB
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::XYZColor* (*)(float, float, float)>(&UnityEngine::ProBuilder::XYZColor::FromRGB)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* R = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* G = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* B = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -96,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: ToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ProBuilder::XYZColor::*)()>(&UnityEngine::ProBuilder::XYZColor::ToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::XYZColor*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

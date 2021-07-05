@@ -51,7 +51,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::IPInterfaceProperties*, 
 // Il2CppName: get_UnicastAddresses
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::UnicastIPAddressInformationCollection* (System::Net::NetworkInformation::IPInterfaceProperties::*)()>(&System::Net::NetworkInformation::IPInterfaceProperties::get_UnicastAddresses)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::IPInterfaceProperties*), "get_UnicastAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -59,7 +59,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: get_GatewayAddresses
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::GatewayIPAddressInformationCollection* (System::Net::NetworkInformation::IPInterfaceProperties::*)()>(&System::Net::NetworkInformation::IPInterfaceProperties::get_GatewayAddresses)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::IPInterfaceProperties*), "get_GatewayAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

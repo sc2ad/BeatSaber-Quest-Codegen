@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::DefaultGameObjectParentInstaller::DefaultParentO
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::*)()>(&Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

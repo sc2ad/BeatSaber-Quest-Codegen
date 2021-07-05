@@ -42,7 +42,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Clipping*, "UnityEngine.ProBuild
 // Il2CppName: ComputeOutCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Clipping::OutCode (*)(UnityEngine::Rect, float, float)>(&UnityEngine::ProBuilder::Clipping::ComputeOutCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -53,7 +53,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: RectContainsLineSegment
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Rect, float, float, float, float)>(&UnityEngine::ProBuilder::Clipping::RectContainsLineSegment)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
     static auto* x0 = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* y0 = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

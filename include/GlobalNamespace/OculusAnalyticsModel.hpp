@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusAnalyticsModel*, "", "OculusAnalyt
 // Il2CppName: get_supportsOpenDataPrivacyPage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OculusAnalyticsModel::*)()>(&GlobalNamespace::OculusAnalyticsModel::get_supportsOpenDataPrivacyPage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusAnalyticsModel*), "get_supportsOpenDataPrivacyPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: OpenDataPrivacyPage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusAnalyticsModel::*)()>(&GlobalNamespace::OculusAnalyticsModel::OpenDataPrivacyPage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusAnalyticsModel*), "OpenDataPrivacyPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: LogEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&GlobalNamespace::OculusAnalyticsModel::LogEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eventType = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* eventData = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Dictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusAnalyticsModel*), "LogEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eventType, eventData});
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: LogClick
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&GlobalNamespace::OculusAnalyticsModel::LogClick)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* clickType = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* clickData = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Dictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusAnalyticsModel*), "LogClick", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clickType, clickData});
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: LogImpression
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&GlobalNamespace::OculusAnalyticsModel::LogImpression)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* impressionType = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* impressionData = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Dictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusAnalyticsModel*), "LogImpression", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{impressionType, impressionData});
@@ -114,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: LogExposure
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusAnalyticsModel::*)(::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&GlobalNamespace::OculusAnalyticsModel::LogExposure)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* exposureType = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* exposureData = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Dictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusAnalyticsModel*), "LogExposure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{exposureType, exposureData});

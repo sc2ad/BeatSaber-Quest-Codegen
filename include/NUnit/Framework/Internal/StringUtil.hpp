@@ -30,7 +30,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::StringUtil*, "NUnit.Framework
 // Il2CppName: Compare
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, ::Il2CppString*, bool)>(&NUnit::Framework::Internal::StringUtil::Compare)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* strA = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* strB = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ignoreCase = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -41,7 +41,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Il2CppName: StringsEqual
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*, bool)>(&NUnit::Framework::Internal::StringUtil::StringsEqual)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* strA = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* strB = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ignoreCase = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

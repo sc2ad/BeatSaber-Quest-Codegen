@@ -52,7 +52,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RuntimeAnimatorController*, "UnityEngine", "
 // Il2CppName: get_animationClips
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::AnimationClip*>* (UnityEngine::RuntimeAnimatorController::*)()>(&UnityEngine::RuntimeAnimatorController::get_animationClips)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RuntimeAnimatorController*), "get_animationClips", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

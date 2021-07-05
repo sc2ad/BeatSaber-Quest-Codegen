@@ -43,7 +43,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Services::ITrackingHandler*, "
 // Il2CppName: DisconnectedObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Services::ITrackingHandler::*)(::Il2CppObject*)>(&System::Runtime::Remoting::Services::ITrackingHandler::DisconnectedObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Services::ITrackingHandler*), "DisconnectedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
@@ -52,7 +52,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: MarshaledObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Services::ITrackingHandler::*)(::Il2CppObject*, System::Runtime::Remoting::ObjRef*)>(&System::Runtime::Remoting::Services::ITrackingHandler::MarshaledObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* _or = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ObjRef")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Services::ITrackingHandler*), "MarshaledObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, _or});
@@ -62,7 +62,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: UnmarshaledObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Services::ITrackingHandler::*)(::Il2CppObject*, System::Runtime::Remoting::ObjRef*)>(&System::Runtime::Remoting::Services::ITrackingHandler::UnmarshaledObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* _or = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ObjRef")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Services::ITrackingHandler*), "UnmarshaledObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, _or});

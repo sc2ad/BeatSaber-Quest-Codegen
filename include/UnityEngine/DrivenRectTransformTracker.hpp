@@ -47,7 +47,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DrivenRectTransformTracker, "UnityEngine", "
 // Il2CppName: Add
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::DrivenRectTransformTracker::*)(UnityEngine::Object*, UnityEngine::RectTransform*, UnityEngine::DrivenTransformProperties)>(&UnityEngine::DrivenRectTransformTracker::Add)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* driver = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* rectTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
     static auto* drivenProperties = &::il2cpp_utils::GetClassFromName("UnityEngine", "DrivenTransformProperties")->byval_arg;
@@ -58,7 +58,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Clear
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::DrivenRectTransformTracker::*)()>(&UnityEngine::DrivenRectTransformTracker::Clear)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::DrivenRectTransformTracker), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

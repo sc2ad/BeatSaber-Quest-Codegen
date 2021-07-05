@@ -174,7 +174,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveGameUIView*, "", "Missio
 // Il2CppName: SetMissionObjectiveChecker
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveGameUIView::*)(GlobalNamespace::MissionObjectiveChecker*)>(&GlobalNamespace::MissionObjectiveGameUIView::SetMissionObjectiveChecker)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* missionObjectiveChecker = &::il2cpp_utils::GetClassFromName("", "MissionObjectiveChecker")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveGameUIView*), "SetMissionObjectiveChecker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{missionObjectiveChecker});
   }
@@ -183,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleMissionObjectiveStatusDidChange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveGameUIView::*)(GlobalNamespace::MissionObjectiveChecker*)>(&GlobalNamespace::MissionObjectiveGameUIView::HandleMissionObjectiveStatusDidChange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* missionObjectiveChecker = &::il2cpp_utils::GetClassFromName("", "MissionObjectiveChecker")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveGameUIView*), "HandleMissionObjectiveStatusDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{missionObjectiveChecker});
   }
@@ -192,7 +192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleMissionObjectiveCheckedValueDidChange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveGameUIView::*)(GlobalNamespace::MissionObjectiveChecker*)>(&GlobalNamespace::MissionObjectiveGameUIView::HandleMissionObjectiveCheckedValueDidChange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* missionObjectiveChecker = &::il2cpp_utils::GetClassFromName("", "MissionObjectiveChecker")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveGameUIView*), "HandleMissionObjectiveCheckedValueDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{missionObjectiveChecker});
   }
@@ -201,7 +201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: RefreshIcon
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveGameUIView::*)()>(&GlobalNamespace::MissionObjectiveGameUIView::RefreshIcon)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveGameUIView*), "RefreshIcon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -209,7 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: RefreshValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionObjectiveGameUIView::*)()>(&GlobalNamespace::MissionObjectiveGameUIView::RefreshValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionObjectiveGameUIView*), "RefreshValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

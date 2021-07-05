@@ -87,7 +87,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BasicMockPlayerScoreCalculator*, "", "Ba
 // Il2CppName: GetScoreForNote
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::BasicMockPlayerScoreCalculator::*)(GlobalNamespace::MockNoteData*)>(&GlobalNamespace::BasicMockPlayerScoreCalculator::GetScoreForNote)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* noteData = &::il2cpp_utils::GetClassFromName("", "MockNoteData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BasicMockPlayerScoreCalculator*), "GetScoreForNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteData});
   }

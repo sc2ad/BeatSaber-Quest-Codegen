@@ -37,7 +37,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ICertificateEncryptionProvider*, "", "IC
 // Il2CppName: SignData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (GlobalNamespace::ICertificateEncryptionProvider::*)(::Array<uint8_t>*, int, int)>(&GlobalNamespace::ICertificateEncryptionProvider::SignData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

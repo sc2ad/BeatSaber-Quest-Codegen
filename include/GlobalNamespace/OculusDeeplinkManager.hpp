@@ -117,7 +117,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusDeeplinkManager*, "", "OculusDeepl
 // Il2CppName: add_didReceiveDeeplinkEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusDeeplinkManager::*)(System::Action_1<GlobalNamespace::Deeplink*>*)>(&GlobalNamespace::OculusDeeplinkManager::add_didReceiveDeeplinkEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "Deeplink")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusDeeplinkManager*), "add_didReceiveDeeplinkEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -126,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_didReceiveDeeplinkEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusDeeplinkManager::*)(System::Action_1<GlobalNamespace::Deeplink*>*)>(&GlobalNamespace::OculusDeeplinkManager::remove_didReceiveDeeplinkEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "Deeplink")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusDeeplinkManager*), "remove_didReceiveDeeplinkEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -135,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_currentDeeplink
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::Deeplink* (GlobalNamespace::OculusDeeplinkManager::*)()>(&GlobalNamespace::OculusDeeplinkManager::get_currentDeeplink)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusDeeplinkManager*), "get_currentDeeplink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -143,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusDeeplinkManager::*)()>(&GlobalNamespace::OculusDeeplinkManager::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusDeeplinkManager*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -151,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OculusPlatformWasInitialized
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusDeeplinkManager::*)()>(&GlobalNamespace::OculusDeeplinkManager::OculusPlatformWasInitialized)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusDeeplinkManager*), "OculusPlatformWasInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -159,7 +159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetLaunchIntentChangedNotificationCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusDeeplinkManager::*)(Oculus::Platform::Message_1<::Il2CppString*>*)>(&GlobalNamespace::OculusDeeplinkManager::SetLaunchIntentChangedNotificationCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("Oculus.Platform", "Message`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusDeeplinkManager*), "SetLaunchIntentChangedNotificationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
   }
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ProcessLaunchDetails
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusDeeplinkManager::*)(Oculus::Platform::Models::LaunchDetails*)>(&GlobalNamespace::OculusDeeplinkManager::ProcessLaunchDetails)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* launchDetails = &::il2cpp_utils::GetClassFromName("Oculus.Platform.Models", "LaunchDetails")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusDeeplinkManager*), "ProcessLaunchDetails", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{launchDetails});
   }
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: UpdateDeeplinkMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusDeeplinkManager::*)(::Il2CppString*, uint64_t)>(&GlobalNamespace::OculusDeeplinkManager::UpdateDeeplinkMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* deeplinkMessage = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* roomID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusDeeplinkManager*), "UpdateDeeplinkMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{deeplinkMessage, roomID});
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: IsAtLeastOneFieldPopulated
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OculusDeeplinkManager::*)(GlobalNamespace::Deeplink*)>(&GlobalNamespace::OculusDeeplinkManager::IsAtLeastOneFieldPopulated)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* deeplink = &::il2cpp_utils::GetClassFromName("", "Deeplink")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusDeeplinkManager*), "IsAtLeastOneFieldPopulated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{deeplink});
   }
@@ -196,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: Log
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&GlobalNamespace::OculusDeeplinkManager::Log)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusDeeplinkManager*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
   }

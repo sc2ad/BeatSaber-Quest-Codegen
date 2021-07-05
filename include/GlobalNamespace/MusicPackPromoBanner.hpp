@@ -123,7 +123,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MusicPackPromoBanner*, "", "MusicPackPro
 // Il2CppName: get_currentPromoMusicPack
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelPack* (GlobalNamespace::MusicPackPromoBanner::*)()>(&GlobalNamespace::MusicPackPromoBanner::get_currentPromoMusicPack)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MusicPackPromoBanner*), "get_currentPromoMusicPack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_promoButtonText
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MusicPackPromoBanner::*)()>(&GlobalNamespace::MusicPackPromoBanner::get_promoButtonText)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MusicPackPromoBanner*), "get_promoButtonText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: Setup
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MusicPackPromoBanner::*)(GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*, bool)>(&GlobalNamespace::MusicPackPromoBanner::Setup)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* musicPackPromoData = &::il2cpp_utils::GetClassFromName("", "DlcPromoExperimentDataSO/MusicPackPromoInfo")->byval_arg;
     static auto* probablyOwned = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MusicPackPromoBanner*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{musicPackPromoData, probablyOwned});

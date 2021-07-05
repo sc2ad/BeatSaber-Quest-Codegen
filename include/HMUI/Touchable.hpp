@@ -69,7 +69,7 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::Touchable*, "HMUI", "Touchable");
 // Il2CppName: get_skew
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI::Touchable::*)()>(&HMUI::Touchable::get_skew)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::Touchable*), "get_skew", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI
 // Il2CppName: OnPopulateMesh
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::Touchable::*)(UnityEngine::UI::VertexHelper*)>(&HMUI::Touchable::OnPopulateMesh)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* vh = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "VertexHelper")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::Touchable*), "OnPopulateMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vh});
   }

@@ -67,7 +67,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionSystem::InteractionEventD
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate::*)(RootMotion::FinalIK::FullBodyBipedEffector, RootMotion::FinalIK::InteractionObject*, RootMotion::FinalIK::InteractionObject::InteractionEvent*)>(&RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* effectorType = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FullBodyBipedEffector")->byval_arg;
     static auto* interactionObject = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "InteractionObject")->byval_arg;
     static auto* interactionEvent = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "InteractionObject/InteractionEvent")->byval_arg;
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate::*)(RootMotion::FinalIK::FullBodyBipedEffector, RootMotion::FinalIK::InteractionObject*, RootMotion::FinalIK::InteractionObject::InteractionEvent*, System::AsyncCallback*, ::Il2CppObject*)>(&RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* effectorType = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FullBodyBipedEffector")->byval_arg;
     static auto* interactionObject = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "InteractionObject")->byval_arg;
     static auto* interactionEvent = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "InteractionObject/InteractionEvent")->byval_arg;
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate::*)(System::IAsyncResult*)>(&RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

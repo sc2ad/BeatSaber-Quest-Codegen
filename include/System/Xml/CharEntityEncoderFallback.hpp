@@ -106,7 +106,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Xml::CharEntityEncoderFallback*, "System.Xml", "C
 // Il2CppName: set_StartOffset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::CharEntityEncoderFallback::*)(int)>(&System::Xml::CharEntityEncoderFallback::set_StartOffset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::CharEntityEncoderFallback*), "set_StartOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Reset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::CharEntityEncoderFallback::*)(::Array<int>*, int)>(&System::Xml::CharEntityEncoderFallback::Reset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* textContentMarks = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* endMarkPos = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::CharEntityEncoderFallback*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{textContentMarks, endMarkPos});
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: CanReplaceAt
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::CharEntityEncoderFallback::*)(int)>(&System::Xml::CharEntityEncoderFallback::CanReplaceAt)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::CharEntityEncoderFallback*), "CanReplaceAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
   }
@@ -138,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: CreateFallbackBuffer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::EncoderFallbackBuffer* (System::Xml::CharEntityEncoderFallback::*)()>(&System::Xml::CharEntityEncoderFallback::CreateFallbackBuffer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::CharEntityEncoderFallback*), "CreateFallbackBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -146,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Il2CppName: get_MaxCharCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::CharEntityEncoderFallback::*)()>(&System::Xml::CharEntityEncoderFallback::get_MaxCharCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::CharEntityEncoderFallback*), "get_MaxCharCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

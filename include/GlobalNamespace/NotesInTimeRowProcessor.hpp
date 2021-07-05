@@ -89,7 +89,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NotesInTimeRowProcessor*, "", "NotesInTi
 // Il2CppName: ProcessNote
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NotesInTimeRowProcessor::*)(GlobalNamespace::NoteData*)>(&GlobalNamespace::NotesInTimeRowProcessor::ProcessNote)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* noteData = &::il2cpp_utils::GetClassFromName("", "NoteData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NotesInTimeRowProcessor*), "ProcessNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteData});
   }
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ProcessAllRemainingData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NotesInTimeRowProcessor::*)()>(&GlobalNamespace::NotesInTimeRowProcessor::ProcessAllRemainingData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NotesInTimeRowProcessor*), "ProcessAllRemainingData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ProcessColorNotesInTimeRow
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NotesInTimeRowProcessor::*)(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*, float)>(&GlobalNamespace::NotesInTimeRowProcessor::ProcessColorNotesInTimeRow)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* colorNotesData = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "NoteData")})->byval_arg;
     static auto* nextBasicNoteTimeRowTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NotesInTimeRowProcessor*), "ProcessColorNotesInTimeRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorNotesData, nextBasicNoteTimeRowTime});
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ProcessAllNotesInTimeRow
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NotesInTimeRowProcessor::*)(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*)>(&GlobalNamespace::NotesInTimeRowProcessor::ProcessAllNotesInTimeRow)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* notes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "NoteData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NotesInTimeRowProcessor*), "ProcessAllNotesInTimeRow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{notes});
   }

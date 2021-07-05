@@ -62,7 +62,7 @@ DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::CollectionAccessAttribute*, "JetB
 // Il2CppName: get_CollectionAccessType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<JetBrains::Annotations::CollectionAccessType (JetBrains::Annotations::CollectionAccessAttribute::*)()>(&JetBrains::Annotations::CollectionAccessAttribute::get_CollectionAccessType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::CollectionAccessAttribute*), "get_CollectionAccessType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -70,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<JetBrains::
 // Il2CppName: set_CollectionAccessType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::CollectionAccessAttribute::*)(JetBrains::Annotations::CollectionAccessType)>(&JetBrains::Annotations::CollectionAccessAttribute::set_CollectionAccessType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("JetBrains.Annotations", "CollectionAccessType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::CollectionAccessAttribute*), "set_CollectionAccessType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

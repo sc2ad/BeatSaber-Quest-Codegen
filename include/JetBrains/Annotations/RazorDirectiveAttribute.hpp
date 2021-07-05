@@ -60,7 +60,7 @@ DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::RazorDirectiveAttribute*, "JetBra
 // Il2CppName: get_Directive
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::RazorDirectiveAttribute::*)()>(&JetBrains::Annotations::RazorDirectiveAttribute::get_Directive)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::RazorDirectiveAttribute*), "get_Directive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -68,7 +68,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_Directive
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::RazorDirectiveAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::RazorDirectiveAttribute::set_Directive)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::RazorDirectiveAttribute*), "set_Directive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

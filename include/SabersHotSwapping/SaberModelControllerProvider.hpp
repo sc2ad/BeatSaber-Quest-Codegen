@@ -118,7 +118,7 @@ DEFINE_IL2CPP_ARG_TYPE(SabersHotSwapping::SaberModelControllerProvider*, "Sabers
 // Il2CppName: add_controllerChangedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SabersHotSwapping::SaberModelControllerProvider::*)(System::Action*)>(&SabersHotSwapping::SaberModelControllerProvider::add_controllerChangedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(SabersHotSwapping::SaberModelControllerProvider*), "add_controllerChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Saber
 // Il2CppName: remove_controllerChangedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SabersHotSwapping::SaberModelControllerProvider::*)(System::Action*)>(&SabersHotSwapping::SaberModelControllerProvider::remove_controllerChangedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(SabersHotSwapping::SaberModelControllerProvider*), "remove_controllerChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -136,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Saber
 // Il2CppName: GetSaber
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SaberModelController* (SabersHotSwapping::SaberModelControllerProvider::*)()>(&SabersHotSwapping::SaberModelControllerProvider::GetSaber)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(SabersHotSwapping::SaberModelControllerProvider*), "GetSaber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: Awake
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SabersHotSwapping::SaberModelControllerProvider::*)()>(&SabersHotSwapping::SaberModelControllerProvider::Awake)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(SabersHotSwapping::SaberModelControllerProvider*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -152,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Saber
 // Il2CppName: Update
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SabersHotSwapping::SaberModelControllerProvider::*)()>(&SabersHotSwapping::SaberModelControllerProvider::Update)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(SabersHotSwapping::SaberModelControllerProvider*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Saber
 // Il2CppName: GetNext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SabersHotSwapping::SaberModelControllerProvider::*)()>(&SabersHotSwapping::SaberModelControllerProvider::GetNext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(SabersHotSwapping::SaberModelControllerProvider*), "GetNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Saber
 // Il2CppName: GetPrev
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (SabersHotSwapping::SaberModelControllerProvider::*)()>(&SabersHotSwapping::SaberModelControllerProvider::GetPrev)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(SabersHotSwapping::SaberModelControllerProvider*), "GetPrev", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Saber
 // Il2CppName: InstantiatePrefab
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SaberModelController* (SabersHotSwapping::SaberModelControllerProvider::*)(GlobalNamespace::SaberModelController*)>(&SabersHotSwapping::SaberModelControllerProvider::InstantiatePrefab)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prefab = &::il2cpp_utils::GetClassFromName("", "SaberModelController")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(SabersHotSwapping::SaberModelControllerProvider*), "InstantiatePrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prefab});
   }

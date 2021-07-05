@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayCl
 // Il2CppName: <GetPropertyInfos>b__2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass5_1::*)(System::Type*)>(&Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass5_1::$GetPropertyInfos$b__2)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass5_1*), "<GetPropertyInfos>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a});
   }

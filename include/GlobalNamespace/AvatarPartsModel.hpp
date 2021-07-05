@@ -155,7 +155,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPartsModel*, "", "AvatarPartsModel
 // Il2CppName: get_headTopCollection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* (GlobalNamespace::AvatarPartsModel::*)()>(&GlobalNamespace::AvatarPartsModel::get_headTopCollection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModel*), "get_headTopCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_eyesCollection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarSpritePartSO*>* (GlobalNamespace::AvatarPartsModel::*)()>(&GlobalNamespace::AvatarPartsModel::get_eyesCollection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModel*), "get_eyesCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -171,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_mouthCollection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarSpritePartSO*>* (GlobalNamespace::AvatarPartsModel::*)()>(&GlobalNamespace::AvatarPartsModel::get_mouthCollection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModel*), "get_mouthCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_glassesCollection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* (GlobalNamespace::AvatarPartsModel::*)()>(&GlobalNamespace::AvatarPartsModel::get_glassesCollection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModel*), "get_glassesCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_facialHairCollection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* (GlobalNamespace::AvatarPartsModel::*)()>(&GlobalNamespace::AvatarPartsModel::get_facialHairCollection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModel*), "get_facialHairCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -195,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_handsCollection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* (GlobalNamespace::AvatarPartsModel::*)()>(&GlobalNamespace::AvatarPartsModel::get_handsCollection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModel*), "get_handsCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -203,7 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_clothesCollection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* (GlobalNamespace::AvatarPartsModel::*)()>(&GlobalNamespace::AvatarPartsModel::get_clothesCollection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModel*), "get_clothesCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -211,7 +211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_skinColors
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::SkinColorSO*>* (GlobalNamespace::AvatarPartsModel::*)()>(&GlobalNamespace::AvatarPartsModel::get_skinColors)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModel*), "get_skinColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -223,7 +223,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 // Il2CppName: GetColorIndexById
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::AvatarPartsModel::*)(::Il2CppString*)>(&GlobalNamespace::AvatarPartsModel::GetColorIndexById)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModel*), "GetColorIndexById", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id});
   }
@@ -232,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: GetSkinColorById
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SkinColorSO* (GlobalNamespace::AvatarPartsModel::*)(::Il2CppString*)>(&GlobalNamespace::AvatarPartsModel::GetSkinColorById)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModel*), "GetSkinColorById", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id});
   }
@@ -241,7 +241,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: GetRandomColor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SkinColorSO* (GlobalNamespace::AvatarPartsModel::*)()>(&GlobalNamespace::AvatarPartsModel::GetRandomColor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModel*), "GetRandomColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

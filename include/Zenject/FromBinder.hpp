@@ -419,7 +419,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::FromBinder*, "Zenject", "FromBinder");
 // Il2CppName: get_BindContainer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (Zenject::FromBinder::*)()>(&Zenject::FromBinder::get_BindContainer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "get_BindContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -427,7 +427,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Di
 // Il2CppName: set_BindContainer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::FromBinder::*)(Zenject::DiContainer*)>(&Zenject::FromBinder::set_BindContainer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "set_BindContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -436,7 +436,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: get_BindStatement
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindStatement* (Zenject::FromBinder::*)()>(&Zenject::FromBinder::get_BindStatement)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "get_BindStatement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -444,7 +444,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Bi
 // Il2CppName: set_BindStatement
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::FromBinder::*)(Zenject::BindStatement*)>(&Zenject::FromBinder::set_BindStatement)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Zenject", "BindStatement")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "set_BindStatement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -453,7 +453,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: set_SubFinalizer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::FromBinder::*)(Zenject::IBindingFinalizer*)>(&Zenject::FromBinder::set_SubFinalizer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Zenject", "IBindingFinalizer")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "set_SubFinalizer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -462,7 +462,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: get_AllParentTypes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Type*>* (Zenject::FromBinder::*)()>(&Zenject::FromBinder::get_AllParentTypes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "get_AllParentTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -470,7 +470,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: get_ConcreteTypes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Type*>* (Zenject::FromBinder::*)()>(&Zenject::FromBinder::get_ConcreteTypes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "get_ConcreteTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -478,7 +478,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: FromNew
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)()>(&Zenject::FromBinder::FromNew)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromNew", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -486,7 +486,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromResolve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)()>(&Zenject::FromBinder::FromResolve)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -494,7 +494,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromResolve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(::Il2CppObject*)>(&Zenject::FromBinder::FromResolve)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* subIdentifier = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{subIdentifier});
   }
@@ -503,7 +503,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromResolve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(::Il2CppObject*, Zenject::InjectSources)>(&Zenject::FromBinder::FromResolve)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* subIdentifier = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* source = &::il2cpp_utils::GetClassFromName("Zenject", "InjectSources")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{subIdentifier, source});
@@ -513,7 +513,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromResolveAll
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)()>(&Zenject::FromBinder::FromResolveAll)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromResolveAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -521,7 +521,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromResolveAll
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(::Il2CppObject*)>(&Zenject::FromBinder::FromResolveAll)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* subIdentifier = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromResolveAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{subIdentifier});
   }
@@ -530,7 +530,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromResolveAll
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(::Il2CppObject*, Zenject::InjectSources)>(&Zenject::FromBinder::FromResolveAll)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* subIdentifier = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* source = &::il2cpp_utils::GetClassFromName("Zenject", "InjectSources")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromResolveAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{subIdentifier, source});
@@ -540,7 +540,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromResolveInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(::Il2CppObject*, bool, Zenject::InjectSources)>(&Zenject::FromBinder::FromResolveInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* subIdentifier = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* matchAll = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* source = &::il2cpp_utils::GetClassFromName("Zenject", "InjectSources")->byval_arg;
@@ -551,7 +551,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromSubContainerResolveAll
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::SubContainerBinder* (Zenject::FromBinder::*)()>(&Zenject::FromBinder::FromSubContainerResolveAll)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromSubContainerResolveAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -559,7 +559,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Su
 // Il2CppName: FromSubContainerResolveAll
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::SubContainerBinder* (Zenject::FromBinder::*)(::Il2CppObject*)>(&Zenject::FromBinder::FromSubContainerResolveAll)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* subIdentifier = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromSubContainerResolveAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{subIdentifier});
   }
@@ -568,7 +568,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Su
 // Il2CppName: FromSubContainerResolve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::SubContainerBinder* (Zenject::FromBinder::*)()>(&Zenject::FromBinder::FromSubContainerResolve)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromSubContainerResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -576,7 +576,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Su
 // Il2CppName: FromSubContainerResolve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::SubContainerBinder* (Zenject::FromBinder::*)(::Il2CppObject*)>(&Zenject::FromBinder::FromSubContainerResolve)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* subIdentifier = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromSubContainerResolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{subIdentifier});
   }
@@ -585,7 +585,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Su
 // Il2CppName: FromSubContainerResolveInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::SubContainerBinder* (Zenject::FromBinder::*)(::Il2CppObject*, bool)>(&Zenject::FromBinder::FromSubContainerResolveInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* subIdentifier = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* resolveAll = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromSubContainerResolveInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{subIdentifier, resolveAll});
@@ -598,7 +598,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Su
 // Il2CppName: FromComponentsOn
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(UnityEngine::GameObject*)>(&Zenject::FromBinder::FromComponentsOn)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromComponentsOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameObject});
   }
@@ -607,7 +607,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromComponentOn
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(UnityEngine::GameObject*)>(&Zenject::FromBinder::FromComponentOn)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromComponentOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameObject});
   }
@@ -616,7 +616,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromComponentsOn
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>*)>(&Zenject::FromBinder::FromComponentsOn)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameObjectGetter = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "InjectContext"), ::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromComponentsOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameObjectGetter});
   }
@@ -625,7 +625,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromComponentOn
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>*)>(&Zenject::FromBinder::FromComponentOn)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameObjectGetter = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "InjectContext"), ::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromComponentOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameObjectGetter});
   }
@@ -634,7 +634,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromComponentsOnRoot
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)()>(&Zenject::FromBinder::FromComponentsOnRoot)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromComponentsOnRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -642,7 +642,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromComponentOnRoot
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)()>(&Zenject::FromBinder::FromComponentOnRoot)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromComponentOnRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -650,7 +650,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromNewComponentOn
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(UnityEngine::GameObject*)>(&Zenject::FromBinder::FromNewComponentOn)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromNewComponentOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameObject});
   }
@@ -659,7 +659,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromNewComponentOn
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>*)>(&Zenject::FromBinder::FromNewComponentOn)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* gameObjectGetter = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "InjectContext"), ::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromNewComponentOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameObjectGetter});
   }
@@ -668,7 +668,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromNewComponentSibling
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)()>(&Zenject::FromBinder::FromNewComponentSibling)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromNewComponentSibling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -676,7 +676,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromNewComponentOnRoot
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)()>(&Zenject::FromBinder::FromNewComponentOnRoot)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromNewComponentOnRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -684,7 +684,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromNewComponentOnNewPrefabResource
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(::Il2CppString*)>(&Zenject::FromBinder::FromNewComponentOnNewPrefabResource)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromNewComponentOnNewPrefabResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resourcePath});
   }
@@ -693,7 +693,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Na
 // Il2CppName: FromNewComponentOnNewPrefabResource
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(::Il2CppString*, Zenject::GameObjectCreationParameters*)>(&Zenject::FromBinder::FromNewComponentOnNewPrefabResource)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* gameObjectInfo = &::il2cpp_utils::GetClassFromName("Zenject", "GameObjectCreationParameters")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromNewComponentOnNewPrefabResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resourcePath, gameObjectInfo});
@@ -703,7 +703,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Na
 // Il2CppName: FromNewComponentOnNewPrefab
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(UnityEngine::Object*)>(&Zenject::FromBinder::FromNewComponentOnNewPrefab)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prefab = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromNewComponentOnNewPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prefab});
   }
@@ -712,7 +712,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Na
 // Il2CppName: FromNewComponentOnNewPrefab
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(UnityEngine::Object*, Zenject::GameObjectCreationParameters*)>(&Zenject::FromBinder::FromNewComponentOnNewPrefab)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prefab = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* gameObjectInfo = &::il2cpp_utils::GetClassFromName("Zenject", "GameObjectCreationParameters")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromNewComponentOnNewPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prefab, gameObjectInfo});
@@ -722,7 +722,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Na
 // Il2CppName: FromComponentInNewPrefab
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(UnityEngine::Object*)>(&Zenject::FromBinder::FromComponentInNewPrefab)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prefab = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromComponentInNewPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prefab});
   }
@@ -731,7 +731,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Na
 // Il2CppName: FromComponentInNewPrefab
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(UnityEngine::Object*, Zenject::GameObjectCreationParameters*)>(&Zenject::FromBinder::FromComponentInNewPrefab)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prefab = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* gameObjectInfo = &::il2cpp_utils::GetClassFromName("Zenject", "GameObjectCreationParameters")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromComponentInNewPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prefab, gameObjectInfo});
@@ -741,7 +741,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Na
 // Il2CppName: FromComponentsInNewPrefab
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(UnityEngine::Object*)>(&Zenject::FromBinder::FromComponentsInNewPrefab)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prefab = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromComponentsInNewPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prefab});
   }
@@ -750,7 +750,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Na
 // Il2CppName: FromComponentsInNewPrefab
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(UnityEngine::Object*, Zenject::GameObjectCreationParameters*)>(&Zenject::FromBinder::FromComponentsInNewPrefab)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* prefab = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* gameObjectInfo = &::il2cpp_utils::GetClassFromName("Zenject", "GameObjectCreationParameters")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromComponentsInNewPrefab", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prefab, gameObjectInfo});
@@ -760,7 +760,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Na
 // Il2CppName: FromComponentInNewPrefabResource
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(::Il2CppString*)>(&Zenject::FromBinder::FromComponentInNewPrefabResource)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromComponentInNewPrefabResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resourcePath});
   }
@@ -769,7 +769,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Na
 // Il2CppName: FromComponentInNewPrefabResource
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(::Il2CppString*, Zenject::GameObjectCreationParameters*)>(&Zenject::FromBinder::FromComponentInNewPrefabResource)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* gameObjectInfo = &::il2cpp_utils::GetClassFromName("Zenject", "GameObjectCreationParameters")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromComponentInNewPrefabResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resourcePath, gameObjectInfo});
@@ -779,7 +779,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Na
 // Il2CppName: FromComponentsInNewPrefabResource
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(::Il2CppString*)>(&Zenject::FromBinder::FromComponentsInNewPrefabResource)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromComponentsInNewPrefabResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resourcePath});
   }
@@ -788,7 +788,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Na
 // Il2CppName: FromComponentsInNewPrefabResource
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(::Il2CppString*, Zenject::GameObjectCreationParameters*)>(&Zenject::FromBinder::FromComponentsInNewPrefabResource)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* gameObjectInfo = &::il2cpp_utils::GetClassFromName("Zenject", "GameObjectCreationParameters")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromComponentsInNewPrefabResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resourcePath, gameObjectInfo});
@@ -798,7 +798,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Na
 // Il2CppName: FromNewScriptableObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(UnityEngine::ScriptableObject*)>(&Zenject::FromBinder::FromNewScriptableObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resource = &::il2cpp_utils::GetClassFromName("UnityEngine", "ScriptableObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromNewScriptableObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resource});
   }
@@ -807,7 +807,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromScriptableObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(UnityEngine::ScriptableObject*)>(&Zenject::FromBinder::FromScriptableObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resource = &::il2cpp_utils::GetClassFromName("UnityEngine", "ScriptableObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromScriptableObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resource});
   }
@@ -816,7 +816,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromScriptableObjectInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(UnityEngine::ScriptableObject*, bool)>(&Zenject::FromBinder::FromScriptableObjectInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resource = &::il2cpp_utils::GetClassFromName("UnityEngine", "ScriptableObject")->byval_arg;
     static auto* createNew = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromScriptableObjectInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resource, createNew});
@@ -826,7 +826,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromNewScriptableObjectResource
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(::Il2CppString*)>(&Zenject::FromBinder::FromNewScriptableObjectResource)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromNewScriptableObjectResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resourcePath});
   }
@@ -835,7 +835,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromScriptableObjectResource
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(::Il2CppString*)>(&Zenject::FromBinder::FromScriptableObjectResource)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromScriptableObjectResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resourcePath});
   }
@@ -844,7 +844,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromScriptableObjectResourceInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(::Il2CppString*, bool)>(&Zenject::FromBinder::FromScriptableObjectResourceInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* createNew = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromScriptableObjectResourceInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resourcePath, createNew});
@@ -854,7 +854,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromResource
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(::Il2CppString*)>(&Zenject::FromBinder::FromResource)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resourcePath});
   }
@@ -863,7 +863,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromResources
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(::Il2CppString*)>(&Zenject::FromBinder::FromResources)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resourcePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromResources", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resourcePath});
   }
@@ -872,7 +872,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromComponentInChildren
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(bool)>(&Zenject::FromBinder::FromComponentInChildren)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* includeInactive = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromComponentInChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{includeInactive});
   }
@@ -881,7 +881,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromComponentsInChildrenBase
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(bool, System::Func_2<UnityEngine::Component*, bool>*, bool)>(&Zenject::FromBinder::FromComponentsInChildrenBase)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* excludeSelf = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* predicate = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Component"), ::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     static auto* includeInactive = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -892,7 +892,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromComponentInParents
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(bool, bool)>(&Zenject::FromBinder::FromComponentInParents)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* excludeSelf = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* includeInactive = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromComponentInParents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{excludeSelf, includeInactive});
@@ -902,7 +902,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromComponentsInParents
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(bool, bool)>(&Zenject::FromBinder::FromComponentsInParents)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* excludeSelf = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* includeInactive = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromComponentsInParents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{excludeSelf, includeInactive});
@@ -912,7 +912,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromComponentSibling
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)()>(&Zenject::FromBinder::FromComponentSibling)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromComponentSibling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -920,7 +920,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromComponentsSibling
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)()>(&Zenject::FromBinder::FromComponentsSibling)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromComponentsSibling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -928,7 +928,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromComponentInHierarchy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(bool)>(&Zenject::FromBinder::FromComponentInHierarchy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* includeInactive = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromComponentInHierarchy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{includeInactive});
   }
@@ -937,7 +937,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromComponentsInHierarchyBase
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(System::Func_2<UnityEngine::Component*, bool>*, bool)>(&Zenject::FromBinder::FromComponentsInHierarchyBase)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* predicate = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Component"), ::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
     static auto* includeInactive = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromComponentsInHierarchyBase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{predicate, includeInactive});
@@ -947,7 +947,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromMethodUntyped
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(System::Func_2<Zenject::InjectContext*, ::Il2CppObject*>*)>(&Zenject::FromBinder::FromMethodUntyped)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "InjectContext"), ::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromMethodUntyped", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method});
   }
@@ -956,7 +956,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromMethodMultipleUntyped
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(System::Func_2<Zenject::InjectContext*, System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>*)>(&Zenject::FromBinder::FromMethodMultipleUntyped)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "InjectContext"), ::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromMethodMultipleUntyped", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method});
   }
@@ -974,7 +974,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: FromInstanceBase
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::FromBinder::*)(::Il2CppObject*)>(&Zenject::FromBinder::FromInstanceBase)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* instance = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "FromInstanceBase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{instance});
   }
@@ -983,7 +983,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 // Il2CppName: <FromNewComponentSibling>b__37_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (Zenject::FromBinder::*)(Zenject::DiContainer*, System::Type*)>(&Zenject::FromBinder::$FromNewComponentSibling$b__37_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* container = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder*), "<FromNewComponentSibling>b__37_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container, type});

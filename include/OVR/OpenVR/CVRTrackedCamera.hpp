@@ -107,7 +107,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRTrackedCamera*, "OVR.OpenVR", "CVRTracked
 // Il2CppName: GetCameraErrorNameFromEnum
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (OVR::OpenVR::CVRTrackedCamera::*)(OVR::OpenVR::EVRTrackedCameraError)>(&OVR::OpenVR::CVRTrackedCamera::GetCameraErrorNameFromEnum)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eCameraError = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRTrackedCameraError")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRTrackedCamera*), "GetCameraErrorNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eCameraError});
   }
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: HasCamera
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRTrackedCameraError (OVR::OpenVR::CVRTrackedCamera::*)(uint, bool&)>(&OVR::OpenVR::CVRTrackedCamera::HasCamera)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* nDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* pHasCamera = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRTrackedCamera*), "HasCamera", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nDeviceIndex, pHasCamera});
@@ -126,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: GetCameraFrameSize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRTrackedCameraError (OVR::OpenVR::CVRTrackedCamera::*)(uint, OVR::OpenVR::EVRTrackedCameraFrameType, uint&, uint&, uint&)>(&OVR::OpenVR::CVRTrackedCamera::GetCameraFrameSize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* nDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* eFrameType = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRTrackedCameraFrameType")->byval_arg;
     static auto* pnWidth = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: GetCameraIntrinsics
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRTrackedCameraError (OVR::OpenVR::CVRTrackedCamera::*)(uint, OVR::OpenVR::EVRTrackedCameraFrameType, OVR::OpenVR::HmdVector2_t&, OVR::OpenVR::HmdVector2_t&)>(&OVR::OpenVR::CVRTrackedCamera::GetCameraIntrinsics)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* nDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* eFrameType = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRTrackedCameraFrameType")->byval_arg;
     static auto* pFocalLength = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "HmdVector2_t")->this_arg;
@@ -151,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: GetCameraProjection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRTrackedCameraError (OVR::OpenVR::CVRTrackedCamera::*)(uint, OVR::OpenVR::EVRTrackedCameraFrameType, float, float, OVR::OpenVR::HmdMatrix44_t&)>(&OVR::OpenVR::CVRTrackedCamera::GetCameraProjection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* nDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* eFrameType = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRTrackedCameraFrameType")->byval_arg;
     static auto* flZNear = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: AcquireVideoStreamingService
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRTrackedCameraError (OVR::OpenVR::CVRTrackedCamera::*)(uint, uint64_t&)>(&OVR::OpenVR::CVRTrackedCamera::AcquireVideoStreamingService)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* nDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* pHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRTrackedCamera*), "AcquireVideoStreamingService", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nDeviceIndex, pHandle});
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: ReleaseVideoStreamingService
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRTrackedCameraError (OVR::OpenVR::CVRTrackedCamera::*)(uint64_t)>(&OVR::OpenVR::CVRTrackedCamera::ReleaseVideoStreamingService)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hTrackedCamera = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRTrackedCamera*), "ReleaseVideoStreamingService", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hTrackedCamera});
   }
@@ -183,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: GetVideoStreamFrameBuffer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRTrackedCameraError (OVR::OpenVR::CVRTrackedCamera::*)(uint64_t, OVR::OpenVR::EVRTrackedCameraFrameType, System::IntPtr, uint, OVR::OpenVR::CameraVideoStreamFrameHeader_t&, uint)>(&OVR::OpenVR::CVRTrackedCamera::GetVideoStreamFrameBuffer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hTrackedCamera = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eFrameType = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRTrackedCameraFrameType")->byval_arg;
     static auto* pFrameBuffer = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -197,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: GetVideoStreamTextureSize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRTrackedCameraError (OVR::OpenVR::CVRTrackedCamera::*)(uint, OVR::OpenVR::EVRTrackedCameraFrameType, OVR::OpenVR::VRTextureBounds_t&, uint&, uint&)>(&OVR::OpenVR::CVRTrackedCamera::GetVideoStreamTextureSize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* nDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* eFrameType = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRTrackedCameraFrameType")->byval_arg;
     static auto* pTextureBounds = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRTextureBounds_t")->this_arg;
@@ -210,7 +210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: GetVideoStreamTextureD3D11
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRTrackedCameraError (OVR::OpenVR::CVRTrackedCamera::*)(uint64_t, OVR::OpenVR::EVRTrackedCameraFrameType, System::IntPtr, System::IntPtr&, OVR::OpenVR::CameraVideoStreamFrameHeader_t&, uint)>(&OVR::OpenVR::CVRTrackedCamera::GetVideoStreamTextureD3D11)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hTrackedCamera = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eFrameType = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRTrackedCameraFrameType")->byval_arg;
     static auto* pD3D11DeviceOrResource = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -224,7 +224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: GetVideoStreamTextureGL
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRTrackedCameraError (OVR::OpenVR::CVRTrackedCamera::*)(uint64_t, OVR::OpenVR::EVRTrackedCameraFrameType, uint&, OVR::OpenVR::CameraVideoStreamFrameHeader_t&, uint)>(&OVR::OpenVR::CVRTrackedCamera::GetVideoStreamTextureGL)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hTrackedCamera = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eFrameType = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRTrackedCameraFrameType")->byval_arg;
     static auto* pglTextureId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
@@ -237,7 +237,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: ReleaseVideoStreamTextureGL
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRTrackedCameraError (OVR::OpenVR::CVRTrackedCamera::*)(uint64_t, uint)>(&OVR::OpenVR::CVRTrackedCamera::ReleaseVideoStreamTextureGL)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hTrackedCamera = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* glTextureId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRTrackedCamera*), "ReleaseVideoStreamTextureGL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hTrackedCamera, glTextureId});

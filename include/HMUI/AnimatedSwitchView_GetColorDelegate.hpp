@@ -65,7 +65,7 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::AnimatedSwitchView::GetColorDelegate*, "HMUI", "Ani
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (HMUI::AnimatedSwitchView::GetColorDelegate::*)(HMUI::AnimatedSwitchView::ColorBlock*)>(&HMUI::AnimatedSwitchView::GetColorDelegate::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* colorBlock = &::il2cpp_utils::GetClassFromName("HMUI", "AnimatedSwitchView/ColorBlock")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView::GetColorDelegate*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorBlock});
   }
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (HMUI::AnimatedSwitchView::GetColorDelegate::*)(HMUI::AnimatedSwitchView::ColorBlock*, System::AsyncCallback*, ::Il2CppObject*)>(&HMUI::AnimatedSwitchView::GetColorDelegate::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* colorBlock = &::il2cpp_utils::GetClassFromName("HMUI", "AnimatedSwitchView/ColorBlock")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (HMUI::AnimatedSwitchView::GetColorDelegate::*)(System::IAsyncResult*)>(&HMUI::AnimatedSwitchView::GetColorDelegate::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::AnimatedSwitchView::GetColorDelegate*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

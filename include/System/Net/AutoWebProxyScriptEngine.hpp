@@ -43,7 +43,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::AutoWebProxyScriptEngine*, "System.Net", "Au
 // Il2CppName: GetProxies
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::AutoWebProxyScriptEngine::*)(System::Uri*, System::Collections::Generic::IList_1<::Il2CppString*>*&)>(&System::Net::AutoWebProxyScriptEngine::GetProxies)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* destination = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     static auto* proxyList = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::AutoWebProxyScriptEngine*), "GetProxies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{destination, proxyList});
@@ -53,7 +53,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: GetProxies
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::AutoWebProxyScriptEngine::*)(System::Uri*, System::Collections::Generic::IList_1<::Il2CppString*>*&, int&)>(&System::Net::AutoWebProxyScriptEngine::GetProxies)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* destination = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     static auto* proxyList = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->this_arg;
     static auto* syncStatus = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;

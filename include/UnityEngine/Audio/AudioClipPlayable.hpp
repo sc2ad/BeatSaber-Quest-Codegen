@@ -128,7 +128,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioClipPlayable, "UnityEngine.Audio
 // Il2CppName: Create
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Audio::AudioClipPlayable (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::AudioClip*, bool)>(&UnityEngine::Audio::AudioClipPlayable::Create)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->byval_arg;
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip")->byval_arg;
     static auto* looping = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: CreateHandle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (*)(UnityEngine::Playables::PlayableGraph, UnityEngine::AudioClip*, bool)>(&UnityEngine::Audio::AudioClipPlayable::CreateHandle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->byval_arg;
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip")->byval_arg;
     static auto* looping = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetHandle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (UnityEngine::Audio::AudioClipPlayable::*)()>(&UnityEngine::Audio::AudioClipPlayable::GetHandle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioClipPlayable), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Equals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Audio::AudioClipPlayable::*)(UnityEngine::Audio::AudioClipPlayable)>(&UnityEngine::Audio::AudioClipPlayable::Equals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine.Audio", "AudioClipPlayable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioClipPlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: SetVolume
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Audio::AudioClipPlayable::*)(float)>(&UnityEngine::Audio::AudioClipPlayable::SetVolume)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioClipPlayable), "SetVolume", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -183,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetStereoPan
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Audio::AudioClipPlayable::*)(float)>(&UnityEngine::Audio::AudioClipPlayable::SetStereoPan)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioClipPlayable), "SetStereoPan", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -192,7 +192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetSpatialBlend
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Audio::AudioClipPlayable::*)(float)>(&UnityEngine::Audio::AudioClipPlayable::SetSpatialBlend)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioClipPlayable), "SetSpatialBlend", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -201,7 +201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Seek
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Audio::AudioClipPlayable::*)(double, double, double)>(&UnityEngine::Audio::AudioClipPlayable::Seek)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* startTime = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     static auto* startDelay = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
@@ -212,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetVolumeInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, float)>(&UnityEngine::Audio::AudioClipPlayable::SetVolumeInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hdl = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableHandle")->this_arg;
     static auto* volume = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioClipPlayable), "SetVolumeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hdl, volume});
@@ -222,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: SetStereoPanInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, float)>(&UnityEngine::Audio::AudioClipPlayable::SetStereoPanInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hdl = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableHandle")->this_arg;
     static auto* stereoPan = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioClipPlayable), "SetStereoPanInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hdl, stereoPan});
@@ -232,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: SetSpatialBlendInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, float)>(&UnityEngine::Audio::AudioClipPlayable::SetSpatialBlendInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hdl = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableHandle")->this_arg;
     static auto* spatialBlend = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioClipPlayable), "SetSpatialBlendInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hdl, spatialBlend});
@@ -242,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: SetStartDelayInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, double)>(&UnityEngine::Audio::AudioClipPlayable::SetStartDelayInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hdl = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableHandle")->this_arg;
     static auto* delay = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioClipPlayable), "SetStartDelayInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hdl, delay});
@@ -252,7 +252,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: SetPauseDelayInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Playables::PlayableHandle&, double)>(&UnityEngine::Audio::AudioClipPlayable::SetPauseDelayInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hdl = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableHandle")->this_arg;
     static auto* delay = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Audio::AudioClipPlayable), "SetPauseDelayInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hdl, delay});
@@ -262,7 +262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: InternalCreateAudioClipPlayable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Playables::PlayableGraph&, UnityEngine::AudioClip*, bool, UnityEngine::Playables::PlayableHandle&)>(&UnityEngine::Audio::AudioClipPlayable::InternalCreateAudioClipPlayable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->this_arg;
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip")->byval_arg;
     static auto* looping = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

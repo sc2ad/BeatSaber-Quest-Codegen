@@ -41,7 +41,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::ICredentials*, "System.Net", "ICredentials")
 // Il2CppName: GetCredential
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkCredential* (System::Net::ICredentials::*)(System::Uri*, ::Il2CppString*)>(&System::Net::ICredentials::GetCredential)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     static auto* authType = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::ICredentials*), "GetCredential", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uri, authType});

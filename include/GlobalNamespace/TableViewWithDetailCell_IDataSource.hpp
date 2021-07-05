@@ -44,7 +44,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TableViewWithDetailCell::IDataSource*, "
 // Il2CppName: CellSize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::TableViewWithDetailCell::IDataSource::*)()>(&GlobalNamespace::TableViewWithDetailCell::IDataSource::CellSize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TableViewWithDetailCell::IDataSource*), "CellSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -52,7 +52,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: NumberOfCells
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::TableViewWithDetailCell::IDataSource::*)()>(&GlobalNamespace::TableViewWithDetailCell::IDataSource::NumberOfCells)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TableViewWithDetailCell::IDataSource*), "NumberOfCells", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -60,7 +60,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: CellForContent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (GlobalNamespace::TableViewWithDetailCell::IDataSource::*)(GlobalNamespace::TableViewWithDetailCell*, int, bool)>(&GlobalNamespace::TableViewWithDetailCell::IDataSource::CellForContent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tableView = &::il2cpp_utils::GetClassFromName("", "TableViewWithDetailCell")->byval_arg;
     static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* detailOpened = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -71,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::Table
 // Il2CppName: CellForDetail
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (GlobalNamespace::TableViewWithDetailCell::IDataSource::*)(GlobalNamespace::TableViewWithDetailCell*, int)>(&GlobalNamespace::TableViewWithDetailCell::IDataSource::CellForDetail)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tableView = &::il2cpp_utils::GetClassFromName("", "TableViewWithDetailCell")->byval_arg;
     static auto* contentIdx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TableViewWithDetailCell::IDataSource*), "CellForDetail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tableView, contentIdx});

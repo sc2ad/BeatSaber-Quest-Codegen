@@ -53,7 +53,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::CADSerializer*, "Sys
 // Il2CppName: DeserializeMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (*)(System::IO::MemoryStream*, System::Runtime::Remoting::Messaging::IMethodCallMessage*)>(&System::Runtime::Remoting::Channels::CADSerializer::DeserializeMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mem = &::il2cpp_utils::GetClassFromName("System.IO", "MemoryStream")->byval_arg;
     static auto* msg = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "IMethodCallMessage")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::CADSerializer*), "DeserializeMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mem, msg});
@@ -63,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: SerializeMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::MemoryStream* (*)(System::Runtime::Remoting::Messaging::IMessage*)>(&System::Runtime::Remoting::Channels::CADSerializer::SerializeMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* msg = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "IMessage")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::CADSerializer*), "SerializeMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{msg});
   }
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO:
 // Il2CppName: DeserializeObjectSafe
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Array<uint8_t>*)>(&System::Runtime::Remoting::Channels::CADSerializer::DeserializeObjectSafe)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mem = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::CADSerializer*), "DeserializeObjectSafe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mem});
   }
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: SerializeObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::MemoryStream* (*)(::Il2CppObject*)>(&System::Runtime::Remoting::Channels::CADSerializer::SerializeObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::CADSerializer*), "SerializeObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO:
 // Il2CppName: DeserializeObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::IO::MemoryStream*)>(&System::Runtime::Remoting::Channels::CADSerializer::DeserializeObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mem = &::il2cpp_utils::GetClassFromName("System.IO", "MemoryStream")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::CADSerializer*), "DeserializeObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mem});
   }

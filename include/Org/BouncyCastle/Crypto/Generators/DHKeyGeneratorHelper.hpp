@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelp
 // Il2CppName: CalculatePrivate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::*)(Org::BouncyCastle::Crypto::Parameters::DHParameters*, Org::BouncyCastle::Security::SecureRandom*)>(&Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::CalculatePrivate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* dhParams = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto.Parameters", "DHParameters")->byval_arg;
     static auto* random = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Security", "SecureRandom")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*), "CalculatePrivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dhParams, random});
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: CalculatePublic
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::*)(Org::BouncyCastle::Crypto::Parameters::DHParameters*, Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::CalculatePublic)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* dhParams = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto.Parameters", "DHParameters")->byval_arg;
     static auto* x = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*), "CalculatePublic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dhParams, x});
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

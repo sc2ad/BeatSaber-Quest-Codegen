@@ -102,7 +102,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1StreamParser*, "Org.BouncyCa
 // Il2CppName: ReadIndef
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::IAsn1Convertible* (Org::BouncyCastle::Asn1::Asn1StreamParser::*)(int)>(&Org::BouncyCastle::Asn1::Asn1StreamParser::ReadIndef)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tagValue = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1StreamParser*), "ReadIndef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tagValue});
   }
@@ -111,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: ReadTaggedObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Org::BouncyCastle::Asn1::Asn1StreamParser::*)(bool, int)>(&Org::BouncyCastle::Asn1::Asn1StreamParser::ReadTaggedObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* constructed = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* tag = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1StreamParser*), "ReadTaggedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{constructed, tag});
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: ReadObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::IAsn1Convertible* (Org::BouncyCastle::Asn1::Asn1StreamParser::*)()>(&Org::BouncyCastle::Asn1::Asn1StreamParser::ReadObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1StreamParser*), "ReadObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -129,7 +129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: Set00Check
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::Asn1StreamParser::*)(bool)>(&Org::BouncyCastle::Asn1::Asn1StreamParser::Set00Check)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enabled = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1StreamParser*), "Set00Check", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enabled});
   }
@@ -138,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Il2CppName: ReadVector
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1EncodableVector* (Org::BouncyCastle::Asn1::Asn1StreamParser::*)()>(&Org::BouncyCastle::Asn1::Asn1StreamParser::ReadVector)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1StreamParser*), "ReadVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

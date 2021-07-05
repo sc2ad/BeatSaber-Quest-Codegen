@@ -52,7 +52,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::IO::TextReader::$$c*, "System.IO", "TextReader/<>
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::IO::TextReader::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::TextReader::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -60,7 +60,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <.cctor>b__22_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::TextReader::$$c::*)(::Il2CppObject*)>(&System::IO::TextReader::$$c::$_cctor$b__22_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::TextReader::$$c*), "<.cctor>b__22_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
   }
@@ -69,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: <.cctor>b__22_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::TextReader::$$c::*)(::Il2CppObject*)>(&System::IO::TextReader::$$c::$_cctor$b__22_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::TextReader::$$c*), "<.cctor>b__22_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
   }

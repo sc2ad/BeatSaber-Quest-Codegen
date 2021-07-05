@@ -45,7 +45,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequestAssetBundle*, "Un
 // Il2CppName: GetAssetBundle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (*)(::Il2CppString*)>(&UnityEngine::Networking::UnityWebRequestAssetBundle::GetAssetBundle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequestAssetBundle*), "GetAssetBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uri});
   }
@@ -54,7 +54,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetAssetBundle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (*)(::Il2CppString*, uint)>(&UnityEngine::Networking::UnityWebRequestAssetBundle::GetAssetBundle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* crc = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequestAssetBundle*), "GetAssetBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uri, crc});
@@ -64,7 +64,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetAssetBundle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (*)(::Il2CppString*, UnityEngine::CachedAssetBundle, uint)>(&UnityEngine::Networking::UnityWebRequestAssetBundle::GetAssetBundle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* cachedAssetBundle = &::il2cpp_utils::GetClassFromName("UnityEngine", "CachedAssetBundle")->byval_arg;
     static auto* crc = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;

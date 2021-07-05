@@ -101,7 +101,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GraphicRegistry*, "UnityEngine.UI", "Gra
 // Il2CppName: get_instance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::UI::GraphicRegistry* (*)()>(&UnityEngine::UI::GraphicRegistry::get_instance)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRegistry*), "get_instance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: RegisterGraphicForCanvas
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Canvas*, UnityEngine::UI::Graphic*)>(&UnityEngine::UI::GraphicRegistry::RegisterGraphicForCanvas)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("UnityEngine", "Canvas")->byval_arg;
     static auto* graphic = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Graphic")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRegistry*), "RegisterGraphicForCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c, graphic});
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: UnregisterGraphicForCanvas
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Canvas*, UnityEngine::UI::Graphic*)>(&UnityEngine::UI::GraphicRegistry::UnregisterGraphicForCanvas)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("UnityEngine", "Canvas")->byval_arg;
     static auto* graphic = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Graphic")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRegistry*), "UnregisterGraphicForCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c, graphic});
@@ -129,7 +129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: GetGraphicsForCanvas
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<UnityEngine::UI::Graphic*>* (*)(UnityEngine::Canvas*)>(&UnityEngine::UI::GraphicRegistry::GetGraphicsForCanvas)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* canvas = &::il2cpp_utils::GetClassFromName("UnityEngine", "Canvas")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRegistry*), "GetGraphicsForCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{canvas});
   }
@@ -138,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::UI::GraphicRegistry::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRegistry*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

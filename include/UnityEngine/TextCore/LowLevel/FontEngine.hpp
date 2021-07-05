@@ -181,7 +181,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::FontEngine*, "UnityEngin
 // Il2CppName: InitializeFontEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextCore::LowLevel::FontEngineError (*)()>(&UnityEngine::TextCore::LowLevel::FontEngine::InitializeFontEngine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::LowLevel::FontEngine*), "InitializeFontEngine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -189,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InitializeFontEngine_Internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&UnityEngine::TextCore::LowLevel::FontEngine::InitializeFontEngine_Internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::LowLevel::FontEngine*), "InitializeFontEngine_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -197,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 // Il2CppName: LoadFontFace
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextCore::LowLevel::FontEngineError (*)(UnityEngine::Font*, int)>(&UnityEngine::TextCore::LowLevel::FontEngine::LoadFontFace)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* font = &::il2cpp_utils::GetClassFromName("UnityEngine", "Font")->byval_arg;
     static auto* pointSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::LowLevel::FontEngine*), "LoadFontFace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{font, pointSize});
@@ -207,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: LoadFontFace_With_Size_FromFont_Internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Font*, int)>(&UnityEngine::TextCore::LowLevel::FontEngine::LoadFontFace_With_Size_FromFont_Internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* font = &::il2cpp_utils::GetClassFromName("UnityEngine", "Font")->byval_arg;
     static auto* pointSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::LowLevel::FontEngine*), "LoadFontFace_With_Size_FromFont_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{font, pointSize});
@@ -217,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 // Il2CppName: GetFaceInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextCore::FaceInfo (*)()>(&UnityEngine::TextCore::LowLevel::FontEngine::GetFaceInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::LowLevel::FontEngine*), "GetFaceInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -225,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetFaceInfo_Internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::TextCore::FaceInfo&)>(&UnityEngine::TextCore::LowLevel::FontEngine::GetFaceInfo_Internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* faceInfo = &::il2cpp_utils::GetClassFromName("UnityEngine.TextCore", "FaceInfo")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::LowLevel::FontEngine*), "GetFaceInfo_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{faceInfo});
   }
@@ -234,7 +234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 // Il2CppName: GetGlyphIndex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint)>(&UnityEngine::TextCore::LowLevel::FontEngine::GetGlyphIndex)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* unicode = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::LowLevel::FontEngine*), "GetGlyphIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unicode});
   }
@@ -243,7 +243,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(ui
 // Il2CppName: TryGetGlyphWithUnicodeValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint, UnityEngine::TextCore::LowLevel::GlyphLoadFlags, UnityEngine::TextCore::Glyph*&)>(&UnityEngine::TextCore::LowLevel::FontEngine::TryGetGlyphWithUnicodeValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* unicode = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* flags = &::il2cpp_utils::GetClassFromName("UnityEngine.TextCore.LowLevel", "GlyphLoadFlags")->byval_arg;
     static auto* glyph = &::il2cpp_utils::GetClassFromName("UnityEngine.TextCore", "Glyph")->this_arg;
@@ -254,7 +254,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ui
 // Il2CppName: TryGetGlyphWithUnicodeValue_Internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint, UnityEngine::TextCore::LowLevel::GlyphLoadFlags, UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct&)>(&UnityEngine::TextCore::LowLevel::FontEngine::TryGetGlyphWithUnicodeValue_Internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* unicode = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* loadFlags = &::il2cpp_utils::GetClassFromName("UnityEngine.TextCore.LowLevel", "GlyphLoadFlags")->byval_arg;
     static auto* glyphStruct = &::il2cpp_utils::GetClassFromName("UnityEngine.TextCore.LowLevel", "GlyphMarshallingStruct")->this_arg;
@@ -265,7 +265,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ui
 // Il2CppName: TryGetGlyphWithIndexValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint, UnityEngine::TextCore::LowLevel::GlyphLoadFlags, UnityEngine::TextCore::Glyph*&)>(&UnityEngine::TextCore::LowLevel::FontEngine::TryGetGlyphWithIndexValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* glyphIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* flags = &::il2cpp_utils::GetClassFromName("UnityEngine.TextCore.LowLevel", "GlyphLoadFlags")->byval_arg;
     static auto* glyph = &::il2cpp_utils::GetClassFromName("UnityEngine.TextCore", "Glyph")->this_arg;
@@ -276,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ui
 // Il2CppName: TryGetGlyphWithIndexValue_Internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint, UnityEngine::TextCore::LowLevel::GlyphLoadFlags, UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct&)>(&UnityEngine::TextCore::LowLevel::FontEngine::TryGetGlyphWithIndexValue_Internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* glyphIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* loadFlags = &::il2cpp_utils::GetClassFromName("UnityEngine.TextCore.LowLevel", "GlyphLoadFlags")->byval_arg;
     static auto* glyphStruct = &::il2cpp_utils::GetClassFromName("UnityEngine.TextCore.LowLevel", "GlyphMarshallingStruct")->this_arg;
@@ -287,7 +287,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ui
 // Il2CppName: TryPackGlyphInAtlas
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::TextCore::Glyph*, int, UnityEngine::TextCore::LowLevel::GlyphPackingMode, UnityEngine::TextCore::LowLevel::GlyphRenderMode, int, int, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*)>(&UnityEngine::TextCore::LowLevel::FontEngine::TryPackGlyphInAtlas)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* glyph = &::il2cpp_utils::GetClassFromName("UnityEngine.TextCore", "Glyph")->byval_arg;
     static auto* padding = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* packingMode = &::il2cpp_utils::GetClassFromName("UnityEngine.TextCore.LowLevel", "GlyphPackingMode")->byval_arg;
@@ -303,7 +303,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: TryPackGlyphInAtlas_Internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct&, int, UnityEngine::TextCore::LowLevel::GlyphPackingMode, UnityEngine::TextCore::LowLevel::GlyphRenderMode, int, int, ::Array<UnityEngine::TextCore::GlyphRect>*&, int&, ::Array<UnityEngine::TextCore::GlyphRect>*&, int&)>(&UnityEngine::TextCore::LowLevel::FontEngine::TryPackGlyphInAtlas_Internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* glyph = &::il2cpp_utils::GetClassFromName("UnityEngine.TextCore.LowLevel", "GlyphMarshallingStruct")->this_arg;
     static auto* padding = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* packingMode = &::il2cpp_utils::GetClassFromName("UnityEngine.TextCore.LowLevel", "GlyphPackingMode")->byval_arg;
@@ -321,7 +321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: RenderGlyphsToTexture
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TextCore::LowLevel::FontEngineError (*)(System::Collections::Generic::List_1<UnityEngine::TextCore::Glyph*>*, int, UnityEngine::TextCore::LowLevel::GlyphRenderMode, UnityEngine::Texture2D*)>(&UnityEngine::TextCore::LowLevel::FontEngine::RenderGlyphsToTexture)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* glyphs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.TextCore", "Glyph")})->byval_arg;
     static auto* padding = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* renderMode = &::il2cpp_utils::GetClassFromName("UnityEngine.TextCore.LowLevel", "GlyphRenderMode")->byval_arg;
@@ -333,7 +333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: RenderGlyphsToTexture_Internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>*, int, int, UnityEngine::TextCore::LowLevel::GlyphRenderMode, UnityEngine::Texture2D*)>(&UnityEngine::TextCore::LowLevel::FontEngine::RenderGlyphsToTexture_Internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* glyphs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.TextCore.LowLevel", "GlyphMarshallingStruct"), 1)->byval_arg;
     static auto* glyphCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* padding = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -346,7 +346,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Il2CppName: TryAddGlyphToTexture
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint, int, UnityEngine::TextCore::LowLevel::GlyphPackingMode, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*, UnityEngine::TextCore::LowLevel::GlyphRenderMode, UnityEngine::Texture2D*, UnityEngine::TextCore::Glyph*&)>(&UnityEngine::TextCore::LowLevel::FontEngine::TryAddGlyphToTexture)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* glyphIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* padding = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* packingMode = &::il2cpp_utils::GetClassFromName("UnityEngine.TextCore.LowLevel", "GlyphPackingMode")->byval_arg;
@@ -362,7 +362,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ui
 // Il2CppName: TryAddGlyphToTexture_Internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint, int, UnityEngine::TextCore::LowLevel::GlyphPackingMode, ::Array<UnityEngine::TextCore::GlyphRect>*&, int&, ::Array<UnityEngine::TextCore::GlyphRect>*&, int&, UnityEngine::TextCore::LowLevel::GlyphRenderMode, UnityEngine::Texture2D*, UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct&)>(&UnityEngine::TextCore::LowLevel::FontEngine::TryAddGlyphToTexture_Internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* glyphIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* padding = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* packingMode = &::il2cpp_utils::GetClassFromName("UnityEngine.TextCore.LowLevel", "GlyphPackingMode")->byval_arg;
@@ -380,7 +380,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ui
 // Il2CppName: TryAddGlyphsToTexture
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Collections::Generic::List_1<uint>*, int, UnityEngine::TextCore::LowLevel::GlyphPackingMode, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*, UnityEngine::TextCore::LowLevel::GlyphRenderMode, UnityEngine::Texture2D*, ::Array<UnityEngine::TextCore::Glyph*>*&)>(&UnityEngine::TextCore::LowLevel::FontEngine::TryAddGlyphsToTexture)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* glyphIndexes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "UInt32")})->byval_arg;
     static auto* padding = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* packingMode = &::il2cpp_utils::GetClassFromName("UnityEngine.TextCore.LowLevel", "GlyphPackingMode")->byval_arg;
@@ -396,7 +396,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: TryAddGlyphsToTexture_Internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint>*, int, UnityEngine::TextCore::LowLevel::GlyphPackingMode, ::Array<UnityEngine::TextCore::GlyphRect>*&, int&, ::Array<UnityEngine::TextCore::GlyphRect>*&, int&, UnityEngine::TextCore::LowLevel::GlyphRenderMode, UnityEngine::Texture2D*, ::Array<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>*&, int&)>(&UnityEngine::TextCore::LowLevel::FontEngine::TryAddGlyphsToTexture_Internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* glyphIndex = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* padding = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* packingMode = &::il2cpp_utils::GetClassFromName("UnityEngine.TextCore.LowLevel", "GlyphPackingMode")->byval_arg;
@@ -415,7 +415,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: GetGlyphPairAdjustmentTable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* (*)(::Array<uint>*)>(&UnityEngine::TextCore::LowLevel::FontEngine::GetGlyphPairAdjustmentTable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* glyphIndexes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::LowLevel::FontEngine*), "GetGlyphPairAdjustmentTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{glyphIndexes});
   }
@@ -424,7 +424,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: PopulatePairAdjustmentRecordMarshallingArray_from_GlyphIndexes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint>*, int&)>(&UnityEngine::TextCore::LowLevel::FontEngine::PopulatePairAdjustmentRecordMarshallingArray_from_GlyphIndexes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* glyphIndexes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* recordCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::LowLevel::FontEngine*), "PopulatePairAdjustmentRecordMarshallingArray_from_GlyphIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{glyphIndexes, recordCount});
@@ -434,7 +434,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Il2CppName: GetGlyphPairAdjustmentRecordsFromMarshallingArray
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*&)>(&UnityEngine::TextCore::LowLevel::FontEngine::GetGlyphPairAdjustmentRecordsFromMarshallingArray)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* glyphPairAdjustmentRecords = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.TextCore.LowLevel", "GlyphPairAdjustmentRecord"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::LowLevel::FontEngine*), "GetGlyphPairAdjustmentRecordsFromMarshallingArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{glyphPairAdjustmentRecords});
   }
@@ -446,7 +446,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Il2CppName: ResetAtlasTexture
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture2D*)>(&UnityEngine::TextCore::LowLevel::FontEngine::ResetAtlasTexture)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* texture = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture2D")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::LowLevel::FontEngine*), "ResetAtlasTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{texture});
   }
@@ -455,7 +455,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::TextCore::LowLevel::FontEngine::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::LowLevel::FontEngine*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

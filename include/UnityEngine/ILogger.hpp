@@ -57,7 +57,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ILogger*, "UnityEngine", "ILogger");
 // Il2CppName: get_logHandler
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ILogHandler* (UnityEngine::ILogger::*)()>(&UnityEngine::ILogger::get_logHandler)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ILogger*), "get_logHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Log
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ILogger::*)(UnityEngine::LogType, ::Il2CppObject*)>(&UnityEngine::ILogger::Log)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* logType = &::il2cpp_utils::GetClassFromName("UnityEngine", "LogType")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ILogger*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{logType, message});
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Log
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ILogger::*)(UnityEngine::LogType, ::Il2CppObject*, UnityEngine::Object*)>(&UnityEngine::ILogger::Log)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* logType = &::il2cpp_utils::GetClassFromName("UnityEngine", "LogType")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: LogFormat
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ILogger::*)(UnityEngine::LogType, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&UnityEngine::ILogger::LogFormat)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* logType = &::il2cpp_utils::GetClassFromName("UnityEngine", "LogType")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;

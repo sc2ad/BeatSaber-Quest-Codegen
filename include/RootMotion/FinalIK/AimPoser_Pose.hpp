@@ -86,7 +86,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimPoser::Pose*, "RootMotion.FinalIK
 // Il2CppName: IsInDirection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::AimPoser::Pose::*)(UnityEngine::Vector3)>(&RootMotion::FinalIK::AimPoser::Pose::IsInDirection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* d = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::AimPoser::Pose*), "IsInDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{d});
   }
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Il2CppName: SetAngleBuffer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::AimPoser::Pose::*)(float)>(&RootMotion::FinalIK::AimPoser::Pose::SetAngleBuffer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::AimPoser::Pose*), "SetAngleBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

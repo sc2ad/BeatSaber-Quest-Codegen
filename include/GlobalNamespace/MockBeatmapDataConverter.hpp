@@ -53,7 +53,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockBeatmapDataConverter*, "", "MockBeat
 // Il2CppName: ToMockBeatmapData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockBeatmapData* (*)(GlobalNamespace::BeatmapData*)>(&GlobalNamespace::MockBeatmapDataConverter::ToMockBeatmapData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmapData = &::il2cpp_utils::GetClassFromName("", "BeatmapData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapDataConverter*), "ToMockBeatmapData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapData});
   }
@@ -62,7 +62,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ToMockNoteData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockNoteData* (*)(GlobalNamespace::NoteData*)>(&GlobalNamespace::MockBeatmapDataConverter::ToMockNoteData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* noteData = &::il2cpp_utils::GetClassFromName("", "NoteData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapDataConverter*), "ToMockNoteData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteData});
   }
@@ -71,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ToMockObstacleData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MockObstacleData* (*)(GlobalNamespace::ObstacleData*)>(&GlobalNamespace::MockBeatmapDataConverter::ToMockObstacleData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obstacleData = &::il2cpp_utils::GetClassFromName("", "ObstacleData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapDataConverter*), "ToMockObstacleData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obstacleData});
   }

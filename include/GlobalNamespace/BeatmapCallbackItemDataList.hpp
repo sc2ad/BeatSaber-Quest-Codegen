@@ -186,7 +186,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCallbackItemDataList*, "", "Beatm
 // Il2CppName: InsertBeatmapObjectData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapCallbackItemDataList::*)(GlobalNamespace::BeatmapObjectData*)>(&GlobalNamespace::BeatmapCallbackItemDataList::InsertBeatmapObjectData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmapObjectData = &::il2cpp_utils::GetClassFromName("", "BeatmapObjectData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCallbackItemDataList*), "InsertBeatmapObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapObjectData});
   }
@@ -195,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: InsertBeatmapEventData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapCallbackItemDataList::*)(GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::BeatmapCallbackItemDataList::InsertBeatmapEventData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmapEventData = &::il2cpp_utils::GetClassFromName("", "BeatmapEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCallbackItemDataList*), "InsertBeatmapEventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventData});
   }
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ProcessData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapCallbackItemDataList::*)()>(&GlobalNamespace::BeatmapCallbackItemDataList::ProcessData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCallbackItemDataList*), "ProcessData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -212,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ProcessNotesByColorType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BeatmapCallbackItemDataList::*)(System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*)>(&GlobalNamespace::BeatmapCallbackItemDataList::ProcessNotesByColorType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* notesWithTheSameColorTypeList = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "NoteData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCallbackItemDataList*), "ProcessNotesByColorType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{notesWithTheSameColorTypeList});
   }
@@ -221,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: SpawnNoteOrLongNote
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapCallbackItemDataList::*)(GlobalNamespace::NoteData*, float)>(&GlobalNamespace::BeatmapCallbackItemDataList::SpawnNoteOrLongNote)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* noteData = &::il2cpp_utils::GetClassFromName("", "NoteData")->byval_arg;
     static auto* cutDirectionAngleOffset = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCallbackItemDataList*), "SpawnNoteOrLongNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteData, cutDirectionAngleOffset});

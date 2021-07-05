@@ -79,7 +79,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::WindowsImpersonationContext*
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Principal::WindowsImpersonationContext::*)()>(&System::Security::Principal::WindowsImpersonationContext::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::WindowsImpersonationContext*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Undo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Principal::WindowsImpersonationContext::*)()>(&System::Security::Principal::WindowsImpersonationContext::Undo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::WindowsImpersonationContext*), "Undo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: CloseToken
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&System::Security::Principal::WindowsImpersonationContext::CloseToken)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* token = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::WindowsImpersonationContext*), "CloseToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{token});
   }
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: DuplicateToken
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&System::Security::Principal::WindowsImpersonationContext::DuplicateToken)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* token = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::WindowsImpersonationContext*), "DuplicateToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{token});
   }
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: SetCurrentToken
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&System::Security::Principal::WindowsImpersonationContext::SetCurrentToken)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* token = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::WindowsImpersonationContext*), "SetCurrentToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{token});
   }
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: RevertToSelf
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&System::Security::Principal::WindowsImpersonationContext::RevertToSelf)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Principal::WindowsImpersonationContext*), "RevertToSelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

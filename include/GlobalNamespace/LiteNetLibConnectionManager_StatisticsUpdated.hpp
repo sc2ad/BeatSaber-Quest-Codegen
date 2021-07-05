@@ -60,7 +60,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::StatisticsU
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated::*)(int64_t, int64_t, int64_t, int64_t, int64_t, int64_t, int64_t, int64_t, int64_t, int64_t, int64_t, int64_t, int64_t)>(&GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* packetsSent = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* packetsReceived = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* bytesSent = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated::*)(int64_t, int64_t, int64_t, int64_t, int64_t, int64_t, int64_t, int64_t, int64_t, int64_t, int64_t, int64_t, int64_t, System::AsyncCallback*, ::Il2CppObject*)>(&GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* packetsSent = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* packetsReceived = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* bytesSent = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated::*)(System::IAsyncResult*)>(&GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::UnhandledExceptionEventArgs*, "System", "Unhandle
 // Il2CppName: get_ExceptionObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::UnhandledExceptionEventArgs::*)()>(&System::UnhandledExceptionEventArgs::get_ExceptionObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::UnhandledExceptionEventArgs*), "get_ExceptionObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -69,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: get_IsTerminating
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::UnhandledExceptionEventArgs::*)()>(&System::UnhandledExceptionEventArgs::get_IsTerminating)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::UnhandledExceptionEventArgs*), "get_IsTerminating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

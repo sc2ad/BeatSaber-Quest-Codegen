@@ -67,7 +67,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EventBinder*, "", "EventBinder");
 // Il2CppName: Bind
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EventBinder::*)(System::Action*, System::Action*)>(&GlobalNamespace::EventBinder::Bind)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* subscribe = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     static auto* unsubscribe = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EventBinder*), "Bind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{subscribe, unsubscribe});
@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ClearAllBindings
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EventBinder::*)()>(&GlobalNamespace::EventBinder::ClearAllBindings)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EventBinder*), "ClearAllBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

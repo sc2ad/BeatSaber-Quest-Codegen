@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_GetOverlayAutoCurveDistanceRangeI
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::IVROverlay::_GetOverlayAutoCurveDistanceRangeInMeters::*)(uint64_t, float&, float&)>(&Valve::VR::IVROverlay::_GetOverlayAutoCurveDistanceRangeInMeters::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pfMinDistanceInMeters = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
     static auto* pfMaxDistanceInMeters = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVROverlay::_GetOverlayAutoCurveDistanceRangeInMeters::*)(uint64_t, float&, float&, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVROverlay::_GetOverlayAutoCurveDistanceRangeInMeters::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pfMinDistanceInMeters = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
     static auto* pfMaxDistanceInMeters = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::IVROverlay::_GetOverlayAutoCurveDistanceRangeInMeters::*)(float&, float&, System::IAsyncResult*)>(&Valve::VR::IVROverlay::_GetOverlayAutoCurveDistanceRangeInMeters::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pfMinDistanceInMeters = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
     static auto* pfMaxDistanceInMeters = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;

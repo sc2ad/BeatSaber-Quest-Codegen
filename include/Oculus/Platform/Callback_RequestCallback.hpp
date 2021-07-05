@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Callback::RequestCallback*, "Oculus.Pla
 // Il2CppName: HandleMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::Callback::RequestCallback::*)(Oculus::Platform::Message*)>(&Oculus::Platform::Callback::RequestCallback::HandleMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* msg = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "Message")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Callback::RequestCallback*), "HandleMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{msg});
   }

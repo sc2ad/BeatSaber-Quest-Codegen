@@ -40,7 +40,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ILayerable*, "UnityEngine.Timeline
 // Il2CppName: CreateLayerMixer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::Playable (UnityEngine::Timeline::ILayerable::*)(UnityEngine::Playables::PlayableGraph, UnityEngine::GameObject*, int)>(&UnityEngine::Timeline::ILayerable::CreateLayerMixer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableGraph")->byval_arg;
     static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* inputCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

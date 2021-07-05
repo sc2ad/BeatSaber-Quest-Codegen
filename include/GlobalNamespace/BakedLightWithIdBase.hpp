@@ -48,7 +48,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BakedLightWithIdBase*, "", "BakedLightWi
 // Il2CppName: get_id
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::BakedLightWithIdBase::*)()>(&GlobalNamespace::BakedLightWithIdBase::get_id)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BakedLightWithIdBase*), "get_id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -56,7 +56,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: SetupLightSource
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BakedLightWithIdBase::*)(float)>(&GlobalNamespace::BakedLightWithIdBase::SetupLightSource)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* intensityMultiplier = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BakedLightWithIdBase*), "SetupLightSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{intensityMultiplier});
   }

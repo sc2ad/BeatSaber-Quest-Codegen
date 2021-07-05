@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableSetUpTearDownCommand::$
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::TestTools::EnumerableSetUpTearDownCommand::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::EnumerableSetUpTearDownCommand::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <GetMethodsWithAttributeFromFixture>b__1_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::EnumerableSetUpTearDownCommand::$$c::*)(System::Reflection::MethodInfo*)>(&UnityEngine::TestTools::EnumerableSetUpTearDownCommand::$$c::$GetMethodsWithAttributeFromFixture$b__1_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::EnumerableSetUpTearDownCommand::$$c*), "<GetMethodsWithAttributeFromFixture>b__1_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }

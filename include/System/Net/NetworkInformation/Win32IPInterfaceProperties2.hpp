@@ -90,7 +90,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32IPInterfaceProperti
 // Il2CppName: Win32FromUnicast
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::UnicastIPAddressInformationCollection* (*)(System::IntPtr)>(&System::Net::NetworkInformation::Win32IPInterfaceProperties2::Win32FromUnicast)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ptr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::Win32IPInterfaceProperties2*), "Win32FromUnicast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ptr});
   }
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: get_GatewayAddresses
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::GatewayIPAddressInformationCollection* (System::Net::NetworkInformation::Win32IPInterfaceProperties2::*)()>(&System::Net::NetworkInformation::Win32IPInterfaceProperties2::get_GatewayAddresses)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::Win32IPInterfaceProperties2*), "get_GatewayAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: get_UnicastAddresses
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::NetworkInformation::UnicastIPAddressInformationCollection* (System::Net::NetworkInformation::Win32IPInterfaceProperties2::*)()>(&System::Net::NetworkInformation::Win32IPInterfaceProperties2::get_UnicastAddresses)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::Win32IPInterfaceProperties2*), "get_UnicastAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

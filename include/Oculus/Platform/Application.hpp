@@ -45,7 +45,7 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Application*, "Oculus.Platform", "Appli
 // Il2CppName: GetVersion
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::ApplicationVersion*>* (*)()>(&Oculus::Platform::Application::GetVersion)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Application*), "GetVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -53,7 +53,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: LaunchOtherApp
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<::Il2CppString*>* (*)(uint64_t, Oculus::Platform::ApplicationOptions*)>(&Oculus::Platform::Application::LaunchOtherApp)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* appID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* deeplink_options = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "ApplicationOptions")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Application*), "LaunchOtherApp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{appID, deeplink_options});

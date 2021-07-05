@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSettings::_SetFloat*, "Valve.VR", "IVRSetti
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRSettings::_SetFloat::*)(::Il2CppString*, ::Il2CppString*, float, Valve::VR::EVRSettingsError&)>(&Valve::VR::IVRSettings::_SetFloat::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchSection = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchSettingsKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* flValue = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRSettings::_SetFloat::*)(::Il2CppString*, ::Il2CppString*, float, Valve::VR::EVRSettingsError&, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRSettings::_SetFloat::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchSection = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchSettingsKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* flValue = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRSettings::_SetFloat::*)(Valve::VR::EVRSettingsError&, System::IAsyncResult*)>(&Valve::VR::IVRSettings::_SetFloat::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* peError = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRSettingsError")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSettings::_SetFloat*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{peError, result});

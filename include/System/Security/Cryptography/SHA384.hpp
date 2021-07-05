@@ -43,7 +43,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SHA384*, "System.Security
 // Il2CppName: Create
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::SHA384* (*)()>(&System::Security::Cryptography::SHA384::Create)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA384*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

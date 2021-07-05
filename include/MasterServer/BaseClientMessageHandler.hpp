@@ -248,7 +248,7 @@ DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseClientMessageHandler*, "MasterServer", 
 // Il2CppName: get_endPoint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MasterServerEndPoint* (MasterServer::BaseClientMessageHandler::*)()>(&MasterServer::BaseClientMessageHandler::get_endPoint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "get_endPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -256,7 +256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_isAuthenticated
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::BaseClientMessageHandler::*)()>(&MasterServer::BaseClientMessageHandler::get_isAuthenticated)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "get_isAuthenticated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -264,7 +264,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Maste
 // Il2CppName: get_isAuthenticating
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::BaseClientMessageHandler::*)()>(&MasterServer::BaseClientMessageHandler::get_isAuthenticating)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "get_isAuthenticating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -272,7 +272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Maste
 // Il2CppName: get_hasAuthenticationFailed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::BaseClientMessageHandler::*)()>(&MasterServer::BaseClientMessageHandler::get_hasAuthenticationFailed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "get_hasAuthenticationFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -284,7 +284,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Maste
 // Il2CppName: SendOrderedAuthenticatedRequest
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::BaseClientMessageHandler::*)(::Il2CppString*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken)>(&MasterServer::BaseClientMessageHandler::SendOrderedAuthenticatedRequest)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* queue = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerReliableRequest")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
@@ -295,7 +295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: SendOrderedAuthenticatedRequestAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MasterServer::BaseClientMessageHandler::*)(System::Threading::Tasks::Task*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken)>(&MasterServer::BaseClientMessageHandler::SendOrderedAuthenticatedRequestAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* previousTask = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerReliableRequest")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
@@ -309,7 +309,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: SendAuthenticatedRequestAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MasterServer::BaseClientMessageHandler::*)(MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken)>(&MasterServer::BaseClientMessageHandler::SendAuthenticatedRequestAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerReliableRequest")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "SendAuthenticatedRequestAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message, cancellationToken});
@@ -319,7 +319,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: OnSendFailed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MasterServer::BaseClientMessageHandler::*)(uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken)>(&MasterServer::BaseClientMessageHandler::OnSendFailed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* protocolVersion = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerReliableRequest")->byval_arg;
@@ -334,7 +334,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: ReauthenticateWithMasterServer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MasterServer::BaseClientMessageHandler::*)()>(&MasterServer::BaseClientMessageHandler::ReauthenticateWithMasterServer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "ReauthenticateWithMasterServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -342,7 +342,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: UnauthenticateWithMasterServer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::BaseClientMessageHandler::*)()>(&MasterServer::BaseClientMessageHandler::UnauthenticateWithMasterServer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "UnauthenticateWithMasterServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -350,7 +350,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: AuthenticateWithMasterServerAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MasterServer::BaseClientMessageHandler::*)()>(&MasterServer::BaseClientMessageHandler::AuthenticateWithMasterServerAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "AuthenticateWithMasterServerAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -358,7 +358,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: AuthenticateWithMasterServer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::BaseClientMessageHandler::*)()>(&MasterServer::BaseClientMessageHandler::AuthenticateWithMasterServer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "AuthenticateWithMasterServer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -366,7 +366,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: AuthenticateWithMasterServerAsyncInternalVerbose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MasterServer::BaseClientMessageHandler::*)()>(&MasterServer::BaseClientMessageHandler::AuthenticateWithMasterServerAsyncInternalVerbose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "AuthenticateWithMasterServerAsyncInternalVerbose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -374,7 +374,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: AuthenticateWithMasterServerAsyncInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MasterServer::BaseClientMessageHandler::*)()>(&MasterServer::BaseClientMessageHandler::AuthenticateWithMasterServerAsyncInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "AuthenticateWithMasterServerAsyncInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -382,7 +382,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: GetAuthenticationRequest
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<MasterServer::IMasterServerAuthenticateRequest*>* (MasterServer::BaseClientMessageHandler::*)()>(&MasterServer::BaseClientMessageHandler::GetAuthenticationRequest)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "GetAuthenticationRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -390,7 +390,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: VerifySignature
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (MasterServer::BaseClientMessageHandler::*)(::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<::Array<uint8_t>*>*)>(&MasterServer::BaseClientMessageHandler::VerifySignature)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* clientRandom = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* serverRandom = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* serverKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -403,7 +403,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: HandshakeLog
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::BaseClientMessageHandler::*)(::Il2CppString*)>(&MasterServer::BaseClientMessageHandler::HandshakeLog)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "HandshakeLog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
   }
@@ -412,7 +412,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::BaseClientMessageHandler::*)()>(&MasterServer::BaseClientMessageHandler::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -420,7 +420,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: ShouldHandleHandshakeMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::BaseClientMessageHandler::*)(MasterServer::IHandshakeMessage*, MasterServer::MessageHandler::MessageOrigin)>(&MasterServer::BaseClientMessageHandler::ShouldHandleHandshakeMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* packet = &::il2cpp_utils::GetClassFromName("MasterServer", "IHandshakeMessage")->byval_arg;
     static auto* origin = &::il2cpp_utils::GetClassFromName("MasterServer", "MessageHandler/MessageOrigin")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "ShouldHandleHandshakeMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet, origin});
@@ -430,7 +430,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Maste
 // Il2CppName: ShouldHandleMessageFromEndPoint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::BaseClientMessageHandler::*)(System::Net::IPEndPoint*)>(&MasterServer::BaseClientMessageHandler::ShouldHandleMessageFromEndPoint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "ShouldHandleMessageFromEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{endPoint});
   }

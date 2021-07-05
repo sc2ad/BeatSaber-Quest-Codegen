@@ -106,7 +106,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Utils*, "", "SteamVR_Utils");
 // Il2CppName: Slerp
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Quaternion, UnityEngine::Quaternion, float)>(&GlobalNamespace::SteamVR_Utils::Slerp)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* A = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* B = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Lerp
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&GlobalNamespace::SteamVR_Utils::Lerp)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* A = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* B = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Lerp
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float, float)>(&GlobalNamespace::SteamVR_Utils::Lerp)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* A = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* B = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(f
 // Il2CppName: Lerp
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, double, double)>(&GlobalNamespace::SteamVR_Utils::Lerp)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* A = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     static auto* B = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 // Il2CppName: InverseLerp
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3)>(&GlobalNamespace::SteamVR_Utils::InverseLerp)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* A = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* B = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(U
 // Il2CppName: InverseLerp
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float, float)>(&GlobalNamespace::SteamVR_Utils::InverseLerp)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* A = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* B = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -172,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(f
 // Il2CppName: InverseLerp
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double, double, double)>(&GlobalNamespace::SteamVR_Utils::InverseLerp)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* A = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     static auto* B = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
@@ -183,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 // Il2CppName: Saturate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&GlobalNamespace::SteamVR_Utils::Saturate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* A = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils*), "Saturate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{A});
   }
@@ -192,7 +192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(f
 // Il2CppName: Saturate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Vector2)>(&GlobalNamespace::SteamVR_Utils::Saturate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* A = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils*), "Saturate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{A});
   }
@@ -201,7 +201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Abs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&GlobalNamespace::SteamVR_Utils::Abs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* A = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils*), "Abs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{A});
   }
@@ -210,7 +210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(f
 // Il2CppName: Abs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Vector2)>(&GlobalNamespace::SteamVR_Utils::Abs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* A = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils*), "Abs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{A});
   }
@@ -219,7 +219,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: _copysign
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float)>(&GlobalNamespace::SteamVR_Utils::_copysign)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sizeval = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* signval = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils*), "_copysign", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sizeval, signval});
@@ -229,7 +229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(f
 // Il2CppName: GetRotation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Matrix4x4)>(&GlobalNamespace::SteamVR_Utils::GetRotation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* matrix = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils*), "GetRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{matrix});
   }
@@ -238,7 +238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetPosition
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Matrix4x4)>(&GlobalNamespace::SteamVR_Utils::GetPosition)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* matrix = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils*), "GetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{matrix});
   }
@@ -247,7 +247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetScale
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Matrix4x4)>(&GlobalNamespace::SteamVR_Utils::GetScale)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* m = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils*), "GetScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{m});
   }
@@ -256,7 +256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: CallSystemFn
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(GlobalNamespace::SteamVR_Utils::SystemFn*, ::Array<::Il2CppObject*>*)>(&GlobalNamespace::SteamVR_Utils::CallSystemFn)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* fn = &::il2cpp_utils::GetClassFromName("", "SteamVR_Utils/SystemFn")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils*), "CallSystemFn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fn, args});
@@ -266,7 +266,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: TakeStereoScreenshot
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint, UnityEngine::GameObject*, int, float, ::Il2CppString*&, ::Il2CppString*&)>(&GlobalNamespace::SteamVR_Utils::TakeStereoScreenshot)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* screenshotHandle = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* cellSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

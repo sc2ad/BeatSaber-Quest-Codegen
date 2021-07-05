@@ -123,7 +123,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1InputStream*, "Org.BouncyCas
 // Il2CppName: FindLimit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IO::Stream*)>(&Org::BouncyCastle::Asn1::Asn1InputStream::FindLimit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "FindLimit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});
   }
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: BuildObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Org::BouncyCastle::Asn1::Asn1InputStream::*)(int, int, int)>(&Org::BouncyCastle::Asn1::Asn1InputStream::BuildObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tag = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* tagNo = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -151,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: ReadVector
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1EncodableVector* (Org::BouncyCastle::Asn1::Asn1InputStream::*)(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*)>(&Org::BouncyCastle::Asn1::Asn1InputStream::ReadVector)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* dIn = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "DefiniteLengthInputStream")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "ReadVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dIn});
   }
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: CreateDerSequence
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerSequence* (Org::BouncyCastle::Asn1::Asn1InputStream::*)(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*)>(&Org::BouncyCastle::Asn1::Asn1InputStream::CreateDerSequence)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* dIn = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "DefiniteLengthInputStream")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "CreateDerSequence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dIn});
   }
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: CreateDerSet
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerSet* (Org::BouncyCastle::Asn1::Asn1InputStream::*)(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*)>(&Org::BouncyCastle::Asn1::Asn1InputStream::CreateDerSet)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* dIn = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "DefiniteLengthInputStream")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "CreateDerSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dIn});
   }
@@ -178,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: ReadObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (Org::BouncyCastle::Asn1::Asn1InputStream::*)()>(&Org::BouncyCastle::Asn1::Asn1InputStream::ReadObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "ReadObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -186,7 +186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: get_Limit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Asn1::Asn1InputStream::*)()>(&Org::BouncyCastle::Asn1::Asn1InputStream::get_Limit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "get_Limit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -194,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Il2CppName: ReadTagNumber
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IO::Stream*, int)>(&Org::BouncyCastle::Asn1::Asn1InputStream::ReadTagNumber)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     static auto* tag = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "ReadTagNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, tag});
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: ReadLength
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IO::Stream*, int, bool)>(&Org::BouncyCastle::Asn1::Asn1InputStream::ReadLength)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     static auto* limit = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* isParsing = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -215,7 +215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: GetBuffer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*, ::Array<::Array<uint8_t>*>*)>(&Org::BouncyCastle::Asn1::Asn1InputStream::GetBuffer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* defIn = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "DefiniteLengthInputStream")->byval_arg;
     static auto* tmpBuffers = &il2cpp_functions::array_class_get(il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "GetBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{defIn, tmpBuffers});
@@ -225,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: GetBmpCharBuffer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (*)(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*)>(&Org::BouncyCastle::Asn1::Asn1InputStream::GetBmpCharBuffer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* defIn = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "DefiniteLengthInputStream")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "GetBmpCharBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{defIn});
   }
@@ -234,7 +234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: CreatePrimitiveDerObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (*)(int, Org::BouncyCastle::Asn1::DefiniteLengthInputStream*, ::Array<::Array<uint8_t>*>*)>(&Org::BouncyCastle::Asn1::Asn1InputStream::CreatePrimitiveDerObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tagNo = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* defIn = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "DefiniteLengthInputStream")->byval_arg;
     static auto* tmpBuffers = &il2cpp_functions::array_class_get(il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1), 1)->byval_arg;

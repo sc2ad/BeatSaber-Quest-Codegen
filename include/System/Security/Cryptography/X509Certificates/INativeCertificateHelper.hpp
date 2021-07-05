@@ -35,7 +35,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::INative
 // Il2CppName: Import
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509CertificateImpl* (System::Security::Cryptography::X509Certificates::INativeCertificateHelper::*)(System::Security::Cryptography::X509Certificates::X509Certificate*)>(&System::Security::Cryptography::X509Certificates::INativeCertificateHelper::Import)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cert = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::INativeCertificateHelper*), "Import", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cert});
   }

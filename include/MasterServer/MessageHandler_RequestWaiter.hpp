@@ -47,7 +47,7 @@ DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::RequestWaiter*, "MasterServ
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::RequestWaiter::*)()>(&MasterServer::MessageHandler::RequestWaiter::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::RequestWaiter*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

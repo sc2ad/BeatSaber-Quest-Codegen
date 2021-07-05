@@ -80,7 +80,7 @@ DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::ContractAnnotationAttribute*, "Je
 // Il2CppName: get_Contract
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::ContractAnnotationAttribute::*)()>(&JetBrains::Annotations::ContractAnnotationAttribute::get_Contract)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::ContractAnnotationAttribute*), "get_Contract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_Contract
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::ContractAnnotationAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::ContractAnnotationAttribute::set_Contract)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::ContractAnnotationAttribute*), "set_Contract", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBr
 // Il2CppName: get_ForceFullStates
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (JetBrains::Annotations::ContractAnnotationAttribute::*)()>(&JetBrains::Annotations::ContractAnnotationAttribute::get_ForceFullStates)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::ContractAnnotationAttribute*), "get_ForceFullStates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (JetBr
 // Il2CppName: set_ForceFullStates
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::ContractAnnotationAttribute::*)(bool)>(&JetBrains::Annotations::ContractAnnotationAttribute::set_ForceFullStates)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::ContractAnnotationAttribute*), "set_ForceFullStates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

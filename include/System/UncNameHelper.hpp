@@ -30,7 +30,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::UncNameHelper*, "System", "UncNameHelper");
 // Il2CppName: ParseCanonicalName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int, int, bool&)>(&System::UncNameHelper::ParseCanonicalName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -42,7 +42,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: IsValid
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, uint16_t, int&, bool)>(&System::UncNameHelper::IsValid)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "UInt16")->byval_arg;
     static auto* returnedEnd = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;

@@ -81,7 +81,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::CIELabColor*, "UnityEngine.ProBu
 // Il2CppName: FromXYZ
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::CIELabColor* (*)(UnityEngine::ProBuilder::XYZColor*)>(&UnityEngine::ProBuilder::CIELabColor::FromXYZ)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* xyz = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "XYZColor")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::CIELabColor*), "FromXYZ", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{xyz});
   }
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: FromRGB
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::CIELabColor* (*)(UnityEngine::Color)>(&UnityEngine::ProBuilder::CIELabColor::FromRGB)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* col = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::CIELabColor*), "FromRGB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{col});
   }
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: ToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ProBuilder::CIELabColor::*)()>(&UnityEngine::ProBuilder::CIELabColor::ToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::CIELabColor*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

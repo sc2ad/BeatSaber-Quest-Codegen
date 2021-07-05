@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRExtendedDisplay::_GetEyeOutputViewport*, "V
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRExtendedDisplay::_GetEyeOutputViewport::*)(Valve::VR::EVREye, uint&, uint&, uint&, uint&)>(&Valve::VR::IVRExtendedDisplay::_GetEyeOutputViewport::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eEye = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVREye")->byval_arg;
     static auto* pnX = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
     static auto* pnY = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRExtendedDisplay::_GetEyeOutputViewport::*)(Valve::VR::EVREye, uint&, uint&, uint&, uint&, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRExtendedDisplay::_GetEyeOutputViewport::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eEye = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVREye")->byval_arg;
     static auto* pnX = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
     static auto* pnY = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRExtendedDisplay::_GetEyeOutputViewport::*)(uint&, uint&, uint&, uint&, System::IAsyncResult*)>(&Valve::VR::IVRExtendedDisplay::_GetEyeOutputViewport::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pnX = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
     static auto* pnY = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
     static auto* pnWidth = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;

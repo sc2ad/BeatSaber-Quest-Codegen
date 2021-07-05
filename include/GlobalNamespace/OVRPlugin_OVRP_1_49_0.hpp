@@ -98,7 +98,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_49_0*, "", "OVRPlugin/
 // Il2CppName: ovrp_SetClientColorDesc
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::ColorSpace)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_SetClientColorDesc)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* colorSpace = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/ColorSpace")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), "ovrp_SetClientColorDesc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorSpace});
   }
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_GetHmdColorDesc
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::ColorSpace&)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_GetHmdColorDesc)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* colorSpace = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/ColorSpace")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), "ovrp_GetHmdColorDesc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorSpace});
   }
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_Media_EncodeMrcFrameWithPoseTime
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(System::IntPtr, System::IntPtr, int, int, double, double, int&)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_EncodeMrcFrameWithPoseTime)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rawBuffer = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* audioDataPtr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* audioDataLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_Media_EncodeMrcFrameDualTexturesWithPoseTime
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(System::IntPtr, System::IntPtr, System::IntPtr, int, int, double, double, int&)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_EncodeMrcFrameDualTexturesWithPoseTime)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* backgroundTextureHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* foregroundTextureHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* audioData = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_Media_SetHeadsetControllerPose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::Posef, GlobalNamespace::OVRPlugin::Posef, GlobalNamespace::OVRPlugin::Posef)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_SetHeadsetControllerPose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* headsetPose = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Posef")->byval_arg;
     static auto* leftControllerPose = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Posef")->byval_arg;
     static auto* rightControllerPose = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Posef")->byval_arg;
@@ -158,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_Media_EnumerateCameraAnchorHandles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(int&, System::IntPtr&)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_EnumerateCameraAnchorHandles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* anchorCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* CameraAnchorHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), "ovrp_Media_EnumerateCameraAnchorHandles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{anchorCount, CameraAnchorHandle});
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_Media_GetCurrentCameraAnchorHandle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(System::IntPtr&)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_GetCurrentCameraAnchorHandle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* anchorHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), "ovrp_Media_GetCurrentCameraAnchorHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{anchorHandle});
   }
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_Media_GetCameraAnchorName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(System::IntPtr, ::Array<::Il2CppChar>*)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_GetCameraAnchorName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* anchorHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* cameraName = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), "ovrp_Media_GetCameraAnchorName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{anchorHandle, cameraName});
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_Media_GetCameraAnchorHandle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(System::IntPtr, System::IntPtr&)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_GetCameraAnchorHandle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* anchorName = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* anchorHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), "ovrp_Media_GetCameraAnchorHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{anchorName, anchorHandle});
@@ -197,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_Media_GetCameraAnchorType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(System::IntPtr, GlobalNamespace::OVRPlugin::CameraAnchorType&)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_GetCameraAnchorType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* anchorHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* anchorType = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/CameraAnchorType")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), "ovrp_Media_GetCameraAnchorType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{anchorHandle, anchorType});
@@ -207,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_Media_CreateCustomCameraAnchor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(System::IntPtr, System::IntPtr&)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_CreateCustomCameraAnchor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* anchorName = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* anchorHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), "ovrp_Media_CreateCustomCameraAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{anchorName, anchorHandle});
@@ -217,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_Media_DestroyCustomCameraAnchor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(System::IntPtr)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_DestroyCustomCameraAnchor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* anchorHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), "ovrp_Media_DestroyCustomCameraAnchor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{anchorHandle});
   }
@@ -226,7 +226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_Media_GetCustomCameraAnchorPose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(System::IntPtr, GlobalNamespace::OVRPlugin::Posef&)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_GetCustomCameraAnchorPose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* anchorHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* pose = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Posef")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), "ovrp_Media_GetCustomCameraAnchorPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{anchorHandle, pose});
@@ -236,7 +236,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_Media_SetCustomCameraAnchorPose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(System::IntPtr, GlobalNamespace::OVRPlugin::Posef)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_SetCustomCameraAnchorPose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* anchorHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* pose = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Posef")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), "ovrp_Media_SetCustomCameraAnchorPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{anchorHandle, pose});
@@ -246,7 +246,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_Media_GetCameraMinMaxDistance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(System::IntPtr, double&, double&)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_GetCameraMinMaxDistance)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* anchorHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* minDistance = &::il2cpp_utils::GetClassFromName("System", "Double")->this_arg;
     static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Double")->this_arg;
@@ -257,7 +257,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_Media_SetCameraMinMaxDistance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(System::IntPtr, double, double)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_SetCameraMinMaxDistance)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* anchorHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* minDistance = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
@@ -268,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_49_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

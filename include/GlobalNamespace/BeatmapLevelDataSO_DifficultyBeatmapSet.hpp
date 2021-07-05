@@ -58,7 +58,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet
 // Il2CppName: get_beatmapCharacteristicSerializedName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet::*)()>(&GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet::get_beatmapCharacteristicSerializedName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*), "get_beatmapCharacteristicSerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -66,7 +66,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_difficultyBeatmaps
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmap*>* (GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet::*)()>(&GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet::get_difficultyBeatmaps)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*), "get_difficultyBeatmaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -49,7 +49,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::DateTime::$$c*, "Syst
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Net::Http::Headers::Parser::DateTime::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Parser::DateTime::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -57,7 +57,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <.cctor>b__2_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::Http::Headers::Parser::DateTime::$$c::*)(::Il2CppObject*)>(&System::Net::Http::Headers::Parser::DateTime::$$c::$_cctor$b__2_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* l = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Parser::DateTime::$$c*), "<.cctor>b__2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{l});
   }

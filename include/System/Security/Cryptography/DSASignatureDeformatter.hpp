@@ -93,7 +93,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::DSASignatureDeformatter*,
 // Il2CppName: SetKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::DSASignatureDeformatter::*)(System::Security::Cryptography::AsymmetricAlgorithm*)>(&System::Security::Cryptography::DSASignatureDeformatter::SetKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "AsymmetricAlgorithm")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::DSASignatureDeformatter*), "SetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
   }
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: SetHashAlgorithm
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::DSASignatureDeformatter::*)(::Il2CppString*)>(&System::Security::Cryptography::DSASignatureDeformatter::SetHashAlgorithm)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* strName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::DSASignatureDeformatter*), "SetHashAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{strName});
   }
@@ -111,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: VerifySignature
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::DSASignatureDeformatter::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&System::Security::Cryptography::DSASignatureDeformatter::VerifySignature)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rgbHash = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* rgbSignature = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::DSASignatureDeformatter*), "VerifySignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rgbHash, rgbSignature});

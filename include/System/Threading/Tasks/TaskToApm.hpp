@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskToApm*, "System.Threading.T
 // Il2CppName: Begin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (*)(System::Threading::Tasks::Task*, System::AsyncCallback*, ::Il2CppObject*)>(&System::Threading::Tasks::TaskToApm::Begin)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* task = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: End
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IAsyncResult*)>(&System::Threading::Tasks::TaskToApm::End)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* asyncResult = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskToApm*), "End", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncResult});
   }
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: InvokeCallbackWhenTaskCompletes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Tasks::Task*, System::AsyncCallback*, System::IAsyncResult*)>(&System::Threading::Tasks::TaskToApm::InvokeCallbackWhenTaskCompletes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* antecedent = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* asyncResult = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;

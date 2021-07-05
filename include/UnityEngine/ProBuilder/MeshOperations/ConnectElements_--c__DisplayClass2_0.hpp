@@ -72,7 +72,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ConnectElements:
 // Il2CppName: <Connect>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass2_0::*)(int)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass2_0::$Connect$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass2_0*), "<Connect>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: <Connect>b__3
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass2_0::*)(int)>(&UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass2_0::$Connect$b__3)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass2_0*), "<Connect>b__3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }

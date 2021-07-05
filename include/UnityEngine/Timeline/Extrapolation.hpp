@@ -49,7 +49,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::Extrapolation*, "UnityEngine.Timel
 // Il2CppName: CalculateExtrapolationTimes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::TrackAsset*)>(&UnityEngine::Timeline::Extrapolation::CalculateExtrapolationTimes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* asset = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TrackAsset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::Extrapolation*), "CalculateExtrapolationTimes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asset});
   }
@@ -58,7 +58,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: SortClipsByStartTime
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Timeline::TimelineClip*>* (*)(::Array<UnityEngine::Timeline::TimelineClip*>*)>(&UnityEngine::Timeline::Extrapolation::SortClipsByStartTime)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* clips = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TimelineClip"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::Extrapolation*), "SortClipsByStartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clips});
   }
@@ -67,7 +67,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::Timeline::Extrapolation::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::Extrapolation*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

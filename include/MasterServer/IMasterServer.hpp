@@ -112,7 +112,7 @@ DEFINE_IL2CPP_ARG_TYPE(MasterServer::IMasterServer*, "MasterServer", "IMasterSer
 // Il2CppName: ShouldHandleMessageFromEndPoint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::IMasterServer::*)(System::Net::IPEndPoint*)>(&MasterServer::IMasterServer::ShouldHandleMessageFromEndPoint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IMasterServer*), "ShouldHandleMessageFromEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{remoteEndPoint});
   }
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Maste
 // Il2CppName: ReportExceptionForEndPoint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IMasterServer::*)(System::Net::IPEndPoint*, System::Exception*)>(&MasterServer::IMasterServer::ReportExceptionForEndPoint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* exception = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IMasterServer*), "ReportExceptionForEndPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{remoteEndPoint, exception});
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: TryAuthenticateUser
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (MasterServer::IMasterServer::*)(uint, System::Net::IPEndPoint*, GlobalNamespace::AuthenticationToken)>(&MasterServer::IMasterServer::TryAuthenticateUser)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* protocolVersion = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* authenticationToken = &::il2cpp_utils::GetClassFromName("", "AuthenticationToken")->byval_arg;
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: UpdateUserServerStatus
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<MasterServer::UserServerStatusUpdateResponse*>* (MasterServer::IMasterServer::*)(uint, System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Array<uint8_t>*, ::Array<uint8_t>*, int, int, GlobalNamespace::DiscoveryPolicy, GlobalNamespace::InvitePolicy, GlobalNamespace::GameplayServerConfiguration)>(&MasterServer::IMasterServer::UpdateUserServerStatus)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* protocolVersion = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: HeartbeatUserServer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<MasterServer::UserServerHeartbeatResponse*>* (MasterServer::IMasterServer::*)(uint, System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, int)>(&MasterServer::IMasterServer::HeartbeatUserServer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* protocolVersion = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -178,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: RemoveUserServer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IMasterServer::*)(uint, System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&MasterServer::IMasterServer::RemoveUserServer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* protocolVersion = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -191,7 +191,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: GetPublicUserServers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<MasterServer::GetPublicUserServersResponse*>* (MasterServer::IMasterServer::*)(uint, System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, int, int, GlobalNamespace::GameplayServerFilter)>(&MasterServer::IMasterServer::GetPublicUserServers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* protocolVersion = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -206,7 +206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: ConnectToUserServer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<MasterServer::ConnectToServerResponse*>* (MasterServer::IMasterServer::*)(uint, System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Array<uint8_t>*, ::Array<uint8_t>*, bool)>(&MasterServer::IMasterServer::ConnectToUserServer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* protocolVersion = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -224,7 +224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: ConnectToMatchmakingServer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<MasterServer::ConnectToServerResponse*>* (MasterServer::IMasterServer::*)(uint, System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, GlobalNamespace::GameplayServerConfiguration, GlobalNamespace::DiscoveryPolicy, ::Array<uint8_t>*, ::Array<uint8_t>*, ::Il2CppString*, ::Il2CppString*)>(&MasterServer::IMasterServer::ConnectToMatchmakingServer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* protocolVersion = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -242,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: TryAuthenticateDedicatedServer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::IMasterServer::*)(uint, System::Net::IPEndPoint*, ::Il2CppString*, ::Array<uint8_t>*, ::Array<uint8_t>*, int64_t)>(&MasterServer::IMasterServer::TryAuthenticateDedicatedServer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* protocolVersion = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -256,7 +256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Maste
 // Il2CppName: HeartbeatDedicatedServer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IMasterServer::*)(uint, ::Il2CppString*, int64_t, System::Net::IPEndPoint*, int, int, int)>(&MasterServer::IMasterServer::HeartbeatDedicatedServer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* protocolVersion = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* dedicatedServerId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* dedicatedServerCreationTime = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
@@ -271,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: UpdateMatchmakingServerStatus
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IMasterServer::*)(uint, ::Il2CppString*, int64_t, System::Net::IPEndPoint*, ::Il2CppString*, GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType, int)>(&MasterServer::IMasterServer::UpdateMatchmakingServerStatus)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* protocolVersion = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* dedicatedServerId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* dedicatedServerCreationTime = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
@@ -286,7 +286,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: UpdateRelayServerStatus
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IMasterServer::*)(uint, ::Il2CppString*, int64_t, System::Net::IPEndPoint*, ::Il2CppString*, int)>(&MasterServer::IMasterServer::UpdateRelayServerStatus)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* protocolVersion = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* dedicatedServerId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* dedicatedServerCreationTime = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
@@ -300,7 +300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: SetDedicatedServerNoLongerOccupied
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IMasterServer::*)(uint, ::Il2CppString*, int64_t, System::Net::IPEndPoint*, ::Il2CppString*)>(&MasterServer::IMasterServer::SetDedicatedServerNoLongerOccupied)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* protocolVersion = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* dedicatedServerId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* dedicatedServerCreationTime = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
@@ -313,7 +313,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: RemoveDedicatedServer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::IMasterServer::*)(uint, ::Il2CppString*, int64_t, System::Net::IPEndPoint*)>(&MasterServer::IMasterServer::RemoveDedicatedServer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* protocolVersion = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* dedicatedServerId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* dedicatedServerCreationTime = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;

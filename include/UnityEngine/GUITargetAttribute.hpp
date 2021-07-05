@@ -49,7 +49,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUITargetAttribute*, "UnityEngine", "GUITarg
 // Il2CppName: GetGUITargetAttrValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Type*, ::Il2CppString*)>(&UnityEngine::GUITargetAttribute::GetGUITargetAttrValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* klass = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUITargetAttribute*), "GetGUITargetAttrValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{klass, methodName});

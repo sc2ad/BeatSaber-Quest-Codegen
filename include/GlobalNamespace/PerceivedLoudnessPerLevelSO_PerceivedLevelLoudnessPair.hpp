@@ -56,7 +56,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLe
 // Il2CppName: get_levelId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair::*)()>(&GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair::get_levelId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*), "get_levelId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -64,7 +64,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_perceivedLoudness
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair::*)()>(&GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair::get_perceivedLoudness)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*), "get_perceivedLoudness", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

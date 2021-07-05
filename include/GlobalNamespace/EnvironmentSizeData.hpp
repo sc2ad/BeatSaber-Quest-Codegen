@@ -145,7 +145,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSizeData::CeilingType, "", "E
 // Il2CppName: get_floorType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentSizeData::FloorType (GlobalNamespace::EnvironmentSizeData::*)()>(&GlobalNamespace::EnvironmentSizeData::get_floorType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentSizeData*), "get_floorType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_ceilingType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentSizeData::CeilingType (GlobalNamespace::EnvironmentSizeData::*)()>(&GlobalNamespace::EnvironmentSizeData::get_ceilingType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentSizeData*), "get_ceilingType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

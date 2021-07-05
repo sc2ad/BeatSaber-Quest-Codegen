@@ -58,7 +58,7 @@ DEFINE_IL2CPP_ARG_TYPE(Priority_Queue::StablePriorityQueueNode*, "Priority_Queue
 // Il2CppName: get_InsertionIndex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Priority_Queue::StablePriorityQueueNode::*)()>(&Priority_Queue::StablePriorityQueueNode::get_InsertionIndex)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Priority_Queue::StablePriorityQueueNode*), "get_InsertionIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -66,7 +66,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Pr
 // Il2CppName: set_InsertionIndex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Priority_Queue::StablePriorityQueueNode::*)(int64_t)>(&Priority_Queue::StablePriorityQueueNode::set_InsertionIndex)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Priority_Queue::StablePriorityQueueNode*), "set_InsertionIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

@@ -65,7 +65,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Analytics::AnalyticsSessionInfo::SessionStat
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Analytics::AnalyticsSessionInfo::SessionStateChanged::*)(UnityEngine::Analytics::AnalyticsSessionState, int64_t, int64_t, bool)>(&UnityEngine::Analytics::AnalyticsSessionInfo::SessionStateChanged::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sessionState = &::il2cpp_utils::GetClassFromName("UnityEngine.Analytics", "AnalyticsSessionState")->byval_arg;
     static auto* sessionId = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* sessionElapsedTime = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (UnityEngine::Analytics::AnalyticsSessionInfo::SessionStateChanged::*)(UnityEngine::Analytics::AnalyticsSessionState, int64_t, int64_t, bool, System::AsyncCallback*, ::Il2CppObject*)>(&UnityEngine::Analytics::AnalyticsSessionInfo::SessionStateChanged::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sessionState = &::il2cpp_utils::GetClassFromName("UnityEngine.Analytics", "AnalyticsSessionState")->byval_arg;
     static auto* sessionId = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* sessionElapsedTime = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Analytics::AnalyticsSessionInfo::SessionStateChanged::*)(System::IAsyncResult*)>(&UnityEngine::Analytics::AnalyticsSessionInfo::SessionStateChanged::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Analytics::AnalyticsSessionInfo::SessionStateChanged*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

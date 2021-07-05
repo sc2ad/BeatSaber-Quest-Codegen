@@ -56,7 +56,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEditorSceneSetupData*, "", "Beatm
 // Il2CppName: get_levelDirPath
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BeatmapEditorSceneSetupData::*)()>(&GlobalNamespace::BeatmapEditorSceneSetupData::get_levelDirPath)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEditorSceneSetupData*), "get_levelDirPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -64,7 +64,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_levelAssetPath
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BeatmapEditorSceneSetupData::*)()>(&GlobalNamespace::BeatmapEditorSceneSetupData::get_levelAssetPath)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEditorSceneSetupData*), "get_levelAssetPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

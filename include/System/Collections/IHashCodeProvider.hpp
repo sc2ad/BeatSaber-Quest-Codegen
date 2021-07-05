@@ -31,7 +31,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Collections::IHashCodeProvider*, "System.Collecti
 // Il2CppName: GetHashCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::IHashCodeProvider::*)(::Il2CppObject*)>(&System::Collections::IHashCodeProvider::GetHashCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Collections::IHashCodeProvider*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }

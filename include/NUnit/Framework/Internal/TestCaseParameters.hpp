@@ -76,7 +76,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestCaseParameters*, "NUnit.F
 // Il2CppName: get_ExpectedResult
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (NUnit::Framework::Internal::TestCaseParameters::*)()>(&NUnit::Framework::Internal::TestCaseParameters::get_ExpectedResult)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestCaseParameters*), "get_ExpectedResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: get_HasExpectedResult
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Internal::TestCaseParameters::*)()>(&NUnit::Framework::Internal::TestCaseParameters::get_HasExpectedResult)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestCaseParameters*), "get_HasExpectedResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

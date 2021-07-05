@@ -69,7 +69,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter:
 // Il2CppName: get_defaultColor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData::*)()>(&GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData::get_defaultColor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*), "get_defaultColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_darkerColorMultiplier
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData::*)()>(&GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData::get_darkerColorMultiplier)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*), "get_darkerColorMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: get_whiteBoost
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData::*)()>(&GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData::get_whiteBoost)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*), "get_whiteBoost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -76,7 +76,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*, "
 // Il2CppName: get_Beta
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::*)()>(&Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::get_Beta)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*), "get_Beta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: get_SplitParams
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* (Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::*)()>(&Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::get_SplitParams)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*), "get_SplitParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

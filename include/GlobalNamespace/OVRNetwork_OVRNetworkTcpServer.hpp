@@ -96,7 +96,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRNetwork::OVRNetworkTcpServer*, "", "O
 // Il2CppName: StartListening
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::*)(int)>(&GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::StartListening)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* listeningPort = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNetwork::OVRNetworkTcpServer*), "StartListening", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{listeningPort});
   }
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: StopListening
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::*)()>(&GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::StopListening)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNetwork::OVRNetworkTcpServer*), "StopListening", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: DoAcceptTcpClientCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::*)(System::IAsyncResult*)>(&GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::DoAcceptTcpClientCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ar = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNetwork::OVRNetworkTcpServer*), "DoAcceptTcpClientCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ar});
   }
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HasConnectedClient
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::*)()>(&GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::HasConnectedClient)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNetwork::OVRNetworkTcpServer*), "HasConnectedClient", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: Broadcast
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::*)(int, ::Array<uint8_t>*)>(&GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::Broadcast)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* payloadType = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* payload = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNetwork::OVRNetworkTcpServer*), "Broadcast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{payloadType, payload});
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: DoWriteDataCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::*)(System::IAsyncResult*)>(&GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::DoWriteDataCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ar = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRNetwork::OVRNetworkTcpServer*), "DoWriteDataCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ar});
   }

@@ -117,7 +117,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPartsModelSO*, "", "AvatarPartsMod
 // Il2CppName: get_headTops
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::AvatarMeshPartSO*>* (GlobalNamespace::AvatarPartsModelSO::*)()>(&GlobalNamespace::AvatarPartsModelSO::get_headTops)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModelSO*), "get_headTops", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 // Il2CppName: get_Eyes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::AvatarSpritePartSO*>* (GlobalNamespace::AvatarPartsModelSO::*)()>(&GlobalNamespace::AvatarPartsModelSO::get_Eyes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModelSO*), "get_Eyes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 // Il2CppName: get_Mouths
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::AvatarSpritePartSO*>* (GlobalNamespace::AvatarPartsModelSO::*)()>(&GlobalNamespace::AvatarPartsModelSO::get_Mouths)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModelSO*), "get_Mouths", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 // Il2CppName: get_Glasses
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::AvatarMeshPartSO*>* (GlobalNamespace::AvatarPartsModelSO::*)()>(&GlobalNamespace::AvatarPartsModelSO::get_Glasses)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModelSO*), "get_Glasses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 // Il2CppName: get_FacialHair
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::AvatarMeshPartSO*>* (GlobalNamespace::AvatarPartsModelSO::*)()>(&GlobalNamespace::AvatarPartsModelSO::get_FacialHair)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModelSO*), "get_FacialHair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -157,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 // Il2CppName: get_Hands
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::AvatarMeshPartSO*>* (GlobalNamespace::AvatarPartsModelSO::*)()>(&GlobalNamespace::AvatarPartsModelSO::get_Hands)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModelSO*), "get_Hands", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 // Il2CppName: get_Clothes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::AvatarMeshPartSO*>* (GlobalNamespace::AvatarPartsModelSO::*)()>(&GlobalNamespace::AvatarPartsModelSO::get_Clothes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModelSO*), "get_Clothes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

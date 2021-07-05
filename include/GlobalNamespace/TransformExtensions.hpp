@@ -37,7 +37,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TransformExtensions*, "", "TransformExte
 // Il2CppName: InverseTransformRotation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Transform*, UnityEngine::Quaternion)>(&GlobalNamespace::TransformExtensions::InverseTransformRotation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* trans = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* worldRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TransformExtensions*), "InverseTransformRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{trans, worldRotation});

@@ -71,7 +71,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::CacheInit
 // Il2CppName: Initialize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::Initialization::CacheInitialization::*)(::Il2CppString*, ::Il2CppString*)>(&UnityEngine::AddressableAssets::Initialization::CacheInitialization::Initialize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* dataStr = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::CacheInitialization*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id, dataStr});
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: InitializeAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> (UnityEngine::AddressableAssets::Initialization::CacheInitialization::*)(UnityEngine::ResourceManagement::ResourceManager*, ::Il2CppString*, ::Il2CppString*)>(&UnityEngine::AddressableAssets::Initialization::CacheInitialization::InitializeAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rm = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement", "ResourceManager")->byval_arg;
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_RootPath
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::AddressableAssets::Initialization::CacheInitialization::get_RootPath)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::CacheInitialization*), "get_RootPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

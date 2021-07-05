@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRInput::_GetActionOrigins*, "OVR.OpenVR", 
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::IVRInput::_GetActionOrigins::*)(uint64_t, uint64_t, ::Array<uint64_t>*&, uint)>(&OVR::OpenVR::IVRInput::_GetActionOrigins::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* actionSetHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* digitalActionHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* originsOut = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->this_arg;
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRInput::_GetActionOrigins::*)(uint64_t, uint64_t, ::Array<uint64_t>*&, uint, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRInput::_GetActionOrigins::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* actionSetHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* digitalActionHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* originsOut = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->this_arg;
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::IVRInput::_GetActionOrigins::*)(System::IAsyncResult*)>(&OVR::OpenVR::IVRInput::_GetActionOrigins::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRInput::_GetActionOrigins*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

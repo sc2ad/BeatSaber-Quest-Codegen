@@ -67,7 +67,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::ScriptableRuntimeRe
 // Il2CppName: get_implementation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* (UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper::*)()>(&UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper::get_implementation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper*), "get_implementation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_implementation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper::*)(UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*)>(&UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper::set_implementation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.Rendering", "IScriptableRuntimeReflectionSystem")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper*), "set_implementation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper::*)(bool&)>(&UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper::Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper*), "Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

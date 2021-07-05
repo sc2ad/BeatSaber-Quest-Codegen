@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRInput::_ShowBindingsForActionSet*, "OVR.O
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::IVRInput::_ShowBindingsForActionSet::*)(::Array<OVR::OpenVR::VRActiveActionSet_t>*&, uint, uint, uint64_t)>(&OVR::OpenVR::IVRInput::_ShowBindingsForActionSet::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pSets = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRActiveActionSet_t"), 1)->this_arg;
     static auto* unSizeOfVRSelectedActionSet_t = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* unSetCount = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRInput::_ShowBindingsForActionSet::*)(::Array<OVR::OpenVR::VRActiveActionSet_t>*&, uint, uint, uint64_t, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRInput::_ShowBindingsForActionSet::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pSets = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRActiveActionSet_t"), 1)->this_arg;
     static auto* unSizeOfVRSelectedActionSet_t = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* unSetCount = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::IVRInput::_ShowBindingsForActionSet::*)(System::IAsyncResult*)>(&OVR::OpenVR::IVRInput::_ShowBindingsForActionSet::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRInput::_ShowBindingsForActionSet*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

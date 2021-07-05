@@ -34,7 +34,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::CameraEventUtils*, "UnityEngine.R
 // Il2CppName: IsValid
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Rendering::CameraEvent)>(&UnityEngine::Rendering::CameraEventUtils::IsValid)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "CameraEvent")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::CameraEventUtils*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

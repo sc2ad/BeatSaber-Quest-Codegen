@@ -70,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRInput::_GetPoseActionData*, "OVR.OpenVR",
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::IVRInput::_GetPoseActionData::*)(uint64_t, OVR::OpenVR::ETrackingUniverseOrigin, float, OVR::OpenVR::InputPoseActionData_t&, uint, uint64_t)>(&OVR::OpenVR::IVRInput::_GetPoseActionData::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eOrigin = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackingUniverseOrigin")->byval_arg;
     static auto* fPredictedSecondsFromNow = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRInput::_GetPoseActionData::*)(uint64_t, OVR::OpenVR::ETrackingUniverseOrigin, float, OVR::OpenVR::InputPoseActionData_t&, uint, uint64_t, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRInput::_GetPoseActionData::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eOrigin = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackingUniverseOrigin")->byval_arg;
     static auto* fPredictedSecondsFromNow = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::IVRInput::_GetPoseActionData::*)(OVR::OpenVR::InputPoseActionData_t&, System::IAsyncResult*)>(&OVR::OpenVR::IVRInput::_GetPoseActionData::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pActionData = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "InputPoseActionData_t")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRInput::_GetPoseActionData*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pActionData, result});

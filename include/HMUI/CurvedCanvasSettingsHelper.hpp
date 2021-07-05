@@ -98,7 +98,7 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::CurvedCanvasSettingsHelper*, "HMUI", "CurvedCanvasS
 // Il2CppName: Reset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CurvedCanvasSettingsHelper::*)()>(&HMUI::CurvedCanvasSettingsHelper::Reset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::CurvedCanvasSettingsHelper*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: GetCurvedCanvasSettings
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::CurvedCanvasSettings* (HMUI::CurvedCanvasSettingsHelper::*)(UnityEngine::Canvas*)>(&HMUI::CurvedCanvasSettingsHelper::GetCurvedCanvasSettings)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* canvas = &::il2cpp_utils::GetClassFromName("UnityEngine", "Canvas")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::CurvedCanvasSettingsHelper*), "GetCurvedCanvasSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{canvas});
   }
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::Curve
 // Il2CppName: GetCurvedCanvasSettingsForCanvas
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::CurvedCanvasSettings* (*)(UnityEngine::Canvas*)>(&HMUI::CurvedCanvasSettingsHelper::GetCurvedCanvasSettingsForCanvas)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* canvas = &::il2cpp_utils::GetClassFromName("UnityEngine", "Canvas")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::CurvedCanvasSettingsHelper*), "GetCurvedCanvasSettingsForCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{canvas});
   }
@@ -124,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::Curve
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&HMUI::CurvedCanvasSettingsHelper::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::CurvedCanvasSettingsHelper*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Compatibility::AdditionalTypeExtensions::$$c__Disp
 // Il2CppName: <IsCastableFrom>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0::*)(System::Reflection::MethodInfo*)>(&NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0::$IsCastableFrom$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* m = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0*), "<IsCastableFrom>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{m});
   }

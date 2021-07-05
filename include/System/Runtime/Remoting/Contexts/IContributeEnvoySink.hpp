@@ -39,7 +39,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IContributeEnvoySink
 // Il2CppName: GetEnvoySink
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (System::Runtime::Remoting::Contexts::IContributeEnvoySink::*)(System::MarshalByRefObject*, System::Runtime::Remoting::Messaging::IMessageSink*)>(&System::Runtime::Remoting::Contexts::IContributeEnvoySink::GetEnvoySink)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "MarshalByRefObject")->byval_arg;
     static auto* nextSink = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "IMessageSink")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::IContributeEnvoySink*), "GetEnvoySink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, nextSink});

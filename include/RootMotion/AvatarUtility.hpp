@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::AvatarUtility*, "RootMotion", "AvatarUtility"
 // Il2CppName: GetPostRotation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Avatar*, UnityEngine::AvatarIKGoal)>(&RootMotion::AvatarUtility::GetPostRotation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* avatar = &::il2cpp_utils::GetClassFromName("UnityEngine", "Avatar")->byval_arg;
     static auto* avatarIKGoal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::AvatarUtility*), "GetPostRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{avatar, avatarIKGoal});
@@ -73,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetIKGoalTQ
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::TQ* (*)(UnityEngine::Avatar*, float, UnityEngine::AvatarIKGoal, RootMotion::TQ*, RootMotion::TQ*)>(&RootMotion::AvatarUtility::GetIKGoalTQ)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* avatar = &::il2cpp_utils::GetClassFromName("UnityEngine", "Avatar")->byval_arg;
     static auto* humanScale = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* avatarIKGoal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion:
 // Il2CppName: HumanIDFromAvatarIKGoal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::HumanBodyBones (*)(UnityEngine::AvatarIKGoal)>(&RootMotion::AvatarUtility::HumanIDFromAvatarIKGoal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* avatarIKGoal = &::il2cpp_utils::GetClassFromName("UnityEngine", "AvatarIKGoal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::AvatarUtility*), "HumanIDFromAvatarIKGoal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{avatarIKGoal});
   }

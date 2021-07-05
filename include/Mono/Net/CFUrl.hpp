@@ -44,7 +44,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFUrl*, "Mono.Net", "CFUrl");
 // Il2CppName: CFURLCreateWithString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::IntPtr, System::IntPtr)>(&Mono::Net::CFUrl::CFURLCreateWithString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* allocator = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* baseURL = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -55,7 +55,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: Create
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::CFUrl* (*)(::Il2CppString*)>(&Mono::Net::CFUrl::Create)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* absolute = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFUrl*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{absolute});
   }

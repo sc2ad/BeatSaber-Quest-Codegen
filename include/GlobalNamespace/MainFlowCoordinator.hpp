@@ -335,7 +335,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainFlowCoordinator*, "", "MainFlowCoord
 // Il2CppName: PresentFlowCoordinatorOrAskForTutorial
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainFlowCoordinator::*)(HMUI::FlowCoordinator*)>(&GlobalNamespace::MainFlowCoordinator::PresentFlowCoordinatorOrAskForTutorial)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* flowCoordinator = &::il2cpp_utils::GetClassFromName("HMUI", "FlowCoordinator")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainFlowCoordinator*), "PresentFlowCoordinatorOrAskForTutorial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flowCoordinator});
   }
@@ -344,7 +344,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleMainMenuViewControllerDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainFlowCoordinator::*)(GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton)>(&GlobalNamespace::MainFlowCoordinator::HandleMainMenuViewControllerDidFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* viewController = &::il2cpp_utils::GetClassFromName("", "MainMenuViewController")->byval_arg;
     static auto* subMenuType = &::il2cpp_utils::GetClassFromName("", "MainMenuViewController/MenuButton")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainFlowCoordinator*), "HandleMainMenuViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{viewController, subMenuType});
@@ -354,7 +354,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleOptionsViewControllerDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainFlowCoordinator::*)(GlobalNamespace::OptionsViewController::OptionsButton)>(&GlobalNamespace::MainFlowCoordinator::HandleOptionsViewControllerDidFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* optionsType = &::il2cpp_utils::GetClassFromName("", "OptionsViewController/OptionsButton")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainFlowCoordinator*), "HandleOptionsViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{optionsType});
   }
@@ -363,7 +363,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandlePlayerOptionsViewControllerDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainFlowCoordinator::*)(HMUI::ViewController*)>(&GlobalNamespace::MainFlowCoordinator::HandlePlayerOptionsViewControllerDidFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* viewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainFlowCoordinator*), "HandlePlayerOptionsViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{viewController});
   }
@@ -372,7 +372,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleHowToPlayViewControllerDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainFlowCoordinator::*)(GlobalNamespace::HowToPlayViewController::HowToPlayOptions)>(&GlobalNamespace::MainFlowCoordinator::HandleHowToPlayViewControllerDidFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* howToPlayOptions = &::il2cpp_utils::GetClassFromName("", "HowToPlayViewController/HowToPlayOptions")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainFlowCoordinator*), "HandleHowToPlayViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{howToPlayOptions});
   }
@@ -381,7 +381,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleCampaignFlowCoordinatorDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainFlowCoordinator::*)(GlobalNamespace::CampaignFlowCoordinator*)>(&GlobalNamespace::MainFlowCoordinator::HandleCampaignFlowCoordinatorDidFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* flowCoordinator = &::il2cpp_utils::GetClassFromName("", "CampaignFlowCoordinator")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainFlowCoordinator*), "HandleCampaignFlowCoordinatorDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flowCoordinator});
   }
@@ -390,7 +390,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleEditAvatarFlowCoordinatorDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainFlowCoordinator::*)(GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType)>(&GlobalNamespace::MainFlowCoordinator::HandleEditAvatarFlowCoordinatorDidFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* flowCoordinator = &::il2cpp_utils::GetClassFromName("", "EditAvatarFlowCoordinator")->byval_arg;
     static auto* editAvatarType = &::il2cpp_utils::GetClassFromName("", "EditAvatarFlowCoordinator/EditAvatarType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainFlowCoordinator*), "HandleEditAvatarFlowCoordinatorDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flowCoordinator, editAvatarType});
@@ -400,7 +400,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleSoloFreePlayFlowCoordinatorDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainFlowCoordinator::*)(GlobalNamespace::LevelSelectionFlowCoordinator*)>(&GlobalNamespace::MainFlowCoordinator::HandleSoloFreePlayFlowCoordinatorDidFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* flowCoordinator = &::il2cpp_utils::GetClassFromName("", "LevelSelectionFlowCoordinator")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainFlowCoordinator*), "HandleSoloFreePlayFlowCoordinatorDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flowCoordinator});
   }
@@ -409,7 +409,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandlePartyFreePlayFlowCoordinatorDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainFlowCoordinator::*)(GlobalNamespace::LevelSelectionFlowCoordinator*)>(&GlobalNamespace::MainFlowCoordinator::HandlePartyFreePlayFlowCoordinatorDidFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* flowCoordinator = &::il2cpp_utils::GetClassFromName("", "LevelSelectionFlowCoordinator")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainFlowCoordinator*), "HandlePartyFreePlayFlowCoordinatorDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flowCoordinator});
   }
@@ -418,7 +418,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleSettingsFlowCoordinatorDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainFlowCoordinator::*)(GlobalNamespace::SettingsFlowCoordinator*, GlobalNamespace::SettingsFlowCoordinator::FinishAction)>(&GlobalNamespace::MainFlowCoordinator::HandleSettingsFlowCoordinatorDidFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* settingsFlowCoordinator = &::il2cpp_utils::GetClassFromName("", "SettingsFlowCoordinator")->byval_arg;
     static auto* finishAction = &::il2cpp_utils::GetClassFromName("", "SettingsFlowCoordinator/FinishAction")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainFlowCoordinator*), "HandleSettingsFlowCoordinatorDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{settingsFlowCoordinator, finishAction});
@@ -428,7 +428,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleMultiplayerModeSelectionFlowCoordinatorDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainFlowCoordinator::*)(GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*)>(&GlobalNamespace::MainFlowCoordinator::HandleMultiplayerModeSelectionFlowCoordinatorDidFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* multiplayerModeSelectionFlowCoordinator = &::il2cpp_utils::GetClassFromName("", "MultiplayerModeSelectionFlowCoordinator")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainFlowCoordinator*), "HandleMultiplayerModeSelectionFlowCoordinatorDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multiplayerModeSelectionFlowCoordinator});
   }
@@ -437,7 +437,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleMainMenuViewControllerMusicPackPromoButtonWasPressed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainFlowCoordinator::*)(GlobalNamespace::IBeatmapLevelPack*)>(&GlobalNamespace::MainFlowCoordinator::HandleMainMenuViewControllerMusicPackPromoButtonWasPressed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmapLevelPack = &::il2cpp_utils::GetClassFromName("", "IBeatmapLevelPack")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainFlowCoordinator*), "HandleMainMenuViewControllerMusicPackPromoButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapLevelPack});
   }
@@ -446,7 +446,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ProcessMenuDestinationRequest
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainFlowCoordinator::*)(GlobalNamespace::MenuDestination*)>(&GlobalNamespace::MainFlowCoordinator::ProcessMenuDestinationRequest)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* destination = &::il2cpp_utils::GetClassFromName("", "MenuDestination")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainFlowCoordinator*), "ProcessMenuDestinationRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{destination});
   }
@@ -455,7 +455,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainFlowCoordinator::*)()>(&GlobalNamespace::MainFlowCoordinator::PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainFlowCoordinator*), "PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -463,7 +463,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ProcessMenuDestinationRequestAfterFrameCoroutine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::MainFlowCoordinator::*)(GlobalNamespace::MenuDestination*)>(&GlobalNamespace::MainFlowCoordinator::ProcessMenuDestinationRequestAfterFrameCoroutine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* destination = &::il2cpp_utils::GetClassFromName("", "MenuDestination")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainFlowCoordinator*), "ProcessMenuDestinationRequestAfterFrameCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{destination});
   }
@@ -472,7 +472,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: <PresentFlowCoordinatorOrAskForTutorial>b__26_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainFlowCoordinator::*)(int)>(&GlobalNamespace::MainFlowCoordinator::$PresentFlowCoordinatorOrAskForTutorial$b__26_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buttonNumber = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainFlowCoordinator*), "<PresentFlowCoordinatorOrAskForTutorial>b__26_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buttonNumber});
   }
@@ -481,7 +481,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <PresentFlowCoordinatorOrAskForTutorial>b__26_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainFlowCoordinator::*)()>(&GlobalNamespace::MainFlowCoordinator::$PresentFlowCoordinatorOrAskForTutorial$b__26_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainFlowCoordinator*), "<PresentFlowCoordinatorOrAskForTutorial>b__26_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -489,7 +489,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <HandleMainMenuViewControllerDidFinish>b__27_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainFlowCoordinator::*)()>(&GlobalNamespace::MainFlowCoordinator::$HandleMainMenuViewControllerDidFinish$b__27_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainFlowCoordinator*), "<HandleMainMenuViewControllerDidFinish>b__27_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -497,7 +497,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <HandleMainMenuViewControllerDidFinish>b__27_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainFlowCoordinator::*)(int)>(&GlobalNamespace::MainFlowCoordinator::$HandleMainMenuViewControllerDidFinish$b__27_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buttonNumber = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainFlowCoordinator*), "<HandleMainMenuViewControllerDidFinish>b__27_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buttonNumber});
   }
@@ -506,7 +506,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator>b__39_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainFlowCoordinator::*)(int)>(&GlobalNamespace::MainFlowCoordinator::$PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator$b__39_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* buttonNumber = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainFlowCoordinator*), "<PresentMultiplayerModeSelectionFlowCoordinatorWithDisclaimerAndAvatarCreator>b__39_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buttonNumber});
   }
@@ -515,7 +515,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: DidActivate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainFlowCoordinator::*)(bool, bool, bool)>(&GlobalNamespace::MainFlowCoordinator::DidActivate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* firstActivation = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* addedToHierarchy = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* screenSystemEnabling = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -526,7 +526,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: TopViewControllerWillChange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainFlowCoordinator::*)(HMUI::ViewController*, HMUI::ViewController*, HMUI::ViewController::AnimationType)>(&GlobalNamespace::MainFlowCoordinator::TopViewControllerWillChange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* oldViewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     static auto* newViewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     static auto* animationType = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController/AnimationType")->byval_arg;
@@ -537,7 +537,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: InitialViewControllerWasPresented
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainFlowCoordinator::*)()>(&GlobalNamespace::MainFlowCoordinator::InitialViewControllerWasPresented)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainFlowCoordinator*), "InitialViewControllerWasPresented", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -545,7 +545,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: DidDeactivate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainFlowCoordinator::*)(bool, bool)>(&GlobalNamespace::MainFlowCoordinator::DidDeactivate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* removedFromHierarchy = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* screenSystemDisabling = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainFlowCoordinator*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{removedFromHierarchy, screenSystemDisabling});
@@ -555,7 +555,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: BackButtonWasPressed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainFlowCoordinator::*)(HMUI::ViewController*)>(&GlobalNamespace::MainFlowCoordinator::BackButtonWasPressed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* topViewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainFlowCoordinator*), "BackButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{topViewController});
   }

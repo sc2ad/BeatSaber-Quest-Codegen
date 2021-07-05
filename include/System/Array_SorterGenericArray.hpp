@@ -98,7 +98,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Array::SorterGenericArray, "System", "Array/Sorte
 // Il2CppName: SwapIfGreaterWithItems
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::SorterGenericArray::*)(int, int)>(&System::Array::SorterGenericArray::SwapIfGreaterWithItems)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* a = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Array::SorterGenericArray), "SwapIfGreaterWithItems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Swap
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::SorterGenericArray::*)(int, int)>(&System::Array::SorterGenericArray::Swap)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* j = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Array::SorterGenericArray), "Swap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i, j});
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Sort
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::SorterGenericArray::*)(int, int)>(&System::Array::SorterGenericArray::Sort)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* left = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Array::SorterGenericArray), "Sort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{left, length});
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: IntrospectiveSort
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::SorterGenericArray::*)(int, int)>(&System::Array::SorterGenericArray::IntrospectiveSort)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* left = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Array::SorterGenericArray), "IntrospectiveSort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{left, length});
@@ -138,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: IntroSort
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::SorterGenericArray::*)(int, int, int)>(&System::Array::SorterGenericArray::IntroSort)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lo = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* hi = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* depthLimit = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: PickPivotAndPartition
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Array::SorterGenericArray::*)(int, int)>(&System::Array::SorterGenericArray::PickPivotAndPartition)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lo = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* hi = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Array::SorterGenericArray), "PickPivotAndPartition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lo, hi});
@@ -159,7 +159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: Heapsort
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::SorterGenericArray::*)(int, int)>(&System::Array::SorterGenericArray::Heapsort)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lo = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* hi = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Array::SorterGenericArray), "Heapsort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lo, hi});
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: DownHeap
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::SorterGenericArray::*)(int, int, int)>(&System::Array::SorterGenericArray::DownHeap)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* n = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* lo = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -180,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: InsertionSort
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::SorterGenericArray::*)(int, int)>(&System::Array::SorterGenericArray::InsertionSort)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lo = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* hi = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Array::SorterGenericArray), "InsertionSort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lo, hi});

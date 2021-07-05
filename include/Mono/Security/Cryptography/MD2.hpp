@@ -42,7 +42,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::MD2*, "Mono.Security.Crypto
 // Il2CppName: Create
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Cryptography::MD2* (*)()>(&Mono::Security::Cryptography::MD2::Create)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD2*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -33,7 +33,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ICutScoreHandlerDidFinishEvent*, "", "IC
 // Il2CppName: HandleCutScoreHandlerDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ICutScoreHandlerDidFinishEvent::*)(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder_CutScoreHandler*)>(&GlobalNamespace::ICutScoreHandlerDidFinishEvent::HandleCutScoreHandlerDidFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cutScoreHandler = &::il2cpp_utils::GetClassFromName("", "BeatmapObjectExecutionRatingsRecorder/CutScoreHandler")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ICutScoreHandlerDidFinishEvent*), "HandleCutScoreHandlerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cutScoreHandler});
   }

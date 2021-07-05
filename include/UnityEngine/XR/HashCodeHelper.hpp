@@ -27,7 +27,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::HashCodeHelper*, "UnityEngine.XR", "Hash
 // Il2CppName: Combine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int)>(&UnityEngine::XR::HashCodeHelper::Combine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hash1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* hash2 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::HashCodeHelper*), "Combine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hash1, hash2});

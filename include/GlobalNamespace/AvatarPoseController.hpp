@@ -159,7 +159,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPoseController*, "", "AvatarPoseCo
 // Il2CppName: get_earlyPositionsWillBeSetCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AvatarPoseController::PositionsWillBeSetDelegate* (GlobalNamespace::AvatarPoseController::*)()>(&GlobalNamespace::AvatarPoseController::get_earlyPositionsWillBeSetCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPoseController*), "get_earlyPositionsWillBeSetCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -167,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: set_earlyPositionsWillBeSetCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarPoseController::*)(GlobalNamespace::AvatarPoseController::PositionsWillBeSetDelegate*)>(&GlobalNamespace::AvatarPoseController::set_earlyPositionsWillBeSetCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "AvatarPoseController/PositionsWillBeSetDelegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPoseController*), "set_earlyPositionsWillBeSetCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_latePositionsWillBeSetCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AvatarPoseController::LatePositionsWillBeSetDelegate* (GlobalNamespace::AvatarPoseController::*)()>(&GlobalNamespace::AvatarPoseController::get_latePositionsWillBeSetCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPoseController*), "get_latePositionsWillBeSetCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -184,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: set_latePositionsWillBeSetCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarPoseController::*)(GlobalNamespace::AvatarPoseController::LatePositionsWillBeSetDelegate*)>(&GlobalNamespace::AvatarPoseController::set_latePositionsWillBeSetCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "AvatarPoseController/LatePositionsWillBeSetDelegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPoseController*), "set_latePositionsWillBeSetCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -193,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_earlyRotationsWillBeSetCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AvatarPoseController::RotationsWillBeSetDelegate* (GlobalNamespace::AvatarPoseController::*)()>(&GlobalNamespace::AvatarPoseController::get_earlyRotationsWillBeSetCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPoseController*), "get_earlyRotationsWillBeSetCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -201,7 +201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: set_earlyRotationsWillBeSetCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarPoseController::*)(GlobalNamespace::AvatarPoseController::RotationsWillBeSetDelegate*)>(&GlobalNamespace::AvatarPoseController::set_earlyRotationsWillBeSetCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "AvatarPoseController/RotationsWillBeSetDelegate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPoseController*), "set_earlyRotationsWillBeSetCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -210,7 +210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_didUpdatePoseEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarPoseController::*)(System::Action_1<UnityEngine::Vector3>*)>(&GlobalNamespace::AvatarPoseController::add_didUpdatePoseEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPoseController*), "add_didUpdatePoseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -219,7 +219,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_didUpdatePoseEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarPoseController::*)(System::Action_1<UnityEngine::Vector3>*)>(&GlobalNamespace::AvatarPoseController::remove_didUpdatePoseEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPoseController*), "remove_didUpdatePoseEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -228,7 +228,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: UpdateTransforms
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarPoseController::*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Quaternion, UnityEngine::Quaternion)>(&GlobalNamespace::AvatarPoseController::UpdateTransforms)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* headPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* leftHandPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* rightHandPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -242,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: UpdateBodyPosition
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarPoseController::*)()>(&GlobalNamespace::AvatarPoseController::UpdateBodyPosition)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPoseController*), "UpdateBodyPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

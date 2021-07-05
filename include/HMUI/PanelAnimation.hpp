@@ -72,7 +72,7 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::PanelAnimation*, "HMUI", "PanelAnimation");
 // Il2CppName: StartAnimation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::PanelAnimation::*)(UnityEngine::CanvasGroup*, UnityEngine::CanvasGroup*, float, UnityEngine::AnimationCurve*, UnityEngine::AnimationCurve*, UnityEngine::AnimationCurve*, UnityEngine::AnimationCurve*, System::Action*)>(&HMUI::PanelAnimation::StartAnimation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* canvasGroup = &::il2cpp_utils::GetClassFromName("UnityEngine", "CanvasGroup")->byval_arg;
     static auto* parentCanvasGroup = &::il2cpp_utils::GetClassFromName("UnityEngine", "CanvasGroup")->byval_arg;
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: AnimationCoroutine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (HMUI::PanelAnimation::*)(float, UnityEngine::CanvasGroup*, UnityEngine::CanvasGroup*, UnityEngine::AnimationCurve*, UnityEngine::AnimationCurve*, UnityEngine::AnimationCurve*, UnityEngine::AnimationCurve*, System::Action*)>(&HMUI::PanelAnimation::AnimationCoroutine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* canvasGroup = &::il2cpp_utils::GetClassFromName("UnityEngine", "CanvasGroup")->byval_arg;
     static auto* parentCanvasGroup = &::il2cpp_utils::GetClassFromName("UnityEngine", "CanvasGroup")->byval_arg;

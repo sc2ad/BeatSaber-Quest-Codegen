@@ -230,7 +230,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Logging::LogScope*, "UnityEngine.
 // Il2CppName: get_ExpectedLogs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Queue_1<UnityEngine::TestTools::Logging::LogMatch*>* (UnityEngine::TestTools::Logging::LogScope::*)()>(&UnityEngine::TestTools::Logging::LogScope::get_ExpectedLogs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "get_ExpectedLogs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -238,7 +238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: set_ExpectedLogs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)(System::Collections::Generic::Queue_1<UnityEngine::TestTools::Logging::LogMatch*>*)>(&UnityEngine::TestTools::Logging::LogScope::set_ExpectedLogs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Queue`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.TestTools.Logging", "LogMatch")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "set_ExpectedLogs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -247,7 +247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_AllLogs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::TestTools::Logging::LogEvent*>* (UnityEngine::TestTools::Logging::LogScope::*)()>(&UnityEngine::TestTools::Logging::LogScope::get_AllLogs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "get_AllLogs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -255,7 +255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: get_FailingLogs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::TestTools::Logging::LogEvent*>* (UnityEngine::TestTools::Logging::LogScope::*)()>(&UnityEngine::TestTools::Logging::LogScope::get_FailingLogs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "get_FailingLogs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -263,7 +263,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: get_IgnoreFailingMessages
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::Logging::LogScope::*)()>(&UnityEngine::TestTools::Logging::LogScope::get_IgnoreFailingMessages)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "get_IgnoreFailingMessages", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -271,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: set_IgnoreFailingMessages
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)(bool)>(&UnityEngine::TestTools::Logging::LogScope::set_IgnoreFailingMessages)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "set_IgnoreFailingMessages", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -280,7 +280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: set_IsNUnitException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)(bool)>(&UnityEngine::TestTools::Logging::LogScope::set_IsNUnitException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "set_IsNUnitException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -289,7 +289,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: set_IsNUnitSuccessException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)(bool)>(&UnityEngine::TestTools::Logging::LogScope::set_IsNUnitSuccessException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "set_IsNUnitSuccessException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -298,7 +298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: set_IsNUnitInconclusiveException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)(bool)>(&UnityEngine::TestTools::Logging::LogScope::set_IsNUnitInconclusiveException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "set_IsNUnitInconclusiveException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -307,7 +307,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: set_IsNUnitIgnoreException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)(bool)>(&UnityEngine::TestTools::Logging::LogScope::set_IsNUnitIgnoreException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "set_IsNUnitIgnoreException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -316,7 +316,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: set_NUnitExceptionMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)(::Il2CppString*)>(&UnityEngine::TestTools::Logging::LogScope::set_NUnitExceptionMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "set_NUnitExceptionMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -325,7 +325,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Activate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)()>(&UnityEngine::TestTools::Logging::LogScope::Activate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "Activate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -333,7 +333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Deactivate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)()>(&UnityEngine::TestTools::Logging::LogScope::Deactivate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "Deactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -341,7 +341,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: RegisterScope
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::TestTools::Logging::LogScope*)>(&UnityEngine::TestTools::Logging::LogScope::RegisterScope)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* logScope = &::il2cpp_utils::GetClassFromName("UnityEngine.TestTools.Logging", "LogScope")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "RegisterScope", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{logScope});
   }
@@ -350,7 +350,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: UnregisterScope
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::TestTools::Logging::LogScope*)>(&UnityEngine::TestTools::Logging::LogScope::UnregisterScope)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* logScope = &::il2cpp_utils::GetClassFromName("UnityEngine.TestTools.Logging", "LogScope")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "UnregisterScope", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{logScope});
   }
@@ -359,7 +359,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: AddLog
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)(::Il2CppString*, ::Il2CppString*, UnityEngine::LogType)>(&UnityEngine::TestTools::Logging::LogScope::AddLog)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* stacktrace = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("UnityEngine", "LogType")->byval_arg;
@@ -370,7 +370,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: IsNUnitResultStateException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, UnityEngine::LogType)>(&UnityEngine::TestTools::Logging::LogScope::IsNUnitResultStateException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stacktrace = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* logType = &::il2cpp_utils::GetClassFromName("UnityEngine", "LogType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "IsNUnitResultStateException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stacktrace, logType});
@@ -380,7 +380,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: IsFailingLog
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::LogType)>(&UnityEngine::TestTools::Logging::LogScope::IsFailingLog)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("UnityEngine", "LogType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "IsFailingLog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
@@ -389,7 +389,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)()>(&UnityEngine::TestTools::Logging::LogScope::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -397,7 +397,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)(bool)>(&UnityEngine::TestTools::Logging::LogScope::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* disposing = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{disposing});
   }
@@ -406,7 +406,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: AnyFailingLogs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::Logging::LogScope::*)()>(&UnityEngine::TestTools::Logging::LogScope::AnyFailingLogs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "AnyFailingLogs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -414,7 +414,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: ProcessExpectedLogs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)()>(&UnityEngine::TestTools::Logging::LogScope::ProcessExpectedLogs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "ProcessExpectedLogs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -422,7 +422,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: NoUnexpectedReceived
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::Logging::LogScope::*)()>(&UnityEngine::TestTools::Logging::LogScope::NoUnexpectedReceived)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), "NoUnexpectedReceived", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -430,7 +430,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::TestTools::Logging::LogScope::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Logging::LogScope*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

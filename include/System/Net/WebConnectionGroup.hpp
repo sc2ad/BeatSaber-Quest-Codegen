@@ -145,7 +145,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionGroup*, "System.Net", "WebConne
 // Il2CppName: add_ConnectionClosed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnectionGroup::*)(System::EventHandler*)>(&System::Net::WebConnectionGroup::add_ConnectionClosed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "EventHandler")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionGroup*), "add_ConnectionClosed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: remove_ConnectionClosed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnectionGroup::*)(System::EventHandler*)>(&System::Net::WebConnectionGroup::remove_ConnectionClosed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "EventHandler")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionGroup*), "remove_ConnectionClosed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: OnConnectionClosed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnectionGroup::*)()>(&System::Net::WebConnectionGroup::OnConnectionClosed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionGroup*), "OnConnectionClosed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -171,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Close
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnectionGroup::*)()>(&System::Net::WebConnectionGroup::Close)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionGroup*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: GetConnection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebConnection* (System::Net::WebConnectionGroup::*)(System::Net::HttpWebRequest*, bool&)>(&System::Net::WebConnectionGroup::GetConnection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("System.Net", "HttpWebRequest")->byval_arg;
     static auto* created = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionGroup*), "GetConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{request, created});
@@ -189,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: PrepareSharingNtlm
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Net::WebConnection*, System::Net::HttpWebRequest*)>(&System::Net::WebConnectionGroup::PrepareSharingNtlm)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cnc = &::il2cpp_utils::GetClassFromName("System.Net", "WebConnection")->byval_arg;
     static auto* request = &::il2cpp_utils::GetClassFromName("System.Net", "HttpWebRequest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionGroup*), "PrepareSharingNtlm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cnc, request});
@@ -199,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: FindIdleConnection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebConnectionGroup::ConnectionState* (System::Net::WebConnectionGroup::*)()>(&System::Net::WebConnectionGroup::FindIdleConnection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionGroup*), "FindIdleConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -207,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: CreateOrReuseConnection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebConnection* (System::Net::WebConnectionGroup::*)(System::Net::HttpWebRequest*, bool&)>(&System::Net::WebConnectionGroup::CreateOrReuseConnection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("System.Net", "HttpWebRequest")->byval_arg;
     static auto* created = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionGroup*), "CreateOrReuseConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{request, created});
@@ -217,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: get_Name
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::WebConnectionGroup::*)()>(&System::Net::WebConnectionGroup::get_Name)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionGroup*), "get_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -225,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_Queue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Queue* (System::Net::WebConnectionGroup::*)()>(&System::Net::WebConnectionGroup::get_Queue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionGroup*), "get_Queue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -233,7 +233,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: TryRecycle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebConnectionGroup::*)(System::TimeSpan, System::DateTime&)>(&System::Net::WebConnectionGroup::TryRecycle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* maxIdleTime = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
     static auto* idleSince = &::il2cpp_utils::GetClassFromName("System", "DateTime")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionGroup*), "TryRecycle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{maxIdleTime, idleSince});

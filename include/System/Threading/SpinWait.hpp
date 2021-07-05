@@ -48,7 +48,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::SpinWait, "System.Threading", "SpinWai
 // Il2CppName: get_NextSpinWillYield
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::SpinWait::*)()>(&System::Threading::SpinWait::get_NextSpinWillYield)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SpinWait), "get_NextSpinWillYield", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -56,7 +56,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: SpinOnce
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::SpinWait::*)()>(&System::Threading::SpinWait::SpinOnce)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SpinWait), "SpinOnce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

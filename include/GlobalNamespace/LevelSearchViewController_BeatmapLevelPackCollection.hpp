@@ -79,7 +79,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelSearchViewController::BeatmapLevelP
 // Il2CppName: get_collectionName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection::*)()>(&GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection::get_collectionName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection*), "get_collectionName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_coverImage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection::*)()>(&GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection::get_coverImage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection*), "get_coverImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_beatmapLevelCollection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IBeatmapLevelCollection* (GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection::*)()>(&GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection::get_beatmapLevelCollection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection*), "get_beatmapLevelCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: set_beatmapLevelCollection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection::*)(GlobalNamespace::IBeatmapLevelCollection*)>(&GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection::set_beatmapLevelCollection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "IBeatmapLevelCollection")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSearchViewController::BeatmapLevelPackCollection*), "set_beatmapLevelCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

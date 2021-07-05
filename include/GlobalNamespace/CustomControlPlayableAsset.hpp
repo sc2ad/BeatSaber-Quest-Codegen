@@ -62,7 +62,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomControlPlayableAsset*, "", "Custom
 // Il2CppName: get_clipCaps
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::ClipCaps (GlobalNamespace::CustomControlPlayableAsset::*)()>(&GlobalNamespace::CustomControlPlayableAsset::get_clipCaps)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomControlPlayableAsset*), "get_clipCaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

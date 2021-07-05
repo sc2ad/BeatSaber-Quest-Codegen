@@ -33,7 +33,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Assertions::AssertionMessageUtil*, "UnityEng
 // Il2CppName: GetMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&UnityEngine::Assertions::AssertionMessageUtil::GetMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* failureMessage = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Assertions::AssertionMessageUtil*), "GetMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{failureMessage});
   }
@@ -42,7 +42,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&UnityEngine::Assertions::AssertionMessageUtil::GetMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* failureMessage = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* expected = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Assertions::AssertionMessageUtil*), "GetMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{failureMessage, expected});
@@ -52,7 +52,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetEqualityMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppObject*, ::Il2CppObject*, bool)>(&UnityEngine::Assertions::AssertionMessageUtil::GetEqualityMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* actual = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* expected = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* expectEqual = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

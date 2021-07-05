@@ -65,7 +65,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieParser*, "System.Net", "CookieParser")
 // Il2CppName: Get
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Cookie* (System::Net::CookieParser::*)()>(&System::Net::CookieParser::Get)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::CookieParser*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -73,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: CheckQuoted
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Net::CookieParser::CheckQuoted)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::CookieParser*), "CheckQuoted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

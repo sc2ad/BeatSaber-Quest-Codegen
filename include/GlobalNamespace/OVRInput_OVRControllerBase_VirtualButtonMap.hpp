@@ -243,7 +243,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase::VirtualButt
 // Il2CppName: ToRawMask
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRInput::RawButton (GlobalNamespace::OVRInput::OVRControllerBase::VirtualButtonMap::*)(GlobalNamespace::OVRInput::Button)>(&GlobalNamespace::OVRInput::OVRControllerBase::VirtualButtonMap::ToRawMask)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Button")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerBase::VirtualButtonMap*), "ToRawMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask});
   }

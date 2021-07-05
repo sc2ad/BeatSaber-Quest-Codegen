@@ -102,7 +102,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::Utils::TestRunCallbackListener::
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -110,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <GetAllCallbacks>b__2_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::*)(System::Reflection::Assembly*)>(&UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::$GetAllCallbacks$b__2_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c*), "<GetAllCallbacks>b__2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: <GetAllCallbacks>b__2_3
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::*)(System::Reflection::AssemblyName*)>(&UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::$GetAllCallbacks$b__2_3)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* z = &::il2cpp_utils::GetClassFromName("System.Reflection", "AssemblyName")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c*), "<GetAllCallbacks>b__2_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{z});
   }
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: <GetAllCallbacks>b__2_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::TestRunner::TestRunCallbackAttribute*>* (UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::*)(System::Reflection::Assembly*)>(&UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::$GetAllCallbacks$b__2_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* assembly = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c*), "<GetAllCallbacks>b__2_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assembly});
   }
@@ -137,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: <GetAllCallbacks>b__2_2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestRunner::ITestRunCallback* (UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::*)(UnityEngine::TestRunner::TestRunCallbackAttribute*)>(&UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c::$GetAllCallbacks$b__2_2)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* attribute = &::il2cpp_utils::GetClassFromName("UnityEngine.TestRunner", "TestRunCallbackAttribute")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::Utils::TestRunCallbackListener::$$c*), "<GetAllCallbacks>b__2_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attribute});
   }

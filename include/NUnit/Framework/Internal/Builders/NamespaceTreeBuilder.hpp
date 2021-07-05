@@ -88,7 +88,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::NamespaceTreeBuilde
 // Il2CppName: get_RootSuite
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestSuite* (NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::*)()>(&NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::get_RootSuite)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NamespaceTreeBuilder*), "get_RootSuite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -96,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Il2CppName: Add
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::*)(System::Collections::Generic::IList_1<NUnit::Framework::Internal::Test*>*)>(&NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::Add)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* fixtures = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "Test")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NamespaceTreeBuilder*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fixtures});
   }
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Il2CppName: Add
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::*)(NUnit::Framework::Internal::TestSuite*)>(&NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::Add)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* fixture = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestSuite")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NamespaceTreeBuilder*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fixture});
   }
@@ -114,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Il2CppName: GetNamespaceForFixture
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(NUnit::Framework::Internal::TestSuite*)>(&NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::GetNamespaceForFixture)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* fixture = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestSuite")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NamespaceTreeBuilder*), "GetNamespaceForFixture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fixture});
   }
@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: BuildFromNameSpace
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestSuite* (NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::*)(::Il2CppString*)>(&NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::BuildFromNameSpace)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ns = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::NamespaceTreeBuilder*), "BuildFromNameSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ns});
   }
@@ -132,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Il2CppName: AddSetUpFixture
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::*)(NUnit::Framework::Internal::TestSuite*, NUnit::Framework::Internal::TestSuite*, ::Il2CppString*)>(&NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::AddSetUpFixture)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* newSetupFixture = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestSuite")->byval_arg;
     static auto* containingSuite = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestSuite")->byval_arg;
     static auto* ns = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::Initializ
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <Execute>b__13_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c::*)(UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*)>(&UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c::$Execute$b__13_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rp = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceProviders", "IResourceProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c*), "<Execute>b__13_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rp});
   }

@@ -69,7 +69,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_TrackedCamera*, "", "SteamVR_Tra
 // Il2CppName: Distorted
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture* (*)(int)>(&GlobalNamespace::SteamVR_TrackedCamera::Distorted)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* deviceIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera*), "Distorted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{deviceIndex});
   }
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: Undistorted
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture* (*)(int)>(&GlobalNamespace::SteamVR_TrackedCamera::Undistorted)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* deviceIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera*), "Undistorted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{deviceIndex});
   }
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: Source
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture* (*)(bool, int)>(&GlobalNamespace::SteamVR_TrackedCamera::Source)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* undistorted = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* deviceIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera*), "Source", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{undistorted, deviceIndex});
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: Stream
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_TrackedCamera::VideoStream* (*)(uint)>(&GlobalNamespace::SteamVR_TrackedCamera::Stream)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* deviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedCamera*), "Stream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{deviceIndex});
   }

@@ -64,7 +64,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ComparisonAdapter::Compare
 // Il2CppName: Compare
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NUnit::Framework::Constraints::ComparisonAdapter::ComparerAdapter::*)(::Il2CppObject*, ::Il2CppObject*)>(&NUnit::Framework::Constraints::ComparisonAdapter::ComparerAdapter::Compare)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* expected = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* actual = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ComparisonAdapter::ComparerAdapter*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expected, actual});

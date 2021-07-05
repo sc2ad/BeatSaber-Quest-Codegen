@@ -142,7 +142,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::BeforeAfterTestCommandState*, "Un
 // Il2CppName: Reset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::BeforeAfterTestCommandState::*)()>(&UnityEngine::TestTools::BeforeAfterTestCommandState::Reset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::BeforeAfterTestCommandState*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: StoreTestResult
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::BeforeAfterTestCommandState::*)(NUnit::Framework::Internal::TestResult*)>(&UnityEngine::TestTools::BeforeAfterTestCommandState::StoreTestResult)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::BeforeAfterTestCommandState*), "StoreTestResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
@@ -159,7 +159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: ApplyTestResult
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TestTools::BeforeAfterTestCommandState::*)(NUnit::Framework::Internal::TestResult*)>(&UnityEngine::TestTools::BeforeAfterTestCommandState::ApplyTestResult)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::BeforeAfterTestCommandState*), "ApplyTestResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

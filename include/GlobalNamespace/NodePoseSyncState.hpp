@@ -113,7 +113,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NodePoseSyncState, "", "NodePoseSyncStat
 // Il2CppName: Serialize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NodePoseSyncState::*)(LiteNetLib::Utils::NetDataWriter*)>(&GlobalNamespace::NodePoseSyncState::Serialize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataWriter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncState), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{writer});
   }
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Deserialize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NodePoseSyncState::*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::NodePoseSyncState::Deserialize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncState), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
   }
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NodePoseSyncState::*)(GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable)>(&GlobalNamespace::NodePoseSyncState::SetState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* nodePose = &::il2cpp_utils::GetClassFromName("", "NodePoseSyncState/NodePose")->byval_arg;
     static auto* pose = &::il2cpp_utils::GetClassFromName("", "PoseSerializable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncState), "SetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodePose, pose});
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: GetState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PoseSerializable (GlobalNamespace::NodePoseSyncState::*)(GlobalNamespace::NodePoseSyncState_NodePose)>(&GlobalNamespace::NodePoseSyncState::GetState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* nodePose = &::il2cpp_utils::GetClassFromName("", "NodePoseSyncState/NodePose")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncState), "GetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodePose});
   }
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: Equals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::NodePoseSyncState::*)(GlobalNamespace::NodePoseSyncState&)>(&GlobalNamespace::NodePoseSyncState::Equals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("", "NodePoseSyncState")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncState), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
@@ -159,7 +159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: GetDelta
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NodePoseSyncState (GlobalNamespace::NodePoseSyncState::*)(GlobalNamespace::NodePoseSyncState&)>(&GlobalNamespace::NodePoseSyncState::GetDelta)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* latest = &::il2cpp_utils::GetClassFromName("", "NodePoseSyncState")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncState), "GetDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{latest});
   }
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ApplyDelta
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NodePoseSyncState (GlobalNamespace::NodePoseSyncState::*)(GlobalNamespace::NodePoseSyncState&)>(&GlobalNamespace::NodePoseSyncState::ApplyDelta)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* delta = &::il2cpp_utils::GetClassFromName("", "NodePoseSyncState")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncState), "ApplyDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{delta});
   }
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: GetSize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::NodePoseSyncState::*)()>(&GlobalNamespace::NodePoseSyncState::GetSize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncState), "GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Il2CppName: IStateTable<NodePoseSyncState,NodePoseSyncState.NodePose,PoseSerializable>.GetDelta
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NodePoseSyncState (GlobalNamespace::NodePoseSyncState::*)(GlobalNamespace::NodePoseSyncState&)>(&GlobalNamespace::NodePoseSyncState::IStateTable$NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable$_GetDelta)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stateTable = &::il2cpp_utils::GetClassFromName("", "NodePoseSyncState")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncState), "IStateTable<NodePoseSyncState,NodePoseSyncState.NodePose,PoseSerializable>.GetDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stateTable});
   }
@@ -194,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: IStateTable<NodePoseSyncState,NodePoseSyncState.NodePose,PoseSerializable>.ApplyDelta
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NodePoseSyncState (GlobalNamespace::NodePoseSyncState::*)(GlobalNamespace::NodePoseSyncState&)>(&GlobalNamespace::NodePoseSyncState::IStateTable$NodePoseSyncState_NodePoseSyncState_NodePose_PoseSerializable$_ApplyDelta)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* delta = &::il2cpp_utils::GetClassFromName("", "NodePoseSyncState")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncState), "IStateTable<NodePoseSyncState,NodePoseSyncState.NodePose,PoseSerializable>.ApplyDelta", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{delta});
   }
@@ -203,7 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: IEquatableByReference<NodePoseSyncState>.Equals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::NodePoseSyncState::*)(GlobalNamespace::NodePoseSyncState&)>(&GlobalNamespace::NodePoseSyncState::IEquatableByReference$NodePoseSyncState$_Equals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("", "NodePoseSyncState")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncState), "IEquatableByReference<NodePoseSyncState>.Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }

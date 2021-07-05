@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedTextAsset::$$c*, "", "Localized
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::LocalizedTextAsset::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalizedTextAsset::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -69,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <get_localizedText>b__6_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LocalizedTextAsset::$$c::*)(GlobalNamespace::LocalizedTextAsset::TextInfo*)>(&GlobalNamespace::LocalizedTextAsset::$$c::$get_localizedText$b__6_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("", "LocalizedTextAsset/TextInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalizedTextAsset::$$c*), "<get_localizedText>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }

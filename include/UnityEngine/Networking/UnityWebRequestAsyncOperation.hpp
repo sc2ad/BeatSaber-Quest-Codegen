@@ -71,7 +71,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequestAsyncOperation*, 
 // Il2CppName: get_webRequest
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (UnityEngine::Networking::UnityWebRequestAsyncOperation::*)()>(&UnityEngine::Networking::UnityWebRequestAsyncOperation::get_webRequest)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequestAsyncOperation*), "get_webRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_webRequest
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::UnityWebRequestAsyncOperation::*)(UnityEngine::Networking::UnityWebRequest*)>(&UnityEngine::Networking::UnityWebRequestAsyncOperation::set_webRequest)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.Networking", "UnityWebRequest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequestAsyncOperation*), "set_webRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

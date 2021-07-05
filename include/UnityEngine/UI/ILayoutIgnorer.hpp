@@ -26,7 +26,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ILayoutIgnorer*, "UnityEngine.UI", "ILay
 // Il2CppName: get_ignoreLayout
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::ILayoutIgnorer::*)()>(&UnityEngine::UI::ILayoutIgnorer::get_ignoreLayout)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ILayoutIgnorer*), "get_ignoreLayout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

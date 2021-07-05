@@ -86,7 +86,7 @@ DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::SentRequestWaiter*, "Master
 // Il2CppName: Complete
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::SentRequestWaiter::*)(bool)>(&MasterServer::MessageHandler::SentRequestWaiter::Complete)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* handled = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::SentRequestWaiter*), "Complete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handled});
   }
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: Cancel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::SentRequestWaiter::*)()>(&MasterServer::MessageHandler::SentRequestWaiter::Cancel)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::SentRequestWaiter*), "Cancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: get_task
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MasterServer::MessageHandler::SentRequestWaiter::*)()>(&MasterServer::MessageHandler::SentRequestWaiter::get_task)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::SentRequestWaiter*), "get_task", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -111,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: get_isWaiting
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::MessageHandler::SentRequestWaiter::*)()>(&MasterServer::MessageHandler::SentRequestWaiter::get_isWaiting)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::SentRequestWaiter*), "get_isWaiting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Maste
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::SentRequestWaiter::*)()>(&MasterServer::MessageHandler::SentRequestWaiter::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::SentRequestWaiter*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

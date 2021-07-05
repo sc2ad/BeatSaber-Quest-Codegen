@@ -163,7 +163,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::StackTrace*, "System.Diagnostics", "
 // Il2CppName: init_frames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::StackTrace::*)(int, bool)>(&System::Diagnostics::StackTrace::init_frames)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* skipFrames = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* fNeedFileInfo = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackTrace*), "init_frames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{skipFrames, fNeedFileInfo});
@@ -173,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_trace
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Diagnostics::StackFrame*>* (*)(System::Exception*, int, bool)>(&System::Diagnostics::StackTrace::get_trace)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     static auto* skipFrames = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* fNeedFileInfo = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -192,7 +192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Sys
 // Il2CppName: get_FrameCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Diagnostics::StackTrace::*)()>(&System::Diagnostics::StackTrace::get_FrameCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackTrace*), "get_FrameCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -200,7 +200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: GetFrame
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Diagnostics::StackFrame* (System::Diagnostics::StackTrace::*)(int)>(&System::Diagnostics::StackTrace::GetFrame)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackTrace*), "GetFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
   }
@@ -209,7 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dia
 // Il2CppName: GetAotId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Diagnostics::StackTrace::GetAotId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackTrace*), "GetAotId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -217,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: AddFrames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Diagnostics::StackTrace::*)(System::Text::StringBuilder*)>(&System::Diagnostics::StackTrace::AddFrames)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackTrace*), "AddFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sb});
   }
@@ -226,7 +226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: GetFullNameForStackTrace
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::StackTrace::*)(System::Text::StringBuilder*, System::Reflection::MethodBase*)>(&System::Diagnostics::StackTrace::GetFullNameForStackTrace)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* mi = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackTrace*), "GetFullNameForStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sb, mi});
@@ -236,7 +236,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Diagnostics::StackTrace::*)(System::Diagnostics::StackTrace::TraceFormat)>(&System::Diagnostics::StackTrace::ToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* traceFormat = &::il2cpp_utils::GetClassFromName("System.Diagnostics", "StackTrace/TraceFormat")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackTrace*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{traceFormat});
   }
@@ -249,7 +249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: ToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Diagnostics::StackTrace::*)()>(&System::Diagnostics::StackTrace::ToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackTrace*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

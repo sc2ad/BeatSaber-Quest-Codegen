@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AI::NavMesh*, "UnityEngine.AI", "NavMesh");
 // Il2CppName: Internal_CallOnNavMeshPreUpdate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::AI::NavMesh::Internal_CallOnNavMeshPreUpdate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AI::NavMesh*), "Internal_CallOnNavMeshPreUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: CalculatePath
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector3, UnityEngine::Vector3, int, UnityEngine::AI::NavMeshPath*)>(&UnityEngine::AI::NavMesh::CalculatePath)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sourcePosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* targetPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* areaMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: CalculatePathInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector3, UnityEngine::Vector3, int, UnityEngine::AI::NavMeshPath*)>(&UnityEngine::AI::NavMesh::CalculatePathInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sourcePosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* targetPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* areaMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: SamplePosition
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector3, UnityEngine::AI::NavMeshHit&, float, int)>(&UnityEngine::AI::NavMesh::SamplePosition)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sourcePosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* hit = &::il2cpp_utils::GetClassFromName("UnityEngine.AI", "NavMeshHit")->this_arg;
     static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -110,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: CalculatePathInternal_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector3&, UnityEngine::Vector3&, int, UnityEngine::AI::NavMeshPath*)>(&UnityEngine::AI::NavMesh::CalculatePathInternal_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sourcePosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* targetPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* areaMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: SamplePosition_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector3&, UnityEngine::AI::NavMeshHit&, float, int)>(&UnityEngine::AI::NavMesh::SamplePosition_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sourcePosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* hit = &::il2cpp_utils::GetClassFromName("UnityEngine.AI", "NavMeshHit")->this_arg;
     static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

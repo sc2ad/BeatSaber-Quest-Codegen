@@ -38,7 +38,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedRealityCaptureConfigurationExten
 // Il2CppName: ApplyTo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::OVRMixedRealityCaptureConfiguration*, GlobalNamespace::OVRMixedRealityCaptureConfiguration*)>(&GlobalNamespace::OVRMixedRealityCaptureConfigurationExtensions::ApplyTo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* dest = &::il2cpp_utils::GetClassFromName("", "OVRMixedRealityCaptureConfiguration")->byval_arg;
     static auto* source = &::il2cpp_utils::GetClassFromName("", "OVRMixedRealityCaptureConfiguration")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfigurationExtensions*), "ApplyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dest, source});
@@ -48,7 +48,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Gl
 // Il2CppName: ReadFrom
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::OVRMixedRealityCaptureConfiguration*, GlobalNamespace::OVRMixedRealityCaptureConfiguration*)>(&GlobalNamespace::OVRMixedRealityCaptureConfigurationExtensions::ReadFrom)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* dest = &::il2cpp_utils::GetClassFromName("", "OVRMixedRealityCaptureConfiguration")->byval_arg;
     static auto* source = &::il2cpp_utils::GetClassFromName("", "OVRMixedRealityCaptureConfiguration")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMixedRealityCaptureConfigurationExtensions*), "ReadFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dest, source});

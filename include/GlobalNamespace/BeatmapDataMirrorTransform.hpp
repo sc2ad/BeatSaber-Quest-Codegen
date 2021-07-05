@@ -51,7 +51,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataMirrorTransform*, "", "Beatma
 // Il2CppName: CreateTransformedData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IReadonlyBeatmapData* (*)(GlobalNamespace::IReadonlyBeatmapData*)>(&GlobalNamespace::BeatmapDataMirrorTransform::CreateTransformedData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmapData = &::il2cpp_utils::GetClassFromName("", "IReadonlyBeatmapData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataMirrorTransform*), "CreateTransformedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapData});
   }
@@ -60,7 +60,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: MirrorTransformBeatmapObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::BeatmapObjectData*, int)>(&GlobalNamespace::BeatmapDataMirrorTransform::MirrorTransformBeatmapObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmapObjectData = &::il2cpp_utils::GetClassFromName("", "BeatmapObjectData")->byval_arg;
     static auto* beatmapLineCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataMirrorTransform*), "MirrorTransformBeatmapObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapObjectData, beatmapLineCount});

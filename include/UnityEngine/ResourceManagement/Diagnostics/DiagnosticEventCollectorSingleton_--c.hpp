@@ -73,7 +73,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Diagnostics::DiagnosticE
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <RegisterEventHandler>b__8_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c::*)(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent)>(&UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c::$RegisterEventHandler$b__8_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* evt = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.Diagnostics", "DiagnosticEvent")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c*), "<RegisterEventHandler>b__8_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{evt});
   }
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: <Awake>b__11_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c::*)(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent)>(&UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c::$Awake$b__11_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* diagnosticEvent = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.Diagnostics", "DiagnosticEvent")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c*), "<Awake>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{diagnosticEvent});
   }

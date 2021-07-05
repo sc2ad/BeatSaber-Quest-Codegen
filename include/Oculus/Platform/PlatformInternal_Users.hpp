@@ -44,7 +44,7 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PlatformInternal::Users*, "Oculus.Platf
 // Il2CppName: GetLinkedAccounts
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::LinkedAccountList*>* (*)(::Array<Oculus::Platform::ServiceProvider>*)>(&Oculus::Platform::PlatformInternal::Users::GetLinkedAccounts)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* providers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Oculus.Platform", "ServiceProvider"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::PlatformInternal::Users*), "GetLinkedAccounts", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{providers});
   }

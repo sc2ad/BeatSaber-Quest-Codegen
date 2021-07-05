@@ -47,7 +47,7 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Parties*, "Oculus.Platform", "Parties")
 // Il2CppName: GetCurrent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Party*>* (*)()>(&Oculus::Platform::Parties::GetCurrent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Parties*), "GetCurrent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

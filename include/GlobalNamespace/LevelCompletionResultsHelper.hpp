@@ -51,7 +51,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCompletionResultsHelper*, "", "Leve
 // Il2CppName: Create
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LevelCompletionResults* (*)(int, ::Array<GlobalNamespace::BeatmapObjectExecutionRating*>*, GlobalNamespace::GameplayModifiers*, GlobalNamespace::GameplayModifiersModelSO*, int, int, int, ::Array<float>*, float, float, ::Array<float>*, float, float, float, GlobalNamespace::LevelCompletionResults::LevelEndStateType, GlobalNamespace::LevelCompletionResults::LevelEndAction, float, float)>(&GlobalNamespace::LevelCompletionResultsHelper::Create)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* levelNotesCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* beatmapObjectExecutionRatings = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "BeatmapObjectExecutionRating"), 1)->byval_arg;
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ProcessScore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::PlayerData*, GlobalNamespace::PlayerLevelStatsData*, GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::PlatformLeaderboardsModel*)>(&GlobalNamespace::LevelCompletionResultsHelper::ProcessScore)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* playerData = &::il2cpp_utils::GetClassFromName("", "PlayerData")->byval_arg;
     static auto* playerLevelStats = &::il2cpp_utils::GetClassFromName("", "PlayerLevelStatsData")->byval_arg;
     static auto* levelCompletionResults = &::il2cpp_utils::GetClassFromName("", "LevelCompletionResults")->byval_arg;

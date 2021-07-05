@@ -99,7 +99,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::DelegateSerializationHolder::DelegateEntry*, "Sys
 // Il2CppName: DeserializeDelegate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (System::DelegateSerializationHolder::DelegateEntry::*)(System::Runtime::Serialization::SerializationInfo*, int)>(&System::DelegateSerializationHolder::DelegateEntry::DeserializeDelegate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::DelegateSerializationHolder::DelegateEntry*), "DeserializeDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{info, index});

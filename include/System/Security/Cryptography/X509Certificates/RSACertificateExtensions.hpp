@@ -40,7 +40,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::RSACert
 // Il2CppName: GetRSAPublicKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RSA* (*)(System::Security::Cryptography::X509Certificates::X509Certificate2*)>(&System::Security::Cryptography::X509Certificates::RSACertificateExtensions::GetRSAPublicKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* certificate = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::RSACertificateExtensions*), "GetRSAPublicKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{certificate});
   }

@@ -320,7 +320,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::Objec
 // Il2CppName: Serialize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(::Il2CppObject*, ::Array<System::Runtime::Remoting::Messaging::Header*>*, System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*, bool)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::Serialize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* graph = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* inHeaders = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "Header"), 1)->byval_arg;
     static auto* serWriter = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "__BinaryWriter")->byval_arg;
@@ -332,7 +332,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_ObjectManager
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::SerializationObjectManager* (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)()>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::get_ObjectManager)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "get_ObjectManager", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -340,7 +340,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: Write
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::Write)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* objectInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "WriteObjectInfo")->byval_arg;
     static auto* memberNameInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "NameInfo")->byval_arg;
     static auto* typeNameInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "NameInfo")->byval_arg;
@@ -351,7 +351,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Write
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, ::Array<::Il2CppString*>*, ::Array<System::Type*>*, ::Array<::Il2CppObject*>*, ::Array<System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*>*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::Write)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* objectInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "WriteObjectInfo")->byval_arg;
     static auto* memberNameInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "NameInfo")->byval_arg;
     static auto* typeNameInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "NameInfo")->byval_arg;
@@ -366,7 +366,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: WriteMemberSetup
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, ::Il2CppString*, System::Type*, ::Il2CppObject*, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::WriteMemberSetup)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* objectInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "WriteObjectInfo")->byval_arg;
     static auto* memberNameInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "NameInfo")->byval_arg;
     static auto* typeNameInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "NameInfo")->byval_arg;
@@ -381,7 +381,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: WriteMembers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, ::Il2CppObject*, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::WriteMembers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* memberNameInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "NameInfo")->byval_arg;
     static auto* memberTypeNameInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "NameInfo")->byval_arg;
     static auto* memberData = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -395,7 +395,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: WriteArray
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::WriteArray)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* objectInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "WriteObjectInfo")->byval_arg;
     static auto* memberNameInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "NameInfo")->byval_arg;
     static auto* memberObjectInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "WriteObjectInfo")->byval_arg;
@@ -406,7 +406,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: WriteArrayMember
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, ::Il2CppObject*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::WriteArrayMember)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* objectInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "WriteObjectInfo")->byval_arg;
     static auto* arrayElemTypeNameInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "NameInfo")->byval_arg;
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -417,7 +417,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: WriteRectangle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, int, ::Array<int>*, System::Array*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, ::Array<int>*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::WriteRectangle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* objectInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "WriteObjectInfo")->byval_arg;
     static auto* rank = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* maxA = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -431,7 +431,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: GetNext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(int64_t&)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::GetNext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* objID = &::il2cpp_utils::GetClassFromName("System", "Int64")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "GetNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{objID});
   }
@@ -440,7 +440,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: InternalGetId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(::Il2CppObject*, bool, System::Type*, bool&)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::InternalGetId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* assignUniqueIdToValueType = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -452,7 +452,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Sy
 // Il2CppName: Schedule
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(::Il2CppObject*, bool, System::Type*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::Schedule)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* assignUniqueIdToValueType = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -463,7 +463,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Sy
 // Il2CppName: Schedule
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(::Il2CppObject*, bool, System::Type*, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::Schedule)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* assignUniqueIdToValueType = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -475,7 +475,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Sy
 // Il2CppName: WriteKnownValueClass
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, ::Il2CppObject*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::WriteKnownValueClass)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* memberNameInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "NameInfo")->byval_arg;
     static auto* typeNameInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "NameInfo")->byval_arg;
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -486,7 +486,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: WriteObjectRef
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::Binary::NameInfo*, int64_t)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::WriteObjectRef)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* nameInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "NameInfo")->byval_arg;
     static auto* objectId = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "WriteObjectRef", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nameInfo, objectId});
@@ -496,7 +496,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: WriteString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, ::Il2CppObject*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::WriteString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* memberNameInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "NameInfo")->byval_arg;
     static auto* typeNameInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "NameInfo")->byval_arg;
     static auto* stringObject = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -507,7 +507,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: CheckForNull
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*, ::Il2CppObject*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::CheckForNull)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* objectInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "WriteObjectInfo")->byval_arg;
     static auto* memberNameInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "NameInfo")->byval_arg;
     static auto* typeNameInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "NameInfo")->byval_arg;
@@ -519,7 +519,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: WriteSerializedStreamHeader
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(int64_t, int64_t)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::WriteSerializedStreamHeader)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* topId = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* headerId = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "WriteSerializedStreamHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{topId, headerId});
@@ -529,7 +529,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: TypeToNameInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::NameInfo* (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Type*, System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE, System::Runtime::Serialization::Formatters::Binary::NameInfo*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::TypeToNameInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* objectInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "WriteObjectInfo")->byval_arg;
     static auto* code = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "InternalPrimitiveTypeE")->byval_arg;
@@ -541,7 +541,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: TypeToNameInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::NameInfo* (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Type*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::TypeToNameInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "TypeToNameInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
@@ -550,7 +550,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: TypeToNameInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::NameInfo* (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::TypeToNameInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* objectInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "WriteObjectInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "TypeToNameInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{objectInfo});
   }
@@ -559,7 +559,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: TypeToNameInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::NameInfo* (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, System::Runtime::Serialization::Formatters::Binary::NameInfo*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::TypeToNameInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* objectInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "WriteObjectInfo")->byval_arg;
     static auto* nameInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "NameInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "TypeToNameInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{objectInfo, nameInfo});
@@ -569,7 +569,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: TypeToNameInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Type*, System::Runtime::Serialization::Formatters::Binary::NameInfo*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::TypeToNameInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* nameInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "NameInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "TypeToNameInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, nameInfo});
@@ -579,7 +579,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: MemberToNameInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::NameInfo* (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(::Il2CppString*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::MemberToNameInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "MemberToNameInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
   }
@@ -588,7 +588,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: ToCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Type*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::ToCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "ToCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
@@ -597,7 +597,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: GetAssemblyId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::GetAssemblyId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* objectInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "WriteObjectInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "GetAssemblyId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{objectInfo});
   }
@@ -606,7 +606,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Sy
 // Il2CppName: GetType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(::Il2CppObject*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::GetType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "GetType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
@@ -615,7 +615,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Il2CppName: GetNameInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::NameInfo* (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)()>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::GetNameInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "GetNameInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -623,7 +623,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: CheckTypeFormat
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::FormatterTypeStyle, System::Runtime::Serialization::Formatters::FormatterTypeStyle)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::CheckTypeFormat)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* test = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters", "FormatterTypeStyle")->byval_arg;
     static auto* want = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters", "FormatterTypeStyle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "CheckTypeFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{test, want});
@@ -633,7 +633,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: PutNameInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::ObjectWriter::*)(System::Runtime::Serialization::Formatters::Binary::NameInfo*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectWriter::PutNameInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* nameInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "NameInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectWriter*), "PutNameInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nameInfo});
   }

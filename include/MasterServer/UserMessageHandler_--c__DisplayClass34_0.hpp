@@ -173,7 +173,7 @@ DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMessageHandler::$$c__DisplayClass34_0*,
 // Il2CppName: <StartBroadcastingServer>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::UserMessageHandler::$$c__DisplayClass34_0::*)(GlobalNamespace::ConnectionFailedReason)>(&MasterServer::UserMessageHandler::$$c__DisplayClass34_0::$StartBroadcastingServer$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("", "ConnectionFailedReason")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::UserMessageHandler::$$c__DisplayClass34_0*), "<StartBroadcastingServer>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
@@ -182,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: <StartBroadcastingServer>b__1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MasterServer::UserMessageHandler::$$c__DisplayClass34_0::*)()>(&MasterServer::UserMessageHandler::$$c__DisplayClass34_0::$StartBroadcastingServer$b__1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::UserMessageHandler::$$c__DisplayClass34_0*), "<StartBroadcastingServer>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

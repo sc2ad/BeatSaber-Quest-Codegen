@@ -102,7 +102,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberClashChecker*, "", "SaberClashCheck
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberClashChecker::*)(GlobalNamespace::SaberManager*)>(&GlobalNamespace::SaberClashChecker::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* saberManager = &::il2cpp_utils::GetClassFromName("", "SaberManager")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberClashChecker*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{saberManager});
   }
@@ -111,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: AreSabersClashing
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SaberClashChecker::*)(UnityEngine::Vector3&)>(&GlobalNamespace::SaberClashChecker::AreSabersClashing)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* clashingPoint = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberClashChecker*), "AreSabersClashing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clashingPoint});
   }
@@ -120,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: SegmentToSegmentDist
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::SaberClashChecker::*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3&)>(&GlobalNamespace::SaberClashChecker::SegmentToSegmentDist)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* fromA = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* toA = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* fromB = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;

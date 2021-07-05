@@ -93,7 +93,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionStagesManager*, "", "MissionStage
 // Il2CppName: get_firstLockedMissionStage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionStage* (GlobalNamespace::MissionStagesManager::*)()>(&GlobalNamespace::MissionStagesManager::get_firstLockedMissionStage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionStagesManager*), "get_firstLockedMissionStage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: UpdateFirtsLockedMissionStage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionStagesManager::*)(int)>(&GlobalNamespace::MissionStagesManager::UpdateFirtsLockedMissionStage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* numberOfClearedMissions = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionStagesManager*), "UpdateFirtsLockedMissionStage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{numberOfClearedMissions});
   }
@@ -110,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: InitStages
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionStagesManager::*)()>(&GlobalNamespace::MissionStagesManager::InitStages)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionStagesManager*), "InitStages", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: UpdateStageLockPosition
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionStagesManager::*)()>(&GlobalNamespace::MissionStagesManager::UpdateStageLockPosition)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionStagesManager*), "UpdateStageLockPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -126,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: UpdateStageLockPositionAnimated
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionStagesManager::*)(bool, float)>(&GlobalNamespace::MissionStagesManager::UpdateStageLockPositionAnimated)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* animated = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* animationDuration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionStagesManager*), "UpdateStageLockPositionAnimated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{animated, animationDuration});
@@ -136,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: UpdateStageLockText
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionStagesManager::*)(int)>(&GlobalNamespace::MissionStagesManager::UpdateStageLockText)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* numberOfClearedMissions = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionStagesManager*), "UpdateStageLockText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{numberOfClearedMissions});
   }

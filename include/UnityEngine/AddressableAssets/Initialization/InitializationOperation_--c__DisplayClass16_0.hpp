@@ -76,7 +76,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::Initializ
 // Il2CppName: <LoadContentCatalog>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> (UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c__DisplayClass16_0::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>)>(&UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c__DisplayClass16_0::$LoadContentCatalog$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* res = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.AddressableAssets.ResourceLocators", "ContentCatalogData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c__DisplayClass16_0*), "<LoadContentCatalog>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{res});
   }

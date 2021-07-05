@@ -60,7 +60,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Math::Prime::Generator::SequentialSearchPrimeGenera
 // Il2CppName: GenerateSearchBase
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::*)(int, ::Il2CppObject*)>(&Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::GenerateSearchBase)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bits = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase*), "GenerateSearchBase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bits, context});
@@ -70,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math:
 // Il2CppName: GenerateNewPrime
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::*)(int, ::Il2CppObject*)>(&Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::GenerateNewPrime)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bits = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase*), "GenerateNewPrime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bits, context});
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math:
 // Il2CppName: IsPrimeAcceptable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::*)(Mono::Math::BigInteger*, ::Il2CppObject*)>(&Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::IsPrimeAcceptable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bi = &::il2cpp_utils::GetClassFromName("Mono.Math", "BigInteger")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase*), "IsPrimeAcceptable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bi, context});
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Il2CppName: GenerateNewPrime
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::*)(int)>(&Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::GenerateNewPrime)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bits = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase*), "GenerateNewPrime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bits});
   }

@@ -71,7 +71,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformUserModel::$$c__DisplayCla
 // Il2CppName: <GetUserNamesForUserIds>b__1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass5_1::*)(Oculus::Platform::Message_1<Oculus::Platform::Models::User*>*)>(&GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass5_1::$GetUserNamesForUserIds$b__1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("Oculus.Platform", "Message`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Oculus.Platform.Models", "User")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass5_1*), "<GetUserNamesForUserIds>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

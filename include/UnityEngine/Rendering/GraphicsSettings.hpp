@@ -67,7 +67,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::GraphicsSettings*, "UnityEngine.R
 // Il2CppName: get_lightsUseLinearIntensity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::Rendering::GraphicsSettings::get_lightsUseLinearIntensity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::GraphicsSettings*), "get_lightsUseLinearIntensity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Il2CppName: AllowEnlightenSupportForUpgradedProject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::Rendering::GraphicsSettings::AllowEnlightenSupportForUpgradedProject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::GraphicsSettings*), "AllowEnlightenSupportForUpgradedProject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Il2CppName: get_renderPipelineAsset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::RenderPipelineAsset* (*)()>(&UnityEngine::Rendering::GraphicsSettings::get_renderPipelineAsset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::GraphicsSettings*), "get_renderPipelineAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_INTERNAL_defaultRenderPipeline
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ScriptableObject* (*)()>(&UnityEngine::Rendering::GraphicsSettings::get_INTERNAL_defaultRenderPipeline)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::GraphicsSettings*), "get_INTERNAL_defaultRenderPipeline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_defaultRenderPipeline
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::RenderPipelineAsset* (*)()>(&UnityEngine::Rendering::GraphicsSettings::get_defaultRenderPipeline)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::GraphicsSettings*), "get_defaultRenderPipeline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: SetShaderMode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rendering::BuiltinShaderType, UnityEngine::Rendering::BuiltinShaderMode)>(&UnityEngine::Rendering::GraphicsSettings::SetShaderMode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "BuiltinShaderType")->byval_arg;
     static auto* mode = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "BuiltinShaderMode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::GraphicsSettings*), "SetShaderMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, mode});
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: SetCustomShader
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rendering::BuiltinShaderType, UnityEngine::Shader*)>(&UnityEngine::Rendering::GraphicsSettings::SetCustomShader)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "BuiltinShaderType")->byval_arg;
     static auto* shader = &::il2cpp_utils::GetClassFromName("UnityEngine", "Shader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::GraphicsSettings*), "SetCustomShader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, shader});

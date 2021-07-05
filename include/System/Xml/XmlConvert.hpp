@@ -102,7 +102,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlConvert*, "System.Xml", "XmlConvert");
 // Il2CppName: VerifyQName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, System::Xml::ExceptionType)>(&System::Xml::XmlConvert::VerifyQName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* exceptionType = &::il2cpp_utils::GetClassFromName("System.Xml", "ExceptionType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "VerifyQName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, exceptionType});
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: TrimString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Xml::XmlConvert::TrimString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "TrimString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: TrimStringStart
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Xml::XmlConvert::TrimStringStart)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "TrimStringStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: TrimStringEnd
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Xml::XmlConvert::TrimStringEnd)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "TrimStringEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: CreateException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppString*, ::Il2CppString*, System::Xml::ExceptionType, int, int)>(&System::Xml::XmlConvert::CreateException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* res = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* arg = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* exceptionType = &::il2cpp_utils::GetClassFromName("System.Xml", "ExceptionType")->byval_arg;
@@ -152,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Il2CppName: CreateException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppString*, ::Array<::Il2CppString*>*, System::Xml::ExceptionType)>(&System::Xml::XmlConvert::CreateException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* res = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* exceptionType = &::il2cpp_utils::GetClassFromName("System.Xml", "ExceptionType")->byval_arg;
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Il2CppName: CreateException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppString*, ::Array<::Il2CppString*>*, System::Xml::ExceptionType, int, int)>(&System::Xml::XmlConvert::CreateException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* res = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* exceptionType = &::il2cpp_utils::GetClassFromName("System.Xml", "ExceptionType")->byval_arg;
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Il2CppName: CreateInvalidSurrogatePairException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppChar, ::Il2CppChar)>(&System::Xml::XmlConvert::CreateInvalidSurrogatePairException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* low = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* hi = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "CreateInvalidSurrogatePairException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{low, hi});
@@ -186,7 +186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Il2CppName: CreateInvalidSurrogatePairException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppChar, ::Il2CppChar, System::Xml::ExceptionType)>(&System::Xml::XmlConvert::CreateInvalidSurrogatePairException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* low = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* hi = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* exceptionType = &::il2cpp_utils::GetClassFromName("System.Xml", "ExceptionType")->byval_arg;
@@ -197,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Il2CppName: CreateInvalidSurrogatePairException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppChar, ::Il2CppChar, System::Xml::ExceptionType, int, int)>(&System::Xml::XmlConvert::CreateInvalidSurrogatePairException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* low = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* hi = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* exceptionType = &::il2cpp_utils::GetClassFromName("System.Xml", "ExceptionType")->byval_arg;
@@ -210,7 +210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Il2CppName: CreateInvalidHighSurrogateCharException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppChar)>(&System::Xml::XmlConvert::CreateInvalidHighSurrogateCharException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hi = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "CreateInvalidHighSurrogateCharException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hi});
   }
@@ -219,7 +219,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Il2CppName: CreateInvalidHighSurrogateCharException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppChar, System::Xml::ExceptionType)>(&System::Xml::XmlConvert::CreateInvalidHighSurrogateCharException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hi = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* exceptionType = &::il2cpp_utils::GetClassFromName("System.Xml", "ExceptionType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "CreateInvalidHighSurrogateCharException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hi, exceptionType});
@@ -229,7 +229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Il2CppName: CreateInvalidHighSurrogateCharException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppChar, System::Xml::ExceptionType, int, int)>(&System::Xml::XmlConvert::CreateInvalidHighSurrogateCharException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hi = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* exceptionType = &::il2cpp_utils::GetClassFromName("System.Xml", "ExceptionType")->byval_arg;
     static auto* lineNo = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -241,7 +241,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Il2CppName: CreateInvalidCharException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppChar, ::Il2CppChar)>(&System::Xml::XmlConvert::CreateInvalidCharException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* invChar = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* nextChar = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), "CreateInvalidCharException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{invChar, nextChar});
@@ -251,7 +251,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Il2CppName: CreateInvalidCharException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppChar, ::Il2CppChar, System::Xml::ExceptionType)>(&System::Xml::XmlConvert::CreateInvalidCharException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* invChar = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* nextChar = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* exceptionType = &::il2cpp_utils::GetClassFromName("System.Xml", "ExceptionType")->byval_arg;
@@ -262,7 +262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Xml::XmlConvert::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Xml::XmlConvert*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

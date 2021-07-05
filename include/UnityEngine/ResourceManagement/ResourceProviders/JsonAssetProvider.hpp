@@ -53,7 +53,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::JsonA
 // Il2CppName: Convert
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider::*)(System::Type*, ::Il2CppString*)>(&UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider::Convert)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider*), "Convert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, text});

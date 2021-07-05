@@ -52,7 +52,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::NonLazyBinder*, "Zenject", "NonLazyBinder");
 // Il2CppName: NonLazy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IfNotBoundBinder* (Zenject::NonLazyBinder::*)()>(&Zenject::NonLazyBinder::NonLazy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::NonLazyBinder*), "NonLazy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -60,7 +60,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::If
 // Il2CppName: Lazy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IfNotBoundBinder* (Zenject::NonLazyBinder::*)()>(&Zenject::NonLazyBinder::Lazy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::NonLazyBinder*), "Lazy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

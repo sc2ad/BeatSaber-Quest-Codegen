@@ -72,7 +72,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::AbstractFpCurve*, "Org.Bounc
 // Il2CppName: ImplRandomFieldElementMult
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (*)(Org::BouncyCastle::Security::SecureRandom*, Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::AbstractFpCurve::ImplRandomFieldElementMult)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* r = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Security", "SecureRandom")->byval_arg;
     static auto* p = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::AbstractFpCurve*), "ImplRandomFieldElementMult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{r, p});
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: RandomFieldElementMult
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECFieldElement* (Org::BouncyCastle::Math::EC::AbstractFpCurve::*)(Org::BouncyCastle::Security::SecureRandom*)>(&Org::BouncyCastle::Math::EC::AbstractFpCurve::RandomFieldElementMult)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* r = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Security", "SecureRandom")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::AbstractFpCurve*), "RandomFieldElementMult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{r});
   }
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: DecompressPoint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::AbstractFpCurve::*)(int, Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::AbstractFpCurve::DecompressPoint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* yTilde = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* X1 = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::AbstractFpCurve*), "DecompressPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{yTilde, X1});

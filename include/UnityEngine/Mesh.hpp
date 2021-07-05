@@ -1043,7 +1043,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Mesh*, "UnityEngine", "Mesh");
 // Il2CppName: Internal_Create
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*)>(&UnityEngine::Mesh::Internal_Create)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mono = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "Internal_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mono});
   }
@@ -1052,7 +1052,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: FromInstanceID
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (*)(int)>(&UnityEngine::Mesh::FromInstanceID)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "FromInstanceID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id});
   }
@@ -1061,7 +1061,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_indexFormat
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::IndexFormat (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_indexFormat)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_indexFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1069,7 +1069,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_indexFormat
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(UnityEngine::Rendering::IndexFormat)>(&UnityEngine::Mesh::set_indexFormat)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "IndexFormat")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_indexFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1078,7 +1078,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetIndexBufferParams
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, UnityEngine::Rendering::IndexFormat)>(&UnityEngine::Mesh::SetIndexBufferParams)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* indexCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "IndexFormat")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetIndexBufferParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{indexCount, format});
@@ -1088,7 +1088,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: InternalSetIndexBufferData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::IntPtr, int, int, int, int, UnityEngine::Rendering::MeshUpdateFlags)>(&UnityEngine::Mesh::InternalSetIndexBufferData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* dataStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* meshBufferStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1102,7 +1102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: InternalSetIndexBufferDataFromArray
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Array*, int, int, int, int, UnityEngine::Rendering::MeshUpdateFlags)>(&UnityEngine::Mesh::InternalSetIndexBufferDataFromArray)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
     static auto* dataStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* meshBufferStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1116,7 +1116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetVertexBufferParams
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::Array<UnityEngine::Rendering::VertexAttributeDescriptor>*)>(&UnityEngine::Mesh::SetVertexBufferParams)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* vertexCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* attributes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttributeDescriptor"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetVertexBufferParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vertexCount, attributes});
@@ -1126,7 +1126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: InternalSetVertexBufferData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, System::IntPtr, int, int, int, int, UnityEngine::Rendering::MeshUpdateFlags)>(&UnityEngine::Mesh::InternalSetVertexBufferData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stream = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* dataStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1141,7 +1141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: InternalSetVertexBufferDataFromArray
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, System::Array*, int, int, int, int, UnityEngine::Rendering::MeshUpdateFlags)>(&UnityEngine::Mesh::InternalSetVertexBufferDataFromArray)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stream = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
     static auto* dataStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1156,7 +1156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetVertexAttributesAlloc
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::GetVertexAttributesAlloc)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetVertexAttributesAlloc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1164,7 +1164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Arr
 // Il2CppName: GetVertexAttributesArray
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Mesh::*)(::Array<UnityEngine::Rendering::VertexAttributeDescriptor>*)>(&UnityEngine::Mesh::GetVertexAttributesArray)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* attributes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttributeDescriptor"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetVertexAttributesArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attributes});
   }
@@ -1173,7 +1173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: GetVertexAttributesList
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Rendering::VertexAttributeDescriptor>*)>(&UnityEngine::Mesh::GetVertexAttributesList)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* attributes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttributeDescriptor")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetVertexAttributesList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attributes});
   }
@@ -1182,7 +1182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: GetVertexAttributeCountImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::GetVertexAttributeCountImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetVertexAttributeCountImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1190,7 +1190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: GetVertexAttribute
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::VertexAttributeDescriptor (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetVertexAttribute)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetVertexAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
   }
@@ -1199,7 +1199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetIndexStartImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetIndexStartImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetIndexStartImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{submesh});
   }
@@ -1208,7 +1208,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Unity
 // Il2CppName: GetIndexCountImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetIndexCountImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetIndexCountImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{submesh});
   }
@@ -1217,7 +1217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Unity
 // Il2CppName: GetTrianglesCountImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetTrianglesCountImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetTrianglesCountImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{submesh});
   }
@@ -1226,7 +1226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Unity
 // Il2CppName: GetBaseVertexImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetBaseVertexImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetBaseVertexImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{submesh});
   }
@@ -1235,7 +1235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Unity
 // Il2CppName: GetTrianglesImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (UnityEngine::Mesh::*)(int, bool)>(&UnityEngine::Mesh::GetTrianglesImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* applyBaseVertex = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetTrianglesImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{submesh, applyBaseVertex});
@@ -1245,7 +1245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int
 // Il2CppName: GetIndicesImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (UnityEngine::Mesh::*)(int, bool)>(&UnityEngine::Mesh::GetIndicesImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* applyBaseVertex = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetIndicesImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{submesh, applyBaseVertex});
@@ -1255,7 +1255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int
 // Il2CppName: SetIndicesImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, UnityEngine::MeshTopology, UnityEngine::Rendering::IndexFormat, System::Array*, int, int, bool, int)>(&UnityEngine::Mesh::SetIndicesImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* topology = &::il2cpp_utils::GetClassFromName("UnityEngine", "MeshTopology")->byval_arg;
     static auto* indicesFormat = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "IndexFormat")->byval_arg;
@@ -1271,7 +1271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetIndicesNativeArrayImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, UnityEngine::MeshTopology, UnityEngine::Rendering::IndexFormat, System::IntPtr, int, int, bool, int)>(&UnityEngine::Mesh::SetIndicesNativeArrayImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* topology = &::il2cpp_utils::GetClassFromName("UnityEngine", "MeshTopology")->byval_arg;
     static auto* indicesFormat = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "IndexFormat")->byval_arg;
@@ -1287,7 +1287,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetTrianglesNonAllocImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<int>*&, int, bool)>(&UnityEngine::Mesh::GetTrianglesNonAllocImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* applyBaseVertex = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -1298,7 +1298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetTrianglesNonAllocImpl16
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<uint16_t>*&, int, bool)>(&UnityEngine::Mesh::GetTrianglesNonAllocImpl16)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt16"), 1)->this_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* applyBaseVertex = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -1309,7 +1309,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetIndicesNonAllocImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<int>*&, int, bool)>(&UnityEngine::Mesh::GetIndicesNonAllocImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* applyBaseVertex = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -1320,7 +1320,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetIndicesNonAllocImpl16
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<uint16_t>*&, int, bool)>(&UnityEngine::Mesh::GetIndicesNonAllocImpl16)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt16"), 1)->this_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* applyBaseVertex = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -1331,7 +1331,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: PrintErrorCantAccessChannel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(UnityEngine::Rendering::VertexAttribute)>(&UnityEngine::Mesh::PrintErrorCantAccessChannel)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ch = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttribute")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "PrintErrorCantAccessChannel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch});
   }
@@ -1340,7 +1340,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: HasVertexAttribute
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Mesh::*)(UnityEngine::Rendering::VertexAttribute)>(&UnityEngine::Mesh::HasVertexAttribute)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* attr = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttribute")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "HasVertexAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attr});
   }
@@ -1349,7 +1349,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: GetVertexAttributeDimension
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Mesh::*)(UnityEngine::Rendering::VertexAttribute)>(&UnityEngine::Mesh::GetVertexAttributeDimension)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* attr = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttribute")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetVertexAttributeDimension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attr});
   }
@@ -1358,7 +1358,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: GetVertexAttributeFormat
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::VertexAttributeFormat (UnityEngine::Mesh::*)(UnityEngine::Rendering::VertexAttribute)>(&UnityEngine::Mesh::GetVertexAttributeFormat)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* attr = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttribute")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetVertexAttributeFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attr});
   }
@@ -1367,7 +1367,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: SetArrayForChannelImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(UnityEngine::Rendering::VertexAttribute, UnityEngine::Rendering::VertexAttributeFormat, int, System::Array*, int, int, int)>(&UnityEngine::Mesh::SetArrayForChannelImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttribute")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttributeFormat")->byval_arg;
     static auto* dim = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1382,7 +1382,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetNativeArrayForChannelImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(UnityEngine::Rendering::VertexAttribute, UnityEngine::Rendering::VertexAttributeFormat, int, System::IntPtr, int, int, int)>(&UnityEngine::Mesh::SetNativeArrayForChannelImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttribute")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttributeFormat")->byval_arg;
     static auto* dim = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1397,7 +1397,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetAllocArrayFromChannelImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (UnityEngine::Mesh::*)(UnityEngine::Rendering::VertexAttribute, UnityEngine::Rendering::VertexAttributeFormat, int)>(&UnityEngine::Mesh::GetAllocArrayFromChannelImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttribute")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttributeFormat")->byval_arg;
     static auto* dim = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1408,7 +1408,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Arr
 // Il2CppName: GetArrayFromChannelImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(UnityEngine::Rendering::VertexAttribute, UnityEngine::Rendering::VertexAttributeFormat, int, System::Array*)>(&UnityEngine::Mesh::GetArrayFromChannelImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttribute")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttributeFormat")->byval_arg;
     static auto* dim = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1420,7 +1420,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_vertexBufferCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_vertexBufferCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_vertexBufferCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1428,7 +1428,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: GetNativeVertexBufferPtr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetNativeVertexBufferPtr)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetNativeVertexBufferPtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
   }
@@ -1437,7 +1437,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: GetNativeIndexBufferPtr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::GetNativeIndexBufferPtr)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetNativeIndexBufferPtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1445,7 +1445,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: get_blendShapeCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_blendShapeCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_blendShapeCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1453,7 +1453,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: ClearBlendShapes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::ClearBlendShapes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "ClearBlendShapes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1461,7 +1461,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetBlendShapeName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetBlendShapeName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* shapeIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetBlendShapeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{shapeIndex});
   }
@@ -1470,7 +1470,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetBlendShapeIndex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Mesh::*)(::Il2CppString*)>(&UnityEngine::Mesh::GetBlendShapeIndex)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* blendShapeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetBlendShapeIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{blendShapeName});
   }
@@ -1479,7 +1479,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: GetBlendShapeFrameCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetBlendShapeFrameCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* shapeIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetBlendShapeFrameCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{shapeIndex});
   }
@@ -1488,7 +1488,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: GetBlendShapeFrameWeight
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Mesh::*)(int, int)>(&UnityEngine::Mesh::GetBlendShapeFrameWeight)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* shapeIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* frameIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetBlendShapeFrameWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{shapeIndex, frameIndex});
@@ -1498,7 +1498,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Il2CppName: GetBlendShapeFrameVertices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, int, ::Array<UnityEngine::Vector3>*, ::Array<UnityEngine::Vector3>*, ::Array<UnityEngine::Vector3>*)>(&UnityEngine::Mesh::GetBlendShapeFrameVertices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* shapeIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* frameIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* deltaVertices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
@@ -1511,7 +1511,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: AddBlendShapeFrame
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Il2CppString*, float, ::Array<UnityEngine::Vector3>*, ::Array<UnityEngine::Vector3>*, ::Array<UnityEngine::Vector3>*)>(&UnityEngine::Mesh::AddBlendShapeFrame)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* shapeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* frameWeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* deltaVertices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
@@ -1524,7 +1524,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: HasBoneWeights
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::HasBoneWeights)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "HasBoneWeights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1532,7 +1532,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: GetBoneWeightsImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::BoneWeight>* (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::GetBoneWeightsImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetBoneWeightsImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1540,7 +1540,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: SetBoneWeightsImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::BoneWeight>*)>(&UnityEngine::Mesh::SetBoneWeightsImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* weights = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "BoneWeight"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetBoneWeightsImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{weights});
   }
@@ -1549,7 +1549,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetBoneWeights
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(Unity::Collections::NativeArray_1<uint8_t>, Unity::Collections::NativeArray_1<UnityEngine::BoneWeight1>)>(&UnityEngine::Mesh::SetBoneWeights)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bonesPerVertex = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("Unity.Collections", "NativeArray`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Byte")})->byval_arg;
     static auto* weights = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("Unity.Collections", "NativeArray`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "BoneWeight1")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetBoneWeights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bonesPerVertex, weights});
@@ -1559,7 +1559,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: InternalSetBoneWeights
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::IntPtr, int, System::IntPtr, int)>(&UnityEngine::Mesh::InternalSetBoneWeights)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bonesPerVertex = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* bonesPerVertexSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* weights = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -1571,7 +1571,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetAllBoneWeights
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Unity::Collections::NativeArray_1<UnityEngine::BoneWeight1> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::GetAllBoneWeights)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetAllBoneWeights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1579,7 +1579,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Unity::Coll
 // Il2CppName: GetBonesPerVertex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Unity::Collections::NativeArray_1<uint8_t> (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::GetBonesPerVertex)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetBonesPerVertex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1587,7 +1587,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Unity::Coll
 // Il2CppName: GetAllBoneWeightsArraySize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::GetAllBoneWeightsArraySize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetAllBoneWeightsArraySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1595,7 +1595,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: GetAllBoneWeightsArray
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::GetAllBoneWeightsArray)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetAllBoneWeightsArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1603,7 +1603,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: GetBonesPerVertexArray
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::GetBonesPerVertexArray)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetBonesPerVertexArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1611,7 +1611,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: GetBindposeCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::GetBindposeCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetBindposeCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1619,7 +1619,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: get_bindposes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Matrix4x4>* (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_bindposes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_bindposes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1627,7 +1627,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: set_bindposes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::Matrix4x4>*)>(&UnityEngine::Mesh::set_bindposes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_bindposes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1636,7 +1636,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetBoneWeightsNonAllocImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::BoneWeight>*&)>(&UnityEngine::Mesh::GetBoneWeightsNonAllocImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "BoneWeight"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetBoneWeightsNonAllocImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{values});
   }
@@ -1645,7 +1645,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetBindposesNonAllocImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::Matrix4x4>*&)>(&UnityEngine::Mesh::GetBindposesNonAllocImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetBindposesNonAllocImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{values});
   }
@@ -1654,7 +1654,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_isReadable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_isReadable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_isReadable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1662,7 +1662,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: get_canAccess
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_canAccess)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_canAccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1670,7 +1670,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: get_vertexCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_vertexCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_vertexCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1678,7 +1678,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: get_subMeshCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_subMeshCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_subMeshCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1686,7 +1686,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: set_subMeshCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::set_subMeshCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_subMeshCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1695,7 +1695,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetSubMesh
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, UnityEngine::Rendering::SubMeshDescriptor, UnityEngine::Rendering::MeshUpdateFlags)>(&UnityEngine::Mesh::SetSubMesh)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* desc = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "SubMeshDescriptor")->byval_arg;
     static auto* flags = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "MeshUpdateFlags")->byval_arg;
@@ -1706,7 +1706,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetSubMesh
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::SubMeshDescriptor (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetSubMesh)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetSubMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
   }
@@ -1715,7 +1715,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_bounds
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_bounds)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_bounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1723,7 +1723,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_bounds
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(UnityEngine::Bounds)>(&UnityEngine::Mesh::set_bounds)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Bounds")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_bounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1732,7 +1732,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: ClearImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(bool)>(&UnityEngine::Mesh::ClearImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* keepVertexLayout = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "ClearImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keepVertexLayout});
   }
@@ -1741,7 +1741,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: RecalculateBoundsImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::RecalculateBoundsImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "RecalculateBoundsImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1749,7 +1749,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: RecalculateNormalsImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::RecalculateNormalsImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "RecalculateNormalsImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1757,7 +1757,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: RecalculateTangentsImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::RecalculateTangentsImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "RecalculateTangentsImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1765,7 +1765,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: MarkDynamicImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::MarkDynamicImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "MarkDynamicImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1773,7 +1773,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: MarkModified
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::MarkModified)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "MarkModified", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1781,7 +1781,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: UploadMeshDataImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(bool)>(&UnityEngine::Mesh::UploadMeshDataImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* markNoLongerReadable = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "UploadMeshDataImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{markNoLongerReadable});
   }
@@ -1790,7 +1790,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetTopologyImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::MeshTopology (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetTopologyImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetTopologyImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{submesh});
   }
@@ -1799,7 +1799,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetUVDistributionMetric
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetUVDistributionMetric)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* uvSetIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetUVDistributionMetric", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uvSetIndex});
   }
@@ -1808,7 +1808,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Il2CppName: CombineMeshesImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::CombineInstance>*, bool, bool, bool)>(&UnityEngine::Mesh::CombineMeshesImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* combine = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "CombineInstance"), 1)->byval_arg;
     static auto* mergeSubMeshes = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* useMatrices = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -1820,7 +1820,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: OptimizeImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::OptimizeImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "OptimizeImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1828,7 +1828,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: OptimizeIndexBuffersImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::OptimizeIndexBuffersImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "OptimizeIndexBuffersImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1836,7 +1836,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: OptimizeReorderVertexBufferImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::OptimizeReorderVertexBufferImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "OptimizeReorderVertexBufferImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1844,7 +1844,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetUVChannel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::VertexAttribute (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetUVChannel)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* uvIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetUVChannel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uvIndex});
   }
@@ -1853,7 +1853,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: DefaultDimensionForChannel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Rendering::VertexAttribute)>(&UnityEngine::Mesh::DefaultDimensionForChannel)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttribute")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "DefaultDimensionForChannel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{channel});
   }
@@ -1868,7 +1868,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 // Il2CppName: SetSizedArrayForChannel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(UnityEngine::Rendering::VertexAttribute, UnityEngine::Rendering::VertexAttributeFormat, int, System::Array*, int, int, int)>(&UnityEngine::Mesh::SetSizedArrayForChannel)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttribute")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttributeFormat")->byval_arg;
     static auto* dim = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1883,7 +1883,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetSizedNativeArrayForChannel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(UnityEngine::Rendering::VertexAttribute, UnityEngine::Rendering::VertexAttributeFormat, int, System::IntPtr, int, int, int)>(&UnityEngine::Mesh::SetSizedNativeArrayForChannel)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttribute")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttributeFormat")->byval_arg;
     static auto* dim = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1916,7 +1916,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_vertices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_vertices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_vertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1924,7 +1924,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: set_vertices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::Vector3>*)>(&UnityEngine::Mesh::set_vertices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_vertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1933,7 +1933,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_normals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_normals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_normals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1941,7 +1941,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: set_normals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::Vector3>*)>(&UnityEngine::Mesh::set_normals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_normals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1950,7 +1950,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_tangents
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector4>* (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_tangents)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_tangents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1958,7 +1958,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: set_tangents
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::Vector4>*)>(&UnityEngine::Mesh::set_tangents)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_tangents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1967,7 +1967,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_uv
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector2>* (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_uv)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_uv", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1975,7 +1975,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: set_uv
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::Vector2>*)>(&UnityEngine::Mesh::set_uv)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_uv", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1984,7 +1984,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_uv2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector2>* (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_uv2)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_uv2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1992,7 +1992,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: set_uv2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::Vector2>*)>(&UnityEngine::Mesh::set_uv2)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_uv2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -2001,7 +2001,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_uv3
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector2>* (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_uv3)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_uv3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -2009,7 +2009,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: set_uv3
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::Vector2>*)>(&UnityEngine::Mesh::set_uv3)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_uv3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -2018,7 +2018,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_uv4
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector2>* (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_uv4)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_uv4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -2026,7 +2026,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: set_uv4
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::Vector2>*)>(&UnityEngine::Mesh::set_uv4)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_uv4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -2035,7 +2035,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_uv5
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector2>* (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_uv5)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_uv5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -2043,7 +2043,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: set_uv5
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::Vector2>*)>(&UnityEngine::Mesh::set_uv5)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_uv5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -2052,7 +2052,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_uv6
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector2>* (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_uv6)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_uv6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -2060,7 +2060,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: set_uv6
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::Vector2>*)>(&UnityEngine::Mesh::set_uv6)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_uv6", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -2069,7 +2069,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_uv7
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector2>* (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_uv7)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_uv7", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -2077,7 +2077,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: set_uv7
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::Vector2>*)>(&UnityEngine::Mesh::set_uv7)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_uv7", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -2086,7 +2086,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_uv8
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector2>* (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_uv8)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_uv8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -2094,7 +2094,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: set_uv8
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::Vector2>*)>(&UnityEngine::Mesh::set_uv8)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_uv8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -2103,7 +2103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_colors
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Color>* (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_colors)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_colors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -2111,7 +2111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: set_colors
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::Color>*)>(&UnityEngine::Mesh::set_colors)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_colors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -2120,7 +2120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_colors32
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Color32>* (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_colors32)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_colors32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -2128,7 +2128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: set_colors32
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::Color32>*)>(&UnityEngine::Mesh::set_colors32)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_colors32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -2137,7 +2137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetVertices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*)>(&UnityEngine::Mesh::GetVertices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* vertices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vertices});
   }
@@ -2146,7 +2146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetVertices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*)>(&UnityEngine::Mesh::SetVertices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* inVertices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inVertices});
   }
@@ -2155,7 +2155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetVertices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*, int, int)>(&UnityEngine::Mesh::SetVertices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* inVertices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2166,7 +2166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetVertices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::Vector3>*)>(&UnityEngine::Mesh::SetVertices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* inVertices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inVertices});
   }
@@ -2175,7 +2175,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetVertices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::Vector3>*, int, int)>(&UnityEngine::Mesh::SetVertices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* inVertices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2192,7 +2192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetNormals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*)>(&UnityEngine::Mesh::GetNormals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* normals = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetNormals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{normals});
   }
@@ -2201,7 +2201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetNormals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*)>(&UnityEngine::Mesh::SetNormals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* inNormals = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetNormals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inNormals});
   }
@@ -2210,7 +2210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetNormals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Vector3>*, int, int)>(&UnityEngine::Mesh::SetNormals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* inNormals = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2221,7 +2221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetNormals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::Vector3>*)>(&UnityEngine::Mesh::SetNormals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* inNormals = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetNormals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inNormals});
   }
@@ -2230,7 +2230,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetNormals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::Vector3>*, int, int)>(&UnityEngine::Mesh::SetNormals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* inNormals = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2247,7 +2247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetTangents
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Vector4>*)>(&UnityEngine::Mesh::GetTangents)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tangents = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetTangents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tangents});
   }
@@ -2256,7 +2256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetTangents
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Vector4>*)>(&UnityEngine::Mesh::SetTangents)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* inTangents = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetTangents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inTangents});
   }
@@ -2265,7 +2265,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetTangents
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Vector4>*, int, int)>(&UnityEngine::Mesh::SetTangents)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* inTangents = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")})->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2276,7 +2276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetTangents
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::Vector4>*)>(&UnityEngine::Mesh::SetTangents)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* inTangents = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetTangents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inTangents});
   }
@@ -2285,7 +2285,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetTangents
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::Vector4>*, int, int)>(&UnityEngine::Mesh::SetTangents)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* inTangents = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2302,7 +2302,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetColors
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Color>*)>(&UnityEngine::Mesh::GetColors)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* colors = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Color")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colors});
   }
@@ -2311,7 +2311,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetColors
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Color>*)>(&UnityEngine::Mesh::SetColors)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* inColors = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Color")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inColors});
   }
@@ -2320,7 +2320,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetColors
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Color>*, int, int)>(&UnityEngine::Mesh::SetColors)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* inColors = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Color")})->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2331,7 +2331,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetColors
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::Color>*)>(&UnityEngine::Mesh::SetColors)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* inColors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inColors});
   }
@@ -2340,7 +2340,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetColors
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::Color>*, int, int)>(&UnityEngine::Mesh::SetColors)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* inColors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2351,7 +2351,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetColors
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Color32>*)>(&UnityEngine::Mesh::GetColors)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* colors = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Color32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colors});
   }
@@ -2360,7 +2360,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetColors
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Color32>*)>(&UnityEngine::Mesh::SetColors)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* inColors = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Color32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inColors});
   }
@@ -2369,7 +2369,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetColors
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Color32>*, int, int)>(&UnityEngine::Mesh::SetColors)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* inColors = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Color32")})->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2380,7 +2380,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetColors
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::Color32>*)>(&UnityEngine::Mesh::SetColors)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* inColors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inColors});
   }
@@ -2389,7 +2389,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetColors
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::Color32>*, int, int)>(&UnityEngine::Mesh::SetColors)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* inColors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color32"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2409,7 +2409,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetUVs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, System::Collections::Generic::List_1<UnityEngine::Vector2>*)>(&UnityEngine::Mesh::SetUVs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetUVs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{channel, uvs});
@@ -2419,7 +2419,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetUVs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, System::Collections::Generic::List_1<UnityEngine::Vector3>*)>(&UnityEngine::Mesh::SetUVs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetUVs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{channel, uvs});
@@ -2429,7 +2429,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetUVs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, System::Collections::Generic::List_1<UnityEngine::Vector4>*)>(&UnityEngine::Mesh::SetUVs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetUVs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{channel, uvs});
@@ -2439,7 +2439,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetUVs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, System::Collections::Generic::List_1<UnityEngine::Vector2>*, int, int)>(&UnityEngine::Mesh::SetUVs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2451,7 +2451,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetUVs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, System::Collections::Generic::List_1<UnityEngine::Vector3>*, int, int)>(&UnityEngine::Mesh::SetUVs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2463,7 +2463,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetUVs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, System::Collections::Generic::List_1<UnityEngine::Vector4>*, int, int)>(&UnityEngine::Mesh::SetUVs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")})->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2475,7 +2475,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetUvsImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, int, System::Array*, int, int)>(&UnityEngine::Mesh::SetUvsImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* uvIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* dim = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvs = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
@@ -2488,7 +2488,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetUVs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::Array<UnityEngine::Vector2>*)>(&UnityEngine::Mesh::SetUVs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetUVs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{channel, uvs});
@@ -2498,7 +2498,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetUVs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::Array<UnityEngine::Vector3>*)>(&UnityEngine::Mesh::SetUVs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetUVs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{channel, uvs});
@@ -2508,7 +2508,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetUVs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::Array<UnityEngine::Vector4>*)>(&UnityEngine::Mesh::SetUVs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetUVs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{channel, uvs});
@@ -2518,7 +2518,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetUVs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::Array<UnityEngine::Vector2>*, int, int)>(&UnityEngine::Mesh::SetUVs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2530,7 +2530,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetUVs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::Array<UnityEngine::Vector3>*, int, int)>(&UnityEngine::Mesh::SetUVs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2542,7 +2542,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetUVs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, ::Array<UnityEngine::Vector4>*, int, int)>(&UnityEngine::Mesh::SetUVs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2563,7 +2563,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetUVs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, System::Collections::Generic::List_1<UnityEngine::Vector2>*)>(&UnityEngine::Mesh::GetUVs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetUVs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{channel, uvs});
@@ -2573,7 +2573,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetUVs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, System::Collections::Generic::List_1<UnityEngine::Vector3>*)>(&UnityEngine::Mesh::GetUVs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetUVs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{channel, uvs});
@@ -2583,7 +2583,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetUVs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, System::Collections::Generic::List_1<UnityEngine::Vector4>*)>(&UnityEngine::Mesh::GetUVs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* uvs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetUVs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{channel, uvs});
@@ -2593,7 +2593,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_vertexAttributeCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_vertexAttributeCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_vertexAttributeCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -2601,7 +2601,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: GetVertexAttributes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Rendering::VertexAttributeDescriptor>* (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::GetVertexAttributes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetVertexAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -2609,7 +2609,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: GetVertexAttributes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Mesh::*)(::Array<UnityEngine::Rendering::VertexAttributeDescriptor>*)>(&UnityEngine::Mesh::GetVertexAttributes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* attributes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttributeDescriptor"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetVertexAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attributes});
   }
@@ -2618,7 +2618,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: GetVertexAttributes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Rendering::VertexAttributeDescriptor>*)>(&UnityEngine::Mesh::GetVertexAttributes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* attributes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttributeDescriptor")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetVertexAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attributes});
   }
@@ -2636,7 +2636,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: PrintErrorCantAccessIndices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::PrintErrorCantAccessIndices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "PrintErrorCantAccessIndices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -2644,7 +2644,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: CheckCanAccessSubmesh
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Mesh::*)(int, bool)>(&UnityEngine::Mesh::CheckCanAccessSubmesh)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* errorAboutTriangles = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "CheckCanAccessSubmesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{submesh, errorAboutTriangles});
@@ -2654,7 +2654,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: CheckCanAccessSubmeshTriangles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::CheckCanAccessSubmeshTriangles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "CheckCanAccessSubmeshTriangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{submesh});
   }
@@ -2663,7 +2663,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: CheckCanAccessSubmeshIndices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::CheckCanAccessSubmeshIndices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "CheckCanAccessSubmeshIndices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{submesh});
   }
@@ -2672,7 +2672,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: get_triangles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_triangles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_triangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -2680,7 +2680,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int
 // Il2CppName: set_triangles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<int>*)>(&UnityEngine::Mesh::set_triangles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_triangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -2689,7 +2689,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetTriangles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetTriangles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetTriangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{submesh});
   }
@@ -2698,7 +2698,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int
 // Il2CppName: GetTriangles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (UnityEngine::Mesh::*)(int, bool)>(&UnityEngine::Mesh::GetTriangles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* applyBaseVertex = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetTriangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{submesh, applyBaseVertex});
@@ -2708,7 +2708,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int
 // Il2CppName: GetTriangles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<int>*, int)>(&UnityEngine::Mesh::GetTriangles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* triangles = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetTriangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{triangles, submesh});
@@ -2718,7 +2718,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetTriangles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<int>*, int, bool)>(&UnityEngine::Mesh::GetTriangles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* triangles = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* applyBaseVertex = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -2729,7 +2729,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetTriangles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<uint16_t>*, int, bool)>(&UnityEngine::Mesh::GetTriangles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* triangles = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "UInt16")})->byval_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* applyBaseVertex = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -2740,7 +2740,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetIndices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetIndices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetIndices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{submesh});
   }
@@ -2749,7 +2749,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int
 // Il2CppName: GetIndices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (UnityEngine::Mesh::*)(int, bool)>(&UnityEngine::Mesh::GetIndices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* applyBaseVertex = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetIndices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{submesh, applyBaseVertex});
@@ -2759,7 +2759,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int
 // Il2CppName: GetIndices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<int>*, int)>(&UnityEngine::Mesh::GetIndices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* indices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetIndices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{indices, submesh});
@@ -2769,7 +2769,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetIndices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<int>*, int, bool)>(&UnityEngine::Mesh::GetIndices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* indices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* applyBaseVertex = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -2780,7 +2780,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetIndices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<uint16_t>*, int, bool)>(&UnityEngine::Mesh::GetIndices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* indices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "UInt16")})->byval_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* applyBaseVertex = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -2800,7 +2800,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetIndexStart
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetIndexStart)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetIndexStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{submesh});
   }
@@ -2809,7 +2809,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Unity
 // Il2CppName: GetIndexCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetIndexCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetIndexCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{submesh});
   }
@@ -2818,7 +2818,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Unity
 // Il2CppName: GetBaseVertex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetBaseVertex)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetBaseVertex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{submesh});
   }
@@ -2827,7 +2827,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Unity
 // Il2CppName: CheckIndicesArrayRange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, int, int)>(&UnityEngine::Mesh::CheckIndicesArrayRange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* valuesLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2838,7 +2838,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetTrianglesImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, UnityEngine::Rendering::IndexFormat, System::Array*, int, int, int, bool, int)>(&UnityEngine::Mesh::SetTrianglesImpl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* indicesFormat = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "IndexFormat")->byval_arg;
     static auto* triangles = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
@@ -2854,7 +2854,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetTriangles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<int>*, int)>(&UnityEngine::Mesh::SetTriangles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* triangles = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetTriangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{triangles, submesh});
@@ -2864,7 +2864,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetTriangles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<int>*, int, bool)>(&UnityEngine::Mesh::SetTriangles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* triangles = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* calculateBounds = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -2875,7 +2875,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetTriangles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<int>*, int, bool, int)>(&UnityEngine::Mesh::SetTriangles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* triangles = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* calculateBounds = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -2887,7 +2887,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetTriangles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<int>*, int, int, int, bool, int)>(&UnityEngine::Mesh::SetTriangles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* triangles = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* trianglesStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* trianglesLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2901,7 +2901,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetTriangles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<uint16_t>*, int, bool, int)>(&UnityEngine::Mesh::SetTriangles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* triangles = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt16"), 1)->byval_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* calculateBounds = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -2913,7 +2913,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetTriangles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<uint16_t>*, int, int, int, bool, int)>(&UnityEngine::Mesh::SetTriangles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* triangles = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt16"), 1)->byval_arg;
     static auto* trianglesStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* trianglesLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2927,7 +2927,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetTriangles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<int>*, int)>(&UnityEngine::Mesh::SetTriangles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* triangles = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "SetTriangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{triangles, submesh});
@@ -2937,7 +2937,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetTriangles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<int>*, int, bool)>(&UnityEngine::Mesh::SetTriangles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* triangles = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* calculateBounds = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -2948,7 +2948,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetTriangles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<int>*, int, bool, int)>(&UnityEngine::Mesh::SetTriangles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* triangles = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* calculateBounds = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -2960,7 +2960,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetTriangles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<int>*, int, int, int, bool, int)>(&UnityEngine::Mesh::SetTriangles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* triangles = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     static auto* trianglesStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* trianglesLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2974,7 +2974,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetTriangles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<uint16_t>*, int, bool, int)>(&UnityEngine::Mesh::SetTriangles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* triangles = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "UInt16")})->byval_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* calculateBounds = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -2986,7 +2986,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetTriangles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<uint16_t>*, int, int, int, bool, int)>(&UnityEngine::Mesh::SetTriangles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* triangles = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "UInt16")})->byval_arg;
     static auto* trianglesStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* trianglesLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -3000,7 +3000,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetIndices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<int>*, UnityEngine::MeshTopology, int)>(&UnityEngine::Mesh::SetIndices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* indices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* topology = &::il2cpp_utils::GetClassFromName("UnityEngine", "MeshTopology")->byval_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -3011,7 +3011,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetIndices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<int>*, UnityEngine::MeshTopology, int, bool)>(&UnityEngine::Mesh::SetIndices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* indices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* topology = &::il2cpp_utils::GetClassFromName("UnityEngine", "MeshTopology")->byval_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -3023,7 +3023,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetIndices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<int>*, UnityEngine::MeshTopology, int, bool, int)>(&UnityEngine::Mesh::SetIndices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* indices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* topology = &::il2cpp_utils::GetClassFromName("UnityEngine", "MeshTopology")->byval_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -3036,7 +3036,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetIndices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<int>*, int, int, UnityEngine::MeshTopology, int, bool, int)>(&UnityEngine::Mesh::SetIndices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* indices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* indicesStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* indicesLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -3051,7 +3051,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetIndices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<uint16_t>*, UnityEngine::MeshTopology, int, bool, int)>(&UnityEngine::Mesh::SetIndices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* indices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt16"), 1)->byval_arg;
     static auto* topology = &::il2cpp_utils::GetClassFromName("UnityEngine", "MeshTopology")->byval_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -3064,7 +3064,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetIndices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<uint16_t>*, int, int, UnityEngine::MeshTopology, int, bool, int)>(&UnityEngine::Mesh::SetIndices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* indices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt16"), 1)->byval_arg;
     static auto* indicesStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* indicesLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -3085,7 +3085,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetIndices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<int>*, UnityEngine::MeshTopology, int, bool, int)>(&UnityEngine::Mesh::SetIndices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* indices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     static auto* topology = &::il2cpp_utils::GetClassFromName("UnityEngine", "MeshTopology")->byval_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -3098,7 +3098,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetIndices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<int>*, int, int, UnityEngine::MeshTopology, int, bool, int)>(&UnityEngine::Mesh::SetIndices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* indices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     static auto* indicesStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* indicesLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -3113,7 +3113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetIndices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<uint16_t>*, UnityEngine::MeshTopology, int, bool, int)>(&UnityEngine::Mesh::SetIndices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* indices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "UInt16")})->byval_arg;
     static auto* topology = &::il2cpp_utils::GetClassFromName("UnityEngine", "MeshTopology")->byval_arg;
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -3126,7 +3126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetIndices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<uint16_t>*, int, int, UnityEngine::MeshTopology, int, bool, int)>(&UnityEngine::Mesh::SetIndices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* indices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "UInt16")})->byval_arg;
     static auto* indicesStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* indicesLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -3141,7 +3141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetBindposes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::Matrix4x4>*)>(&UnityEngine::Mesh::GetBindposes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bindposes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetBindposes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindposes});
   }
@@ -3150,7 +3150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetBoneWeights
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(System::Collections::Generic::List_1<UnityEngine::BoneWeight>*)>(&UnityEngine::Mesh::GetBoneWeights)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* boneWeights = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "BoneWeight")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetBoneWeights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boneWeights});
   }
@@ -3159,7 +3159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_boneWeights
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::BoneWeight>* (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::get_boneWeights)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_boneWeights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -3167,7 +3167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: set_boneWeights
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::BoneWeight>*)>(&UnityEngine::Mesh::set_boneWeights)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "BoneWeight"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_boneWeights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -3176,7 +3176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Clear
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(bool)>(&UnityEngine::Mesh::Clear)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* keepVertexLayout = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keepVertexLayout});
   }
@@ -3185,7 +3185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Clear
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::Clear)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "Clear", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -3193,7 +3193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: RecalculateBounds
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::RecalculateBounds)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "RecalculateBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -3201,7 +3201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: RecalculateNormals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::RecalculateNormals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "RecalculateNormals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -3209,7 +3209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: RecalculateTangents
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::RecalculateTangents)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "RecalculateTangents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -3217,7 +3217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: MarkDynamic
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::MarkDynamic)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "MarkDynamic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -3225,7 +3225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: UploadMeshData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(bool)>(&UnityEngine::Mesh::UploadMeshData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* markNoLongerReadable = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "UploadMeshData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{markNoLongerReadable});
   }
@@ -3234,7 +3234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: Optimize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::Optimize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "Optimize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -3242,7 +3242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: OptimizeIndexBuffers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::OptimizeIndexBuffers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "OptimizeIndexBuffers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -3250,7 +3250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: OptimizeReorderVertexBuffer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)()>(&UnityEngine::Mesh::OptimizeReorderVertexBuffer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "OptimizeReorderVertexBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -3258,7 +3258,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetTopology
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::MeshTopology (UnityEngine::Mesh::*)(int)>(&UnityEngine::Mesh::GetTopology)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* submesh = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetTopology", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{submesh});
   }
@@ -3267,7 +3267,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: CombineMeshes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::CombineInstance>*, bool, bool, bool)>(&UnityEngine::Mesh::CombineMeshes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* combine = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "CombineInstance"), 1)->byval_arg;
     static auto* mergeSubMeshes = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* useMatrices = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -3279,7 +3279,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: CombineMeshes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::CombineInstance>*, bool, bool)>(&UnityEngine::Mesh::CombineMeshes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* combine = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "CombineInstance"), 1)->byval_arg;
     static auto* mergeSubMeshes = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* useMatrices = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -3290,7 +3290,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: CombineMeshes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::CombineInstance>*, bool)>(&UnityEngine::Mesh::CombineMeshes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* combine = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "CombineInstance"), 1)->byval_arg;
     static auto* mergeSubMeshes = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "CombineMeshes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{combine, mergeSubMeshes});
@@ -3300,7 +3300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: CombineMeshes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(::Array<UnityEngine::CombineInstance>*)>(&UnityEngine::Mesh::CombineMeshes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* combine = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "CombineInstance"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "CombineMeshes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{combine});
   }
@@ -3309,7 +3309,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetVertexAttribute_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, UnityEngine::Rendering::VertexAttributeDescriptor&)>(&UnityEngine::Mesh::GetVertexAttribute_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "VertexAttributeDescriptor")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetVertexAttribute_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index, ret});
@@ -3319,7 +3319,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: SetSubMesh_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, UnityEngine::Rendering::SubMeshDescriptor&, UnityEngine::Rendering::MeshUpdateFlags)>(&UnityEngine::Mesh::SetSubMesh_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* desc = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "SubMeshDescriptor")->this_arg;
     static auto* flags = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "MeshUpdateFlags")->byval_arg;
@@ -3330,7 +3330,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetSubMesh_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(int, UnityEngine::Rendering::SubMeshDescriptor&)>(&UnityEngine::Mesh::GetSubMesh_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "SubMeshDescriptor")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "GetSubMesh_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index, ret});
@@ -3340,7 +3340,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_bounds_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(UnityEngine::Bounds&)>(&UnityEngine::Mesh::get_bounds_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Bounds")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "get_bounds_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
   }
@@ -3349,7 +3349,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: set_bounds_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Mesh::*)(UnityEngine::Bounds&)>(&UnityEngine::Mesh::set_bounds_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Bounds")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Mesh*), "set_bounds_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

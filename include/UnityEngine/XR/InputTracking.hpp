@@ -89,7 +89,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputTracking*, "UnityEngine.XR", "Input
 // Il2CppName: InvokeTrackingEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::XR::InputTracking::TrackingStateEventType, UnityEngine::XR::XRNode, int64_t, bool)>(&UnityEngine::XR::InputTracking::InvokeTrackingEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eventType = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "InputTracking/TrackingStateEventType")->byval_arg;
     static auto* nodeType = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNode")->byval_arg;
     static auto* uniqueID = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: Recenter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::XR::InputTracking::Recenter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::InputTracking*), "Recenter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: GetNodeStates
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<UnityEngine::XR::XRNodeState>*)>(&UnityEngine::XR::InputTracking::GetNodeStates)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* nodeStates = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNodeState")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::InputTracking*), "GetNodeStates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeStates});
   }
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: GetNodeStates_Internal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<UnityEngine::XR::XRNodeState>*)>(&UnityEngine::XR::InputTracking::GetNodeStates_Internal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* nodeStates = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNodeState")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::InputTracking*), "GetNodeStates_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeStates});
   }
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::XR::InputTracking::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::InputTracking*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

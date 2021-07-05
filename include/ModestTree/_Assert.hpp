@@ -233,7 +233,7 @@ DEFINE_IL2CPP_ARG_TYPE(ModestTree::_Assert*, "ModestTree", "Assert");
 // Il2CppName: That
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&ModestTree::_Assert::That)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* condition = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "That", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{condition});
   }
@@ -242,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Il2CppName: IsNotEmpty
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&ModestTree::_Assert::IsNotEmpty)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "IsNotEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
   }
@@ -269,7 +269,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: DerivesFrom
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Type*, System::Type*)>(&ModestTree::_Assert::DerivesFrom)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* childType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* parentType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "DerivesFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{childType, parentType});
@@ -279,7 +279,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: DerivesFromOrEqual
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Type*, System::Type*)>(&ModestTree::_Assert::DerivesFromOrEqual)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* childType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* parentType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "DerivesFromOrEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{childType, parentType});
@@ -289,7 +289,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: IsEqual
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppObject*)>(&ModestTree::_Assert::IsEqual)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* left = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* right = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "IsEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{left, right});
@@ -299,7 +299,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: IsEqual
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppObject*, System::Func_1<::Il2CppString*>*)>(&ModestTree::_Assert::IsEqual)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* left = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* right = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* messageGenerator = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
@@ -310,7 +310,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: IsApproximately
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, float, float)>(&ModestTree::_Assert::IsApproximately)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* left = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* right = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* epsilon = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -321,7 +321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(fl
 // Il2CppName: IsEqual
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppObject*, ::Il2CppString*)>(&ModestTree::_Assert::IsEqual)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* left = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* right = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -332,7 +332,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: IsNotEqual
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppObject*)>(&ModestTree::_Assert::IsNotEqual)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* left = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* right = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "IsNotEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{left, right});
@@ -342,7 +342,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: IsNotEqual
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppObject*, System::Func_1<::Il2CppString*>*)>(&ModestTree::_Assert::IsNotEqual)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* left = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* right = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* messageGenerator = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
@@ -353,7 +353,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: IsNull
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&ModestTree::_Assert::IsNull)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* val = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "IsNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val});
   }
@@ -362,7 +362,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: IsNull
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppString*)>(&ModestTree::_Assert::IsNull)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* val = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "IsNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val, message});
@@ -372,7 +372,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: IsNull
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppString*, ::Il2CppObject*)>(&ModestTree::_Assert::IsNull)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* val = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* p1 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -383,7 +383,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: IsNotNull
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&ModestTree::_Assert::IsNotNull)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* val = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "IsNotNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val});
   }
@@ -392,7 +392,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: IsNotNull
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppString*)>(&ModestTree::_Assert::IsNotNull)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* val = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "IsNotNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val, message});
@@ -402,7 +402,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: IsNotNull
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppString*, ::Il2CppObject*)>(&ModestTree::_Assert::IsNotNull)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* val = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* p1 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -413,7 +413,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: IsNotNull
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*)>(&ModestTree::_Assert::IsNotNull)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* val = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* p1 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -428,7 +428,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: IsNotEqual
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppObject*, ::Il2CppString*)>(&ModestTree::_Assert::IsNotEqual)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* left = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* right = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -439,7 +439,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: Warn
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&ModestTree::_Assert::Warn)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* condition = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "Warn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{condition});
   }
@@ -448,7 +448,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Il2CppName: Warn
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, System::Func_1<::Il2CppString*>*)>(&ModestTree::_Assert::Warn)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* condition = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* messageGenerator = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "Warn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{condition, messageGenerator});
@@ -458,7 +458,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Il2CppName: That
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::Il2CppString*)>(&ModestTree::_Assert::That)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* condition = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "That", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{condition, message});
@@ -468,7 +468,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Il2CppName: That
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::Il2CppString*, ::Il2CppObject*)>(&ModestTree::_Assert::That)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* condition = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* p1 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -479,7 +479,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Il2CppName: That
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*)>(&ModestTree::_Assert::That)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* condition = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* p1 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -491,7 +491,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Il2CppName: That
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*, ::Il2CppObject*)>(&ModestTree::_Assert::That)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* condition = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* p1 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -504,7 +504,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Il2CppName: Warn
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::Il2CppString*)>(&ModestTree::_Assert::Warn)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* condition = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "Warn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{condition, message});
@@ -514,7 +514,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Il2CppName: Throws
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*)>(&ModestTree::_Assert::Throws)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "Throws", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});
   }
@@ -526,7 +526,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: CreateException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenjectException* (*)()>(&ModestTree::_Assert::CreateException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "CreateException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -534,7 +534,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Ze
 // Il2CppName: CreateException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenjectException* (*)(::Il2CppString*)>(&ModestTree::_Assert::CreateException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "CreateException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
   }
@@ -543,7 +543,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Ze
 // Il2CppName: CreateException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenjectException* (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&ModestTree::_Assert::CreateException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* parameters = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::_Assert*), "CreateException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message, parameters});
@@ -553,7 +553,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Ze
 // Il2CppName: CreateException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenjectException* (*)(System::Exception*, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&ModestTree::_Assert::CreateException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* innerException = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* parameters = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;

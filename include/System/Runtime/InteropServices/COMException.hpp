@@ -73,7 +73,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::COMException*, "System.
 // Il2CppName: ToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Runtime::InteropServices::COMException::*)()>(&System::Runtime::InteropServices::COMException::ToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::COMException*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

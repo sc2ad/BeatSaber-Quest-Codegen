@@ -90,7 +90,7 @@ DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LeaderboardEntriesResult*, "OnlineService
 // Il2CppName: ErrorResult
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::LeaderboardEntriesResult* (*)(::Il2CppString*)>(&OnlineServices::LeaderboardEntriesResult::ErrorResult)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* localizedErrorMessage = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::LeaderboardEntriesResult*), "ErrorResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{localizedErrorMessage});
   }
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServi
 // Il2CppName: get_notInicializedError
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::LeaderboardEntriesResult* (*)()>(&OnlineServices::LeaderboardEntriesResult::get_notInicializedError)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::LeaderboardEntriesResult*), "get_notInicializedError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServi
 // Il2CppName: get_somethingWentWrongError
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::LeaderboardEntriesResult* (*)()>(&OnlineServices::LeaderboardEntriesResult::get_somethingWentWrongError)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::LeaderboardEntriesResult*), "get_somethingWentWrongError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServi
 // Il2CppName: get_onlineServicesUnavailableError
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::LeaderboardEntriesResult* (*)()>(&OnlineServices::LeaderboardEntriesResult::get_onlineServicesUnavailableError)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::LeaderboardEntriesResult*), "get_onlineServicesUnavailableError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServi
 // Il2CppName: FromGetLeaderboardEntriesResult
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::LeaderboardEntriesResult* (*)(OnlineServices::GetLeaderboardEntriesResult)>(&OnlineServices::LeaderboardEntriesResult::FromGetLeaderboardEntriesResult)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* getLeaderboardEntriesResult = &::il2cpp_utils::GetClassFromName("OnlineServices", "GetLeaderboardEntriesResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::LeaderboardEntriesResult*), "FromGetLeaderboardEntriesResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{getLeaderboardEntriesResult});
   }

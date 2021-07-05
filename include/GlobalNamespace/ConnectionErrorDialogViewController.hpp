@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectionErrorDialogViewController*, ""
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectionErrorDialogViewController::*)(GlobalNamespace::DisconnectedReason, System::Action*)>(&GlobalNamespace::ConnectionErrorDialogViewController::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* reason = &::il2cpp_utils::GetClassFromName("", "DisconnectedReason")->byval_arg;
     static auto* buttonAction = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectionErrorDialogViewController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reason, buttonAction});

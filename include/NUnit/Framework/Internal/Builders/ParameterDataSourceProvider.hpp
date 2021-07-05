@@ -57,7 +57,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::ParameterDataSource
 // Il2CppName: GetDataFor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (NUnit::Framework::Internal::Builders::ParameterDataSourceProvider::*)(NUnit::Framework::Interfaces::IParameterInfo*)>(&NUnit::Framework::Internal::Builders::ParameterDataSourceProvider::GetDataFor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* parameter = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "IParameterInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::ParameterDataSourceProvider*), "GetDataFor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parameter});
   }

@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Math::Prime::PrimalityTest*, "Mono.Math.Prime", "Pr
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Math::Prime::PrimalityTest::*)(Mono::Math::BigInteger*, Mono::Math::Prime::ConfidenceFactor)>(&Mono::Math::Prime::PrimalityTest::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bi = &::il2cpp_utils::GetClassFromName("Mono.Math", "BigInteger")->byval_arg;
     static auto* confidence = &::il2cpp_utils::GetClassFromName("Mono.Math.Prime", "ConfidenceFactor")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::Prime::PrimalityTest*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bi, confidence});
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Mono::Math::Prime::PrimalityTest::*)(Mono::Math::BigInteger*, Mono::Math::Prime::ConfidenceFactor, System::AsyncCallback*, ::Il2CppObject*)>(&Mono::Math::Prime::PrimalityTest::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bi = &::il2cpp_utils::GetClassFromName("Mono.Math", "BigInteger")->byval_arg;
     static auto* confidence = &::il2cpp_utils::GetClassFromName("Mono.Math.Prime", "ConfidenceFactor")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Math::Prime::PrimalityTest::*)(System::IAsyncResult*)>(&Mono::Math::Prime::PrimalityTest::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::Prime::PrimalityTest*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

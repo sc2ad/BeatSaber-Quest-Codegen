@@ -57,7 +57,7 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::StandalonePlatform*, "Oculus.Platform",
 // Il2CppName: InitializeInEditor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize*>* (Oculus::Platform::StandalonePlatform::*)()>(&Oculus::Platform::StandalonePlatform::InitializeInEditor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::StandalonePlatform*), "InitializeInEditor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: AsyncInitialize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::PlatformInitialize*>* (Oculus::Platform::StandalonePlatform::*)(uint64_t, ::Il2CppString*)>(&Oculus::Platform::StandalonePlatform::AsyncInitialize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* appID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* accessToken = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::StandalonePlatform*), "AsyncInitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{appID, accessToken});

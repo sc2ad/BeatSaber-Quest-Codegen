@@ -133,7 +133,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPoseRestrictions*, "", "AvatarPose
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarPoseRestrictions::*)()>(&GlobalNamespace::AvatarPoseRestrictions::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPoseRestrictions*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleAvatarPoseControllerPositionsWillBeSet
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarPoseRestrictions::*)(UnityEngine::Quaternion, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3&, UnityEngine::Vector3&, UnityEngine::Vector3&)>(&GlobalNamespace::AvatarPoseRestrictions::HandleAvatarPoseControllerPositionsWillBeSet)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* headRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* headPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* leftHandPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: LimitHandPositionRelativeToHead
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::AvatarPoseRestrictions::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&GlobalNamespace::AvatarPoseRestrictions::LimitHandPositionRelativeToHead)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* handPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* headCenter = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPoseRestrictions*), "LimitHandPositionRelativeToHead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handPosition, headCenter});

@@ -138,7 +138,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionData*, "System.Net", "WebConnec
 // Il2CppName: get_request
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpWebRequest* (System::Net::WebConnectionData::*)()>(&System::Net::WebConnectionData::get_request)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionData*), "get_request", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -146,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: set_request
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnectionData::*)(System::Net::HttpWebRequest*)>(&System::Net::WebConnectionData::set_request)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Net", "HttpWebRequest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionData*), "set_request", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -155,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_ReadState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::ReadState (System::Net::WebConnectionData::*)()>(&System::Net::WebConnectionData::get_ReadState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionData*), "get_ReadState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: set_ReadState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnectionData::*)(System::Net::ReadState)>(&System::Net::WebConnectionData::set_ReadState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Net", "ReadState")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionData*), "set_ReadState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

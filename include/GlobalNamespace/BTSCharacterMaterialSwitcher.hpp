@@ -64,7 +64,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterMaterialSwitcher*, "", "BTSC
 // Il2CppName: SwapMaterials
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterMaterialSwitcher::*)(bool)>(&GlobalNamespace::BTSCharacterMaterialSwitcher::SwapMaterials)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* alternative = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterMaterialSwitcher*), "SwapMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{alternative});
   }

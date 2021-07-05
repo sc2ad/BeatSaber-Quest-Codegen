@@ -85,7 +85,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::MonoTlsConnectionInfo*, "Mono.
 // Il2CppName: get_CipherSuiteCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::CipherSuiteCode (Mono::Security::Interface::MonoTlsConnectionInfo::*)()>(&Mono::Security::Interface::MonoTlsConnectionInfo::get_CipherSuiteCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsConnectionInfo*), "get_CipherSuiteCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Il2CppName: set_CipherSuiteCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsConnectionInfo::*)(Mono::Security::Interface::CipherSuiteCode)>(&Mono::Security::Interface::MonoTlsConnectionInfo::set_CipherSuiteCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Mono.Security.Interface", "CipherSuiteCode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsConnectionInfo*), "set_CipherSuiteCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Il2CppName: get_ProtocolVersion
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::TlsProtocols (Mono::Security::Interface::MonoTlsConnectionInfo::*)()>(&Mono::Security::Interface::MonoTlsConnectionInfo::get_ProtocolVersion)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsConnectionInfo*), "get_ProtocolVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -110,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Il2CppName: set_ProtocolVersion
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsConnectionInfo::*)(Mono::Security::Interface::TlsProtocols)>(&Mono::Security::Interface::MonoTlsConnectionInfo::set_ProtocolVersion)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Mono.Security.Interface", "TlsProtocols")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsConnectionInfo*), "set_ProtocolVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Il2CppName: set_PeerDomainName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsConnectionInfo::*)(::Il2CppString*)>(&Mono::Security::Interface::MonoTlsConnectionInfo::set_PeerDomainName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsConnectionInfo*), "set_PeerDomainName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Il2CppName: ToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Security::Interface::MonoTlsConnectionInfo::*)()>(&Mono::Security::Interface::MonoTlsConnectionInfo::ToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsConnectionInfo*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

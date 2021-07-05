@@ -121,7 +121,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteDebrisSpawner*, "", "NoteDebrisSpawn
 // Il2CppName: SpawnDebris
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteDebrisSpawner::*)(UnityEngine::Vector3, UnityEngine::Vector3, float, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Vector3, GlobalNamespace::ColorType, float, UnityEngine::Vector3)>(&GlobalNamespace::NoteDebrisSpawner::SpawnDebris)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cutPoint = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* cutNormal = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* saberSpeed = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleNoteDebrisDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteDebrisSpawner::*)(GlobalNamespace::NoteDebris*)>(&GlobalNamespace::NoteDebrisSpawner::HandleNoteDebrisDidFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* noteDebris = &::il2cpp_utils::GetClassFromName("", "NoteDebris")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteDebrisSpawner*), "HandleNoteDebrisDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteDebris});
   }

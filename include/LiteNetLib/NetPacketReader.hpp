@@ -82,7 +82,7 @@ DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPacketReader*, "LiteNetLib", "NetPacketRea
 // Il2CppName: SetSource
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPacketReader::*)(LiteNetLib::NetPacket*)>(&LiteNetLib::NetPacketReader::SetSource)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* packet = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPacket")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacketReader*), "SetSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet});
   }
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Il2CppName: RecycleInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPacketReader::*)()>(&LiteNetLib::NetPacketReader::RecycleInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacketReader*), "RecycleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Il2CppName: Recycle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPacketReader::*)()>(&LiteNetLib::NetPacketReader::Recycle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacketReader*), "Recycle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

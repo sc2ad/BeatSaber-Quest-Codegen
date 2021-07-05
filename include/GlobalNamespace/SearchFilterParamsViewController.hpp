@@ -195,7 +195,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SearchFilterParamsViewController*, "", "
 // Il2CppName: add_didFinishEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SearchFilterParamsViewController::*)(System::Action_2<GlobalNamespace::SearchFilterParamsViewController*, GlobalNamespace::LevelFilterParams*>*)>(&GlobalNamespace::SearchFilterParamsViewController::add_didFinishEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "SearchFilterParamsViewController"), ::il2cpp_utils::GetClassFromName("", "LevelFilterParams")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SearchFilterParamsViewController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_didFinishEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SearchFilterParamsViewController::*)(System::Action_2<GlobalNamespace::SearchFilterParamsViewController*, GlobalNamespace::LevelFilterParams*>*)>(&GlobalNamespace::SearchFilterParamsViewController::remove_didFinishEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "SearchFilterParamsViewController"), ::il2cpp_utils::GetClassFromName("", "LevelFilterParams")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SearchFilterParamsViewController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -213,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Setup
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SearchFilterParamsViewController::*)(GlobalNamespace::LevelFilterParams*)>(&GlobalNamespace::SearchFilterParamsViewController::Setup)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* levelFilterParams = &::il2cpp_utils::GetClassFromName("", "LevelFilterParams")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SearchFilterParamsViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelFilterParams});
   }
@@ -222,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OkButtonPressed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SearchFilterParamsViewController::*)()>(&GlobalNamespace::SearchFilterParamsViewController::OkButtonPressed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SearchFilterParamsViewController*), "OkButtonPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -230,7 +230,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: MinBpmControllerValueDidChange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SearchFilterParamsViewController::*)(GlobalNamespace::FormattedFloatListSettingsController*, float)>(&GlobalNamespace::SearchFilterParamsViewController::MinBpmControllerValueDidChange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* minBpmController = &::il2cpp_utils::GetClassFromName("", "FormattedFloatListSettingsController")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SearchFilterParamsViewController*), "MinBpmControllerValueDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{minBpmController, value});
@@ -240,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: MaxBpmControllerValueDidChange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SearchFilterParamsViewController::*)(GlobalNamespace::FormattedFloatListSettingsController*, float)>(&GlobalNamespace::SearchFilterParamsViewController::MaxBpmControllerValueDidChange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* maxBpmController = &::il2cpp_utils::GetClassFromName("", "FormattedFloatListSettingsController")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SearchFilterParamsViewController*), "MaxBpmControllerValueDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{maxBpmController, value});
@@ -250,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Refresh
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SearchFilterParamsViewController::*)(GlobalNamespace::LevelFilterParams*)>(&GlobalNamespace::SearchFilterParamsViewController::Refresh)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* levelFilterParams = &::il2cpp_utils::GetClassFromName("", "LevelFilterParams")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SearchFilterParamsViewController*), "Refresh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelFilterParams});
   }
@@ -259,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: DidActivate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SearchFilterParamsViewController::*)(bool, bool, bool)>(&GlobalNamespace::SearchFilterParamsViewController::DidActivate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* firstActivation = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* addedToHierarchy = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* screenSystemEnabling = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -270,7 +270,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: DidDeactivate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SearchFilterParamsViewController::*)(bool, bool)>(&GlobalNamespace::SearchFilterParamsViewController::DidDeactivate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* removedFromHierarchy = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* screenSystemDisabling = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SearchFilterParamsViewController*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{removedFromHierarchy, screenSystemDisabling});

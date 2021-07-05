@@ -80,7 +80,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::APIUpdating::MovedFromAttributeDa
 // Il2CppName: Set
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Scripting::APIUpdating::MovedFromAttributeData::*)(bool, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&UnityEngine::Scripting::APIUpdating::MovedFromAttributeData::Set)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* autoUpdateAPI = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* sourceNamespace = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* sourceAssembly = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

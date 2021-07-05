@@ -73,7 +73,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::MatchSparse*, "System.T
 // Il2CppName: get_Groups
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::GroupCollection* (System::Text::RegularExpressions::MatchSparse::*)()>(&System::Text::RegularExpressions::MatchSparse::get_Groups)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::MatchSparse*), "get_Groups", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

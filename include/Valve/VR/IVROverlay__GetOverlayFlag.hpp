@@ -68,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_GetOverlayFlag*, "Valve.VR", "IVR
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::IVROverlay::_GetOverlayFlag::*)(uint64_t, Valve::VR::VROverlayFlags, bool&)>(&Valve::VR::IVROverlay::_GetOverlayFlag::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eOverlayFlag = &::il2cpp_utils::GetClassFromName("Valve.VR", "VROverlayFlags")->byval_arg;
     static auto* pbEnabled = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVROverlay::_GetOverlayFlag::*)(uint64_t, Valve::VR::VROverlayFlags, bool&, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVROverlay::_GetOverlayFlag::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eOverlayFlag = &::il2cpp_utils::GetClassFromName("Valve.VR", "VROverlayFlags")->byval_arg;
     static auto* pbEnabled = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::IVROverlay::_GetOverlayFlag::*)(bool&, System::IAsyncResult*)>(&Valve::VR::IVROverlay::_GetOverlayFlag::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pbEnabled = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVROverlay::_GetOverlayFlag*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pbEnabled, result});

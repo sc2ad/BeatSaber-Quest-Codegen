@@ -276,7 +276,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposeBlock::SpawnedObjectPoolPair, "Zenject", 
 // Il2CppName: OnSpawned
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::DisposeBlock*)>(&Zenject::DisposeBlock::OnSpawned)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* that = &::il2cpp_utils::GetClassFromName("Zenject", "DisposeBlock")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DisposeBlock*), "OnSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{that});
   }
@@ -285,7 +285,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ze
 // Il2CppName: OnDespawned
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::DisposeBlock*)>(&Zenject::DisposeBlock::OnDespawned)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* that = &::il2cpp_utils::GetClassFromName("Zenject", "DisposeBlock")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DisposeBlock*), "OnDespawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{that});
   }
@@ -294,7 +294,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ze
 // Il2CppName: LazyInitializeDisposableList
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DisposeBlock::*)()>(&Zenject::DisposeBlock::LazyInitializeDisposableList)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DisposeBlock*), "LazyInitializeDisposableList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -305,7 +305,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: Add
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DisposeBlock::*)(System::IDisposable*)>(&Zenject::DisposeBlock::Add)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* disposable = &::il2cpp_utils::GetClassFromName("System", "IDisposable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DisposeBlock*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{disposable});
   }
@@ -314,7 +314,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: Remove
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DisposeBlock::*)(System::IDisposable*)>(&Zenject::DisposeBlock::Remove)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* disposable = &::il2cpp_utils::GetClassFromName("System", "IDisposable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DisposeBlock*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{disposable});
   }
@@ -356,7 +356,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: Spawn
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DisposeBlock* (*)()>(&Zenject::DisposeBlock::Spawn)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DisposeBlock*), "Spawn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -364,7 +364,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Di
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DisposeBlock::*)()>(&Zenject::DisposeBlock::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DisposeBlock*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -372,7 +372,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Zenject::DisposeBlock::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DisposeBlock*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

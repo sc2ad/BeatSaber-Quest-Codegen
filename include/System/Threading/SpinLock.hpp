@@ -101,7 +101,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::SpinLock, "System.Threading", "SpinLoc
 // Il2CppName: Enter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::SpinLock::*)(bool&)>(&System::Threading::SpinLock::Enter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lockTaken = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SpinLock), "Enter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lockTaken});
   }
@@ -110,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: TryEnter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::SpinLock::*)(int, bool&)>(&System::Threading::SpinLock::TryEnter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* millisecondsTimeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* lockTaken = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SpinLock), "TryEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{millisecondsTimeout, lockTaken});
@@ -120,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ContinueTryEnter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::SpinLock::*)(int, bool&)>(&System::Threading::SpinLock::ContinueTryEnter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* millisecondsTimeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* lockTaken = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SpinLock), "ContinueTryEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{millisecondsTimeout, lockTaken});
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: DecrementWaiters
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::SpinLock::*)()>(&System::Threading::SpinLock::DecrementWaiters)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SpinLock), "DecrementWaiters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -138,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ContinueTryEnterWithThreadTracking
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::SpinLock::*)(int, uint, bool&)>(&System::Threading::SpinLock::ContinueTryEnterWithThreadTracking)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* millisecondsTimeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* startTime = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* lockTaken = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Exit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::SpinLock::*)(bool)>(&System::Threading::SpinLock::Exit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* useMemoryBarrier = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SpinLock), "Exit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{useMemoryBarrier});
   }
@@ -158,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ExitSlowPath
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::SpinLock::*)(bool)>(&System::Threading::SpinLock::ExitSlowPath)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* useMemoryBarrier = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SpinLock), "ExitSlowPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{useMemoryBarrier});
   }
@@ -167,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_IsHeldByCurrentThread
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::SpinLock::*)()>(&System::Threading::SpinLock::get_IsHeldByCurrentThread)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SpinLock), "get_IsHeldByCurrentThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -175,7 +175,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_IsThreadOwnerTrackingEnabled
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::SpinLock::*)()>(&System::Threading::SpinLock::get_IsThreadOwnerTrackingEnabled)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SpinLock), "get_IsThreadOwnerTrackingEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -183,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Threading::SpinLock::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::SpinLock), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

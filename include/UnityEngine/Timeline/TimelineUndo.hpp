@@ -51,7 +51,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineUndo*, "UnityEngine.Timeli
 // Il2CppName: PushDestroyUndo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::TimelineAsset*, UnityEngine::Object*, UnityEngine::Object*)>(&UnityEngine::Timeline::TimelineUndo::PushDestroyUndo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* timeline = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TimelineAsset")->byval_arg;
     static auto* thingToDirty = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* objectToDestroy = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
@@ -62,7 +62,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: PushUndo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<UnityEngine::Object*>*, ::Il2CppString*)>(&UnityEngine::Timeline::TimelineUndo::PushUndo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* thingsToDirty = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Object"), 1)->byval_arg;
     static auto* operation = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineUndo*), "PushUndo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{thingsToDirty, operation});
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: PushUndo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*, ::Il2CppString*)>(&UnityEngine::Timeline::TimelineUndo::PushUndo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* thingToDirty = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* operation = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineUndo*), "PushUndo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{thingToDirty, operation});
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: RegisterCreatedObjectUndo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*, ::Il2CppString*)>(&UnityEngine::Timeline::TimelineUndo::RegisterCreatedObjectUndo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* thingCreated = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* operation = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineUndo*), "RegisterCreatedObjectUndo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{thingCreated, operation});
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: UndoName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&UnityEngine::Timeline::TimelineUndo::UndoName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineUndo*), "UndoName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
   }

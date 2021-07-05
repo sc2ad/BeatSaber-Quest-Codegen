@@ -81,7 +81,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverLookAt::LookAtBone*, "RootMo
 // Il2CppName: Initiate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverLookAt::LookAtBone::*)(UnityEngine::Transform*)>(&RootMotion::FinalIK::IKSolverLookAt::LookAtBone::Initiate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* root = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt::LookAtBone*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{root});
   }
@@ -90,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: LookAt
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverLookAt::LookAtBone::*)(UnityEngine::Vector3, float)>(&RootMotion::FinalIK::IKSolverLookAt::LookAtBone::LookAt)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt::LookAtBone*), "LookAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{direction, weight});
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: get_forward
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::IKSolverLookAt::LookAtBone::*)()>(&RootMotion::FinalIK::IKSolverLookAt::LookAtBone::get_forward)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt::LookAtBone*), "get_forward", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

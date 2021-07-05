@@ -51,7 +51,7 @@ DEFINE_IL2CPP_ARG_TYPE(Unity::Jobs::JobHandle, "Unity.Jobs", "JobHandle");
 // Il2CppName: ScheduleBatchedJobs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Unity::Jobs::JobHandle::ScheduleBatchedJobs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Unity::Jobs::JobHandle), "ScheduleBatchedJobs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

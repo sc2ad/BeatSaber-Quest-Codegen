@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRGraphicRaycaster::$$c*, "VRUIControls", "
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&VRUIControls::VRGraphicRaycaster::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRGraphicRaycaster::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -69,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <RaycastCanvas>b__12_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (VRUIControls::VRGraphicRaycaster::$$c::*)(VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult, VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult)>(&VRUIControls::VRGraphicRaycaster::$$c::$RaycastCanvas$b__12_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* g1 = &::il2cpp_utils::GetClassFromName("VRUIControls", "VRGraphicRaycaster/VRGraphicRaycastResult")->byval_arg;
     static auto* g2 = &::il2cpp_utils::GetClassFromName("VRUIControls", "VRGraphicRaycaster/VRGraphicRaycastResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRGraphicRaycaster::$$c*), "<RaycastCanvas>b__12_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{g1, g2});

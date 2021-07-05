@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectionErrorDialogViewController::$$c
 // Il2CppName: <Init>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectionErrorDialogViewController::$$c__DisplayClass0_0::*)(int)>(&GlobalNamespace::ConnectionErrorDialogViewController::$$c__DisplayClass0_0::$Init$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* btnIdx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectionErrorDialogViewController::$$c__DisplayClass0_0*), "<Init>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{btnIdx});
   }

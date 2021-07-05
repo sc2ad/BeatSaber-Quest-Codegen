@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::SimpleAsyncResult::$$c__DisplayClass9_0*, "S
 // Il2CppName: <.ctor>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::SimpleAsyncResult::$$c__DisplayClass9_0::*)(System::Net::SimpleAsyncResult*)>(&System::Net::SimpleAsyncResult::$$c__DisplayClass9_0::$_ctor$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System.Net", "SimpleAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::SimpleAsyncResult::$$c__DisplayClass9_0*), "<.ctor>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformAchievementHandler::$$c__D
 // Il2CppName: <GetUnlockedAchievements>b__1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OculusPlatformAchievementHandler::$$c__DisplayClass3_1::*)(GlobalNamespace::AchievementSO*)>(&GlobalNamespace::OculusPlatformAchievementHandler::$$c__DisplayClass3_1::$GetUnlockedAchievements$b__1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("", "AchievementSO")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusPlatformAchievementHandler::$$c__DisplayClass3_1*), "<GetUnlockedAchievements>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }

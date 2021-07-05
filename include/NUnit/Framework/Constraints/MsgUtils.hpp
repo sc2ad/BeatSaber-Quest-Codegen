@@ -176,7 +176,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::MsgUtils*, "NUnit.Framewor
 // Il2CppName: get_DefaultValueFormatter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ValueFormatter* (*)()>(&NUnit::Framework::Constraints::MsgUtils::get_DefaultValueFormatter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "get_DefaultValueFormatter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -184,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Il2CppName: set_DefaultValueFormatter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NUnit::Framework::Constraints::ValueFormatter*)>(&NUnit::Framework::Constraints::MsgUtils::set_DefaultValueFormatter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "ValueFormatter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "set_DefaultValueFormatter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -193,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NU
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NUnit::Framework::Constraints::MsgUtils::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -201,7 +201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: AddFormatter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NUnit::Framework::Constraints::ValueFormatterFactory*)>(&NUnit::Framework::Constraints::MsgUtils::AddFormatter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* formatterFactory = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "ValueFormatterFactory")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "AddFormatter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{formatterFactory});
   }
@@ -210,7 +210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(NU
 // Il2CppName: FormatValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppObject*)>(&NUnit::Framework::Constraints::MsgUtils::FormatValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* val = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "FormatValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val});
   }
@@ -219,7 +219,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: FormatCollection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Collections::IEnumerable*, int64_t, int)>(&NUnit::Framework::Constraints::MsgUtils::FormatCollection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* collection = &::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerable")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* max = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -230,7 +230,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: FormatArray
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Array*)>(&NUnit::Framework::Constraints::MsgUtils::FormatArray)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* array = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "FormatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
   }
@@ -239,7 +239,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: FormatString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&NUnit::Framework::Constraints::MsgUtils::FormatString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "FormatString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
@@ -248,7 +248,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: FormatDouble
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(double)>(&NUnit::Framework::Constraints::MsgUtils::FormatDouble)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* d = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "FormatDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{d});
   }
@@ -257,7 +257,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: FormatFloat
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(float)>(&NUnit::Framework::Constraints::MsgUtils::FormatFloat)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* f = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "FormatFloat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{f});
   }
@@ -266,7 +266,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: FormatDecimal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Decimal)>(&NUnit::Framework::Constraints::MsgUtils::FormatDecimal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* d = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "FormatDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{d});
   }
@@ -275,7 +275,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: FormatDateTime
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::DateTime)>(&NUnit::Framework::Constraints::MsgUtils::FormatDateTime)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* dt = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "FormatDateTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dt});
   }
@@ -284,7 +284,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: FormatDateTimeOffset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::DateTimeOffset)>(&NUnit::Framework::Constraints::MsgUtils::FormatDateTimeOffset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* dto = &::il2cpp_utils::GetClassFromName("System", "DateTimeOffset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "FormatDateTimeOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dto});
   }
@@ -293,7 +293,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetTypeRepresentation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppObject*)>(&NUnit::Framework::Constraints::MsgUtils::GetTypeRepresentation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "GetTypeRepresentation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
@@ -302,7 +302,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: EscapeControlChars
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&NUnit::Framework::Constraints::MsgUtils::EscapeControlChars)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "EscapeControlChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
@@ -311,7 +311,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: EscapeNullCharacters
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&NUnit::Framework::Constraints::MsgUtils::EscapeNullCharacters)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "EscapeNullCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
@@ -320,7 +320,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetArrayIndicesAsString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<int>*)>(&NUnit::Framework::Constraints::MsgUtils::GetArrayIndicesAsString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* indices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "GetArrayIndicesAsString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{indices});
   }
@@ -329,7 +329,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetArrayIndicesFromCollectionIndex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(System::Collections::IEnumerable*, int64_t)>(&NUnit::Framework::Constraints::MsgUtils::GetArrayIndicesFromCollectionIndex)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* collection = &::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerable")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "GetArrayIndicesFromCollectionIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{collection, index});
@@ -339,7 +339,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int
 // Il2CppName: ClipString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int, int)>(&NUnit::Framework::Constraints::MsgUtils::ClipString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* maxStringLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* clipStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -350,7 +350,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: ClipExpectedAndActual
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*&, ::Il2CppString*&, int, int)>(&NUnit::Framework::Constraints::MsgUtils::ClipExpectedAndActual)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* expected = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     static auto* actual = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     static auto* maxDisplayLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -362,7 +362,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: FindMismatchPosition
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, ::Il2CppString*, int, bool)>(&NUnit::Framework::Constraints::MsgUtils::FindMismatchPosition)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* expected = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* actual = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* istart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

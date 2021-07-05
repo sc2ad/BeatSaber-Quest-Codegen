@@ -67,7 +67,7 @@ DEFINE_IL2CPP_ARG_TYPE(Menu::ViewControllers::EditAvatarHistorySnapshot*, "Menu.
 // Il2CppName: get_avatarEditPart
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EditAvatarViewController::AvatarEditPart (Menu::ViewControllers::EditAvatarHistorySnapshot::*)()>(&Menu::ViewControllers::EditAvatarHistorySnapshot::get_avatarEditPart)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Menu::ViewControllers::EditAvatarHistorySnapshot*), "get_avatarEditPart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: get_avatarData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AvatarData* (Menu::ViewControllers::EditAvatarHistorySnapshot::*)()>(&Menu::ViewControllers::EditAvatarHistorySnapshot::get_avatarData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Menu::ViewControllers::EditAvatarHistorySnapshot*), "get_avatarData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

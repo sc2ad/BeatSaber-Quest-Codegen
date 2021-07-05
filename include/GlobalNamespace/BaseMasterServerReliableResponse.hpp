@@ -108,7 +108,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseMasterServerReliableResponse*, "", "
 // Il2CppName: get_requestId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (GlobalNamespace::BaseMasterServerReliableResponse::*)()>(&GlobalNamespace::BaseMasterServerReliableResponse::get_requestId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMasterServerReliableResponse*), "get_requestId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Globa
 // Il2CppName: set_requestId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseMasterServerReliableResponse::*)(uint)>(&GlobalNamespace::BaseMasterServerReliableResponse::set_requestId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMasterServerReliableResponse*), "set_requestId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_responseId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (GlobalNamespace::BaseMasterServerReliableResponse::*)()>(&GlobalNamespace::BaseMasterServerReliableResponse::get_responseId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMasterServerReliableResponse*), "get_responseId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Globa
 // Il2CppName: set_responseId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseMasterServerReliableResponse::*)(uint)>(&GlobalNamespace::BaseMasterServerReliableResponse::set_responseId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMasterServerReliableResponse*), "set_responseId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_resultCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (GlobalNamespace::BaseMasterServerReliableResponse::*)()>(&GlobalNamespace::BaseMasterServerReliableResponse::get_resultCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMasterServerReliableResponse*), "get_resultCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Gl
 // Il2CppName: get_resultCodeString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BaseMasterServerReliableResponse::*)()>(&GlobalNamespace::BaseMasterServerReliableResponse::get_resultCodeString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMasterServerReliableResponse*), "get_resultCodeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -158,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: Serialize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseMasterServerReliableResponse::*)(LiteNetLib::Utils::NetDataWriter*)>(&GlobalNamespace::BaseMasterServerReliableResponse::Serialize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataWriter")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMasterServerReliableResponse*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{writer});
   }
@@ -167,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Deserialize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseMasterServerReliableResponse::*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::BaseMasterServerReliableResponse::Deserialize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMasterServerReliableResponse*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
   }
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Release
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BaseMasterServerReliableResponse::*)()>(&GlobalNamespace::BaseMasterServerReliableResponse::Release)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMasterServerReliableResponse*), "Release", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -184,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: MasterServer.IMasterServerReliableRequest.WithRequestId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::IMasterServerReliableRequest* (GlobalNamespace::BaseMasterServerReliableResponse::*)(uint)>(&GlobalNamespace::BaseMasterServerReliableResponse::MasterServer_IMasterServerReliableRequest_WithRequestId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* requestId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMasterServerReliableResponse*), "MasterServer.IMasterServerReliableRequest.WithRequestId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{requestId});
   }
@@ -193,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServe
 // Il2CppName: MasterServer.IMasterServerResponse.WithResponseId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::IMasterServerResponse* (GlobalNamespace::BaseMasterServerReliableResponse::*)(uint)>(&GlobalNamespace::BaseMasterServerReliableResponse::MasterServer_IMasterServerResponse_WithResponseId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* responseId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMasterServerReliableResponse*), "MasterServer.IMasterServerResponse.WithResponseId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{responseId});
   }
@@ -202,7 +202,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServe
 // Il2CppName: MasterServer.IMasterServerReliableResponse.WithRequestAndResponseId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::IMasterServerReliableResponse* (GlobalNamespace::BaseMasterServerReliableResponse::*)(uint, uint)>(&GlobalNamespace::BaseMasterServerReliableResponse::MasterServer_IMasterServerReliableResponse_WithRequestAndResponseId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* requestId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* responseId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BaseMasterServerReliableResponse*), "MasterServer.IMasterServerReliableResponse.WithRequestAndResponseId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{requestId, responseId});

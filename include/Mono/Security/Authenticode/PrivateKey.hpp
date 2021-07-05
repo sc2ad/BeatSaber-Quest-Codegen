@@ -90,7 +90,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Authenticode::PrivateKey*, "Mono.Security
 // Il2CppName: get_RSA
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RSA* (Mono::Security::Authenticode::PrivateKey::*)()>(&Mono::Security::Authenticode::PrivateKey::get_RSA)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Authenticode::PrivateKey*), "get_RSA", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Il2CppName: DeriveKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::Authenticode::PrivateKey::*)(::Array<uint8_t>*, ::Il2CppString*)>(&Mono::Security::Authenticode::PrivateKey::DeriveKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* salt = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Authenticode::PrivateKey*), "DeriveKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{salt, password});
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: Decode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::Authenticode::PrivateKey::*)(::Array<uint8_t>*, ::Il2CppString*)>(&Mono::Security::Authenticode::PrivateKey::Decode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pvk = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Authenticode::PrivateKey*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pvk, password});
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Il2CppName: CreateFromFile
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Authenticode::PrivateKey* (*)(::Il2CppString*)>(&Mono::Security::Authenticode::PrivateKey::CreateFromFile)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* filename = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Authenticode::PrivateKey*), "CreateFromFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filename});
   }
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Il2CppName: CreateFromFile
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Authenticode::PrivateKey* (*)(::Il2CppString*, ::Il2CppString*)>(&Mono::Security::Authenticode::PrivateKey::CreateFromFile)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* filename = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Authenticode::PrivateKey*), "CreateFromFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filename, password});

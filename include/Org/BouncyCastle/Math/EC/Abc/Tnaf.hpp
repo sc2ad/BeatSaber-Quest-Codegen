@@ -116,7 +116,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Abc::Tnaf*, "Org.BouncyCastl
 // Il2CppName: Norm
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (*)(int8_t, Org::BouncyCastle::Math::EC::Abc::ZTauElement*)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::Norm)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mu = &::il2cpp_utils::GetClassFromName("System", "SByte")->byval_arg;
     static auto* lambda = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC.Abc", "ZTauElement")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Abc::Tnaf*), "Norm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mu, lambda});
@@ -126,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: Round
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Abc::ZTauElement* (*)(Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*, Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*, int8_t)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::Round)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lambda0 = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC.Abc", "SimpleBigDecimal")->byval_arg;
     static auto* lambda1 = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC.Abc", "SimpleBigDecimal")->byval_arg;
     static auto* mu = &::il2cpp_utils::GetClassFromName("System", "SByte")->byval_arg;
@@ -137,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: ApproximateDivisionByN
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* (*)(Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, int8_t, int, int)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::ApproximateDivisionByN)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* k = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
     static auto* s = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
     static auto* vm = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
@@ -151,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: GetMu
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(int)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::GetMu)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* curveA = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Abc::Tnaf*), "GetMu", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{curveA});
   }
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(
 // Il2CppName: GetLucas
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Math::BigInteger*>* (*)(int8_t, int, bool)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::GetLucas)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mu = &::il2cpp_utils::GetClassFromName("System", "SByte")->byval_arg;
     static auto* k = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* doV = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -171,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org
 // Il2CppName: GetTw
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (*)(int8_t, int)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::GetTw)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mu = &::il2cpp_utils::GetClassFromName("System", "SByte")->byval_arg;
     static auto* w = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Abc::Tnaf*), "GetTw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mu, w});
@@ -181,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: GetSi
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Math::BigInteger*>* (*)(Org::BouncyCastle::Math::EC::AbstractF2mCurve*)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::GetSi)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* curve = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "AbstractF2mCurve")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Abc::Tnaf*), "GetSi", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{curve});
   }
@@ -190,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org
 // Il2CppName: GetShiftsForCofactor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::GetShiftsForCofactor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* h = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Abc::Tnaf*), "GetShiftsForCofactor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{h});
   }
@@ -199,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Org
 // Il2CppName: PartModReduction
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Abc::ZTauElement* (*)(Org::BouncyCastle::Math::BigInteger*, int, int8_t, ::Array<Org::BouncyCastle::Math::BigInteger*>*, int8_t, int8_t)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::PartModReduction)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* k = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
     static auto* m = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* a = &::il2cpp_utils::GetClassFromName("System", "SByte")->byval_arg;
@@ -213,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: MultiplyFromTnaf
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::AbstractF2mPoint* (*)(Org::BouncyCastle::Math::EC::AbstractF2mPoint*, ::Array<int8_t>*)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::MultiplyFromTnaf)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "AbstractF2mPoint")->byval_arg;
     static auto* u = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "SByte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Abc::Tnaf*), "MultiplyFromTnaf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p, u});
@@ -223,7 +223,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: TauAdicWNaf
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int8_t>* (*)(int8_t, Org::BouncyCastle::Math::EC::Abc::ZTauElement*, int8_t, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, ::Array<Org::BouncyCastle::Math::EC::Abc::ZTauElement*>*)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::TauAdicWNaf)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mu = &::il2cpp_utils::GetClassFromName("System", "SByte")->byval_arg;
     static auto* lambda = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC.Abc", "ZTauElement")->byval_arg;
     static auto* width = &::il2cpp_utils::GetClassFromName("System", "SByte")->byval_arg;
@@ -237,7 +237,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int
 // Il2CppName: GetPreComp
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Math::EC::AbstractF2mPoint*>* (*)(Org::BouncyCastle::Math::EC::AbstractF2mPoint*, int8_t)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::GetPreComp)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "AbstractF2mPoint")->byval_arg;
     static auto* a = &::il2cpp_utils::GetClassFromName("System", "SByte")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Abc::Tnaf*), "GetPreComp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p, a});
@@ -247,7 +247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Abc::Tnaf*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

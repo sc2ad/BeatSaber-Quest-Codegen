@@ -39,7 +39,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::ISubmitHandler*, "UnityEngine.
 // Il2CppName: OnSubmit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::ISubmitHandler::*)(UnityEngine::EventSystems::BaseEventData*)>(&UnityEngine::EventSystems::ISubmitHandler::OnSubmit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::ISubmitHandler*), "OnSubmit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eventData});
   }

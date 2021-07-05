@@ -122,7 +122,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEventTypeExtensions*, "", "Beatma
 // Il2CppName: GetEventsValidForAllBeatmaps
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>* (*)()>(&GlobalNamespace::BeatmapEventTypeExtensions::GetEventsValidForAllBeatmaps)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventTypeExtensions*), "GetEventsValidForAllBeatmaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: IsBPMChangeEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::BeatmapEventType)>(&GlobalNamespace::BeatmapEventTypeExtensions::IsBPMChangeEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmapEventType = &::il2cpp_utils::GetClassFromName("", "BeatmapEventType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventTypeExtensions*), "IsBPMChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventType});
   }
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Il2CppName: IsRotationEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::BeatmapEventType)>(&GlobalNamespace::BeatmapEventTypeExtensions::IsRotationEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmapEventType = &::il2cpp_utils::GetClassFromName("", "BeatmapEventType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventTypeExtensions*), "IsRotationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventType});
   }
@@ -148,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Il2CppName: IsSpecialEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::BeatmapEventType)>(&GlobalNamespace::BeatmapEventTypeExtensions::IsSpecialEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmapEventType = &::il2cpp_utils::GetClassFromName("", "BeatmapEventType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventTypeExtensions*), "IsSpecialEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventType});
   }
@@ -157,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Il2CppName: IsLightIntensityChangeEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::BeatmapEventType)>(&GlobalNamespace::BeatmapEventTypeExtensions::IsLightIntensityChangeEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmapEventType = &::il2cpp_utils::GetClassFromName("", "BeatmapEventType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventTypeExtensions*), "IsLightIntensityChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventType});
   }
@@ -166,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Il2CppName: IsEarlyRotationEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::BeatmapEventType)>(&GlobalNamespace::BeatmapEventTypeExtensions::IsEarlyRotationEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmapEventType = &::il2cpp_utils::GetClassFromName("", "BeatmapEventType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventTypeExtensions*), "IsEarlyRotationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventType});
   }
@@ -175,7 +175,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Il2CppName: IsLateRotationEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::BeatmapEventType)>(&GlobalNamespace::BeatmapEventTypeExtensions::IsLateRotationEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmapEventType = &::il2cpp_utils::GetClassFromName("", "BeatmapEventType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventTypeExtensions*), "IsLateRotationEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventType});
   }
@@ -184,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Il2CppName: IsEarlyEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::BeatmapEventType)>(&GlobalNamespace::BeatmapEventTypeExtensions::IsEarlyEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmapEventType = &::il2cpp_utils::GetClassFromName("", "BeatmapEventType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventTypeExtensions*), "IsEarlyEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventType});
   }
@@ -193,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Il2CppName: IsSpawnAffectingEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::BeatmapEventType)>(&GlobalNamespace::BeatmapEventTypeExtensions::IsSpawnAffectingEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmapEventType = &::il2cpp_utils::GetClassFromName("", "BeatmapEventType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEventTypeExtensions*), "IsSpawnAffectingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventType});
   }

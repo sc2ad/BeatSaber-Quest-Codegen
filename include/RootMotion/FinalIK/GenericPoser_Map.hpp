@@ -86,7 +86,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GenericPoser::Map*, "RootMotion.Fina
 // Il2CppName: StoreDefaultState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::GenericPoser::Map::*)()>(&RootMotion::FinalIK::GenericPoser::Map::StoreDefaultState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::GenericPoser::Map*), "StoreDefaultState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: FixTransform
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::GenericPoser::Map::*)()>(&RootMotion::FinalIK::GenericPoser::Map::FixTransform)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::GenericPoser::Map*), "FixTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: Update
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::GenericPoser::Map::*)(float, float)>(&RootMotion::FinalIK::GenericPoser::Map::Update)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* localRotationWeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* localPositionWeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::GenericPoser::Map*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{localRotationWeight, localPositionWeight});

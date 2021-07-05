@@ -52,7 +52,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::PlayableTrack*, "UnityEngine.Timel
 // Il2CppName: OnCreateClip
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::PlayableTrack::*)(UnityEngine::Timeline::TimelineClip*)>(&UnityEngine::Timeline::PlayableTrack::OnCreateClip)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TimelineClip")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::PlayableTrack*), "OnCreateClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clip});
   }

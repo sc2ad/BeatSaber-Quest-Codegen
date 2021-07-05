@@ -70,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::TriggerEventBroadcaster*, "RootMotion", "Trig
 // Il2CppName: OnTriggerEnter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::TriggerEventBroadcaster::*)(UnityEngine::Collider*)>(&RootMotion::TriggerEventBroadcaster::OnTriggerEnter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* collider = &::il2cpp_utils::GetClassFromName("UnityEngine", "Collider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::TriggerEventBroadcaster*), "OnTriggerEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{collider});
   }
@@ -79,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: OnTriggerStay
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::TriggerEventBroadcaster::*)(UnityEngine::Collider*)>(&RootMotion::TriggerEventBroadcaster::OnTriggerStay)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* collider = &::il2cpp_utils::GetClassFromName("UnityEngine", "Collider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::TriggerEventBroadcaster*), "OnTriggerStay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{collider});
   }
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: OnTriggerExit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::TriggerEventBroadcaster::*)(UnityEngine::Collider*)>(&RootMotion::TriggerEventBroadcaster::OnTriggerExit)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* collider = &::il2cpp_utils::GetClassFromName("UnityEngine", "Collider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::TriggerEventBroadcaster*), "OnTriggerExit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{collider});
   }

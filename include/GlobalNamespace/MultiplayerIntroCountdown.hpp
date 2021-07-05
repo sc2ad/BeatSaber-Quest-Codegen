@@ -213,7 +213,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerIntroCountdown*, "", "Multipl
 // Il2CppName: get_textAppearDuration
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MultiplayerIntroCountdown::*)()>(&GlobalNamespace::MultiplayerIntroCountdown::get_textAppearDuration)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerIntroCountdown*), "get_textAppearDuration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -221,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: Awake
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerIntroCountdown::*)()>(&GlobalNamespace::MultiplayerIntroCountdown::Awake)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerIntroCountdown*), "Awake", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -229,7 +229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerIntroCountdown::*)()>(&GlobalNamespace::MultiplayerIntroCountdown::OnDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerIntroCountdown*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -237,7 +237,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: StartCountdown
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerIntroCountdown::*)(float, float, float)>(&GlobalNamespace::MultiplayerIntroCountdown::StartCountdown)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* seconds = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* delay = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* durationMultiplier = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -248,7 +248,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: CountdownRoutine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::MultiplayerIntroCountdown::*)(float, float, float)>(&GlobalNamespace::MultiplayerIntroCountdown::CountdownRoutine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* seconds = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* delay = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* durationMultiplier = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -259,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: PlayDelayed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::MultiplayerIntroCountdown::*)(UnityEngine::AudioClip*, float)>(&GlobalNamespace::MultiplayerIntroCountdown::PlayDelayed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* audioClip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip")->byval_arg;
     static auto* delay = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerIntroCountdown*), "PlayDelayed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{audioClip, delay});
@@ -269,7 +269,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: PhaseRoutine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::MultiplayerIntroCountdown::*)(::Il2CppString*, float, float)>(&GlobalNamespace::MultiplayerIntroCountdown::PhaseRoutine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* appearDuration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* disappearDuration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

@@ -52,7 +52,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::TypeNameParser*, "System", "TypeNameParser");
 // Il2CppName: GetType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(::Il2CppString*, System::Func_2<System::Reflection::AssemblyName*, System::Reflection::Assembly*>*, System::Func_4<System::Reflection::Assembly*, ::Il2CppString*, bool, System::Type*>*, bool, bool, System::Threading::StackCrawlMark&)>(&System::TypeNameParser::GetType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* typeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* assemblyResolver = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System.Reflection", "AssemblyName"), ::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")})->byval_arg;
     static auto* typeResolver = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`4"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly"), ::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "Boolean"), ::il2cpp_utils::GetClassFromName("System", "Type")})->byval_arg;

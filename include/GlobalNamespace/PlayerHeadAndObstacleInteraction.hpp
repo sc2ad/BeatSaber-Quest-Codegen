@@ -94,7 +94,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerHeadAndObstacleInteraction*, "", "
 // Il2CppName: get_intersectingObstacles
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* (GlobalNamespace::PlayerHeadAndObstacleInteraction::*)()>(&GlobalNamespace::PlayerHeadAndObstacleInteraction::get_intersectingObstacles)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerHeadAndObstacleInteraction*), "get_intersectingObstacles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: GetObstaclesContainingPoint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerHeadAndObstacleInteraction::*)(UnityEngine::Vector3, System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>*)>(&GlobalNamespace::PlayerHeadAndObstacleInteraction::GetObstaclesContainingPoint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* worldPos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* obstacleControllers = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "ObstacleController")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerHeadAndObstacleInteraction*), "GetObstaclesContainingPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{worldPos, obstacleControllers});

@@ -70,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::PathReferenceAttribute*, "JetBrai
 // Il2CppName: get_BasePath
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::PathReferenceAttribute::*)()>(&JetBrains::Annotations::PathReferenceAttribute::get_BasePath)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::PathReferenceAttribute*), "get_BasePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_BasePath
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::PathReferenceAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::PathReferenceAttribute::set_BasePath)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::PathReferenceAttribute*), "set_BasePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

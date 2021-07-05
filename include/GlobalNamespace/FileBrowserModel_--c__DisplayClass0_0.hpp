@@ -84,7 +84,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0*,
 // Il2CppName: <GetContentOfDirectory>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0::*)()>(&GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0::$GetContentOfDirectory$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0*), "<GetContentOfDirectory>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <GetContentOfDirectory>b__1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0::*)()>(&GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0::$GetContentOfDirectory$b__1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileBrowserModel::$$c__DisplayClass0_0*), "<GetContentOfDirectory>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

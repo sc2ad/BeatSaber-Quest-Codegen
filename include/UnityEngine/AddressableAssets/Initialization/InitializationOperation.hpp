@@ -165,7 +165,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::Initializ
 // Il2CppName: CreateInitializationOperation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> (*)(UnityEngine::AddressableAssets::AddressablesImpl*, ::Il2CppString*, ::Il2CppString*)>(&UnityEngine::AddressableAssets::Initialization::InitializationOperation::CreateInitializationOperation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* aa = &::il2cpp_utils::GetClassFromName("UnityEngine.AddressableAssets", "AddressablesImpl")->byval_arg;
     static auto* playerSettingsLocation = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* providerSuffix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: LoadProvider
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AddressableAssets::AddressablesImpl*, UnityEngine::ResourceManagement::Util::ObjectInitializationData, ::Il2CppString*)>(&UnityEngine::AddressableAssets::Initialization::InitializationOperation::LoadProvider)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* addressables = &::il2cpp_utils::GetClassFromName("UnityEngine.AddressableAssets", "AddressablesImpl")->byval_arg;
     static auto* providerData = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.Util", "ObjectInitializationData")->byval_arg;
     static auto* providerSuffix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: OnCatalogDataLoaded
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> (*)(UnityEngine::AddressableAssets::AddressablesImpl*, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>, ::Il2CppString*)>(&UnityEngine::AddressableAssets::Initialization::InitializationOperation::OnCatalogDataLoaded)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* addressables = &::il2cpp_utils::GetClassFromName("UnityEngine.AddressableAssets", "AddressablesImpl")->byval_arg;
     static auto* op = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.AddressableAssets.ResourceLocators", "ContentCatalogData")})->byval_arg;
     static auto* providerSuffix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -198,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: LoadContentCatalog
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> (*)(UnityEngine::AddressableAssets::AddressablesImpl*, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppString*)>(&UnityEngine::AddressableAssets::Initialization::InitializationOperation::LoadContentCatalog)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* addressables = &::il2cpp_utils::GetClassFromName("UnityEngine.AddressableAssets", "AddressablesImpl")->byval_arg;
     static auto* loc = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceLocations", "IResourceLocation")->byval_arg;
     static auto* providerSuffix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -209,7 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: LoadContentCatalog
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> (UnityEngine::AddressableAssets::Initialization::InitializationOperation::*)(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Il2CppString*)>(&UnityEngine::AddressableAssets::Initialization::InitializationOperation::LoadContentCatalog)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* loc = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceLocations", "IResourceLocation")->byval_arg;
     static auto* providerSuffix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::InitializationOperation*), "LoadContentCatalog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{loc, providerSuffix});
@@ -219,7 +219,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: LoadContentCatalogInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> (UnityEngine::AddressableAssets::Initialization::InitializationOperation::*)(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*, int, UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*)>(&UnityEngine::AddressableAssets::Initialization::InitializationOperation::LoadContentCatalogInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* catalogs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceLocations", "IResourceLocation")})->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* locMap = &::il2cpp_utils::GetClassFromName("UnityEngine.AddressableAssets.ResourceLocators", "ResourceLocationMap")->byval_arg;
@@ -230,7 +230,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: LoadOpComplete
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::Initialization::InitializationOperation::*)(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*, UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*, int)>(&UnityEngine::AddressableAssets::Initialization::InitializationOperation::LoadOpComplete)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* op = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.AddressableAssets.ResourceLocators", "IResourceLocator")})->byval_arg;
     static auto* catalogs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement.ResourceLocations", "IResourceLocation")})->byval_arg;
     static auto* locMap = &::il2cpp_utils::GetClassFromName("UnityEngine.AddressableAssets.ResourceLocators", "ResourceLocationMap")->byval_arg;
@@ -242,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_Progress
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::AddressableAssets::Initialization::InitializationOperation::*)()>(&UnityEngine::AddressableAssets::Initialization::InitializationOperation::get_Progress)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::InitializationOperation*), "get_Progress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -250,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Il2CppName: get_DebugName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::AddressableAssets::Initialization::InitializationOperation::*)()>(&UnityEngine::AddressableAssets::Initialization::InitializationOperation::get_DebugName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::InitializationOperation*), "get_DebugName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -258,7 +258,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: InvokeWaitForCompletion
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AddressableAssets::Initialization::InitializationOperation::*)()>(&UnityEngine::AddressableAssets::Initialization::InitializationOperation::InvokeWaitForCompletion)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::InitializationOperation*), "InvokeWaitForCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -266,7 +266,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: Execute
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::Initialization::InitializationOperation::*)()>(&UnityEngine::AddressableAssets::Initialization::InitializationOperation::Execute)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::InitializationOperation*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

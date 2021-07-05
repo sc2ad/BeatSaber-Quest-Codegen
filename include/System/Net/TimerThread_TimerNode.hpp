@@ -151,7 +151,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::TimerThread::TimerNode::TimerState, "System.
 // Il2CppName: get_Next
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::TimerThread::TimerNode* (System::Net::TimerThread::TimerNode::*)()>(&System::Net::TimerThread::TimerNode::get_Next)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::TimerThread::TimerNode*), "get_Next", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -159,7 +159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: set_Next
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::TimerThread::TimerNode::*)(System::Net::TimerThread::TimerNode*)>(&System::Net::TimerThread::TimerNode::set_Next)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Net", "TimerThread/TimerNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::TimerThread::TimerNode*), "set_Next", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_Prev
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::TimerThread::TimerNode* (System::Net::TimerThread::TimerNode::*)()>(&System::Net::TimerThread::TimerNode::get_Prev)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::TimerThread::TimerNode*), "get_Prev", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: set_Prev
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::TimerThread::TimerNode::*)(System::Net::TimerThread::TimerNode*)>(&System::Net::TimerThread::TimerNode::set_Prev)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Net", "TimerThread/TimerNode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::TimerThread::TimerNode*), "set_Prev", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -189,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Cancel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::TimerThread::TimerNode::*)()>(&System::Net::TimerThread::TimerNode::Cancel)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::TimerThread::TimerNode*), "Cancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

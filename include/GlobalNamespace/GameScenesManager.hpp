@@ -273,7 +273,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameScenesManager*, "", "GameScenesManag
 // Il2CppName: add_transitionDidStartEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameScenesManager::*)(System::Action_1<float>*)>(&GlobalNamespace::GameScenesManager::add_transitionDidStartEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameScenesManager*), "add_transitionDidStartEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -282,7 +282,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_transitionDidStartEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameScenesManager::*)(System::Action_1<float>*)>(&GlobalNamespace::GameScenesManager::remove_transitionDidStartEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameScenesManager*), "remove_transitionDidStartEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -291,7 +291,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_beforeDismissingScenesEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameScenesManager::*)(System::Action*)>(&GlobalNamespace::GameScenesManager::add_beforeDismissingScenesEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameScenesManager*), "add_beforeDismissingScenesEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -300,7 +300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_beforeDismissingScenesEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameScenesManager::*)(System::Action*)>(&GlobalNamespace::GameScenesManager::remove_beforeDismissingScenesEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameScenesManager*), "remove_beforeDismissingScenesEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -309,7 +309,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_transitionDidFinishEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameScenesManager::*)(System::Action_2<GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*>*)>(&GlobalNamespace::GameScenesManager::add_transitionDidFinishEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "ScenesTransitionSetupDataSO"), ::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameScenesManager*), "add_transitionDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -318,7 +318,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_transitionDidFinishEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameScenesManager::*)(System::Action_2<GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*>*)>(&GlobalNamespace::GameScenesManager::remove_transitionDidFinishEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "ScenesTransitionSetupDataSO"), ::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameScenesManager*), "remove_transitionDidFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -327,7 +327,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_installEarlyBindingsEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameScenesManager::*)(System::Action_2<GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*>*)>(&GlobalNamespace::GameScenesManager::add_installEarlyBindingsEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "ScenesTransitionSetupDataSO"), ::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameScenesManager*), "add_installEarlyBindingsEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -336,7 +336,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_installEarlyBindingsEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameScenesManager::*)(System::Action_2<GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*>*)>(&GlobalNamespace::GameScenesManager::remove_installEarlyBindingsEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "ScenesTransitionSetupDataSO"), ::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameScenesManager*), "remove_installEarlyBindingsEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -345,7 +345,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_currentScenesContainer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (GlobalNamespace::GameScenesManager::*)()>(&GlobalNamespace::GameScenesManager::get_currentScenesContainer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameScenesManager*), "get_currentScenesContainer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -353,7 +353,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Di
 // Il2CppName: get_isInTransition
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameScenesManager::*)()>(&GlobalNamespace::GameScenesManager::get_isInTransition)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameScenesManager*), "get_isInTransition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -361,7 +361,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: get_waitUntilSceneTransitionFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::WaitUntil* (GlobalNamespace::GameScenesManager::*)()>(&GlobalNamespace::GameScenesManager::get_waitUntilSceneTransitionFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameScenesManager*), "get_waitUntilSceneTransitionFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -369,7 +369,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: MarkSceneAsPersistent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameScenesManager::*)(::Il2CppString*)>(&GlobalNamespace::GameScenesManager::MarkSceneAsPersistent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameScenesManager*), "MarkSceneAsPersistent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sceneName});
   }
@@ -378,7 +378,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: GetCurrentlyLoadedSceneNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (GlobalNamespace::GameScenesManager::*)()>(&GlobalNamespace::GameScenesManager::GetCurrentlyLoadedSceneNames)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameScenesManager*), "GetCurrentlyLoadedSceneNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -386,7 +386,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: PushScenes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameScenesManager::*)(GlobalNamespace::ScenesTransitionSetupDataSO*, float, System::Action*, System::Action_1<Zenject::DiContainer*>*)>(&GlobalNamespace::GameScenesManager::PushScenes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* scenesTransitionSetupData = &::il2cpp_utils::GetClassFromName("", "ScenesTransitionSetupDataSO")->byval_arg;
     static auto* minDuration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* afterMinDurationCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
@@ -398,7 +398,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: PopScenes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameScenesManager::*)(float, System::Action*, System::Action_1<Zenject::DiContainer*>*)>(&GlobalNamespace::GameScenesManager::PopScenes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* minDuration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* afterMinDurationCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     static auto* finishCallback = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")})->byval_arg;
@@ -409,7 +409,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ReplaceScenes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameScenesManager::*)(GlobalNamespace::ScenesTransitionSetupDataSO*, float, System::Action*, System::Action_1<Zenject::DiContainer*>*)>(&GlobalNamespace::GameScenesManager::ReplaceScenes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* scenesTransitionSetupData = &::il2cpp_utils::GetClassFromName("", "ScenesTransitionSetupDataSO")->byval_arg;
     static auto* minDuration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* afterMinDurationCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
@@ -421,7 +421,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ClearAndOpenScenes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameScenesManager::*)(GlobalNamespace::ScenesTransitionSetupDataSO*, float, System::Action*, System::Action_1<Zenject::DiContainer*>*, bool)>(&GlobalNamespace::GameScenesManager::ClearAndOpenScenes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* scenesTransitionSetupData = &::il2cpp_utils::GetClassFromName("", "ScenesTransitionSetupDataSO")->byval_arg;
     static auto* minDuration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* afterMinDurationCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
@@ -434,7 +434,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ScenesTransitionCoroutine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::GameScenesManager::*)(System::Collections::Generic::List_1<::Il2CppString*>*, GlobalNamespace::GameScenesManager::ScenePresentType, System::Collections::Generic::List_1<::Il2CppString*>*, GlobalNamespace::GameScenesManager::SceneDismissType, float, System::Action*, System::Action_1<Zenject::DiContainer*>*, System::Action_1<Zenject::DiContainer*>*)>(&GlobalNamespace::GameScenesManager::ScenesTransitionCoroutine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* scenesToPresent = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     static auto* presentType = &::il2cpp_utils::GetClassFromName("", "GameScenesManager/ScenePresentType")->byval_arg;
     static auto* scenesToDismiss = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
@@ -450,7 +450,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: IsAnySceneInStack
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameScenesManager::*)(System::Collections::Generic::List_1<::Il2CppString*>*)>(&GlobalNamespace::GameScenesManager::IsAnySceneInStack)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneNames = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameScenesManager*), "IsAnySceneInStack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sceneNames});
   }
@@ -459,7 +459,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: IsSceneInStack
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameScenesManager::*)(::Il2CppString*)>(&GlobalNamespace::GameScenesManager::IsSceneInStack)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* searchSceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameScenesManager*), "IsSceneInStack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{searchSceneName});
   }
@@ -468,7 +468,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: SceneNamesFromSceneInfoArray
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (GlobalNamespace::GameScenesManager::*)(::Array<GlobalNamespace::SceneInfo*>*)>(&GlobalNamespace::GameScenesManager::SceneNamesFromSceneInfoArray)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneInfos = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "SceneInfo"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameScenesManager*), "SceneNamesFromSceneInfoArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sceneInfos});
   }
@@ -477,7 +477,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: SetActiveRootObjectsInScenes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameScenesManager::*)(System::Collections::Generic::List_1<::Il2CppString*>*, bool)>(&GlobalNamespace::GameScenesManager::SetActiveRootObjectsInScenes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneNames = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameScenesManager*), "SetActiveRootObjectsInScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sceneNames, value});
@@ -487,7 +487,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ReparentRootGameObjectsToDisabledGameObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameScenesManager::*)(::Il2CppString*)>(&GlobalNamespace::GameScenesManager::ReparentRootGameObjectsToDisabledGameObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameScenesManager*), "ReparentRootGameObjectsToDisabledGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sceneName});
   }
@@ -496,7 +496,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: MoveGameObjectsFromContainerToSceneRoot
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameScenesManager::*)(::Il2CppString*)>(&GlobalNamespace::GameScenesManager::MoveGameObjectsFromContainerToSceneRoot)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameScenesManager*), "MoveGameObjectsFromContainerToSceneRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sceneName});
   }
@@ -505,7 +505,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Log
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&GlobalNamespace::GameScenesManager::Log)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameScenesManager*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
   }
@@ -514,7 +514,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: <get_waitUntilSceneTransitionFinish>b__22_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::GameScenesManager::*)()>(&GlobalNamespace::GameScenesManager::$get_waitUntilSceneTransitionFinish$b__22_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameScenesManager*), "<get_waitUntilSceneTransitionFinish>b__22_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -33,7 +33,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Field::IPolynomial*, "Org.Bouncy
 // Il2CppName: get_Degree
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Math::Field::IPolynomial::*)()>(&Org::BouncyCastle::Math::Field::IPolynomial::get_Degree)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Field::IPolynomial*), "get_Degree", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -41,7 +41,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Il2CppName: GetExponentsPresent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (Org::BouncyCastle::Math::Field::IPolynomial::*)()>(&Org::BouncyCastle::Math::Field::IPolynomial::GetExponentsPresent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Field::IPolynomial*), "GetExponentsPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

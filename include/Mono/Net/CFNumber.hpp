@@ -38,7 +38,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNumber*, "Mono.Net", "CFNumber");
 // Il2CppName: CFNumberGetValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::IntPtr, int&)>(&Mono::Net::CFNumber::CFNumberGetValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -49,7 +49,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: AsInt32
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr)>(&Mono::Net::CFNumber::AsInt32)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNumber*), "AsInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle});
   }

@@ -58,7 +58,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsData::ChildCreditsItem*, "", "Cre
 // Il2CppName: HasTitle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::CreditsData::ChildCreditsItem::*)()>(&GlobalNamespace::CreditsData::ChildCreditsItem::HasTitle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsData::ChildCreditsItem*), "HasTitle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -66,7 +66,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: HasText
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::CreditsData::ChildCreditsItem::*)()>(&GlobalNamespace::CreditsData::ChildCreditsItem::HasText)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsData::ChildCreditsItem*), "HasText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

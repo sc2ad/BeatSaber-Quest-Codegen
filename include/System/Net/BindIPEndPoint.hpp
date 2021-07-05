@@ -65,7 +65,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::BindIPEndPoint*, "System.Net", "BindIPEndPoi
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (System::Net::BindIPEndPoint::*)(System::Net::ServicePoint*, System::Net::IPEndPoint*, int)>(&System::Net::BindIPEndPoint::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* servicePoint = &::il2cpp_utils::GetClassFromName("System.Net", "ServicePoint")->byval_arg;
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* retryCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::BindIPEndPoint::*)(System::Net::ServicePoint*, System::Net::IPEndPoint*, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::BindIPEndPoint::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* servicePoint = &::il2cpp_utils::GetClassFromName("System.Net", "ServicePoint")->byval_arg;
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* retryCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPEndPoint* (System::Net::BindIPEndPoint::*)(System::IAsyncResult*)>(&System::Net::BindIPEndPoint::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::BindIPEndPoint*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

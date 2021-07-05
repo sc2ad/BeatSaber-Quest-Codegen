@@ -77,7 +77,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectContainerSO*, "", "MainEffectC
 // Il2CppName: get_mainEffect
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MainEffectSO* (GlobalNamespace::MainEffectContainerSO::*)()>(&GlobalNamespace::MainEffectContainerSO::get_mainEffect)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainEffectContainerSO*), "get_mainEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainEffectContainerSO::*)(GlobalNamespace::MainEffectSO*)>(&GlobalNamespace::MainEffectContainerSO::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mainEffect = &::il2cpp_utils::GetClassFromName("", "MainEffectSO")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainEffectContainerSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mainEffect});
   }
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnEnable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainEffectContainerSO::*)()>(&GlobalNamespace::MainEffectContainerSO::OnEnable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainEffectContainerSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

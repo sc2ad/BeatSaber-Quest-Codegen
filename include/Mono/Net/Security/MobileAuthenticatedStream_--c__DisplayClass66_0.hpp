@@ -56,7 +56,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MobileAuthenticatedStream::$$c__Disp
 // Il2CppName: <InnerRead>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Net::Security::MobileAuthenticatedStream::$$c__DisplayClass66_0::*)()>(&Mono::Net::Security::MobileAuthenticatedStream::$$c__DisplayClass66_0::$InnerRead$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MobileAuthenticatedStream::$$c__DisplayClass66_0*), "<InnerRead>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

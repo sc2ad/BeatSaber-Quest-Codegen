@@ -77,7 +77,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedLimbOrientations*, "RootMotion", "BipedL
 // Il2CppName: get_UMA
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::BipedLimbOrientations* (*)()>(&RootMotion::BipedLimbOrientations::get_UMA)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedLimbOrientations*), "get_UMA", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion:
 // Il2CppName: get_MaxBiped
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::BipedLimbOrientations* (*)()>(&RootMotion::BipedLimbOrientations::get_MaxBiped)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedLimbOrientations*), "get_MaxBiped", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

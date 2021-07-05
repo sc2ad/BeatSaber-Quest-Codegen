@@ -107,7 +107,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::TcpListener*, "System.Net.Sockets",
 // Il2CppName: get_LocalEndpoint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::EndPoint* (System::Net::Sockets::TcpListener::*)()>(&System::Net::Sockets::TcpListener::get_LocalEndpoint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::TcpListener*), "get_LocalEndpoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::TcpListener::*)()>(&System::Net::Sockets::TcpListener::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::TcpListener*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::TcpListener::*)(int)>(&System::Net::Sockets::TcpListener::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* backlog = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::TcpListener*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{backlog});
   }
@@ -132,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Stop
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Sockets::TcpListener::*)()>(&System::Net::Sockets::TcpListener::Stop)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::TcpListener*), "Stop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: BeginAcceptTcpClient
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::Sockets::TcpListener::*)(System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::Sockets::TcpListener::BeginAcceptTcpClient)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::TcpListener*), "BeginAcceptTcpClient", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callback, state});
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndAcceptTcpClient
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Sockets::TcpClient* (System::Net::Sockets::TcpListener::*)(System::IAsyncResult*)>(&System::Net::Sockets::TcpListener::EndAcceptTcpClient)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* asyncResult = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Sockets::TcpListener*), "EndAcceptTcpClient", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncResult});
   }

@@ -53,7 +53,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataObstaclesAndBombsTransform*, 
 // Il2CppName: CreateTransformedData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IReadonlyBeatmapData* (*)(GlobalNamespace::IReadonlyBeatmapData*, GlobalNamespace::GameplayModifiers::EnabledObstacleType, bool)>(&GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::CreateTransformedData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmapData = &::il2cpp_utils::GetClassFromName("", "IReadonlyBeatmapData")->byval_arg;
     static auto* enabledObstaclesType = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers/EnabledObstacleType")->byval_arg;
     static auto* noBombs = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -64,7 +64,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ShouldUseBeatmapObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::BeatmapObjectData*, GlobalNamespace::GameplayModifiers::EnabledObstacleType, bool)>(&GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::ShouldUseBeatmapObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmapObjectData = &::il2cpp_utils::GetClassFromName("", "BeatmapObjectData")->byval_arg;
     static auto* enabledObstaclesType = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers/EnabledObstacleType")->byval_arg;
     static auto* noBombs = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

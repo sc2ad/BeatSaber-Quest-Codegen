@@ -74,7 +74,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisableWhenMirrorIsEnabled*, "", "Disabl
 // Il2CppName: get_mirror
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::Mirror* (GlobalNamespace::DisableWhenMirrorIsEnabled::*)()>(&GlobalNamespace::DisableWhenMirrorIsEnabled::get_mirror)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisableWhenMirrorIsEnabled*), "get_mirror", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: set_mirror
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DisableWhenMirrorIsEnabled::*)(GlobalNamespace::Mirror*)>(&GlobalNamespace::DisableWhenMirrorIsEnabled::set_mirror)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "Mirror")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisableWhenMirrorIsEnabled*), "set_mirror", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DisableWhenMirrorIsEnabled::*)()>(&GlobalNamespace::DisableWhenMirrorIsEnabled::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisableWhenMirrorIsEnabled*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DisableWhenMirrorIsEnabled::*)()>(&GlobalNamespace::DisableWhenMirrorIsEnabled::OnDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisableWhenMirrorIsEnabled*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleMirrorDidChangeEnabledState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DisableWhenMirrorIsEnabled::*)(bool)>(&GlobalNamespace::DisableWhenMirrorIsEnabled::HandleMirrorDidChangeEnabledState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* isEnabled = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisableWhenMirrorIsEnabled*), "HandleMirrorDidChangeEnabledState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isEnabled});
   }

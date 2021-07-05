@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::MatchEvaluator*, "Syste
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Text::RegularExpressions::MatchEvaluator::*)(System::Text::RegularExpressions::Match*)>(&System::Text::RegularExpressions::MatchEvaluator::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* match = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "Match")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::MatchEvaluator*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{match});
   }
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Text::RegularExpressions::MatchEvaluator::*)(System::Text::RegularExpressions::Match*, System::AsyncCallback*, ::Il2CppObject*)>(&System::Text::RegularExpressions::MatchEvaluator::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* match = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "Match")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Text::RegularExpressions::MatchEvaluator::*)(System::IAsyncResult*)>(&System::Text::RegularExpressions::MatchEvaluator::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::MatchEvaluator*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

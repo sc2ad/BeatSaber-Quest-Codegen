@@ -73,7 +73,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformAdditionalContentModel::$$
 // Il2CppName: <LaunchCheckoutFlow>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusPlatformAdditionalContentModel::$$c__DisplayClass10_0::*)(Oculus::Platform::Message_1<Oculus::Platform::Models::Purchase*>*)>(&GlobalNamespace::OculusPlatformAdditionalContentModel::$$c__DisplayClass10_0::$LaunchCheckoutFlow$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* msg = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("Oculus.Platform", "Message`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Oculus.Platform.Models", "Purchase")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusPlatformAdditionalContentModel::$$c__DisplayClass10_0*), "<LaunchCheckoutFlow>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{msg});
   }

@@ -211,7 +211,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SortKeyBuffer*, "Mono.Globa
 // Il2CppName: Reset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SortKeyBuffer::*)()>(&Mono::Globalization::Unicode::SortKeyBuffer::Reset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -219,7 +219,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Il2CppName: Initialize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SortKeyBuffer::*)(System::Globalization::CompareOptions, int, ::Il2CppString*, bool)>(&Mono::Globalization::Unicode::SortKeyBuffer::Initialize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "CompareOptions")->byval_arg;
     static auto* lcid = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -231,7 +231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Il2CppName: AppendCJKExtension
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SortKeyBuffer::*)(uint8_t, uint8_t)>(&Mono::Globalization::Unicode::SortKeyBuffer::AppendCJKExtension)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lv1msb = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     static auto* lv1lsb = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), "AppendCJKExtension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lv1msb, lv1lsb});
@@ -241,7 +241,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Il2CppName: AppendKana
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SortKeyBuffer::*)(uint8_t, uint8_t, uint8_t, uint8_t, bool, uint8_t, bool, bool)>(&Mono::Globalization::Unicode::SortKeyBuffer::AppendKana)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* category = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     static auto* lv1 = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     static auto* lv2 = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
@@ -257,7 +257,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Il2CppName: AppendNormal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SortKeyBuffer::*)(uint8_t, uint8_t, uint8_t, uint8_t)>(&Mono::Globalization::Unicode::SortKeyBuffer::AppendNormal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* category = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     static auto* lv1 = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     static auto* lv2 = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
@@ -269,7 +269,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Il2CppName: AppendLevel5
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SortKeyBuffer::*)(uint8_t, uint8_t)>(&Mono::Globalization::Unicode::SortKeyBuffer::AppendLevel5)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* category = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     static auto* lv1 = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), "AppendLevel5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{category, lv1});
@@ -279,7 +279,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Il2CppName: AppendBufferPrimitive
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SortKeyBuffer::*)(uint8_t, ::Array<uint8_t>*&, int&)>(&Mono::Globalization::Unicode::SortKeyBuffer::AppendBufferPrimitive)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
     static auto* bidx = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -290,7 +290,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Il2CppName: GetResultAndReset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::SortKey* (Mono::Globalization::Unicode::SortKeyBuffer::*)()>(&Mono::Globalization::Unicode::SortKeyBuffer::GetResultAndReset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), "GetResultAndReset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -298,7 +298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Il2CppName: GetOptimizedLength
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SortKeyBuffer::*)(::Array<uint8_t>*, int, uint8_t)>(&Mono::Globalization::Unicode::SortKeyBuffer::GetOptimizedLength)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* defaultValue = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
@@ -309,7 +309,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Il2CppName: GetResult
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::SortKey* (Mono::Globalization::Unicode::SortKeyBuffer::*)()>(&Mono::Globalization::Unicode::SortKeyBuffer::GetResult)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), "GetResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -33,7 +33,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::IPlayable*, "UnityEngine.Playable
 // Il2CppName: GetHandle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Playables::PlayableHandle (UnityEngine::Playables::IPlayable::*)()>(&UnityEngine::Playables::IPlayable::GetHandle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::IPlayable*), "GetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

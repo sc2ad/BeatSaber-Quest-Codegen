@@ -49,7 +49,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::CryptoConvert*, "Mono.Secur
 // Il2CppName: ToInt32LE
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*, int)>(&Mono::Security::Cryptography::CryptoConvert::ToInt32LE)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::CryptoConvert*), "ToInt32LE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytes, offset});
@@ -59,7 +59,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Il2CppName: ToUInt32LE
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Array<uint8_t>*, int)>(&Mono::Security::Cryptography::CryptoConvert::ToUInt32LE)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::CryptoConvert*), "ToUInt32LE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytes, offset});
@@ -69,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::
 // Il2CppName: Trim
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*)>(&Mono::Security::Cryptography::CryptoConvert::Trim)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::CryptoConvert*), "Trim", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
   }
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: FromCapiPrivateKeyBlob
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RSA* (*)(::Array<uint8_t>*)>(&Mono::Security::Cryptography::CryptoConvert::FromCapiPrivateKeyBlob)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* blob = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::CryptoConvert*), "FromCapiPrivateKeyBlob", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{blob});
   }
@@ -87,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Il2CppName: FromCapiPrivateKeyBlob
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RSA* (*)(::Array<uint8_t>*, int)>(&Mono::Security::Cryptography::CryptoConvert::FromCapiPrivateKeyBlob)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* blob = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::CryptoConvert*), "FromCapiPrivateKeyBlob", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{blob, offset});
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Il2CppName: ToHex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<uint8_t>*)>(&Mono::Security::Cryptography::CryptoConvert::ToHex)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::CryptoConvert*), "ToHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});
   }

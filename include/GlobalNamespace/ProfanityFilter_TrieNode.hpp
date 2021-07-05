@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ProfanityFilter::TrieNode*, "", "Profani
 // Il2CppName: AddWord
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ProfanityFilter::TrieNode::*)(::Il2CppString*, int)>(&GlobalNamespace::ProfanityFilter::TrieNode::AddWord)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* word = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ProfanityFilter::TrieNode*), "AddWord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{word, index});
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: IsMatch
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ProfanityFilter::TrieNode::*)(::Il2CppString*, int)>(&GlobalNamespace::ProfanityFilter::TrieNode::IsMatch)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* word = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ProfanityFilter::TrieNode*), "IsMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{word, index});

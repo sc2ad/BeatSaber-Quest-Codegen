@@ -54,7 +54,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionHelpSO*, "", "MissionHelpSO");
 // Il2CppName: get_missionHelpId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::MissionHelpSO::*)()>(&GlobalNamespace::MissionHelpSO::get_missionHelpId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionHelpSO*), "get_missionHelpId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -147,7 +147,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UIKeyboardManager*, "", "UIKeyboardManag
 // Il2CppName: get_keyboard
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::UIKeyboard* (GlobalNamespace::UIKeyboardManager::*)()>(&GlobalNamespace::UIKeyboardManager::get_keyboard)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboardManager*), "get_keyboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -155,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::UIKey
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UIKeyboardManager::*)()>(&GlobalNamespace::UIKeyboardManager::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboardManager*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnEnable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UIKeyboardManager::*)()>(&GlobalNamespace::UIKeyboardManager::OnEnable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboardManager*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -171,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnDisable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UIKeyboardManager::*)()>(&GlobalNamespace::UIKeyboardManager::OnDisable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboardManager*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UIKeyboardManager::*)()>(&GlobalNamespace::UIKeyboardManager::OnDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboardManager*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -187,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OpenKeyboardFor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UIKeyboardManager::*)(HMUI::InputFieldView*)>(&GlobalNamespace::UIKeyboardManager::OpenKeyboardFor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("HMUI", "InputFieldView")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboardManager*), "OpenKeyboardFor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});
   }
@@ -196,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: CloseKeyboard
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UIKeyboardManager::*)()>(&GlobalNamespace::UIKeyboardManager::CloseKeyboard)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboardManager*), "CloseKeyboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: TransferKeyboardTo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UIKeyboardManager::*)(HMUI::InputFieldView*)>(&GlobalNamespace::UIKeyboardManager::TransferKeyboardTo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* nextInput = &::il2cpp_utils::GetClassFromName("HMUI", "InputFieldView")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboardManager*), "TransferKeyboardTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nextInput});
   }
@@ -213,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ShouldCloseKeyboard
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::UIKeyboardManager::*)(UnityEngine::GameObject*)>(&GlobalNamespace::UIKeyboardManager::ShouldCloseKeyboard)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* root = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboardManager*), "ShouldCloseKeyboard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{root});
   }
@@ -222,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: ProcessMousePress
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UIKeyboardManager::*)(UnityEngine::GameObject*)>(&GlobalNamespace::UIKeyboardManager::ProcessMousePress)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* currentOverGo = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboardManager*), "ProcessMousePress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{currentOverGo});
   }
@@ -231,7 +231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleKeyboardOkButton
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UIKeyboardManager::*)()>(&GlobalNamespace::UIKeyboardManager::HandleKeyboardOkButton)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UIKeyboardManager*), "HandleKeyboardOkButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

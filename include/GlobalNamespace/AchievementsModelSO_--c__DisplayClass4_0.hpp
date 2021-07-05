@@ -58,7 +58,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_
 // Il2CppName: <UnlockAchievement>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0::*)(GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementResult)>(&GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0::$UnlockAchievement$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("", "PlatformAchievementsModelSO/UnlockAchievementResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0*), "<UnlockAchievement>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

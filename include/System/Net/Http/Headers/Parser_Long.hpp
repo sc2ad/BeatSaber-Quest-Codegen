@@ -29,7 +29,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::Parser::Long*, "System.Net.Ht
 // Il2CppName: TryParse
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int64_t&)>(&System::Net::Http::Headers::Parser::Long::TryParse)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "Int64")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Parser::Long*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, result});

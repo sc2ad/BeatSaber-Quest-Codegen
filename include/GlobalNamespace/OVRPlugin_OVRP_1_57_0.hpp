@@ -57,7 +57,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_57_0*, "", "OVRPlugin/
 // Il2CppName: ovrp_Media_GetPlatformCameraMode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::Media::PlatformCameraMode&)>(&GlobalNamespace::OVRPlugin::OVRP_1_57_0::ovrp_Media_GetPlatformCameraMode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* platformCameraMode = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Media/PlatformCameraMode")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_57_0*), "ovrp_Media_GetPlatformCameraMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{platformCameraMode});
   }
@@ -66,7 +66,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_Media_SetPlatformCameraMode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::Media::PlatformCameraMode)>(&GlobalNamespace::OVRPlugin::OVRP_1_57_0::ovrp_Media_SetPlatformCameraMode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* platformCameraMode = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Media/PlatformCameraMode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_57_0*), "ovrp_Media_SetPlatformCameraMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{platformCameraMode});
   }
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_SetEyeFovPremultipliedAlphaMode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::Bool)>(&GlobalNamespace::OVRPlugin::OVRP_1_57_0::ovrp_SetEyeFovPremultipliedAlphaMode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enabled = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_57_0*), "ovrp_SetEyeFovPremultipliedAlphaMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enabled});
   }
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_GetEyeFovPremultipliedAlphaMode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::Bool&)>(&GlobalNamespace::OVRPlugin::OVRP_1_57_0::ovrp_GetEyeFovPremultipliedAlphaMode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enabled = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_57_0*), "ovrp_GetEyeFovPremultipliedAlphaMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enabled});
   }
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_SetKeyboardOverlayUV
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::Vector2f)>(&GlobalNamespace::OVRPlugin::OVRP_1_57_0::ovrp_SetKeyboardOverlayUV)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* uv = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Vector2f")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_57_0*), "ovrp_SetKeyboardOverlayUV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uv});
   }
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_57_0::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_57_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

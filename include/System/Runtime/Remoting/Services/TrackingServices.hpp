@@ -53,7 +53,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Services::TrackingServices*, "
 // Il2CppName: NotifyMarshaledObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, System::Runtime::Remoting::ObjRef*)>(&System::Runtime::Remoting::Services::TrackingServices::NotifyMarshaledObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* _or = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ObjRef")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Services::TrackingServices*), "NotifyMarshaledObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, _or});
@@ -63,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: NotifyUnmarshaledObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, System::Runtime::Remoting::ObjRef*)>(&System::Runtime::Remoting::Services::TrackingServices::NotifyUnmarshaledObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* _or = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ObjRef")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Services::TrackingServices*), "NotifyUnmarshaledObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, _or});
@@ -73,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: NotifyDisconnectedObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&System::Runtime::Remoting::Services::TrackingServices::NotifyDisconnectedObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Services::TrackingServices*), "NotifyDisconnectedObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Runtime::Remoting::Services::TrackingServices::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Services::TrackingServices*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

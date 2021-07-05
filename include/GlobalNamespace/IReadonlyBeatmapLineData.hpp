@@ -39,7 +39,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IReadonlyBeatmapLineData*, "", "IReadonl
 // Il2CppName: get_beatmapObjectsData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapObjectData*>* (GlobalNamespace::IReadonlyBeatmapLineData::*)()>(&GlobalNamespace::IReadonlyBeatmapLineData::get_beatmapObjectsData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IReadonlyBeatmapLineData*), "get_beatmapObjectsData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

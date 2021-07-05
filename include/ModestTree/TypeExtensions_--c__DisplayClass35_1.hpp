@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(ModestTree::TypeExtensions::$$c__DisplayClass35_1*, "Mode
 // Il2CppName: <AllAttributes>b__1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ModestTree::TypeExtensions::$$c__DisplayClass35_1::*)(System::Type*)>(&ModestTree::TypeExtensions::$$c__DisplayClass35_1::$AllAttributes$b__1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions::$$c__DisplayClass35_1*), "<AllAttributes>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }

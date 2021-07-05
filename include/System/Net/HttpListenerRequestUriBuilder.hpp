@@ -188,7 +188,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerRequestUriBuilder*, "System.Net"
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Net::HttpListenerRequestUriBuilder::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequestUriBuilder*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -200,7 +200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: GetRequestUri
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&System::Net::HttpListenerRequestUriBuilder::GetRequestUri)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rawUri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* cookedUriScheme = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* cookedUriHost = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -213,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri
 // Il2CppName: Build
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (System::Net::HttpListenerRequestUriBuilder::*)()>(&System::Net::HttpListenerRequestUriBuilder::Build)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequestUriBuilder*), "Build", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -221,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri
 // Il2CppName: BuildRequestUriUsingCookedPath
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerRequestUriBuilder::*)()>(&System::Net::HttpListenerRequestUriBuilder::BuildRequestUriUsingCookedPath)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequestUriBuilder*), "BuildRequestUriUsingCookedPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -229,7 +229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: BuildRequestUriUsingRawPath
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerRequestUriBuilder::*)()>(&System::Net::HttpListenerRequestUriBuilder::BuildRequestUriUsingRawPath)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequestUriBuilder*), "BuildRequestUriUsingRawPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -237,7 +237,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: GetEncoding
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)(System::Net::HttpListenerRequestUriBuilder::EncodingType)>(&System::Net::HttpListenerRequestUriBuilder::GetEncoding)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System.Net", "HttpListenerRequestUriBuilder/EncodingType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequestUriBuilder*), "GetEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
@@ -246,7 +246,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Il2CppName: BuildRequestUriUsingRawPath
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpListenerRequestUriBuilder::ParsingResult (System::Net::HttpListenerRequestUriBuilder::*)(System::Text::Encoding*)>(&System::Net::HttpListenerRequestUriBuilder::BuildRequestUriUsingRawPath)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* encoding = &::il2cpp_utils::GetClassFromName("System.Text", "Encoding")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequestUriBuilder*), "BuildRequestUriUsingRawPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{encoding});
   }
@@ -255,7 +255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: ParseRawPath
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpListenerRequestUriBuilder::ParsingResult (System::Net::HttpListenerRequestUriBuilder::*)(System::Text::Encoding*)>(&System::Net::HttpListenerRequestUriBuilder::ParseRawPath)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* encoding = &::il2cpp_utils::GetClassFromName("System.Text", "Encoding")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequestUriBuilder*), "ParseRawPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{encoding});
   }
@@ -264,7 +264,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: AppendUnicodeCodePointValuePercentEncoded
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpListenerRequestUriBuilder::*)(::Il2CppString*)>(&System::Net::HttpListenerRequestUriBuilder::AppendUnicodeCodePointValuePercentEncoded)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* codePoint = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequestUriBuilder*), "AppendUnicodeCodePointValuePercentEncoded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{codePoint});
   }
@@ -273,7 +273,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: AddPercentEncodedOctetToRawOctetsList
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpListenerRequestUriBuilder::*)(System::Text::Encoding*, ::Il2CppString*)>(&System::Net::HttpListenerRequestUriBuilder::AddPercentEncodedOctetToRawOctetsList)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* encoding = &::il2cpp_utils::GetClassFromName("System.Text", "Encoding")->byval_arg;
     static auto* escapedCharacter = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequestUriBuilder*), "AddPercentEncodedOctetToRawOctetsList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{encoding, escapedCharacter});
@@ -283,7 +283,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: EmptyDecodeAndAppendRawOctetsList
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpListenerRequestUriBuilder::*)(System::Text::Encoding*)>(&System::Net::HttpListenerRequestUriBuilder::EmptyDecodeAndAppendRawOctetsList)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* encoding = &::il2cpp_utils::GetClassFromName("System.Text", "Encoding")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequestUriBuilder*), "EmptyDecodeAndAppendRawOctetsList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{encoding});
   }
@@ -292,7 +292,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: AppendOctetsPercentEncoded
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, System::Collections::Generic::IEnumerable_1<uint8_t>*)>(&System::Net::HttpListenerRequestUriBuilder::AppendOctetsPercentEncoded)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* target = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* octets = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Byte")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequestUriBuilder*), "AppendOctetsPercentEncoded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{target, octets});
@@ -302,7 +302,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: GetOctetsAsString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Collections::Generic::IEnumerable_1<uint8_t>*)>(&System::Net::HttpListenerRequestUriBuilder::GetOctetsAsString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* octets = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Byte")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequestUriBuilder*), "GetOctetsAsString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{octets});
   }
@@ -311,7 +311,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetPath
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Net::HttpListenerRequestUriBuilder::GetPath)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* uriString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequestUriBuilder*), "GetPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uriString});
   }
@@ -320,7 +320,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: AddSlashToAsteriskOnlyPath
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Net::HttpListenerRequestUriBuilder::AddSlashToAsteriskOnlyPath)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequestUriBuilder*), "AddSlashToAsteriskOnlyPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
   }
@@ -329,7 +329,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: LogWarning
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerRequestUriBuilder::*)(::Il2CppString*, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&System::Net::HttpListenerRequestUriBuilder::LogWarning)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;

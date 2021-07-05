@@ -60,7 +60,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant
 // Il2CppName: get_passType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::PassType (GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant::*)()>(&GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant::get_passType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*), "get_passType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -68,7 +68,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_keywords
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant::*)()>(&GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant::get_keywords)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShaderVariantsSO::ShaderVariant::Variant*), "get_keywords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

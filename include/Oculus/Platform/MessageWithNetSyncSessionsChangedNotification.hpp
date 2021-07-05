@@ -52,7 +52,7 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithNetSyncSessionsChangedNotifi
 // Il2CppName: GetDataFromMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::NetSyncSessionsChangedNotification* (Oculus::Platform::MessageWithNetSyncSessionsChangedNotification::*)(System::IntPtr)>(&Oculus::Platform::MessageWithNetSyncSessionsChangedNotification::GetDataFromMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c_message = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithNetSyncSessionsChangedNotification*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c_message});
   }
@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: GetNetSyncSessionsChangedNotification
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::NetSyncSessionsChangedNotification* (Oculus::Platform::MessageWithNetSyncSessionsChangedNotification::*)()>(&Oculus::Platform::MessageWithNetSyncSessionsChangedNotification::GetNetSyncSessionsChangedNotification)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithNetSyncSessionsChangedNotification*), "GetNetSyncSessionsChangedNotification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

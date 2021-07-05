@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_GetTimeSinceLastVsync*, "OVR.Ope
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::IVRSystem::_GetTimeSinceLastVsync::*)(float&, uint64_t&)>(&OVR::OpenVR::IVRSystem::_GetTimeSinceLastVsync::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pfSecondsSinceLastVsync = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
     static auto* pulFrameCounter = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_GetTimeSinceLastVsync*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pfSecondsSinceLastVsync, pulFrameCounter});
@@ -71,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRSystem::_GetTimeSinceLastVsync::*)(float&, uint64_t&, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRSystem::_GetTimeSinceLastVsync::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pfSecondsSinceLastVsync = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
     static auto* pulFrameCounter = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::IVRSystem::_GetTimeSinceLastVsync::*)(float&, uint64_t&, System::IAsyncResult*)>(&OVR::OpenVR::IVRSystem::_GetTimeSinceLastVsync::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pfSecondsSinceLastVsync = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
     static auto* pulFrameCounter = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;

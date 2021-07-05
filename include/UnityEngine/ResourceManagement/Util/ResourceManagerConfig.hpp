@@ -88,7 +88,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::ResourceManagerCon
 // Il2CppName: ExtractKeyAndSubKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*, ::Il2CppString*&, ::Il2CppString*&)>(&UnityEngine::ResourceManagement::Util::ResourceManagerConfig::ExtractKeyAndSubKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* keyObj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* mainKey = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     static auto* subKey = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: IsPathRemote
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&UnityEngine::ResourceManagement::Util::ResourceManagerConfig::IsPathRemote)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::ResourceManagerConfig*), "IsPathRemote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
   }
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: ShouldPathUseWebRequest
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&UnityEngine::ResourceManagement::Util::ResourceManagerConfig::ShouldPathUseWebRequest)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::ResourceManagerConfig*), "ShouldPathUseWebRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
   }
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: CreateArrayResult
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(System::Type*, ::Array<UnityEngine::Object*>*)>(&UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateArrayResult)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* allAssets = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::ResourceManagerConfig*), "CreateArrayResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, allAssets});
@@ -130,7 +130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Arr
 // Il2CppName: CreateListResult
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (*)(System::Type*, ::Array<UnityEngine::Object*>*)>(&UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateListResult)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* allAssets = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::ResourceManagerConfig*), "CreateListResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, allAssets});

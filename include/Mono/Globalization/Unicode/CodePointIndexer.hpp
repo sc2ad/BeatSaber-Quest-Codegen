@@ -126,7 +126,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::CodePointIndexer::TableRang
 // Il2CppName: ToIndex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::CodePointIndexer::*)(int)>(&Mono::Globalization::Unicode::CodePointIndexer::ToIndex)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cp = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::CodePointIndexer*), "ToIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cp});
   }

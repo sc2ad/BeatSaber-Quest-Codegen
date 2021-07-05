@@ -119,7 +119,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenCaptureCache::ScreenshotType, "", 
 // Il2CppName: GetLastScreenshot
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (GlobalNamespace::ScreenCaptureCache::*)(GlobalNamespace::ScreenCaptureCache::ScreenshotType)>(&GlobalNamespace::ScreenCaptureCache::GetLastScreenshot)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* screenshotType = &::il2cpp_utils::GetClassFromName("", "ScreenCaptureCache/ScreenshotType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScreenCaptureCache*), "GetLastScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{screenshotType});
   }
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: StoreScreenshot
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScreenCaptureCache::*)(GlobalNamespace::ScreenCaptureCache::ScreenshotType, UnityEngine::Texture2D*)>(&GlobalNamespace::ScreenCaptureCache::StoreScreenshot)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* screenshotType = &::il2cpp_utils::GetClassFromName("", "ScreenCaptureCache/ScreenshotType")->byval_arg;
     static auto* texture = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture2D")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScreenCaptureCache*), "StoreScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{screenshotType, texture});

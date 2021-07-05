@@ -137,7 +137,7 @@ DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LevelScoreUploader*, "OnlineServices", "L
 // Il2CppName: add_scoreForLeaderboardDidUploadEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::LevelScoreUploader::*)(System::Action_1<::Il2CppString*>*)>(&OnlineServices::LevelScoreUploader::add_scoreForLeaderboardDidUploadEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::LevelScoreUploader*), "add_scoreForLeaderboardDidUploadEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -146,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Onlin
 // Il2CppName: remove_scoreForLeaderboardDidUploadEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::LevelScoreUploader::*)(System::Action_1<::Il2CppString*>*)>(&OnlineServices::LevelScoreUploader::remove_scoreForLeaderboardDidUploadEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::LevelScoreUploader*), "remove_scoreForLeaderboardDidUploadEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -159,7 +159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Onlin
 // Il2CppName: SendLevelScoreResult
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::LevelScoreUploader::*)(OnlineServices::LevelScoreResultsData)>(&OnlineServices::LevelScoreUploader::SendLevelScoreResult)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* levelScoreResultsData = &::il2cpp_utils::GetClassFromName("OnlineServices", "LevelScoreResultsData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::LevelScoreUploader*), "SendLevelScoreResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelScoreResultsData});
   }
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Onlin
 // Il2CppName: TrySendPreviouslyUnsuccessfullySentResults
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::LevelScoreUploader::*)()>(&OnlineServices::LevelScoreUploader::TrySendPreviouslyUnsuccessfullySentResults)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::LevelScoreUploader*), "TrySendPreviouslyUnsuccessfullySentResults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Onlin
 // Il2CppName: SendLevelScoreResultAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::LevelScoreUploader::*)()>(&OnlineServices::LevelScoreUploader::SendLevelScoreResultAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::LevelScoreUploader*), "SendLevelScoreResultAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -184,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Onlin
 // Il2CppName: AddUnsuccessfullySentResults
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::LevelScoreUploader::*)()>(&OnlineServices::LevelScoreUploader::AddUnsuccessfullySentResults)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::LevelScoreUploader*), "AddUnsuccessfullySentResults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -192,7 +192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Onlin
 // Il2CppName: OnDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::LevelScoreUploader::*)()>(&OnlineServices::LevelScoreUploader::OnDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::LevelScoreUploader*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

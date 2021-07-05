@@ -92,7 +92,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyGameState*, "", "LobbyGameState");
 // Il2CppName: get_gameState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerGameState (GlobalNamespace::LobbyGameState::*)()>(&GlobalNamespace::LobbyGameState::get_gameState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyGameState*), "get_gameState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: add_gameStateDidChangeEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyGameState::*)(System::Action_1<GlobalNamespace::MultiplayerGameState>*)>(&GlobalNamespace::LobbyGameState::add_gameStateDidChangeEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MultiplayerGameState")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyGameState*), "add_gameStateDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_gameStateDidChangeEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyGameState::*)(System::Action_1<GlobalNamespace::MultiplayerGameState>*)>(&GlobalNamespace::LobbyGameState::remove_gameStateDidChangeEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MultiplayerGameState")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyGameState*), "remove_gameStateDidChangeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_gameStateDidChangeAlwaysSentEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyGameState::*)(System::Action_1<GlobalNamespace::MultiplayerGameState>*)>(&GlobalNamespace::LobbyGameState::add_gameStateDidChangeAlwaysSentEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MultiplayerGameState")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyGameState*), "add_gameStateDidChangeAlwaysSentEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_gameStateDidChangeAlwaysSentEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyGameState::*)(System::Action_1<GlobalNamespace::MultiplayerGameState>*)>(&GlobalNamespace::LobbyGameState::remove_gameStateDidChangeAlwaysSentEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MultiplayerGameState")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyGameState*), "remove_gameStateDidChangeAlwaysSentEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -136,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetGameState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyGameState::*)(GlobalNamespace::MultiplayerGameState)>(&GlobalNamespace::LobbyGameState::SetGameState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* newGameState = &::il2cpp_utils::GetClassFromName("", "MultiplayerGameState")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyGameState*), "SetGameState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newGameState});
   }
@@ -145,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetGameStateWithoutNotification
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyGameState::*)(GlobalNamespace::MultiplayerGameState)>(&GlobalNamespace::LobbyGameState::SetGameStateWithoutNotification)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* newGameState = &::il2cpp_utils::GetClassFromName("", "MultiplayerGameState")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyGameState*), "SetGameStateWithoutNotification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newGameState});
   }
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetGameState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyGameState::*)(GlobalNamespace::MultiplayerGameState, bool)>(&GlobalNamespace::LobbyGameState::SetGameState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* newGameState = &::il2cpp_utils::GetClassFromName("", "MultiplayerGameState")->byval_arg;
     static auto* sendNotification = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyGameState*), "SetGameState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newGameState, sendNotification});

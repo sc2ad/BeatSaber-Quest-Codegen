@@ -78,7 +78,7 @@ DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontAsset::$$c*, "TMPro", "TMP_FontAsset/<>c")
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TMPro::TMP_FontAsset::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <SortCharacterTable>b__100_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMPro::TMP_FontAsset::$$c::*)(TMPro::TMP_Character*)>(&TMPro::TMP_FontAsset::$$c::$SortCharacterTable$b__100_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_Character")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset::$$c*), "<SortCharacterTable>b__100_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMPro
 // Il2CppName: <SortGlyphTable>b__101_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMPro::TMP_FontAsset::$$c::*)(UnityEngine::TextCore::Glyph*)>(&TMPro::TMP_FontAsset::$$c::$SortGlyphTable$b__101_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("UnityEngine.TextCore", "Glyph")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset::$$c*), "<SortGlyphTable>b__101_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }

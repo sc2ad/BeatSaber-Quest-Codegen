@@ -94,7 +94,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::DefaultSuiteBuilder
 // Il2CppName: CanBuildFrom
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::CanBuildFrom)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* typeInfo = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITypeInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::DefaultSuiteBuilder*), "CanBuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeInfo});
   }
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit
 // Il2CppName: BuildFrom
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestSuite* (NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::BuildFrom)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* typeInfo = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITypeInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::DefaultSuiteBuilder*), "BuildFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeInfo});
   }
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Il2CppName: BuildMultipleFixtures
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::TestSuite* (NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::*)(NUnit::Framework::Interfaces::ITypeInfo*, System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestSuite*>*)>(&NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::BuildMultipleFixtures)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* typeInfo = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITypeInfo")->byval_arg;
     static auto* fixtures = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestSuite")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::DefaultSuiteBuilder*), "BuildMultipleFixtures", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeInfo, fixtures});
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Il2CppName: GetFixtureBuilderAttributes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<NUnit::Framework::Interfaces::IFixtureBuilder*>* (NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::*)(NUnit::Framework::Interfaces::ITypeInfo*)>(&NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::GetFixtureBuilderAttributes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* typeInfo = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITypeInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::DefaultSuiteBuilder*), "GetFixtureBuilderAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeInfo});
   }
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<NUn
 // Il2CppName: HasArguments
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::*)(NUnit::Framework::Interfaces::IFixtureBuilder*)>(&NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::HasArguments)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* attr = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "IFixtureBuilder")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::DefaultSuiteBuilder*), "HasArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attr});
   }

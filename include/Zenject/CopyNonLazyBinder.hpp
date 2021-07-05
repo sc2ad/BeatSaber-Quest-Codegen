@@ -83,7 +83,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::CopyNonLazyBinder*, "Zenject", "CopyNonLazyBinde
 // Il2CppName: AddSecondaryCopyBindInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::CopyNonLazyBinder::*)(Zenject::BindInfo*)>(&Zenject::CopyNonLazyBinder::AddSecondaryCopyBindInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bindInfo = &::il2cpp_utils::GetClassFromName("Zenject", "BindInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::CopyNonLazyBinder*), "AddSecondaryCopyBindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindInfo});
   }
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Il2CppName: CopyIntoAllSubContainers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NonLazyBinder* (Zenject::CopyNonLazyBinder::*)()>(&Zenject::CopyNonLazyBinder::CopyIntoAllSubContainers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::CopyNonLazyBinder*), "CopyIntoAllSubContainers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::No
 // Il2CppName: CopyIntoDirectSubContainers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NonLazyBinder* (Zenject::CopyNonLazyBinder::*)()>(&Zenject::CopyNonLazyBinder::CopyIntoDirectSubContainers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::CopyNonLazyBinder*), "CopyIntoDirectSubContainers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::No
 // Il2CppName: MoveIntoAllSubContainers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NonLazyBinder* (Zenject::CopyNonLazyBinder::*)()>(&Zenject::CopyNonLazyBinder::MoveIntoAllSubContainers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::CopyNonLazyBinder*), "MoveIntoAllSubContainers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::No
 // Il2CppName: MoveIntoDirectSubContainers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::NonLazyBinder* (Zenject::CopyNonLazyBinder::*)()>(&Zenject::CopyNonLazyBinder::MoveIntoDirectSubContainers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::CopyNonLazyBinder*), "MoveIntoDirectSubContainers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -124,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::No
 // Il2CppName: SetInheritanceMethod
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::CopyNonLazyBinder::*)(Zenject::BindingInheritanceMethods)>(&Zenject::CopyNonLazyBinder::SetInheritanceMethod)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("Zenject", "BindingInheritanceMethods")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::CopyNonLazyBinder*), "SetInheritanceMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method});
   }

@@ -37,7 +37,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CAPI*, "System.Security.C
 // Il2CppName: CryptFindOIDInfoNameFromKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, System::Security::Cryptography::OidGroup)>(&System::Security::Cryptography::CAPI::CryptFindOIDInfoNameFromKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* oidGroup = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "OidGroup")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CAPI*), "CryptFindOIDInfoNameFromKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key, oidGroup});
@@ -47,7 +47,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: CryptFindOIDInfoKeyFromName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, System::Security::Cryptography::OidGroup)>(&System::Security::Cryptography::CAPI::CryptFindOIDInfoKeyFromName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* oidGroup = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "OidGroup")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CAPI*), "CryptFindOIDInfoKeyFromName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, oidGroup});

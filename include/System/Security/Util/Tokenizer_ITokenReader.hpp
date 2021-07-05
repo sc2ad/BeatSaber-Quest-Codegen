@@ -29,7 +29,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer::ITokenReader*, "System
 // Il2CppName: Read
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Util::Tokenizer::ITokenReader::*)()>(&System::Security::Util::Tokenizer::ITokenReader::Read)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Tokenizer::ITokenReader*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

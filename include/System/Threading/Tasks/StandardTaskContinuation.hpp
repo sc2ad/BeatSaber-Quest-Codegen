@@ -78,7 +78,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::StandardTaskContinuation*, "Sys
 // Il2CppName: Run
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::StandardTaskContinuation::*)(System::Threading::Tasks::Task*, bool)>(&System::Threading::Tasks::StandardTaskContinuation::Run)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* completedTask = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
     static auto* bCanInlineContinuationTask = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::StandardTaskContinuation*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{completedTask, bCanInlineContinuationTask});

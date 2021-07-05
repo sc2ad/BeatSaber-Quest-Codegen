@@ -308,7 +308,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedNaming::BoneSide, "RootMotion", "BipedNa
 // Il2CppName: GetBonesOfType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Transform*>* (*)(RootMotion::BipedNaming::BoneType, ::Array<UnityEngine::Transform*>*)>(&RootMotion::BipedNaming::GetBonesOfType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* boneType = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedNaming/BoneType")->byval_arg;
     static auto* bones = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "GetBonesOfType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boneType, bones});
@@ -318,7 +318,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: GetBonesOfSide
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Transform*>* (*)(RootMotion::BipedNaming::BoneSide, ::Array<UnityEngine::Transform*>*)>(&RootMotion::BipedNaming::GetBonesOfSide)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* boneSide = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedNaming/BoneSide")->byval_arg;
     static auto* bones = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "GetBonesOfSide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boneSide, bones});
@@ -328,7 +328,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: GetBonesOfTypeAndSide
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Transform*>* (*)(RootMotion::BipedNaming::BoneType, RootMotion::BipedNaming::BoneSide, ::Array<UnityEngine::Transform*>*)>(&RootMotion::BipedNaming::GetBonesOfTypeAndSide)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* boneType = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedNaming/BoneType")->byval_arg;
     static auto* boneSide = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedNaming/BoneSide")->byval_arg;
     static auto* bones = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
@@ -339,7 +339,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: GetFirstBoneOfTypeAndSide
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(RootMotion::BipedNaming::BoneType, RootMotion::BipedNaming::BoneSide, ::Array<UnityEngine::Transform*>*)>(&RootMotion::BipedNaming::GetFirstBoneOfTypeAndSide)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* boneType = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedNaming/BoneType")->byval_arg;
     static auto* boneSide = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedNaming/BoneSide")->byval_arg;
     static auto* bones = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
@@ -350,7 +350,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetNamingMatch
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(::Array<UnityEngine::Transform*>*, ::Array<::Array<::Il2CppString*>*>*)>(&RootMotion::BipedNaming::GetNamingMatch)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* transforms = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
     static auto* namings = &il2cpp_functions::array_class_get(il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "GetNamingMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transforms, namings});
@@ -360,7 +360,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetBoneType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::BipedNaming::BoneType (*)(::Il2CppString*)>(&RootMotion::BipedNaming::GetBoneType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* boneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "GetBoneType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boneName});
   }
@@ -369,7 +369,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion:
 // Il2CppName: GetBoneSide
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::BipedNaming::BoneSide (*)(::Il2CppString*)>(&RootMotion::BipedNaming::GetBoneSide)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* boneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "GetBoneSide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boneName});
   }
@@ -378,7 +378,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion:
 // Il2CppName: GetBone
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(::Array<UnityEngine::Transform*>*, RootMotion::BipedNaming::BoneType, RootMotion::BipedNaming::BoneSide, ::Array<::Array<::Il2CppString*>*>*)>(&RootMotion::BipedNaming::GetBone)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* transforms = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
     static auto* boneType = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedNaming/BoneType")->byval_arg;
     static auto* boneSide = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedNaming/BoneSide")->byval_arg;
@@ -390,7 +390,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: isLeft
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&RootMotion::BipedNaming::isLeft)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* boneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "isLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boneName});
   }
@@ -399,7 +399,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: isRight
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&RootMotion::BipedNaming::isRight)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* boneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "isRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boneName});
   }
@@ -408,7 +408,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: isSpine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&RootMotion::BipedNaming::isSpine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* boneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "isSpine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boneName});
   }
@@ -417,7 +417,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: isHead
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&RootMotion::BipedNaming::isHead)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* boneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "isHead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boneName});
   }
@@ -426,7 +426,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: isArm
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&RootMotion::BipedNaming::isArm)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* boneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "isArm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boneName});
   }
@@ -435,7 +435,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: isLeg
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&RootMotion::BipedNaming::isLeg)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* boneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "isLeg", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boneName});
   }
@@ -444,7 +444,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: isTail
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&RootMotion::BipedNaming::isTail)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* boneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "isTail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boneName});
   }
@@ -453,7 +453,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: isEye
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&RootMotion::BipedNaming::isEye)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* boneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "isEye", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boneName});
   }
@@ -462,7 +462,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: isTypeExclude
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&RootMotion::BipedNaming::isTypeExclude)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* boneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "isTypeExclude", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boneName});
   }
@@ -471,7 +471,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: matchesNaming
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Array<::Il2CppString*>*)>(&RootMotion::BipedNaming::matchesNaming)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* boneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* namingConvention = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "matchesNaming", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boneName, namingConvention});
@@ -481,7 +481,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: excludesNaming
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Array<::Il2CppString*>*)>(&RootMotion::BipedNaming::excludesNaming)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* boneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* namingConvention = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "excludesNaming", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boneName, namingConvention});
@@ -491,7 +491,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: matchesLastLetter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Array<::Il2CppString*>*)>(&RootMotion::BipedNaming::matchesLastLetter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* boneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* namingConvention = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "matchesLastLetter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boneName, namingConvention});
@@ -501,7 +501,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: LastLetterIs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*)>(&RootMotion::BipedNaming::LastLetterIs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* boneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* letter = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "LastLetterIs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boneName, letter});
@@ -511,7 +511,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: firstLetter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&RootMotion::BipedNaming::firstLetter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* boneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "firstLetter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boneName});
   }
@@ -520,7 +520,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: lastLetter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&RootMotion::BipedNaming::lastLetter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* boneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), "lastLetter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boneName});
   }
@@ -529,7 +529,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&RootMotion::BipedNaming::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::BipedNaming*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

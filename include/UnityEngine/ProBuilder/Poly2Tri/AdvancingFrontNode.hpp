@@ -85,7 +85,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*, "
 // Il2CppName: get_HasNext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::*)()>(&UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::get_HasNext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*), "get_HasNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: get_HasPrev
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::*)()>(&UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode::get_HasPrev)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*), "get_HasPrev", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

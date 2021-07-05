@@ -80,7 +80,7 @@ DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseClientMessageHandler::$$c__DisplayClass
 // Il2CppName: <VerifySignature>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::BaseClientMessageHandler::$$c__DisplayClass32_0::*)()>(&MasterServer::BaseClientMessageHandler::$$c__DisplayClass32_0::$VerifySignature$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler::$$c__DisplayClass32_0*), "<VerifySignature>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

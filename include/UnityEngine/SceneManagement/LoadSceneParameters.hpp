@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SceneManagement::LoadSceneParameters, "Unity
 // Il2CppName: set_loadSceneMode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::SceneManagement::LoadSceneParameters::*)(UnityEngine::SceneManagement::LoadSceneMode)>(&UnityEngine::SceneManagement::LoadSceneParameters::set_loadSceneMode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneMode")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::LoadSceneParameters), "set_loadSceneMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

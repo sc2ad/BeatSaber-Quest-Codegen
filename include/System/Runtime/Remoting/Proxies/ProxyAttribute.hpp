@@ -58,7 +58,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Proxies::ProxyAttribute*, "Sys
 // Il2CppName: CreateInstance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::MarshalByRefObject* (System::Runtime::Remoting::Proxies::ProxyAttribute::*)(System::Type*)>(&System::Runtime::Remoting::Proxies::ProxyAttribute::CreateInstance)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* serverType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::ProxyAttribute*), "CreateInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serverType});
   }
@@ -67,7 +67,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Mar
 // Il2CppName: CreateProxy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Proxies::RealProxy* (System::Runtime::Remoting::Proxies::ProxyAttribute::*)(System::Runtime::Remoting::ObjRef*, System::Type*, ::Il2CppObject*, System::Runtime::Remoting::Contexts::Context*)>(&System::Runtime::Remoting::Proxies::ProxyAttribute::CreateProxy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* objRef = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ObjRef")->byval_arg;
     static auto* serverType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* serverObject = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

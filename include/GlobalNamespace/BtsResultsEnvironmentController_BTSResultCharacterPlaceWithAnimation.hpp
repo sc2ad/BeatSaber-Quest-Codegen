@@ -106,7 +106,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BtsResultsEnvironmentController::BTSResu
 // Il2CppName: get_name
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::*)()>(&GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::get_name)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*), "get_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -114,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: Clean
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::*)()>(&GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::Clean)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*), "Clean", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetCharacter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::*)(UnityEngine::AddressableAssets::AssetReference*, GlobalNamespace::BTSCharacter*, bool)>(&GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation::SetCharacter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* assetReference = &::il2cpp_utils::GetClassFromName("UnityEngine.AddressableAssets", "AssetReference")->byval_arg;
     static auto* btsCharacter = &::il2cpp_utils::GetClassFromName("", "BTSCharacter")->byval_arg;
     static auto* alternativeMaterial = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

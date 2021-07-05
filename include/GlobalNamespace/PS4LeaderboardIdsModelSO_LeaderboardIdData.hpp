@@ -58,7 +58,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdD
 // Il2CppName: get_ps4LeaderboardId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData::*)()>(&GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData::get_ps4LeaderboardId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData*), "get_ps4LeaderboardId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -66,7 +66,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Globa
 // Il2CppName: get_leaderboardId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData::*)()>(&GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData::get_leaderboardId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData*), "get_leaderboardId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

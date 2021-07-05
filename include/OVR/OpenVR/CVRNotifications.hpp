@@ -73,7 +73,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRNotifications*, "OVR.OpenVR", "CVRNotific
 // Il2CppName: CreateNotification
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRNotificationError (OVR::OpenVR::CVRNotifications::*)(uint64_t, uint64_t, OVR::OpenVR::EVRNotificationType, ::Il2CppString*, OVR::OpenVR::EVRNotificationStyle, OVR::OpenVR::NotificationBitmap_t&, uint&)>(&OVR::OpenVR::CVRNotifications::CreateNotification)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* ulUserValue = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRNotificationType")->byval_arg;
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: RemoveNotification
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRNotificationError (OVR::OpenVR::CVRNotifications::*)(uint)>(&OVR::OpenVR::CVRNotifications::RemoveNotification)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* notificationId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRNotifications*), "RemoveNotification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{notificationId});
   }

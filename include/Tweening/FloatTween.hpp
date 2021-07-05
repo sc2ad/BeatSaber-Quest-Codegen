@@ -90,7 +90,7 @@ DEFINE_IL2CPP_ARG_TYPE(Tweening::FloatTween*, "Tweening", "FloatTween");
 // Il2CppName: GetValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Tweening::FloatTween::*)(float)>(&Tweening::FloatTween::GetValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Tweening::FloatTween*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Twee
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Tweening::FloatTween::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Tweening::FloatTween*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

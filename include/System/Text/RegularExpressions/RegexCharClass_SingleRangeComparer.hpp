@@ -47,7 +47,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCharClass::SingleR
 // Il2CppName: Compare
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::RegularExpressions::RegexCharClass::SingleRangeComparer::*)(System::Text::RegularExpressions::RegexCharClass::SingleRange*, System::Text::RegularExpressions::RegexCharClass::SingleRange*)>(&System::Text::RegularExpressions::RegexCharClass::SingleRangeComparer::Compare)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "RegexCharClass/SingleRange")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "RegexCharClass/SingleRange")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexCharClass::SingleRangeComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y});

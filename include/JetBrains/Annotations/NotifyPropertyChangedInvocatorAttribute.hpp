@@ -70,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::NotifyPropertyChangedInvocatorAtt
 // Il2CppName: get_ParameterName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::*)()>(&JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::get_ParameterName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute*), "get_ParameterName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_ParameterName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::set_ParameterName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute*), "set_ParameterName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

@@ -64,7 +64,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Compatibility::AdditionalTypeExtensions*, "NUnit.C
 // Il2CppName: ParametersMatch
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<System::Reflection::ParameterInfo*>*, ::Array<System::Type*>*)>(&NUnit::Compatibility::AdditionalTypeExtensions::ParametersMatch)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pinfos = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterInfo"), 1)->byval_arg;
     static auto* ptypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Compatibility::AdditionalTypeExtensions*), "ParametersMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pinfos, ptypes});
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: IsCastableFrom
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*)>(&NUnit::Compatibility::AdditionalTypeExtensions::IsCastableFrom)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* to = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* from = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Compatibility::AdditionalTypeExtensions*), "IsCastableFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{to, from});
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NUnit::Compatibility::AdditionalTypeExtensions::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Compatibility::AdditionalTypeExtensions*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

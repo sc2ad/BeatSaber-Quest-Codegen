@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionFilterTypesBinder::$$c__DisplayClass2_
 // Il2CppName: <DerivingFromOrEqual>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::ConventionFilterTypesBinder::$$c__DisplayClass2_0::*)(System::Type*)>(&Zenject::ConventionFilterTypesBinder::$$c__DisplayClass2_0::$DerivingFromOrEqual$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder::$$c__DisplayClass2_0*), "<DerivingFromOrEqual>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }

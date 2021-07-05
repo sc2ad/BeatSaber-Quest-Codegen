@@ -35,7 +35,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Vector2Extensions*, "", "Vector2Extensio
 // Il2CppName: SignedAngleToLine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Vector2, UnityEngine::Vector2)>(&GlobalNamespace::Vector2Extensions::SignedAngleToLine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* vec = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     static auto* line = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Vector2Extensions*), "SignedAngleToLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vec, line});

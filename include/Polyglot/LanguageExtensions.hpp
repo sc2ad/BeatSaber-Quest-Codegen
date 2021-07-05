@@ -41,7 +41,7 @@ DEFINE_IL2CPP_ARG_TYPE(Polyglot::LanguageExtensions*, "Polyglot", "LanguageExten
 // Il2CppName: ToSerializedName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Polyglot::Language)>(&Polyglot::LanguageExtensions::ToSerializedName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lang = &::il2cpp_utils::GetClassFromName("Polyglot", "Language")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LanguageExtensions*), "ToSerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lang});
   }
@@ -50,7 +50,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: ToCultureInfoName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Polyglot::Language)>(&Polyglot::LanguageExtensions::ToCultureInfoName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lang = &::il2cpp_utils::GetClassFromName("Polyglot", "Language")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LanguageExtensions*), "ToCultureInfoName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lang});
   }
@@ -59,7 +59,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: ToLanguage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Polyglot::Language (*)(::Il2CppString*)>(&Polyglot::LanguageExtensions::ToLanguage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* serializedName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Polyglot::LanguageExtensions*), "ToLanguage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serializedName});
   }

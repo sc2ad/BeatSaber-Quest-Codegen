@@ -60,7 +60,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::AwaitTaskContinuation::$$c*, "S
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Threading::Tasks::AwaitTaskContinuation::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::AwaitTaskContinuation::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -68,7 +68,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <ThrowAsyncIfNecessary>b__17_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::AwaitTaskContinuation::$$c::*)(::Il2CppObject*)>(&System::Threading::Tasks::AwaitTaskContinuation::$$c::$ThrowAsyncIfNecessary$b__17_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::AwaitTaskContinuation::$$c*), "<ThrowAsyncIfNecessary>b__17_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }

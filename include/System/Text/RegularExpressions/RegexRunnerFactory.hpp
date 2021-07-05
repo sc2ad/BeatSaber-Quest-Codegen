@@ -35,7 +35,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexRunnerFactory*, "S
 // Il2CppName: CreateInstance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::RegularExpressions::RegexRunner* (System::Text::RegularExpressions::RegexRunnerFactory::*)()>(&System::Text::RegularExpressions::RegexRunnerFactory::CreateInstance)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexRunnerFactory*), "CreateInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -37,7 +37,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEnvironmentHelper*, "", "BeatmapE
 // Il2CppName: GetEnvironmentInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EnvironmentInfoSO* (*)(GlobalNamespace::IDifficultyBeatmap*)>(&GlobalNamespace::BeatmapEnvironmentHelper::GetEnvironmentInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* difficultyBeatmap = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapEnvironmentHelper*), "GetEnvironmentInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{difficultyBeatmap});
   }

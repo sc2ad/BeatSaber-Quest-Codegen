@@ -114,7 +114,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::InternalMeshUtil
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <CreateMeshWithTransform>b__1_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::$CreateMeshWithTransform$b__1_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c*), "<CreateMeshWithTransform>b__1_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: <CreateMeshWithTransform>b__1_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Color>* (UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::$CreateMeshWithTransform$b__1_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c*), "<CreateMeshWithTransform>b__1_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: <CreateMeshWithTransform>b__1_2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector2>* (UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::$CreateMeshWithTransform$b__1_2)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c*), "<CreateMeshWithTransform>b__1_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: <ResetPbObjectWithMeshFilter>b__2_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::$ResetPbObjectWithMeshFilter$b__2_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c*), "<ResetPbObjectWithMeshFilter>b__2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
@@ -158,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: <ResetPbObjectWithMeshFilter>b__2_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Color>* (UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::$ResetPbObjectWithMeshFilter$b__2_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c*), "<ResetPbObjectWithMeshFilter>b__2_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
@@ -167,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: <ResetPbObjectWithMeshFilter>b__2_2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector2>* (UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::$ResetPbObjectWithMeshFilter$b__2_2)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c*), "<ResetPbObjectWithMeshFilter>b__2_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: <FilterUnusedSubmeshIndexes>b__3_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::*)(bool)>(&UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c::$FilterUnusedSubmeshIndexes$b__3_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::$$c*), "<FilterUnusedSubmeshIndexes>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }

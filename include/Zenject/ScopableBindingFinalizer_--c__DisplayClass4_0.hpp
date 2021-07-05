@@ -70,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::ScopableBindingFinalizer::$$c__DisplayClass4_0*,
 // Il2CppName: <FinalizeBindingSelf>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (Zenject::ScopableBindingFinalizer::$$c__DisplayClass4_0::*)(Zenject::DiContainer*, System::Type*)>(&Zenject::ScopableBindingFinalizer::$$c__DisplayClass4_0::$FinalizeBindingSelf$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* _ = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
     static auto* contractType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ScopableBindingFinalizer::$$c__DisplayClass4_0*), "<FinalizeBindingSelf>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_, contractType});

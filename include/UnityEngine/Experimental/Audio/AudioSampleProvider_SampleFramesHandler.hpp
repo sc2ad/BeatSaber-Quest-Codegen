@@ -60,7 +60,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Audio::AudioSampleProvider::Sa
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler::*)(UnityEngine::Experimental::Audio::AudioSampleProvider*, uint)>(&UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.Audio", "AudioSampleProvider")->byval_arg;
     static auto* sampleFrameCount = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider, sampleFrameCount});
@@ -70,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler::*)(UnityEngine::Experimental::Audio::AudioSampleProvider*, uint, System::AsyncCallback*, ::Il2CppObject*)>(&UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.Audio", "AudioSampleProvider")->byval_arg;
     static auto* sampleFrameCount = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler::*)(System::IAsyncResult*)>(&UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

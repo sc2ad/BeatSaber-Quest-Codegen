@@ -45,7 +45,7 @@ DEFINE_IL2CPP_ARG_TYPE(MasterServer::IMasterServerResponse*, "MasterServer", "IM
 // Il2CppName: get_responseId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (MasterServer::IMasterServerResponse::*)()>(&MasterServer::IMasterServerResponse::get_responseId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IMasterServerResponse*), "get_responseId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -53,7 +53,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Maste
 // Il2CppName: get_resultCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (MasterServer::IMasterServerResponse::*)()>(&MasterServer::IMasterServerResponse::get_resultCode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IMasterServerResponse*), "get_resultCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -61,7 +61,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Ma
 // Il2CppName: get_resultCodeString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (MasterServer::IMasterServerResponse::*)()>(&MasterServer::IMasterServerResponse::get_resultCodeString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IMasterServerResponse*), "get_resultCodeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -69,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: WithResponseId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::IMasterServerResponse* (MasterServer::IMasterServerResponse::*)(uint)>(&MasterServer::IMasterServerResponse::WithResponseId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* responseId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IMasterServerResponse*), "WithResponseId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{responseId});
   }

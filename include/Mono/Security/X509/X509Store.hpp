@@ -110,7 +110,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Store*, "Mono.Security.X509", "
 // Il2CppName: get_Certificates
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509CertificateCollection* (Mono::Security::X509::X509Store::*)()>(&Mono::Security::X509::X509Store::get_Certificates)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Store*), "get_Certificates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Il2CppName: get_Crls
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ArrayList* (Mono::Security::X509::X509Store::*)()>(&Mono::Security::X509::X509Store::get_Crls)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Store*), "get_Crls", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -126,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: Load
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::X509::X509Store::*)(::Il2CppString*)>(&Mono::Security::X509::X509Store::Load)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* filename = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Store*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filename});
   }
@@ -135,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: LoadCertificate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Certificate* (Mono::Security::X509::X509Store::*)(::Il2CppString*)>(&Mono::Security::X509::X509Store::LoadCertificate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* filename = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Store*), "LoadCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filename});
   }
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Il2CppName: LoadCrl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Crl* (Mono::Security::X509::X509Store::*)(::Il2CppString*)>(&Mono::Security::X509::X509Store::LoadCrl)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* filename = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Store*), "LoadCrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filename});
   }
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Il2CppName: CheckStore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::X509::X509Store::*)(::Il2CppString*, bool)>(&Mono::Security::X509::X509Store::CheckStore)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* throwException = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Store*), "CheckStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path, throwException});
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Il2CppName: BuildCertificatesCollection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509CertificateCollection* (Mono::Security::X509::X509Store::*)(::Il2CppString*)>(&Mono::Security::X509::X509Store::BuildCertificatesCollection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* storeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Store*), "BuildCertificatesCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{storeName});
   }
@@ -172,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Il2CppName: BuildCrlsCollection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ArrayList* (Mono::Security::X509::X509Store::*)(::Il2CppString*)>(&Mono::Security::X509::X509Store::BuildCrlsCollection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* storeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Store*), "BuildCrlsCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{storeName});
   }

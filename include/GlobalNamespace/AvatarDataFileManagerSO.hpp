@@ -82,7 +82,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarDataFileManagerSO*, "", "AvatarDat
 // Il2CppName: Save
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarDataFileManagerSO::*)(GlobalNamespace::AvatarData*)>(&GlobalNamespace::AvatarDataFileManagerSO::Save)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* avatarData = &::il2cpp_utils::GetClassFromName("", "AvatarData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarDataFileManagerSO*), "Save", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{avatarData});
   }
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Load
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AvatarData* (GlobalNamespace::AvatarDataFileManagerSO::*)()>(&GlobalNamespace::AvatarDataFileManagerSO::Load)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarDataFileManagerSO*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: LoadFromCurrentVersion
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AvatarData* (GlobalNamespace::AvatarDataFileManagerSO::*)(GlobalNamespace::AvatarSaveData*)>(&GlobalNamespace::AvatarDataFileManagerSO::LoadFromCurrentVersion)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* avatarSaveData = &::il2cpp_utils::GetClassFromName("", "AvatarSaveData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarDataFileManagerSO*), "LoadFromCurrentVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{avatarSaveData});
   }

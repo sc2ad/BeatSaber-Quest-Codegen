@@ -67,7 +67,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::PlatformMappingService*, 
 // Il2CppName: GetAddressablesPlatformInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AddressableAssets::AddressablesPlatform (*)(UnityEngine::RuntimePlatform)>(&UnityEngine::AddressableAssets::PlatformMappingService::GetAddressablesPlatformInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* platform = &::il2cpp_utils::GetClassFromName("UnityEngine", "RuntimePlatform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::PlatformMappingService*), "GetAddressablesPlatformInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{platform});
   }
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetAddressablesPlatformPathInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::RuntimePlatform)>(&UnityEngine::AddressableAssets::PlatformMappingService::GetAddressablesPlatformPathInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* platform = &::il2cpp_utils::GetClassFromName("UnityEngine", "RuntimePlatform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::PlatformMappingService*), "GetAddressablesPlatformPathInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{platform});
   }
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetPlatform
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AddressableAssets::AddressablesPlatform (*)()>(&UnityEngine::AddressableAssets::PlatformMappingService::GetPlatform)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::PlatformMappingService*), "GetPlatform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetPlatformPathSubFolder
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&UnityEngine::AddressableAssets::PlatformMappingService::GetPlatformPathSubFolder)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::PlatformMappingService*), "GetPlatformPathSubFolder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::AddressableAssets::PlatformMappingService::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::PlatformMappingService*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

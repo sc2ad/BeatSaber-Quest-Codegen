@@ -241,7 +241,7 @@ DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule::SuccessEventData, "LiteNetLib
 // Il2CppName: ProcessMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NatPunchModule::*)(System::Net::IPEndPoint*, LiteNetLib::NetPacket*)>(&LiteNetLib::NatPunchModule::ProcessMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* senderEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* packet = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPacket")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NatPunchModule*), "ProcessMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{senderEndPoint, packet});
@@ -251,7 +251,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NatPunchModule::*)(LiteNetLib::INatPunchListener*)>(&LiteNetLib::NatPunchModule::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* listener = &::il2cpp_utils::GetClassFromName("LiteNetLib", "INatPunchListener")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NatPunchModule*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{listener});
   }
@@ -263,7 +263,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Il2CppName: NatIntroduce
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NatPunchModule::*)(System::Net::IPEndPoint*, System::Net::IPEndPoint*, System::Net::IPEndPoint*, System::Net::IPEndPoint*, ::Il2CppString*)>(&LiteNetLib::NatPunchModule::NatIntroduce)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* hostInternal = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* hostExternal = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* clientInternal = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
@@ -276,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Il2CppName: PollEvents
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NatPunchModule::*)()>(&LiteNetLib::NatPunchModule::PollEvents)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NatPunchModule*), "PollEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -284,7 +284,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Il2CppName: SendNatIntroduceRequest
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NatPunchModule::*)(::Il2CppString*, int, ::Il2CppString*)>(&LiteNetLib::NatPunchModule::SendNatIntroduceRequest)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* host = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* port = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* additionalInfo = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -295,7 +295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Il2CppName: SendNatIntroduceRequest
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NatPunchModule::*)(System::Net::IPEndPoint*, ::Il2CppString*)>(&LiteNetLib::NatPunchModule::SendNatIntroduceRequest)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* masterServerEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* additionalInfo = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NatPunchModule*), "SendNatIntroduceRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{masterServerEndPoint, additionalInfo});
@@ -305,7 +305,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Il2CppName: OnNatIntroductionRequest
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NatPunchModule::*)(LiteNetLib::NatPunchModule::NatIntroduceRequestPacket*, System::Net::IPEndPoint*)>(&LiteNetLib::NatPunchModule::OnNatIntroductionRequest)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* req = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NatPunchModule/NatIntroduceRequestPacket")->byval_arg;
     static auto* senderEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NatPunchModule*), "OnNatIntroductionRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{req, senderEndPoint});
@@ -315,7 +315,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Il2CppName: OnNatIntroductionResponse
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NatPunchModule::*)(LiteNetLib::NatPunchModule::NatIntroduceResponsePacket*)>(&LiteNetLib::NatPunchModule::OnNatIntroductionResponse)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* req = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NatPunchModule/NatIntroduceResponsePacket")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NatPunchModule*), "OnNatIntroductionResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{req});
   }
@@ -324,7 +324,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Il2CppName: OnNatPunch
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NatPunchModule::*)(LiteNetLib::NatPunchModule::NatPunchPacket*, System::Net::IPEndPoint*)>(&LiteNetLib::NatPunchModule::OnNatPunch)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* req = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NatPunchModule/NatPunchPacket")->byval_arg;
     static auto* senderEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NatPunchModule*), "OnNatPunch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{req, senderEndPoint});

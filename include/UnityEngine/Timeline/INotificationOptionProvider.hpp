@@ -33,7 +33,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::INotificationOptionProvider*, "Uni
 // Il2CppName: get_flags
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::NotificationFlags (UnityEngine::Timeline::INotificationOptionProvider::*)()>(&UnityEngine::Timeline::INotificationOptionProvider::get_flags)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::INotificationOptionProvider*), "get_flags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -85,7 +85,7 @@ DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPacketPool*, "LiteNetLib", "NetPacketPool"
 // Il2CppName: GetWithData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPacket* (LiteNetLib::NetPacketPool::*)(LiteNetLib::PacketProperty, ::Array<uint8_t>*, int, int)>(&LiteNetLib::NetPacketPool::GetWithData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* property = &::il2cpp_utils::GetClassFromName("LiteNetLib", "PacketProperty")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib:
 // Il2CppName: GetWithProperty
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPacket* (LiteNetLib::NetPacketPool::*)(LiteNetLib::PacketProperty, int)>(&LiteNetLib::NetPacketPool::GetWithProperty)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* property = &::il2cpp_utils::GetClassFromName("LiteNetLib", "PacketProperty")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacketPool*), "GetWithProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{property, size});
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib:
 // Il2CppName: GetWithProperty
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPacket* (LiteNetLib::NetPacketPool::*)(LiteNetLib::PacketProperty)>(&LiteNetLib::NetPacketPool::GetWithProperty)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* property = &::il2cpp_utils::GetClassFromName("LiteNetLib", "PacketProperty")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacketPool*), "GetWithProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{property});
   }
@@ -116,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib:
 // Il2CppName: GetPacket
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPacket* (LiteNetLib::NetPacketPool::*)(int)>(&LiteNetLib::NetPacketPool::GetPacket)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacketPool*), "GetPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{size});
   }
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib:
 // Il2CppName: Recycle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPacketPool::*)(LiteNetLib::NetPacket*)>(&LiteNetLib::NetPacketPool::Recycle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* packet = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPacket")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacketPool*), "Recycle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet});
   }

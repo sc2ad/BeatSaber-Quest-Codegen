@@ -60,7 +60,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestExecutionContext::$$c*, "
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&NUnit::Framework::Internal::TestExecutionContext::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestExecutionContext::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -68,7 +68,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <.ctor>b__9_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::TestExecutionContext::$$c::*)(::Il2CppObject*)>(&NUnit::Framework::Internal::TestExecutionContext::$$c::$_ctor$b__9_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* val = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestExecutionContext::$$c*), "<.ctor>b__9_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val});
   }

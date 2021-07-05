@@ -52,7 +52,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BootConfigData*, "UnityEngine", "BootConfigD
 // Il2CppName: WrapBootConfigData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::BootConfigData* (*)(System::IntPtr)>(&UnityEngine::BootConfigData::WrapBootConfigData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* nativeHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::BootConfigData*), "WrapBootConfigData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nativeHandle});
   }

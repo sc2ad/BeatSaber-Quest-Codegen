@@ -74,7 +74,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_Submit*, "Valve.VR", "IVRCompo
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRCompositorError (Valve::VR::IVRCompositor::_Submit::*)(Valve::VR::EVREye, Valve::VR::Texture_t&, Valve::VR::VRTextureBounds_t&, Valve::VR::EVRSubmitFlags)>(&Valve::VR::IVRCompositor::_Submit::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eEye = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVREye")->byval_arg;
     static auto* pTexture = &::il2cpp_utils::GetClassFromName("Valve.VR", "Texture_t")->this_arg;
     static auto* pBounds = &::il2cpp_utils::GetClassFromName("Valve.VR", "VRTextureBounds_t")->this_arg;
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRCompositor::_Submit::*)(Valve::VR::EVREye, Valve::VR::Texture_t&, Valve::VR::VRTextureBounds_t&, Valve::VR::EVRSubmitFlags, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRCompositor::_Submit::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eEye = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVREye")->byval_arg;
     static auto* pTexture = &::il2cpp_utils::GetClassFromName("Valve.VR", "Texture_t")->this_arg;
     static auto* pBounds = &::il2cpp_utils::GetClassFromName("Valve.VR", "VRTextureBounds_t")->this_arg;
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRCompositorError (Valve::VR::IVRCompositor::_Submit::*)(Valve::VR::Texture_t&, Valve::VR::VRTextureBounds_t&, System::IAsyncResult*)>(&Valve::VR::IVRCompositor::_Submit::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pTexture = &::il2cpp_utils::GetClassFromName("Valve.VR", "Texture_t")->this_arg;
     static auto* pBounds = &::il2cpp_utils::GetClassFromName("Valve.VR", "VRTextureBounds_t")->this_arg;
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;

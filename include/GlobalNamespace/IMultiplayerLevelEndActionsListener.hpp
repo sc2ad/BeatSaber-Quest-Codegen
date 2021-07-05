@@ -38,7 +38,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMultiplayerLevelEndActionsListener*, ""
 // Il2CppName: ReportPlayerDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMultiplayerLevelEndActionsListener::*)(GlobalNamespace::MultiplayerLevelCompletionResults*)>(&GlobalNamespace::IMultiplayerLevelEndActionsListener::ReportPlayerDidFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* results = &::il2cpp_utils::GetClassFromName("", "MultiplayerLevelCompletionResults")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerLevelEndActionsListener*), "ReportPlayerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{results});
   }
@@ -47,7 +47,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ReportPlayerNetworkDidFailed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMultiplayerLevelEndActionsListener::*)(GlobalNamespace::PlayerNetworkFailReason)>(&GlobalNamespace::IMultiplayerLevelEndActionsListener::ReportPlayerNetworkDidFailed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* failReason = &::il2cpp_utils::GetClassFromName("", "PlayerNetworkFailReason")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerLevelEndActionsListener*), "ReportPlayerNetworkDidFailed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{failReason});
   }

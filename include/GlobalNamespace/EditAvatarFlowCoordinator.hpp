@@ -220,7 +220,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarTyp
 // Il2CppName: add_didFinishEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarFlowCoordinator::*)(System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>*)>(&GlobalNamespace::EditAvatarFlowCoordinator::add_didFinishEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "EditAvatarFlowCoordinator"), ::il2cpp_utils::GetClassFromName("", "EditAvatarFlowCoordinator/EditAvatarType")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarFlowCoordinator*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -229,7 +229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_didFinishEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarFlowCoordinator::*)(System::Action_2<GlobalNamespace::EditAvatarFlowCoordinator*, GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType>*)>(&GlobalNamespace::EditAvatarFlowCoordinator::remove_didFinishEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "EditAvatarFlowCoordinator"), ::il2cpp_utils::GetClassFromName("", "EditAvatarFlowCoordinator/EditAvatarType")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarFlowCoordinator*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -238,7 +238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Setup
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarFlowCoordinator::*)(GlobalNamespace::EditAvatarFlowCoordinator::EditAvatarType)>(&GlobalNamespace::EditAvatarFlowCoordinator::Setup)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* editAvatarType = &::il2cpp_utils::GetClassFromName("", "EditAvatarFlowCoordinator/EditAvatarType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarFlowCoordinator*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{editAvatarType});
   }
@@ -247,7 +247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleEditAvatarViewControllerDidRequestColorChange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarFlowCoordinator::*)(System::Action_1<UnityEngine::Color>*, UnityEngine::Color, GlobalNamespace::EditAvatarViewController::AvatarEditPart, int)>(&GlobalNamespace::EditAvatarFlowCoordinator::HandleEditAvatarViewControllerDidRequestColorChange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* colorCallback = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Color")})->byval_arg;
     static auto* currentColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* editPart = &::il2cpp_utils::GetClassFromName("", "EditAvatarViewController/AvatarEditPart")->byval_arg;
@@ -259,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleEditAvatarViewControllerChangedAvatarPart
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarFlowCoordinator::*)(GlobalNamespace::EditAvatarViewController::AvatarEditPart)>(&GlobalNamespace::EditAvatarFlowCoordinator::HandleEditAvatarViewControllerChangedAvatarPart)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* avatarPart = &::il2cpp_utils::GetClassFromName("", "EditAvatarViewController/AvatarEditPart")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarFlowCoordinator*), "HandleEditAvatarViewControllerChangedAvatarPart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{avatarPart});
   }
@@ -268,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleEditAvatarViewControllerDidFinished
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarFlowCoordinator::*)()>(&GlobalNamespace::EditAvatarFlowCoordinator::HandleEditAvatarViewControllerDidFinished)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarFlowCoordinator*), "HandleEditAvatarViewControllerDidFinished", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -276,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleEditColorViewControllerDidChangedColor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarFlowCoordinator::*)(UnityEngine::Color)>(&GlobalNamespace::EditAvatarFlowCoordinator::HandleEditColorViewControllerDidChangedColor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarFlowCoordinator*), "HandleEditColorViewControllerDidChangedColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color});
   }
@@ -285,7 +285,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleEditColorViewControllerDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarFlowCoordinator::*)(bool)>(&GlobalNamespace::EditAvatarFlowCoordinator::HandleEditColorViewControllerDidFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* apply = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarFlowCoordinator*), "HandleEditColorViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{apply});
   }
@@ -294,7 +294,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: DidActivate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarFlowCoordinator::*)(bool, bool, bool)>(&GlobalNamespace::EditAvatarFlowCoordinator::DidActivate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* firstActivation = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* addedToHierarchy = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* screenSystemEnabling = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -305,7 +305,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: DidDeactivate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EditAvatarFlowCoordinator::*)(bool, bool)>(&GlobalNamespace::EditAvatarFlowCoordinator::DidDeactivate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* removedFromHierarchy = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* screenSystemDisabling = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarFlowCoordinator*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{removedFromHierarchy, screenSystemDisabling});

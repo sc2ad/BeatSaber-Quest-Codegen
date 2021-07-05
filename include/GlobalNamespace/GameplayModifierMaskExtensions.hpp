@@ -41,7 +41,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifierMaskExtensions*, "", "Ga
 // Il2CppName: Contains
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::GameplayModifierMask, GlobalNamespace::GameplayModifierMask)>(&GlobalNamespace::GameplayModifierMaskExtensions::Contains)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mask = &::il2cpp_utils::GetClassFromName("", "GameplayModifierMask")->byval_arg;
     static auto* other = &::il2cpp_utils::GetClassFromName("", "GameplayModifierMask")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifierMaskExtensions*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mask, other});
@@ -51,7 +51,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Il2CppName: DifferenceFrom
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(GlobalNamespace::GameplayModifierMask, GlobalNamespace::GameplayModifierMask)>(&GlobalNamespace::GameplayModifierMaskExtensions::DifferenceFrom)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mask = &::il2cpp_utils::GetClassFromName("", "GameplayModifierMask")->byval_arg;
     static auto* other = &::il2cpp_utils::GetClassFromName("", "GameplayModifierMask")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifierMaskExtensions*), "DifferenceFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mask, other});
@@ -61,7 +61,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Glo
 // Il2CppName: ToHexString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::GameplayModifierMask)>(&GlobalNamespace::GameplayModifierMaskExtensions::ToHexString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mask = &::il2cpp_utils::GetClassFromName("", "GameplayModifierMask")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifierMaskExtensions*), "ToHexString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mask});
   }

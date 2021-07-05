@@ -91,7 +91,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationPreviewUpdateCallback*, "
 // Il2CppName: Evaluate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::AnimationPreviewUpdateCallback::*)()>(&UnityEngine::Timeline::AnimationPreviewUpdateCallback::Evaluate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPreviewUpdateCallback*), "Evaluate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -99,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: FetchPreviewComponents
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::AnimationPreviewUpdateCallback::*)()>(&UnityEngine::Timeline::AnimationPreviewUpdateCallback::FetchPreviewComponents)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::AnimationPreviewUpdateCallback*), "FetchPreviewComponents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

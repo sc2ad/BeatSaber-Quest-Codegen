@@ -72,7 +72,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncProtocolResult*, "Mono.Net.Secu
 // Il2CppName: get_UserResult
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Net::Security::AsyncProtocolResult::*)()>(&Mono::Net::Security::AsyncProtocolResult::get_UserResult)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::AsyncProtocolResult*), "get_UserResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Il2CppName: get_Error
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::ExceptionServices::ExceptionDispatchInfo* (Mono::Net::Security::AsyncProtocolResult::*)()>(&Mono::Net::Security::AsyncProtocolResult::get_Error)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::AsyncProtocolResult*), "get_Error", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

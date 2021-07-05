@@ -42,7 +42,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::MultipleDisplayUtilities*, "UnityEngine.
 // Il2CppName: GetRelativeMousePositionForDrag
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::EventSystems::PointerEventData*, UnityEngine::Vector2&)>(&UnityEngine::UI::MultipleDisplayUtilities::GetRelativeMousePositionForDrag)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->byval_arg;
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MultipleDisplayUtilities*), "GetRelativeMousePositionForDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eventData, position});
@@ -52,7 +52,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: GetMousePositionRelativeToMainDisplayResolution
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)()>(&UnityEngine::UI::MultipleDisplayUtilities::GetMousePositionRelativeToMainDisplayResolution)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MultipleDisplayUtilities*), "GetMousePositionRelativeToMainDisplayResolution", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

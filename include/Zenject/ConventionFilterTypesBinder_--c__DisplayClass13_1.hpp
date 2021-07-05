@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13
 // Il2CppName: <InNamespaces>b__1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_1::*)(::Il2CppString*)>(&Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_1::$InNamespaces$b__1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* n = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder::$$c__DisplayClass13_1*), "<InNamespaces>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{n});
   }

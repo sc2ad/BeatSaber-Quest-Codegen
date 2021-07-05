@@ -89,7 +89,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ExternalCamerasManager*, "", "ExternalCa
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ExternalCamerasManager::*)(GlobalNamespace::ExternalCamerasManager::InitData*)>(&GlobalNamespace::ExternalCamerasManager::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* initData = &::il2cpp_utils::GetClassFromName("", "ExternalCamerasManager/InitData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExternalCamerasManager*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{initData});
   }
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: InstantiateMixedRealityBackgroundCameraGameObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (GlobalNamespace::ExternalCamerasManager::*)(UnityEngine::GameObject*)>(&GlobalNamespace::ExternalCamerasManager::InstantiateMixedRealityBackgroundCameraGameObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mainCameraGameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExternalCamerasManager*), "InstantiateMixedRealityBackgroundCameraGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mainCameraGameObject});
   }
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: InstantiateMixedRealityForegroundCameraGameObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (GlobalNamespace::ExternalCamerasManager::*)(UnityEngine::GameObject*)>(&GlobalNamespace::ExternalCamerasManager::InstantiateMixedRealityForegroundCameraGameObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mainCameraGameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExternalCamerasManager*), "InstantiateMixedRealityForegroundCameraGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mainCameraGameObject});
   }

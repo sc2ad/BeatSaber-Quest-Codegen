@@ -73,7 +73,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::Binar
 // Il2CppName: GetAssembly
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo::*)()>(&System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo::GetAssembly)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo*), "GetAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

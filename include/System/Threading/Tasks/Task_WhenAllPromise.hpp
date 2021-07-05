@@ -69,7 +69,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::WhenAllPromise*, "System.
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::WhenAllPromise::*)(System::Threading::Tasks::Task*)>(&System::Threading::Tasks::Task::WhenAllPromise::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* completedTask = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task::WhenAllPromise*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{completedTask});
   }
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_ShouldNotifyDebuggerOfWaitCompletion
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::WhenAllPromise::*)()>(&System::Threading::Tasks::Task::WhenAllPromise::get_ShouldNotifyDebuggerOfWaitCompletion)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task::WhenAllPromise*), "get_ShouldNotifyDebuggerOfWaitCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -109,7 +109,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlurredCoverImageView*, "", "BlurredCove
 // Il2CppName: OnDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BlurredCoverImageView::*)()>(&GlobalNamespace::BlurredCoverImageView::OnDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlurredCoverImageView*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetTextureAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BlurredCoverImageView::*)(GlobalNamespace::IPreviewBeatmapLevel*)>(&GlobalNamespace::BlurredCoverImageView::SetTextureAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* level = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlurredCoverImageView*), "SetTextureAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{level});
   }

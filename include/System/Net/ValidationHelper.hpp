@@ -48,7 +48,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::ValidationHelper*, "System.Net", "Validation
 // Il2CppName: MakeStringNull
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Net::ValidationHelper::MakeStringNull)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stringValue = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::ValidationHelper*), "MakeStringNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stringValue});
   }
@@ -57,7 +57,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: IsBlankString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&System::Net::ValidationHelper::IsBlankString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stringValue = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::ValidationHelper*), "IsBlankString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stringValue});
   }
@@ -66,7 +66,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: ValidateTcpPort
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&System::Net::ValidationHelper::ValidateTcpPort)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* port = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::ValidationHelper*), "ValidateTcpPort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{port});
   }
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Net::ValidationHelper::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::ValidationHelper*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

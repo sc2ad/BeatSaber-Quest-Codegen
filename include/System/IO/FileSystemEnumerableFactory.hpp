@@ -40,7 +40,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::IO::FileSystemEnumerableFactory*, "System.IO", "F
 // Il2CppName: CreateFileNameIterator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppString*>* (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, bool, bool, System::IO::SearchOption, bool)>(&System::IO::FileSystemEnumerableFactory::CreateFileNameIterator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* originalUserPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* searchPattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

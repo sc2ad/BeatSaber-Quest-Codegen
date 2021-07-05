@@ -81,7 +81,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandlerAudioClip*, "Unit
 // Il2CppName: Create
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::Networking::DownloadHandlerAudioClip*, ::Il2CppString*, UnityEngine::AudioType)>(&UnityEngine::Networking::DownloadHandlerAudioClip::Create)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine.Networking", "DownloadHandlerAudioClip")->byval_arg;
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* audioType = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioType")->byval_arg;
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: InternalCreateAudioClip
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::DownloadHandlerAudioClip::*)(::Il2CppString*, UnityEngine::AudioType)>(&UnityEngine::Networking::DownloadHandlerAudioClip::InternalCreateAudioClip)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* audioType = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerAudioClip*), "InternalCreateAudioClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{url, audioType});
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: get_audioClip
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioClip* (UnityEngine::Networking::DownloadHandlerAudioClip::*)()>(&UnityEngine::Networking::DownloadHandlerAudioClip::get_audioClip)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerAudioClip*), "get_audioClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -114,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_streamAudio
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::DownloadHandlerAudioClip::*)(bool)>(&UnityEngine::Networking::DownloadHandlerAudioClip::set_streamAudio)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerAudioClip*), "set_streamAudio", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Il2CppName: GetContent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioClip* (*)(UnityEngine::Networking::UnityWebRequest*)>(&UnityEngine::Networking::DownloadHandlerAudioClip::GetContent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* www = &::il2cpp_utils::GetClassFromName("UnityEngine.Networking", "UnityWebRequest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerAudioClip*), "GetContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{www});
   }
@@ -132,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (UnityEngine::Networking::DownloadHandlerAudioClip::*)()>(&UnityEngine::Networking::DownloadHandlerAudioClip::GetData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerAudioClip*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: GetText
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::Networking::DownloadHandlerAudioClip::*)()>(&UnityEngine::Networking::DownloadHandlerAudioClip::GetText)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerAudioClip*), "GetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

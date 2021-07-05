@@ -67,7 +67,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::SubEmittersModule, "UnityEng
 // Il2CppName: get_subEmittersCount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ParticleSystem::SubEmittersModule::*)()>(&UnityEngine::ParticleSystem::SubEmittersModule::get_subEmittersCount)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::SubEmittersModule), "get_subEmittersCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -75,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Il2CppName: GetSubEmitterSystem
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ParticleSystem* (UnityEngine::ParticleSystem::SubEmittersModule::*)(int)>(&UnityEngine::ParticleSystem::SubEmittersModule::GetSubEmitterSystem)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::SubEmittersModule), "GetSubEmitterSystem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
   }
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_subEmittersCount_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::ParticleSystem::SubEmittersModule&)>(&UnityEngine::ParticleSystem::SubEmittersModule::get_subEmittersCount_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* _unity_self = &::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem/SubEmittersModule")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::SubEmittersModule), "get_subEmittersCount_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_unity_self});
   }
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 // Il2CppName: GetSubEmitterSystem_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ParticleSystem* (*)(UnityEngine::ParticleSystem::SubEmittersModule&, int)>(&UnityEngine::ParticleSystem::SubEmittersModule::GetSubEmitterSystem_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* _unity_self = &::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem/SubEmittersModule")->this_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::SubEmittersModule), "GetSubEmitterSystem_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_unity_self, index});

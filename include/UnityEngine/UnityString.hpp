@@ -36,7 +36,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityString*, "UnityEngine", "UnityString");
 // Il2CppName: Format
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&UnityEngine::UnityString::Format)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* fmt = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UnityString*), "Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fmt, args});

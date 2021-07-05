@@ -74,7 +74,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_t_Packed, "OVR.OpenVR", "VREvent_t_P
 // Il2CppName: Unpack
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::VREvent_t_Packed::*)(OVR::OpenVR::VREvent_t&)>(&OVR::OpenVR::VREvent_t_Packed::Unpack)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* unpacked = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VREvent_t")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::VREvent_t_Packed), "Unpack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unpacked});
   }

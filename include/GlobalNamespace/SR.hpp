@@ -30,7 +30,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SR*, "", "SR");
 // Il2CppName: Format
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppObject*)>(&GlobalNamespace::SR::Format)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resourceFormat = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* p1 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SR*), "Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resourceFormat, p1});
@@ -40,7 +40,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: Format
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*)>(&GlobalNamespace::SR::Format)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resourceFormat = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* p1 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* p2 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

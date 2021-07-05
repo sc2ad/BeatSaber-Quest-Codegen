@@ -94,7 +94,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::RemotingSurrogateSe
 // Il2CppName: GetSurrogate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::ISerializationSurrogate* (System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::*)(System::Type*, System::Runtime::Serialization::StreamingContext, System::Runtime::Serialization::ISurrogateSelector*&)>(&System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::GetSurrogate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
     static auto* ssout = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "ISurrogateSelector")->this_arg;
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::RemotingSurrogateSelector*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

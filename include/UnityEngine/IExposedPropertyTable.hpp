@@ -35,7 +35,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::IExposedPropertyTable*, "UnityEngine", "IExp
 // Il2CppName: GetReferenceValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (UnityEngine::IExposedPropertyTable::*)(UnityEngine::PropertyName, bool&)>(&UnityEngine::IExposedPropertyTable::GetReferenceValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("UnityEngine", "PropertyName")->byval_arg;
     static auto* idValid = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::IExposedPropertyTable*), "GetReferenceValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id, idValid});

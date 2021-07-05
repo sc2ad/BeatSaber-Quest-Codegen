@@ -133,7 +133,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADMessageBase*, "S
 // Il2CppName: GetMethod
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (System::Runtime::Remoting::Messaging::CADMessageBase::*)()>(&System::Runtime::Remoting::Messaging::CADMessageBase::GetMethod)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMessageBase*), "GetMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Il2CppName: GetSignature
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (*)(System::Reflection::MethodBase*, bool)>(&System::Runtime::Remoting::Messaging::CADMessageBase::GetSignature)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* methodBase = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase")->byval_arg;
     static auto* load = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMessageBase*), "GetSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{methodBase, load});
@@ -151,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Sys
 // Il2CppName: MarshalProperties
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Collections::IDictionary*, System::Collections::ArrayList*&)>(&System::Runtime::Remoting::Messaging::CADMessageBase::MarshalProperties)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* dict = &::il2cpp_utils::GetClassFromName("System.Collections", "IDictionary")->byval_arg;
     static auto* args = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMessageBase*), "MarshalProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dict, args});
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: UnmarshalProperties
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::IDictionary*, int, System::Collections::ArrayList*)>(&System::Runtime::Remoting::Messaging::CADMessageBase::UnmarshalProperties)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* dict = &::il2cpp_utils::GetClassFromName("System.Collections", "IDictionary")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* args = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->byval_arg;
@@ -172,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: IsPossibleToIgnoreMarshal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*)>(&System::Runtime::Remoting::Messaging::CADMessageBase::IsPossibleToIgnoreMarshal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMessageBase*), "IsPossibleToIgnoreMarshal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
@@ -181,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: MarshalArgument
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Remoting::Messaging::CADMessageBase::*)(::Il2CppObject*, System::Collections::ArrayList*&)>(&System::Runtime::Remoting::Messaging::CADMessageBase::MarshalArgument)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* arg = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* args = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMessageBase*), "MarshalArgument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{arg, args});
@@ -191,7 +191,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: UnmarshalArgument
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Remoting::Messaging::CADMessageBase::*)(::Il2CppObject*, System::Collections::ArrayList*)>(&System::Runtime::Remoting::Messaging::CADMessageBase::UnmarshalArgument)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* arg = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* args = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMessageBase*), "UnmarshalArgument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{arg, args});
@@ -201,7 +201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: MarshalArguments
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Runtime::Remoting::Messaging::CADMessageBase::*)(::Array<::Il2CppObject*>*, System::Collections::ArrayList*&)>(&System::Runtime::Remoting::Messaging::CADMessageBase::MarshalArguments)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* arguments = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     static auto* args = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMessageBase*), "MarshalArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{arguments, args});
@@ -211,7 +211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: UnmarshalArguments
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Runtime::Remoting::Messaging::CADMessageBase::*)(::Array<::Il2CppObject*>*, System::Collections::ArrayList*)>(&System::Runtime::Remoting::Messaging::CADMessageBase::UnmarshalArguments)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* arguments = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     static auto* args = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMessageBase*), "UnmarshalArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{arguments, args});
@@ -221,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 // Il2CppName: SaveLogicalCallContext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::CADMessageBase::*)(System::Runtime::Remoting::Messaging::IMethodMessage*, System::Collections::ArrayList*&)>(&System::Runtime::Remoting::Messaging::CADMessageBase::SaveLogicalCallContext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* msg = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "IMethodMessage")->byval_arg;
     static auto* serializeList = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMessageBase*), "SaveLogicalCallContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{msg, serializeList});
@@ -231,7 +231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: GetLogicalCallContext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::LogicalCallContext* (System::Runtime::Remoting::Messaging::CADMessageBase::*)(System::Collections::ArrayList*)>(&System::Runtime::Remoting::Messaging::CADMessageBase::GetLogicalCallContext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* args = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMessageBase*), "GetLogicalCallContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});
   }

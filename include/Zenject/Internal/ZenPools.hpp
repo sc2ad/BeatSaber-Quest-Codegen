@@ -195,7 +195,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ZenPools*, "Zenject.Internal", "ZenPoo
 // Il2CppName: SpawnStatement
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindStatement* (*)()>(&Zenject::Internal::ZenPools::SpawnStatement)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "SpawnStatement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -203,7 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Bi
 // Il2CppName: DespawnStatement
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::BindStatement*)>(&Zenject::Internal::ZenPools::DespawnStatement)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* statement = &::il2cpp_utils::GetClassFromName("Zenject", "BindStatement")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "DespawnStatement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{statement});
   }
@@ -212,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ze
 // Il2CppName: SpawnBindInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::BindInfo* (*)()>(&Zenject::Internal::ZenPools::SpawnBindInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "SpawnBindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -220,7 +220,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Bi
 // Il2CppName: DespawnBindInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::BindInfo*)>(&Zenject::Internal::ZenPools::DespawnBindInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bindInfo = &::il2cpp_utils::GetClassFromName("Zenject", "BindInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "DespawnBindInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindInfo});
   }
@@ -235,7 +235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ze
 // Il2CppName: SpawnLookupId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Internal::LookupId* (*)(Zenject::IProvider*, Zenject::BindingId)>(&Zenject::Internal::ZenPools::SpawnLookupId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("Zenject", "IProvider")->byval_arg;
     static auto* bindingId = &::il2cpp_utils::GetClassFromName("Zenject", "BindingId")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "SpawnLookupId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider, bindingId});
@@ -245,7 +245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::In
 // Il2CppName: DespawnLookupId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::Internal::LookupId*)>(&Zenject::Internal::ZenPools::DespawnLookupId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lookupId = &::il2cpp_utils::GetClassFromName("Zenject.Internal", "LookupId")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "DespawnLookupId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lookupId});
   }
@@ -266,7 +266,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ze
 // Il2CppName: SpawnInjectContext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectContext* (*)(Zenject::DiContainer*, System::Type*)>(&Zenject::Internal::ZenPools::SpawnInjectContext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* container = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
     static auto* memberType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "SpawnInjectContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container, memberType});
@@ -276,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::In
 // Il2CppName: DespawnInjectContext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::InjectContext*)>(&Zenject::Internal::ZenPools::DespawnInjectContext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), "DespawnInjectContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }
@@ -285,7 +285,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ze
 // Il2CppName: SpawnInjectContext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectContext* (*)(Zenject::DiContainer*, Zenject::InjectableInfo*, Zenject::InjectContext*, ::Il2CppObject*, System::Type*, ::Il2CppObject*)>(&Zenject::Internal::ZenPools::SpawnInjectContext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* container = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
     static auto* injectableInfo = &::il2cpp_utils::GetClassFromName("Zenject", "InjectableInfo")->byval_arg;
     static auto* currentContext = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
@@ -299,7 +299,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::In
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Zenject::Internal::ZenPools::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenPools*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

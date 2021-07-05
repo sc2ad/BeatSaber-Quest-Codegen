@@ -58,7 +58,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDifficultyMaskExtensions*, "", "B
 // Il2CppName: ToMask
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapDifficultyMask (*)(GlobalNamespace::BeatmapDifficulty)>(&GlobalNamespace::BeatmapDifficultyMaskExtensions::ToMask)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* difficulty = &::il2cpp_utils::GetClassFromName("", "BeatmapDifficulty")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDifficultyMaskExtensions*), "ToMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{difficulty});
   }
@@ -67,7 +67,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: FromMask
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapDifficulty (*)(GlobalNamespace::BeatmapDifficultyMask)>(&GlobalNamespace::BeatmapDifficultyMaskExtensions::FromMask)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mask = &::il2cpp_utils::GetClassFromName("", "BeatmapDifficultyMask")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDifficultyMaskExtensions*), "FromMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mask});
   }
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: LocalizedKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::BeatmapDifficultyMask)>(&GlobalNamespace::BeatmapDifficultyMaskExtensions::LocalizedKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mask = &::il2cpp_utils::GetClassFromName("", "BeatmapDifficultyMask")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDifficultyMaskExtensions*), "LocalizedKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mask});
   }
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: ShortLocalizedKey
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::BeatmapDifficultyMask)>(&GlobalNamespace::BeatmapDifficultyMaskExtensions::ShortLocalizedKey)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mask = &::il2cpp_utils::GetClassFromName("", "BeatmapDifficultyMask")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDifficultyMaskExtensions*), "ShortLocalizedKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mask});
   }
@@ -94,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: Contains
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::BeatmapDifficultyMask, GlobalNamespace::BeatmapDifficulty)>(&GlobalNamespace::BeatmapDifficultyMaskExtensions::Contains)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mask = &::il2cpp_utils::GetClassFromName("", "BeatmapDifficultyMask")->byval_arg;
     static auto* difficulty = &::il2cpp_utils::GetClassFromName("", "BeatmapDifficulty")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDifficultyMaskExtensions*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mask, difficulty});
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Il2CppName: Contains
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::BeatmapDifficultyMask, GlobalNamespace::BeatmapDifficultyMask)>(&GlobalNamespace::BeatmapDifficultyMaskExtensions::Contains)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mask = &::il2cpp_utils::GetClassFromName("", "BeatmapDifficultyMask")->byval_arg;
     static auto* other = &::il2cpp_utils::GetClassFromName("", "BeatmapDifficultyMask")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDifficultyMaskExtensions*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mask, other});
@@ -114,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Il2CppName: DifferenceFrom
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(GlobalNamespace::BeatmapDifficultyMask, GlobalNamespace::BeatmapDifficultyMask)>(&GlobalNamespace::BeatmapDifficultyMaskExtensions::DifferenceFrom)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mask = &::il2cpp_utils::GetClassFromName("", "BeatmapDifficultyMask")->byval_arg;
     static auto* other = &::il2cpp_utils::GetClassFromName("", "BeatmapDifficultyMask")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDifficultyMaskExtensions*), "DifferenceFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mask, other});
@@ -124,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Glo
 // Il2CppName: ToHexString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(GlobalNamespace::BeatmapDifficultyMask)>(&GlobalNamespace::BeatmapDifficultyMaskExtensions::ToHexString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mask = &::il2cpp_utils::GetClassFromName("", "BeatmapDifficultyMask")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDifficultyMaskExtensions*), "ToHexString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mask});
   }

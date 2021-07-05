@@ -366,7 +366,7 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::FlowCoordinator*, "HMUI", "FlowCoordinator");
 // Il2CppName: get_topViewController
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewController* (HMUI::FlowCoordinator::*)()>(&HMUI::FlowCoordinator::get_topViewController)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator*), "get_topViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -374,7 +374,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewC
 // Il2CppName: get_childFlowCoordinator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::FlowCoordinator* (HMUI::FlowCoordinator::*)()>(&HMUI::FlowCoordinator::get_childFlowCoordinator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator*), "get_childFlowCoordinator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -382,7 +382,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::FlowC
 // Il2CppName: get_isActivated
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI::FlowCoordinator::*)()>(&HMUI::FlowCoordinator::get_isActivated)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator*), "get_isActivated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -390,7 +390,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI:
 // Il2CppName: get_title
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (HMUI::FlowCoordinator::*)()>(&HMUI::FlowCoordinator::get_title)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator*), "get_title", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -398,7 +398,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: SetTitle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(::Il2CppString*, HMUI::ViewController::AnimationType)>(&HMUI::FlowCoordinator::SetTitle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* animationType = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController/AnimationType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator*), "SetTitle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, animationType});
@@ -408,7 +408,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: set_showBackButton
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(bool)>(&HMUI::FlowCoordinator::set_showBackButton)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator*), "set_showBackButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -417,7 +417,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: get_showBackButton
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI::FlowCoordinator::*)()>(&HMUI::FlowCoordinator::get_showBackButton)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator*), "get_showBackButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -425,7 +425,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI:
 // Il2CppName: __StartOnScreenSystem
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(HMUI::ScreenSystem*)>(&HMUI::FlowCoordinator::__StartOnScreenSystem)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* screenSystem = &::il2cpp_utils::GetClassFromName("HMUI", "ScreenSystem")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator*), "__StartOnScreenSystem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{screenSystem});
   }
@@ -434,7 +434,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: PresentFlowCoordinator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(HMUI::FlowCoordinator*, System::Action*, HMUI::ViewController::AnimationDirection, bool, bool)>(&HMUI::FlowCoordinator::PresentFlowCoordinator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* flowCoordinator = &::il2cpp_utils::GetClassFromName("HMUI", "FlowCoordinator")->byval_arg;
     static auto* finishedCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     static auto* animationDirection = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController/AnimationDirection")->byval_arg;
@@ -447,7 +447,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: DismissFlowCoordinator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(HMUI::FlowCoordinator*, HMUI::ViewController::AnimationDirection, System::Action*, bool)>(&HMUI::FlowCoordinator::DismissFlowCoordinator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* flowCoordinator = &::il2cpp_utils::GetClassFromName("HMUI", "FlowCoordinator")->byval_arg;
     static auto* animationDirection = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController/AnimationDirection")->byval_arg;
     static auto* finishedCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
@@ -459,7 +459,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: ReplaceChildFlowCoordinator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(HMUI::FlowCoordinator*, System::Action*, HMUI::ViewController::AnimationDirection, bool)>(&HMUI::FlowCoordinator::ReplaceChildFlowCoordinator)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* flowCoordinator = &::il2cpp_utils::GetClassFromName("HMUI", "FlowCoordinator")->byval_arg;
     static auto* finishedCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     static auto* animationDirection = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController/AnimationDirection")->byval_arg;
@@ -471,7 +471,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: PresentViewController
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(HMUI::ViewController*, System::Action*, HMUI::ViewController::AnimationDirection, bool)>(&HMUI::FlowCoordinator::PresentViewController)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* viewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     static auto* finishedCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     static auto* animationDirection = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController/AnimationDirection")->byval_arg;
@@ -483,7 +483,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: DismissViewController
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(HMUI::ViewController*, HMUI::ViewController::AnimationDirection, System::Action*, bool)>(&HMUI::FlowCoordinator::DismissViewController)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* viewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     static auto* animationDirection = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController/AnimationDirection")->byval_arg;
     static auto* finishedCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
@@ -495,7 +495,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: ReplaceTopViewController
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(HMUI::ViewController*, System::Action*, HMUI::ViewController::AnimationType, HMUI::ViewController::AnimationDirection)>(&HMUI::FlowCoordinator::ReplaceTopViewController)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* viewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     static auto* finishedCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     static auto* animationType = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController/AnimationType")->byval_arg;
@@ -507,7 +507,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: ReplaceTopViewController
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(HMUI::ViewController*, HMUI::FlowCoordinator*, HMUI::FlowCoordinator*, System::Action*, HMUI::ViewController::AnimationType, HMUI::ViewController::AnimationDirection)>(&HMUI::FlowCoordinator::ReplaceTopViewController)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* viewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     static auto* originalOwnerFlowCoordinator = &::il2cpp_utils::GetClassFromName("HMUI", "FlowCoordinator")->byval_arg;
     static auto* newOwnerFlowCoordinator = &::il2cpp_utils::GetClassFromName("HMUI", "FlowCoordinator")->byval_arg;
@@ -521,7 +521,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: PushViewControllerToNavigationController
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(HMUI::NavigationController*, HMUI::ViewController*, System::Action*, bool)>(&HMUI::FlowCoordinator::PushViewControllerToNavigationController)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* navigationController = &::il2cpp_utils::GetClassFromName("HMUI", "NavigationController")->byval_arg;
     static auto* viewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     static auto* finishedCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
@@ -533,7 +533,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: SetViewControllersToNavigationController
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(HMUI::NavigationController*, ::Array<HMUI::ViewController*>*)>(&HMUI::FlowCoordinator::SetViewControllersToNavigationController)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* navigationController = &::il2cpp_utils::GetClassFromName("HMUI", "NavigationController")->byval_arg;
     static auto* viewControllers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HMUI", "ViewController"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator*), "SetViewControllersToNavigationController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{navigationController, viewControllers});
@@ -543,7 +543,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: SetViewControllerToNavigationController
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(HMUI::NavigationController*, HMUI::ViewController*)>(&HMUI::FlowCoordinator::SetViewControllerToNavigationController)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* navigationController = &::il2cpp_utils::GetClassFromName("HMUI", "NavigationController")->byval_arg;
     static auto* viewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator*), "SetViewControllerToNavigationController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{navigationController, viewController});
@@ -553,7 +553,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: PopViewControllerFromNavigationController
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(HMUI::NavigationController*, System::Action*, bool)>(&HMUI::FlowCoordinator::PopViewControllerFromNavigationController)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* navigationController = &::il2cpp_utils::GetClassFromName("HMUI", "NavigationController")->byval_arg;
     static auto* finishedCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     static auto* immediately = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -564,7 +564,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: PopViewControllersFromNavigationController
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(HMUI::NavigationController*, int, System::Action*, bool)>(&HMUI::FlowCoordinator::PopViewControllersFromNavigationController)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* navigationController = &::il2cpp_utils::GetClassFromName("HMUI", "NavigationController")->byval_arg;
     static auto* numberOfControllers = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* finishedCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
@@ -576,7 +576,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: SetLeftScreenViewController
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(HMUI::ViewController*, HMUI::ViewController::AnimationType)>(&HMUI::FlowCoordinator::SetLeftScreenViewController)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* viewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     static auto* animationType = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController/AnimationType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator*), "SetLeftScreenViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{viewController, animationType});
@@ -586,7 +586,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: SetRightScreenViewController
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(HMUI::ViewController*, HMUI::ViewController::AnimationType)>(&HMUI::FlowCoordinator::SetRightScreenViewController)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* viewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     static auto* animationType = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController/AnimationType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator*), "SetRightScreenViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{viewController, animationType});
@@ -596,7 +596,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: SetBottomScreenViewController
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(HMUI::ViewController*, HMUI::ViewController::AnimationType)>(&HMUI::FlowCoordinator::SetBottomScreenViewController)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* viewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     static auto* animationType = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController/AnimationType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator*), "SetBottomScreenViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{viewController, animationType});
@@ -606,7 +606,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: SetTopScreenViewController
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(HMUI::ViewController*, HMUI::ViewController::AnimationType)>(&HMUI::FlowCoordinator::SetTopScreenViewController)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* viewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     static auto* animationType = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController/AnimationType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator*), "SetTopScreenViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{viewController, animationType});
@@ -616,7 +616,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: PresentTitle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(::Il2CppString*, HMUI::ViewController::AnimationType)>(&HMUI::FlowCoordinator::PresentTitle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* title = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* animationType = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController/AnimationType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator*), "PresentTitle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{title, animationType});
@@ -626,7 +626,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: IsFlowCoordinatorInHierarchy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI::FlowCoordinator::*)(HMUI::FlowCoordinator*)>(&HMUI::FlowCoordinator::IsFlowCoordinatorInHierarchy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* flowCoordinator = &::il2cpp_utils::GetClassFromName("HMUI", "FlowCoordinator")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator*), "IsFlowCoordinatorInHierarchy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flowCoordinator});
   }
@@ -635,7 +635,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI:
 // Il2CppName: YoungestChildFlowCoordinatorOrSelf
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::FlowCoordinator* (HMUI::FlowCoordinator::*)()>(&HMUI::FlowCoordinator::YoungestChildFlowCoordinatorOrSelf)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator*), "YoungestChildFlowCoordinatorOrSelf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -643,7 +643,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::FlowC
 // Il2CppName: ProvideInitialViewControllers
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(HMUI::ViewController*, HMUI::ViewController*, HMUI::ViewController*, HMUI::ViewController*, HMUI::ViewController*)>(&HMUI::FlowCoordinator::ProvideInitialViewControllers)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mainViewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     static auto* leftScreenViewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     static auto* rightScreenViewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
@@ -656,7 +656,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: Activate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(bool, bool, bool)>(&HMUI::FlowCoordinator::Activate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* firstActivation = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* addedToHierarchy = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* screenSystemEnabling = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -667,7 +667,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: Deactivate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(bool, bool)>(&HMUI::FlowCoordinator::Deactivate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* removedFromHierarchy = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* screenSystemDisabling = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator*), "Deactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{removedFromHierarchy, screenSystemDisabling});
@@ -677,7 +677,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: __ExternalActivate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)()>(&HMUI::FlowCoordinator::__ExternalActivate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator*), "__ExternalActivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -685,7 +685,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: __ExternalDeactivate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)()>(&HMUI::FlowCoordinator::__ExternalDeactivate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator*), "__ExternalDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -693,7 +693,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: HandleScreenSystemBackButtonWasPressed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)()>(&HMUI::FlowCoordinator::HandleScreenSystemBackButtonWasPressed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator*), "HandleScreenSystemBackButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -701,7 +701,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: SetGlobalUserInteraction
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(bool)>(&HMUI::FlowCoordinator::SetGlobalUserInteraction)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator*), "SetGlobalUserInteraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -710,7 +710,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: DidActivate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(bool, bool, bool)>(&HMUI::FlowCoordinator::DidActivate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* firstActivation = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* addedToHierarchy = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* screenSystemEnabling = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -721,7 +721,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: DidDeactivate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(bool, bool)>(&HMUI::FlowCoordinator::DidDeactivate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* removedFromHierarchy = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* screenSystemDisabling = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator*), "DidDeactivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{removedFromHierarchy, screenSystemDisabling});
@@ -731,7 +731,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: TransitionDidStart
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)()>(&HMUI::FlowCoordinator::TransitionDidStart)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator*), "TransitionDidStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -739,7 +739,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: TransitionDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)()>(&HMUI::FlowCoordinator::TransitionDidFinish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator*), "TransitionDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -747,7 +747,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: TopViewControllerWillChange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(HMUI::ViewController*, HMUI::ViewController*, HMUI::ViewController::AnimationType)>(&HMUI::FlowCoordinator::TopViewControllerWillChange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* oldViewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     static auto* newViewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     static auto* animationType = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController/AnimationType")->byval_arg;
@@ -758,7 +758,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: InitialViewControllerWasPresented
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)()>(&HMUI::FlowCoordinator::InitialViewControllerWasPresented)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator*), "InitialViewControllerWasPresented", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -766,7 +766,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: BackButtonWasPressed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(HMUI::ViewController*)>(&HMUI::FlowCoordinator::BackButtonWasPressed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* topViewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator*), "BackButtonWasPressed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{topViewController});
   }
@@ -775,7 +775,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Il2CppName: Log
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&HMUI::FlowCoordinator::Log)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
   }

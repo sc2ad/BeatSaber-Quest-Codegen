@@ -70,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetHiddenAreaMesh*, "Valve.VR", "I
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::HiddenAreaMesh_t (Valve::VR::IVRSystem::_GetHiddenAreaMesh::*)(Valve::VR::EVREye, Valve::VR::EHiddenAreaMeshType)>(&Valve::VR::IVRSystem::_GetHiddenAreaMesh::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eEye = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVREye")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("Valve.VR", "EHiddenAreaMeshType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetHiddenAreaMesh*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eEye, type});
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRSystem::_GetHiddenAreaMesh::*)(Valve::VR::EVREye, Valve::VR::EHiddenAreaMeshType, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRSystem::_GetHiddenAreaMesh::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eEye = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVREye")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("Valve.VR", "EHiddenAreaMeshType")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::HiddenAreaMesh_t (Valve::VR::IVRSystem::_GetHiddenAreaMesh::*)(System::IAsyncResult*)>(&Valve::VR::IVRSystem::_GetHiddenAreaMesh::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetHiddenAreaMesh*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

@@ -87,7 +87,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::HSVColor*, "UnityEngine.ProBuild
 // Il2CppName: FromRGB
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::HSVColor* (*)(UnityEngine::Color)>(&UnityEngine::ProBuilder::HSVColor::FromRGB)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* col = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::HSVColor*), "FromRGB", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{col});
   }
@@ -96,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: SqrDistance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ProBuilder::HSVColor::*)(UnityEngine::ProBuilder::HSVColor*)>(&UnityEngine::ProBuilder::HSVColor::SqrDistance)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* InColor = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "HSVColor")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::HSVColor*), "SqrDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{InColor});
   }
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Il2CppName: ToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::ProBuilder::HSVColor::*)()>(&UnityEngine::ProBuilder::HSVColor::ToString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::HSVColor*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -93,7 +93,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4AchievementIdsModelSO*, "", "PS4Achie
 // Il2CppName: get_achievementsIds
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData*>* (GlobalNamespace::PS4AchievementIdsModelSO::*)()>(&GlobalNamespace::PS4AchievementIdsModelSO::get_achievementsIds)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4AchievementIdsModelSO*), "get_achievementsIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: GetTrophyId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PS4AchievementIdsModelSO::*)(::Il2CppString*, int&)>(&GlobalNamespace::PS4AchievementIdsModelSO::GetTrophyId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* achievementId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* trophyId = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4AchievementIdsModelSO*), "GetTrophyId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{achievementId, trophyId});
@@ -111,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: GetAchievementId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PS4AchievementIdsModelSO::*)(int, ::Il2CppString*&)>(&GlobalNamespace::PS4AchievementIdsModelSO::GetAchievementId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* trophyId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* achievementId = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4AchievementIdsModelSO*), "GetAchievementId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{trophyId, achievementId});
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: OnEnable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PS4AchievementIdsModelSO::*)()>(&GlobalNamespace::PS4AchievementIdsModelSO::OnEnable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4AchievementIdsModelSO*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -54,7 +54,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RangeInt, "UnityEngine", "RangeInt");
 // Il2CppName: get_end
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::RangeInt::*)()>(&UnityEngine::RangeInt::get_end)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RangeInt), "get_end", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

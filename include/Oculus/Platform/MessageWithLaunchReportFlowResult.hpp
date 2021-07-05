@@ -52,7 +52,7 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithLaunchReportFlowResult*, "Oc
 // Il2CppName: GetDataFromMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LaunchReportFlowResult* (Oculus::Platform::MessageWithLaunchReportFlowResult::*)(System::IntPtr)>(&Oculus::Platform::MessageWithLaunchReportFlowResult::GetDataFromMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c_message = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithLaunchReportFlowResult*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c_message});
   }
@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: GetLaunchReportFlowResult
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LaunchReportFlowResult* (Oculus::Platform::MessageWithLaunchReportFlowResult::*)()>(&Oculus::Platform::MessageWithLaunchReportFlowResult::GetLaunchReportFlowResult)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithLaunchReportFlowResult*), "GetLaunchReportFlowResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

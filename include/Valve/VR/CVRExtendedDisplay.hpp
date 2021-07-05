@@ -70,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRExtendedDisplay*, "Valve.VR", "CVRExtendedD
 // Il2CppName: GetWindowBounds
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRExtendedDisplay::*)(int&, int&, uint&, uint&)>(&Valve::VR::CVRExtendedDisplay::GetWindowBounds)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pnX = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* pnY = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* pnWidth = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Il2CppName: GetEyeOutputViewport
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRExtendedDisplay::*)(Valve::VR::EVREye, uint&, uint&, uint&, uint&)>(&Valve::VR::CVRExtendedDisplay::GetEyeOutputViewport)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* eEye = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVREye")->byval_arg;
     static auto* pnX = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
     static auto* pnY = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
@@ -95,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Il2CppName: GetDXGIOutputInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRExtendedDisplay::*)(int&, int&)>(&Valve::VR::CVRExtendedDisplay::GetDXGIOutputInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pnAdapterIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* pnAdapterOutputIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRExtendedDisplay*), "GetDXGIOutputInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pnAdapterIndex, pnAdapterOutputIndex});

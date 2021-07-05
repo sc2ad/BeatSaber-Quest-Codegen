@@ -109,7 +109,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneContext::$$c*, "Zenject", "SceneContext/<>c
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Zenject::SceneContext::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::SceneContext::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <GetParentContainers>b__49_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* (Zenject::SceneContext::$$c::*)(UnityEngine::SceneManagement::Scene)>(&Zenject::SceneContext::$$c::$GetParentContainers$b__49_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* scene = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "Scene")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SceneContext::$$c*), "<GetParentContainers>b__49_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scene});
   }
@@ -126,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: <GetParentContainers>b__49_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::SceneContext*>* (Zenject::SceneContext::$$c::*)(UnityEngine::GameObject*)>(&Zenject::SceneContext::$$c::$GetParentContainers$b__49_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* root = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SceneContext::$$c*), "<GetParentContainers>b__49_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{root});
   }
@@ -135,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: <GetParentContainers>b__49_3
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::DiContainer* (Zenject::SceneContext::$$c::*)(Zenject::SceneContext*)>(&Zenject::SceneContext::$$c::$GetParentContainers$b__49_3)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("Zenject", "SceneContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SceneContext::$$c*), "<GetParentContainers>b__49_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Di
 // Il2CppName: <LookupDecoratorContexts>b__50_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::GameObject*>* (Zenject::SceneContext::$$c::*)(UnityEngine::SceneManagement::Scene)>(&Zenject::SceneContext::$$c::$LookupDecoratorContexts$b__50_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* scene = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "Scene")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SceneContext::$$c*), "<LookupDecoratorContexts>b__50_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scene});
   }
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: <LookupDecoratorContexts>b__50_1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<Zenject::SceneDecoratorContext*>* (Zenject::SceneContext::$$c::*)(UnityEngine::GameObject*)>(&Zenject::SceneContext::$$c::$LookupDecoratorContexts$b__50_1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* root = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::SceneContext::$$c*), "<LookupDecoratorContexts>b__50_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{root});
   }

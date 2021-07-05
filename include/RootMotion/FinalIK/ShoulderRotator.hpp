@@ -98,7 +98,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::ShoulderRotator*, "RootMotion.FinalI
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::ShoulderRotator::*)()>(&RootMotion::FinalIK::ShoulderRotator::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::ShoulderRotator*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -106,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: RotateShoulders
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::ShoulderRotator::*)()>(&RootMotion::FinalIK::ShoulderRotator::RotateShoulders)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::ShoulderRotator*), "RotateShoulders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -114,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: RotateShoulder
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::ShoulderRotator::*)(RootMotion::FinalIK::FullBodyBipedChain, float, float)>(&RootMotion::FinalIK::ShoulderRotator::RotateShoulder)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* chain = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FullBodyBipedChain")->byval_arg;
     static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: GetParentBoneMap
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKMapping::BoneMap* (RootMotion::FinalIK::ShoulderRotator::*)(RootMotion::FinalIK::FullBodyBipedChain)>(&RootMotion::FinalIK::ShoulderRotator::GetParentBoneMap)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* chain = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FullBodyBipedChain")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::ShoulderRotator*), "GetParentBoneMap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{chain});
   }
@@ -134,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion:
 // Il2CppName: OnDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::ShoulderRotator::*)()>(&RootMotion::FinalIK::ShoulderRotator::OnDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::ShoulderRotator*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

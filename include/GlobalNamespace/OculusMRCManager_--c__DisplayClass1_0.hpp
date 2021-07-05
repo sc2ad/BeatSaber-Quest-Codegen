@@ -74,7 +74,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusMRCManager::$$c__DisplayClass1_0*,
 // Il2CppName: <Init>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (GlobalNamespace::OculusMRCManager::$$c__DisplayClass1_0::*)(UnityEngine::GameObject*, GlobalNamespace::OVRManager_MrcCameraType)>(&GlobalNamespace::OculusMRCManager::$$c__DisplayClass1_0::$Init$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* mainCameraGameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* cameraType = &::il2cpp_utils::GetClassFromName("", "OVRManager/MrcCameraType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusMRCManager::$$c__DisplayClass1_0*), "<Init>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mainCameraGameObject, cameraType});

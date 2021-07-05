@@ -120,7 +120,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectUtil*, "Zenject", "InjectUtil");
 // Il2CppName: CreateArgList
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<Zenject::TypeValuePair>* (*)(System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*)>(&Zenject::InjectUtil::CreateArgList)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* args = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::InjectUtil*), "CreateArgList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});
   }
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: PopValueWithType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Collections::Generic::List_1<Zenject::TypeValuePair>*, System::Type*, ::Il2CppObject*&)>(&Zenject::InjectUtil::PopValueWithType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* extraArgMap = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "TypeValuePair")})->byval_arg;
     static auto* injectedFieldType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->this_arg;

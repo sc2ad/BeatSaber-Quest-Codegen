@@ -137,7 +137,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::PenetrationAvoidance::Avoider*, "Roo
 // Il2CppName: Solve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::PenetrationAvoidance::Avoider::*)(RootMotion::FinalIK::IKSolverFullBodyBiped*, float)>(&RootMotion::FinalIK::PenetrationAvoidance::Avoider::Solve)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBodyBiped")->byval_arg;
     static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::PenetrationAvoidance::Avoider*), "Solve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solver, weight});
@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: GetOffsetTarget
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::PenetrationAvoidance::Avoider::*)(RootMotion::FinalIK::IKSolverFullBodyBiped*)>(&RootMotion::FinalIK::PenetrationAvoidance::Avoider::GetOffsetTarget)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBodyBiped")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::PenetrationAvoidance::Avoider*), "GetOffsetTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solver});
   }
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Raycast
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (RootMotion::FinalIK::PenetrationAvoidance::Avoider::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&RootMotion::FinalIK::PenetrationAvoidance::Avoider::Raycast)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* from = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* to = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::PenetrationAvoidance::Avoider*), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{from, to});

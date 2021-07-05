@@ -42,7 +42,7 @@ DEFINE_IL2CPP_ARG_TYPE(MasterServer::ITimeProvider*, "MasterServer", "ITimeProvi
 // Il2CppName: GetTimeMs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (MasterServer::ITimeProvider::*)()>(&MasterServer::ITimeProvider::GetTimeMs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::ITimeProvider*), "GetTimeMs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -50,7 +50,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Ma
 // Il2CppName: DelayMs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (MasterServer::ITimeProvider::*)(int, System::Threading::CancellationToken)>(&MasterServer::ITimeProvider::DelayMs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* millis = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::ITimeProvider*), "DelayMs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{millis, cancellationToken});

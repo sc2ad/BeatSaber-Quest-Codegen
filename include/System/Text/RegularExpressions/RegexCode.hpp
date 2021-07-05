@@ -121,7 +121,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCode*, "System.Tex
 // Il2CppName: OpcodeBacktracks
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&System::Text::RegularExpressions::RegexCode::OpcodeBacktracks)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* Op = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexCode*), "OpcodeBacktracks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{Op});
   }

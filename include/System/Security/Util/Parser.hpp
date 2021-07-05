@@ -83,7 +83,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Parser*, "System.Security.Util", 
 // Il2CppName: GetTopElement
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::SecurityElement* (System::Security::Util::Parser::*)()>(&System::Security::Util::Parser::GetTopElement)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Parser*), "GetTopElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Il2CppName: GetRequiredSizes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Util::Parser::*)(System::Security::Util::TokenizerStream*, int&)>(&System::Security::Util::Parser::GetRequiredSizes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stream = &::il2cpp_utils::GetClassFromName("System.Security.Util", "TokenizerStream")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Parser*), "GetRequiredSizes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stream, index});
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: DetermineFormat
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Util::Parser::*)(System::Security::Util::TokenizerStream*)>(&System::Security::Util::Parser::DetermineFormat)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stream = &::il2cpp_utils::GetClassFromName("System.Security.Util", "TokenizerStream")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Parser*), "DetermineFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stream});
   }
@@ -110,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: ParseContents
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Util::Parser::*)()>(&System::Security::Util::Parser::ParseContents)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Parser*), "ParseContents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

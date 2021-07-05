@@ -43,7 +43,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestMustExpectAllLogsAttribute*, 
 // Il2CppName: get_MustExpect
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TestTools::TestMustExpectAllLogsAttribute::*)()>(&UnityEngine::TestTools::TestMustExpectAllLogsAttribute::get_MustExpect)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestMustExpectAllLogsAttribute*), "get_MustExpect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

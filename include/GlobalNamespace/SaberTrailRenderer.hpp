@@ -189,7 +189,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberTrailRenderer*, "", "SaberTrailRend
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberTrailRenderer::*)(float, float, int, float)>(&GlobalNamespace::SaberTrailRenderer::Init)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* trailWidth = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* trailDuration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* granularity = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -201,7 +201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberTrailRenderer::*)()>(&GlobalNamespace::SaberTrailRenderer::OnDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTrailRenderer*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -209,7 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnValidate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberTrailRenderer::*)()>(&GlobalNamespace::SaberTrailRenderer::OnValidate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTrailRenderer*), "OnValidate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -217,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnEnable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberTrailRenderer::*)()>(&GlobalNamespace::SaberTrailRenderer::OnEnable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTrailRenderer*), "OnEnable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -225,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnDisable
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberTrailRenderer::*)()>(&GlobalNamespace::SaberTrailRenderer::OnDisable)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTrailRenderer*), "OnDisable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -233,7 +233,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetTrailWidth
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberTrailRenderer::*)(float)>(&GlobalNamespace::SaberTrailRenderer::SetTrailWidth)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* width = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTrailRenderer*), "SetTrailWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{width});
   }
@@ -242,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: UpdateMesh
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberTrailRenderer::*)(GlobalNamespace::TrailElementCollection*, UnityEngine::Color)>(&GlobalNamespace::SaberTrailRenderer::UpdateMesh)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* trailElementCollection = &::il2cpp_utils::GetClassFromName("", "TrailElementCollection")->byval_arg;
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTrailRenderer*), "UpdateMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{trailElementCollection, color});
@@ -252,7 +252,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: UpdateVertices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberTrailRenderer::*)(GlobalNamespace::TrailElementCollection*, UnityEngine::Color)>(&GlobalNamespace::SaberTrailRenderer::UpdateVertices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* trailElementCollection = &::il2cpp_utils::GetClassFromName("", "TrailElementCollection")->byval_arg;
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTrailRenderer*), "UpdateVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{trailElementCollection, color});
@@ -262,7 +262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: UpdateIndices
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberTrailRenderer::*)()>(&GlobalNamespace::SaberTrailRenderer::UpdateIndices)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTrailRenderer*), "UpdateIndices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -274,7 +274,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::SaberTrailRenderer::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTrailRenderer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

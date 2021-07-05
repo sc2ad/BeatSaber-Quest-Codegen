@@ -928,7 +928,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task*, "System.Threading.Tasks"
 // Il2CppName: AddToActiveTasks
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Threading::Tasks::Task*)>(&System::Threading::Tasks::Task::AddToActiveTasks)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* task = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "AddToActiveTasks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{task});
   }
@@ -937,7 +937,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: RemoveFromActiveTasks
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&System::Threading::Tasks::Task::RemoveFromActiveTasks)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* taskId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "RemoveFromActiveTasks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{taskId});
   }
@@ -958,7 +958,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Il2CppName: TaskConstructorCore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)(::Il2CppObject*, ::Il2CppObject*, System::Threading::CancellationToken, System::Threading::Tasks::TaskCreationOptions, System::Threading::Tasks::InternalTaskOptions, System::Threading::Tasks::TaskScheduler*)>(&System::Threading::Tasks::Task::TaskConstructorCore)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
@@ -972,7 +972,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: AssignCancellationToken
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)(System::Threading::CancellationToken, System::Threading::Tasks::Task*, System::Threading::Tasks::TaskContinuation*)>(&System::Threading::Tasks::Task::AssignCancellationToken)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     static auto* antecedent = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
     static auto* continuation = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "TaskContinuation")->byval_arg;
@@ -983,7 +983,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: TaskCancelCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&System::Threading::Tasks::Task::TaskCancelCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* o = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "TaskCancelCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{o});
   }
@@ -992,7 +992,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: PossiblyCaptureContext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)(System::Threading::StackCrawlMark&)>(&System::Threading::Tasks::Task::PossiblyCaptureContext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stackMark = &::il2cpp_utils::GetClassFromName("System.Threading", "StackCrawlMark")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "PossiblyCaptureContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stackMark});
   }
@@ -1001,7 +1001,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_Options
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::TaskCreationOptions (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::get_Options)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "get_Options", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1009,7 +1009,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: OptionsMethod
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::TaskCreationOptions (*)(int)>(&System::Threading::Tasks::Task::OptionsMethod)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* flags = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "OptionsMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flags});
   }
@@ -1018,7 +1018,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: AtomicStateUpdate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::*)(int, int)>(&System::Threading::Tasks::Task::AtomicStateUpdate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* newBits = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* illegalBits = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "AtomicStateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newBits, illegalBits});
@@ -1028,7 +1028,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: AtomicStateUpdate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::*)(int, int, int&)>(&System::Threading::Tasks::Task::AtomicStateUpdate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* newBits = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* illegalBits = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* oldFlags = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -1039,7 +1039,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: SetNotificationForWaitCompletion
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)(bool)>(&System::Threading::Tasks::Task::SetNotificationForWaitCompletion)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* enabled = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "SetNotificationForWaitCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enabled});
   }
@@ -1048,7 +1048,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: NotifyDebuggerOfWaitCompletionIfNecessary
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::NotifyDebuggerOfWaitCompletionIfNecessary)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "NotifyDebuggerOfWaitCompletionIfNecessary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1056,7 +1056,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: AnyTaskRequiresNotifyDebuggerOfWaitCompletion
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<System::Threading::Tasks::Task*>*)>(&System::Threading::Tasks::Task::AnyTaskRequiresNotifyDebuggerOfWaitCompletion)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tasks = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "AnyTaskRequiresNotifyDebuggerOfWaitCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tasks});
   }
@@ -1065,7 +1065,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: get_IsWaitNotificationEnabledOrNotRanToCompletion
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::get_IsWaitNotificationEnabledOrNotRanToCompletion)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "get_IsWaitNotificationEnabledOrNotRanToCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1073,7 +1073,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_ShouldNotifyDebuggerOfWaitCompletion
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::get_ShouldNotifyDebuggerOfWaitCompletion)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "get_ShouldNotifyDebuggerOfWaitCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1081,7 +1081,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_IsWaitNotificationEnabled
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::get_IsWaitNotificationEnabled)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "get_IsWaitNotificationEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1089,7 +1089,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: NotifyDebuggerOfWaitCompletion
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::NotifyDebuggerOfWaitCompletion)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "NotifyDebuggerOfWaitCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1097,7 +1097,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: MarkStarted
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::MarkStarted)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "MarkStarted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1105,7 +1105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: FireTaskScheduledIfNeeded
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::*)(System::Threading::Tasks::TaskScheduler*)>(&System::Threading::Tasks::Task::FireTaskScheduledIfNeeded)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ts = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "TaskScheduler")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "FireTaskScheduledIfNeeded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ts});
   }
@@ -1114,7 +1114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: AddNewChild
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::AddNewChild)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "AddNewChild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1122,7 +1122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: DisregardChild
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::DisregardChild)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "DisregardChild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1130,7 +1130,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: InternalStartNew
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (*)(System::Threading::Tasks::Task*, System::Delegate*, ::Il2CppObject*, System::Threading::CancellationToken, System::Threading::Tasks::TaskScheduler*, System::Threading::Tasks::TaskCreationOptions, System::Threading::Tasks::InternalTaskOptions, System::Threading::StackCrawlMark&)>(&System::Threading::Tasks::Task::InternalStartNew)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* creatingTask = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
     static auto* action = &::il2cpp_utils::GetClassFromName("System", "Delegate")->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -1146,7 +1146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: NewId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(&System::Threading::Tasks::Task::NewId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "NewId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1154,7 +1154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 // Il2CppName: get_Id
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::get_Id)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "get_Id", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1162,7 +1162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: get_InternalCurrent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (*)()>(&System::Threading::Tasks::Task::get_InternalCurrent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "get_InternalCurrent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1170,7 +1170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: InternalCurrentIfAttached
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (*)(System::Threading::Tasks::TaskCreationOptions)>(&System::Threading::Tasks::Task::InternalCurrentIfAttached)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* creationOptions = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "TaskCreationOptions")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "InternalCurrentIfAttached", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{creationOptions});
   }
@@ -1179,7 +1179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: get_CurrentStackGuard
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::StackGuard* (*)()>(&System::Threading::Tasks::Task::get_CurrentStackGuard)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "get_CurrentStackGuard", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1187,7 +1187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: get_Exception
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::AggregateException* (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::get_Exception)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "get_Exception", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1195,7 +1195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Agg
 // Il2CppName: get_Status
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::TaskStatus (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::get_Status)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "get_Status", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1203,7 +1203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: get_IsCanceled
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::get_IsCanceled)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "get_IsCanceled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1211,7 +1211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_IsCancellationRequested
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::get_IsCancellationRequested)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "get_IsCancellationRequested", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1219,7 +1219,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: EnsureContingentPropertiesInitialized
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task::ContingentProperties* (System::Threading::Tasks::Task::*)(bool)>(&System::Threading::Tasks::Task::EnsureContingentPropertiesInitialized)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* needsProtection = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "EnsureContingentPropertiesInitialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{needsProtection});
   }
@@ -1228,7 +1228,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: EnsureContingentPropertiesInitializedCore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task::ContingentProperties* (System::Threading::Tasks::Task::*)(bool)>(&System::Threading::Tasks::Task::EnsureContingentPropertiesInitializedCore)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* needsProtection = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "EnsureContingentPropertiesInitializedCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{needsProtection});
   }
@@ -1237,7 +1237,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: get_CancellationToken
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::CancellationToken (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::get_CancellationToken)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "get_CancellationToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1245,7 +1245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: get_IsCancellationAcknowledged
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::get_IsCancellationAcknowledged)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "get_IsCancellationAcknowledged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1253,7 +1253,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_IsCompleted
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::get_IsCompleted)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "get_IsCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1261,7 +1261,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: IsCompletedMethod
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&System::Threading::Tasks::Task::IsCompletedMethod)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* flags = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "IsCompletedMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flags});
   }
@@ -1270,7 +1270,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Il2CppName: get_IsRanToCompletion
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::get_IsRanToCompletion)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "get_IsRanToCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1278,7 +1278,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_CreationOptions
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::TaskCreationOptions (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::get_CreationOptions)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "get_CreationOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1286,7 +1286,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: System.IAsyncResult.get_AsyncWaitHandle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::WaitHandle* (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::System_IAsyncResult_get_AsyncWaitHandle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "System.IAsyncResult.get_AsyncWaitHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1294,7 +1294,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: get_AsyncState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::get_AsyncState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "get_AsyncState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1302,7 +1302,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: System.IAsyncResult.get_CompletedSynchronously
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::System_IAsyncResult_get_CompletedSynchronously)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "System.IAsyncResult.get_CompletedSynchronously", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1310,7 +1310,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_ExecutingTaskScheduler
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::TaskScheduler* (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::get_ExecutingTaskScheduler)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "get_ExecutingTaskScheduler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1318,7 +1318,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: get_Factory
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::TaskFactory* (*)()>(&System::Threading::Tasks::Task::get_Factory)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "get_Factory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1326,7 +1326,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: get_CompletedTask
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (*)()>(&System::Threading::Tasks::Task::get_CompletedTask)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "get_CompletedTask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1334,7 +1334,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: get_CompletedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ManualResetEventSlim* (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::get_CompletedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "get_CompletedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1342,7 +1342,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: get_IsSelfReplicatingRoot
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::get_IsSelfReplicatingRoot)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "get_IsSelfReplicatingRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1350,7 +1350,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_IsChildReplica
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::get_IsChildReplica)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "get_IsChildReplica", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1358,7 +1358,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_ExceptionRecorded
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::get_ExceptionRecorded)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "get_ExceptionRecorded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1366,7 +1366,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_IsFaulted
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::get_IsFaulted)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "get_IsFaulted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1374,7 +1374,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_CapturedContext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ExecutionContext* (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::get_CapturedContext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "get_CapturedContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1382,7 +1382,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: set_CapturedContext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)(System::Threading::ExecutionContext*)>(&System::Threading::Tasks::Task::set_CapturedContext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Threading", "ExecutionContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "set_CapturedContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1391,7 +1391,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: CopyExecutionContext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ExecutionContext* (*)(System::Threading::ExecutionContext*)>(&System::Threading::Tasks::Task::CopyExecutionContext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* capturedContext = &::il2cpp_utils::GetClassFromName("System.Threading", "ExecutionContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "CopyExecutionContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{capturedContext});
   }
@@ -1400,7 +1400,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1408,7 +1408,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)(bool)>(&System::Threading::Tasks::Task::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* disposing = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{disposing});
   }
@@ -1417,7 +1417,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ScheduleAndStart
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)(bool)>(&System::Threading::Tasks::Task::ScheduleAndStart)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* needsProtection = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "ScheduleAndStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{needsProtection});
   }
@@ -1426,7 +1426,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: AddException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)(::Il2CppObject*)>(&System::Threading::Tasks::Task::AddException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* exceptionObject = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "AddException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{exceptionObject});
   }
@@ -1435,7 +1435,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: AddException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)(::Il2CppObject*, bool)>(&System::Threading::Tasks::Task::AddException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* exceptionObject = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* representsCancellation = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "AddException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{exceptionObject, representsCancellation});
@@ -1445,7 +1445,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: GetExceptions
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::AggregateException* (System::Threading::Tasks::Task::*)(bool)>(&System::Threading::Tasks::Task::GetExceptions)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* includeTaskCanceledExceptions = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "GetExceptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{includeTaskCanceledExceptions});
   }
@@ -1454,7 +1454,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Agg
 // Il2CppName: GetExceptionDispatchInfos
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ObjectModel::ReadOnlyCollection_1<System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::GetExceptionDispatchInfos)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "GetExceptionDispatchInfos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1462,7 +1462,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: GetCancellationExceptionDispatchInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::ExceptionServices::ExceptionDispatchInfo* (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::GetCancellationExceptionDispatchInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "GetCancellationExceptionDispatchInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1470,7 +1470,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: ThrowIfExceptional
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)(bool)>(&System::Threading::Tasks::Task::ThrowIfExceptional)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* includeTaskCanceledExceptions = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "ThrowIfExceptional", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{includeTaskCanceledExceptions});
   }
@@ -1479,7 +1479,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: UpdateExceptionObservedStatus
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::UpdateExceptionObservedStatus)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "UpdateExceptionObservedStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1487,7 +1487,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_IsExceptionObservedByParent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::get_IsExceptionObservedByParent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "get_IsExceptionObservedByParent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1495,7 +1495,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_IsDelegateInvoked
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::get_IsDelegateInvoked)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "get_IsDelegateInvoked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1503,7 +1503,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: Finish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)(bool)>(&System::Threading::Tasks::Task::Finish)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bUserDelegateExecuted = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "Finish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bUserDelegateExecuted});
   }
@@ -1512,7 +1512,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: FinishStageTwo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::FinishStageTwo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "FinishStageTwo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1520,7 +1520,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: FinishStageThree
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::FinishStageThree)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "FinishStageThree", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1528,7 +1528,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ProcessChildCompletion
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)(System::Threading::Tasks::Task*)>(&System::Threading::Tasks::Task::ProcessChildCompletion)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* childTask = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "ProcessChildCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{childTask});
   }
@@ -1537,7 +1537,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: AddExceptionsFromChildren
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::AddExceptionsFromChildren)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "AddExceptionsFromChildren", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1545,7 +1545,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: FinishThreadAbortedTask
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)(bool, bool)>(&System::Threading::Tasks::Task::FinishThreadAbortedTask)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bTAEAddedToExceptionHolder = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* delegateRan = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "FinishThreadAbortedTask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bTAEAddedToExceptionHolder, delegateRan});
@@ -1555,7 +1555,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Execute
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::Execute)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "Execute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1563,7 +1563,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ShouldReplicate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::ShouldReplicate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "ShouldReplicate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1571,7 +1571,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: CreateReplicaTask
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::Threading::Tasks::Task::*)(System::Action_1<::Il2CppObject*>*, ::Il2CppObject*, System::Threading::Tasks::Task*, System::Threading::Tasks::TaskScheduler*, System::Threading::Tasks::TaskCreationOptions, System::Threading::Tasks::InternalTaskOptions)>(&System::Threading::Tasks::Task::CreateReplicaTask)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* taskReplicaDelegate = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
     static auto* stateObject = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* parentTask = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
@@ -1585,7 +1585,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: get_SavedStateForNextReplica
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::get_SavedStateForNextReplica)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "get_SavedStateForNextReplica", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1593,7 +1593,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: set_SavedStateFromPreviousReplica
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)(::Il2CppObject*)>(&System::Threading::Tasks::Task::set_SavedStateFromPreviousReplica)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "set_SavedStateFromPreviousReplica", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1602,7 +1602,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_HandedOverChildReplica
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::get_HandedOverChildReplica)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "get_HandedOverChildReplica", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1610,7 +1610,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: set_HandedOverChildReplica
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)(System::Threading::Tasks::Task*)>(&System::Threading::Tasks::Task::set_HandedOverChildReplica)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "set_HandedOverChildReplica", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -1619,7 +1619,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ExecuteSelfReplicating
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Tasks::Task*)>(&System::Threading::Tasks::Task::ExecuteSelfReplicating)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* root = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "ExecuteSelfReplicating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{root});
   }
@@ -1628,7 +1628,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: System.Threading.IThreadPoolWorkItem.ExecuteWorkItem
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "System.Threading.IThreadPoolWorkItem.ExecuteWorkItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1636,7 +1636,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: System.Threading.IThreadPoolWorkItem.MarkAborted
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)(System::Threading::ThreadAbortException*)>(&System::Threading::Tasks::Task::System_Threading_IThreadPoolWorkItem_MarkAborted)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tae = &::il2cpp_utils::GetClassFromName("System.Threading", "ThreadAbortException")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "System.Threading.IThreadPoolWorkItem.MarkAborted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tae});
   }
@@ -1645,7 +1645,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ExecuteEntry
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::*)(bool)>(&System::Threading::Tasks::Task::ExecuteEntry)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bPreventDoubleExecution = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "ExecuteEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bPreventDoubleExecution});
   }
@@ -1654,7 +1654,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: ExecuteWithThreadLocal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)(System::Threading::Tasks::Task*&)>(&System::Threading::Tasks::Task::ExecuteWithThreadLocal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* currentTaskSlot = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "ExecuteWithThreadLocal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{currentTaskSlot});
   }
@@ -1663,7 +1663,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ExecutionContextCallback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&System::Threading::Tasks::Task::ExecutionContextCallback)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "ExecutionContextCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
@@ -1672,7 +1672,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: InnerInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::InnerInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "InnerInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1680,7 +1680,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: InnerInvokeWithArg
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)(System::Threading::Tasks::Task*)>(&System::Threading::Tasks::Task::InnerInvokeWithArg)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* childTask = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "InnerInvokeWithArg", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{childTask});
   }
@@ -1689,7 +1689,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: HandleException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)(System::Exception*)>(&System::Threading::Tasks::Task::HandleException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* unhandledException = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "HandleException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unhandledException});
   }
@@ -1698,7 +1698,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: GetAwaiter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::CompilerServices::TaskAwaiter (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::GetAwaiter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "GetAwaiter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1706,7 +1706,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: ConfigureAwait
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::CompilerServices::ConfiguredTaskAwaitable (System::Threading::Tasks::Task::*)(bool)>(&System::Threading::Tasks::Task::ConfigureAwait)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* continueOnCapturedContext = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "ConfigureAwait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{continueOnCapturedContext});
   }
@@ -1715,7 +1715,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: SetContinuationForAwait
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)(System::Action*, bool, bool, System::Threading::StackCrawlMark&)>(&System::Threading::Tasks::Task::SetContinuationForAwait)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* continuationAction = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     static auto* continueOnCapturedContext = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* flowExecutionContext = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -1727,7 +1727,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Yield
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::CompilerServices::YieldAwaitable (*)()>(&System::Threading::Tasks::Task::Yield)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "Yield", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1735,7 +1735,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: Wait
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::Wait)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "Wait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1743,7 +1743,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: Wait
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::*)(int, System::Threading::CancellationToken)>(&System::Threading::Tasks::Task::Wait)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* millisecondsTimeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "Wait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{millisecondsTimeout, cancellationToken});
@@ -1753,7 +1753,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: WrappedTryRunInline
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::WrappedTryRunInline)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "WrappedTryRunInline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1761,7 +1761,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: InternalWait
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::*)(int, System::Threading::CancellationToken)>(&System::Threading::Tasks::Task::InternalWait)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* millisecondsTimeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "InternalWait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{millisecondsTimeout, cancellationToken});
@@ -1771,7 +1771,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: SpinThenBlockingWait
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::*)(int, System::Threading::CancellationToken)>(&System::Threading::Tasks::Task::SpinThenBlockingWait)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* millisecondsTimeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "SpinThenBlockingWait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{millisecondsTimeout, cancellationToken});
@@ -1781,7 +1781,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: SpinWait
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::*)(int)>(&System::Threading::Tasks::Task::SpinWait)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* millisecondsTimeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "SpinWait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{millisecondsTimeout});
   }
@@ -1790,7 +1790,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: InternalCancel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::*)(bool)>(&System::Threading::Tasks::Task::InternalCancel)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* bCancelNonExecutingOnly = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "InternalCancel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bCancelNonExecutingOnly});
   }
@@ -1799,7 +1799,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: RecordInternalCancellationRequest
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::RecordInternalCancellationRequest)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "RecordInternalCancellationRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1807,7 +1807,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: RecordInternalCancellationRequest
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)(System::Threading::CancellationToken)>(&System::Threading::Tasks::Task::RecordInternalCancellationRequest)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tokenToRecord = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "RecordInternalCancellationRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tokenToRecord});
   }
@@ -1816,7 +1816,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: RecordInternalCancellationRequest
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)(System::Threading::CancellationToken, ::Il2CppObject*)>(&System::Threading::Tasks::Task::RecordInternalCancellationRequest)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tokenToRecord = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     static auto* cancellationException = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "RecordInternalCancellationRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tokenToRecord, cancellationException});
@@ -1826,7 +1826,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: CancellationCleanupLogic
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::CancellationCleanupLogic)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "CancellationCleanupLogic", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1834,7 +1834,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: SetCancellationAcknowledged
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::SetCancellationAcknowledged)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "SetCancellationAcknowledged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1842,7 +1842,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: FinishContinuations
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::FinishContinuations)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "FinishContinuations", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1850,7 +1850,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: LogFinishCompletionNotification
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)()>(&System::Threading::Tasks::Task::LogFinishCompletionNotification)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "LogFinishCompletionNotification", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -1858,7 +1858,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ContinueWith
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::Threading::Tasks::Task::*)(System::Action_1<System::Threading::Tasks::Task*>*)>(&System::Threading::Tasks::Task::ContinueWith)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* continuationAction = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "ContinueWith", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{continuationAction});
   }
@@ -1867,7 +1867,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: ContinueWith
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::Threading::Tasks::Task::*)(System::Action_1<System::Threading::Tasks::Task*>*, System::Threading::Tasks::TaskScheduler*, System::Threading::CancellationToken, System::Threading::Tasks::TaskContinuationOptions, System::Threading::StackCrawlMark&)>(&System::Threading::Tasks::Task::ContinueWith)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* continuationAction = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")})->byval_arg;
     static auto* scheduler = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "TaskScheduler")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
@@ -1880,7 +1880,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: ContinueWith
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::Threading::Tasks::Task::*)(System::Action_2<System::Threading::Tasks::Task*, ::Il2CppObject*>*, ::Il2CppObject*, System::Threading::CancellationToken, System::Threading::Tasks::TaskContinuationOptions, System::Threading::Tasks::TaskScheduler*)>(&System::Threading::Tasks::Task::ContinueWith)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* continuationAction = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task"), ::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
@@ -1893,7 +1893,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: ContinueWith
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::Threading::Tasks::Task::*)(System::Action_2<System::Threading::Tasks::Task*, ::Il2CppObject*>*, ::Il2CppObject*, System::Threading::Tasks::TaskScheduler*, System::Threading::CancellationToken, System::Threading::Tasks::TaskContinuationOptions, System::Threading::StackCrawlMark&)>(&System::Threading::Tasks::Task::ContinueWith)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* continuationAction = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task"), ::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
     static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* scheduler = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "TaskScheduler")->byval_arg;
@@ -1907,7 +1907,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: CreationOptionsFromContinuationOptions
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Tasks::TaskContinuationOptions, System::Threading::Tasks::TaskCreationOptions&, System::Threading::Tasks::InternalTaskOptions&)>(&System::Threading::Tasks::Task::CreationOptionsFromContinuationOptions)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* continuationOptions = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "TaskContinuationOptions")->byval_arg;
     static auto* creationOptions = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "TaskCreationOptions")->this_arg;
     static auto* internalOptions = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "InternalTaskOptions")->this_arg;
@@ -1918,7 +1918,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: ContinueWithCore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)(System::Threading::Tasks::Task*, System::Threading::Tasks::TaskScheduler*, System::Threading::CancellationToken, System::Threading::Tasks::TaskContinuationOptions)>(&System::Threading::Tasks::Task::ContinueWithCore)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* continuationTask = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
     static auto* scheduler = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "TaskScheduler")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
@@ -1930,7 +1930,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: AddCompletionAction
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)(System::Threading::Tasks::ITaskCompletionAction*)>(&System::Threading::Tasks::Task::AddCompletionAction)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "ITaskCompletionAction")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "AddCompletionAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});
   }
@@ -1939,7 +1939,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: AddCompletionAction
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)(System::Threading::Tasks::ITaskCompletionAction*, bool)>(&System::Threading::Tasks::Task::AddCompletionAction)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "ITaskCompletionAction")->byval_arg;
     static auto* addBeforeOthers = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "AddCompletionAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action, addBeforeOthers});
@@ -1949,7 +1949,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: AddTaskContinuationComplex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::*)(::Il2CppObject*, bool)>(&System::Threading::Tasks::Task::AddTaskContinuationComplex)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tc = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* addBeforeOthers = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "AddTaskContinuationComplex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tc, addBeforeOthers});
@@ -1959,7 +1959,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: AddTaskContinuation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::*)(::Il2CppObject*, bool)>(&System::Threading::Tasks::Task::AddTaskContinuation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tc = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* addBeforeOthers = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "AddTaskContinuation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tc, addBeforeOthers});
@@ -1969,7 +1969,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: RemoveContinuation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::*)(::Il2CppObject*)>(&System::Threading::Tasks::Task::RemoveContinuation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* continuationObject = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "RemoveContinuation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{continuationObject});
   }
@@ -1981,7 +1981,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: FromException
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (*)(System::Exception*)>(&System::Threading::Tasks::Task::FromException)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* exception = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "FromException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{exception});
   }
@@ -1993,7 +1993,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: FromCancellation
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (*)(System::Threading::CancellationToken)>(&System::Threading::Tasks::Task::FromCancellation)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "FromCancellation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
   }
@@ -2008,7 +2008,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: Run
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (*)(System::Action*)>(&System::Threading::Tasks::Task::Run)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});
   }
@@ -2020,7 +2020,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: Run
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (*)(System::Func_1<System::Threading::Tasks::Task*>*)>(&System::Threading::Tasks::Task::Run)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* function = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{function});
   }
@@ -2029,7 +2029,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: Run
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (*)(System::Func_1<System::Threading::Tasks::Task*>*, System::Threading::CancellationToken)>(&System::Threading::Tasks::Task::Run)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* function = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")})->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{function, cancellationToken});
@@ -2045,7 +2045,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: Delay
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (*)(System::TimeSpan)>(&System::Threading::Tasks::Task::Delay)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* delay = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "Delay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{delay});
   }
@@ -2054,7 +2054,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: Delay
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (*)(System::TimeSpan, System::Threading::CancellationToken)>(&System::Threading::Tasks::Task::Delay)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* delay = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "Delay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{delay, cancellationToken});
@@ -2064,7 +2064,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: Delay
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (*)(int)>(&System::Threading::Tasks::Task::Delay)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* millisecondsDelay = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "Delay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{millisecondsDelay});
   }
@@ -2073,7 +2073,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: Delay
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (*)(int, System::Threading::CancellationToken)>(&System::Threading::Tasks::Task::Delay)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* millisecondsDelay = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "Delay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{millisecondsDelay, cancellationToken});
@@ -2083,7 +2083,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: WhenAll
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (*)(System::Collections::Generic::IEnumerable_1<System::Threading::Tasks::Task*>*)>(&System::Threading::Tasks::Task::WhenAll)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tasks = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "WhenAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tasks});
   }
@@ -2092,7 +2092,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: WhenAll
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (*)(::Array<System::Threading::Tasks::Task*>*)>(&System::Threading::Tasks::Task::WhenAll)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tasks = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "WhenAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tasks});
   }
@@ -2101,7 +2101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: InternalWhenAll
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (*)(::Array<System::Threading::Tasks::Task*>*)>(&System::Threading::Tasks::Task::InternalWhenAll)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tasks = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "InternalWhenAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tasks});
   }
@@ -2119,7 +2119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: WhenAny
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::Threading::Tasks::Task*>* (*)(::Array<System::Threading::Tasks::Task*>*)>(&System::Threading::Tasks::Task::WhenAny)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tasks = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "WhenAny", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tasks});
   }
@@ -2131,7 +2131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Threading::Tasks::Task::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

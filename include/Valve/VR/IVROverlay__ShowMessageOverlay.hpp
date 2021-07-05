@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_ShowMessageOverlay*, "Valve.VR", 
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::VRMessageOverlayResponse (Valve::VR::IVROverlay::_ShowMessageOverlay::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&Valve::VR::IVROverlay::_ShowMessageOverlay::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchCaption = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchButton0Text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -80,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVROverlay::_ShowMessageOverlay::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVROverlay::_ShowMessageOverlay::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pchText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchCaption = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchButton0Text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -96,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::VRMessageOverlayResponse (Valve::VR::IVROverlay::_ShowMessageOverlay::*)(System::IAsyncResult*)>(&Valve::VR::IVROverlay::_ShowMessageOverlay::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVROverlay::_ShowMessageOverlay*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }

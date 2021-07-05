@@ -33,7 +33,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioLowPassFilter*, "UnityEngine", "AudioLo
 // Il2CppName: get_cutoffFrequency
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::AudioLowPassFilter::*)()>(&UnityEngine::AudioLowPassFilter::get_cutoffFrequency)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioLowPassFilter*), "get_cutoffFrequency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -41,7 +41,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Il2CppName: set_cutoffFrequency
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AudioLowPassFilter::*)(float)>(&UnityEngine::AudioLowPassFilter::set_cutoffFrequency)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioLowPassFilter*), "set_cutoffFrequency", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

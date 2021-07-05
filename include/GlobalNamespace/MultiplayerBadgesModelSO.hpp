@@ -78,7 +78,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBadgesModelSO*, "", "Multipla
 // Il2CppName: get_positiveBadges
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerBadgeDataSO*>* (GlobalNamespace::MultiplayerBadgesModelSO::*)()>(&GlobalNamespace::MultiplayerBadgesModelSO::get_positiveBadges)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerBadgesModelSO*), "get_positiveBadges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -86,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: get_negativeBadges
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerBadgeDataSO*>* (GlobalNamespace::MultiplayerBadgesModelSO::*)()>(&GlobalNamespace::MultiplayerBadgesModelSO::get_negativeBadges)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerBadgesModelSO*), "get_negativeBadges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

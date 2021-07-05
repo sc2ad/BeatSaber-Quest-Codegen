@@ -52,7 +52,7 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithLivestreamingVideoStats*, "O
 // Il2CppName: GetDataFromMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LivestreamingVideoStats* (Oculus::Platform::MessageWithLivestreamingVideoStats::*)(System::IntPtr)>(&Oculus::Platform::MessageWithLivestreamingVideoStats::GetDataFromMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c_message = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithLivestreamingVideoStats*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c_message});
   }
@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: GetLivestreamingVideoStats
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LivestreamingVideoStats* (Oculus::Platform::MessageWithLivestreamingVideoStats::*)()>(&Oculus::Platform::MessageWithLivestreamingVideoStats::GetLivestreamingVideoStats)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithLivestreamingVideoStats*), "GetLivestreamingVideoStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

@@ -73,7 +73,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::U2D::SpriteAtlasManager*, "UnityEngine.U2D",
 // Il2CppName: RequestAtlas
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&UnityEngine::U2D::SpriteAtlasManager::RequestAtlas)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* tag = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::U2D::SpriteAtlasManager*), "RequestAtlas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tag});
   }
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: add_atlasRegistered
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<UnityEngine::U2D::SpriteAtlas*>*)>(&UnityEngine::U2D::SpriteAtlasManager::add_atlasRegistered)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.U2D", "SpriteAtlas")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::U2D::SpriteAtlasManager*), "add_atlasRegistered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: remove_atlasRegistered
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_1<UnityEngine::U2D::SpriteAtlas*>*)>(&UnityEngine::U2D::SpriteAtlasManager::remove_atlasRegistered)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.U2D", "SpriteAtlas")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::U2D::SpriteAtlasManager*), "remove_atlasRegistered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -100,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: PostRegisteredAtlas
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::U2D::SpriteAtlas*)>(&UnityEngine::U2D::SpriteAtlasManager::PostRegisteredAtlas)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* spriteAtlas = &::il2cpp_utils::GetClassFromName("UnityEngine.U2D", "SpriteAtlas")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::U2D::SpriteAtlasManager*), "PostRegisteredAtlas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{spriteAtlas});
   }
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: Register
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::U2D::SpriteAtlas*)>(&UnityEngine::U2D::SpriteAtlasManager::Register)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* spriteAtlas = &::il2cpp_utils::GetClassFromName("UnityEngine.U2D", "SpriteAtlas")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::U2D::SpriteAtlasManager*), "Register", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{spriteAtlas});
   }
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&UnityEngine::U2D::SpriteAtlasManager::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::U2D::SpriteAtlasManager*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

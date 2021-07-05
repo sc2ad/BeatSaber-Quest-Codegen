@@ -29,7 +29,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::IAsyncLocal*, "System.Threading", "IAs
 // Il2CppName: OnValueChanged
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::IAsyncLocal::*)(::Il2CppObject*, ::Il2CppObject*, bool)>(&System::Threading::IAsyncLocal::OnValueChanged)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* previousValue = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* currentValue = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* contextChanged = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

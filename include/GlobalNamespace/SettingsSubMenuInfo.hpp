@@ -64,7 +64,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsSubMenuInfo*, "", "SettingsSubMe
 // Il2CppName: get_viewController
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewController* (GlobalNamespace::SettingsSubMenuInfo::*)()>(&GlobalNamespace::SettingsSubMenuInfo::get_viewController)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SettingsSubMenuInfo*), "get_viewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ViewC
 // Il2CppName: get_localizedMenuName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SettingsSubMenuInfo::*)()>(&GlobalNamespace::SettingsSubMenuInfo::get_localizedMenuName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SettingsSubMenuInfo*), "get_localizedMenuName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

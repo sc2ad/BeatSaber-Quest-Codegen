@@ -71,7 +71,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CenterStageLobbyViewController*, "", "Ce
 // Il2CppName: SetLevelGameplaySetupData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CenterStageLobbyViewController::*)(GlobalNamespace::ILevelGameplaySetupData*)>(&GlobalNamespace::CenterStageLobbyViewController::SetLevelGameplaySetupData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* levelGameplaySetupData = &::il2cpp_utils::GetClassFromName("", "ILevelGameplaySetupData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CenterStageLobbyViewController*), "SetLevelGameplaySetupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelGameplaySetupData});
   }

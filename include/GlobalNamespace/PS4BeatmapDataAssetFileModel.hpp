@@ -95,7 +95,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4BeatmapDataAssetFileModel*, "", "PS4B
 // Il2CppName: add_levelDataAssetDownloadUpdateEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PS4BeatmapDataAssetFileModel::*)(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>*)>(&GlobalNamespace::PS4BeatmapDataAssetFileModel::add_levelDataAssetDownloadUpdateEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "LevelDataAssetDownloadUpdate")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4BeatmapDataAssetFileModel*), "add_levelDataAssetDownloadUpdateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_levelDataAssetDownloadUpdateEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PS4BeatmapDataAssetFileModel::*)(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>*)>(&GlobalNamespace::PS4BeatmapDataAssetFileModel::remove_levelDataAssetDownloadUpdateEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "LevelDataAssetDownloadUpdate")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4BeatmapDataAssetFileModel*), "remove_levelDataAssetDownloadUpdateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -113,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: GetAssetBundleFileForPreviewLevelAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::GetAssetBundleFileResult>* (GlobalNamespace::PS4BeatmapDataAssetFileModel::*)(GlobalNamespace::IPreviewBeatmapLevel*, System::Threading::CancellationToken)>(&GlobalNamespace::PS4BeatmapDataAssetFileModel::GetAssetBundleFileForPreviewLevelAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* previewBeatmapLevel = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4BeatmapDataAssetFileModel*), "GetAssetBundleFileForPreviewLevelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{previewBeatmapLevel, cancellationToken});
@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: TryDeleteAssetBundleFileForPreviewLevelAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (GlobalNamespace::PS4BeatmapDataAssetFileModel::*)(GlobalNamespace::IPreviewBeatmapLevel*, System::Threading::CancellationToken)>(&GlobalNamespace::PS4BeatmapDataAssetFileModel::TryDeleteAssetBundleFileForPreviewLevelAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* previewBeatmapLevel = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PS4BeatmapDataAssetFileModel*), "TryDeleteAssetBundleFileForPreviewLevelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{previewBeatmapLevel, cancellationToken});

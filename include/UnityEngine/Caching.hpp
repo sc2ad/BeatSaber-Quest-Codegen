@@ -106,7 +106,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Caching*, "UnityEngine", "Caching");
 // Il2CppName: set_compressionEnabled
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&UnityEngine::Caching::set_compressionEnabled)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Caching*), "set_compressionEnabled", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Il2CppName: get_ready
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&UnityEngine::Caching::get_ready)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Caching*), "get_ready", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -123,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Il2CppName: ClearCachedVersion
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, UnityEngine::Hash128)>(&UnityEngine::Caching::ClearCachedVersion)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* assetBundleName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* hash = &::il2cpp_utils::GetClassFromName("UnityEngine", "Hash128")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Caching*), "ClearCachedVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assetBundleName, hash});
@@ -133,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: ClearCachedVersionInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, UnityEngine::Hash128)>(&UnityEngine::Caching::ClearCachedVersionInternal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* assetBundleName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* hash = &::il2cpp_utils::GetClassFromName("UnityEngine", "Hash128")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Caching*), "ClearCachedVersionInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assetBundleName, hash});
@@ -143,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: ClearOtherCachedVersions
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, UnityEngine::Hash128)>(&UnityEngine::Caching::ClearOtherCachedVersions)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* assetBundleName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* hash = &::il2cpp_utils::GetClassFromName("UnityEngine", "Hash128")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Caching*), "ClearOtherCachedVersions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assetBundleName, hash});
@@ -153,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: ClearAllCachedVersions
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&UnityEngine::Caching::ClearAllCachedVersions)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* assetBundleName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Caching*), "ClearAllCachedVersions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assetBundleName});
   }
@@ -162,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: ClearCachedVersions
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, UnityEngine::Hash128, bool)>(&UnityEngine::Caching::ClearCachedVersions)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* assetBundleName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* hash = &::il2cpp_utils::GetClassFromName("UnityEngine", "Hash128")->byval_arg;
     static auto* keepInputVersion = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -173,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: IsVersionCached
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::CachedAssetBundle)>(&UnityEngine::Caching::IsVersionCached)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cachedBundle = &::il2cpp_utils::GetClassFromName("UnityEngine", "CachedAssetBundle")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Caching*), "IsVersionCached", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cachedBundle});
   }
@@ -182,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Il2CppName: IsVersionCached
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*, UnityEngine::Hash128)>(&UnityEngine::Caching::IsVersionCached)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* assetBundleName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* hash = &::il2cpp_utils::GetClassFromName("UnityEngine", "Hash128")->byval_arg;
@@ -193,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: AddCache
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Cache (*)(::Il2CppString*)>(&UnityEngine::Caching::AddCache)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cachePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Caching*), "AddCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cachePath});
   }
@@ -202,7 +202,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: AddCache
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Cache (*)(::Il2CppString*, bool)>(&UnityEngine::Caching::AddCache)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cachePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* isReadonly = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Caching*), "AddCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cachePath, isReadonly});
@@ -212,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetCacheByPath
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Cache (*)(::Il2CppString*)>(&UnityEngine::Caching::GetCacheByPath)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cachePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Caching*), "GetCacheByPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cachePath});
   }
@@ -221,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_defaultCache
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Cache (*)()>(&UnityEngine::Caching::get_defaultCache)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Caching*), "get_defaultCache", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -229,7 +229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_currentCacheForWriting
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Cache (*)()>(&UnityEngine::Caching::get_currentCacheForWriting)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Caching*), "get_currentCacheForWriting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -237,7 +237,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_currentCacheForWriting
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Cache)>(&UnityEngine::Caching::set_currentCacheForWriting)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Cache")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Caching*), "set_currentCacheForWriting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -246,7 +246,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: ClearCachedVersionInternal_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, UnityEngine::Hash128&)>(&UnityEngine::Caching::ClearCachedVersionInternal_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* assetBundleName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* hash = &::il2cpp_utils::GetClassFromName("UnityEngine", "Hash128")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Caching*), "ClearCachedVersionInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assetBundleName, hash});
@@ -256,7 +256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: ClearCachedVersions_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, UnityEngine::Hash128&, bool)>(&UnityEngine::Caching::ClearCachedVersions_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* assetBundleName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* hash = &::il2cpp_utils::GetClassFromName("UnityEngine", "Hash128")->this_arg;
     static auto* keepInputVersion = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -267,7 +267,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: IsVersionCached_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*, UnityEngine::Hash128&)>(&UnityEngine::Caching::IsVersionCached_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* assetBundleName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* hash = &::il2cpp_utils::GetClassFromName("UnityEngine", "Hash128")->this_arg;
@@ -278,7 +278,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: AddCache_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, bool, UnityEngine::Cache&)>(&UnityEngine::Caching::AddCache_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cachePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* isReadonly = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Cache")->this_arg;
@@ -289,7 +289,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: GetCacheByPath_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::Cache&)>(&UnityEngine::Caching::GetCacheByPath_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cachePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Cache")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Caching*), "GetCacheByPath_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cachePath, ret});
@@ -299,7 +299,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: get_defaultCache_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Cache&)>(&UnityEngine::Caching::get_defaultCache_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Cache")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Caching*), "get_defaultCache_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
   }
@@ -308,7 +308,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: get_currentCacheForWriting_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Cache&)>(&UnityEngine::Caching::get_currentCacheForWriting_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Cache")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Caching*), "get_currentCacheForWriting_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
   }
@@ -317,7 +317,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: set_currentCacheForWriting_Injected
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Cache&)>(&UnityEngine::Caching::set_currentCacheForWriting_Injected)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Cache")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Caching*), "set_currentCacheForWriting_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

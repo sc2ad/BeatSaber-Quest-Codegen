@@ -114,7 +114,7 @@ DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPApiLeaderboardsModel*, "OnlineSe
 // Il2CppName: LogoutAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::API::HTTPApiLeaderboardsModel::*)()>(&OnlineServices::API::HTTPApiLeaderboardsModel::LogoutAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPApiLeaderboardsModel*), "LogoutAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Onlin
 // Il2CppName: GetLeaderboardEntriesAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<OnlineServices::API::ApiResponse_1<BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>>* (OnlineServices::API::HTTPApiLeaderboardsModel::*)(BeatSaberAPI::DataTransferObjects::LeaderboardQuery*, System::Threading::CancellationToken)>(&OnlineServices::API::HTTPApiLeaderboardsModel::GetLeaderboardEntriesAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* leaderboardQueryDTO = &::il2cpp_utils::GetClassFromName("BeatSaberAPI.DataTransferObjects", "LeaderboardQuery")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPApiLeaderboardsModel*), "GetLeaderboardEntriesAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardQueryDTO, cancellationToken});
@@ -132,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Il2CppName: SendLevelScoreResultAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<OnlineServices::API::Response>* (OnlineServices::API::HTTPApiLeaderboardsModel::*)(BeatSaberAPI::DataTransferObjects::LevelScoreResult*, System::Threading::CancellationToken)>(&OnlineServices::API::HTTPApiLeaderboardsModel::SendLevelScoreResultAsync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* levelScoreResult = &::il2cpp_utils::GetClassFromName("BeatSaberAPI.DataTransferObjects", "LevelScoreResult")->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPApiLeaderboardsModel*), "SendLevelScoreResultAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelScoreResult, cancellationToken});

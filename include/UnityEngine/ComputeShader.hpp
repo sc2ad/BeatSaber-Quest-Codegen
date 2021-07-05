@@ -31,7 +31,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ComputeShader*, "UnityEngine", "ComputeShade
 // Il2CppName: FindKernel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ComputeShader::*)(::Il2CppString*)>(&UnityEngine::ComputeShader::FindKernel)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ComputeShader*), "FindKernel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
   }

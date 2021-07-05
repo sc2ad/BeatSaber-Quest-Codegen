@@ -111,7 +111,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CubemapHelpers*, "", "CubemapHelpers");
 // Il2CppName: get_cubemapHelpersMaterial
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)()>(&GlobalNamespace::CubemapHelpers::get_cubemapHelpersMaterial)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CubemapHelpers*), "get_cubemapHelpersMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Downsample
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture*, UnityEngine::RenderTexture*)>(&GlobalNamespace::CubemapHelpers::Downsample)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* src = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
     static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CubemapHelpers*), "Downsample", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src, dest});
@@ -129,7 +129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: CreateDownsampledCubemap
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (*)(UnityEngine::RenderTexture*, int)>(&GlobalNamespace::CubemapHelpers::CreateDownsampledCubemap)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* src = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CubemapHelpers*), "CreateDownsampledCubemap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src, count});
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Create2DTextureFromCubemap
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (*)(UnityEngine::RenderTexture*)>(&GlobalNamespace::CubemapHelpers::Create2DTextureFromCubemap)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* src = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CubemapHelpers*), "Create2DTextureFromCubemap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src});
   }
@@ -148,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: DrawCubemapFace
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture*, UnityEngine::CubemapFace)>(&GlobalNamespace::CubemapHelpers::DrawCubemapFace)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cubemap = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
     static auto* cubemapFace = &::il2cpp_utils::GetClassFromName("UnityEngine", "CubemapFace")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CubemapHelpers*), "DrawCubemapFace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cubemap, cubemapFace});
@@ -158,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::CubemapHelpers::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CubemapHelpers*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

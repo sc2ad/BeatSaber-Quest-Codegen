@@ -81,7 +81,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolCleanupChecker*, "Zenject", "PoolCleanupChec
 // Il2CppName: LateDispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::PoolCleanupChecker::*)()>(&Zenject::PoolCleanupChecker::LateDispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::PoolCleanupChecker*), "LateDispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

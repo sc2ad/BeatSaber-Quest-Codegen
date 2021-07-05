@@ -175,7 +175,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextGenerationSettings, "UnityEngine", "Text
 // Il2CppName: CompareColors
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextGenerationSettings::*)(UnityEngine::Color, UnityEngine::Color)>(&UnityEngine::TextGenerationSettings::CompareColors)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* left = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     static auto* right = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerationSettings), "CompareColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{left, right});
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: CompareVector2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextGenerationSettings::*)(UnityEngine::Vector2, UnityEngine::Vector2)>(&UnityEngine::TextGenerationSettings::CompareVector2)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* left = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     static auto* right = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerationSettings), "CompareVector2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{left, right});
@@ -195,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Il2CppName: Equals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::TextGenerationSettings::*)(UnityEngine::TextGenerationSettings)>(&UnityEngine::TextGenerationSettings::Equals)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextGenerationSettings")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextGenerationSettings), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }

@@ -119,7 +119,7 @@ DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_DefaultControls*, "TMPro", "TMP_DefaultControl
 // Il2CppName: CreateUIElementRoot
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::Il2CppString*, UnityEngine::Vector2)>(&TMPro::TMP_DefaultControls::CreateUIElementRoot)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_DefaultControls*), "CreateUIElementRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, size});
@@ -129,7 +129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: CreateUIObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::Il2CppString*, UnityEngine::GameObject*)>(&TMPro::TMP_DefaultControls::CreateUIObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* parent = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_DefaultControls*), "CreateUIObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, parent});
@@ -139,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: SetDefaultTextValues
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(TMPro::TMP_Text*)>(&TMPro::TMP_DefaultControls::SetDefaultTextValues)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lbl = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_DefaultControls*), "SetDefaultTextValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lbl});
   }
@@ -148,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(TM
 // Il2CppName: SetDefaultColorTransitionValues
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::Selectable*)>(&TMPro::TMP_DefaultControls::SetDefaultColorTransitionValues)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* slider = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Selectable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_DefaultControls*), "SetDefaultColorTransitionValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{slider});
   }
@@ -157,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: SetParentAndAlign
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, UnityEngine::GameObject*)>(&TMPro::TMP_DefaultControls::SetParentAndAlign)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* child = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* parent = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_DefaultControls*), "SetParentAndAlign", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{child, parent});
@@ -167,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: SetLayerRecursively
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, int)>(&TMPro::TMP_DefaultControls::SetLayerRecursively)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* layer = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_DefaultControls*), "SetLayerRecursively", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{go, layer});
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Il2CppName: CreateScrollbar
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(TMPro::TMP_DefaultControls::Resources)>(&TMPro::TMP_DefaultControls::CreateScrollbar)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resources = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_DefaultControls/Resources")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_DefaultControls*), "CreateScrollbar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resources});
   }
@@ -186,7 +186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: CreateButton
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(TMPro::TMP_DefaultControls::Resources)>(&TMPro::TMP_DefaultControls::CreateButton)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resources = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_DefaultControls/Resources")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_DefaultControls*), "CreateButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resources});
   }
@@ -195,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: CreateText
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(TMPro::TMP_DefaultControls::Resources)>(&TMPro::TMP_DefaultControls::CreateText)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resources = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_DefaultControls/Resources")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_DefaultControls*), "CreateText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resources});
   }
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: CreateInputField
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(TMPro::TMP_DefaultControls::Resources)>(&TMPro::TMP_DefaultControls::CreateInputField)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resources = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_DefaultControls/Resources")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_DefaultControls*), "CreateInputField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resources});
   }
@@ -213,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: CreateDropdown
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(TMPro::TMP_DefaultControls::Resources)>(&TMPro::TMP_DefaultControls::CreateDropdown)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* resources = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_DefaultControls/Resources")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_DefaultControls*), "CreateDropdown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resources});
   }
@@ -222,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&TMPro::TMP_DefaultControls::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_DefaultControls*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

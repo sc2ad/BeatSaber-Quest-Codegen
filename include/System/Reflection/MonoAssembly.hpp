@@ -77,7 +77,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoAssembly*, "System.Reflection", "
 // Il2CppName: GetType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Reflection::MonoAssembly::*)(::Il2CppString*, bool, bool)>(&System::Reflection::MonoAssembly::GetType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* throwOnError = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* ignoreCase = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -88,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Il2CppName: GetModule
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Module* (System::Reflection::MonoAssembly::*)(::Il2CppString*)>(&System::Reflection::MonoAssembly::GetModule)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoAssembly*), "GetModule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
   }
@@ -97,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Il2CppName: GetReferencedAssemblies
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::AssemblyName*>* (System::Reflection::MonoAssembly::*)()>(&System::Reflection::MonoAssembly::GetReferencedAssemblies)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoAssembly*), "GetReferencedAssemblies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -105,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Sys
 // Il2CppName: GetModules
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::Module*>* (System::Reflection::MonoAssembly::*)(bool)>(&System::Reflection::MonoAssembly::GetModules)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* getResourceModules = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoAssembly*), "GetModules", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{getResourceModules});
   }

@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FakeMirrorObjectsInstaller::$$c*, "", "F
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::FakeMirrorObjectsInstaller::$$c::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FakeMirrorObjectsInstaller::$$c*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -71,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: <InstallBindings>b__7_0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::FakeMirrorObjectsInstaller::$$c::*)(Zenject::BindingId)>(&GlobalNamespace::FakeMirrorObjectsInstaller::$$c::$InstallBindings$b__7_0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("Zenject", "BindingId")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FakeMirrorObjectsInstaller::$$c*), "<InstallBindings>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }

@@ -134,7 +134,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerContext*, "System.Net", "HttpLis
 // Il2CppName: get_ErrorStatus
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::HttpListenerContext::*)()>(&System::Net::HttpListenerContext::get_ErrorStatus)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerContext*), "get_ErrorStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Il2CppName: set_ErrorStatus
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerContext::*)(int)>(&System::Net::HttpListenerContext::set_ErrorStatus)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerContext*), "set_ErrorStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -151,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_ErrorMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::HttpListenerContext::*)()>(&System::Net::HttpListenerContext::get_ErrorMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerContext*), "get_ErrorMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -159,7 +159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: set_ErrorMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerContext::*)(::Il2CppString*)>(&System::Net::HttpListenerContext::set_ErrorMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerContext*), "set_ErrorMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -168,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: get_HaveError
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpListenerContext::*)()>(&System::Net::HttpListenerContext::get_HaveError)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerContext*), "get_HaveError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -176,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: get_Connection
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpConnection* (System::Net::HttpListenerContext::*)()>(&System::Net::HttpListenerContext::get_Connection)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerContext*), "get_Connection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -184,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: get_Request
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpListenerRequest* (System::Net::HttpListenerContext::*)()>(&System::Net::HttpListenerContext::get_Request)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerContext*), "get_Request", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -192,7 +192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: get_Response
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::HttpListenerResponse* (System::Net::HttpListenerContext::*)()>(&System::Net::HttpListenerContext::get_Response)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerContext*), "get_Response", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -200,7 +200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Il2CppName: ParseAuthentication
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerContext::*)(System::Net::AuthenticationSchemes)>(&System::Net::HttpListenerContext::ParseAuthentication)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* expectedSchemes = &::il2cpp_utils::GetClassFromName("System.Net", "AuthenticationSchemes")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerContext*), "ParseAuthentication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expectedSchemes});
   }
@@ -209,7 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: ParseBasicAuthentication
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Principal::IPrincipal* (System::Net::HttpListenerContext::*)(::Il2CppString*)>(&System::Net::HttpListenerContext::ParseBasicAuthentication)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* authData = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerContext*), "ParseBasicAuthentication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{authData});
   }

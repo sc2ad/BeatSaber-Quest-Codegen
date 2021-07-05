@@ -101,7 +101,7 @@ DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMessageHandler::$WithFailureHandler$d__
 // Il2CppName: MoveNext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::UserMessageHandler::$WithFailureHandler$d__40::*)()>(&MasterServer::UserMessageHandler::$WithFailureHandler$d__40::MoveNext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::UserMessageHandler::$WithFailureHandler$d__40), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Il2CppName: SetStateMachine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::UserMessageHandler::$WithFailureHandler$d__40::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&MasterServer::UserMessageHandler::$WithFailureHandler$d__40::SetStateMachine)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stateMachine = &::il2cpp_utils::GetClassFromName("System.Runtime.CompilerServices", "IAsyncStateMachine")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::UserMessageHandler::$WithFailureHandler$d__40), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stateMachine});
   }

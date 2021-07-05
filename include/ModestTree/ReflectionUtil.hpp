@@ -187,7 +187,7 @@ DEFINE_IL2CPP_ARG_TYPE(ModestTree::ReflectionUtil*, "ModestTree", "ReflectionUti
 // Il2CppName: CreateArray
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(System::Type*, System::Collections::Generic::List_1<::Il2CppObject*>*)>(&ModestTree::ReflectionUtil::CreateArray)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* elementType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* instances = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::ReflectionUtil*), "CreateArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{elementType, instances});
@@ -197,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Arr
 // Il2CppName: CreateGenericList
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (*)(System::Type*, System::Collections::Generic::List_1<::Il2CppObject*>*)>(&ModestTree::ReflectionUtil::CreateGenericList)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* elementType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* instances = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::ReflectionUtil*), "CreateGenericList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{elementType, instances});
@@ -207,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: ToDebugString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Reflection::MethodInfo*)>(&ModestTree::ReflectionUtil::ToDebugString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::ReflectionUtil*), "ToDebugString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method});
   }
@@ -216,7 +216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: ToDebugString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Action*)>(&ModestTree::ReflectionUtil::ToDebugString)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::ReflectionUtil*), "ToDebugString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});
   }

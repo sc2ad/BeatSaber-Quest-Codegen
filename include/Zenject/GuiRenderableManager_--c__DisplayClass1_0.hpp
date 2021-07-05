@@ -72,7 +72,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::GuiRenderableManager::$$c__DisplayClass1_0*, "Ze
 // Il2CppName: <.ctor>b__1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::GuiRenderableManager::$$c__DisplayClass1_0::*)(ModestTree::Util::ValuePair_2<System::Type*, int>*)>(&Zenject::GuiRenderableManager::$$c__DisplayClass1_0::$_ctor$b__1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("ModestTree.Util", "ValuePair`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type"), ::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::GuiRenderableManager::$$c__DisplayClass1_0*), "<.ctor>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }

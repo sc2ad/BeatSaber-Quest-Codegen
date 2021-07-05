@@ -44,7 +44,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Compatibility::LongLivedMarshalByRefObject*, "NUni
 // Il2CppName: InitializeLifetimeService
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (NUnit::Compatibility::LongLivedMarshalByRefObject::*)()>(&NUnit::Compatibility::LongLivedMarshalByRefObject::InitializeLifetimeService)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Compatibility::LongLivedMarshalByRefObject*), "InitializeLifetimeService", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

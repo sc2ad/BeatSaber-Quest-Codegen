@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::TitleViewController*, "HMUI", "TitleViewController"
 // Il2CppName: SetText
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TitleViewController::*)(::Il2CppString*)>(&HMUI::TitleViewController::SetText)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::TitleViewController*), "SetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});
   }

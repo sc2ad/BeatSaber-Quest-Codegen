@@ -153,7 +153,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::WaypointsTestMenuViewController::$CheckB
 // Il2CppName: System.IDisposable.Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::WaypointsTestMenuViewController::$CheckBeatmaps$d__13::*)()>(&GlobalNamespace::WaypointsTestMenuViewController::$CheckBeatmaps$d__13::System_IDisposable_Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointsTestMenuViewController::$CheckBeatmaps$d__13*), "System.IDisposable.Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -161,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: MoveNext
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::WaypointsTestMenuViewController::$CheckBeatmaps$d__13::*)()>(&GlobalNamespace::WaypointsTestMenuViewController::$CheckBeatmaps$d__13::MoveNext)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointsTestMenuViewController::$CheckBeatmaps$d__13*), "MoveNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -169,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: <>m__Finally1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::WaypointsTestMenuViewController::$CheckBeatmaps$d__13::*)()>(&GlobalNamespace::WaypointsTestMenuViewController::$CheckBeatmaps$d__13::$$m__Finally1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointsTestMenuViewController::$CheckBeatmaps$d__13*), "<>m__Finally1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <>m__Finally2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::WaypointsTestMenuViewController::$CheckBeatmaps$d__13::*)()>(&GlobalNamespace::WaypointsTestMenuViewController::$CheckBeatmaps$d__13::$$m__Finally2)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointsTestMenuViewController::$CheckBeatmaps$d__13*), "<>m__Finally2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -185,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: <>m__Finally3
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::WaypointsTestMenuViewController::$CheckBeatmaps$d__13::*)()>(&GlobalNamespace::WaypointsTestMenuViewController::$CheckBeatmaps$d__13::$$m__Finally3)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointsTestMenuViewController::$CheckBeatmaps$d__13*), "<>m__Finally3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -193,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: System.Collections.Generic.IEnumerator<System.Object>.get_Current
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (GlobalNamespace::WaypointsTestMenuViewController::$CheckBeatmaps$d__13::*)()>(&GlobalNamespace::WaypointsTestMenuViewController::$CheckBeatmaps$d__13::System_Collections_Generic_IEnumerator$System_Object$_get_Current)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointsTestMenuViewController::$CheckBeatmaps$d__13*), "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -201,7 +201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: System.Collections.IEnumerator.Reset
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::WaypointsTestMenuViewController::$CheckBeatmaps$d__13::*)()>(&GlobalNamespace::WaypointsTestMenuViewController::$CheckBeatmaps$d__13::System_Collections_IEnumerator_Reset)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointsTestMenuViewController::$CheckBeatmaps$d__13*), "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -209,7 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: System.Collections.IEnumerator.get_Current
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (GlobalNamespace::WaypointsTestMenuViewController::$CheckBeatmaps$d__13::*)()>(&GlobalNamespace::WaypointsTestMenuViewController::$CheckBeatmaps$d__13::System_Collections_IEnumerator_get_Current)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointsTestMenuViewController::$CheckBeatmaps$d__13*), "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

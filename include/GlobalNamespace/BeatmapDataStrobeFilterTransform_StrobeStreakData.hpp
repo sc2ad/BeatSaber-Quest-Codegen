@@ -115,7 +115,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataStrobeFilterTransform::Strobe
 // Il2CppName: StartPotentialStrobe
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData::*)(GlobalNamespace::BeatmapEventData*, int)>(&GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData::StartPotentialStrobe)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* startEventData = &::il2cpp_utils::GetClassFromName("", "BeatmapEventData")->byval_arg;
     static auto* originalIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData*), "StartPotentialStrobe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{startEventData, originalIndex});
@@ -125,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: AddStrobeData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData::*)(GlobalNamespace::BeatmapEventData*, int)>(&GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData::AddStrobeData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* startEventData = &::il2cpp_utils::GetClassFromName("", "BeatmapEventData")->byval_arg;
     static auto* beatmapIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData*), "AddStrobeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{startEventData, beatmapIndex});

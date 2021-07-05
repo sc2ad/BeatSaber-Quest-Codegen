@@ -76,7 +76,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ReflectionProbeDataSO*, "", "ReflectionP
 // Il2CppName: get_reflectionProbeCubemap1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Cubemap* (GlobalNamespace::ReflectionProbeDataSO::*)()>(&GlobalNamespace::ReflectionProbeDataSO::get_reflectionProbeCubemap1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ReflectionProbeDataSO*), "get_reflectionProbeCubemap1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_reflectionProbeCubemap1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ReflectionProbeDataSO::*)(UnityEngine::Cubemap*)>(&GlobalNamespace::ReflectionProbeDataSO::set_reflectionProbeCubemap1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Cubemap")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ReflectionProbeDataSO*), "set_reflectionProbeCubemap1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_reflectionProbeCubemap2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Cubemap* (GlobalNamespace::ReflectionProbeDataSO::*)()>(&GlobalNamespace::ReflectionProbeDataSO::get_reflectionProbeCubemap2)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ReflectionProbeDataSO*), "get_reflectionProbeCubemap2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: set_reflectionProbeCubemap2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ReflectionProbeDataSO::*)(UnityEngine::Cubemap*)>(&GlobalNamespace::ReflectionProbeDataSO::set_reflectionProbeCubemap2)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Cubemap")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ReflectionProbeDataSO*), "set_reflectionProbeCubemap2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

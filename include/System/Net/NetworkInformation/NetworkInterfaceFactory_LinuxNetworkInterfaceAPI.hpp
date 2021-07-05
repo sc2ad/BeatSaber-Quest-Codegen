@@ -65,7 +65,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::NetworkInterfaceFactory:
 // Il2CppName: FreeInterfaceAddresses
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&System::Net::NetworkInformation::NetworkInterfaceFactory::LinuxNetworkInterfaceAPI::FreeInterfaceAddresses)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ifap = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::NetworkInterfaceFactory::LinuxNetworkInterfaceAPI*), "FreeInterfaceAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ifap});
   }
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: GetInterfaceAddresses
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr&)>(&System::Net::NetworkInformation::NetworkInterfaceFactory::LinuxNetworkInterfaceAPI::GetInterfaceAddresses)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ifap = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::NetworkInterfaceFactory::LinuxNetworkInterfaceAPI*), "GetInterfaceAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ifap});
   }
@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Il2CppName: GetAllNetworkInterfaces
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Net::NetworkInformation::NetworkInterface*>* (System::Net::NetworkInformation::NetworkInterfaceFactory::LinuxNetworkInterfaceAPI::*)()>(&System::Net::NetworkInformation::NetworkInterfaceFactory::LinuxNetworkInterfaceAPI::GetAllNetworkInterfaces)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::NetworkInterfaceFactory::LinuxNetworkInterfaceAPI*), "GetAllNetworkInterfaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

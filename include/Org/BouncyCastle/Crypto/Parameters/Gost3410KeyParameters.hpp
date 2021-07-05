@@ -76,7 +76,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParamet
 // Il2CppName: get_Parameters
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* (Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters::get_Parameters)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters*), "get_Parameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Il2CppName: LookupParameters
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters::LookupParameters)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* publicKeyParamSet = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "DerObjectIdentifier")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters*), "LookupParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{publicKeyParamSet});
   }

@@ -77,7 +77,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarHeadOffset*, "", "AvatarHeadOffset
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarHeadOffset::*)()>(&GlobalNamespace::AvatarHeadOffset::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarHeadOffset*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: OnDestroy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarHeadOffset::*)()>(&GlobalNamespace::AvatarHeadOffset::OnDestroy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarHeadOffset*), "OnDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: HandleMultiplayerAvatarPoseControllerDidUpdatePose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarHeadOffset::*)(UnityEngine::Vector3)>(&GlobalNamespace::AvatarHeadOffset::HandleMultiplayerAvatarPoseControllerDidUpdatePose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* headLocalPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarHeadOffset*), "HandleMultiplayerAvatarPoseControllerDidUpdatePose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{headLocalPosition});
   }

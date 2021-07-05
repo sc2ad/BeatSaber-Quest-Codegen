@@ -82,7 +82,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::OuterUnityTestActionCommand*, "Un
 // Il2CppName: GetUnityTestActionsFromMethod
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::TestTools::IOuterUnityTestAction*>* (*)(System::Reflection::MethodInfo*)>(&UnityEngine::TestTools::OuterUnityTestActionCommand::GetUnityTestActionsFromMethod)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::OuterUnityTestActionCommand*), "GetUnityTestActionsFromMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method});
   }
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 // Il2CppName: InvokeBefore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (UnityEngine::TestTools::OuterUnityTestActionCommand::*)(UnityEngine::TestTools::IOuterUnityTestAction*, NUnit::Framework::Internal::Test*, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*)>(&UnityEngine::TestTools::OuterUnityTestActionCommand::InvokeBefore)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("UnityEngine.TestTools", "IOuterUnityTestAction")->byval_arg;
     static auto* test = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "Test")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityTestExecutionContext")->byval_arg;
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: InvokeAfter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (UnityEngine::TestTools::OuterUnityTestActionCommand::*)(UnityEngine::TestTools::IOuterUnityTestAction*, NUnit::Framework::Internal::Test*, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*)>(&UnityEngine::TestTools::OuterUnityTestActionCommand::InvokeAfter)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("UnityEngine.TestTools", "IOuterUnityTestAction")->byval_arg;
     static auto* test = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "Test")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityTestExecutionContext")->byval_arg;
@@ -117,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: GetState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::TestTools::BeforeAfterTestCommandState* (UnityEngine::TestTools::OuterUnityTestActionCommand::*)(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*)>(&UnityEngine::TestTools::OuterUnityTestActionCommand::GetState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityTestExecutionContext")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::OuterUnityTestActionCommand*), "GetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }

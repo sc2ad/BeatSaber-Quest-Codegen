@@ -41,7 +41,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::AttributeDictionary*, "NUni
 // Il2CppName: get_Item
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Interfaces::AttributeDictionary::*)(::Il2CppString*)>(&NUnit::Framework::Interfaces::AttributeDictionary::get_Item)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::AttributeDictionary*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
   }

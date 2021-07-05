@@ -96,7 +96,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PacketEncryptionLayer::PendingEncryption
 // Il2CppName: get_isEmpty
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::*)()>(&GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::get_isEmpty)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList*), "get_isEmpty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -104,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::*)()>(&GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: GetSortedEncryptionStates
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::EncryptionUtility::IEncryptionState*>* (GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::*)(int)>(&GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::GetSortedEncryptionStates)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* port = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList*), "GetSortedEncryptionStates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{port});
   }
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 // Il2CppName: TryGetEncryptionState
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::*)(int, GlobalNamespace::EncryptionUtility::IEncryptionState*&)>(&GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::TryGetEncryptionState)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* port = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* encryptionState = &::il2cpp_utils::GetClassFromName("", "EncryptionUtility/IEncryptionState")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList*), "TryGetEncryptionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{port, encryptionState});
@@ -131,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: Add
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::*)(int, GlobalNamespace::EncryptionUtility::IEncryptionState*)>(&GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::Add)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* port = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* encryptionState = &::il2cpp_utils::GetClassFromName("", "EncryptionUtility/IEncryptionState")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{port, encryptionState});
@@ -141,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Remove
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::*)(int)>(&GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::Remove)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* port = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{port});
   }
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Il2CppName: Remove
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::*)(int, GlobalNamespace::EncryptionUtility::IEncryptionState*)>(&GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::Remove)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* port = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* encryptionState = &::il2cpp_utils::GetClassFromName("", "EncryptionUtility/IEncryptionState")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{port, encryptionState});

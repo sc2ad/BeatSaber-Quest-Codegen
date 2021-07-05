@@ -39,7 +39,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::INotificationReceiver*, "UnityEng
 // Il2CppName: OnNotify
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Playables::INotificationReceiver::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::INotification*, ::Il2CppObject*)>(&UnityEngine::Playables::INotificationReceiver::OnNotify)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")->byval_arg;
     static auto* notification = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "INotification")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

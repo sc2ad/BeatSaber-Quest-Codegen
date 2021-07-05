@@ -69,7 +69,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMa
 // Il2CppName: get_renderer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Renderer* (GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs::*)()>(&GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs::get_renderer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*), "get_renderer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: get_materialPairs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>* (GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs::*)()>(&GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs::get_materialPairs)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*), "get_materialPairs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

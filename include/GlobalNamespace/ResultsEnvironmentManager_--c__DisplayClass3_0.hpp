@@ -54,7 +54,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsEnvironmentManager::$$c__DisplayC
 // Il2CppName: <GetResultEnvironmentControllerForKeyword>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::ResultsEnvironmentManager::$$c__DisplayClass3_0::*)(GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*)>(&GlobalNamespace::ResultsEnvironmentManager::$$c__DisplayClass3_0::$GetResultEnvironmentControllerForKeyword$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* controllerWithKeyword = &::il2cpp_utils::GetClassFromName("", "ResultsEnvironmentManager/ResultEnvironmentControllerWithKeyword")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsEnvironmentManager::$$c__DisplayClass3_0*), "<GetResultEnvironmentControllerForKeyword>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{controllerWithKeyword});
   }

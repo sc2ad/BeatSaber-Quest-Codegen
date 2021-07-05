@@ -140,7 +140,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayServerFiniteStateMachine::GameSt
 // Il2CppName: add_onGameStateChanged
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayServerFiniteStateMachine::*)(System::Action_1<GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType>*)>(&GlobalNamespace::GameplayServerFiniteStateMachine::add_onGameStateChanged)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "GameplayServerFiniteStateMachine/GameStateType")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayServerFiniteStateMachine*), "add_onGameStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_onGameStateChanged
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayServerFiniteStateMachine::*)(System::Action_1<GlobalNamespace::GameplayServerFiniteStateMachine::GameStateType>*)>(&GlobalNamespace::GameplayServerFiniteStateMachine::remove_onGameStateChanged)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "GameplayServerFiniteStateMachine/GameStateType")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayServerFiniteStateMachine*), "remove_onGameStateChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -158,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: Dispose
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayServerFiniteStateMachine::*)()>(&GlobalNamespace::GameplayServerFiniteStateMachine::Dispose)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayServerFiniteStateMachine*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

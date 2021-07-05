@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelsModel::$$c__DisplayClass34_
 // Il2CppName: <GetLevelPreviewForLevelId>b__1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BeatmapLevelsModel::$$c__DisplayClass34_0::*)(GlobalNamespace::IPreviewBeatmapLevel*)>(&GlobalNamespace::BeatmapLevelsModel::$$c__DisplayClass34_0::$GetLevelPreviewForLevelId$b__1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmapLevel = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelsModel::$$c__DisplayClass34_0*), "<GetLevelPreviewForLevelId>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapLevel});
   }

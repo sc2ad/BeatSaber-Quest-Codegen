@@ -101,7 +101,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleExecutionRating::Rating, "", "Ob
 // Il2CppName: get_rating
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ObstacleExecutionRating::Rating (GlobalNamespace::ObstacleExecutionRating::*)()>(&GlobalNamespace::ObstacleExecutionRating::get_rating)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleExecutionRating*), "get_rating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: set_rating
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleExecutionRating::*)(GlobalNamespace::ObstacleExecutionRating::Rating)>(&GlobalNamespace::ObstacleExecutionRating::set_rating)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "ObstacleExecutionRating/Rating")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleExecutionRating*), "set_rating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }

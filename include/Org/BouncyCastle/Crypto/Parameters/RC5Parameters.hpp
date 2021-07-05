@@ -39,7 +39,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::RC5Parameters*, "O
 // Il2CppName: get_Rounds
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Parameters::RC5Parameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::RC5Parameters::get_Rounds)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::RC5Parameters*), "get_Rounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

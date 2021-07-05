@@ -84,7 +84,7 @@ DEFINE_IL2CPP_ARG_TYPE(OnlineServices::PlatformOnlineServicesAvailabilityModel*,
 // Il2CppName: add_platformServicesAvailabilityInfoChangedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::PlatformOnlineServicesAvailabilityModel::*)(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*)>(&OnlineServices::PlatformOnlineServicesAvailabilityModel::add_platformServicesAvailabilityInfoChangedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("OnlineServices", "PlatformServicesAvailabilityInfo")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::PlatformOnlineServicesAvailabilityModel*), "add_platformServicesAvailabilityInfoChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -93,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Onlin
 // Il2CppName: remove_platformServicesAvailabilityInfoChangedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::PlatformOnlineServicesAvailabilityModel::*)(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*)>(&OnlineServices::PlatformOnlineServicesAvailabilityModel::remove_platformServicesAvailabilityInfoChangedEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("OnlineServices", "PlatformServicesAvailabilityInfo")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::PlatformOnlineServicesAvailabilityModel*), "remove_platformServicesAvailabilityInfoChangedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -102,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Onlin
 // Il2CppName: GetPlatformServicesAvailabilityInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<OnlineServices::PlatformServicesAvailabilityInfo*>* (OnlineServices::PlatformOnlineServicesAvailabilityModel::*)(System::Threading::CancellationToken)>(&OnlineServices::PlatformOnlineServicesAvailabilityModel::GetPlatformServicesAvailabilityInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OnlineServices::PlatformOnlineServicesAvailabilityModel*), "GetPlatformServicesAvailabilityInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
   }

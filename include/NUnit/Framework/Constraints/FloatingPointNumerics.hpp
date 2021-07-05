@@ -39,7 +39,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::FloatingPointNumerics*, "N
 // Il2CppName: AreAlmostEqualUlps
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(float, float, int)>(&NUnit::Framework::Constraints::FloatingPointNumerics::AreAlmostEqualUlps)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* left = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* right = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* maxUlps = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -50,7 +50,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(fl
 // Il2CppName: AreAlmostEqualUlps
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(double, double, int64_t)>(&NUnit::Framework::Constraints::FloatingPointNumerics::AreAlmostEqualUlps)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* left = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     static auto* right = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     static auto* maxUlps = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;

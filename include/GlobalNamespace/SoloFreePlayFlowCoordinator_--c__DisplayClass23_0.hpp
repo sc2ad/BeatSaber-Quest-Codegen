@@ -63,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SoloFreePlayFlowCoordinator::$$c__Displa
 // Il2CppName: <HandleResultsViewControllerRestartButtonPressed>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SoloFreePlayFlowCoordinator::$$c__DisplayClass23_0::*)()>(&GlobalNamespace::SoloFreePlayFlowCoordinator::$$c__DisplayClass23_0::$HandleResultsViewControllerRestartButtonPressed$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SoloFreePlayFlowCoordinator::$$c__DisplayClass23_0*), "<HandleResultsViewControllerRestartButtonPressed>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

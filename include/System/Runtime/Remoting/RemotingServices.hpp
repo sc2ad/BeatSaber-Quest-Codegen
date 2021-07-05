@@ -259,7 +259,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::RemotingServices*, "System.Run
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Runtime::Remoting::RemotingServices::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -267,7 +267,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: InternalExecute
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Reflection::MethodBase*, ::Il2CppObject*, ::Array<::Il2CppObject*>*, ::Array<::Il2CppObject*>*&)>(&System::Runtime::Remoting::RemotingServices::InternalExecute)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase")->byval_arg;
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* parameters = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -279,7 +279,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: GetVirtualMethod
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (*)(System::Type*, System::Reflection::MethodBase*)>(&System::Runtime::Remoting::RemotingServices::GetVirtualMethod)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "GetVirtualMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, method});
@@ -289,7 +289,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Il2CppName: IsTransparentProxy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*)>(&System::Runtime::Remoting::RemotingServices::IsTransparentProxy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* proxy = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "IsTransparentProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{proxy});
   }
@@ -298,7 +298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: InternalExecuteMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMethodReturnMessage* (*)(System::MarshalByRefObject*, System::Runtime::Remoting::Messaging::IMethodCallMessage*)>(&System::Runtime::Remoting::RemotingServices::InternalExecuteMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "MarshalByRefObject")->byval_arg;
     static auto* reqMsg = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "IMethodCallMessage")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "InternalExecuteMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{target, reqMsg});
@@ -308,7 +308,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: Connect
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, ::Il2CppString*)>(&System::Runtime::Remoting::RemotingServices::Connect)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* classToProxy = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{classToProxy, url});
@@ -318,7 +318,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: Connect
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, ::Il2CppString*, ::Il2CppObject*)>(&System::Runtime::Remoting::RemotingServices::Connect)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* classToProxy = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -329,7 +329,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: GetServerTypeForUri
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(::Il2CppString*)>(&System::Runtime::Remoting::RemotingServices::GetServerTypeForUri)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* URI = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "GetServerTypeForUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{URI});
   }
@@ -338,7 +338,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Il2CppName: Unmarshal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Runtime::Remoting::ObjRef*)>(&System::Runtime::Remoting::RemotingServices::Unmarshal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* objectRef = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ObjRef")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "Unmarshal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{objectRef});
   }
@@ -347,7 +347,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: Unmarshal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Runtime::Remoting::ObjRef*, bool)>(&System::Runtime::Remoting::RemotingServices::Unmarshal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* objectRef = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ObjRef")->byval_arg;
     static auto* fRefine = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "Unmarshal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{objectRef, fRefine});
@@ -357,7 +357,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: Marshal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ObjRef* (*)(System::MarshalByRefObject*)>(&System::Runtime::Remoting::RemotingServices::Marshal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* Obj = &::il2cpp_utils::GetClassFromName("System", "MarshalByRefObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "Marshal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{Obj});
   }
@@ -366,7 +366,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: Marshal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ObjRef* (*)(System::MarshalByRefObject*, ::Il2CppString*, System::Type*)>(&System::Runtime::Remoting::RemotingServices::Marshal)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* Obj = &::il2cpp_utils::GetClassFromName("System", "MarshalByRefObject")->byval_arg;
     static auto* ObjURI = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* RequestedType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -377,7 +377,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: NewUri
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)()>(&System::Runtime::Remoting::RemotingServices::NewUri)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "NewUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -385,7 +385,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetRealProxy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Proxies::RealProxy* (*)(::Il2CppObject*)>(&System::Runtime::Remoting::RemotingServices::GetRealProxy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* proxy = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "GetRealProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{proxy});
   }
@@ -394,7 +394,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: GetMethodBaseFromMethodMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (*)(System::Runtime::Remoting::Messaging::IMethodMessage*)>(&System::Runtime::Remoting::RemotingServices::GetMethodBaseFromMethodMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* msg = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "IMethodMessage")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "GetMethodBaseFromMethodMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{msg});
   }
@@ -403,7 +403,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Il2CppName: GetMethodBaseFromName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (*)(System::Type*, ::Il2CppString*, ::Array<System::Type*>*)>(&System::Runtime::Remoting::RemotingServices::GetMethodBaseFromName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* signature = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
@@ -414,7 +414,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Il2CppName: FindInterfaceMethod
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (*)(System::Type*, ::Il2CppString*, ::Array<System::Type*>*)>(&System::Runtime::Remoting::RemotingServices::FindInterfaceMethod)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* signature = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
@@ -425,7 +425,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Il2CppName: GetObjectData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Runtime::Remoting::RemotingServices::GetObjectData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
@@ -436,7 +436,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: IsOneWay
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::MethodBase*)>(&System::Runtime::Remoting::RemotingServices::IsOneWay)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "IsOneWay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method});
   }
@@ -445,7 +445,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: CreateClientProxy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Runtime::Remoting::ActivatedClientTypeEntry*, ::Array<::Il2CppObject*>*)>(&System::Runtime::Remoting::RemotingServices::CreateClientProxy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* entry = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ActivatedClientTypeEntry")->byval_arg;
     static auto* activationAttributes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "CreateClientProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{entry, activationAttributes});
@@ -455,7 +455,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: CreateClientProxy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, ::Il2CppString*, ::Array<::Il2CppObject*>*)>(&System::Runtime::Remoting::RemotingServices::CreateClientProxy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* objectType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* activationAttributes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -466,7 +466,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: CreateClientProxy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Runtime::Remoting::WellKnownClientTypeEntry*)>(&System::Runtime::Remoting::RemotingServices::CreateClientProxy)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* entry = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "WellKnownClientTypeEntry")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "CreateClientProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{entry});
   }
@@ -475,7 +475,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: CreateClientProxyForContextBound
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, ::Array<::Il2CppObject*>*)>(&System::Runtime::Remoting::RemotingServices::CreateClientProxyForContextBound)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* activationAttributes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "CreateClientProxyForContextBound", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, activationAttributes});
@@ -485,7 +485,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: GetIdentityForUri
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Identity* (*)(::Il2CppString*)>(&System::Runtime::Remoting::RemotingServices::GetIdentityForUri)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "GetIdentityForUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uri});
   }
@@ -494,7 +494,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: RemoveAppNameFromUri
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Runtime::Remoting::RemotingServices::RemoveAppNameFromUri)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "RemoveAppNameFromUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uri});
   }
@@ -503,7 +503,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: GetOrCreateClientIdentity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ClientIdentity* (*)(System::Runtime::Remoting::ObjRef*, System::Type*, ::Il2CppObject*&)>(&System::Runtime::Remoting::RemotingServices::GetOrCreateClientIdentity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* objRef = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ObjRef")->byval_arg;
     static auto* proxyType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* clientProxy = &::il2cpp_utils::GetClassFromName("System", "Object")->this_arg;
@@ -514,7 +514,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: GetClientChannelSinkChain
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (*)(::Il2CppString*, ::Il2CppObject*, ::Il2CppString*&)>(&System::Runtime::Remoting::RemotingServices::GetClientChannelSinkChain)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* channelData = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* objectUri = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
@@ -525,7 +525,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: CreateContextBoundObjectIdentity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ClientActivatedIdentity* (*)(System::Type*)>(&System::Runtime::Remoting::RemotingServices::CreateContextBoundObjectIdentity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* objectType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "CreateContextBoundObjectIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{objectType});
   }
@@ -534,7 +534,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: CreateClientActivatedServerIdentity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ClientActivatedIdentity* (*)(System::MarshalByRefObject*, System::Type*, ::Il2CppString*)>(&System::Runtime::Remoting::RemotingServices::CreateClientActivatedServerIdentity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* realObject = &::il2cpp_utils::GetClassFromName("System", "MarshalByRefObject")->byval_arg;
     static auto* objectType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* objectUri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -545,7 +545,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: CreateWellKnownServerIdentity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ServerIdentity* (*)(System::Type*, ::Il2CppString*, System::Runtime::Remoting::WellKnownObjectMode)>(&System::Runtime::Remoting::RemotingServices::CreateWellKnownServerIdentity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* objectType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* objectUri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* mode = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "WellKnownObjectMode")->byval_arg;
@@ -556,7 +556,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: RegisterServerIdentity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::ServerIdentity*)>(&System::Runtime::Remoting::RemotingServices::RegisterServerIdentity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* identity = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ServerIdentity")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "RegisterServerIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{identity});
   }
@@ -565,7 +565,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: GetProxyForRemoteObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Runtime::Remoting::ObjRef*, System::Type*)>(&System::Runtime::Remoting::RemotingServices::GetProxyForRemoteObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* objref = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ObjRef")->byval_arg;
     static auto* classToProxy = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "GetProxyForRemoteObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{objref, classToProxy});
@@ -575,7 +575,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: GetRemoteObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Runtime::Remoting::ObjRef*, System::Type*)>(&System::Runtime::Remoting::RemotingServices::GetRemoteObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* objRef = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ObjRef")->byval_arg;
     static auto* proxyType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "GetRemoteObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{objRef, proxyType});
@@ -585,7 +585,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: SerializeCallData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Il2CppObject*)>(&System::Runtime::Remoting::RemotingServices::SerializeCallData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "SerializeCallData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
@@ -594,7 +594,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: DeserializeCallData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Array<uint8_t>*)>(&System::Runtime::Remoting::RemotingServices::DeserializeCallData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "DeserializeCallData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
   }
@@ -603,7 +603,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: SerializeExceptionData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(System::Exception*)>(&System::Runtime::Remoting::RemotingServices::SerializeExceptionData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ex = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "SerializeExceptionData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ex});
   }
@@ -612,7 +612,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: RegisterInternalChannels
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Runtime::Remoting::RemotingServices::RegisterInternalChannels)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "RegisterInternalChannels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -620,7 +620,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: DisposeIdentity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::Identity*)>(&System::Runtime::Remoting::RemotingServices::DisposeIdentity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ident = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "Identity")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "DisposeIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ident});
   }
@@ -629,7 +629,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: GetMessageTargetIdentity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Identity* (*)(System::Runtime::Remoting::Messaging::IMessage*)>(&System::Runtime::Remoting::RemotingServices::GetMessageTargetIdentity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* msg = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "IMessage")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "GetMessageTargetIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{msg});
   }
@@ -638,7 +638,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Il2CppName: SetMessageTargetIdentity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Runtime::Remoting::Messaging::IMessage*, System::Runtime::Remoting::Identity*)>(&System::Runtime::Remoting::RemotingServices::SetMessageTargetIdentity)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* msg = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "IMessage")->byval_arg;
     static auto* ident = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "Identity")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "SetMessageTargetIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{msg, ident});
@@ -648,7 +648,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: UpdateOutArgObject
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::ParameterInfo*, ::Il2CppObject*, ::Il2CppObject*)>(&System::Runtime::Remoting::RemotingServices::UpdateOutArgObject)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pi = &::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterInfo")->byval_arg;
     static auto* local = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* remote = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -659,7 +659,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Il2CppName: GetNormalizedUri
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Runtime::Remoting::RemotingServices::GetNormalizedUri)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* uri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::RemotingServices*), "GetNormalizedUri", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uri});
   }

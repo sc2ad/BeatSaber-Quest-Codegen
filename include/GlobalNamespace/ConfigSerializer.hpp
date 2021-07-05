@@ -42,7 +42,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConfigSerializer*, "", "ConfigSerializer
 // Il2CppName: SaveConfig
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, ::Il2CppString*)>(&GlobalNamespace::ConfigSerializer::SaveConfig)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* config = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConfigSerializer*), "SaveConfig", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{config, filePath});
@@ -52,7 +52,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Il2CppName: LoadConfig
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*, ::Il2CppString*)>(&GlobalNamespace::ConfigSerializer::LoadConfig)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* config = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConfigSerializer*), "LoadConfig", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{config, filePath});

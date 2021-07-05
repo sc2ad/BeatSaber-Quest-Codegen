@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*, "
 // Il2CppName: AsCached
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConcreteIdArgConditionCopyNonLazyBinder* (Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder::*)()>(&Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder::AsCached)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*), "AsCached", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -69,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 // Il2CppName: AsSingle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConcreteIdArgConditionCopyNonLazyBinder* (Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder::*)()>(&Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder::AsSingle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*), "AsSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -77,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 // Il2CppName: AsTransient
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConcreteIdArgConditionCopyNonLazyBinder* (Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder::*)()>(&Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder::AsTransient)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*), "AsTransient", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

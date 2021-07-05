@@ -51,7 +51,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Collections::Concurrent::CDSCollectionETWBCLProvi
 // Il2CppName: ConcurrentDictionary_AcquiringAllLocks
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Concurrent::CDSCollectionETWBCLProvider::*)(int)>(&System::Collections::Concurrent::CDSCollectionETWBCLProvider::ConcurrentDictionary_AcquiringAllLocks)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* numOfBuckets = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Collections::Concurrent::CDSCollectionETWBCLProvider*), "ConcurrentDictionary_AcquiringAllLocks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{numOfBuckets});
   }
@@ -64,7 +64,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&System::Collections::Concurrent::CDSCollectionETWBCLProvider::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Collections::Concurrent::CDSCollectionETWBCLProvider*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

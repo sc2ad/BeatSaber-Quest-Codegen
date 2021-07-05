@@ -163,7 +163,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Crl*, "Mono.Security.X509", "X5
 // Il2CppName: Parse
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::X509Crl::*)(::Array<uint8_t>*)>(&Mono::Security::X509::X509Crl::Parse)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* crl = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{crl});
   }
@@ -172,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Il2CppName: get_Extensions
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509ExtensionCollection* (Mono::Security::X509::X509Crl::*)()>(&Mono::Security::X509::X509Crl::get_Extensions)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "get_Extensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -180,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Il2CppName: get_Hash
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::X509::X509Crl::*)()>(&Mono::Security::X509::X509Crl::get_Hash)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "get_Hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -188,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 // Il2CppName: get_IssuerName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Mono::Security::X509::X509Crl::*)()>(&Mono::Security::X509::X509Crl::get_IssuerName)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "get_IssuerName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -196,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Il2CppName: get_NextUpdate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (Mono::Security::X509::X509Crl::*)()>(&Mono::Security::X509::X509Crl::get_NextUpdate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "get_NextUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -204,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Il2CppName: Compare
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::X509::X509Crl::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&Mono::Security::X509::X509Crl::Compare)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* array1 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* array2 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array1, array2});
@@ -214,7 +214,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Il2CppName: GetCrlEntry
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Crl::X509CrlEntry* (Mono::Security::X509::X509Crl::*)(Mono::Security::X509::X509Certificate*)>(&Mono::Security::X509::X509Crl::GetCrlEntry)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x509 = &::il2cpp_utils::GetClassFromName("Mono.Security.X509", "X509Certificate")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "GetCrlEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x509});
   }
@@ -223,7 +223,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Il2CppName: GetCrlEntry
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Crl::X509CrlEntry* (Mono::Security::X509::X509Crl::*)(::Array<uint8_t>*)>(&Mono::Security::X509::X509Crl::GetCrlEntry)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* serialNumber = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "GetCrlEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serialNumber});
   }
@@ -232,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Il2CppName: VerifySignature
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::X509::X509Crl::*)(System::Security::Cryptography::DSA*)>(&Mono::Security::X509::X509Crl::VerifySignature)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* dsa = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "DSA")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "VerifySignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dsa});
   }
@@ -241,7 +241,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Il2CppName: VerifySignature
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::X509::X509Crl::*)(System::Security::Cryptography::RSA*)>(&Mono::Security::X509::X509Crl::VerifySignature)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* rsa = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "RSA")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "VerifySignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rsa});
   }
@@ -250,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Il2CppName: VerifySignature
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::X509::X509Crl::*)(System::Security::Cryptography::AsymmetricAlgorithm*)>(&Mono::Security::X509::X509Crl::VerifySignature)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* aa = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "AsymmetricAlgorithm")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "VerifySignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aa});
   }

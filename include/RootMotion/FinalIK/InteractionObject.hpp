@@ -360,7 +360,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject::WeightCurve::Type
 // Il2CppName: OpenUserManual
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionObject::*)()>(&RootMotion::FinalIK::InteractionObject::OpenUserManual)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject*), "OpenUserManual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -368,7 +368,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: OpenScriptReference
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionObject::*)()>(&RootMotion::FinalIK::InteractionObject::OpenScriptReference)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject*), "OpenScriptReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -376,7 +376,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: OpenTutorial1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionObject::*)()>(&RootMotion::FinalIK::InteractionObject::OpenTutorial1)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject*), "OpenTutorial1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -384,7 +384,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: OpenTutorial2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionObject::*)()>(&RootMotion::FinalIK::InteractionObject::OpenTutorial2)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject*), "OpenTutorial2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -392,7 +392,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: OpenTutorial3
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionObject::*)()>(&RootMotion::FinalIK::InteractionObject::OpenTutorial3)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject*), "OpenTutorial3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -400,7 +400,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: OpenTutorial4
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionObject::*)()>(&RootMotion::FinalIK::InteractionObject::OpenTutorial4)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject*), "OpenTutorial4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -408,7 +408,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: SupportGroup
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionObject::*)()>(&RootMotion::FinalIK::InteractionObject::SupportGroup)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject*), "SupportGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -416,7 +416,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: ASThread
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionObject::*)()>(&RootMotion::FinalIK::InteractionObject::ASThread)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject*), "ASThread", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -424,7 +424,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: get_length
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RootMotion::FinalIK::InteractionObject::*)()>(&RootMotion::FinalIK::InteractionObject::get_length)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject*), "get_length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -432,7 +432,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Root
 // Il2CppName: set_length
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionObject::*)(float)>(&RootMotion::FinalIK::InteractionObject::set_length)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject*), "set_length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -441,7 +441,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: get_lastUsedInteractionSystem
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::InteractionSystem* (RootMotion::FinalIK::InteractionObject::*)()>(&RootMotion::FinalIK::InteractionObject::get_lastUsedInteractionSystem)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject*), "get_lastUsedInteractionSystem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -449,7 +449,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion:
 // Il2CppName: set_lastUsedInteractionSystem
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionObject::*)(RootMotion::FinalIK::InteractionSystem*)>(&RootMotion::FinalIK::InteractionObject::set_lastUsedInteractionSystem)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "InteractionSystem")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject*), "set_lastUsedInteractionSystem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -458,7 +458,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: Initiate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionObject::*)()>(&RootMotion::FinalIK::InteractionObject::Initiate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -466,7 +466,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: get_lookAtTarget
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (RootMotion::FinalIK::InteractionObject::*)()>(&RootMotion::FinalIK::InteractionObject::get_lookAtTarget)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject*), "get_lookAtTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -474,7 +474,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetTarget
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::InteractionTarget* (RootMotion::FinalIK::InteractionObject::*)(RootMotion::FinalIK::FullBodyBipedEffector, RootMotion::FinalIK::InteractionSystem*)>(&RootMotion::FinalIK::InteractionObject::GetTarget)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* effectorType = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FullBodyBipedEffector")->byval_arg;
     static auto* interactionSystem = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "InteractionSystem")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject*), "GetTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{effectorType, interactionSystem});
@@ -484,7 +484,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion:
 // Il2CppName: CurveUsed
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::InteractionObject::*)(RootMotion::FinalIK::InteractionObject::WeightCurve::Type)>(&RootMotion::FinalIK::InteractionObject::CurveUsed)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "InteractionObject/WeightCurve/Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject*), "CurveUsed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
@@ -493,7 +493,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Il2CppName: GetTargets
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<RootMotion::FinalIK::InteractionTarget*>* (RootMotion::FinalIK::InteractionObject::*)()>(&RootMotion::FinalIK::InteractionObject::GetTargets)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject*), "GetTargets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -501,7 +501,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Roo
 // Il2CppName: GetTarget
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (RootMotion::FinalIK::InteractionObject::*)(RootMotion::FinalIK::FullBodyBipedEffector, ::Il2CppString*)>(&RootMotion::FinalIK::InteractionObject::GetTarget)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* effectorType = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FullBodyBipedEffector")->byval_arg;
     static auto* tag = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject*), "GetTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{effectorType, tag});
@@ -511,7 +511,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: OnStartInteraction
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionObject::*)(RootMotion::FinalIK::InteractionSystem*)>(&RootMotion::FinalIK::InteractionObject::OnStartInteraction)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* interactionSystem = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "InteractionSystem")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject*), "OnStartInteraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{interactionSystem});
   }
@@ -520,7 +520,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: Apply
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionObject::*)(RootMotion::FinalIK::IKSolverFullBodyBiped*, RootMotion::FinalIK::FullBodyBipedEffector, RootMotion::FinalIK::InteractionTarget*, float, float)>(&RootMotion::FinalIK::InteractionObject::Apply)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBodyBiped")->byval_arg;
     static auto* effector = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FullBodyBipedEffector")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "InteractionTarget")->byval_arg;
@@ -533,7 +533,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: GetValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RootMotion::FinalIK::InteractionObject::*)(RootMotion::FinalIK::InteractionObject::WeightCurve::Type, RootMotion::FinalIK::InteractionTarget*, float)>(&RootMotion::FinalIK::InteractionObject::GetValue)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* weightCurveType = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "InteractionObject/WeightCurve/Type")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "InteractionTarget")->byval_arg;
     static auto* timer = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -544,7 +544,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Root
 // Il2CppName: get_targetsRoot
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (RootMotion::FinalIK::InteractionObject::*)()>(&RootMotion::FinalIK::InteractionObject::get_targetsRoot)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject*), "get_targetsRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -552,7 +552,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: Start
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionObject::*)()>(&RootMotion::FinalIK::InteractionObject::Start)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -560,7 +560,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: Apply
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionObject::*)(RootMotion::FinalIK::IKSolverFullBodyBiped*, RootMotion::FinalIK::FullBodyBipedEffector, RootMotion::FinalIK::InteractionObject::WeightCurve::Type, float, float)>(&RootMotion::FinalIK::InteractionObject::Apply)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBodyBiped")->byval_arg;
     static auto* effector = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FullBodyBipedEffector")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "InteractionObject/WeightCurve/Type")->byval_arg;
@@ -573,7 +573,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Il2CppName: GetTarget
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (RootMotion::FinalIK::InteractionObject::*)(RootMotion::FinalIK::FullBodyBipedEffector)>(&RootMotion::FinalIK::InteractionObject::GetTarget)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* effectorType = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FullBodyBipedEffector")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject*), "GetTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{effectorType});
   }
@@ -582,7 +582,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetWeightCurveIndex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RootMotion::FinalIK::InteractionObject::*)(RootMotion::FinalIK::InteractionObject::WeightCurve::Type)>(&RootMotion::FinalIK::InteractionObject::GetWeightCurveIndex)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* weightCurveType = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "InteractionObject/WeightCurve/Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject*), "GetWeightCurveIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{weightCurveType});
   }
@@ -591,7 +591,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RootMo
 // Il2CppName: GetMultiplierIndex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (RootMotion::FinalIK::InteractionObject::*)(RootMotion::FinalIK::InteractionObject::WeightCurve::Type)>(&RootMotion::FinalIK::InteractionObject::GetMultiplierIndex)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* weightCurveType = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "InteractionObject/WeightCurve/Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject*), "GetMultiplierIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{weightCurveType});
   }

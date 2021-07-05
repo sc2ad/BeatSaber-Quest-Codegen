@@ -80,7 +80,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LayerMasks*, "", "LayerMasks");
 // Il2CppName: GetLayerMask
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (*)(::Il2CppString*)>(&GlobalNamespace::LayerMasks::GetLayerMask)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* layerName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LayerMasks*), "GetLayerMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layerName});
   }
@@ -89,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetLayerMask
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::LayerMask (*)(int)>(&GlobalNamespace::LayerMasks::GetLayerMask)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* layerNum = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LayerMasks*), "GetLayerMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layerNum});
   }
@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Il2CppName: GetLayer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&GlobalNamespace::LayerMasks::GetLayer)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* layerName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LayerMasks*), "GetLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layerName});
   }
@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::LayerMasks::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LayerMasks*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

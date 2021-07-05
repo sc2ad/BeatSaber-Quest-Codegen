@@ -35,7 +35,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ICanvasRaycastFilter*, "UnityEngine", "ICanv
 // Il2CppName: IsRaycastLocationValid
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ICanvasRaycastFilter::*)(UnityEngine::Vector2, UnityEngine::Camera*)>(&UnityEngine::ICanvasRaycastFilter::IsRaycastLocationValid)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* sp = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     static auto* eventCamera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ICanvasRaycastFilter*), "IsRaycastLocationValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sp, eventCamera});

@@ -42,7 +42,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::X9IntegerConverter*, "Org.Bo
 // Il2CppName: GetByteLength
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Org::BouncyCastle::Math::EC::ECFieldElement*)>(&Org::BouncyCastle::Asn1::X9::X9IntegerConverter::GetByteLength)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* fe = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECFieldElement")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X9::X9IntegerConverter*), "GetByteLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fe});
   }
@@ -51,7 +51,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Org
 // Il2CppName: IntegerToBytes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(Org::BouncyCastle::Math::BigInteger*, int)>(&Org::BouncyCastle::Asn1::X9::X9IntegerConverter::IntegerToBytes)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
     static auto* qLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X9::X9IntegerConverter*), "IntegerToBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, qLength});

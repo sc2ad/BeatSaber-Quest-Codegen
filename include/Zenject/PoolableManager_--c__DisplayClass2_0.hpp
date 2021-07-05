@@ -80,7 +80,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolableManager::$$c__DisplayClass2_0*, "Zenject
 // Il2CppName: <.ctor>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::PoolableManager::PoolableInfo (Zenject::PoolableManager::$$c__DisplayClass2_0::*)(Zenject::IPoolable*)>(&Zenject::PoolableManager::$$c__DisplayClass2_0::$_ctor$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("Zenject", "IPoolable")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::PoolableManager::$$c__DisplayClass2_0*), "<.ctor>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }

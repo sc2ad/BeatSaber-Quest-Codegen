@@ -111,7 +111,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBadgesProvider*, "", "Multipl
 // Il2CppName: SelectBadgesAndPutThemIntoResults
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerBadgesProvider::*)(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*)>(&GlobalNamespace::MultiplayerBadgesProvider::SelectBadgesAndPutThemIntoResults)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* playerResults = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IReadOnlyList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MultiplayerPlayerResultsData")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerBadgesProvider*), "SelectBadgesAndPutThemIntoResults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playerResults});
   }

@@ -126,7 +126,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionTypeAnalyzer*, "Zenject.Inte
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&Zenject::Internal::ReflectionTypeAnalyzer::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionTypeAnalyzer*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -137,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Il2CppName: AddCustomInjectAttribute
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Type*)>(&Zenject::Internal::ReflectionTypeAnalyzer::AddCustomInjectAttribute)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionTypeAnalyzer*), "AddCustomInjectAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
@@ -146,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Il2CppName: GetReflectionInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Internal::ReflectionTypeInfo* (*)(System::Type*)>(&Zenject::Internal::ReflectionTypeAnalyzer::GetReflectionInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionTypeAnalyzer*), "GetReflectionInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
@@ -155,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::In
 // Il2CppName: GetPropertyInfos
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectPropertyInfo*>* (*)(System::Type*)>(&Zenject::Internal::ReflectionTypeAnalyzer::GetPropertyInfos)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionTypeAnalyzer*), "GetPropertyInfos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
@@ -164,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: GetFieldInfos
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectFieldInfo*>* (*)(System::Type*)>(&Zenject::Internal::ReflectionTypeAnalyzer::GetFieldInfos)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionTypeAnalyzer*), "GetFieldInfos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
@@ -173,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: GetMethodInfos
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectMethodInfo*>* (*)(System::Type*)>(&Zenject::Internal::ReflectionTypeAnalyzer::GetMethodInfos)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionTypeAnalyzer*), "GetMethodInfos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
@@ -182,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Il2CppName: GetConstructorInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Internal::ReflectionTypeInfo::InjectConstructorInfo* (*)(System::Type*)>(&Zenject::Internal::ReflectionTypeAnalyzer::GetConstructorInfo)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionTypeAnalyzer*), "GetConstructorInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
@@ -191,7 +191,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::In
 // Il2CppName: CreateInjectableInfoForParam
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo* (*)(System::Type*, System::Reflection::ParameterInfo*)>(&Zenject::Internal::ReflectionTypeAnalyzer::CreateInjectableInfoForParam)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* parentType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* paramInfo = &::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionTypeAnalyzer*), "CreateInjectableInfoForParam", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parentType, paramInfo});
@@ -201,7 +201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::In
 // Il2CppName: GetInjectableInfoForMember
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::InjectableInfo* (*)(System::Type*, System::Reflection::MemberInfo*)>(&Zenject::Internal::ReflectionTypeAnalyzer::GetInjectableInfoForMember)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* parentType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* memInfo = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionTypeAnalyzer*), "GetInjectableInfoForMember", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parentType, memInfo});
@@ -211,7 +211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::In
 // Il2CppName: TryGetInjectConstructor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::ConstructorInfo* (*)(System::Type*)>(&Zenject::Internal::ReflectionTypeAnalyzer::TryGetInjectConstructor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionTypeAnalyzer*), "TryGetInjectConstructor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }

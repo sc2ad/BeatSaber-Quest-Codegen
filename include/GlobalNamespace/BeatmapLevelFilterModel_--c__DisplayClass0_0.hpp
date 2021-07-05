@@ -81,7 +81,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayCla
 // Il2CppName: <FilerBeatmapLevelPackCollectionAsync>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0::*)(GlobalNamespace::IPreviewBeatmapLevel*)>(&GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0::$FilerBeatmapLevelPackCollectionAsync$b__0)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmapLevel = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0*), "<FilerBeatmapLevelPackCollectionAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapLevel});
   }

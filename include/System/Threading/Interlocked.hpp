@@ -109,7 +109,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::Interlocked*, "System.Threading", "Int
 // Il2CppName: CompareExchange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int&, int, int)>(&System::Threading::Interlocked::CompareExchange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* location1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* comparand = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -120,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Il2CppName: CompareExchange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int&, int, int, bool&)>(&System::Threading::Interlocked::CompareExchange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* location1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* comparand = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -132,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Il2CppName: CompareExchange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*&, ::Il2CppObject*, ::Il2CppObject*)>(&System::Threading::Interlocked::CompareExchange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* location1 = &::il2cpp_utils::GetClassFromName("System", "Object")->this_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* comparand = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -143,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: CompareExchange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float&, float, float)>(&System::Threading::Interlocked::CompareExchange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* location1 = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* comparand = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -154,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(f
 // Il2CppName: Decrement
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int&)>(&System::Threading::Interlocked::Decrement)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* location = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Interlocked*), "Decrement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{location});
   }
@@ -163,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Il2CppName: Increment
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int&)>(&System::Threading::Interlocked::Increment)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* location = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Interlocked*), "Increment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{location});
   }
@@ -172,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Il2CppName: Increment
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int64_t&)>(&System::Threading::Interlocked::Increment)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* location = &::il2cpp_utils::GetClassFromName("System", "Int64")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Interlocked*), "Increment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{location});
   }
@@ -181,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Il2CppName: Exchange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int&, int)>(&System::Threading::Interlocked::Exchange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* location1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Interlocked*), "Exchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{location1, value});
@@ -191,7 +191,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Il2CppName: Exchange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*&, ::Il2CppObject*)>(&System::Threading::Interlocked::Exchange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* location1 = &::il2cpp_utils::GetClassFromName("System", "Object")->this_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Interlocked*), "Exchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{location1, value});
@@ -201,7 +201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: Exchange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float&, float)>(&System::Threading::Interlocked::Exchange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* location1 = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Interlocked*), "Exchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{location1, value});
@@ -211,7 +211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(f
 // Il2CppName: CompareExchange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int64_t&, int64_t, int64_t)>(&System::Threading::Interlocked::CompareExchange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* location1 = &::il2cpp_utils::GetClassFromName("System", "Int64")->this_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* comparand = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
@@ -222,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Il2CppName: CompareExchange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr&, System::IntPtr, System::IntPtr)>(&System::Threading::Interlocked::CompareExchange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* location1 = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* comparand = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -233,7 +233,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: CompareExchange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double&, double, double)>(&System::Threading::Interlocked::CompareExchange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* location1 = &::il2cpp_utils::GetClassFromName("System", "Double")->this_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     static auto* comparand = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
@@ -247,7 +247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 // Il2CppName: Exchange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int64_t&, int64_t)>(&System::Threading::Interlocked::Exchange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* location1 = &::il2cpp_utils::GetClassFromName("System", "Int64")->this_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Interlocked*), "Exchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{location1, value});
@@ -257,7 +257,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Il2CppName: Exchange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr&, System::IntPtr)>(&System::Threading::Interlocked::Exchange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* location1 = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Interlocked*), "Exchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{location1, value});
@@ -267,7 +267,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: Exchange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(double&, double)>(&System::Threading::Interlocked::Exchange)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* location1 = &::il2cpp_utils::GetClassFromName("System", "Double")->this_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Interlocked*), "Exchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{location1, value});
@@ -280,7 +280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 // Il2CppName: Read
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int64_t&)>(&System::Threading::Interlocked::Read)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* location = &::il2cpp_utils::GetClassFromName("System", "Int64")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Interlocked*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{location});
   }
@@ -289,7 +289,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Il2CppName: Add
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int&, int)>(&System::Threading::Interlocked::Add)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* location1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Interlocked*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{location1, value});
@@ -299,7 +299,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Il2CppName: Add
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int64_t&, int64_t)>(&System::Threading::Interlocked::Add)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* location1 = &::il2cpp_utils::GetClassFromName("System", "Int64")->this_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Interlocked*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{location1, value});

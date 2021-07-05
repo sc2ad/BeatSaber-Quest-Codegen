@@ -51,7 +51,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_28_0*, "", "OVRPlugin/
 // Il2CppName: ovrp_GetDominantHand
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::Handedness&)>(&GlobalNamespace::OVRPlugin::OVRP_1_28_0::ovrp_GetDominantHand)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* dominantHand = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Handedness")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_28_0*), "ovrp_GetDominantHand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dominantHand});
   }
@@ -60,7 +60,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_SendEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::OVRPlugin::OVRP_1_28_0::ovrp_SendEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* param = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_28_0*), "ovrp_SendEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, param});
@@ -70,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_EnqueueSetupLayer2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::LayerDesc&, int, System::IntPtr)>(&GlobalNamespace::OVRPlugin::OVRP_1_28_0::ovrp_EnqueueSetupLayer2)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* desc = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/LayerDesc")->this_arg;
     static auto* compositionDepth = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* layerId = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_28_0::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_28_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

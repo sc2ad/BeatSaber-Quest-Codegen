@@ -34,7 +34,7 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Entitlements*, "Oculus.Platform", "Enti
 // Il2CppName: IsUserEntitledToApplication
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request* (*)()>(&Oculus::Platform::Entitlements::IsUserEntitledToApplication)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Entitlements*), "IsUserEntitledToApplication", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

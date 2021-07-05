@@ -153,7 +153,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBoneColliderBase::Bound, "", "Dyn
 // Il2CppName: Collide
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DynamicBoneColliderBase::*)(UnityEngine::Vector3&, float)>(&GlobalNamespace::DynamicBoneColliderBase::Collide)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* particlePosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* particleRadius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DynamicBoneColliderBase*), "Collide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{particlePosition, particleRadius});

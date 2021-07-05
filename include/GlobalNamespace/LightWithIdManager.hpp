@@ -147,7 +147,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightWithIdManager*, "", "LightWithIdMan
 // Il2CppName: add_didChangeSomeColorsThisFrameEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightWithIdManager::*)(System::Action*)>(&GlobalNamespace::LightWithIdManager::add_didChangeSomeColorsThisFrameEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdManager*), "add_didChangeSomeColorsThisFrameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_didChangeSomeColorsThisFrameEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightWithIdManager::*)(System::Action*)>(&GlobalNamespace::LightWithIdManager::remove_didChangeSomeColorsThisFrameEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdManager*), "remove_didChangeSomeColorsThisFrameEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -165,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: add_didSetColorForIdEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightWithIdManager::*)(System::Action_2<int, UnityEngine::Color>*)>(&GlobalNamespace::LightWithIdManager::add_didSetColorForIdEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32"), ::il2cpp_utils::GetClassFromName("UnityEngine", "Color")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdManager*), "add_didSetColorForIdEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -174,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: remove_didSetColorForIdEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightWithIdManager::*)(System::Action_2<int, UnityEngine::Color>*)>(&GlobalNamespace::LightWithIdManager::remove_didSetColorForIdEvent)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32"), ::il2cpp_utils::GetClassFromName("UnityEngine", "Color")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdManager*), "remove_didSetColorForIdEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -183,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: get_colors
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Nullable_1<UnityEngine::Color>>* (GlobalNamespace::LightWithIdManager::*)()>(&GlobalNamespace::LightWithIdManager::get_colors)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdManager*), "get_colors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -191,7 +191,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Sys
 // Il2CppName: LateUpdate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightWithIdManager::*)()>(&GlobalNamespace::LightWithIdManager::LateUpdate)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdManager*), "LateUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -199,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: RegisterLight
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightWithIdManager::*)(GlobalNamespace::ILightWithId*)>(&GlobalNamespace::LightWithIdManager::RegisterLight)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lightWithId = &::il2cpp_utils::GetClassFromName("", "ILightWithId")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdManager*), "RegisterLight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lightWithId});
   }
@@ -208,7 +208,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: UnregisterLight
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightWithIdManager::*)(GlobalNamespace::ILightWithId*)>(&GlobalNamespace::LightWithIdManager::UnregisterLight)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lightWithId = &::il2cpp_utils::GetClassFromName("", "ILightWithId")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdManager*), "UnregisterLight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lightWithId});
   }
@@ -217,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: SetColorForId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightWithIdManager::*)(int, UnityEngine::Color)>(&GlobalNamespace::LightWithIdManager::SetColorForId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lightId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdManager*), "SetColorForId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lightId, color});
@@ -227,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: GetColorForId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::LightWithIdManager::*)(int)>(&GlobalNamespace::LightWithIdManager::GetColorForId)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* lightId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdManager*), "GetColorForId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lightId});
   }

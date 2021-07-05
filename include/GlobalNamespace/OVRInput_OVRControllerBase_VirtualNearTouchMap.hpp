@@ -75,7 +75,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase::VirtualNear
 // Il2CppName: ToRawMask
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRInput::RawNearTouch (GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap::*)(GlobalNamespace::OVRInput::NearTouch)>(&GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap::ToRawMask)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/NearTouch")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap*), "ToRawMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask});
   }

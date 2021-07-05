@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AsyncHelper*, "", "AsyncHelper");
 // Il2CppName: RunSync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Func_1<System::Threading::Tasks::Task*>*)>(&GlobalNamespace::AsyncHelper::RunSync)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* asyncTask = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AsyncHelper*), "RunSync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncTask});
   }

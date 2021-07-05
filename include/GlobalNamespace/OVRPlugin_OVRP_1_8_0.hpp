@@ -73,7 +73,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_8_0*, "", "OVRPlugin/O
 // Il2CppName: ovrp_GetBoundaryConfigured
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryConfigured)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_8_0*), "ovrp_GetBoundaryConfigured", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_TestBoundaryNode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::BoundaryTestResult (*)(GlobalNamespace::OVRPlugin::Node, GlobalNamespace::OVRPlugin::BoundaryType)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_TestBoundaryNode)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* nodeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Node")->byval_arg;
     static auto* boundaryType = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/BoundaryType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_8_0*), "ovrp_TestBoundaryNode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nodeId, boundaryType});
@@ -91,7 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_TestBoundaryPoint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::BoundaryTestResult (*)(GlobalNamespace::OVRPlugin::Vector3f, GlobalNamespace::OVRPlugin::BoundaryType)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_TestBoundaryPoint)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* point = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Vector3f")->byval_arg;
     static auto* boundaryType = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/BoundaryType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_8_0*), "ovrp_TestBoundaryPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{point, boundaryType});
@@ -101,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_GetBoundaryGeometry
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::BoundaryGeometry (*)(GlobalNamespace::OVRPlugin::BoundaryType)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryGeometry)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* boundaryType = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/BoundaryType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_8_0*), "ovrp_GetBoundaryGeometry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boundaryType});
   }
@@ -110,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_GetBoundaryDimensions
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Vector3f (*)(GlobalNamespace::OVRPlugin::BoundaryType)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryDimensions)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* boundaryType = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/BoundaryType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_8_0*), "ovrp_GetBoundaryDimensions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boundaryType});
   }
@@ -119,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_GetBoundaryVisible
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryVisible)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_8_0*), "ovrp_GetBoundaryVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_SetBoundaryVisible
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(GlobalNamespace::OVRPlugin::Bool)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_SetBoundaryVisible)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_8_0*), "ovrp_SetBoundaryVisible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
@@ -136,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_Update2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(int, int, double)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_Update2)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stateId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* frameIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* predictionSeconds = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
@@ -147,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_GetNodePose2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Posef (*)(int, GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetNodePose2)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stateId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* nodeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Node")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_8_0*), "ovrp_GetNodePose2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stateId, nodeId});
@@ -157,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_GetNodeVelocity2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Posef (*)(int, GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetNodeVelocity2)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stateId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* nodeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Node")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_8_0*), "ovrp_GetNodeVelocity2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stateId, nodeId});
@@ -167,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: ovrp_GetNodeAcceleration2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Posef (*)(int, GlobalNamespace::OVRPlugin::Node)>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetNodeAcceleration2)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* stateId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* nodeId = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Node")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_8_0*), "ovrp_GetNodeAcceleration2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stateId, nodeId});
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Il2CppName: .cctor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&GlobalNamespace::OVRPlugin::OVRP_1_8_0::_cctor)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_8_0*), ".cctor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

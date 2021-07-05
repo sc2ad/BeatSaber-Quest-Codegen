@@ -64,7 +64,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VariableBpmProcessor*, "", "VariableBpmP
 // Il2CppName: get_currentBpm
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::VariableBpmProcessor::*)()>(&GlobalNamespace::VariableBpmProcessor::get_currentBpm)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VariableBpmProcessor*), "get_currentBpm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Il2CppName: SetBpm
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VariableBpmProcessor::*)(float)>(&GlobalNamespace::VariableBpmProcessor::SetBpm)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* newBpm = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VariableBpmProcessor*), "SetBpm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newBpm});
   }
@@ -81,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Il2CppName: ProcessBeatmapEventData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::VariableBpmProcessor::*)(GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::VariableBpmProcessor::ProcessBeatmapEventData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* beatmapEventData = &::il2cpp_utils::GetClassFromName("", "BeatmapEventData")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VariableBpmProcessor*), "ProcessBeatmapEventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventData});
   }

@@ -57,7 +57,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintBuilder::Operato
 // Il2CppName: get_Empty
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack::*)()>(&NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack::get_Empty)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack*), "get_Empty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -65,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit
 // Il2CppName: Pop
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ConstraintOperator* (NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack::*)()>(&NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack::Pop)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack*), "Pop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

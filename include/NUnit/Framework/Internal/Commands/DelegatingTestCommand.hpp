@@ -49,7 +49,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::DelegatingTestComma
 // Il2CppName: GetInnerCommand
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Internal::Commands::TestCommand* (NUnit::Framework::Internal::Commands::DelegatingTestCommand::*)()>(&NUnit::Framework::Internal::Commands::DelegatingTestCommand::GetInnerCommand)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Commands::DelegatingTestCommand*), "GetInnerCommand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

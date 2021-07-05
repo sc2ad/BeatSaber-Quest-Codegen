@@ -66,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVROverlay::_GetOverlayColor*, "OVR.OpenVR",
 // Il2CppName: Invoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::IVROverlay::_GetOverlayColor::*)(uint64_t, float&, float&, float&)>(&OVR::OpenVR::IVROverlay::_GetOverlayColor::Invoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pfRed = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
     static auto* pfGreen = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
@@ -78,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: BeginInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVROverlay::_GetOverlayColor::*)(uint64_t, float&, float&, float&, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVROverlay::_GetOverlayColor::BeginInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ulOverlayHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* pfRed = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
     static auto* pfGreen = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
@@ -92,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Il2CppName: EndInvoke
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVROverlayError (OVR::OpenVR::IVROverlay::_GetOverlayColor::*)(float&, float&, float&, System::IAsyncResult*)>(&OVR::OpenVR::IVROverlay::_GetOverlayColor::EndInvoke)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pfRed = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
     static auto* pfGreen = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
     static auto* pfBlue = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;

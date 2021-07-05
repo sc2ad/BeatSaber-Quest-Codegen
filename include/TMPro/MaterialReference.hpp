@@ -138,7 +138,7 @@ DEFINE_IL2CPP_ARG_TYPE(TMPro::MaterialReference, "TMPro", "MaterialReference");
 // Il2CppName: Contains
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<TMPro::MaterialReference>*, TMPro::TMP_FontAsset*)>(&TMPro::MaterialReference::Contains)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* materialReferences = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("TMPro", "MaterialReference"), 1)->byval_arg;
     static auto* fontAsset = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_FontAsset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::MaterialReference), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{materialReferences, fontAsset});
@@ -148,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Il2CppName: AddMaterialReference
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Material*, TMPro::TMP_FontAsset*, ::Array<TMPro::MaterialReference>*, System::Collections::Generic::Dictionary_2<int, int>*)>(&TMPro::MaterialReference::AddMaterialReference)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* material = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     static auto* fontAsset = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_FontAsset")->byval_arg;
     static auto* materialReferences = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("TMPro", "MaterialReference"), 1)->byval_arg;
@@ -160,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 // Il2CppName: AddMaterialReference
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Material*, TMPro::TMP_SpriteAsset*, ::Array<TMPro::MaterialReference>*, System::Collections::Generic::Dictionary_2<int, int>*)>(&TMPro::MaterialReference::AddMaterialReference)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* material = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     static auto* spriteAsset = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_SpriteAsset")->byval_arg;
     static auto* materialReferences = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("TMPro", "MaterialReference"), 1)->byval_arg;

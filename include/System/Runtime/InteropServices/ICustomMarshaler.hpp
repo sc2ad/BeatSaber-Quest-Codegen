@@ -49,7 +49,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ICustomMarshaler*, "Sys
 // Il2CppName: MarshalNativeToManaged
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::InteropServices::ICustomMarshaler::*)(System::IntPtr)>(&System::Runtime::InteropServices::ICustomMarshaler::MarshalNativeToManaged)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pNativeData = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::ICustomMarshaler*), "MarshalNativeToManaged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pNativeData});
   }
@@ -58,7 +58,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Il2CppName: MarshalManagedToNative
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (System::Runtime::InteropServices::ICustomMarshaler::*)(::Il2CppObject*)>(&System::Runtime::InteropServices::ICustomMarshaler::MarshalManagedToNative)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ManagedObj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::ICustomMarshaler*), "MarshalManagedToNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ManagedObj});
   }
@@ -67,7 +67,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 // Il2CppName: CleanUpNativeData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::InteropServices::ICustomMarshaler::*)(System::IntPtr)>(&System::Runtime::InteropServices::ICustomMarshaler::CleanUpNativeData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pNativeData = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::ICustomMarshaler*), "CleanUpNativeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pNativeData});
   }
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: CleanUpManagedData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::InteropServices::ICustomMarshaler::*)(::Il2CppObject*)>(&System::Runtime::InteropServices::ICustomMarshaler::CleanUpManagedData)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* ManagedObj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::ICustomMarshaler*), "CleanUpManagedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ManagedObj});
   }
@@ -85,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Il2CppName: GetNativeDataSize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Runtime::InteropServices::ICustomMarshaler::*)()>(&System::Runtime::InteropServices::ICustomMarshaler::GetNativeDataSize)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::ICustomMarshaler*), "GetNativeDataSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

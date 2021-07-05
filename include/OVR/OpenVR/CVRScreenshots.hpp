@@ -91,7 +91,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRScreenshots*, "OVR.OpenVR", "CVRScreensho
 // Il2CppName: RequestScreenshot
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRScreenshotError (OVR::OpenVR::CVRScreenshots::*)(uint&, OVR::OpenVR::EVRScreenshotType, ::Il2CppString*, ::Il2CppString*)>(&OVR::OpenVR::CVRScreenshots::RequestScreenshot)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pOutScreenshotHandle = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRScreenshotType")->byval_arg;
     static auto* pchPreviewFilename = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -103,7 +103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: HookScreenshot
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRScreenshotError (OVR::OpenVR::CVRScreenshots::*)(::Array<OVR::OpenVR::EVRScreenshotType>*)>(&OVR::OpenVR::CVRScreenshots::HookScreenshot)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pSupportedTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRScreenshotType"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRScreenshots*), "HookScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pSupportedTypes});
   }
@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: GetScreenshotPropertyType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRScreenshotType (OVR::OpenVR::CVRScreenshots::*)(uint, OVR::OpenVR::EVRScreenshotError&)>(&OVR::OpenVR::CVRScreenshots::GetScreenshotPropertyType)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* screenshotHandle = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* pError = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRScreenshotError")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRScreenshots*), "GetScreenshotPropertyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{screenshotHandle, pError});
@@ -122,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: GetScreenshotPropertyFilename
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRScreenshots::*)(uint, OVR::OpenVR::EVRScreenshotPropertyFilenames, System::Text::StringBuilder*, uint, OVR::OpenVR::EVRScreenshotError&)>(&OVR::OpenVR::CVRScreenshots::GetScreenshotPropertyFilename)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* screenshotHandle = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* filenameType = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRScreenshotPropertyFilenames")->byval_arg;
     static auto* pchFilename = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
@@ -135,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::
 // Il2CppName: UpdateScreenshotProgress
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRScreenshotError (OVR::OpenVR::CVRScreenshots::*)(uint, float)>(&OVR::OpenVR::CVRScreenshots::UpdateScreenshotProgress)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* screenshotHandle = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* flProgress = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRScreenshots*), "UpdateScreenshotProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{screenshotHandle, flProgress});
@@ -145,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: TakeStereoScreenshot
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRScreenshotError (OVR::OpenVR::CVRScreenshots::*)(uint&, ::Il2CppString*, ::Il2CppString*)>(&OVR::OpenVR::CVRScreenshots::TakeStereoScreenshot)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* pOutScreenshotHandle = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
     static auto* pchPreviewFilename = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchVRFilename = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -156,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Il2CppName: SubmitScreenshot
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRScreenshotError (OVR::OpenVR::CVRScreenshots::*)(uint, OVR::OpenVR::EVRScreenshotType, ::Il2CppString*, ::Il2CppString*)>(&OVR::OpenVR::CVRScreenshots::SubmitScreenshot)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* screenshotHandle = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRScreenshotType")->byval_arg;
     static auto* pchSourcePreviewFilename = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

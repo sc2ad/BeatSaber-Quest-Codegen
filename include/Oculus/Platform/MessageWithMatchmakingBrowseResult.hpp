@@ -61,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithMatchmakingBrowseResult*, "O
 // Il2CppName: GetDataFromMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::MatchmakingBrowseResult* (Oculus::Platform::MessageWithMatchmakingBrowseResult::*)(System::IntPtr)>(&Oculus::Platform::MessageWithMatchmakingBrowseResult::GetDataFromMessage)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     static auto* c_message = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithMatchmakingBrowseResult*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c_message});
   }
@@ -74,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: GetMatchmakingEnqueueResult
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::MatchmakingEnqueueResult* (Oculus::Platform::MessageWithMatchmakingBrowseResult::*)()>(&Oculus::Platform::MessageWithMatchmakingBrowseResult::GetMatchmakingEnqueueResult)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithMatchmakingBrowseResult*), "GetMatchmakingEnqueueResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -82,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Il2CppName: GetRoomList
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::RoomList* (Oculus::Platform::MessageWithMatchmakingBrowseResult::*)()>(&Oculus::Platform::MessageWithMatchmakingBrowseResult::GetRoomList)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithMatchmakingBrowseResult*), "GetRoomList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };

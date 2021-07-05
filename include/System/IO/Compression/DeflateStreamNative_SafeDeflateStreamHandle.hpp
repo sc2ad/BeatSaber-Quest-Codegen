@@ -51,7 +51,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::DeflateStreamNative::SafeDeflate
 // Il2CppName: get_IsInvalid
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle::*)()>(&System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle::get_IsInvalid)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle*), "get_IsInvalid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
@@ -63,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Il2CppName: ReleaseHandle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle::*)()>(&System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle::ReleaseHandle)> {
-  const MethodInfo* get() {
+  static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle*), "ReleaseHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
 };
