@@ -63,6 +63,7 @@ namespace UnityEngine::XR {
   }; // UnityEngine.XR.XRDisplaySubsystem
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRDisplaySubsystem*, "UnityEngine.XR", "XRDisplaySubsystem");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::XR::XRDisplaySubsystem::InvokeDisplayFocusChanged
 // Il2CppName: InvokeDisplayFocusChanged
 template<>

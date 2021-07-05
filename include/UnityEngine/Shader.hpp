@@ -485,6 +485,7 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Shader*, "UnityEngine", "Shader");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Shader::get_globalShaderHardwareTier
 // Il2CppName: get_globalShaderHardwareTier
 template<>

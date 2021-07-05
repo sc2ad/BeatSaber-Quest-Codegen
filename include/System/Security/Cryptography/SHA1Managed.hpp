@@ -94,6 +94,7 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(SHA1Managed) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SHA1Managed*, "System.Security.Cryptography", "SHA1Managed");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::SHA1Managed::InitializeState
 // Il2CppName: InitializeState
 template<>

@@ -101,6 +101,7 @@ namespace MasterServer {
   static_assert(sizeof(DedicatedServerShutDownRequest) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::DedicatedServerShutDownRequest*, "MasterServer", "DedicatedServerShutDownRequest");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::DedicatedServerShutDownRequest::get_pool
 // Il2CppName: get_pool
 template<>

@@ -97,6 +97,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(AvatarEditHistory) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarEditHistory*, "", "AvatarEditHistory");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarEditHistory::get_undoAvailable
 // Il2CppName: get_undoAvailable
 template<>

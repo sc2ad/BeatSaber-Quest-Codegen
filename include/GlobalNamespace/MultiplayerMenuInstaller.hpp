@@ -44,6 +44,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerMenuInstaller*, "", "MultiplayerMenuInstaller");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerMenuInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>

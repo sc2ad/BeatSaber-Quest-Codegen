@@ -70,6 +70,7 @@ namespace System::ComponentModel {
   static_assert(sizeof(DesignerAttribute) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::DesignerAttribute*, "System.ComponentModel", "DesignerAttribute");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::DesignerAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

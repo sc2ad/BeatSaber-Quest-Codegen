@@ -130,6 +130,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(FBIKChain::ChildConstraint) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBIKChain::ChildConstraint*, "RootMotion.FinalIK", "FBIKChain/ChildConstraint");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::FBIKChain::ChildConstraint::get_nominalDistance
 // Il2CppName: get_nominalDistance
 template<>

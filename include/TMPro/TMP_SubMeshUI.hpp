@@ -343,6 +343,7 @@ namespace TMPro {
   static_assert(sizeof(TMP_SubMeshUI) == 0x118);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SubMeshUI*, "TMPro", "TMP_SubMeshUI");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_SubMeshUI::get_fontAsset
 // Il2CppName: get_fontAsset
 template<>

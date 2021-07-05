@@ -54,6 +54,7 @@ namespace Org::BouncyCastle::Asn1 {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerStringBase*, "Org.BouncyCastle.Asn1", "DerStringBase");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerStringBase::GetString
 // Il2CppName: GetString
 template<>

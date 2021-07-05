@@ -132,6 +132,7 @@ namespace OnlineServices {
   static_assert(sizeof(LevelScoreUploader) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LevelScoreUploader*, "OnlineServices", "LevelScoreUploader");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OnlineServices::LevelScoreUploader::add_scoreForLeaderboardDidUploadEvent
 // Il2CppName: add_scoreForLeaderboardDidUploadEvent
 template<>

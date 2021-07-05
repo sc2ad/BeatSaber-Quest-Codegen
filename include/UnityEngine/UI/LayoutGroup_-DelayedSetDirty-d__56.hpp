@@ -82,6 +82,7 @@ namespace UnityEngine::UI {
   static_assert(sizeof(LayoutGroup::$DelayedSetDirty$d__56) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56*, "UnityEngine.UI", "LayoutGroup/<DelayedSetDirty>d__56");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

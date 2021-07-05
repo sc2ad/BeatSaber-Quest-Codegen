@@ -81,6 +81,7 @@ namespace VRUIControls {
   static_assert(sizeof(VRLaserPointer) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRLaserPointer*, "VRUIControls", "VRLaserPointer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: VRUIControls::VRLaserPointer::SetLocalPosition
 // Il2CppName: SetLocalPosition
 template<>

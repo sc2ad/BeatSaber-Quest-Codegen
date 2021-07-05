@@ -151,6 +151,7 @@ namespace GlobalNamespace {
   UnityEngine::Vector3 operator*(const GlobalNamespace::SteamVR_Utils::RigidTransform& t, const UnityEngine::Vector3& v);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Utils::RigidTransform, "", "SteamVR_Utils/RigidTransform");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::RigidTransform::get_identity
 // Il2CppName: get_identity
 template<>

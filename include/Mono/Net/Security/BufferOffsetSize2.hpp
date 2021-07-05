@@ -54,6 +54,7 @@ namespace Mono::Net::Security {
   static_assert(sizeof(BufferOffsetSize2) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::BufferOffsetSize2*, "Mono.Net.Security", "BufferOffsetSize2");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::BufferOffsetSize2::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

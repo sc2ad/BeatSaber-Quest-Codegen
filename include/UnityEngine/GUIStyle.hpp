@@ -397,6 +397,7 @@ namespace UnityEngine {
   static_assert(sizeof(GUIStyle) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIStyle*, "UnityEngine", "GUIStyle");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUIStyle::get_rawName
 // Il2CppName: get_rawName
 template<>

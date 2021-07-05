@@ -54,6 +54,7 @@ namespace System::Xml {
   static_assert(sizeof(XmlWellFormedWriter::AttributeValueCache::Item) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::AttributeValueCache::Item*, "System.Xml", "XmlWellFormedWriter/AttributeValueCache/Item");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::AttributeValueCache::Item::Set
 // Il2CppName: Set
 template<>

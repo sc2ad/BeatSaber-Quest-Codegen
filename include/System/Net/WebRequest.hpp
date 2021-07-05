@@ -264,6 +264,7 @@ namespace System::Net {
   static_assert(sizeof(WebRequest) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebRequest*, "System.Net", "WebRequest");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::WebRequest::get_InternalSyncObject
 // Il2CppName: get_InternalSyncObject
 template<>

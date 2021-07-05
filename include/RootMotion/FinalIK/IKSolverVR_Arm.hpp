@@ -357,6 +357,7 @@ namespace RootMotion::FinalIK {
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::Arm*, "RootMotion.FinalIK", "IKSolverVR/Arm");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::Arm::ShoulderRotationMode, "RootMotion.FinalIK", "IKSolverVR/Arm/ShoulderRotationMode");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Arm::get_position
 // Il2CppName: get_position
 template<>

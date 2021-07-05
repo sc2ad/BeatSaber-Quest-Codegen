@@ -82,6 +82,7 @@ namespace System::Reflection {
   static_assert(sizeof(Pointer) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Pointer*, "System.Reflection", "Pointer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::Pointer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

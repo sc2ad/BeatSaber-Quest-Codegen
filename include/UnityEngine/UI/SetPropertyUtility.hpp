@@ -56,6 +56,7 @@ namespace UnityEngine::UI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::SetPropertyUtility*, "UnityEngine.UI", "SetPropertyUtility");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::SetPropertyUtility::SetColor
 // Il2CppName: SetColor
 template<>

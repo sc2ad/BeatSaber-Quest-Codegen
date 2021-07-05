@@ -69,3 +69,4 @@ namespace Mono::Globalization::Unicode {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator::ExtenderType, "Mono.Globalization.Unicode", "SimpleCollator/ExtenderType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

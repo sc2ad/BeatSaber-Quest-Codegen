@@ -81,6 +81,7 @@ namespace HMUI {
   static_assert(sizeof(HoverHintController::$HideHintAfterDelay$d__11) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverHintController::$HideHintAfterDelay$d__11*, "HMUI", "HoverHintController/<HideHintAfterDelay>d__11");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::HoverHintController::$HideHintAfterDelay$d__11::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

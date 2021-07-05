@@ -125,6 +125,7 @@ namespace UnityEngine {
   static_assert(sizeof(GUIContent) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIContent*, "UnityEngine", "GUIContent");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUIContent::get_text
 // Il2CppName: get_text
 template<>

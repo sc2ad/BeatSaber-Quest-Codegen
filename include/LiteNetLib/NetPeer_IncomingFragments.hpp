@@ -66,6 +66,7 @@ namespace LiteNetLib {
   static_assert(sizeof(NetPeer::IncomingFragments) == 0x21);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPeer::IncomingFragments*, "LiteNetLib", "NetPeer/IncomingFragments");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NetPeer::IncomingFragments::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

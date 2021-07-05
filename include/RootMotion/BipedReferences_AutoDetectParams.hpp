@@ -52,6 +52,7 @@ namespace RootMotion {
   static_assert(sizeof(BipedReferences::AutoDetectParams) == 0x2);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedReferences::AutoDetectParams, "RootMotion", "BipedReferences/AutoDetectParams");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::BipedReferences::AutoDetectParams::AutoDetectParams
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

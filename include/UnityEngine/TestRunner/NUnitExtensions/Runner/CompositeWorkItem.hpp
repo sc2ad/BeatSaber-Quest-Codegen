@@ -184,6 +184,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   static_assert(sizeof(CompositeWorkItem) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "CompositeWorkItem");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::get_Children
 // Il2CppName: get_Children
 template<>

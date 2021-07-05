@@ -117,6 +117,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(Grounder) == 0x39);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Grounder*, "RootMotion.FinalIK", "Grounder");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounder::ResetPosition
 // Il2CppName: ResetPosition
 template<>

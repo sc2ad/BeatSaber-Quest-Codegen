@@ -104,6 +104,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ShowHideAnimationController) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowHideAnimationController*, "", "ShowHideAnimationController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ShowHideAnimationController::set_Show
 // Il2CppName: set_Show
 template<>

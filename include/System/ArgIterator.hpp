@@ -63,6 +63,7 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ArgIterator, "System", "ArgIterator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ArgIterator::Equals
 // Il2CppName: Equals
 template<>

@@ -49,6 +49,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ResultsEnvironmentManager::$$c__DisplayClass3_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsEnvironmentManager::$$c__DisplayClass3_0*, "", "ResultsEnvironmentManager/<>c__DisplayClass3_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ResultsEnvironmentManager::$$c__DisplayClass3_0::$GetResultEnvironmentControllerForKeyword$b__0
 // Il2CppName: <GetResultEnvironmentControllerForKeyword>b__0
 template<>

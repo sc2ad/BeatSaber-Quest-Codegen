@@ -63,6 +63,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
   static_assert(sizeof(DHPublicKey) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::DHPublicKey*, "Org.BouncyCastle.Asn1.X9", "DHPublicKey");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X9::DHPublicKey::GetInstance
 // Il2CppName: GetInstance
 template<>

@@ -76,6 +76,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FileCompressionHelper::$$c__DisplayClass1_0) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileCompressionHelper::$$c__DisplayClass1_0*, "", "FileCompressionHelper/<>c__DisplayClass1_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FileCompressionHelper::$$c__DisplayClass1_0::$ExtractZipToDirectoryAsync$b__0
 // Il2CppName: <ExtractZipToDirectoryAsync>b__0
 template<>

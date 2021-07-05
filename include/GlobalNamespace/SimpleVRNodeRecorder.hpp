@@ -235,6 +235,7 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleVRNodeRecorder*, "", "SimpleVRNodeRecorder");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleVRNodeRecorder::SavedData*, "", "SimpleVRNodeRecorder/SavedData");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleVRNodeRecorder::RecordMode, "", "SimpleVRNodeRecorder/RecordMode");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleVRNodeRecorder::Awake
 // Il2CppName: Awake
 template<>

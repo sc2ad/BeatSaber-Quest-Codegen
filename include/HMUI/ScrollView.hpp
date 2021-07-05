@@ -474,6 +474,7 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView*, "HMUI", "ScrollView");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView::ScrollType, "HMUI", "ScrollView/ScrollType");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView::ScrollDirection, "HMUI", "ScrollView/ScrollDirection");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollView::ScrollViewDirection, "HMUI", "ScrollView/ScrollViewDirection");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ScrollView::add_scrollPositionChangedEvent
 // Il2CppName: add_scrollPositionChangedEvent
 template<>

@@ -68,3 +68,4 @@ namespace UnityEngineInternal::Input {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::Input::NativeInputUpdateType, "UnityEngineInternal.Input", "NativeInputUpdateType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

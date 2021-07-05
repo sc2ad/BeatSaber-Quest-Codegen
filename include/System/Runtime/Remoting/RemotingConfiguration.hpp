@@ -155,6 +155,7 @@ namespace System::Runtime::Remoting {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::RemotingConfiguration*, "System.Runtime.Remoting", "RemotingConfiguration");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::RemotingConfiguration::get_ApplicationName
 // Il2CppName: get_ApplicationName
 template<>

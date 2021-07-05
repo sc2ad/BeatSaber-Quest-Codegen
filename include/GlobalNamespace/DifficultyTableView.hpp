@@ -154,6 +154,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(DifficultyTableView) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DifficultyTableView*, "", "DifficultyTableView");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DifficultyTableView::add_didSelectRow
 // Il2CppName: add_didSelectRow
 template<>

@@ -152,6 +152,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PartyMessageHandler::ConnectToMasterServerMessage) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage*, "", "PartyMessageHandler/ConnectToMasterServerMessage");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::ConnectToMasterServerMessage::get_pool
 // Il2CppName: get_pool
 template<>

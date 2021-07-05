@@ -151,6 +151,7 @@ namespace Zenject {
   static_assert(sizeof(SceneDecoratorContext) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneDecoratorContext*, "Zenject", "SceneDecoratorContext");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::SceneDecoratorContext::get_LateInstallers
 // Il2CppName: get_LateInstallers
 template<>

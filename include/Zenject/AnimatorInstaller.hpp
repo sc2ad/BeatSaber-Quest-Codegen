@@ -50,6 +50,7 @@ namespace Zenject {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::AnimatorInstaller*, "Zenject", "AnimatorInstaller");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::AnimatorInstaller::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

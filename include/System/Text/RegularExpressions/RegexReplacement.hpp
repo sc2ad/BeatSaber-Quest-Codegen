@@ -31,6 +31,7 @@ namespace System::Text::RegularExpressions {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexReplacement*, "System.Text.RegularExpressions", "RegexReplacement");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexReplacement::Replace
 // Il2CppName: Replace
 template<>

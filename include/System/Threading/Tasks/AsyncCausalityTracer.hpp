@@ -51,6 +51,7 @@ namespace System::Threading::Tasks {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::AsyncCausalityTracer*, "System.Threading.Tasks", "AsyncCausalityTracer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::AsyncCausalityTracer::get_LoggingOn
 // Il2CppName: get_LoggingOn
 template<>

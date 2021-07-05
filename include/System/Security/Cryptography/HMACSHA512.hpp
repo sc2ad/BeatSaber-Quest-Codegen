@@ -55,6 +55,7 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(HMACSHA512) == 0x62);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HMACSHA512*, "System.Security.Cryptography", "HMACSHA512");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::HMACSHA512::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

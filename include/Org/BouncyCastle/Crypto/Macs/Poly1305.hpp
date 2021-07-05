@@ -209,6 +209,7 @@ namespace Org::BouncyCastle::Crypto::Macs {
   static_assert(sizeof(Poly1305) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Macs::Poly1305*, "Org.BouncyCastle.Crypto.Macs", "Poly1305");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::Poly1305::Init
 // Il2CppName: Init
 template<>

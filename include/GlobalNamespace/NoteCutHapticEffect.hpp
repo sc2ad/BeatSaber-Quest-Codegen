@@ -71,6 +71,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteCutHapticEffect) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutHapticEffect*, "", "NoteCutHapticEffect");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutHapticEffect::HitNote
 // Il2CppName: HitNote
 template<>

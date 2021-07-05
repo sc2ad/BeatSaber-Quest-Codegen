@@ -231,6 +231,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers*
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnabledObstacleType, "", "PlayerSaveDataV1_0_1/GameplayModifiers/EnabledObstacleType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::EnergyType, "", "PlayerSaveDataV1_0_1/GameplayModifiers/EnergyType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::SongSpeed, "", "PlayerSaveDataV1_0_1/GameplayModifiers/SongSpeed");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSaveDataV1_0_1::GameplayModifiers::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

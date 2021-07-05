@@ -375,6 +375,7 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRVignette*, "", "OVRVignette");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRVignette::MeshComplexityLevel, "", "OVRVignette/MeshComplexityLevel");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRVignette::FalloffType, "", "OVRVignette/FalloffType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRVignette::GetTriangleCount
 // Il2CppName: GetTriangleCount
 template<>

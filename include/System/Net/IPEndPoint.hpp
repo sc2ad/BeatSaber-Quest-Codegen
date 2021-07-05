@@ -126,6 +126,7 @@ namespace System::Net {
   static_assert(sizeof(IPEndPoint) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::IPEndPoint*, "System.Net", "IPEndPoint");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::IPEndPoint::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

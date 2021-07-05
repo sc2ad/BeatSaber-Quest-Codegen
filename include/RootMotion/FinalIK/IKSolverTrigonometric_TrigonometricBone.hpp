@@ -62,6 +62,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKSolverTrigonometric::TrigonometricBone) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverTrigonometric::TrigonometricBone*, "RootMotion.FinalIK", "IKSolverTrigonometric/TrigonometricBone");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverTrigonometric::TrigonometricBone::Initiate
 // Il2CppName: Initiate
 template<>

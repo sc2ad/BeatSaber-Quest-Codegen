@@ -81,6 +81,7 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::NoAllocHelpers*, "UnityEngine", "NoAllocHelpers");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::NoAllocHelpers::ResizeList
 // Il2CppName: ResizeList
 // Cannot write MetadataGetter for generic methods!

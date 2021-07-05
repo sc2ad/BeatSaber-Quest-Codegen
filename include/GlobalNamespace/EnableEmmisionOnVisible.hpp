@@ -70,6 +70,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnableEmmisionOnVisible) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableEmmisionOnVisible*, "", "EnableEmmisionOnVisible");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnableEmmisionOnVisible::Awake
 // Il2CppName: Awake
 template<>

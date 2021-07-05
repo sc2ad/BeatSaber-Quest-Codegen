@@ -86,6 +86,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ReleaseInfoViewController) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ReleaseInfoViewController*, "", "ReleaseInfoViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ReleaseInfoViewController::DidActivate
 // Il2CppName: DidActivate
 template<>

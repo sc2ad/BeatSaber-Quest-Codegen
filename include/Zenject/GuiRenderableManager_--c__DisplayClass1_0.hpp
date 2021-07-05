@@ -67,6 +67,7 @@ namespace Zenject {
   static_assert(sizeof(GuiRenderableManager::$$c__DisplayClass1_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::GuiRenderableManager::$$c__DisplayClass1_0*, "Zenject", "GuiRenderableManager/<>c__DisplayClass1_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::GuiRenderableManager::$$c__DisplayClass1_0::$_ctor$b__1
 // Il2CppName: <.ctor>b__1
 template<>

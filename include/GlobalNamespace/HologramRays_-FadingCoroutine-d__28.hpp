@@ -97,6 +97,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(HologramRays::$FadingCoroutine$d__28) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HologramRays::$FadingCoroutine$d__28*, "", "HologramRays/<FadingCoroutine>d__28");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HologramRays::$FadingCoroutine$d__28::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

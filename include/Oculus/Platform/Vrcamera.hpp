@@ -24,6 +24,7 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Vrcamera*, "Oculus.Platform", "Vrcamera");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Vrcamera::SetGetSurfaceUpdateNotificationCallback
 // Il2CppName: SetGetSurfaceUpdateNotificationCallback
 // Cannot write MetadataGetter for a method that has a nested type with a declaring generic type anywhere within it!

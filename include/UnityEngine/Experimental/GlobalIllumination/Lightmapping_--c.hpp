@@ -59,6 +59,7 @@ namespace UnityEngine::Experimental::GlobalIllumination {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::Lightmapping::$$c*, "UnityEngine.Experimental.GlobalIllumination", "Lightmapping/<>c");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::Lightmapping::$$c::_cctor
 // Il2CppName: .cctor
 template<>

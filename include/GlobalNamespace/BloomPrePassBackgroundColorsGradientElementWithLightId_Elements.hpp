@@ -53,6 +53,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomPrePassBackgroundColorsGradientElementWithLightId::Elements) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*, "", "BloomPrePassBackgroundColorsGradientElementWithLightId/Elements");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

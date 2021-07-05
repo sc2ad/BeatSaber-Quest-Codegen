@@ -109,6 +109,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SimpleShadowController) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleShadowController*, "", "SimpleShadowController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleShadowController::Start
 // Il2CppName: Start
 template<>

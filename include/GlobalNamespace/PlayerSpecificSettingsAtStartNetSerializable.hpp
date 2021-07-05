@@ -100,6 +100,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayerSpecificSettingsAtStartNetSerializable) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, "", "PlayerSpecificSettingsAtStartNetSerializable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable::get_activePlayersAtGameStart
 // Il2CppName: get_activePlayersAtGameStart
 template<>

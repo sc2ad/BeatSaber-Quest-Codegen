@@ -172,6 +172,7 @@ namespace System::Globalization {
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::DateTimeFormatInfoScanner*, "System.Globalization", "DateTimeFormatInfoScanner");
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::DateTimeFormatInfoScanner::FoundDatePattern, "System.Globalization", "DateTimeFormatInfoScanner/FoundDatePattern");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfoScanner::get_KnownWords
 // Il2CppName: get_KnownWords
 template<>

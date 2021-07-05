@@ -69,6 +69,7 @@ namespace System::Security::Cryptography {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RijndaelManaged*, "System.Security.Cryptography", "RijndaelManaged");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManaged::NewEncryptor
 // Il2CppName: NewEncryptor
 template<>

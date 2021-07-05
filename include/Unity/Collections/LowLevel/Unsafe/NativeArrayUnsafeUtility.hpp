@@ -51,6 +51,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::NativeArrayUnsafeUtility*, "Unity.Collections.LowLevel.Unsafe", "NativeArrayUnsafeUtility");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Unity::Collections::LowLevel::Unsafe::NativeArrayUnsafeUtility::ConvertExistingDataToNativeArray
 // Il2CppName: ConvertExistingDataToNativeArray
 // Cannot write MetadataGetter for generic methods!

@@ -50,6 +50,7 @@ namespace UnityEngine::ResourceManagement::Util {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy*, "UnityEngine.ResourceManagement.Util", "DefaultAllocationStrategy");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy::New
 // Il2CppName: New
 template<>

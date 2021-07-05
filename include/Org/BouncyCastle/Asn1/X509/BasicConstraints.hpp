@@ -74,6 +74,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   static_assert(sizeof(BasicConstraints) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::BasicConstraints*, "Org.BouncyCastle.Asn1.X509", "BasicConstraints");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::BasicConstraints::GetInstance
 // Il2CppName: GetInstance
 template<>

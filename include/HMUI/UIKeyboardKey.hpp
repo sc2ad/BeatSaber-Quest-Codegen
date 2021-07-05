@@ -79,6 +79,7 @@ namespace HMUI {
   static_assert(sizeof(UIKeyboardKey) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::UIKeyboardKey*, "HMUI", "UIKeyboardKey");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::UIKeyboardKey::get_keyCode
 // Il2CppName: get_keyCode
 template<>

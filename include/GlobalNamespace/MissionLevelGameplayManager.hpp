@@ -237,6 +237,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelGameplayManager*, "", "MissionLevelGameplayManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelGameplayManager::GameState, "", "MissionLevelGameplayManager/GameState");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelGameplayManager::add_levelFailedEvent
 // Il2CppName: add_levelFailedEvent
 template<>

@@ -28,6 +28,7 @@ namespace System::Threading::Tasks {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::ITaskCompletionAction*, "System.Threading.Tasks", "ITaskCompletionAction");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::ITaskCompletionAction::Invoke
 // Il2CppName: Invoke
 template<>

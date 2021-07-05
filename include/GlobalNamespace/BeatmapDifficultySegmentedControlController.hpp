@@ -118,6 +118,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapDifficultySegmentedControlController) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDifficultySegmentedControlController*, "", "BeatmapDifficultySegmentedControlController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDifficultySegmentedControlController::add_didSelectDifficultyEvent
 // Il2CppName: add_didSelectDifficultyEvent
 template<>

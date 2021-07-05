@@ -64,6 +64,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::Sha3Digest*, "Org.BouncyCastle.Crypto.Digests", "Sha3Digest");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::Sha3Digest::CheckBitLength
 // Il2CppName: CheckBitLength
 template<>

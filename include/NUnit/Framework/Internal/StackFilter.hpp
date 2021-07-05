@@ -36,6 +36,7 @@ namespace NUnit::Framework::Internal {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::StackFilter*, "NUnit.Framework.Internal", "StackFilter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::StackFilter::Filter
 // Il2CppName: Filter
 template<>

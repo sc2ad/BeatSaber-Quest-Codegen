@@ -71,6 +71,7 @@ namespace UnityEngine::Assertions {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Assertions::_Assert*, "UnityEngine.Assertions", "Assert");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Assertions::_Assert::Fail
 // Il2CppName: Fail
 template<>

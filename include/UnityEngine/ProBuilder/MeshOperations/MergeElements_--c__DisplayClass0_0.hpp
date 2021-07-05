@@ -62,6 +62,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static_assert(sizeof(MergeElements::$$c__DisplayClass0_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::MergeElements::$$c__DisplayClass0_0*, "UnityEngine.ProBuilder.MeshOperations", "MergeElements/<>c__DisplayClass0_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::MergeElements::$$c__DisplayClass0_0::$MergePairs$b__0
 // Il2CppName: <MergePairs>b__0
 template<>

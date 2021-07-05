@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithLivestreamingApplicationStatus
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithLivestreamingApplicationStatus*, "Oculus.Platform", "MessageWithLivestreamingApplicationStatus");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithLivestreamingApplicationStatus::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

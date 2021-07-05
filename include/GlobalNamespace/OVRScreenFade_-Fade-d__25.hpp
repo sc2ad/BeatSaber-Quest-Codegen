@@ -93,6 +93,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRScreenFade::$Fade$d__25) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRScreenFade::$Fade$d__25*, "", "OVRScreenFade/<Fade>d__25");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRScreenFade::$Fade$d__25::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

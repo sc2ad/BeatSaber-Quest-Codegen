@@ -58,6 +58,7 @@ namespace ModestTree {
   static_assert(sizeof(TypeExtensions::$$c__DisplayClass39_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::TypeExtensions::$$c__DisplayClass39_0*, "ModestTree", "TypeExtensions/<>c__DisplayClass39_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::$$c__DisplayClass39_0::$AllAttributes$b__0
 // Il2CppName: <AllAttributes>b__0
 template<>

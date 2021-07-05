@@ -82,6 +82,7 @@ namespace System {
   static_assert(sizeof(ConsoleKeyInfo) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::ConsoleKeyInfo, "System", "ConsoleKeyInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ConsoleKeyInfo::ConsoleKeyInfo
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

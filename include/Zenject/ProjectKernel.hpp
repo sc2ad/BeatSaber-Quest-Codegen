@@ -76,6 +76,7 @@ namespace Zenject {
   static_assert(sizeof(ProjectKernel) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ProjectKernel*, "Zenject", "ProjectKernel");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ProjectKernel::OnApplicationQuit
 // Il2CppName: OnApplicationQuit
 template<>

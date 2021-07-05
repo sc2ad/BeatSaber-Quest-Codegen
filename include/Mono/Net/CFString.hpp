@@ -73,6 +73,7 @@ namespace Mono::Net {
   static_assert(sizeof(CFString) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFString*, "Mono.Net", "CFString");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::CFString::CFStringCreateWithCharacters
 // Il2CppName: CFStringCreateWithCharacters
 template<>

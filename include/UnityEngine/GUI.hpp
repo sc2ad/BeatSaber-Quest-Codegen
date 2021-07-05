@@ -310,6 +310,7 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUI*, "UnityEngine", "GUI");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUI::get_color
 // Il2CppName: get_color
 template<>

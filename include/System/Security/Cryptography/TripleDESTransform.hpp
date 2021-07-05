@@ -86,6 +86,7 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(TripleDESTransform) == 0x88);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::TripleDESTransform*, "System.Security.Cryptography", "TripleDESTransform");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::TripleDESTransform::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

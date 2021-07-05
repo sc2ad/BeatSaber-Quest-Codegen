@@ -138,6 +138,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnvironmentSpawnRotation) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSpawnRotation*, "", "EnvironmentSpawnRotation");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentSpawnRotation::get_targetRotation
 // Il2CppName: get_targetRotation
 template<>

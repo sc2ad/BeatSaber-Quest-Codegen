@@ -70,6 +70,7 @@ namespace Zenject {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IProviderExtensions*, "Zenject", "IProviderExtensions");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::IProviderExtensions::GetAllInstancesWithInjectSplit
 // Il2CppName: GetAllInstancesWithInjectSplit
 template<>

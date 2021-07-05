@@ -57,6 +57,7 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(RaycastHit) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::RaycastHit*, "UnityEngine.ProBuilder", "RaycastHit");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::RaycastHit::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

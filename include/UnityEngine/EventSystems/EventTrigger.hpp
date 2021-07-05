@@ -240,6 +240,7 @@ namespace UnityEngine::EventSystems {
   static_assert(sizeof(EventTrigger) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::EventTrigger*, "UnityEngine.EventSystems", "EventTrigger");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::EventTrigger::get_delegates
 // Il2CppName: get_delegates
 template<>

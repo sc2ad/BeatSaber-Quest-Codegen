@@ -124,6 +124,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   static_assert(sizeof(RC6Engine) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::RC6Engine*, "Org.BouncyCastle.Crypto.Engines", "RC6Engine");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::RC6Engine::get_AlgorithmName
 // Il2CppName: get_AlgorithmName
 template<>

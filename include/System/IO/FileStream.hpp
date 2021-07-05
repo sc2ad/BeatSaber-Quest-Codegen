@@ -394,6 +394,7 @@ namespace System::IO {
   static_assert(sizeof(FileStream) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileStream*, "System.IO", "FileStream");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::FileStream::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

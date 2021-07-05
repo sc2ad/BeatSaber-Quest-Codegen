@@ -45,3 +45,4 @@ namespace ModestTree {
   // Could not write size check! Type: ModestTree.LinqExtensions/<>c__DisplayClass9_0`1 is generic, or has no fields that are valid for size checks!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(ModestTree::LinqExtensions::$$c__DisplayClass9_0_1, "ModestTree", "LinqExtensions/<>c__DisplayClass9_0`1");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

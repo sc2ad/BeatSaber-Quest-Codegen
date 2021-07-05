@@ -52,6 +52,7 @@ namespace System::Runtime::Remoting::Messaging {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ServerContextTerminatorSink*, "System.Runtime.Remoting.Messaging", "ServerContextTerminatorSink");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ServerContextTerminatorSink::SyncProcessMessage
 // Il2CppName: SyncProcessMessage
 template<>

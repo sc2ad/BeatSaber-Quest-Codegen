@@ -288,6 +288,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererSO*, "", "MirrorRendererSO");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererSO::CameraTransformData, "", "MirrorRendererSO/CameraTransformData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MirrorRendererSO::OnValidate
 // Il2CppName: OnValidate
 template<>

@@ -49,6 +49,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBadgeDataGoodCutsSO*, "", "MultiplayerBadgeDataGoodCutsSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerBadgeDataGoodCutsSO::GetValue
 // Il2CppName: GetValue
 template<>

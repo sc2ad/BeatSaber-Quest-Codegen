@@ -50,6 +50,7 @@ namespace NUnit::Framework::Internal {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::InvalidDataSourceException*, "NUnit.Framework.Internal", "InvalidDataSourceException");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::InvalidDataSourceException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

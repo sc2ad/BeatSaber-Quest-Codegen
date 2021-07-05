@@ -186,6 +186,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameplayFacade) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayFacade*, "", "GameplayFacade");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayFacade::get_difficultyBeatmap
 // Il2CppName: get_difficultyBeatmap
 template<>

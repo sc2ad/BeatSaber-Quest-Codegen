@@ -65,6 +65,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(CreditsScenesTransitionSetupDataSO) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsScenesTransitionSetupDataSO*, "", "CreditsScenesTransitionSetupDataSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CreditsScenesTransitionSetupDataSO::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

@@ -125,6 +125,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SaberManager) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberManager*, "", "SaberManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SaberManager::get_leftSaber
 // Il2CppName: get_leftSaber
 template<>

@@ -40,6 +40,7 @@ namespace UnityEngine::Networking {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequestAssetBundle*, "UnityEngine.Networking", "UnityWebRequestAssetBundle");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequestAssetBundle::GetAssetBundle
 // Il2CppName: GetAssetBundle
 template<>

@@ -83,6 +83,7 @@ namespace Mono::Net {
   static_assert(sizeof(CFNetwork::GetProxyData) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNetwork::GetProxyData*, "Mono.Net", "CFNetwork/GetProxyData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::GetProxyData::Dispose
 // Il2CppName: Dispose
 template<>

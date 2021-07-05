@@ -58,6 +58,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FadeOutInstantly) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeOutInstantly*, "", "FadeOutInstantly");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FadeOutInstantly::Start
 // Il2CppName: Start
 template<>

@@ -67,6 +67,7 @@ namespace Mono::Net::Security {
   static_assert(sizeof(AsyncProtocolResult) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncProtocolResult*, "Mono.Net.Security", "AsyncProtocolResult");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::AsyncProtocolResult::get_UserResult
 // Il2CppName: get_UserResult
 template<>

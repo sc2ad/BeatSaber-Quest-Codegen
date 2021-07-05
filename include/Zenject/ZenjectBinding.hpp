@@ -174,6 +174,7 @@ namespace Zenject {
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectBinding*, "Zenject", "ZenjectBinding");
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectBinding::BindTypes, "Zenject", "ZenjectBinding/BindTypes");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ZenjectBinding::get_UseSceneContext
 // Il2CppName: get_UseSceneContext
 template<>

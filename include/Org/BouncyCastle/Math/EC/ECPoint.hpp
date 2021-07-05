@@ -236,6 +236,7 @@ namespace Org::BouncyCastle::Math::EC {
   static_assert(sizeof(ECPoint) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECPoint*, "Org.BouncyCastle.Math.EC", "ECPoint");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECPoint::GetInitialZCoords
 // Il2CppName: GetInitialZCoords
 template<>

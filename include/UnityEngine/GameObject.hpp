@@ -401,6 +401,7 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GameObject*, "UnityEngine", "GameObject");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::GameObject::CreatePrimitive
 // Il2CppName: CreatePrimitive
 template<>

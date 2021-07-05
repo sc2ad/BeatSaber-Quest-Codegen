@@ -41,6 +41,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_0_1_3*, "", "OVRPlugin/OVRP_0_1_3");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_0_1_3::ovrp_GetNodeVelocity
 // Il2CppName: ovrp_GetNodeVelocity
 template<>

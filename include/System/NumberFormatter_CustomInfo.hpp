@@ -146,6 +146,7 @@ namespace System {
   static_assert(sizeof(NumberFormatter::CustomInfo) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::NumberFormatter::CustomInfo*, "System", "NumberFormatter/CustomInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::NumberFormatter::CustomInfo::GetActiveSection
 // Il2CppName: GetActiveSection
 template<>

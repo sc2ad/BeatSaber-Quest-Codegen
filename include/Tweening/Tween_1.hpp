@@ -128,3 +128,4 @@ namespace Tweening {
   // Could not write size check! Type: Tweening.Tween`1 is generic, or has no fields that are valid for size checks!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Tweening::Tween_1, "Tweening", "Tween`1");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

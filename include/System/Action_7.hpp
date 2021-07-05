@@ -61,3 +61,4 @@ namespace System {
   // Could not write size check! Type: System.Action`7 is generic, or has no fields that are valid for size checks!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Action_7, "System", "Action`7");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

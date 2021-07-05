@@ -62,6 +62,7 @@ namespace UnityEngine::Experimental::GlobalIllumination {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::LightmapperUtils*, "UnityEngine.Experimental.GlobalIllumination", "LightmapperUtils");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::LightmapperUtils::ExtractIndirect
 // Il2CppName: ExtractIndirect
 template<>

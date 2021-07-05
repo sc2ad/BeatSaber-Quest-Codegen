@@ -201,6 +201,7 @@ namespace Zenject {
   static_assert(sizeof(TickableManager) == 0x59);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TickableManager*, "Zenject", "TickableManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::TickableManager::get_Tickables
 // Il2CppName: get_Tickables
 template<>

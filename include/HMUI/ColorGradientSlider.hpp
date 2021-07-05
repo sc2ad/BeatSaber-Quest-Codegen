@@ -156,6 +156,7 @@ namespace HMUI {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ColorGradientSlider*, "HMUI", "ColorGradientSlider");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ColorGradientSlider::add_colorDidChangeEvent
 // Il2CppName: add_colorDidChangeEvent
 template<>

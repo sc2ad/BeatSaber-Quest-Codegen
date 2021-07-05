@@ -149,6 +149,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FlyingScoreEffect) == 0xBD);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingScoreEffect*, "", "FlyingScoreEffect");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FlyingScoreEffect::InitAndPresent
 // Il2CppName: InitAndPresent
 template<>

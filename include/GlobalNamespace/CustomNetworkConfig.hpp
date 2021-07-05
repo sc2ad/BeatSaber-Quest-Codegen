@@ -122,6 +122,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(CustomNetworkConfig) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomNetworkConfig*, "", "CustomNetworkConfig");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CustomNetworkConfig::get_maxPartySize
 // Il2CppName: get_maxPartySize
 template<>

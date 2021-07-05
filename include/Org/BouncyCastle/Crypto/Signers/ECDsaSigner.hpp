@@ -114,6 +114,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
   static_assert(sizeof(ECDsaSigner) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::ECDsaSigner*, "Org.BouncyCastle.Crypto.Signers", "ECDsaSigner");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::ECDsaSigner::Init
 // Il2CppName: Init
 template<>

@@ -141,6 +141,7 @@ namespace Org::BouncyCastle::Asn1::TeleTrust {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTObjectIdentifiers*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTObjectIdentifiers");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTObjectIdentifiers::_cctor
 // Il2CppName: .cctor
 template<>

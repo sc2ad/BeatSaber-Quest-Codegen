@@ -76,6 +76,7 @@ namespace System::Reflection {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Binder*, "System.Reflection", "Binder");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::Binder::BindToMethod
 // Il2CppName: BindToMethod
 template<>

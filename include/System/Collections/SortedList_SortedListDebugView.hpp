@@ -21,3 +21,4 @@ namespace System::Collections {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::SortedList::SortedListDebugView*, "System.Collections", "SortedList/SortedListDebugView");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

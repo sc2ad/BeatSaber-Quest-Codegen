@@ -39,6 +39,7 @@ namespace Zenject::Internal {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::IDecoratorProvider*, "Zenject.Internal", "IDecoratorProvider");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::Internal::IDecoratorProvider::GetAllInstances
 // Il2CppName: GetAllInstances
 template<>

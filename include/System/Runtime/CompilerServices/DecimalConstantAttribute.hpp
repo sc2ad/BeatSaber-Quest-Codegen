@@ -50,6 +50,7 @@ namespace System::Runtime::CompilerServices {
   static_assert(sizeof(DecimalConstantAttribute) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::DecimalConstantAttribute*, "System.Runtime.CompilerServices", "DecimalConstantAttribute");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::DecimalConstantAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

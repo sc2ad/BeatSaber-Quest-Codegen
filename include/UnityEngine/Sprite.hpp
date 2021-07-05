@@ -148,6 +148,7 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Sprite*, "UnityEngine", "Sprite");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Sprite::GetPackingMode
 // Il2CppName: GetPackingMode
 template<>

@@ -118,6 +118,7 @@ namespace System {
   static_assert(sizeof(IOAsyncResult) == 0x2A);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IOAsyncResult*, "System", "IOAsyncResult");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IOAsyncResult::Init
 // Il2CppName: Init
 template<>

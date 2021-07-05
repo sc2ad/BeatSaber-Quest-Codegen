@@ -78,6 +78,7 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(RuntimeElement) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::RuntimeElement*, "UnityEngine.Timeline", "RuntimeElement");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::RuntimeElement::get_intervalStart
 // Il2CppName: get_intervalStart
 template<>

@@ -83,6 +83,7 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Version::VersionResult, "System", "Version/VersionResult");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Version::VersionResult::Init
 // Il2CppName: Init
 template<>

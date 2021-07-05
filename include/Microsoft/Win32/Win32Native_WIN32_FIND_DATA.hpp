@@ -49,6 +49,7 @@ namespace Microsoft::Win32 {
   static_assert(sizeof(Win32Native::WIN32_FIND_DATA) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::Win32Native::WIN32_FIND_DATA*, "Microsoft.Win32", "Win32Native/WIN32_FIND_DATA");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Microsoft::Win32::Win32Native::WIN32_FIND_DATA::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

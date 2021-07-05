@@ -56,6 +56,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(TimelinePauseMarker) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TimelinePauseMarker*, "", "TimelinePauseMarker");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TimelinePauseMarker::get_id
 // Il2CppName: get_id
 template<>

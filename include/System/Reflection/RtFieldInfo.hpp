@@ -69,6 +69,7 @@ namespace System::Reflection {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::RtFieldInfo*, "System.Reflection", "RtFieldInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::RtFieldInfo::UnsafeGetValue
 // Il2CppName: UnsafeGetValue
 template<>

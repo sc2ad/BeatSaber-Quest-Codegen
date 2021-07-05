@@ -421,6 +421,7 @@ namespace System::Collections {
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Hashtable*, "System.Collections", "Hashtable");
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Hashtable::bucket, "System.Collections", "Hashtable/bucket");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Hashtable::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

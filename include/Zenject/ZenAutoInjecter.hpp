@@ -125,6 +125,7 @@ namespace Zenject {
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenAutoInjecter*, "Zenject", "ZenAutoInjecter");
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenAutoInjecter::ContainerSources, "Zenject", "ZenAutoInjecter/ContainerSources");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ZenAutoInjecter::get_ContainerSource
 // Il2CppName: get_ContainerSource
 template<>

@@ -117,6 +117,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ResultsTableView) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsTableView*, "", "ResultsTableView");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ResultsTableView::CellSize
 // Il2CppName: CellSize
 template<>

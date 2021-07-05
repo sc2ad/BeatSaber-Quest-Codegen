@@ -72,6 +72,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SelectLevelDestination) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelDestination*, "", "SelectLevelDestination");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SelectLevelDestination::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

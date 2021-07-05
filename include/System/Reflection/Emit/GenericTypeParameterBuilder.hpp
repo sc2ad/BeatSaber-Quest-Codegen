@@ -218,6 +218,7 @@ namespace System::Reflection::Emit {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::GenericTypeParameterBuilder*, "System.Reflection.Emit", "GenericTypeParameterBuilder");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::Emit::GenericTypeParameterBuilder::get_Assembly
 // Il2CppName: get_Assembly
 template<>

@@ -55,6 +55,7 @@ namespace Mono::Globalization::Unicode {
   static_assert(sizeof(TailoringInfo) == 0x1D);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::TailoringInfo*, "Mono.Globalization.Unicode", "TailoringInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::TailoringInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -149,6 +149,7 @@ namespace System::Xml {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWriter*, "System.Xml", "XmlWriter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlWriter::WriteStartDocument
 // Il2CppName: WriteStartDocument
 template<>

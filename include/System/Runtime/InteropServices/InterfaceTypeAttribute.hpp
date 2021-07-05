@@ -47,6 +47,7 @@ namespace System::Runtime::InteropServices {
   static_assert(sizeof(InterfaceTypeAttribute) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::InterfaceTypeAttribute*, "System.Runtime.InteropServices", "InterfaceTypeAttribute");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::InterfaceTypeAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

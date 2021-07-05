@@ -118,6 +118,7 @@ namespace Org::BouncyCastle::Asn1 {
   static_assert(sizeof(Asn1InputStream) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1InputStream*, "Org.BouncyCastle.Asn1", "Asn1InputStream");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::FindLimit
 // Il2CppName: FindLimit
 template<>

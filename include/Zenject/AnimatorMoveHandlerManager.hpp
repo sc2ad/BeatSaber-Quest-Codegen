@@ -66,6 +66,7 @@ namespace Zenject {
   static_assert(sizeof(AnimatorMoveHandlerManager) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::AnimatorMoveHandlerManager*, "Zenject", "AnimatorMoveHandlerManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::AnimatorMoveHandlerManager::Construct
 // Il2CppName: Construct
 template<>

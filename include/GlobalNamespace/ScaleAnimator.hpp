@@ -129,6 +129,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ScaleAnimator) == 0x41);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScaleAnimator*, "", "ScaleAnimator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ScaleAnimator::OnDestroy
 // Il2CppName: OnDestroy
 template<>

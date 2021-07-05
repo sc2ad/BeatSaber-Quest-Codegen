@@ -83,6 +83,7 @@ namespace NUnit::Framework::Internal::Filters {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Filters::AndFilter*, "NUnit.Framework.Internal.Filters", "AndFilter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::AndFilter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

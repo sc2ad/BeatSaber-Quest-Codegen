@@ -142,6 +142,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(AnnotatedBeatmapLevelCollectionsViewController) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController*, "", "AnnotatedBeatmapLevelCollectionsViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController::add_didSelectAnnotatedBeatmapLevelCollectionEvent
 // Il2CppName: add_didSelectAnnotatedBeatmapLevelCollectionEvent
 template<>

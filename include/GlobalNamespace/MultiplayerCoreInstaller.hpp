@@ -86,6 +86,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerCoreInstaller) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerCoreInstaller*, "", "MultiplayerCoreInstaller");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerCoreInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>

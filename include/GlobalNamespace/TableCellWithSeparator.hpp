@@ -65,6 +65,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(TableCellWithSeparator) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TableCellWithSeparator*, "", "TableCellWithSeparator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TableCellWithSeparator::TableViewSetup
 // Il2CppName: TableViewSetup
 template<>

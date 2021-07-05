@@ -36,6 +36,7 @@ namespace GlobalNamespace {
   }; // BombCutSoundEffect/Pool
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombCutSoundEffect::Pool*, "", "BombCutSoundEffect/Pool");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BombCutSoundEffect::Pool::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -115,6 +115,7 @@ namespace Org::BouncyCastle::X509 {
   static_assert(sizeof(X509CertificateParser) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509CertificateParser*, "Org.BouncyCastle.X509", "X509CertificateParser");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::X509CertificateParser::ReadDerCertificate
 // Il2CppName: ReadDerCertificate
 template<>

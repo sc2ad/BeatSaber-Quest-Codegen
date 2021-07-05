@@ -116,6 +116,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::UnsafeUtility*, "Unity.Collections.LowLevel.Unsafe", "UnsafeUtility");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Unity::Collections::LowLevel::Unsafe::UnsafeUtility::IsBlittable
 // Il2CppName: IsBlittable
 // Cannot write MetadataGetter for generic methods!

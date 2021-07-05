@@ -75,6 +75,7 @@ namespace NetEase {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NetEase::DockerWrap*, "NetEase", "DockerWrap");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NetEase::DockerWrap::SetInitializeCallback
 // Il2CppName: SetInitializeCallback
 template<>

@@ -194,6 +194,7 @@ namespace RootMotion {
   static_assert(sizeof(HumanoidBaker) == 0x118);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::HumanoidBaker*, "RootMotion", "HumanoidBaker");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::HumanoidBaker::Awake
 // Il2CppName: Awake
 template<>

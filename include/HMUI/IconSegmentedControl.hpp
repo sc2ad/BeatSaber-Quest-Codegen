@@ -154,6 +154,7 @@ namespace HMUI {
   static_assert(sizeof(IconSegmentedControl) == 0x99);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::IconSegmentedControl*, "HMUI", "IconSegmentedControl");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::IconSegmentedControl::Init
 // Il2CppName: Init
 template<>

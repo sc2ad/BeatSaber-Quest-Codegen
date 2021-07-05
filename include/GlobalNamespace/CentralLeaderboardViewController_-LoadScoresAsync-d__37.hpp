@@ -90,6 +90,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CentralLeaderboardViewController::$LoadScoresAsync$d__37, "", "CentralLeaderboardViewController/<LoadScoresAsync>d__37");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CentralLeaderboardViewController::$LoadScoresAsync$d__37::MoveNext
 // Il2CppName: MoveNext
 template<>

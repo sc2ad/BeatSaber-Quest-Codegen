@@ -87,6 +87,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerEnvironmentResizeController::ResizeData) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*, "", "MultiplayerEnvironmentResizeController/ResizeData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData::get_resizeType
 // Il2CppName: get_resizeType
 template<>

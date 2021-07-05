@@ -99,6 +99,7 @@ namespace OnlineServices::API {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPLeaderboardsOathHelper::$SendWebRequestAsync$d__10, "OnlineServices.API", "HTTPLeaderboardsOathHelper/<SendWebRequestAsync>d__10");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OnlineServices::API::HTTPLeaderboardsOathHelper::$SendWebRequestAsync$d__10::MoveNext
 // Il2CppName: MoveNext
 template<>

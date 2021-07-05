@@ -62,6 +62,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BTSStarTextEventEffect::StartTextPosition) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEventEffect::StartTextPosition*, "", "BTSStarTextEventEffect/StartTextPosition");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEventEffect::StartTextPosition::get_id
 // Il2CppName: get_id
 template<>

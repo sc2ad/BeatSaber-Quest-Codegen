@@ -116,6 +116,7 @@ namespace MasterServer {
   static_assert(sizeof(BaseConnectToServerRequest) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseConnectToServerRequest*, "MasterServer", "BaseConnectToServerRequest");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::BaseConnectToServerRequest::get_userId
 // Il2CppName: get_userId
 template<>

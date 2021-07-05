@@ -90,6 +90,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PointLight) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PointLight*, "", "PointLight");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PointLight::get_lights
 // Il2CppName: get_lights
 template<>

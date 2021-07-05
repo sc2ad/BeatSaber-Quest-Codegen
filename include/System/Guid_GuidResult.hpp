@@ -101,6 +101,7 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Guid::GuidResult, "System", "Guid/GuidResult");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Guid::GuidResult::Init
 // Il2CppName: Init
 template<>

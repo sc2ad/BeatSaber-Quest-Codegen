@@ -141,6 +141,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteCutCoreEffectsSpawner) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutCoreEffectsSpawner*, "", "NoteCutCoreEffectsSpawner");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutCoreEffectsSpawner::Start
 // Il2CppName: Start
 template<>

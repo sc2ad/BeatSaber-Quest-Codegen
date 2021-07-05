@@ -125,6 +125,7 @@ namespace UnityEngine::ProBuilder {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::InternalUtility*, "UnityEngine.ProBuilder", "InternalUtility");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::InternalUtility::GetComponents
 // Il2CppName: GetComponents
 // Cannot write MetadataGetter for generic methods!

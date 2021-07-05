@@ -78,6 +78,7 @@ namespace System::Text {
   static_assert(sizeof(InternalEncoderBestFitFallback) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::InternalEncoderBestFitFallback*, "System.Text", "InternalEncoderBestFitFallback");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::InternalEncoderBestFitFallback::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

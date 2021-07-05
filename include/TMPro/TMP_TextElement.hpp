@@ -101,6 +101,7 @@ namespace TMPro {
   static_assert(sizeof(TMP_TextElement) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextElement*, "TMPro", "TMP_TextElement");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_TextElement::get_elementType
 // Il2CppName: get_elementType
 template<>

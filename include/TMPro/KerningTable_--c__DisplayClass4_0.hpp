@@ -58,6 +58,7 @@ namespace TMPro {
   static_assert(sizeof(KerningTable::$$c__DisplayClass4_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningTable::$$c__DisplayClass4_0*, "TMPro", "KerningTable/<>c__DisplayClass4_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::KerningTable::$$c__DisplayClass4_0::$AddGlyphPairAdjustmentRecord$b__0
 // Il2CppName: <AddGlyphPairAdjustmentRecord>b__0
 template<>

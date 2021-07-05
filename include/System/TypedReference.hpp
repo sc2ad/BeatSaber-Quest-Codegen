@@ -79,6 +79,7 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TypedReference, "System", "TypedReference");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::TypedReference::MakeTypedReference
 // Il2CppName: MakeTypedReference
 template<>

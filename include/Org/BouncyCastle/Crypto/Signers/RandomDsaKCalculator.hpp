@@ -75,6 +75,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
   static_assert(sizeof(RandomDsaKCalculator) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator*, "Org.BouncyCastle.Crypto.Signers", "RandomDsaKCalculator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator::get_IsDeterministic
 // Il2CppName: get_IsDeterministic
 template<>

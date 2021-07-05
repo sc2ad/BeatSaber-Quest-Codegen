@@ -66,6 +66,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FollowLocalRotation) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FollowLocalRotation*, "", "FollowLocalRotation");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FollowLocalRotation::Awake
 // Il2CppName: Awake
 template<>

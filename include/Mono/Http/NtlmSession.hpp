@@ -62,6 +62,7 @@ namespace Mono::Http {
   static_assert(sizeof(NtlmSession) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Http::NtlmSession*, "Mono.Http", "NtlmSession");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Http::NtlmSession::Authenticate
 // Il2CppName: Authenticate
 template<>

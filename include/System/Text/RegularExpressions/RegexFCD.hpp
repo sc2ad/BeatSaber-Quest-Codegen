@@ -132,6 +132,7 @@ namespace System::Text::RegularExpressions {
   static_assert(sizeof(RegexFCD) == 0x2F);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexFCD*, "System.Text.RegularExpressions", "RegexFCD");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexFCD::FirstChars
 // Il2CppName: FirstChars
 template<>

@@ -54,6 +54,7 @@ namespace Mono::Security::Cryptography {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::PKCS1*, "Mono.Security.Cryptography", "PKCS1");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Cryptography::PKCS1::HashNameFromOid
 // Il2CppName: HashNameFromOid
 template<>

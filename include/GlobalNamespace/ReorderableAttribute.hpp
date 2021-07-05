@@ -83,6 +83,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ReorderableAttribute) == 0x1A);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ReorderableAttribute*, "", "ReorderableAttribute");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ReorderableAttribute::get_ElementHeader
 // Il2CppName: get_ElementHeader
 template<>

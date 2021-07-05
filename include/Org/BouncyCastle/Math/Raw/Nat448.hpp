@@ -50,6 +50,7 @@ namespace Org::BouncyCastle::Math::Raw {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Raw::Nat448*, "Org.BouncyCastle.Math.Raw", "Nat448");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat448::Copy64
 // Il2CppName: Copy64
 template<>

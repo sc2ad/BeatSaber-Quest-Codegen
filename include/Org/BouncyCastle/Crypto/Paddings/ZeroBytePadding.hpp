@@ -53,6 +53,7 @@ namespace Org::BouncyCastle::Crypto::Paddings {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Paddings::ZeroBytePadding*, "Org.BouncyCastle.Crypto.Paddings", "ZeroBytePadding");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Paddings::ZeroBytePadding::Init
 // Il2CppName: Init
 template<>

@@ -143,6 +143,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayerSaveData::PlayerSpecificSettings) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSaveData::PlayerSpecificSettings*, "", "PlayerSaveData/PlayerSpecificSettings");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSaveData::PlayerSpecificSettings::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

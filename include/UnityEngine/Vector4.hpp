@@ -179,6 +179,7 @@ namespace UnityEngine {
   bool operator !=(const UnityEngine::Vector4& lhs, const UnityEngine::Vector4& rhs);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Vector4, "UnityEngine", "Vector4");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Vector4::get_Item
 // Il2CppName: get_Item
 template<>

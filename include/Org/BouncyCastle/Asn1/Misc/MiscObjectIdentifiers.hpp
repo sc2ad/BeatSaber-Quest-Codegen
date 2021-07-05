@@ -185,6 +185,7 @@ namespace Org::BouncyCastle::Asn1::Misc {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Misc::MiscObjectIdentifiers*, "Org.BouncyCastle.Asn1.Misc", "MiscObjectIdentifiers");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Misc::MiscObjectIdentifiers::_cctor
 // Il2CppName: .cctor
 template<>

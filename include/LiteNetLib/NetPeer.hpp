@@ -546,6 +546,7 @@ namespace LiteNetLib {
   static_assert(sizeof(NetPeer) == 0x148);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPeer*, "LiteNetLib", "NetPeer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NetPeer::get_ConnectionNum
 // Il2CppName: get_ConnectionNum
 template<>

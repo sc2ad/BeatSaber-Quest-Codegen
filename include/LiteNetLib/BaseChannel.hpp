@@ -76,6 +76,7 @@ namespace LiteNetLib {
   static_assert(sizeof(BaseChannel) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::BaseChannel*, "LiteNetLib", "BaseChannel");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::BaseChannel::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -189,6 +189,7 @@ namespace Mono::Security::Cryptography {
   static_assert(sizeof(SymmetricTransform) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::SymmetricTransform*, "Mono.Security.Cryptography", "SymmetricTransform");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Cryptography::SymmetricTransform::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

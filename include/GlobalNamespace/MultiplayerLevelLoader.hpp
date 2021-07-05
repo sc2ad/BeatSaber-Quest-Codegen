@@ -245,6 +245,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelLoader*, "", "MultiplayerLevelLoader");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelLoader::MultiplayerBeatmapLoaderState, "", "MultiplayerLevelLoader/MultiplayerBeatmapLoaderState");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelLoader::add_stillDownloadingSongEvent
 // Il2CppName: add_stillDownloadingSongEvent
 template<>

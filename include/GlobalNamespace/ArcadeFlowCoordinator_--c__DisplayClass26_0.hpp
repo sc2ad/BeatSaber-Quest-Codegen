@@ -58,6 +58,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ArcadeFlowCoordinator::$$c__DisplayClass26_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ArcadeFlowCoordinator::$$c__DisplayClass26_0*, "", "ArcadeFlowCoordinator/<>c__DisplayClass26_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ArcadeFlowCoordinator::$$c__DisplayClass26_0::$HandleResultsViewControllerRestartButtonPressed$b__0
 // Il2CppName: <HandleResultsViewControllerRestartButtonPressed>b__0
 template<>

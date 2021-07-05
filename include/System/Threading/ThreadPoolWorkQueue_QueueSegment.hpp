@@ -77,6 +77,7 @@ namespace System::Threading {
   static_assert(sizeof(ThreadPoolWorkQueue::QueueSegment) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPoolWorkQueue::QueueSegment*, "System.Threading", "ThreadPoolWorkQueue/QueueSegment");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::ThreadPoolWorkQueue::QueueSegment::GetIndexes
 // Il2CppName: GetIndexes
 template<>

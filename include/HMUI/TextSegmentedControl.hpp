@@ -149,6 +149,7 @@ namespace HMUI {
   static_assert(sizeof(TextSegmentedControl) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TextSegmentedControl*, "HMUI", "TextSegmentedControl");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::TextSegmentedControl::SetTexts
 // Il2CppName: SetTexts
 template<>

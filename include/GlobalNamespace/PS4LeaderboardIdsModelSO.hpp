@@ -79,6 +79,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PS4LeaderboardIdsModelSO) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4LeaderboardIdsModelSO*, "", "PS4LeaderboardIdsModelSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PS4LeaderboardIdsModelSO::get_leaderboardIds
 // Il2CppName: get_leaderboardIds
 template<>

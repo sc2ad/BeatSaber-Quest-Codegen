@@ -87,6 +87,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(IntroTutorialController::$ShowFinishAnimationCoroutine$d__22) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IntroTutorialController::$ShowFinishAnimationCoroutine$d__22*, "", "IntroTutorialController/<ShowFinishAnimationCoroutine>d__22");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IntroTutorialController::$ShowFinishAnimationCoroutine$d__22::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

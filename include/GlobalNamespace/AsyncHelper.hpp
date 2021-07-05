@@ -58,6 +58,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AsyncHelper*, "", "AsyncHelper");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AsyncHelper::RunSync
 // Il2CppName: RunSync
 // Cannot write MetadataGetter for generic methods!

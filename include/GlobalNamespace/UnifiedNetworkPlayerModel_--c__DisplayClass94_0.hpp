@@ -71,6 +71,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(UnifiedNetworkPlayerModel::$$c__DisplayClass94_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnifiedNetworkPlayerModel::$$c__DisplayClass94_0*, "", "UnifiedNetworkPlayerModel/<>c__DisplayClass94_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::UnifiedNetworkPlayerModel::$$c__DisplayClass94_0::$Refresh$b__0
 // Il2CppName: <Refresh>b__0
 template<>

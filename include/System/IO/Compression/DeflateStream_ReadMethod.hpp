@@ -51,6 +51,7 @@ namespace System::IO::Compression {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::DeflateStream::ReadMethod*, "System.IO.Compression", "DeflateStream/ReadMethod");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::Compression::DeflateStream::ReadMethod::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

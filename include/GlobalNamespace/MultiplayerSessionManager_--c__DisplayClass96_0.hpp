@@ -56,6 +56,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerSessionManager::$$c__DisplayClass96_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSessionManager::$$c__DisplayClass96_0*, "", "MultiplayerSessionManager/<>c__DisplayClass96_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::$$c__DisplayClass96_0::$GetConnectedPlayerByUserId$b__0
 // Il2CppName: <GetConnectedPlayerByUserId>b__0
 template<>

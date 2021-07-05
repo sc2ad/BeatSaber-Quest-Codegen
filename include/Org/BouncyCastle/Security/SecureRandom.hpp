@@ -120,6 +120,7 @@ namespace Org::BouncyCastle::Security {
   static_assert(sizeof(SecureRandom) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::SecureRandom*, "Org.BouncyCastle.Security", "SecureRandom");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::SecureRandom::NextCounterValue
 // Il2CppName: NextCounterValue
 template<>

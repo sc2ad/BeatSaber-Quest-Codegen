@@ -289,6 +289,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(CentralLeaderboardViewController) == 0x108);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CentralLeaderboardViewController*, "", "CentralLeaderboardViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CentralLeaderboardViewController::get_gameplayModifiers
 // Il2CppName: get_gameplayModifiers
 template<>

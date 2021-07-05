@@ -47,6 +47,7 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AvatarMask*, "UnityEngine", "AvatarMask");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AvatarMask::GetHumanoidBodyPartActive
 // Il2CppName: GetHumanoidBodyPartActive
 template<>

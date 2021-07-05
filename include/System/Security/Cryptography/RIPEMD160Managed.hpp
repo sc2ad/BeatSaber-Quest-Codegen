@@ -106,6 +106,7 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(RIPEMD160Managed) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RIPEMD160Managed*, "System.Security.Cryptography", "RIPEMD160Managed");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::RIPEMD160Managed::InitializeState
 // Il2CppName: InitializeState
 template<>

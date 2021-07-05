@@ -102,6 +102,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRPlugin::GUID) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::GUID*, "", "OVRPlugin/GUID");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::GUID::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

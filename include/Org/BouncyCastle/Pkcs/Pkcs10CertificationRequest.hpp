@@ -79,6 +79,7 @@ namespace Org::BouncyCastle::Pkcs {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest*, "Org.BouncyCastle.Pkcs", "Pkcs10CertificationRequest");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest::_cctor
 // Il2CppName: .cctor
 template<>

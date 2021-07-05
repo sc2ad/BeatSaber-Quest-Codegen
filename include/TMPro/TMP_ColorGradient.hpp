@@ -102,6 +102,7 @@ namespace TMPro {
   static_assert(sizeof(TMP_ColorGradient) == 0x5C);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_ColorGradient*, "TMPro", "TMP_ColorGradient");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_ColorGradient::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

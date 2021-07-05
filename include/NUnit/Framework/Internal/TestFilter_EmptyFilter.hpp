@@ -63,6 +63,7 @@ namespace NUnit::Framework::Internal {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestFilter::EmptyFilter*, "NUnit.Framework.Internal", "TestFilter/EmptyFilter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestFilter::EmptyFilter::Match
 // Il2CppName: Match
 template<>

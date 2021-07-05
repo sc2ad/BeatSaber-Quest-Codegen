@@ -229,6 +229,7 @@ namespace UnityEngine::UI {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Toggle*, "UnityEngine.UI", "Toggle");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Toggle::ToggleTransition, "UnityEngine.UI", "Toggle/ToggleTransition");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Toggle::get_group
 // Il2CppName: get_group
 template<>

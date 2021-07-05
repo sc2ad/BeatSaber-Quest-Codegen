@@ -231,6 +231,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalLeaderboardsModel*, "", "LocalLeaderboardsModel");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalLeaderboardsModel::LeaderboardType, "", "LocalLeaderboardsModel/LeaderboardType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalLeaderboardsModel::add_newScoreWasAddedToLeaderboardEvent
 // Il2CppName: add_newScoreWasAddedToLeaderboardEvent
 template<>

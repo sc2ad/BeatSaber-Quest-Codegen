@@ -139,3 +139,4 @@ namespace UnityEngine::EventSystems {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::EventTriggerType, "UnityEngine.EventSystems", "EventTriggerType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

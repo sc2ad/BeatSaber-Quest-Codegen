@@ -36,6 +36,7 @@ namespace UnityEngine::U2D {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::U2D::SpriteAtlas*, "UnityEngine.U2D", "SpriteAtlas");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::U2D::SpriteAtlas::CanBindTo
 // Il2CppName: CanBindTo
 template<>

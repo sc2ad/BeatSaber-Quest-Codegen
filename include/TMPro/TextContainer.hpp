@@ -256,6 +256,7 @@ namespace TMPro {
   static_assert(sizeof(TextContainer) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TextContainer*, "TMPro", "TextContainer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TextContainer::get_hasChanged
 // Il2CppName: get_hasChanged
 template<>

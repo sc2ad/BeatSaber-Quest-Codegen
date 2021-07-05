@@ -51,6 +51,7 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUI::WindowFunction*, "UnityEngine", "GUI/WindowFunction");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUI::WindowFunction::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -56,6 +56,7 @@ namespace UnityEngine::Timeline {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeNotificationBehaviour::$$c*, "UnityEngine.Timeline", "TimeNotificationBehaviour/<>c");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeNotificationBehaviour::$$c::_cctor
 // Il2CppName: .cctor
 template<>

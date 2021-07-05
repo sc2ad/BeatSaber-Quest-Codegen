@@ -56,6 +56,7 @@ namespace System {
   static_assert(sizeof(ParameterizedStrings::LowLevelStack) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::ParameterizedStrings::LowLevelStack*, "System", "ParameterizedStrings/LowLevelStack");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ParameterizedStrings::LowLevelStack::Pop
 // Il2CppName: Pop
 template<>

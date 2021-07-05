@@ -103,6 +103,7 @@ namespace Mono::Security::X509 {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X501*, "Mono.Security.X509", "X501");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::X509::X501::ToString
 // Il2CppName: ToString
 template<>

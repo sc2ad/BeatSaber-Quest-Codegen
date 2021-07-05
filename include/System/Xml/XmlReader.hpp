@@ -37,6 +37,7 @@ namespace System::Xml {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlReader*, "System.Xml", "XmlReader");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlReader::_cctor
 // Il2CppName: .cctor
 template<>

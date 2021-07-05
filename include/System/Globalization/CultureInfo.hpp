@@ -495,6 +495,7 @@ namespace System::Globalization {
   static_assert(sizeof(CultureInfo) == 0xC9);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CultureInfo*, "System.Globalization", "CultureInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::CultureInfo::get_InvariantCulture
 // Il2CppName: get_InvariantCulture
 template<>

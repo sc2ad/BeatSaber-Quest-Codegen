@@ -51,6 +51,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(DiffieHellmanUtility::DiffieHellmanKeyPair::$$c__DisplayClass5_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair::$$c__DisplayClass5_0*, "", "DiffieHellmanUtility/DiffieHellmanKeyPair/<>c__DisplayClass5_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair::$$c__DisplayClass5_0::$GetPreMasterSecretAsync$b__0
 // Il2CppName: <GetPreMasterSecretAsync>b__0
 template<>

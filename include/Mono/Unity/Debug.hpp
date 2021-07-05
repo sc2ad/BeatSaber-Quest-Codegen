@@ -34,6 +34,7 @@ namespace Mono::Unity {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::Debug*, "Mono.Unity", "Debug");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Unity::Debug::CheckAndThrow
 // Il2CppName: CheckAndThrow
 template<>

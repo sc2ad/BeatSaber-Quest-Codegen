@@ -104,6 +104,7 @@ namespace Org::BouncyCastle::Math::EC::Endo {
   static_assert(sizeof(ScalarSplitParameters) == 0x44);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*, "Org.BouncyCastle.Math.EC.Endo", "ScalarSplitParameters");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::CheckVector
 // Il2CppName: CheckVector
 template<>

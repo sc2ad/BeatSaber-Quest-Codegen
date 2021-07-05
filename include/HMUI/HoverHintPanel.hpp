@@ -112,6 +112,7 @@ namespace HMUI {
   static_assert(sizeof(HoverHintPanel) == 0x39);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverHintPanel*, "HMUI", "HoverHintPanel");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::HoverHintPanel::get_isShown
 // Il2CppName: get_isShown
 template<>

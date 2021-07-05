@@ -135,6 +135,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SongPacksDropdown) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPacksDropdown*, "", "SongPacksDropdown");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SongPacksDropdown::add_didSelectCellWithIdxEvent
 // Il2CppName: add_didSelectCellWithIdxEvent
 template<>

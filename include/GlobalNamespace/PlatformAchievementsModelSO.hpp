@@ -94,6 +94,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlatformAchievementsModelSO) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformAchievementsModelSO*, "", "PlatformAchievementsModelSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlatformAchievementsModelSO::get_platformAchievementsHandler
 // Il2CppName: get_platformAchievementsHandler
 template<>

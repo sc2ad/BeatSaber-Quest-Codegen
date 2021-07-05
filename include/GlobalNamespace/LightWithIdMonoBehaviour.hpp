@@ -110,6 +110,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LightWithIdMonoBehaviour) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightWithIdMonoBehaviour*, "", "LightWithIdMonoBehaviour");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightWithIdMonoBehaviour::get_lightId
 // Il2CppName: get_lightId
 template<>

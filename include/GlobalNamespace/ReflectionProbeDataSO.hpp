@@ -71,6 +71,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ReflectionProbeDataSO) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ReflectionProbeDataSO*, "", "ReflectionProbeDataSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ReflectionProbeDataSO::get_reflectionProbeCubemap1
 // Il2CppName: get_reflectionProbeCubemap1
 template<>

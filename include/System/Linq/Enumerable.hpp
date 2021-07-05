@@ -668,6 +668,7 @@ namespace System::Linq {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Linq::Enumerable*, "System.Linq", "Enumerable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Linq::Enumerable::Where
 // Il2CppName: Where
 // Cannot write MetadataGetter for generic methods!

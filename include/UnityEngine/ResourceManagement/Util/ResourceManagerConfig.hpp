@@ -83,6 +83,7 @@ namespace UnityEngine::ResourceManagement::Util {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::ResourceManagerConfig*, "UnityEngine.ResourceManagement.Util", "ResourceManagerConfig");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::ResourceManagerConfig::ExtractKeyAndSubKey
 // Il2CppName: ExtractKeyAndSubKey
 template<>

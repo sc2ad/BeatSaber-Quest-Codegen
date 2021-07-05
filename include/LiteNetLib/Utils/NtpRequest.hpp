@@ -114,6 +114,7 @@ namespace LiteNetLib::Utils {
   static_assert(sizeof(NtpRequest) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NtpRequest*, "LiteNetLib.Utils", "NtpRequest");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpRequest::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

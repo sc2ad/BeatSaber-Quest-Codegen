@@ -68,6 +68,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static_assert(sizeof(BinaryObjectString) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryObjectString*, "System.Runtime.Serialization.Formatters.Binary", "BinaryObjectString");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryObjectString::Set
 // Il2CppName: Set
 template<>

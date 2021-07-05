@@ -28,6 +28,7 @@ namespace NUnit::Framework::Interfaces {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IApplyToTest*, "NUnit.Framework.Interfaces", "IApplyToTest");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::IApplyToTest::ApplyToTest
 // Il2CppName: ApplyToTest
 template<>

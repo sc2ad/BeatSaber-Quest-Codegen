@@ -67,3 +67,4 @@ namespace OVR::OpenVR {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::EVRComponentProperty, "OVR.OpenVR", "EVRComponentProperty");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -67,6 +67,7 @@ namespace System::Security::Cryptography::X509Certificates {
   static_assert(sizeof(X509Extension) == 0x21);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Extension*, "System.Security.Cryptography.X509Certificates", "X509Extension");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Extension::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

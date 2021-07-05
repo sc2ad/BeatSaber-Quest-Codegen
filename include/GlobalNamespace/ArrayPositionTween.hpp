@@ -96,6 +96,7 @@ namespace GlobalNamespace {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ArrayPositionTween*, "", "ArrayPositionTween");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ArrayPositionTween::get_clipCaps
 // Il2CppName: get_clipCaps
 template<>

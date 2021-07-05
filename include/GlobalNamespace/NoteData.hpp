@@ -205,6 +205,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteData) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteData*, "", "NoteData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteData::get_colorType
 // Il2CppName: get_colorType
 template<>

@@ -173,6 +173,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   static_assert(sizeof(AssetBundleResource) == 0x69);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource*, "UnityEngine.ResourceManagement.ResourceProviders", "AssetBundleResource");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource::CreateWebRequest
 // Il2CppName: CreateWebRequest
 template<>

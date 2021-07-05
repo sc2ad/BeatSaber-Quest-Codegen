@@ -34,6 +34,7 @@ namespace System::Runtime::Remoting::Messaging {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IMessageSink*, "System.Runtime.Remoting.Messaging", "IMessageSink");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::IMessageSink::SyncProcessMessage
 // Il2CppName: SyncProcessMessage
 template<>

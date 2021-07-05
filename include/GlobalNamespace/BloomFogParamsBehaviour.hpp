@@ -102,6 +102,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomFogParamsBehaviour) == 0x39);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFogParamsBehaviour*, "", "BloomFogParamsBehaviour");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogParamsBehaviour::ProcessFrame
 // Il2CppName: ProcessFrame
 template<>

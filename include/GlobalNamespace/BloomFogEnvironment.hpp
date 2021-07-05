@@ -71,6 +71,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomFogEnvironment) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFogEnvironment*, "", "BloomFogEnvironment");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogEnvironment::OnEnable
 // Il2CppName: OnEnable
 template<>

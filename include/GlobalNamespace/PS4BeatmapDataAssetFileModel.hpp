@@ -90,6 +90,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PS4BeatmapDataAssetFileModel) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4BeatmapDataAssetFileModel*, "", "PS4BeatmapDataAssetFileModel");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PS4BeatmapDataAssetFileModel::add_levelDataAssetDownloadUpdateEvent
 // Il2CppName: add_levelDataAssetDownloadUpdateEvent
 template<>

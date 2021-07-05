@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerResultsPyramidViewAvatarInstaller) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsPyramidViewAvatarInstaller*, "", "MultiplayerResultsPyramidViewAvatarInstaller");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsPyramidViewAvatarInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>

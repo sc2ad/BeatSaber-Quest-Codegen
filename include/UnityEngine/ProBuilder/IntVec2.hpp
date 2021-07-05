@@ -89,6 +89,7 @@ namespace UnityEngine::ProBuilder {
   bool operator !=(const UnityEngine::ProBuilder::IntVec2& a, const UnityEngine::ProBuilder::IntVec2& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::IntVec2, "UnityEngine.ProBuilder", "IntVec2");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::IntVec2::get_x
 // Il2CppName: get_x
 template<>

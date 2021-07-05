@@ -160,6 +160,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerVerticalPlayerMovementManager) == 0x64);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerVerticalPlayerMovementManager*, "", "MultiplayerVerticalPlayerMovementManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerVerticalPlayerMovementManager::Start
 // Il2CppName: Start
 template<>

@@ -68,6 +68,7 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c*, "UnityEngine.TestTools.TestRunner.GUI", "SynchronousFilter/<>c");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::SynchronousFilter::$$c::_cctor
 // Il2CppName: .cctor
 template<>

@@ -197,6 +197,7 @@ namespace UnityEngine::AddressableAssets {
   static_assert(sizeof(AssetReference) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AssetReference*, "UnityEngine.AddressableAssets", "AssetReference");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetReference::get_OperationHandle
 // Il2CppName: get_OperationHandle
 template<>

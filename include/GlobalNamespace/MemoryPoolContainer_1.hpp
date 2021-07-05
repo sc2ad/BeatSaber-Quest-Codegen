@@ -82,3 +82,4 @@ namespace GlobalNamespace {
   // Could not write size check! Type: MemoryPoolContainer`1 is generic, or has no fields that are valid for size checks!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::MemoryPoolContainer_1, "", "MemoryPoolContainer`1");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

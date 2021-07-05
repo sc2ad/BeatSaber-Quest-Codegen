@@ -71,6 +71,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BTSStarTextEventEffect::StarTextSprite) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*, "", "BTSStarTextEventEffect/StarTextSprite");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEventEffect::StarTextSprite::get_id
 // Il2CppName: get_id
 template<>

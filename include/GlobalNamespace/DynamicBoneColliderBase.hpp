@@ -148,6 +148,7 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBoneColliderBase*, "", "DynamicBoneColliderBase");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBoneColliderBase::Direction, "", "DynamicBoneColliderBase/Direction");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBoneColliderBase::Bound, "", "DynamicBoneColliderBase/Bound");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DynamicBoneColliderBase::Collide
 // Il2CppName: Collide
 template<>

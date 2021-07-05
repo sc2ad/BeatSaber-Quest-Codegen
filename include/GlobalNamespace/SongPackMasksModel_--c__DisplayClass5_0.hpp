@@ -59,6 +59,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SongPackMasksModel::$$c__DisplayClass5_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPackMasksModel::$$c__DisplayClass5_0*, "", "SongPackMasksModel/<>c__DisplayClass5_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMasksModel::$$c__DisplayClass5_0::$GetSongPackMaskText$b__0
 // Il2CppName: <GetSongPackMaskText>b__0
 template<>

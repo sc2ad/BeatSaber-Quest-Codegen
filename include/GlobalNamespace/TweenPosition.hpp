@@ -113,6 +113,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(TweenPosition) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TweenPosition*, "", "TweenPosition");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TweenPosition::set_TargetPos
 // Il2CppName: set_TargetPos
 template<>

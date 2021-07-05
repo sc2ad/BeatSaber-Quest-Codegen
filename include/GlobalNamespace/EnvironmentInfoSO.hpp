@@ -136,6 +136,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnvironmentInfoSO) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentInfoSO*, "", "EnvironmentInfoSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentInfoSO::get_sceneInfo
 // Il2CppName: get_sceneInfo
 template<>

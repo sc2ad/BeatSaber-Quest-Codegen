@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(NetEaseLoginController::$Start$d__3) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseLoginController::$Start$d__3*, "", "NetEaseLoginController/<Start>d__3");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NetEaseLoginController::$Start$d__3::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

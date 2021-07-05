@@ -67,6 +67,7 @@ namespace UnityEngine::EventSystems {
   static_assert(sizeof(PointerInputModule::MouseState) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerInputModule::MouseState*, "UnityEngine.EventSystems", "PointerInputModule/MouseState");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::PointerInputModule::MouseState::AnyPressesThisFrame
 // Il2CppName: AnyPressesThisFrame
 template<>

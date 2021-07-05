@@ -206,6 +206,7 @@ namespace System::Reflection {
   static_assert(sizeof(MonoCMethod) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoCMethod*, "System.Reflection", "MonoCMethod");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::MonoCMethod::InternalInvoke
 // Il2CppName: InternalInvoke
 template<>

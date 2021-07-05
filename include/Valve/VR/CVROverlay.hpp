@@ -345,6 +345,7 @@ namespace Valve::VR {
   static_assert(sizeof(CVROverlay) == 0x2A0);
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVROverlay*, "Valve.VR", "CVROverlay");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::CVROverlay::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

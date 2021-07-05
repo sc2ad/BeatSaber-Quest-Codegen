@@ -158,6 +158,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   static_assert(sizeof(UnityTestAssemblyRunner) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityTestAssemblyRunner");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::get_Context
 // Il2CppName: get_Context
 template<>

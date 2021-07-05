@@ -342,6 +342,7 @@ namespace OVRSimpleJSON {
   bool operator !=(OVRSimpleJSON::JSONNode* a, ::Il2CppObject& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode*, "OVRSimpleJSON", "JSONNode");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONNode::get_Tag
 // Il2CppName: get_Tag
 template<>

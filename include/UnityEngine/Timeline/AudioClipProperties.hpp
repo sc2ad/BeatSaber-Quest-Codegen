@@ -48,6 +48,7 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(AudioClipProperties) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AudioClipProperties*, "UnityEngine.Timeline", "AudioClipProperties");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::AudioClipProperties::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapEditorScenesTransitionSetupDataSO) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*, "", "BeatmapEditorScenesTransitionSetupDataSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

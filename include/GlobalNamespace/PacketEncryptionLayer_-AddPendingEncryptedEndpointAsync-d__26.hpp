@@ -102,6 +102,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PacketEncryptionLayer::$AddPendingEncryptedEndpointAsync$d__26, "", "PacketEncryptionLayer/<AddPendingEncryptedEndpointAsync>d__26");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::$AddPendingEncryptedEndpointAsync$d__26::MoveNext
 // Il2CppName: MoveNext
 template<>

@@ -153,6 +153,7 @@ namespace System::Globalization {
   static_assert(sizeof(GregorianCalendarHelper) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::GregorianCalendarHelper*, "System.Globalization", "GregorianCalendarHelper");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::GregorianCalendarHelper::get_MaxYear
 // Il2CppName: get_MaxYear
 template<>

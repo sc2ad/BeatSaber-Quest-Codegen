@@ -124,6 +124,7 @@ namespace Org::BouncyCastle::Asn1 {
   static_assert(sizeof(BerOctetString) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::BerOctetString*, "Org.BouncyCastle.Asn1", "BerOctetString");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::BerOctetString::FromSequence
 // Il2CppName: FromSequence
 template<>

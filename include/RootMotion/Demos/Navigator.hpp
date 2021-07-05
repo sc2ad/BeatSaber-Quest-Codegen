@@ -231,6 +231,7 @@ namespace RootMotion::Demos {
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Demos::Navigator*, "RootMotion.Demos", "Navigator");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Demos::Navigator::State, "RootMotion.Demos", "Navigator/State");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::Demos::Navigator::get_normalizedDeltaPosition
 // Il2CppName: get_normalizedDeltaPosition
 template<>

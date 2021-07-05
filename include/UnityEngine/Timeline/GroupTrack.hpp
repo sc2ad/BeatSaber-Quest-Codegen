@@ -56,6 +56,7 @@ namespace UnityEngine::Timeline {
   }; // UnityEngine.Timeline.GroupTrack
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::GroupTrack*, "UnityEngine.Timeline", "GroupTrack");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::GroupTrack::CanCompileClips
 // Il2CppName: CanCompileClips
 template<>

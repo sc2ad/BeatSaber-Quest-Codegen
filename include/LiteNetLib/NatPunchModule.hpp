@@ -232,6 +232,7 @@ namespace LiteNetLib {
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule*, "LiteNetLib", "NatPunchModule");
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule::RequestEventData, "LiteNetLib", "NatPunchModule/RequestEventData");
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule::SuccessEventData, "LiteNetLib", "NatPunchModule/SuccessEventData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NatPunchModule::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

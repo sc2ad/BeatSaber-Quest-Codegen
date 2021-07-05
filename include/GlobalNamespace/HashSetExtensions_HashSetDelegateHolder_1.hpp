@@ -72,3 +72,4 @@ namespace GlobalNamespace {
   // Could not write size check! Type: HashSetExtensions/HashSetDelegateHolder`1 is generic, or has no fields that are valid for size checks!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::HashSetExtensions::HashSetDelegateHolder_1, "", "HashSetExtensions/HashSetDelegateHolder`1");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

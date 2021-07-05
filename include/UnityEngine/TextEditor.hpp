@@ -869,6 +869,7 @@ namespace UnityEngine {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextEditor*, "UnityEngine", "TextEditor");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextEditor::DblClickSnapping, "UnityEngine", "TextEditor/DblClickSnapping");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextEditor::TextEditOp, "UnityEngine", "TextEditor/TextEditOp");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TextEditor::get_text
 // Il2CppName: get_text
 template<>

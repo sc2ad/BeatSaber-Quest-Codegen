@@ -58,6 +58,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRMonoscopic) == 0x1D);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMonoscopic*, "", "OVRMonoscopic");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRMonoscopic::Update
 // Il2CppName: Update
 template<>

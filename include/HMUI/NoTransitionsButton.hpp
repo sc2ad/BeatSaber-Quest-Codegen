@@ -133,6 +133,7 @@ namespace HMUI {
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NoTransitionsButton*, "HMUI", "NoTransitionsButton");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NoTransitionsButton::SelectionState, "HMUI", "NoTransitionsButton/SelectionState");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::NoTransitionsButton::get_selectionState
 // Il2CppName: get_selectionState
 template<>

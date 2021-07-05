@@ -35,6 +35,7 @@ namespace UnityEngine::Timeline {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ILayerable*, "UnityEngine.Timeline", "ILayerable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::ILayerable::CreateLayerMixer
 // Il2CppName: CreateLayerMixer
 template<>

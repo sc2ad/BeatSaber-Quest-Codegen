@@ -142,6 +142,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayerLevelStatsData) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerLevelStatsData*, "", "PlayerLevelStatsData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerLevelStatsData::get_levelID
 // Il2CppName: get_levelID
 template<>

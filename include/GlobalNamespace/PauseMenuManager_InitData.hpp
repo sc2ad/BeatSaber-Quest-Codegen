@@ -82,6 +82,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PauseMenuManager::InitData) == 0x32);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseMenuManager::InitData*, "", "PauseMenuManager/InitData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PauseMenuManager::InitData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

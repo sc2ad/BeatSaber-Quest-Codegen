@@ -89,6 +89,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PromoViewController::ButtonPromoTypePair) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PromoViewController::ButtonPromoTypePair*, "", "PromoViewController/ButtonPromoTypePair");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PromoViewController::ButtonPromoTypePair::get_annotatedBeatmapLevelCollection
 // Il2CppName: get_annotatedBeatmapLevelCollection
 template<>

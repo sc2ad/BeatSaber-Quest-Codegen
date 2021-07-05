@@ -90,6 +90,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   static_assert(sizeof(BundledAssetProvider::InternalOp) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp*, "UnityEngine.ResourceManagement.ResourceProviders", "BundledAssetProvider/InternalOp");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider::InternalOp::LoadBundleFromDependecies
 // Il2CppName: LoadBundleFromDependecies
 template<>

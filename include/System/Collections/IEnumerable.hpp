@@ -30,6 +30,7 @@ namespace System::Collections {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::IEnumerable*, "System.Collections", "IEnumerable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::IEnumerable::GetEnumerator
 // Il2CppName: GetEnumerator
 template<>

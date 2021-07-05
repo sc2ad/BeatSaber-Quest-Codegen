@@ -50,6 +50,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(DisableComponentOnNonSteam) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisableComponentOnNonSteam*, "", "DisableComponentOnNonSteam");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DisableComponentOnNonSteam::Awake
 // Il2CppName: Awake
 template<>

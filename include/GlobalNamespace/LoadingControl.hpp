@@ -163,6 +163,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LoadingControl) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LoadingControl*, "", "LoadingControl");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LoadingControl::add_didPressRefreshButtonEvent
 // Il2CppName: add_didPressRefreshButtonEvent
 template<>

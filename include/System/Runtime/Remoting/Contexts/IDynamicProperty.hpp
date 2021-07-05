@@ -25,6 +25,7 @@ namespace System::Runtime::Remoting::Contexts {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IDynamicProperty*, "System.Runtime.Remoting.Contexts", "IDynamicProperty");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::IDynamicProperty::get_Name
 // Il2CppName: get_Name
 template<>

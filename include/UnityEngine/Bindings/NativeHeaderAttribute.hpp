@@ -50,6 +50,7 @@ namespace UnityEngine::Bindings {
   static_assert(sizeof(NativeHeaderAttribute) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeHeaderAttribute*, "UnityEngine.Bindings", "NativeHeaderAttribute");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Bindings::NativeHeaderAttribute::set_Header
 // Il2CppName: set_Header
 template<>

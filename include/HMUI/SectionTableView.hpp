@@ -198,6 +198,7 @@ namespace HMUI {
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SectionTableView*, "HMUI", "SectionTableView");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SectionTableView::Section, "HMUI", "SectionTableView/Section");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::SectionTableView::add_didSelectRowInSectionEvent
 // Il2CppName: add_didSelectRowInSectionEvent
 template<>

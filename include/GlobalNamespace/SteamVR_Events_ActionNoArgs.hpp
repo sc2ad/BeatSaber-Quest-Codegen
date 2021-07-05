@@ -59,6 +59,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SteamVR_Events::ActionNoArgs) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Events::ActionNoArgs*, "", "SteamVR_Events/ActionNoArgs");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::ActionNoArgs::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

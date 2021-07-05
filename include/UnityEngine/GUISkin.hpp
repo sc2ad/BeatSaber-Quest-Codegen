@@ -408,6 +408,7 @@ namespace UnityEngine {
   static_assert(sizeof(GUISkin) == 0xE8);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUISkin*, "UnityEngine", "GUISkin");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUISkin::OnEnable
 // Il2CppName: OnEnable
 template<>

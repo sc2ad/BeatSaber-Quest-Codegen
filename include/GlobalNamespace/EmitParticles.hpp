@@ -57,6 +57,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(EmitParticles) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EmitParticles*, "", "EmitParticles");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EmitParticles::Emit
 // Il2CppName: Emit
 template<>

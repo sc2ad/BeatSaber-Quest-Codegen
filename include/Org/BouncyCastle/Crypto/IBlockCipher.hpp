@@ -49,6 +49,7 @@ namespace Org::BouncyCastle::Crypto {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::IBlockCipher*, "Org.BouncyCastle.Crypto", "IBlockCipher");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::IBlockCipher::get_AlgorithmName
 // Il2CppName: get_AlgorithmName
 template<>

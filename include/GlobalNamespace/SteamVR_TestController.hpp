@@ -101,6 +101,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SteamVR_TestController) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_TestController*, "", "SteamVR_TestController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TestController::OnDeviceConnected
 // Il2CppName: OnDeviceConnected
 template<>

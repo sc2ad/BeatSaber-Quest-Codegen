@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ShaderWarmupSceneStart::$Start$d__2) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderWarmupSceneStart::$Start$d__2*, "", "ShaderWarmupSceneStart/<Start>d__2");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ShaderWarmupSceneStart::$Start$d__2::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

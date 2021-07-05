@@ -76,6 +76,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapLineData) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLineData*, "", "BeatmapLineData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLineData::get_beatmapObjectsData
 // Il2CppName: get_beatmapObjectsData
 template<>

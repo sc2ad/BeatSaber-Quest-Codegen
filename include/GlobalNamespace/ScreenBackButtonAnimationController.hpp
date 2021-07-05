@@ -140,6 +140,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenBackButtonAnimationController*, "", "ScreenBackButtonAnimationController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenBackButtonAnimationController::AnimationType, "", "ScreenBackButtonAnimationController/AnimationType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ScreenBackButtonAnimationController::Awake
 // Il2CppName: Awake
 template<>

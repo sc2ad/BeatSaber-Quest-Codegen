@@ -221,6 +221,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PacketEncryptionLayer) == 0x3A);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PacketEncryptionLayer*, "", "PacketEncryptionLayer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::get_filterUnencryptedTraffic
 // Il2CppName: get_filterUnencryptedTraffic
 template<>

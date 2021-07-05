@@ -98,6 +98,7 @@ namespace UnityEngine::Animations {
   static_assert(sizeof(AnimationRemoveScalePlayable) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationRemoveScalePlayable, "UnityEngine.Animations", "AnimationRemoveScalePlayable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationRemoveScalePlayable::Create
 // Il2CppName: Create
 template<>

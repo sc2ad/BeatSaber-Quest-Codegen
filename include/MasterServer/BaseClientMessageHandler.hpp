@@ -243,6 +243,7 @@ namespace MasterServer {
   static_assert(sizeof(BaseClientMessageHandler) == 0xB0);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseClientMessageHandler*, "MasterServer", "BaseClientMessageHandler");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::get_endPoint
 // Il2CppName: get_endPoint
 template<>

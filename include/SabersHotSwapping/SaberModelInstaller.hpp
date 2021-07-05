@@ -59,6 +59,7 @@ namespace SabersHotSwapping {
   static_assert(sizeof(SaberModelInstaller) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(SabersHotSwapping::SaberModelInstaller*, "SabersHotSwapping", "SaberModelInstaller");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: SabersHotSwapping::SaberModelInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>

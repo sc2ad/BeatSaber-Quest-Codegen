@@ -47,6 +47,7 @@ namespace UnityEngine::Networking::PlayerConnection {
   static_assert(sizeof(MessageEventArgs) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::MessageEventArgs*, "UnityEngine.Networking.PlayerConnection", "MessageEventArgs");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::PlayerConnection::MessageEventArgs::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

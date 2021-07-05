@@ -66,6 +66,7 @@ namespace UnityEngine {
   static_assert(sizeof(IntegratedSubsystem) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::IntegratedSubsystem*, "UnityEngine", "IntegratedSubsystem");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::IntegratedSubsystem::SetHandle
 // Il2CppName: SetHandle
 template<>

@@ -84,6 +84,7 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(InfiniteRuntimeClip) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::InfiniteRuntimeClip*, "UnityEngine.Timeline", "InfiniteRuntimeClip");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::InfiniteRuntimeClip::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -101,6 +101,7 @@ namespace UnityEngine::ProBuilder {
   UnityEngine::Vector2 operator*(const UnityEngine::ProBuilder::Vector2Mask& mask, const float& value);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Vector2Mask, "UnityEngine.ProBuilder", "Vector2Mask");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Vector2Mask::get_x
 // Il2CppName: get_x
 template<>

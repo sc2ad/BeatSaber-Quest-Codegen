@@ -94,6 +94,7 @@ namespace HMUI {
   static_assert(sizeof(ScreenModeController) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScreenModeController*, "HMUI", "ScreenModeController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ScreenModeController::Awake
 // Il2CppName: Awake
 template<>

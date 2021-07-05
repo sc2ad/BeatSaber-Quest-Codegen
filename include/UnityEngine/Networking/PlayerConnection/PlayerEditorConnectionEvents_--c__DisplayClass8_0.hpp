@@ -51,6 +51,7 @@ namespace UnityEngine::Networking::PlayerConnection {
   static_assert(sizeof(PlayerEditorConnectionEvents::$$c__DisplayClass8_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::$$c__DisplayClass8_0*, "UnityEngine.Networking.PlayerConnection", "PlayerEditorConnectionEvents/<>c__DisplayClass8_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::$$c__DisplayClass8_0::$UnregisterManagedCallback$b__0
 // Il2CppName: <UnregisterManagedCallback>b__0
 template<>

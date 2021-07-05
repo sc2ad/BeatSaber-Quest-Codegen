@@ -58,6 +58,7 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::DefaultBinder::$$c*, "System", "DefaultBinder/<>c");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::DefaultBinder::$$c::_cctor
 // Il2CppName: .cctor
 template<>

@@ -63,6 +63,7 @@ namespace System::Runtime::CompilerServices {
   static_assert(sizeof(AsyncMethodBuilderCore::$$c__DisplayClass4_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c__DisplayClass4_0*, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/<>c__DisplayClass4_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c__DisplayClass4_0::$OutputAsyncCausalityEvents$b__0
 // Il2CppName: <OutputAsyncCausalityEvents>b__0
 template<>

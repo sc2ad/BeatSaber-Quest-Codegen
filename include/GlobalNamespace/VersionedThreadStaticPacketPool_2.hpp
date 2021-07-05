@@ -52,3 +52,4 @@ namespace GlobalNamespace {
   // Could not write size check! Type: VersionedThreadStaticPacketPool`2 is generic, or has no fields that are valid for size checks!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::VersionedThreadStaticPacketPool_2, "", "VersionedThreadStaticPacketPool`2");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

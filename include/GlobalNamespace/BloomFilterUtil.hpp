@@ -83,6 +83,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFilterUtil*, "", "BloomFilterUtil");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomFilterUtil::MurmurHash2
 // Il2CppName: MurmurHash2
 template<>

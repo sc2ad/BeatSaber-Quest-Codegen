@@ -59,3 +59,4 @@ namespace UnityEngine {
   // Could not write size check! Type: UnityEngine.ExposedReference`1 is generic, or has no fields that are valid for size checks!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(UnityEngine::ExposedReference_1, "UnityEngine", "ExposedReference`1");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

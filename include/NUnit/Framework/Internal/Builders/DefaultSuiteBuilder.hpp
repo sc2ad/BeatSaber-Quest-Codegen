@@ -89,6 +89,7 @@ namespace NUnit::Framework::Internal::Builders {
   static_assert(sizeof(DefaultSuiteBuilder) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::DefaultSuiteBuilder*, "NUnit.Framework.Internal.Builders", "DefaultSuiteBuilder");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::DefaultSuiteBuilder::CanBuildFrom
 // Il2CppName: CanBuildFrom
 template<>

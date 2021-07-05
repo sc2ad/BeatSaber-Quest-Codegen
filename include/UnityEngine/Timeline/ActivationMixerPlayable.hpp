@@ -96,6 +96,7 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(ActivationMixerPlayable) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ActivationMixerPlayable*, "UnityEngine.Timeline", "ActivationMixerPlayable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::ActivationMixerPlayable::Create
 // Il2CppName: Create
 template<>

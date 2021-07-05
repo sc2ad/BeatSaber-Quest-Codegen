@@ -113,6 +113,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectExecutionRating*, "", "BeatmapObjectExecutionRating");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType, "", "BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectExecutionRating::get_beatmapObjectRatingType
 // Il2CppName: get_beatmapObjectRatingType
 template<>

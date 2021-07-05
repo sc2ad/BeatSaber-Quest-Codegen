@@ -61,3 +61,4 @@ namespace System::Collections::Generic {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::TreeRotation, "System.Collections.Generic", "TreeRotation");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

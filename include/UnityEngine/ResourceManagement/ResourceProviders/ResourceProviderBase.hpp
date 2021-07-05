@@ -120,6 +120,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   static_assert(sizeof(ResourceProviderBase) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase*, "UnityEngine.ResourceManagement.ResourceProviders", "ResourceProviderBase");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::get_ProviderId
 // Il2CppName: get_ProviderId
 template<>

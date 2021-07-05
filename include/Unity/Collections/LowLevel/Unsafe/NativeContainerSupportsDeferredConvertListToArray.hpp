@@ -36,6 +36,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeferredConvertListToArray*, "Unity.Collections.LowLevel.Unsafe", "NativeContainerSupportsDeferredConvertListToArray");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Unity::Collections::LowLevel::Unsafe::NativeContainerSupportsDeferredConvertListToArray::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

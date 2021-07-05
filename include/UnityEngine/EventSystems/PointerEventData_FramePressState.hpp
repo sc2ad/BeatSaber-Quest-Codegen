@@ -63,3 +63,4 @@ namespace UnityEngine::EventSystems {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerEventData::FramePressState, "UnityEngine.EventSystems", "PointerEventData/FramePressState");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

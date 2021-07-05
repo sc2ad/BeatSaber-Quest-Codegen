@@ -44,6 +44,7 @@ namespace NUnit::Framework::Internal::Commands {
   static_assert(sizeof(DelegatingTestCommand) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::DelegatingTestCommand*, "NUnit.Framework.Internal.Commands", "DelegatingTestCommand");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::DelegatingTestCommand::GetInnerCommand
 // Il2CppName: GetInnerCommand
 template<>

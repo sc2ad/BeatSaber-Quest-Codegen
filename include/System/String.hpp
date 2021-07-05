@@ -803,6 +803,7 @@ namespace System {
   bool operator !=(::Il2CppString* a, ::Il2CppString& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::String*, "System", "String");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::String::Join
 // Il2CppName: Join
 template<>

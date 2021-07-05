@@ -72,6 +72,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(StandardLevelReturnToMenuController) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelReturnToMenuController*, "", "StandardLevelReturnToMenuController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelReturnToMenuController::ReturnToMenu
 // Il2CppName: ReturnToMenu
 template<>

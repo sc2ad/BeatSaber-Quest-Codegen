@@ -61,6 +61,7 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Screen*, "UnityEngine", "Screen");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Screen::get_width
 // Il2CppName: get_width
 template<>

@@ -74,6 +74,7 @@ namespace Oculus::Platform {
   static_assert(sizeof(UserOptions) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::UserOptions*, "Oculus.Platform", "UserOptions");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::UserOptions::SetMaxUsers
 // Il2CppName: SetMaxUsers
 template<>

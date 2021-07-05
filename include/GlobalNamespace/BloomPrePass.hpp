@@ -147,6 +147,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePass*, "", "BloomPrePass");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePass::Mode, "", "BloomPrePass/Mode");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePass::Awake
 // Il2CppName: Awake
 template<>

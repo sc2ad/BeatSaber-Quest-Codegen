@@ -277,6 +277,7 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Enum*, "System", "Enum");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Enum::GetCachedValuesAndNames
 // Il2CppName: GetCachedValuesAndNames
 template<>

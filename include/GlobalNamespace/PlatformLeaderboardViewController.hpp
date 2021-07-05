@@ -251,6 +251,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlatformLeaderboardViewController) == 0xE8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardViewController*, "", "PlatformLeaderboardViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::get_leaderboardsModel
 // Il2CppName: get_leaderboardsModel
 template<>

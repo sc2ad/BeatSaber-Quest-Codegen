@@ -96,6 +96,7 @@ namespace UnityEngine::UI {
   static_assert(sizeof(ReflectionMethodsCache) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ReflectionMethodsCache*, "UnityEngine.UI", "ReflectionMethodsCache");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::ReflectionMethodsCache::get_Singleton
 // Il2CppName: get_Singleton
 template<>

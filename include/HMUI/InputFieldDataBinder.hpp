@@ -116,6 +116,7 @@ namespace HMUI {
   static_assert(sizeof(InputFieldDataBinder) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldDataBinder*, "HMUI", "InputFieldDataBinder");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::InputFieldDataBinder::AddBindings
 // Il2CppName: AddBindings
 // Cannot write MetadataGetter for generic methods!

@@ -146,6 +146,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MaterialLightWithId) == 0x6C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialLightWithId*, "", "MaterialLightWithId");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MaterialLightWithId::get_color
 // Il2CppName: get_color
 template<>

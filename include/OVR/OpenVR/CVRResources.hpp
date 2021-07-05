@@ -58,6 +58,7 @@ namespace OVR::OpenVR {
   static_assert(sizeof(CVRResources) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRResources*, "OVR.OpenVR", "CVRResources");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::CVRResources::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

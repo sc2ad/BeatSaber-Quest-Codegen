@@ -94,6 +94,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BadNoteCutEffectSpawner) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BadNoteCutEffectSpawner*, "", "BadNoteCutEffectSpawner");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BadNoteCutEffectSpawner::Start
 // Il2CppName: Start
 template<>

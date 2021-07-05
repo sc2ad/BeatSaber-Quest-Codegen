@@ -53,6 +53,7 @@ namespace UnityEngine::Networking::PlayerConnection {
   static_assert(sizeof(PlayerConnection::$$c__DisplayClass13_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass13_0*, "UnityEngine.Networking.PlayerConnection", "PlayerConnection/<>c__DisplayClass13_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass13_0::$Unregister$b__0
 // Il2CppName: <Unregister>b__0
 template<>

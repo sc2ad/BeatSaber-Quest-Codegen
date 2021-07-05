@@ -166,6 +166,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleRetailDemoViewController*, "", "SimpleRetailDemoViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleRetailDemoViewController::MenuButton, "", "SimpleRetailDemoViewController/MenuButton");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleRetailDemoViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

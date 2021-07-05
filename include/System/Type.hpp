@@ -569,6 +569,7 @@ namespace System {
   bool operator !=(System::Type* left, System::Type& right);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Type*, "System", "Type");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Type::get_DeclaringMethod
 // Il2CppName: get_DeclaringMethod
 template<>

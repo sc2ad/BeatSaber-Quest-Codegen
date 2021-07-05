@@ -51,6 +51,7 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Console::InternalCancelHandler*, "System", "Console/InternalCancelHandler");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Console::InternalCancelHandler::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

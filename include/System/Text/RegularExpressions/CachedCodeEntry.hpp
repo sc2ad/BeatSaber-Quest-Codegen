@@ -105,6 +105,7 @@ namespace System::Text::RegularExpressions {
   static_assert(sizeof(CachedCodeEntry) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::CachedCodeEntry*, "System.Text.RegularExpressions", "CachedCodeEntry");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::CachedCodeEntry::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

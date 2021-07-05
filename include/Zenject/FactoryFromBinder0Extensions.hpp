@@ -147,6 +147,7 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FactoryFromBinder0Extensions*, "Zenject", "FactoryFromBinder0Extensions");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::FactoryFromBinder0Extensions::FromPoolableMemoryPool
 // Il2CppName: FromPoolableMemoryPool
 // Cannot write MetadataGetter for generic methods!

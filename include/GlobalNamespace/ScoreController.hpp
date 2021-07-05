@@ -458,6 +458,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ScoreController) == 0xF8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreController*, "", "ScoreController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ScoreController::add_noteWasCutEvent
 // Il2CppName: add_noteWasCutEvent
 template<>

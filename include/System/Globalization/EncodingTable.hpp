@@ -76,6 +76,7 @@ namespace System::Globalization {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::EncodingTable*, "System.Globalization", "EncodingTable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::EncodingTable::GetNumEncodingItems
 // Il2CppName: GetNumEncodingItems
 template<>

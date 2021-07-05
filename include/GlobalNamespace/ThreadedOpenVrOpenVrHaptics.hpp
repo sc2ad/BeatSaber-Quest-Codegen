@@ -127,6 +127,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ThreadedOpenVrOpenVrHaptics*, "", "ThreadedOpenVrOpenVrHaptics");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData, "", "ThreadedOpenVrOpenVrHaptics/OpenVrHapticData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ThreadedOpenVrOpenVrHaptics::TriggerHapticPulse
 // Il2CppName: TriggerHapticPulse
 template<>

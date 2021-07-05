@@ -299,6 +299,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(TubeBloomPrePassLight) == 0xA8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TubeBloomPrePassLight*, "", "TubeBloomPrePassLight");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TubeBloomPrePassLight::add_didRefreshEvent
 // Il2CppName: add_didRefreshEvent
 template<>

@@ -267,6 +267,7 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(Face) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Face*, "UnityEngine.ProBuilder", "Face");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::get_manualUV
 // Il2CppName: get_manualUV
 template<>

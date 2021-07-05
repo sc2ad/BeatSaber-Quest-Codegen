@@ -55,6 +55,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Filters {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Filters::CategoryFilterExtended*, "UnityEngine.TestRunner.NUnitExtensions.Filters", "CategoryFilterExtended");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Filters::CategoryFilterExtended::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -342,6 +342,7 @@ namespace HMUI {
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldView*, "HMUI", "InputFieldView");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldView::SelectionState, "HMUI", "InputFieldView/SelectionState");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::InputFieldView::get_selectionState
 // Il2CppName: get_selectionState
 template<>

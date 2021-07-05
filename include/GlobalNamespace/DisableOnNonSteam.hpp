@@ -40,6 +40,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisableOnNonSteam*, "", "DisableOnNonSteam");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DisableOnNonSteam::Awake
 // Il2CppName: Awake
 template<>

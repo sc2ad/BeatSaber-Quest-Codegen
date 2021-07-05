@@ -116,6 +116,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LeaderboardTableCell) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardTableCell*, "", "LeaderboardTableCell");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardTableCell::set_rank
 // Il2CppName: set_rank
 template<>

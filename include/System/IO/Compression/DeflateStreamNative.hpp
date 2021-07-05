@@ -143,6 +143,7 @@ namespace System::IO::Compression {
   static_assert(sizeof(DeflateStreamNative) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::DeflateStreamNative*, "System.IO.Compression", "DeflateStreamNative");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::Compression::DeflateStreamNative::Create
 // Il2CppName: Create
 template<>

@@ -139,6 +139,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomPrePassBackgroundTextureGradient) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundTextureGradient*, "", "BloomPrePassBackgroundTextureGradient");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundTextureGradient::InitIfNeeded
 // Il2CppName: InitIfNeeded
 template<>

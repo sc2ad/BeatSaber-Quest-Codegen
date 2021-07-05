@@ -66,6 +66,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::CacheInitialization*, "UnityEngine.AddressableAssets.Initialization", "CacheInitialization");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::CacheInitialization::Initialize
 // Il2CppName: Initialize
 template<>

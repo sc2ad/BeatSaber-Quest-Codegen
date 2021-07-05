@@ -36,6 +36,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager::CancelStartGameTimeRpc*, "", "MenuRpcManager/CancelStartGameTimeRpc");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::CancelStartGameTimeRpc::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

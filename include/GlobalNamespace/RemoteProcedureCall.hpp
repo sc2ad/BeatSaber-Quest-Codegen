@@ -89,6 +89,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(RemoteProcedureCall) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RemoteProcedureCall*, "", "RemoteProcedureCall");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RemoteProcedureCall::get_syncTime
 // Il2CppName: get_syncTime
 template<>

@@ -153,6 +153,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(StandaloneMonobehavior) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandaloneMonobehavior*, "", "StandaloneMonobehavior");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandaloneMonobehavior::get_objectLifeTime
 // Il2CppName: get_objectLifeTime
 template<>

@@ -87,6 +87,7 @@ namespace UnityEngine::UI {
   static_assert(sizeof(Dropdown::OptionData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Dropdown::OptionData*, "UnityEngine.UI", "Dropdown/OptionData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::OptionData::get_text
 // Il2CppName: get_text
 template<>

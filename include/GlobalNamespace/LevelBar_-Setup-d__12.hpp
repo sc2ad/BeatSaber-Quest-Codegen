@@ -107,6 +107,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelBar::$Setup$d__12, "", "LevelBar/<Setup>d__12");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelBar::$Setup$d__12::MoveNext
 // Il2CppName: MoveNext
 template<>

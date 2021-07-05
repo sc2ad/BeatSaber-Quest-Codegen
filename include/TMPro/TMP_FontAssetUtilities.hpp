@@ -88,6 +88,7 @@ namespace TMPro {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontAssetUtilities*, "TMPro", "TMP_FontAssetUtilities");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_FontAssetUtilities::_cctor
 // Il2CppName: .cctor
 template<>

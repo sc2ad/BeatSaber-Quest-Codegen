@@ -100,6 +100,7 @@ namespace UnityEngine::UI {
   static_assert(sizeof(Button) == 0x100);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Button*, "UnityEngine.UI", "Button");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Button::get_onClick
 // Il2CppName: get_onClick
 template<>

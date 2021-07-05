@@ -83,6 +83,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OculusInit) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusInit*, "", "OculusInit");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusInit::Init
 // Il2CppName: Init
 template<>

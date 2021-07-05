@@ -53,6 +53,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayerSpaceConvertor) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSpaceConvertor*, "", "PlayerSpaceConvertor");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpaceConvertor::get_worldToPlayerSpaceRotation
 // Il2CppName: get_worldToPlayerSpaceRotation
 template<>

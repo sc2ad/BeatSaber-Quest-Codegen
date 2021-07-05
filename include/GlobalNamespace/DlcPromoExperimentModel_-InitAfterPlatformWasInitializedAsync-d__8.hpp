@@ -78,6 +78,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DlcPromoExperimentModel::$InitAfterPlatformWasInitializedAsync$d__8, "", "DlcPromoExperimentModel/<InitAfterPlatformWasInitializedAsync>d__8");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoExperimentModel::$InitAfterPlatformWasInitializedAsync$d__8::MoveNext
 // Il2CppName: MoveNext
 template<>

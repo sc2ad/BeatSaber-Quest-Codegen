@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultipliedColorSO) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultipliedColorSO*, "", "MultipliedColorSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultipliedColorSO::get_color
 // Il2CppName: get_color
 template<>

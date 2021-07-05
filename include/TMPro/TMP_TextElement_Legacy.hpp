@@ -87,6 +87,7 @@ namespace TMPro {
   static_assert(sizeof(TMP_TextElement_Legacy) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextElement_Legacy*, "TMPro", "TMP_TextElement_Legacy");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_TextElement_Legacy::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

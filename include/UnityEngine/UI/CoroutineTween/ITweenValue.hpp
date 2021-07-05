@@ -30,6 +30,7 @@ namespace UnityEngine::UI::CoroutineTween {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::ITweenValue*, "UnityEngine.UI.CoroutineTween", "ITweenValue");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::ITweenValue::TweenValue
 // Il2CppName: TweenValue
 template<>

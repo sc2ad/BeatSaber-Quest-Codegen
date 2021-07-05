@@ -41,6 +41,7 @@ namespace System::Runtime::Remoting::Messaging {
   static_assert(sizeof(CADArgHolder) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADArgHolder*, "System.Runtime.Remoting.Messaging", "CADArgHolder");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADArgHolder::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

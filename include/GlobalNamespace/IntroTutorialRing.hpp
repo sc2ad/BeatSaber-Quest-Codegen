@@ -184,6 +184,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(IntroTutorialRing) == 0x69);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IntroTutorialRing*, "", "IntroTutorialRing");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IntroTutorialRing::set_alpha
 // Il2CppName: set_alpha
 template<>

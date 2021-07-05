@@ -108,6 +108,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(NamedIntListController) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedIntListController*, "", "NamedIntListController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NamedIntListController::add_valueChangedEvent
 // Il2CppName: add_valueChangedEvent
 template<>

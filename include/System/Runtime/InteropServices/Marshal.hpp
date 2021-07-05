@@ -215,6 +215,7 @@ namespace System::Runtime::InteropServices {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::Marshal*, "System.Runtime.InteropServices", "Marshal");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::Marshal::AllocCoTaskMem
 // Il2CppName: AllocCoTaskMem
 template<>

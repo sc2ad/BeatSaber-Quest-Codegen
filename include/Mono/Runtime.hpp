@@ -47,6 +47,7 @@ namespace Mono {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Runtime*, "Mono", "Runtime");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Runtime::mono_runtime_install_handlers
 // Il2CppName: mono_runtime_install_handlers
 template<>

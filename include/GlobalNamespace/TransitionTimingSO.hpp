@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(TransitionTimingSO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TransitionTimingSO*, "", "TransitionTimingSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TransitionTimingSO::get_easeType
 // Il2CppName: get_easeType
 template<>

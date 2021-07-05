@@ -59,6 +59,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(RandomValueToShader) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RandomValueToShader*, "", "RandomValueToShader");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RandomValueToShader::SetRandomValueToShaders
 // Il2CppName: SetRandomValueToShaders
 template<>

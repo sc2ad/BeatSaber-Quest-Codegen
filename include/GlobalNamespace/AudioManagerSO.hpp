@@ -160,6 +160,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(AudioManagerSO) == 0x35);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioManagerSO*, "", "AudioManagerSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AudioManagerSO::get_sfxLatency
 // Il2CppName: get_sfxLatency
 template<>

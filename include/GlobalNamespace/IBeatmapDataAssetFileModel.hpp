@@ -59,6 +59,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBeatmapDataAssetFileModel*, "", "IBeatmapDataAssetFileModel");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IBeatmapDataAssetFileModel::add_levelDataAssetDownloadUpdateEvent
 // Il2CppName: add_levelDataAssetDownloadUpdateEvent
 template<>

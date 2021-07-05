@@ -194,6 +194,7 @@ namespace System::IO {
   static_assert(sizeof(TextWriter) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::TextWriter*, "System.IO", "TextWriter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::TextWriter::get_InitialNewLine
 // Il2CppName: get_InitialNewLine
 template<>

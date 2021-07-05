@@ -93,3 +93,4 @@ namespace System::Xml {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType, "System.Xml", "XmlWellFormedWriter/AttributeValueCache/ItemType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

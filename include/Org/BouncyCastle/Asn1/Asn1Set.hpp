@@ -118,6 +118,7 @@ namespace Org::BouncyCastle::Asn1 {
   static_assert(sizeof(Asn1Set) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1Set*, "Org.BouncyCastle.Asn1", "Asn1Set");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1Set::GetInstance
 // Il2CppName: GetInstance
 template<>

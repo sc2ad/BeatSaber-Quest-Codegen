@@ -259,6 +259,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OculusVRHelper) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusVRHelper*, "", "OculusVRHelper");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusVRHelper::add_inputFocusWasCapturedEvent
 // Il2CppName: add_inputFocusWasCapturedEvent
 template<>

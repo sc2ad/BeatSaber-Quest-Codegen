@@ -1265,6 +1265,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRManager) == 0xF3);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRManager*, "", "OVRManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRManager::get_instance
 // Il2CppName: get_instance
 template<>

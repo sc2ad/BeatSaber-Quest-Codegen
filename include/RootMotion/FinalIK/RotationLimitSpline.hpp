@@ -91,6 +91,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(RotationLimitSpline) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitSpline*, "RootMotion.FinalIK", "RotationLimitSpline");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitSpline::OpenUserManual
 // Il2CppName: OpenUserManual
 template<>

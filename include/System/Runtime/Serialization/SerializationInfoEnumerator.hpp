@@ -107,6 +107,7 @@ namespace System::Runtime::Serialization {
   static_assert(sizeof(SerializationInfoEnumerator) == 0x31);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationInfoEnumerator*, "System.Runtime.Serialization", "SerializationInfoEnumerator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfoEnumerator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

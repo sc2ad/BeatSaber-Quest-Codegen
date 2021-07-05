@@ -34,6 +34,7 @@ namespace System::Net {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::UnsafeNclNativeMethods::SecureStringHelper*, "System.Net", "UnsafeNclNativeMethods/SecureStringHelper");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::UnsafeNclNativeMethods::SecureStringHelper::CreateString
 // Il2CppName: CreateString
 template<>

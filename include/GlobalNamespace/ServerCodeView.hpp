@@ -103,6 +103,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ServerCodeView) == 0x39);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ServerCodeView*, "", "ServerCodeView");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ServerCodeView::SetCode
 // Il2CppName: SetCode
 template<>

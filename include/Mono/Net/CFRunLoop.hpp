@@ -70,6 +70,7 @@ namespace Mono::Net {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFRunLoop*, "Mono.Net", "CFRunLoop");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::CFRunLoop::CFRunLoopAddSource
 // Il2CppName: CFRunLoopAddSource
 template<>

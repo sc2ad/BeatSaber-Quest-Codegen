@@ -142,6 +142,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FileBrowserTableView) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileBrowserTableView*, "", "FileBrowserTableView");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FileBrowserTableView::add_didSelectRow
 // Il2CppName: add_didSelectRow
 template<>

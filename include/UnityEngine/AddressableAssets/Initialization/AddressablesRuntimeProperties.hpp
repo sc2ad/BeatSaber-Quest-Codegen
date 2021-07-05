@@ -77,6 +77,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties*, "UnityEngine.AddressableAssets.Initialization", "AddressablesRuntimeProperties");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::GetAssemblies
 // Il2CppName: GetAssemblies
 template<>

@@ -116,6 +116,7 @@ namespace System {
   static_assert(sizeof(TypeLoadException) == 0xA4);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::TypeLoadException*, "System", "TypeLoadException");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::TypeLoadException::SetMessageField
 // Il2CppName: SetMessageField
 template<>

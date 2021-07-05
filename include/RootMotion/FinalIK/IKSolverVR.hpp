@@ -401,6 +401,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKSolverVR) == 0x178);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR*, "RootMotion.FinalIK", "IKSolverVR");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::SetToReferences
 // Il2CppName: SetToReferences
 template<>

@@ -176,6 +176,7 @@ namespace UnityEngine::TextCore::LowLevel {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::FontEngine*, "UnityEngine.TextCore.LowLevel", "FontEngine");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TextCore::LowLevel::FontEngine::InitializeFontEngine
 // Il2CppName: InitializeFontEngine
 template<>

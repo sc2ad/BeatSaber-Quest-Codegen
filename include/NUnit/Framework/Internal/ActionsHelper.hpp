@@ -64,6 +64,7 @@ namespace NUnit::Framework::Internal {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::ActionsHelper*, "NUnit.Framework.Internal", "ActionsHelper");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ActionsHelper::GetActionsFromTestAssembly
 // Il2CppName: GetActionsFromTestAssembly
 template<>

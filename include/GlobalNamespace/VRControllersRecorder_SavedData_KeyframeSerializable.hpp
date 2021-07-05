@@ -167,6 +167,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(VRControllersRecorder::SavedData::KeyframeSerializable) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable*, "", "VRControllersRecorder/SavedData/KeyframeSerializable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::SavedData::KeyframeSerializable::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

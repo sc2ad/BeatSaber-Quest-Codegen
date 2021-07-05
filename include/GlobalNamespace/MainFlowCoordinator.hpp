@@ -330,6 +330,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MainFlowCoordinator) == 0x150);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainFlowCoordinator*, "", "MainFlowCoordinator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainFlowCoordinator::PresentFlowCoordinatorOrAskForTutorial
 // Il2CppName: PresentFlowCoordinatorOrAskForTutorial
 template<>

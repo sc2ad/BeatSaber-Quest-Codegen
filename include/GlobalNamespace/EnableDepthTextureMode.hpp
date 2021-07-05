@@ -52,6 +52,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnableDepthTextureMode) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableDepthTextureMode*, "", "EnableDepthTextureMode");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnableDepthTextureMode::Awake
 // Il2CppName: Awake
 template<>

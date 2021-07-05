@@ -104,6 +104,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameServerBrowserViewController) == 0xA8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerBrowserViewController*, "", "GameServerBrowserViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameServerBrowserViewController::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

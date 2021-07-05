@@ -119,6 +119,7 @@ namespace NetEase::Docker {
   static_assert(sizeof(BaseDock) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::BaseDock*, "NetEase.Docker", "BaseDock");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NetEase::Docker::BaseDock::SetInitializeCallback
 // Il2CppName: SetInitializeCallback
 template<>

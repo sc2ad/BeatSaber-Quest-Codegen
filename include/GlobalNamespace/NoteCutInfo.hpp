@@ -142,6 +142,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteCutInfo) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutInfo, "", "NoteCutInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutInfo::get_allIsOK
 // Il2CppName: get_allIsOK
 template<>

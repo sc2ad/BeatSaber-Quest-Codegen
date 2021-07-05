@@ -58,6 +58,7 @@ namespace UnityEngine {
   static_assert(sizeof(CachedAssetBundle) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CachedAssetBundle, "UnityEngine", "CachedAssetBundle");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::CachedAssetBundle::CachedAssetBundle
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

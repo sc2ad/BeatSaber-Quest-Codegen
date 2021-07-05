@@ -56,6 +56,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapEventCallbackData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEventCallbackData*, "", "BeatmapEventCallbackData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapEventCallbackData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

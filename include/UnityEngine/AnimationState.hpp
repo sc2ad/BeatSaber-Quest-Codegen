@@ -47,6 +47,7 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimationState*, "UnityEngine", "AnimationState");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AnimationState::set_time
 // Il2CppName: set_time
 template<>

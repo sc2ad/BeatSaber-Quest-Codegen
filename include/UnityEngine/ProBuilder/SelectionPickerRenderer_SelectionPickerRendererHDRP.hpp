@@ -53,6 +53,7 @@ namespace UnityEngine::ProBuilder {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SelectionPickerRenderer::SelectionPickerRendererHDRP*, "UnityEngine.ProBuilder", "SelectionPickerRenderer/SelectionPickerRendererHDRP");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPickerRenderer::SelectionPickerRendererHDRP::RenderLookupTexture
 // Il2CppName: RenderLookupTexture
 template<>

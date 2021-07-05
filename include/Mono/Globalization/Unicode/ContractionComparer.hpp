@@ -54,6 +54,7 @@ namespace Mono::Globalization::Unicode {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::ContractionComparer*, "Mono.Globalization.Unicode", "ContractionComparer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::ContractionComparer::Compare
 // Il2CppName: Compare
 template<>

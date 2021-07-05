@@ -74,6 +74,7 @@ namespace UnityEngine::UI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::MaskUtilities*, "UnityEngine.UI", "MaskUtilities");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::MaskUtilities::Notify2DMaskStateChanged
 // Il2CppName: Notify2DMaskStateChanged
 template<>

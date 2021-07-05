@@ -299,6 +299,7 @@ namespace UnityEngine {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem*, "UnityEngine", "ParticleSystem");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::Particle, "UnityEngine", "ParticleSystem/Particle");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::Emit
 // Il2CppName: Emit
 template<>

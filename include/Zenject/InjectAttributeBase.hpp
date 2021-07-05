@@ -80,6 +80,7 @@ namespace Zenject {
   static_assert(sizeof(InjectAttributeBase) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectAttributeBase*, "Zenject", "InjectAttributeBase");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::InjectAttributeBase::get_Optional
 // Il2CppName: get_Optional
 template<>

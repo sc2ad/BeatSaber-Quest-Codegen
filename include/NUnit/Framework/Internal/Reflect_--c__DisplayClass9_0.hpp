@@ -64,6 +64,7 @@ namespace NUnit::Framework::Internal {
   static_assert(sizeof(Reflect::$$c__DisplayClass9_0) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Reflect::$$c__DisplayClass9_0*, "NUnit.Framework.Internal", "Reflect/<>c__DisplayClass9_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Reflect::$$c__DisplayClass9_0::$InvokeMethod$b__0
 // Il2CppName: <InvokeMethod>b__0
 template<>

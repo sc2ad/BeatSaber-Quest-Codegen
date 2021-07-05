@@ -74,6 +74,7 @@ namespace System::Threading {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Monitor*, "System.Threading", "Monitor");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Monitor::Enter
 // Il2CppName: Enter
 template<>

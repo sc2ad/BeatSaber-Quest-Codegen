@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(DeactivateOnInputFocusCapture) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DeactivateOnInputFocusCapture*, "", "DeactivateOnInputFocusCapture");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DeactivateOnInputFocusCapture::OnEnable
 // Il2CppName: OnEnable
 template<>

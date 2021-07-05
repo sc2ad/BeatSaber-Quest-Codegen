@@ -50,6 +50,7 @@ namespace Zenject {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ValidationUtil*, "Zenject", "ValidationUtil");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ValidationUtil::CreateDefaultArgs
 // Il2CppName: CreateDefaultArgs
 template<>

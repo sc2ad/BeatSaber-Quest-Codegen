@@ -185,6 +185,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SongStartSyncController) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongStartSyncController*, "", "SongStartSyncController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SongStartSyncController::get_isSongStarted
 // Il2CppName: get_isSongStarted
 template<>

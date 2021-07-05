@@ -74,6 +74,7 @@ namespace HMUI {
   static_assert(sizeof(RaycastUITopLevelChecker) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::RaycastUITopLevelChecker*, "HMUI", "RaycastUITopLevelChecker");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::RaycastUITopLevelChecker::Awake
 // Il2CppName: Awake
 template<>

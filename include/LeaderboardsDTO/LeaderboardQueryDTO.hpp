@@ -113,6 +113,7 @@ namespace LeaderboardsDTO {
 }
 DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LeaderboardQueryDTO*, "LeaderboardsDTO", "LeaderboardQueryDTO");
 DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LeaderboardQueryDTO::ScoresScope, "LeaderboardsDTO", "LeaderboardQueryDTO/ScoresScope");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LeaderboardsDTO::LeaderboardQueryDTO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -81,6 +81,7 @@ namespace System::Net {
   static_assert(sizeof(PathList) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::PathList*, "System.Net", "PathList");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::PathList::get_Count
 // Il2CppName: get_Count
 template<>

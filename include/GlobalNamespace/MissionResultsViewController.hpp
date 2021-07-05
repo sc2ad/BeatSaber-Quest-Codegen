@@ -261,6 +261,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionResultsViewController) == 0x128);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionResultsViewController*, "", "MissionResultsViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionResultsViewController::add_continueButtonPressedEvent
 // Il2CppName: add_continueButtonPressedEvent
 template<>

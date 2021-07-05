@@ -154,6 +154,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(AvatarPoseController) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPoseController*, "", "AvatarPoseController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPoseController::get_earlyPositionsWillBeSetCallback
 // Il2CppName: get_earlyPositionsWillBeSetCallback
 template<>

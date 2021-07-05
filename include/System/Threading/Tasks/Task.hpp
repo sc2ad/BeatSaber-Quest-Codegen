@@ -923,6 +923,7 @@ namespace System::Threading::Tasks {
   static_assert(sizeof(Task) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task*, "System.Threading.Tasks", "Task");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::Task::AddToActiveTasks
 // Il2CppName: AddToActiveTasks
 template<>

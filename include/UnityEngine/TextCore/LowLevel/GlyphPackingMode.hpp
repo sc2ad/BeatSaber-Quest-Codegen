@@ -68,3 +68,4 @@ namespace UnityEngine::TextCore::LowLevel {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphPackingMode, "UnityEngine.TextCore.LowLevel", "GlyphPackingMode");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

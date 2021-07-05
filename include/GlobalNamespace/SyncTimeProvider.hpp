@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SyncTimeProvider) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SyncTimeProvider*, "", "SyncTimeProvider");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SyncTimeProvider::get_time
 // Il2CppName: get_time
 template<>

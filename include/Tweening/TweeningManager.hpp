@@ -109,6 +109,7 @@ namespace Tweening {
   static_assert(sizeof(TweeningManager) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(Tweening::TweeningManager*, "Tweening", "TweeningManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Tweening::TweeningManager::Start
 // Il2CppName: Start
 template<>

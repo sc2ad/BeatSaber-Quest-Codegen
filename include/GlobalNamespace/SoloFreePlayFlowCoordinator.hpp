@@ -169,6 +169,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SoloFreePlayFlowCoordinator) == 0x148);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SoloFreePlayFlowCoordinator*, "", "SoloFreePlayFlowCoordinator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SoloFreePlayFlowCoordinator::IsNewHighScore
 // Il2CppName: IsNewHighScore
 template<>

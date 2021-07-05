@@ -51,6 +51,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(HorizontalCameraFov) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HorizontalCameraFov*, "", "HorizontalCameraFov");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HorizontalCameraFov::Awake
 // Il2CppName: Awake
 template<>

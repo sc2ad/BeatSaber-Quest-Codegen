@@ -77,6 +77,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(GenericPoser::Map) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GenericPoser::Map*, "RootMotion.FinalIK", "GenericPoser/Map");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::GenericPoser::Map::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

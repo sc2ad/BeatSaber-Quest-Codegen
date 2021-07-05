@@ -114,6 +114,7 @@ namespace System::Diagnostics {
   static_assert(sizeof(TraceListenerCollection) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::TraceListenerCollection*, "System.Diagnostics", "TraceListenerCollection");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::TraceListenerCollection::get_Count
 // Il2CppName: get_Count
 template<>

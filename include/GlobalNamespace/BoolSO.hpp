@@ -35,6 +35,7 @@ namespace GlobalNamespace {
   }; // BoolSO
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BoolSO*, "", "BoolSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BoolSO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

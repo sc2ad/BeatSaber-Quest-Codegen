@@ -51,6 +51,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapEditorSceneSetupData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapEditorSceneSetupData*, "", "BeatmapEditorSceneSetupData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapEditorSceneSetupData::get_levelDirPath
 // Il2CppName: get_levelDirPath
 template<>

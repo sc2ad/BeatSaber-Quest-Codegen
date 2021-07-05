@@ -131,6 +131,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ParametricBoxFrameController) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParametricBoxFrameController*, "", "ParametricBoxFrameController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ParametricBoxFrameController::set_localPosition
 // Il2CppName: set_localPosition
 template<>

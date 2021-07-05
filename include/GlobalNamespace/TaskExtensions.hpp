@@ -63,6 +63,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TaskExtensions*, "", "TaskExtensions");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TaskExtensions::WithCancellation
 // Il2CppName: WithCancellation
 // Cannot write MetadataGetter for generic methods!

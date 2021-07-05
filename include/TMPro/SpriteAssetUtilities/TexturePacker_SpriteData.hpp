@@ -80,3 +80,4 @@ namespace TMPro::SpriteAssetUtilities {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::TexturePacker::SpriteData, "TMPro.SpriteAssetUtilities", "TexturePacker/SpriteData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

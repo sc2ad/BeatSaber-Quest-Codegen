@@ -225,6 +225,7 @@ namespace UnityEngine::TestTools::Logging {
   static_assert(sizeof(LogScope) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Logging::LogScope*, "UnityEngine.TestTools.Logging", "LogScope");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::Logging::LogScope::get_ExpectedLogs
 // Il2CppName: get_ExpectedLogs
 template<>

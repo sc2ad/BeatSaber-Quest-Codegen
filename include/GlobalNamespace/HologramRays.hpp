@@ -237,6 +237,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(HologramRays) == 0x9D);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HologramRays*, "", "HologramRays");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HologramRays::RuntimeInit
 // Il2CppName: RuntimeInit
 template<>

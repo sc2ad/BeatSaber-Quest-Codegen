@@ -34,6 +34,7 @@ namespace Zenject::Internal {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::PreserveAttribute*, "Zenject.Internal", "PreserveAttribute");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::Internal::PreserveAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -56,6 +56,7 @@ namespace UnityEngine {
   static_assert(sizeof(IntegratedSubsystemDescriptor) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::IntegratedSubsystemDescriptor*, "UnityEngine", "IntegratedSubsystemDescriptor");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::IntegratedSubsystemDescriptor::UnityEngine_ISubsystemDescriptorImpl_set_ptr
 // Il2CppName: UnityEngine.ISubsystemDescriptorImpl.set_ptr
 template<>

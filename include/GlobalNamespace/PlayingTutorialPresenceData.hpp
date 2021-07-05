@@ -73,6 +73,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayingTutorialPresenceData) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayingTutorialPresenceData*, "", "PlayingTutorialPresenceData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayingTutorialPresenceData::get_apiName
 // Il2CppName: get_apiName
 template<>

@@ -58,6 +58,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static_assert(sizeof(ObjectReader::TopLevelAssemblyTypeResolver) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ObjectReader::TopLevelAssemblyTypeResolver*, "System.Runtime.Serialization.Formatters.Binary", "ObjectReader/TopLevelAssemblyTypeResolver");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectReader::TopLevelAssemblyTypeResolver::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -184,6 +184,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKMappingSpine) == 0x71);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKMappingSpine*, "RootMotion.FinalIK", "IKMappingSpine");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMappingSpine::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

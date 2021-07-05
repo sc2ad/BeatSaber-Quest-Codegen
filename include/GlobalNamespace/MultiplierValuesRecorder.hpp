@@ -123,6 +123,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplierValuesRecorder*, "", "MultiplierValuesRecorder");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplierValuesRecorder::MultiplierValue, "", "MultiplierValuesRecorder/MultiplierValue");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplierValuesRecorder::get_multiplierValues
 // Il2CppName: get_multiplierValues
 template<>

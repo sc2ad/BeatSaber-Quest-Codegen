@@ -507,6 +507,7 @@ namespace TMPro {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TextMeshProUGUI*, "TMPro", "TextMeshProUGUI");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TextMeshProUGUI::GetCanvas
 // Il2CppName: GetCanvas
 template<>

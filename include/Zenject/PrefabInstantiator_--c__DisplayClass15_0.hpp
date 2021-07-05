@@ -89,6 +89,7 @@ namespace Zenject {
   static_assert(sizeof(PrefabInstantiator::$$c__DisplayClass15_0) == 0x31);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PrefabInstantiator::$$c__DisplayClass15_0*, "Zenject", "PrefabInstantiator/<>c__DisplayClass15_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::PrefabInstantiator::$$c__DisplayClass15_0::$Instantiate$b__0
 // Il2CppName: <Instantiate>b__0
 template<>

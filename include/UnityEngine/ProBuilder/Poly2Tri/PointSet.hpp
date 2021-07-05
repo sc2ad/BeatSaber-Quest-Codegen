@@ -100,6 +100,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   static_assert(sizeof(PointSet) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::PointSet*, "UnityEngine.ProBuilder.Poly2Tri", "PointSet");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::PointSet::get_Points
 // Il2CppName: get_Points
 template<>

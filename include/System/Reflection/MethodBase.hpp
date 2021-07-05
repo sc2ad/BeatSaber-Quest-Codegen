@@ -179,6 +179,7 @@ namespace System::Reflection {
   bool operator !=(System::Reflection::MethodBase* left, System::Reflection::MethodBase& right);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MethodBase*, "System.Reflection", "MethodBase");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::MethodBase::GetMethodFromHandle
 // Il2CppName: GetMethodFromHandle
 template<>

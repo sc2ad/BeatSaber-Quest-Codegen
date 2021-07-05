@@ -51,6 +51,7 @@ namespace UnityEngine::TestTools {
   static_assert(sizeof(EnumerableTestState) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableTestState*, "UnityEngine.TestTools", "EnumerableTestState");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::EnumerableTestState::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

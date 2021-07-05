@@ -348,6 +348,7 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCompletionResults*, "", "LevelCompletionResults");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCompletionResults::LevelEndStateType, "", "LevelCompletionResults/LevelEndStateType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCompletionResults::LevelEndAction, "", "LevelCompletionResults/LevelEndAction");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelCompletionResults::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

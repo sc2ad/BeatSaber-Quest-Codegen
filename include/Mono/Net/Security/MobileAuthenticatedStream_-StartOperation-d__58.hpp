@@ -94,6 +94,7 @@ namespace Mono::Net::Security {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MobileAuthenticatedStream::$StartOperation$d__58, "Mono.Net.Security", "MobileAuthenticatedStream/<StartOperation>d__58");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::$StartOperation$d__58::MoveNext
 // Il2CppName: MoveNext
 template<>

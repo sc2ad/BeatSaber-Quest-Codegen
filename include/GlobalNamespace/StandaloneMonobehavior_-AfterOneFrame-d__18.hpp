@@ -88,6 +88,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(StandaloneMonobehavior::$AfterOneFrame$d__18) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandaloneMonobehavior::$AfterOneFrame$d__18*, "", "StandaloneMonobehavior/<AfterOneFrame>d__18");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandaloneMonobehavior::$AfterOneFrame$d__18::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

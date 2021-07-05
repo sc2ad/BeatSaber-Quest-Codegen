@@ -42,6 +42,7 @@ namespace UnityEngine::Sprites {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Sprites::DataUtility*, "UnityEngine.Sprites", "DataUtility");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Sprites::DataUtility::GetInnerUV
 // Il2CppName: GetInnerUV
 template<>

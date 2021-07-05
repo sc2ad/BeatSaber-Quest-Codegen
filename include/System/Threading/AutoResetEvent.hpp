@@ -32,6 +32,7 @@ namespace System::Threading {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::AutoResetEvent*, "System.Threading", "AutoResetEvent");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::AutoResetEvent::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

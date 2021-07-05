@@ -178,6 +178,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(VRTextEntryController) == 0x51);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTextEntryController*, "", "VRTextEntryController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRTextEntryController::add_textDidChangeEvent
 // Il2CppName: add_textDidChangeEvent
 template<>

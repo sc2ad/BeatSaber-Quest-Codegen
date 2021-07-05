@@ -196,6 +196,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayerSpecificSettings) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSpecificSettings*, "", "PlayerSpecificSettings");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_leftHanded
 // Il2CppName: get_leftHanded
 template<>

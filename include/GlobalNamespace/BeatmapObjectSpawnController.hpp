@@ -255,6 +255,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapObjectSpawnController) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnController*, "", "BeatmapObjectSpawnController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnController::get_jumpOffsetY
 // Il2CppName: get_jumpOffsetY
 template<>

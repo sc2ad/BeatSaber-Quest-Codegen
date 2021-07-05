@@ -127,6 +127,7 @@ namespace UnityEngine::ProBuilder {
   bool operator !=(const UnityEngine::ProBuilder::EdgeLookup& a, const UnityEngine::ProBuilder::EdgeLookup& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::EdgeLookup, "UnityEngine.ProBuilder", "EdgeLookup");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeLookup::get_local
 // Il2CppName: get_local
 template<>

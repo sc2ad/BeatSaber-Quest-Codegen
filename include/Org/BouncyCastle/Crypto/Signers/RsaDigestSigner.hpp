@@ -139,6 +139,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
   static_assert(sizeof(RsaDigestSigner) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::RsaDigestSigner*, "Org.BouncyCastle.Crypto.Signers", "RsaDigestSigner");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::RsaDigestSigner::_cctor
 // Il2CppName: .cctor
 template<>

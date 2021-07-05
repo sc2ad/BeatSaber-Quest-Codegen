@@ -2369,6 +2369,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Bone, "", "OVRPlugin/Bone");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::SkeletonType, "", "OVRPlugin/SkeletonType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Skeleton, "", "OVRPlugin/Skeleton");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Skeleton2Internal, "", "OVRPlugin/Skeleton2Internal");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::get_version
 // Il2CppName: get_version
 template<>

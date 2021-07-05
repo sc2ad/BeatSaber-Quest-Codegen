@@ -226,6 +226,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameServerPlayersTableView) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerPlayersTableView*, "", "GameServerPlayersTableView");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameServerPlayersTableView::add_selectSuggestedLevelEvent
 // Il2CppName: add_selectSuggestedLevelEvent
 template<>

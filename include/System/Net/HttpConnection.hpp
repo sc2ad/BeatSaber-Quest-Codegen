@@ -406,6 +406,7 @@ namespace System::Net {
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpConnection*, "System.Net", "HttpConnection");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpConnection::InputState, "System.Net", "HttpConnection/InputState");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpConnection::LineState, "System.Net", "HttpConnection/LineState");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::HttpConnection::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

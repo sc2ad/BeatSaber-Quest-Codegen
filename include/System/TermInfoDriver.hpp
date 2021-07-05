@@ -429,6 +429,7 @@ namespace System {
   static_assert(sizeof(TermInfoDriver) == 0x11C);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::TermInfoDriver*, "System", "TermInfoDriver");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::TermInfoDriver::TryTermInfoDir
 // Il2CppName: TryTermInfoDir
 template<>

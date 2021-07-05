@@ -52,6 +52,7 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRDriverManager::_GetDriverHandle*, "OVR.OpenVR", "IVRDriverManager/_GetDriverHandle");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRDriverManager::_GetDriverHandle::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

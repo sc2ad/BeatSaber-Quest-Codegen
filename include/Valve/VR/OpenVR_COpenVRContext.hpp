@@ -167,6 +167,7 @@ namespace Valve::VR {
   static_assert(sizeof(OpenVR::COpenVRContext) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::OpenVR::COpenVRContext*, "Valve.VR", "OpenVR/COpenVRContext");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::OpenVR::COpenVRContext::Clear
 // Il2CppName: Clear
 template<>

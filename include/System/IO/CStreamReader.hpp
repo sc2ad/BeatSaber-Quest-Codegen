@@ -83,6 +83,7 @@ namespace System::IO {
   static_assert(sizeof(CStreamReader) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::CStreamReader*, "System.IO", "CStreamReader");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::CStreamReader::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

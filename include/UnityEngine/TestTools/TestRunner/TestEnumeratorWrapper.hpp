@@ -61,6 +61,7 @@ namespace UnityEngine::TestTools::TestRunner {
   static_assert(sizeof(TestEnumeratorWrapper) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper*, "UnityEngine.TestTools.TestRunner", "TestEnumeratorWrapper");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::TestEnumeratorWrapper::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

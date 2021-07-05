@@ -226,6 +226,7 @@ namespace HMUI {
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SelectableCell*, "HMUI", "SelectableCell");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SelectableCell::TransitionType, "HMUI", "SelectableCell/TransitionType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::SelectableCell::add_selectionDidChangeEvent
 // Il2CppName: add_selectionDidChangeEvent
 template<>

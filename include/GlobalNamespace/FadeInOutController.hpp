@@ -131,6 +131,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FadeInOutController) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeInOutController*, "", "FadeInOutController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FadeInOutController::FadeOutInstant
 // Il2CppName: FadeOutInstant
 template<>

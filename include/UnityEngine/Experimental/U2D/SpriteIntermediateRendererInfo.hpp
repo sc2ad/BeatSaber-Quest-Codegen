@@ -128,3 +128,4 @@ namespace UnityEngine::Experimental::U2D {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::U2D::SpriteIntermediateRendererInfo, "UnityEngine.Experimental.U2D", "SpriteIntermediateRendererInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

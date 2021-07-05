@@ -34,6 +34,7 @@ namespace Org::BouncyCastle::Pkcs {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Pkcs::PrivateKeyInfoFactory*, "Org.BouncyCastle.Pkcs", "PrivateKeyInfoFactory");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Pkcs::PrivateKeyInfoFactory::CreatePrivateKeyInfo
 // Il2CppName: CreatePrivateKeyInfo
 template<>

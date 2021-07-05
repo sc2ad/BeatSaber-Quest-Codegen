@@ -105,6 +105,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionLevelModifiersViewController) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelModifiersViewController*, "", "MissionLevelModifiersViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelModifiersViewController::Setup
 // Il2CppName: Setup
 template<>

@@ -61,6 +61,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::$$c*, "UnityEngine.TestRunner.TestLaunchers", "RemoteTestResultData/<>c");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::$$c::_cctor
 // Il2CppName: .cctor
 template<>

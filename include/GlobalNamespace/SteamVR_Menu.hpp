@@ -201,6 +201,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SteamVR_Menu) == 0x8D);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Menu*, "", "SteamVR_Menu");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Menu::get_texture
 // Il2CppName: get_texture
 template<>

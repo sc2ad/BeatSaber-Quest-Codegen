@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithChallenge
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithChallenge*, "Oculus.Platform", "MessageWithChallenge");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithChallenge::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

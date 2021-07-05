@@ -72,6 +72,7 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Tuple*, "System", "Tuple");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Tuple::Create
 // Il2CppName: Create
 // Cannot write MetadataGetter for generic methods!

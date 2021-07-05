@@ -32,6 +32,7 @@ namespace System::Collections {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::IEnumerator*, "System.Collections", "IEnumerator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::IEnumerator::MoveNext
 // Il2CppName: MoveNext
 template<>

@@ -113,6 +113,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(CustomDifficultyBeatmap) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomDifficultyBeatmap*, "", "CustomDifficultyBeatmap");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CustomDifficultyBeatmap::get_level
 // Il2CppName: get_level
 template<>

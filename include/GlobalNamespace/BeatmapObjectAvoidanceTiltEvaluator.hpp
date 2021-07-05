@@ -81,6 +81,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapObjectAvoidanceTiltEvaluator) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator*, "", "BeatmapObjectAvoidanceTiltEvaluator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

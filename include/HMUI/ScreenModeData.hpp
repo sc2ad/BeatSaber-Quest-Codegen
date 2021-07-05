@@ -79,6 +79,7 @@ namespace HMUI {
   static_assert(sizeof(ScreenModeData) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScreenModeData*, "HMUI", "ScreenModeData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ScreenModeData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

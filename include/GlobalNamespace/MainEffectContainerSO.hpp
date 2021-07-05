@@ -72,6 +72,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MainEffectContainerSO) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectContainerSO*, "", "MainEffectContainerSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainEffectContainerSO::get_mainEffect
 // Il2CppName: get_mainEffect
 template<>

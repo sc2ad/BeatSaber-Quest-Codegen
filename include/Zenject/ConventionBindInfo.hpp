@@ -111,6 +111,7 @@ namespace Zenject {
   static_assert(sizeof(ConventionBindInfo) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionBindInfo*, "Zenject", "ConventionBindInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ConventionBindInfo::AddAssemblyFilter
 // Il2CppName: AddAssemblyFilter
 template<>

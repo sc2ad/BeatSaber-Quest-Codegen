@@ -139,6 +139,7 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton*, "UnityEngine.ResourceManagement.Diagnostics", "DiagnosticEventCollectorSingleton");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::get_PlayerConnectionGuid
 // Il2CppName: get_PlayerConnectionGuid
 template<>

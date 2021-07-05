@@ -80,6 +80,7 @@ namespace VRUIControls {
   static_assert(sizeof(ButtonState) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::ButtonState*, "VRUIControls", "ButtonState");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: VRUIControls::ButtonState::get_eventData
 // Il2CppName: get_eventData
 template<>

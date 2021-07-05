@@ -154,6 +154,7 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(SharedVertex) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SharedVertex*, "UnityEngine.ProBuilder", "SharedVertex");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SharedVertex::get_arrayInternal
 // Il2CppName: get_arrayInternal
 template<>

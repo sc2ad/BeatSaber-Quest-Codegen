@@ -271,6 +271,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LevelSearchViewController) == 0xF8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelSearchViewController*, "", "LevelSearchViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelSearchViewController::add_didPressSearchButtonEvent
 // Il2CppName: add_didPressSearchButtonEvent
 template<>

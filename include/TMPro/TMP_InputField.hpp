@@ -1696,6 +1696,7 @@ DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::ContentType, "TMPro", "TMP_InputFi
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::InputType, "TMPro", "TMP_InputField/InputType");
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::CharacterValidation, "TMPro", "TMP_InputField/CharacterValidation");
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::LineType, "TMPro", "TMP_InputField/LineType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_InputField::get_inputSystem
 // Il2CppName: get_inputSystem
 template<>

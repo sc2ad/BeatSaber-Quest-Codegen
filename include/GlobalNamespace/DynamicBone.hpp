@@ -441,6 +441,7 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBone*, "", "DynamicBone");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBone::UpdateMode, "", "DynamicBone/UpdateMode");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBone::FreezeAxis, "", "DynamicBone/FreezeAxis");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DynamicBone::Start
 // Il2CppName: Start
 template<>

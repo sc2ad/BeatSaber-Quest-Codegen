@@ -107,6 +107,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(Grounding::Pelvis) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Grounding::Pelvis*, "RootMotion.FinalIK", "Grounding/Pelvis");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Pelvis::get_IKOffset
 // Il2CppName: get_IKOffset
 template<>

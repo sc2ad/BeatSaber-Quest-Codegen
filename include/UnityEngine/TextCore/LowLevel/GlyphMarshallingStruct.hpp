@@ -80,6 +80,7 @@ namespace UnityEngine::TextCore::LowLevel {
   static_assert(sizeof(GlyphMarshallingStruct) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct, "UnityEngine.TextCore.LowLevel", "GlyphMarshallingStruct");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct::GlyphMarshallingStruct
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

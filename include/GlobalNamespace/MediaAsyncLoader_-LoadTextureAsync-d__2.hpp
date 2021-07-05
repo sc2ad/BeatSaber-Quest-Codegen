@@ -99,6 +99,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MediaAsyncLoader::$LoadTextureAsync$d__2, "", "MediaAsyncLoader/<LoadTextureAsync>d__2");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MediaAsyncLoader::$LoadTextureAsync$d__2::MoveNext
 // Il2CppName: MoveNext
 template<>

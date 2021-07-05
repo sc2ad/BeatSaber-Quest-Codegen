@@ -84,3 +84,4 @@ namespace TMPro {
   // Could not write size check! Type: TMPro.FastAction`2 is generic, or has no fields that are valid for size checks!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(TMPro::FastAction_2, "TMPro", "FastAction`2");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

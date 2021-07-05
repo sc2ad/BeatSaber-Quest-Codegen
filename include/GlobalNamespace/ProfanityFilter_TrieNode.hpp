@@ -61,6 +61,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ProfanityFilter::TrieNode) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ProfanityFilter::TrieNode*, "", "ProfanityFilter/TrieNode");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ProfanityFilter::TrieNode::AddWord
 // Il2CppName: AddWord
 template<>

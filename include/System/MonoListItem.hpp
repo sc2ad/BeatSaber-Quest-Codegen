@@ -45,6 +45,7 @@ namespace System {
   static_assert(sizeof(MonoListItem) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::MonoListItem*, "System", "MonoListItem");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::MonoListItem::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -57,6 +57,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static_assert(sizeof(UVEditing::$$c__DisplayClass13_0) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c__DisplayClass13_0*, "UnityEngine.ProBuilder.MeshOperations", "UVEditing/<>c__DisplayClass13_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::$$c__DisplayClass13_0::$SewUVs$b__0
 // Il2CppName: <SewUVs>b__0
 template<>

@@ -108,6 +108,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLevelFinishedController::$StartLevelFinished$d__19) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelFinishedController::$StartLevelFinished$d__19*, "", "MultiplayerLevelFinishedController/<StartLevelFinished>d__19");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelFinishedController::$StartLevelFinished$d__19::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

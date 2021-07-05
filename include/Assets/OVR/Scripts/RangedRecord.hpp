@@ -51,6 +51,7 @@ namespace Assets::OVR::Scripts {
   static_assert(sizeof(RangedRecord) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(Assets::OVR::Scripts::RangedRecord*, "Assets.OVR.Scripts", "RangedRecord");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Assets::OVR::Scripts::RangedRecord::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

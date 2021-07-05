@@ -42,6 +42,7 @@ namespace LiteNetLib::Utils {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetSerializer::CustomType*, "LiteNetLib.Utils", "NetSerializer/CustomType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetSerializer::CustomType::Get
 // Il2CppName: Get
 // Cannot write MetadataGetter for generic methods!

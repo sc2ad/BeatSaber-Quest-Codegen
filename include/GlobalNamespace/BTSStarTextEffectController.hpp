@@ -100,6 +100,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BTSStarTextEffectController) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEffectController*, "", "BTSStarTextEffectController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEffectController::get_animationDuration
 // Il2CppName: get_animationDuration
 template<>

@@ -135,6 +135,7 @@ namespace System::Net {
   static_assert(sizeof(DigestSession) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::DigestSession*, "System.Net", "DigestSession");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::DigestSession::_cctor
 // Il2CppName: .cctor
 template<>

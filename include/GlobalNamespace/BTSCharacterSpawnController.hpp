@@ -153,6 +153,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BTSCharacterSpawnController) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterSpawnController*, "", "BTSCharacterSpawnController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnController::get_isCharacterVisible
 // Il2CppName: get_isCharacterVisible
 template<>

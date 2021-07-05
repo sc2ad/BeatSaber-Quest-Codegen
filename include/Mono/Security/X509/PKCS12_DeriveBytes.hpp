@@ -103,6 +103,7 @@ namespace Mono::Security::X509 {
   static_assert(sizeof(PKCS12::DeriveBytes) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::PKCS12::DeriveBytes*, "Mono.Security.X509", "PKCS12/DeriveBytes");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::DeriveBytes::set_HashName
 // Il2CppName: set_HashName
 template<>

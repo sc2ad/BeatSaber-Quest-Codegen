@@ -72,6 +72,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockLevelEndActions) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockLevelEndActions*, "", "MockLevelEndActions");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockLevelEndActions::add_levelFailedEvent
 // Il2CppName: add_levelFailedEvent
 template<>

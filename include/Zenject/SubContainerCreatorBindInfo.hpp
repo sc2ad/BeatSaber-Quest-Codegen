@@ -82,6 +82,7 @@ namespace Zenject {
   static_assert(sizeof(SubContainerCreatorBindInfo) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorBindInfo*, "Zenject", "SubContainerCreatorBindInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorBindInfo::get_DefaultParentName
 // Il2CppName: get_DefaultParentName
 template<>

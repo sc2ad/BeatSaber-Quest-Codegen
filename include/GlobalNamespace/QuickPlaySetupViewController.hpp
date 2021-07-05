@@ -174,6 +174,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(QuickPlaySetupViewController) == 0xAD);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuickPlaySetupViewController*, "", "QuickPlaySetupViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlaySetupViewController::add_suggestBeatmapEvent
 // Il2CppName: add_suggestBeatmapEvent
 template<>

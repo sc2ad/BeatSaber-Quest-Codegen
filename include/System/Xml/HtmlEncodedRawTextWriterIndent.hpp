@@ -126,6 +126,7 @@ namespace System::Xml {
   static_assert(sizeof(HtmlEncodedRawTextWriterIndent) == 0xF9);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::HtmlEncodedRawTextWriterIndent*, "System.Xml", "HtmlEncodedRawTextWriterIndent");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::HtmlEncodedRawTextWriterIndent::WriteIndent
 // Il2CppName: WriteIndent
 template<>

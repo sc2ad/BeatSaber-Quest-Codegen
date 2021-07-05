@@ -52,6 +52,7 @@ namespace NUnit::Framework::Constraints {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack*, "NUnit.Framework.Constraints", "ConstraintBuilder/OperatorStack");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack::get_Empty
 // Il2CppName: get_Empty
 template<>

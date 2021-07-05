@@ -65,6 +65,7 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioSettings*, "UnityEngine", "AudioSettings");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AudioSettings::GetSampleRate
 // Il2CppName: GetSampleRate
 template<>

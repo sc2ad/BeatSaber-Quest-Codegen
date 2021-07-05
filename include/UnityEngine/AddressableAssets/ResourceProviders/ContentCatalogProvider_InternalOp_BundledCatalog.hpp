@@ -134,6 +134,7 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
   static_assert(sizeof(ContentCatalogProvider::InternalOp::BundledCatalog) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog*, "UnityEngine.AddressableAssets.ResourceProviders", "ContentCatalogProvider/InternalOp/BundledCatalog");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog::add_OnLoaded
 // Il2CppName: add_OnLoaded
 template<>

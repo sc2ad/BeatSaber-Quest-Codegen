@@ -55,6 +55,7 @@ namespace Mono::Globalization::Unicode {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::NormalizationTableUtil*, "Mono.Globalization.Unicode", "NormalizationTableUtil");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::NormalizationTableUtil::_cctor
 // Il2CppName: .cctor
 template<>

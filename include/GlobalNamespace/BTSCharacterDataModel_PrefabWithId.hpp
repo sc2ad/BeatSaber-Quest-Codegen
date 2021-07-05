@@ -62,6 +62,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BTSCharacterDataModel::PrefabWithId) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterDataModel::PrefabWithId*, "", "BTSCharacterDataModel/PrefabWithId");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterDataModel::PrefabWithId::get_id
 // Il2CppName: get_id
 template<>

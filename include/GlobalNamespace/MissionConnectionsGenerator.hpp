@@ -103,6 +103,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionConnectionsGenerator) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionConnectionsGenerator*, "", "MissionConnectionsGenerator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionConnectionsGenerator::get__rootMissionNode
 // Il2CppName: get__rootMissionNode
 template<>

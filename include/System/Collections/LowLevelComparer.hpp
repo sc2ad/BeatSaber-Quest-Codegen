@@ -47,6 +47,7 @@ namespace System::Collections {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::LowLevelComparer*, "System.Collections", "LowLevelComparer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::LowLevelComparer::Compare
 // Il2CppName: Compare
 template<>

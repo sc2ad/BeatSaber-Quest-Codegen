@@ -130,6 +130,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteMissInfoNetSerializable) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteMissInfoNetSerializable*, "", "NoteMissInfoNetSerializable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteMissInfoNetSerializable::get_colorType
 // Il2CppName: get_colorType
 template<>

@@ -422,6 +422,7 @@ namespace UnityEngine::UI {
   static_assert(sizeof(Graphic) == 0x89);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Graphic*, "UnityEngine.UI", "Graphic");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Graphic::get_defaultGraphicMaterial
 // Il2CppName: get_defaultGraphicMaterial
 template<>

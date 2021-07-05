@@ -234,6 +234,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PSVRHelper) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PSVRHelper*, "", "PSVRHelper");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PSVRHelper::add_inputFocusWasCapturedEvent
 // Il2CppName: add_inputFocusWasCapturedEvent
 template<>

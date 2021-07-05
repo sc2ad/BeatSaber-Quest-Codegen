@@ -198,6 +198,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerModeSelectionViewController*, "", "MultiplayerModeSelectionViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton, "", "MultiplayerModeSelectionViewController/MenuButton");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerModeSelectionViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

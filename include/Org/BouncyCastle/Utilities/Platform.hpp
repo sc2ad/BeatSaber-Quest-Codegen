@@ -101,6 +101,7 @@ namespace Org::BouncyCastle::Utilities {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Platform*, "Org.BouncyCastle.Utilities", "Platform");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Platform::GetNewLine
 // Il2CppName: GetNewLine
 template<>

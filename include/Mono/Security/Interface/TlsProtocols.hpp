@@ -110,3 +110,4 @@ namespace Mono::Security::Interface {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::TlsProtocols, "Mono.Security.Interface", "TlsProtocols");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

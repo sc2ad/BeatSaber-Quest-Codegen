@@ -651,6 +651,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVROverlay*, "", "OVROverlay");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVROverlay::OverlayShape, "", "OVROverlay/OverlayShape");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVROverlay::OverlayType, "", "OVROverlay/OverlayType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVROverlay::LayerTexture, "", "OVROverlay/LayerTexture");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVROverlay::get_previewInEditor
 // Il2CppName: get_previewInEditor
 template<>

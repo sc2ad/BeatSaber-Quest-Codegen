@@ -160,6 +160,7 @@ namespace MasterServer {
   static_assert(sizeof(CreateRelayServerRequest) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::CreateRelayServerRequest*, "MasterServer", "CreateRelayServerRequest");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::CreateRelayServerRequest::get_pool
 // Il2CppName: get_pool
 template<>

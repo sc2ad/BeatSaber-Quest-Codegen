@@ -84,6 +84,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(AchievementsModelSO) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AchievementsModelSO*, "", "AchievementsModelSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AchievementsModelSO::Initialize
 // Il2CppName: Initialize
 template<>

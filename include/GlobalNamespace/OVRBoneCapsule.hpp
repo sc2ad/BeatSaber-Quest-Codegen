@@ -90,6 +90,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRBoneCapsule) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRBoneCapsule*, "", "OVRBoneCapsule");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRBoneCapsule::get_BoneIndex
 // Il2CppName: get_BoneIndex
 template<>

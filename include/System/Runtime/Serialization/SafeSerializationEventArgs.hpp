@@ -63,6 +63,7 @@ namespace System::Runtime::Serialization {
   static_assert(sizeof(SafeSerializationEventArgs) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SafeSerializationEventArgs*, "System.Runtime.Serialization", "SafeSerializationEventArgs");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::SafeSerializationEventArgs::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

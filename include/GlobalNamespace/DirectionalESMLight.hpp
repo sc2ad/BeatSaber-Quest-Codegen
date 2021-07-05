@@ -92,6 +92,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(DirectionalESMLight) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DirectionalESMLight*, "", "DirectionalESMLight");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DirectionalESMLight::OnEnable
 // Il2CppName: OnEnable
 template<>

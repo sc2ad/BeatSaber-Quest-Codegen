@@ -70,6 +70,7 @@ namespace TMPro {
   static_assert(sizeof(TMP_GlyphAdjustmentRecord) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_GlyphAdjustmentRecord, "TMPro", "TMP_GlyphAdjustmentRecord");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_GlyphAdjustmentRecord::get_glyphIndex
 // Il2CppName: get_glyphIndex
 template<>

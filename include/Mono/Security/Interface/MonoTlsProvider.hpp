@@ -101,6 +101,7 @@ namespace Mono::Security::Interface {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::MonoTlsProvider*, "Mono.Security.Interface", "MonoTlsProvider");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsProvider::get_ID
 // Il2CppName: get_ID
 template<>

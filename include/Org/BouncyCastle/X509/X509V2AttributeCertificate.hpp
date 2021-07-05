@@ -105,6 +105,7 @@ namespace Org::BouncyCastle::X509 {
   static_assert(sizeof(X509V2AttributeCertificate) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509V2AttributeCertificate*, "Org.BouncyCastle.X509", "X509V2AttributeCertificate");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::X509V2AttributeCertificate::GetObject
 // Il2CppName: GetObject
 template<>

@@ -149,6 +149,7 @@ namespace System::Diagnostics {
   static_assert(sizeof(StackFrame) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::StackFrame*, "System.Diagnostics", "StackFrame");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::StackFrame::get_frame_info
 // Il2CppName: get_frame_info
 template<>

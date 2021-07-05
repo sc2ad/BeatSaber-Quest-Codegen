@@ -390,6 +390,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LocalNetworkPlayerModel) == 0xD8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkPlayerModel*, "", "LocalNetworkPlayerModel");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkPlayerModel::get_canInvitePlayers
 // Il2CppName: get_canInvitePlayers
 template<>

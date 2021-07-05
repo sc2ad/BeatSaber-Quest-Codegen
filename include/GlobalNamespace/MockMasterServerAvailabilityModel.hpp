@@ -71,6 +71,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockMasterServerAvailabilityModel) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockMasterServerAvailabilityModel*, "", "MockMasterServerAvailabilityModel");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockMasterServerAvailabilityModel::GetAvailabilityAsync
 // Il2CppName: GetAvailabilityAsync
 template<>

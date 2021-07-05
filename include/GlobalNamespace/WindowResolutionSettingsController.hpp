@@ -77,6 +77,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(WindowResolutionSettingsController) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::WindowResolutionSettingsController*, "", "WindowResolutionSettingsController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::WindowResolutionSettingsController::GetInitValues
 // Il2CppName: GetInitValues
 template<>

@@ -34,6 +34,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*, "", "CameraRenderCallbacksManager/ICameraRenderCallbacks");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks::OnCameraPostRender
 // Il2CppName: OnCameraPostRender
 template<>

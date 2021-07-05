@@ -46,6 +46,7 @@ namespace NUnit::Framework::Constraints {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ComparisonAdapter*, "NUnit.Framework.Constraints", "ComparisonAdapter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::ComparisonAdapter::get_Default
 // Il2CppName: get_Default
 template<>

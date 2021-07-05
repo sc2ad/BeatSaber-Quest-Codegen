@@ -63,6 +63,7 @@ namespace System::Text {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF7Encoding::DecoderUTF7Fallback*, "System.Text", "UTF7Encoding/DecoderUTF7Fallback");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::UTF7Encoding::DecoderUTF7Fallback::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

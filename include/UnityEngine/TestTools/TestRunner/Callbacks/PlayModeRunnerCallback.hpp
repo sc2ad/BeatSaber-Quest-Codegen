@@ -85,6 +85,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   static_assert(sizeof(PlayModeRunnerCallback) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback*, "UnityEngine.TestTools.TestRunner.Callbacks", "PlayModeRunnerCallback");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::PlayModeRunnerCallback::RunFinished
 // Il2CppName: RunFinished
 template<>

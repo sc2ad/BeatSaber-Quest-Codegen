@@ -370,6 +370,7 @@ namespace RootMotion::FinalIK {
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderQuadruped*, "RootMotion.FinalIK", "GrounderQuadruped");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderQuadruped::Foot, "RootMotion.FinalIK", "GrounderQuadruped/Foot");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::GrounderQuadruped::IsReadyToInitiate
 // Il2CppName: IsReadyToInitiate
 template<>

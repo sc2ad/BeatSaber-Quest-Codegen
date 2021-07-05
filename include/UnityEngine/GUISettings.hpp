@@ -86,6 +86,7 @@ namespace UnityEngine {
   static_assert(sizeof(GUISettings) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUISettings*, "UnityEngine", "GUISettings");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUISettings::Internal_GetCursorFlashSpeed
 // Il2CppName: Internal_GetCursorFlashSpeed
 template<>

@@ -84,6 +84,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   static_assert(sizeof(DsaParameter) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::DsaParameter*, "Org.BouncyCastle.Asn1.X509", "DsaParameter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::DsaParameter::GetInstance
 // Il2CppName: GetInstance
 template<>

@@ -203,6 +203,7 @@ namespace LiteNetLib {
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetEvent*, "LiteNetLib", "NetEvent");
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetEvent::EType, "LiteNetLib", "NetEvent/EType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NetEvent::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

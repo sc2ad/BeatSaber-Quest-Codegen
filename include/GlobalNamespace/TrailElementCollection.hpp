@@ -95,6 +95,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(TrailElementCollection) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrailElementCollection*, "", "TrailElementCollection");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TrailElementCollection::get_capacity
 // Il2CppName: get_capacity
 template<>

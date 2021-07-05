@@ -230,6 +230,7 @@ namespace System::Net {
   static_assert(sizeof(HttpListenerRequest) == 0x83);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerRequest*, "System.Net", "HttpListenerRequest");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::HttpListenerRequest::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -84,6 +84,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ExternalCamerasManager) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ExternalCamerasManager*, "", "ExternalCamerasManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ExternalCamerasManager::Init
 // Il2CppName: Init
 template<>

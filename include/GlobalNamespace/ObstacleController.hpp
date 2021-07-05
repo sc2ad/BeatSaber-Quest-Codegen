@@ -370,6 +370,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ObstacleController) == 0x120);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleController*, "", "ObstacleController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleController::add_finishedMovementEvent
 // Il2CppName: add_finishedMovementEvent
 template<>

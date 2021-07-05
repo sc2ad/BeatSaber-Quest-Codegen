@@ -57,6 +57,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BetaBuildInfoText) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BetaBuildInfoText*, "", "BetaBuildInfoText");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BetaBuildInfoText::Start
 // Il2CppName: Start
 template<>

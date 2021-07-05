@@ -53,6 +53,7 @@ namespace System::Security::Principal {
   static_assert(sizeof(GenericPrincipal) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::GenericPrincipal*, "System.Security.Principal", "GenericPrincipal");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Principal::GenericPrincipal::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

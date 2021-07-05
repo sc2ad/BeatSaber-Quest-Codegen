@@ -79,6 +79,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AdditionalContentModel::$GetPackEntitlementStatusAsync$d__11, "", "AdditionalContentModel/<GetPackEntitlementStatusAsync>d__11");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AdditionalContentModel::$GetPackEntitlementStatusAsync$d__11::MoveNext
 // Il2CppName: MoveNext
 template<>

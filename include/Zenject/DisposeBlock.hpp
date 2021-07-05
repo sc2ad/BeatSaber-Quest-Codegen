@@ -271,6 +271,7 @@ namespace Zenject {
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposeBlock*, "Zenject", "DisposeBlock");
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposeBlock::SpawnedObjectPoolPair, "Zenject", "DisposeBlock/SpawnedObjectPoolPair");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::DisposeBlock::OnSpawned
 // Il2CppName: OnSpawned
 template<>

@@ -45,6 +45,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderSaveAndLoad*, "", "VRControllersRecorderSaveAndLoad");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorderSaveAndLoad::LoadSaveDataFromFile
 // Il2CppName: LoadSaveDataFromFile
 template<>

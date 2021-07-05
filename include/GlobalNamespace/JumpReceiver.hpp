@@ -72,6 +72,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(JumpReceiver) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::JumpReceiver*, "", "JumpReceiver");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::JumpReceiver::get_jumpToDestinationValid
 // Il2CppName: get_jumpToDestinationValid
 template<>

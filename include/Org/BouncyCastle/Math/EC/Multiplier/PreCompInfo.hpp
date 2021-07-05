@@ -18,3 +18,4 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*, "Org.BouncyCastle.Math.EC.Multiplier", "PreCompInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

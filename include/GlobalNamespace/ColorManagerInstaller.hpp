@@ -59,6 +59,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ColorManagerInstaller) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorManagerInstaller*, "", "ColorManagerInstaller");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorManagerInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>

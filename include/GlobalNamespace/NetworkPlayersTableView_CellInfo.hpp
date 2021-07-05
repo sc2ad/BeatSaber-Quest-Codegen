@@ -116,6 +116,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayersTableView::CellInfo*, "", "NetworkPlayersTableView/CellInfo");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayersTableView::CellInfo::CellType, "", "NetworkPlayersTableView/CellInfo/CellType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayersTableView::CellInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

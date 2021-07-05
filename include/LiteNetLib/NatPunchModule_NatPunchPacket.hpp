@@ -61,6 +61,7 @@ namespace LiteNetLib {
   static_assert(sizeof(NatPunchModule::NatPunchPacket) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule::NatPunchPacket*, "LiteNetLib", "NatPunchModule/NatPunchPacket");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NatPunchModule::NatPunchPacket::get_Token
 // Il2CppName: get_Token
 template<>

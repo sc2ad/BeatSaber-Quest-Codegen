@@ -108,6 +108,7 @@ namespace System::ComponentModel {
   static_assert(sizeof(Component) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Component*, "System.ComponentModel", "Component");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::Component::get_CanRaiseEvents
 // Il2CppName: get_CanRaiseEvents
 template<>

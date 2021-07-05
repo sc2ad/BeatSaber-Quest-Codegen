@@ -102,6 +102,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MoveBackWall) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MoveBackWall*, "", "MoveBackWall");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MoveBackWall::Start
 // Il2CppName: Start
 template<>

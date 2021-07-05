@@ -100,6 +100,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(Recoil::RecoilOffset) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Recoil::RecoilOffset*, "RootMotion.FinalIK", "Recoil/RecoilOffset");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::Recoil::RecoilOffset::Start
 // Il2CppName: Start
 template<>

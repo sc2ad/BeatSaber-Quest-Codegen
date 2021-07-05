@@ -30,6 +30,7 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnhandledExceptionHandler*, "UnityEngine", "UnhandledExceptionHandler");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UnhandledExceptionHandler::RegisterUECatcher
 // Il2CppName: RegisterUECatcher
 template<>

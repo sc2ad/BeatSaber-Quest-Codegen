@@ -61,3 +61,4 @@ namespace JetBrains::Annotations {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AssertionConditionType, "JetBrains.Annotations", "AssertionConditionType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -19,3 +19,4 @@ namespace System::Reflection::Emit {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::CustomAttributeBuilder*, "System.Reflection.Emit", "CustomAttributeBuilder");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

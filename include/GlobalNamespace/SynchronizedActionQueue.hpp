@@ -105,6 +105,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SynchronizedActionQueue*, "", "SynchronizedActionQueue");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SynchronizedActionQueue::SynchronizedAction, "", "SynchronizedActionQueue/SynchronizedAction");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SynchronizedActionQueue::Clear
 // Il2CppName: Clear
 template<>

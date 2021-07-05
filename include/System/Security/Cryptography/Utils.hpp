@@ -75,6 +75,7 @@ namespace System::Security::Cryptography {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::Utils*, "System.Security.Cryptography", "Utils");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::Utils::get_StaticRandomNumberGenerator
 // Il2CppName: get_StaticRandomNumberGenerator
 template<>

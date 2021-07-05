@@ -167,6 +167,7 @@ namespace System::Xml {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::TextEncodedRawTextWriter*, "System.Xml", "TextEncodedRawTextWriter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::TextEncodedRawTextWriter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

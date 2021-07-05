@@ -83,6 +83,7 @@ namespace BeatSaberAPI::DataTransferObjects {
   static_assert(sizeof(LeaderboardQuery) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::LeaderboardQuery*, "BeatSaberAPI.DataTransferObjects", "LeaderboardQuery");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: BeatSaberAPI::DataTransferObjects::LeaderboardQuery::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

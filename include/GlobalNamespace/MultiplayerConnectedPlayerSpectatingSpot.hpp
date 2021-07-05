@@ -164,6 +164,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerConnectedPlayerSpectatingSpot) == 0x49);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot*, "", "MultiplayerConnectedPlayerSpectatingSpot");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::add_hasBeenRemovedEvent
 // Il2CppName: add_hasBeenRemovedEvent
 template<>

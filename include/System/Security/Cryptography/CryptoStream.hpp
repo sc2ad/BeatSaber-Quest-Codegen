@@ -227,6 +227,7 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(CryptoStream) == 0x5F);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CryptoStream*, "System.Security.Cryptography", "CryptoStream");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::CryptoStream::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

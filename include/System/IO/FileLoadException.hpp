@@ -106,6 +106,7 @@ namespace System::IO {
   static_assert(sizeof(FileLoadException) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileLoadException*, "System.IO", "FileLoadException");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::FileLoadException::SetMessageField
 // Il2CppName: SetMessageField
 template<>

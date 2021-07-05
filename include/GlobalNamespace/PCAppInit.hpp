@@ -113,6 +113,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PCAppInit) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PCAppInit*, "", "PCAppInit");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PCAppInit::AppStartAndMultiSceneEditorSetup
 // Il2CppName: AppStartAndMultiSceneEditorSetup
 template<>

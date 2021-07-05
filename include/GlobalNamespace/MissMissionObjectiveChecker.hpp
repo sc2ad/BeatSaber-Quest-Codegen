@@ -70,6 +70,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissMissionObjectiveChecker) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissMissionObjectiveChecker*, "", "MissMissionObjectiveChecker");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissMissionObjectiveChecker::OnDestroy
 // Il2CppName: OnDestroy
 template<>

@@ -75,6 +75,7 @@ namespace NUnit::Framework::Interfaces {
   static_assert(sizeof(TestOutput) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::TestOutput*, "NUnit.Framework.Interfaces", "TestOutput");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::TestOutput::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

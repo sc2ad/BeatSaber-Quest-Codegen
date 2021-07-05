@@ -28,3 +28,4 @@ namespace UnityEngine::PlayerLoop {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::Initialization::DirectorSampleTime, "UnityEngine.PlayerLoop", "Initialization/DirectorSampleTime");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

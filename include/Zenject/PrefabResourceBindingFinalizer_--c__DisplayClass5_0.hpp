@@ -77,6 +77,7 @@ namespace Zenject {
   static_assert(sizeof(PrefabResourceBindingFinalizer::$$c__DisplayClass5_0) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PrefabResourceBindingFinalizer::$$c__DisplayClass5_0*, "Zenject", "PrefabResourceBindingFinalizer/<>c__DisplayClass5_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::PrefabResourceBindingFinalizer::$$c__DisplayClass5_0::$FinalizeBindingConcrete$b__0
 // Il2CppName: <FinalizeBindingConcrete>b__0
 template<>

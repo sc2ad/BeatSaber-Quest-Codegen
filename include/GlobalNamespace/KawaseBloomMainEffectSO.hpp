@@ -177,6 +177,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(KawaseBloomMainEffectSO) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::KawaseBloomMainEffectSO*, "", "KawaseBloomMainEffectSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::KawaseBloomMainEffectSO::OnDisable
 // Il2CppName: OnDisable
 template<>

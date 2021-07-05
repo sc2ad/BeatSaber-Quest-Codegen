@@ -317,6 +317,7 @@ namespace UnityEngine::ProBuilder {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::AutoUnwrapSettings, "UnityEngine.ProBuilder", "AutoUnwrapSettings");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor, "UnityEngine.ProBuilder", "AutoUnwrapSettings/Anchor");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::AutoUnwrapSettings::Fill, "UnityEngine.ProBuilder", "AutoUnwrapSettings/Fill");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::AutoUnwrapSettings::get_defaultAutoUnwrapSettings
 // Il2CppName: get_defaultAutoUnwrapSettings
 template<>

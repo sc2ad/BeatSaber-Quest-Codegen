@@ -202,6 +202,7 @@ namespace Mono::Globalization::Unicode {
   static_assert(sizeof(SortKeyBuffer) == 0x83);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SortKeyBuffer*, "Mono.Globalization.Unicode", "SortKeyBuffer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SortKeyBuffer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

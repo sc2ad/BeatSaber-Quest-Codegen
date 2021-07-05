@@ -85,6 +85,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   static_assert(sizeof(DHPublicKeyParameters) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "DHPublicKeyParameters");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters::Validate
 // Il2CppName: Validate
 template<>

@@ -274,6 +274,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LevelCollectionTableView) == 0xA8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCollectionTableView*, "", "LevelCollectionTableView");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::add_didSelectLevelEvent
 // Il2CppName: add_didSelectLevelEvent
 template<>

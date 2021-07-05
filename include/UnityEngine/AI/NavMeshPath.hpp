@@ -88,6 +88,7 @@ namespace UnityEngine::AI {
   static_assert(sizeof(NavMeshPath) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AI::NavMeshPath*, "UnityEngine.AI", "NavMeshPath");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AI::NavMeshPath::InitializeNavMeshPath
 // Il2CppName: InitializeNavMeshPath
 template<>

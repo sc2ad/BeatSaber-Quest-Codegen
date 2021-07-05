@@ -90,6 +90,7 @@ namespace UnityEngine::AddressableAssets {
   static_assert(sizeof(DynamicResourceLocator) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::DynamicResourceLocator*, "UnityEngine.AddressableAssets", "DynamicResourceLocator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::DynamicResourceLocator::get_LocatorId
 // Il2CppName: get_LocatorId
 template<>

@@ -48,6 +48,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnvironmentTypeSO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentTypeSO*, "", "EnvironmentTypeSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentTypeSO::get_typeNameLocalizationKey
 // Il2CppName: get_typeNameLocalizationKey
 template<>

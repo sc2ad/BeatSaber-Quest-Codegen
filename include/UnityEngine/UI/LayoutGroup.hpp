@@ -264,6 +264,7 @@ namespace UnityEngine::UI {
   static_assert(sizeof(LayoutGroup) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutGroup*, "UnityEngine.UI", "LayoutGroup");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::get_padding
 // Il2CppName: get_padding
 template<>

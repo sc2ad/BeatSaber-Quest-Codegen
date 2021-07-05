@@ -64,6 +64,7 @@ namespace System::Security::Util {
   static_assert(sizeof(Tokenizer::StreamTokenReader) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer::StreamTokenReader*, "System.Security.Util", "Tokenizer/StreamTokenReader");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Util::Tokenizer::StreamTokenReader::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

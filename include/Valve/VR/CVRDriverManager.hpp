@@ -58,6 +58,7 @@ namespace Valve::VR {
   static_assert(sizeof(CVRDriverManager) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRDriverManager*, "Valve.VR", "CVRDriverManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::CVRDriverManager::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

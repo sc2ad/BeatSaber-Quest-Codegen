@@ -343,6 +343,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerPlayersManager) == 0xE0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerPlayersManager*, "", "MultiplayerPlayersManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerPlayersManager::get_playerSpawningFinished
 // Il2CppName: get_playerSpawningFinished
 template<>

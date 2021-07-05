@@ -70,6 +70,7 @@ namespace UnityEngine::TestTools::TestRunner {
   static_assert(sizeof(UnhandledLogMessageException) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::UnhandledLogMessageException*, "UnityEngine.TestTools.TestRunner", "UnhandledLogMessageException");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::UnhandledLogMessageException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

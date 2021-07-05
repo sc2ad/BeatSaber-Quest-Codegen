@@ -82,6 +82,7 @@ namespace System::Runtime::Remoting::Lifetime {
   static_assert(sizeof(LeaseManager) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Lifetime::LeaseManager*, "System.Runtime.Remoting.Lifetime", "LeaseManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Lifetime::LeaseManager::SetPollTime
 // Il2CppName: SetPollTime
 template<>

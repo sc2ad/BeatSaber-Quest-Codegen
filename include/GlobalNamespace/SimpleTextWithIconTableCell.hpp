@@ -78,6 +78,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SimpleTextWithIconTableCell) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleTextWithIconTableCell*, "", "SimpleTextWithIconTableCell");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleTextWithIconTableCell::set_icon
 // Il2CppName: set_icon
 template<>

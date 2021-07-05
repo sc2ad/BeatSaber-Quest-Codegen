@@ -151,6 +151,7 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(MarkerList) == 0x12);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::MarkerList, "UnityEngine.Timeline", "MarkerList");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::MarkerList::get_markers
 // Il2CppName: get_markers
 template<>

@@ -58,6 +58,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(DisconnectPromptView::$$c__DisplayClass12_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisconnectPromptView::$$c__DisplayClass12_0*, "", "DisconnectPromptView/<>c__DisplayClass12_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DisconnectPromptView::$$c__DisplayClass12_0::$Hide$b__0
 // Il2CppName: <Hide>b__0
 template<>

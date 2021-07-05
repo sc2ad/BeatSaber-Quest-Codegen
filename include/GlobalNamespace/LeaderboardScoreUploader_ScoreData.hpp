@@ -186,6 +186,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LeaderboardScoreUploader::ScoreData) == 0x4C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardScoreUploader::ScoreData*, "", "LeaderboardScoreUploader/ScoreData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardScoreUploader::ScoreData::get_playerId
 // Il2CppName: get_playerId
 template<>

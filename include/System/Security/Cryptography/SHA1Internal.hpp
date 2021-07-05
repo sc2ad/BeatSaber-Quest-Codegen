@@ -89,6 +89,7 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(SHA1Internal) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SHA1Internal*, "System.Security.Cryptography", "SHA1Internal");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::SHA1Internal::HashCore
 // Il2CppName: HashCore
 template<>

@@ -24,6 +24,7 @@ namespace UnityEngine::UI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ILayoutController*, "UnityEngine.UI", "ILayoutController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::ILayoutController::SetLayoutHorizontal
 // Il2CppName: SetLayoutHorizontal
 template<>

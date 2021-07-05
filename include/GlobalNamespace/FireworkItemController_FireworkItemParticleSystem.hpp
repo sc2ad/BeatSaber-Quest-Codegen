@@ -84,6 +84,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FireworkItemController::FireworkItemParticleSystem) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FireworkItemController::FireworkItemParticleSystem*, "", "FireworkItemController/FireworkItemParticleSystem");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FireworkItemController::FireworkItemParticleSystem::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -117,6 +117,7 @@ namespace Mono::Net::Security {
   static_assert(sizeof(MonoTlsStream) == 0x3D);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MonoTlsStream*, "Mono.Net.Security", "MonoTlsStream");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::MonoTlsStream::get_Request
 // Il2CppName: get_Request
 template<>

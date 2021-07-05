@@ -183,6 +183,7 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionFilterTypesBinder*, "Zenject", "ConventionFilterTypesBinder");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::DerivingFromOrEqual
 // Il2CppName: DerivingFromOrEqual
 // Cannot write MetadataGetter for generic methods!

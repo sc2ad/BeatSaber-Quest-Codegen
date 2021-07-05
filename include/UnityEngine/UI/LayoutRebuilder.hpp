@@ -151,6 +151,7 @@ namespace UnityEngine::UI {
   static_assert(sizeof(LayoutRebuilder) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutRebuilder*, "UnityEngine.UI", "LayoutRebuilder");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::Initialize
 // Il2CppName: Initialize
 template<>

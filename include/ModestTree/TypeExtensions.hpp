@@ -281,6 +281,7 @@ namespace ModestTree {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::TypeExtensions*, "ModestTree", "TypeExtensions");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::DerivesFrom
 // Il2CppName: DerivesFrom
 // Cannot write MetadataGetter for generic methods!

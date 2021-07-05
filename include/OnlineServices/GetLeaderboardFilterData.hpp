@@ -79,6 +79,7 @@ namespace OnlineServices {
   static_assert(sizeof(GetLeaderboardFilterData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::GetLeaderboardFilterData, "OnlineServices", "GetLeaderboardFilterData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OnlineServices::GetLeaderboardFilterData::GetLeaderboardFilterData
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

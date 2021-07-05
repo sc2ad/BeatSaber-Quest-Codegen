@@ -61,6 +61,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSpectatingSpotManager::$$c*, "", "MultiplayerSpectatingSpotManager/<>c");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatingSpotManager::$$c::_cctor
 // Il2CppName: .cctor
 template<>

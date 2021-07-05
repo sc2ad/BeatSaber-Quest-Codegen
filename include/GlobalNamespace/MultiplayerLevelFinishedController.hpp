@@ -168,6 +168,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLevelFinishedController) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelFinishedController*, "", "MultiplayerLevelFinishedController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelFinishedController::add_allResultsCollectedEvent
 // Il2CppName: add_allResultsCollectedEvent
 template<>

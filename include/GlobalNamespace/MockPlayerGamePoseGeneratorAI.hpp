@@ -113,6 +113,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockPlayerGamePoseGeneratorAI) == 0x44);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerGamePoseGeneratorAI*, "", "MockPlayerGamePoseGeneratorAI");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerGamePoseGeneratorAI::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

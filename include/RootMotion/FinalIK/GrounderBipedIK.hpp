@@ -154,6 +154,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(GrounderBipedIK) == 0x88);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderBipedIK*, "RootMotion.FinalIK", "GrounderBipedIK");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::GrounderBipedIK::IsReadyToInitiate
 // Il2CppName: IsReadyToInitiate
 template<>

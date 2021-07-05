@@ -57,3 +57,4 @@ namespace Mono::Net::Security {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MobileAuthenticatedStream::OperationType, "Mono.Net.Security", "MobileAuthenticatedStream/OperationType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

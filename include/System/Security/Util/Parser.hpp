@@ -78,6 +78,7 @@ namespace System::Security::Util {
   static_assert(sizeof(Parser) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Parser*, "System.Security.Util", "Parser");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Util::Parser::GetTopElement
 // Il2CppName: GetTopElement
 template<>

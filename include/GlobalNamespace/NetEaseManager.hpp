@@ -143,6 +143,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(NetEaseManager) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseManager*, "", "NetEaseManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NetEaseManager::get_supportsLeaderboards
 // Il2CppName: get_supportsLeaderboards
 template<>

@@ -222,6 +222,7 @@ namespace UnityEngine::ResourceManagement::Util {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::DelayedActionManager*, "UnityEngine.ResourceManagement.Util", "DelayedActionManager");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::DelayedActionManager::DelegateInfo, "UnityEngine.ResourceManagement.Util", "DelayedActionManager/DelegateInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::DelayedActionManager::GetNode
 // Il2CppName: GetNode
 template<>

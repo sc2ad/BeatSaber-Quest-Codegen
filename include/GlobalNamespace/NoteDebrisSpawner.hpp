@@ -116,6 +116,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteDebrisSpawner) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteDebrisSpawner*, "", "NoteDebrisSpawner");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteDebrisSpawner::SpawnDebris
 // Il2CppName: SpawnDebris
 template<>

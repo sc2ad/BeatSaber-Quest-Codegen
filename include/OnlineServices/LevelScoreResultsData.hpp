@@ -110,6 +110,7 @@ namespace OnlineServices {
   static_assert(sizeof(LevelScoreResultsData) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LevelScoreResultsData, "OnlineServices", "LevelScoreResultsData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OnlineServices::LevelScoreResultsData::LevelScoreResultsData
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

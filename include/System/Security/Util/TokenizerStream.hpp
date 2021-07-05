@@ -124,6 +124,7 @@ namespace System::Security::Util {
   static_assert(sizeof(TokenizerStream) == 0x4C);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::TokenizerStream*, "System.Security.Util", "TokenizerStream");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Util::TokenizerStream::AddToken
 // Il2CppName: AddToken
 template<>

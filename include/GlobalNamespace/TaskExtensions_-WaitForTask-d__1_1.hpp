@@ -100,3 +100,4 @@ namespace GlobalNamespace {
   // Could not write size check! Type: TaskExtensions/<WaitForTask>d__1`1 is generic, or has no fields that are valid for size checks!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(GlobalNamespace::TaskExtensions::$WaitForTask$d__1_1, "", "TaskExtensions/<WaitForTask>d__1`1");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

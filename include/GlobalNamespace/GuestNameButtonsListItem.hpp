@@ -88,6 +88,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(GuestNameButtonsListItem) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GuestNameButtonsListItem*, "", "GuestNameButtonsListItem");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GuestNameButtonsListItem::set_nameText
 // Il2CppName: set_nameText
 template<>

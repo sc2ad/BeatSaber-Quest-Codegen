@@ -62,6 +62,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteCutter::CuttableBySaberSortParams) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutter::CuttableBySaberSortParams*, "", "NoteCutter/CuttableBySaberSortParams");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutter::CuttableBySaberSortParams::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

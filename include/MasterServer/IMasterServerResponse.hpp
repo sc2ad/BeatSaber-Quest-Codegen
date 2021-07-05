@@ -40,6 +40,7 @@ namespace MasterServer {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::IMasterServerResponse*, "MasterServer", "IMasterServerResponse");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::IMasterServerResponse::get_responseId
 // Il2CppName: get_responseId
 template<>

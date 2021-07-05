@@ -76,6 +76,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKSolverLookAt::LookAtBone) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverLookAt::LookAtBone*, "RootMotion.FinalIK", "IKSolverLookAt/LookAtBone");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverLookAt::LookAtBone::Initiate
 // Il2CppName: Initiate
 template<>

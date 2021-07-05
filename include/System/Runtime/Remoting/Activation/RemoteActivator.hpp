@@ -21,3 +21,4 @@ namespace System::Runtime::Remoting::Activation {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Activation::RemoteActivator*, "System.Runtime.Remoting.Activation", "RemoteActivator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

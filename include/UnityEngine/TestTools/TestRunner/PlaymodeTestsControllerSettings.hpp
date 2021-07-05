@@ -79,6 +79,7 @@ namespace UnityEngine::TestTools::TestRunner {
   static_assert(sizeof(PlaymodeTestsControllerSettings) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings*, "UnityEngine.TestTools.TestRunner", "PlaymodeTestsControllerSettings");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings::BuildNUnitFilter
 // Il2CppName: BuildNUnitFilter
 template<>

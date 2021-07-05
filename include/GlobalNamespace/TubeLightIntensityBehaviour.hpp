@@ -173,6 +173,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(TubeLightIntensityBehaviour) == 0x54);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TubeLightIntensityBehaviour*, "", "TubeLightIntensityBehaviour");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TubeLightIntensityBehaviour::EnableObjects
 // Il2CppName: EnableObjects
 template<>

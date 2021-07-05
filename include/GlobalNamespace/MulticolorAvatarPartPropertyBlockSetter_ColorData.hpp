@@ -64,6 +64,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MulticolorAvatarPartPropertyBlockSetter::ColorData) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*, "", "MulticolorAvatarPartPropertyBlockSetter/ColorData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData::get_defaultColor
 // Il2CppName: get_defaultColor
 template<>

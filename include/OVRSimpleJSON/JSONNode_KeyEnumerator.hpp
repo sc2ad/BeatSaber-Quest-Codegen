@@ -69,6 +69,7 @@ namespace OVRSimpleJSON {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode::KeyEnumerator, "OVRSimpleJSON", "JSONNode/KeyEnumerator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONNode::KeyEnumerator::KeyEnumerator
 // Il2CppName: .ctor
 // Cannot write MetadataGetter for a method that has a nested type with a declaring generic type anywhere within it!

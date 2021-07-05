@@ -344,6 +344,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LevelCollectionNavigationController) == 0x128);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCollectionNavigationController*, "", "LevelCollectionNavigationController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelCollectionNavigationController::add_didChangeLevelDetailContentEvent
 // Il2CppName: add_didChangeLevelDetailContentEvent
 template<>

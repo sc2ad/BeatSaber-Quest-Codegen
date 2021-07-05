@@ -98,6 +98,7 @@ namespace System::Net::Http::Headers {
   static_assert(sizeof(ContentDispositionHeaderValue) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::ContentDispositionHeaderValue*, "System.Net.Http.Headers", "ContentDispositionHeaderValue");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::ContentDispositionHeaderValue::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

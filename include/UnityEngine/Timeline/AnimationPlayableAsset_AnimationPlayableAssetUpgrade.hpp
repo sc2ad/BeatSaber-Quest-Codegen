@@ -24,6 +24,7 @@ namespace UnityEngine::Timeline {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationPlayableAsset::AnimationPlayableAssetUpgrade*, "UnityEngine.Timeline", "AnimationPlayableAsset/AnimationPlayableAssetUpgrade");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::AnimationPlayableAssetUpgrade::ConvertRotationToEuler
 // Il2CppName: ConvertRotationToEuler
 template<>

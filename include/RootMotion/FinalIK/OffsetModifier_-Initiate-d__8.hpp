@@ -75,6 +75,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(OffsetModifier::$Initiate$d__8) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetModifier::$Initiate$d__8*, "RootMotion.FinalIK", "OffsetModifier/<Initiate>d__8");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::OffsetModifier::$Initiate$d__8::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

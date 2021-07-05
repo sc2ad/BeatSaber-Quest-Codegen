@@ -49,6 +49,7 @@ namespace System::Collections::Generic {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::CollectionExtensions*, "System.Collections.Generic", "CollectionExtensions");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Generic::CollectionExtensions::GetValueOrDefault
 // Il2CppName: GetValueOrDefault
 // Cannot write MetadataGetter for generic methods!

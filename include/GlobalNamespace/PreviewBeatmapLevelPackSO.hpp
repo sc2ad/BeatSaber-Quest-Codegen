@@ -109,6 +109,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PreviewBeatmapLevelPackSO) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PreviewBeatmapLevelPackSO*, "", "PreviewBeatmapLevelPackSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PreviewBeatmapLevelPackSO::get_packID
 // Il2CppName: get_packID
 template<>

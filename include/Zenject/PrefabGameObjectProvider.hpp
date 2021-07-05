@@ -82,6 +82,7 @@ namespace Zenject {
   static_assert(sizeof(PrefabGameObjectProvider) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PrefabGameObjectProvider*, "Zenject", "PrefabGameObjectProvider");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::PrefabGameObjectProvider::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

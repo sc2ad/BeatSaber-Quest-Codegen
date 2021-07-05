@@ -626,6 +626,7 @@ namespace UnityEngine::AddressableAssets {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Addressables*, "UnityEngine.AddressableAssets", "Addressables");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Addressables::MergeMode, "UnityEngine.AddressableAssets", "Addressables/MergeMode");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Addressables::get_m_Addressables
 // Il2CppName: get_m_Addressables
 template<>

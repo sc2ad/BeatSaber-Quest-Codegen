@@ -341,6 +341,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static_assert(sizeof(ObjectReader) == 0xD0);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ObjectReader*, "System.Runtime.Serialization.Formatters.Binary", "ObjectReader");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectReader::get_ValueFixupStack
 // Il2CppName: get_ValueFixupStack
 template<>

@@ -254,6 +254,7 @@ namespace NUnit::Framework::Internal {
   static_assert(sizeof(TestExecutionContext) == 0x81);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestExecutionContext*, "NUnit.Framework.Internal", "TestExecutionContext");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestExecutionContext::get_CurrentContext
 // Il2CppName: get_CurrentContext
 template<>

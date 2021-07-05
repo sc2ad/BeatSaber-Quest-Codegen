@@ -61,3 +61,4 @@ namespace NUnit::Framework::Interfaces {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::TestStatus, "NUnit.Framework.Interfaces", "TestStatus");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

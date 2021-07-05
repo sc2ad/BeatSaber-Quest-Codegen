@@ -100,6 +100,7 @@ namespace System::Reflection {
   bool operator !=(System::Reflection::ConstructorInfo* left, System::Reflection::ConstructorInfo& right);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ConstructorInfo*, "System.Reflection", "ConstructorInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::ConstructorInfo::Invoke
 // Il2CppName: Invoke
 template<>

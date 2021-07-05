@@ -80,6 +80,7 @@ namespace Mono::Security::Interface {
   static_assert(sizeof(MonoTlsConnectionInfo) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::MonoTlsConnectionInfo*, "Mono.Security.Interface", "MonoTlsConnectionInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsConnectionInfo::get_CipherSuiteCode
 // Il2CppName: get_CipherSuiteCode
 template<>

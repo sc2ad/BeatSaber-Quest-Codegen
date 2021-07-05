@@ -328,6 +328,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapObjectManager) == 0x61);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectManager*, "", "BeatmapObjectManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectManager::add_noteWasSpawnedEvent
 // Il2CppName: add_noteWasSpawnedEvent
 template<>

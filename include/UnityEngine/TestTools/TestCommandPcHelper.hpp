@@ -44,6 +44,7 @@ namespace UnityEngine::TestTools {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestCommandPcHelper*, "UnityEngine.TestTools", "TestCommandPcHelper");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestCommandPcHelper::SetEnumeratorPC
 // Il2CppName: SetEnumeratorPC
 template<>

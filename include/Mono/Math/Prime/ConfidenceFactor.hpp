@@ -73,3 +73,4 @@ namespace Mono::Math::Prime {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::Prime::ConfidenceFactor, "Mono.Math.Prime", "ConfidenceFactor");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

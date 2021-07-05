@@ -110,6 +110,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapCharacteristicsViewController) == 0x8C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicsViewController*, "", "BeatmapCharacteristicsViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicsViewController::add_didSelectBeatmapCharacteristicEvent
 // Il2CppName: add_didSelectBeatmapCharacteristicEvent
 template<>

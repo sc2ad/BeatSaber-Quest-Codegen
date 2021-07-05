@@ -69,6 +69,7 @@ namespace System::Runtime::Remoting {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::SingletonIdentity*, "System.Runtime.Remoting", "SingletonIdentity");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::SingletonIdentity::GetServerObject
 // Il2CppName: GetServerObject
 template<>

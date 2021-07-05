@@ -203,6 +203,7 @@ namespace HMUI {
   static_assert(sizeof(AlphabetScrollbar) == 0x6D);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::AlphabetScrollbar*, "HMUI", "AlphabetScrollbar");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::AlphabetScrollbar::Awake
 // Il2CppName: Awake
 template<>

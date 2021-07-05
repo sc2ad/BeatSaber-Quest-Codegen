@@ -141,6 +141,7 @@ namespace TMPro {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_MaterialManager*, "TMPro", "TMP_MaterialManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_MaterialManager::_cctor
 // Il2CppName: .cctor
 template<>

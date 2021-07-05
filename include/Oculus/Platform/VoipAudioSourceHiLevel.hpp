@@ -122,6 +122,7 @@ namespace Oculus::Platform {
   static_assert(sizeof(VoipAudioSourceHiLevel) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipAudioSourceHiLevel*, "Oculus.Platform", "VoipAudioSourceHiLevel");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::VoipAudioSourceHiLevel::set_senderID
 // Il2CppName: set_senderID
 template<>

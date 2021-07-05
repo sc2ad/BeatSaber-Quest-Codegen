@@ -113,6 +113,7 @@ namespace GlobalNamespace {
   bool operator !=(const GlobalNamespace::GameplayServerConfiguration& l, const GlobalNamespace::GameplayServerConfiguration& r);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayServerConfiguration, "", "GameplayServerConfiguration");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayServerConfiguration::GameplayServerConfiguration
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

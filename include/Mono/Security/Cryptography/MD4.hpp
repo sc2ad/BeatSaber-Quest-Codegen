@@ -37,6 +37,7 @@ namespace Mono::Security::Cryptography {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::MD4*, "Mono.Security.Cryptography", "MD4");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Cryptography::MD4::Create
 // Il2CppName: Create
 template<>

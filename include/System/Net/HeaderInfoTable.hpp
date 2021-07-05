@@ -74,6 +74,7 @@ namespace System::Net {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HeaderInfoTable*, "System.Net", "HeaderInfoTable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::HeaderInfoTable::ParseSingleValue
 // Il2CppName: ParseSingleValue
 template<>

@@ -44,6 +44,7 @@ namespace System::Security::Cryptography {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HMACRIPEMD160*, "System.Security.Cryptography", "HMACRIPEMD160");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::HMACRIPEMD160::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -131,6 +131,7 @@ namespace UnityEngine::Events {
   static_assert(sizeof(UnityEventBase) == 0x21);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::UnityEventBase*, "UnityEngine.Events", "UnityEventBase");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Events::UnityEventBase::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize
 // Il2CppName: UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize
 template<>

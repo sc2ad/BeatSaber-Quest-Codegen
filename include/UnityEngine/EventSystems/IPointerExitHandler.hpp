@@ -34,6 +34,7 @@ namespace UnityEngine::EventSystems {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::IPointerExitHandler*, "UnityEngine.EventSystems", "IPointerExitHandler");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::IPointerExitHandler::OnPointerExit
 // Il2CppName: OnPointerExit
 template<>

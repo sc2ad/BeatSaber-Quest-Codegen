@@ -87,6 +87,7 @@ namespace System::Text::RegularExpressions {
   static_assert(sizeof(RegexTree) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexTree*, "System.Text.RegularExpressions", "RegexTree");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexTree::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -83,6 +83,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BaseMasterServerResponse) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseMasterServerResponse*, "", "BaseMasterServerResponse");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BaseMasterServerResponse::get_responseId
 // Il2CppName: get_responseId
 template<>

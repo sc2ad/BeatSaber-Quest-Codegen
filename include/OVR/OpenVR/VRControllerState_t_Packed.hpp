@@ -94,6 +94,7 @@ namespace OVR::OpenVR {
   static_assert(sizeof(VRControllerState_t_Packed) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VRControllerState_t_Packed, "OVR.OpenVR", "VRControllerState_t_Packed");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::VRControllerState_t_Packed::VRControllerState_t_Packed
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

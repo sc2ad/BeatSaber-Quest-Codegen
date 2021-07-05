@@ -162,6 +162,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKMappingLimb) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKMappingLimb*, "RootMotion.FinalIK", "IKMappingLimb");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMappingLimb::GetBoneMap
 // Il2CppName: GetBoneMap
 template<>

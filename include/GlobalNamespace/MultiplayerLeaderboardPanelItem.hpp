@@ -143,6 +143,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLeaderboardPanelItem) == 0x94);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLeaderboardPanelItem*, "", "MultiplayerLeaderboardPanelItem");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLeaderboardPanelItem::SetData
 // Il2CppName: SetData
 template<>

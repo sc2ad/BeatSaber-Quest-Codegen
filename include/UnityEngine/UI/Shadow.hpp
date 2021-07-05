@@ -118,6 +118,7 @@ namespace UnityEngine::UI {
   static_assert(sizeof(Shadow) == 0x39);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Shadow*, "UnityEngine.UI", "Shadow");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Shadow::get_effectColor
 // Il2CppName: get_effectColor
 template<>

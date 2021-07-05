@@ -88,6 +88,7 @@ namespace System::Security::Cryptography {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSA*, "System.Security.Cryptography", "RSA");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::RSA::Create
 // Il2CppName: Create
 template<>

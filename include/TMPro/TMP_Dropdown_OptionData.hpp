@@ -87,6 +87,7 @@ namespace TMPro {
   static_assert(sizeof(TMP_Dropdown::OptionData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Dropdown::OptionData*, "TMPro", "TMP_Dropdown/OptionData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::OptionData::get_text
 // Il2CppName: get_text
 template<>

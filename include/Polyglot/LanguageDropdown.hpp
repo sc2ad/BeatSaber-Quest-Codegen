@@ -75,6 +75,7 @@ namespace Polyglot {
   static_assert(sizeof(LanguageDropdown) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LanguageDropdown*, "Polyglot", "LanguageDropdown");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Polyglot::LanguageDropdown::Reset
 // Il2CppName: Reset
 template<>

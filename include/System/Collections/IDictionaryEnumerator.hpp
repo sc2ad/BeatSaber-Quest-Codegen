@@ -44,6 +44,7 @@ namespace System::Collections {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::IDictionaryEnumerator*, "System.Collections", "IDictionaryEnumerator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::IDictionaryEnumerator::get_Key
 // Il2CppName: get_Key
 template<>

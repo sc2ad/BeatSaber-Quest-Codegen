@@ -198,6 +198,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKConstraintBend) == 0x86);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKConstraintBend*, "RootMotion.FinalIK", "IKConstraintBend");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKConstraintBend::IsValid
 // Il2CppName: IsValid
 template<>

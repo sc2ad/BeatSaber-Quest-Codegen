@@ -44,6 +44,7 @@ namespace System::Resources {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::IResourceReader*, "System.Resources", "IResourceReader");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Resources::IResourceReader::Close
 // Il2CppName: Close
 template<>

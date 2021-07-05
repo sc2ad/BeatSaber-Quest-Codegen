@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithLaunchReportFlowResult
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithLaunchReportFlowResult*, "Oculus.Platform", "MessageWithLaunchReportFlowResult");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithLaunchReportFlowResult::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

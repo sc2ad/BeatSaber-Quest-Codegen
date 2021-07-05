@@ -61,6 +61,7 @@ namespace UnityEngine::UI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GraphicRaycaster::$$c*, "UnityEngine.UI", "GraphicRaycaster/<>c");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::GraphicRaycaster::$$c::_cctor
 // Il2CppName: .cctor
 template<>

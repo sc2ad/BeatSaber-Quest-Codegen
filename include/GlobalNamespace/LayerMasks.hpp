@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LayerMasks*, "", "LayerMasks");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LayerMasks::GetLayerMask
 // Il2CppName: GetLayerMask
 template<>

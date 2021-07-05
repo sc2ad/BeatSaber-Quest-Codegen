@@ -77,6 +77,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   static_assert(sizeof(ECNamedDomainParameters) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters*, "Org.BouncyCastle.Crypto.Parameters", "ECNamedDomainParameters");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters::get_Name
 // Il2CppName: get_Name
 template<>

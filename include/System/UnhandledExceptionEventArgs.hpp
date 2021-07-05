@@ -52,6 +52,7 @@ namespace System {
   static_assert(sizeof(UnhandledExceptionEventArgs) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::UnhandledExceptionEventArgs*, "System", "UnhandledExceptionEventArgs");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::UnhandledExceptionEventArgs::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

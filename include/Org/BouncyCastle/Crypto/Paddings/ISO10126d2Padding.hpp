@@ -65,6 +65,7 @@ namespace Org::BouncyCastle::Crypto::Paddings {
   static_assert(sizeof(ISO10126d2Padding) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding*, "Org.BouncyCastle.Crypto.Paddings", "ISO10126d2Padding");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Paddings::ISO10126d2Padding::Init
 // Il2CppName: Init
 template<>

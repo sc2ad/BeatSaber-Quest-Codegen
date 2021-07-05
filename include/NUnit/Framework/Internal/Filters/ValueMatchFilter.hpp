@@ -79,6 +79,7 @@ namespace NUnit::Framework::Internal::Filters {
   static_assert(sizeof(ValueMatchFilter) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Filters::ValueMatchFilter*, "NUnit.Framework.Internal.Filters", "ValueMatchFilter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::ValueMatchFilter::get_ExpectedValue
 // Il2CppName: get_ExpectedValue
 template<>

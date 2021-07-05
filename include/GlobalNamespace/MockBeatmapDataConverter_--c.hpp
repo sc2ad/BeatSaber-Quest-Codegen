@@ -139,6 +139,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockBeatmapDataConverter::$$c*, "", "MockBeatmapDataConverter/<>c");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapDataConverter::$$c::_cctor
 // Il2CppName: .cctor
 template<>

@@ -221,6 +221,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(KawaseBlurRendererSO) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::KawaseBlurRendererSO*, "", "KawaseBlurRendererSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::KawaseBlurRendererSO::GetBlurKernel
 // Il2CppName: GetBlurKernel
 template<>

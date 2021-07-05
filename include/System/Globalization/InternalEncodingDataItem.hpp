@@ -43,3 +43,4 @@ namespace System::Globalization {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::InternalEncodingDataItem, "System.Globalization", "InternalEncodingDataItem");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

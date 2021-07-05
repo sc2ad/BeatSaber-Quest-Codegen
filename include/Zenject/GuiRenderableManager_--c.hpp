@@ -71,6 +71,7 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::GuiRenderableManager::$$c*, "Zenject", "GuiRenderableManager/<>c");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::GuiRenderableManager::$$c::_cctor
 // Il2CppName: .cctor
 template<>

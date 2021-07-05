@@ -132,6 +132,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MouseLook) == 0x51);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MouseLook*, "", "MouseLook");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MouseLook::Init
 // Il2CppName: Init
 template<>

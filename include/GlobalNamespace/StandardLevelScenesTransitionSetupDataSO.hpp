@@ -138,6 +138,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(StandardLevelScenesTransitionSetupDataSO) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, "", "StandardLevelScenesTransitionSetupDataSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

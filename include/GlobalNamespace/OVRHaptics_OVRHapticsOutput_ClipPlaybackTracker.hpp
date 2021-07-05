@@ -68,6 +68,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker*, "", "OVRHaptics/OVRHapticsOutput/ClipPlaybackTracker");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker::get_ReadCount
 // Il2CppName: get_ReadCount
 template<>

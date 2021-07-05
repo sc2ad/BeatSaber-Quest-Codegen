@@ -81,6 +81,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerAvatarPoseController) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerAvatarPoseController*, "", "MultiplayerAvatarPoseController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerAvatarPoseController::set_connectedPlayer
 // Il2CppName: set_connectedPlayer
 template<>

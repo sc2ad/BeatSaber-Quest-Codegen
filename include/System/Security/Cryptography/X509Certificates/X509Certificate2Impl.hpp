@@ -102,6 +102,7 @@ namespace System::Security::Cryptography::X509Certificates {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Certificate2Impl*, "System.Security.Cryptography.X509Certificates", "X509Certificate2Impl");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Certificate2Impl::get_Extensions
 // Il2CppName: get_Extensions
 template<>

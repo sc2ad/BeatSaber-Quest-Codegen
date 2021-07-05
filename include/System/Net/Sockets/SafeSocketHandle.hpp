@@ -106,6 +106,7 @@ namespace System::Net::Sockets {
   static_assert(sizeof(SafeSocketHandle) == 0x31);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SafeSocketHandle*, "System.Net.Sockets", "SafeSocketHandle");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Sockets::SafeSocketHandle::RegisterForBlockingSyscall
 // Il2CppName: RegisterForBlockingSyscall
 template<>

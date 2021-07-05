@@ -88,6 +88,7 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(TimeControlPlayable) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeControlPlayable*, "UnityEngine.Timeline", "TimeControlPlayable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeControlPlayable::Create
 // Il2CppName: Create
 template<>

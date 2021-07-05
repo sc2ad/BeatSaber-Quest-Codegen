@@ -150,6 +150,7 @@ namespace LiteNetLib {
   static_assert(sizeof(ConnectionRequest) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::ConnectionRequest*, "LiteNetLib", "ConnectionRequest");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::get_Result
 // Il2CppName: get_Result
 template<>

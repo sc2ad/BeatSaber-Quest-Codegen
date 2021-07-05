@@ -69,6 +69,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(DisableWhenMirrorIsEnabled) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisableWhenMirrorIsEnabled*, "", "DisableWhenMirrorIsEnabled");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DisableWhenMirrorIsEnabled::get_mirror
 // Il2CppName: get_mirror
 template<>

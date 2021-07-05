@@ -85,6 +85,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(TestDeeplinkManager) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestDeeplinkManager*, "", "TestDeeplinkManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TestDeeplinkManager::add_didReceiveDeeplinkEvent
 // Il2CppName: add_didReceiveDeeplinkEvent
 template<>

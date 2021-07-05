@@ -19,3 +19,4 @@ namespace NUnit::Compatibility {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Compatibility::NUnitNullType*, "NUnit.Compatibility", "NUnitNullType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

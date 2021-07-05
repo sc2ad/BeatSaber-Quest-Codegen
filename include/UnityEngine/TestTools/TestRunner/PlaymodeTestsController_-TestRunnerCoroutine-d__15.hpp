@@ -75,6 +75,7 @@ namespace UnityEngine::TestTools::TestRunner {
   static_assert(sizeof(PlaymodeTestsController::$TestRunnerCoroutine$d__15) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$TestRunnerCoroutine$d__15*, "UnityEngine.TestTools.TestRunner", "PlaymodeTestsController/<TestRunnerCoroutine>d__15");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$TestRunnerCoroutine$d__15::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

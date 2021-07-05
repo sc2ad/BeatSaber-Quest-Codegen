@@ -34,6 +34,7 @@ namespace UnityEngine::EventSystems {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::IInitializePotentialDragHandler*, "UnityEngine.EventSystems", "IInitializePotentialDragHandler");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::IInitializePotentialDragHandler::OnInitializePotentialDrag
 // Il2CppName: OnInitializePotentialDrag
 template<>

@@ -318,6 +318,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LevelFilteringNavigationController) == 0x140);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelFilteringNavigationController*, "", "LevelFilteringNavigationController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelFilteringNavigationController::add_didSelectAnnotatedBeatmapLevelCollectionEvent
 // Il2CppName: add_didSelectAnnotatedBeatmapLevelCollectionEvent
 template<>

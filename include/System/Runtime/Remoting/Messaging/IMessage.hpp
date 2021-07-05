@@ -29,6 +29,7 @@ namespace System::Runtime::Remoting::Messaging {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::IMessage*, "System.Runtime.Remoting.Messaging", "IMessage");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::IMessage::get_Properties
 // Il2CppName: get_Properties
 template<>

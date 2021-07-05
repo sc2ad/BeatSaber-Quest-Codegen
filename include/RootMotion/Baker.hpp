@@ -271,6 +271,7 @@ namespace RootMotion {
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Baker*, "RootMotion", "Baker");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Baker::Mode, "RootMotion", "Baker/Mode");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::Baker::OpenUserManual
 // Il2CppName: OpenUserManual
 template<>

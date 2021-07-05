@@ -55,6 +55,7 @@ namespace System::ComponentModel::Design::Serialization {
   static_assert(sizeof(RootDesignerSerializerAttribute) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute*, "System.ComponentModel.Design.Serialization", "RootDesignerSerializerAttribute");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -55,6 +55,7 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::TypeNames::ATypeName*, "System", "TypeNames/ATypeName");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::TypeNames::ATypeName::get_DisplayName
 // Il2CppName: get_DisplayName
 template<>

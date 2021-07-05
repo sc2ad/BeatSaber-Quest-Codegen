@@ -121,6 +121,7 @@ namespace ModestTree::Util {
   static_assert(sizeof(UnityUtil::$GetParentsAndSelf$d__17) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::Util::UnityUtil::$GetParentsAndSelf$d__17*, "ModestTree.Util", "UnityUtil/<GetParentsAndSelf>d__17");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::$GetParentsAndSelf$d__17::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -109,6 +109,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SetSaberGlowColor) == 0x44);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetSaberGlowColor*, "", "SetSaberGlowColor");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SetSaberGlowColor::set_saberType
 // Il2CppName: set_saberType
 template<>

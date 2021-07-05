@@ -89,6 +89,7 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(Changelog) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Changelog*, "UnityEngine.ProBuilder", "Changelog");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Changelog::get_entries
 // Il2CppName: get_entries
 template<>

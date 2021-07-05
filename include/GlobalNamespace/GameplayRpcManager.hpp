@@ -455,6 +455,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayRpcManager*, "", "GameplayRpcManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayRpcManager::RpcType, "", "GameplayRpcManager/RpcType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayRpcManager::get_enabled
 // Il2CppName: get_enabled
 template<>

@@ -110,6 +110,7 @@ namespace UnityEngine::UI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutUtility::$$c*, "UnityEngine.UI", "LayoutUtility/<>c");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutUtility::$$c::_cctor
 // Il2CppName: .cctor
 template<>

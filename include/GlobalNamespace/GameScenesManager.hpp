@@ -268,6 +268,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameScenesManager) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameScenesManager*, "", "GameScenesManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameScenesManager::add_transitionDidStartEvent
 // Il2CppName: add_transitionDidStartEvent
 template<>

@@ -84,6 +84,7 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(SignalReceiver::EventKeyValue) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SignalReceiver::EventKeyValue*, "UnityEngine.Timeline", "SignalReceiver/EventKeyValue");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::EventKeyValue::TryGetValue
 // Il2CppName: TryGetValue
 template<>

@@ -65,6 +65,7 @@ namespace Zenject::Internal {
   static_assert(sizeof(SingletonMarkRegistry) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::SingletonMarkRegistry*, "Zenject.Internal", "SingletonMarkRegistry");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::Internal::SingletonMarkRegistry::MarkNonSingleton
 // Il2CppName: MarkNonSingleton
 template<>

@@ -183,6 +183,7 @@ namespace System::Net {
   static_assert(sizeof(HttpListenerRequestUriBuilder) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListenerRequestUriBuilder*, "System.Net", "HttpListenerRequestUriBuilder");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::HttpListenerRequestUriBuilder::_cctor
 // Il2CppName: .cctor
 template<>

@@ -48,6 +48,7 @@ namespace NUnit::Framework::Constraints {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::PathConstraint*, "NUnit.Framework.Constraints", "PathConstraint");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::PathConstraint::Canonicalize
 // Il2CppName: Canonicalize
 template<>

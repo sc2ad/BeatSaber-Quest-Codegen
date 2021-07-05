@@ -56,6 +56,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0*, "", "PlayersSpecificSettingsAtGameStartModel/<>c__DisplayClass13_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0::$SaveFromNetSerializable$b__0
 // Il2CppName: <SaveFromNetSerializable>b__0
 template<>

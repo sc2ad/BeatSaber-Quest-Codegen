@@ -53,6 +53,7 @@ namespace Mono::Net {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFArray*, "Mono.Net", "CFArray");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::CFArray::_cctor
 // Il2CppName: .cctor
 template<>

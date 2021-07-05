@@ -56,6 +56,7 @@ namespace LiteNetLib {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::EventBasedNetListener::OnConnectionRequest*, "LiteNetLib", "EventBasedNetListener/OnConnectionRequest");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::EventBasedNetListener::OnConnectionRequest::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

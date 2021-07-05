@@ -214,6 +214,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PyramidBloomMainEffectSO) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PyramidBloomMainEffectSO*, "", "PyramidBloomMainEffectSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PyramidBloomMainEffectSO::OnDisable
 // Il2CppName: OnDisable
 template<>

@@ -96,3 +96,4 @@ namespace Zenject {
   // Could not write size check! Type: Zenject.FactoryFromBinder0Extensions/<>c__3`1 is generic, or has no fields that are valid for size checks!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::FactoryFromBinder0Extensions::$$c__3_1, "Zenject", "FactoryFromBinder0Extensions/<>c__3`1");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -77,6 +77,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0*, "", "BeatmapLevelDataLoaderSO/<>c__DisplayClass6_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0::$LoadBeatmalLevelDataAsync$b__0
 // Il2CppName: <LoadBeatmalLevelDataAsync>b__0
 template<>

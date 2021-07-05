@@ -59,6 +59,7 @@ namespace NUnit::Framework::Internal {
   static_assert(sizeof(TestNameGenerator::ArgumentFragment) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestNameGenerator::ArgumentFragment*, "NUnit.Framework.Internal", "TestNameGenerator/ArgumentFragment");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestNameGenerator::ArgumentFragment::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

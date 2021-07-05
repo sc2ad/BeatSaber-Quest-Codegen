@@ -47,6 +47,7 @@ namespace UnityEngine {
   static_assert(sizeof(BootConfigData) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::BootConfigData*, "UnityEngine", "BootConfigData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::BootConfigData::WrapBootConfigData
 // Il2CppName: WrapBootConfigData
 template<>

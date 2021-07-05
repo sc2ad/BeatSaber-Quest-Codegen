@@ -70,6 +70,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(CreditsData::RootCreditsItem) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsData::RootCreditsItem*, "", "CreditsData/RootCreditsItem");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CreditsData::RootCreditsItem::HasTitle
 // Il2CppName: HasTitle
 template<>

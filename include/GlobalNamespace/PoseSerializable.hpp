@@ -113,6 +113,7 @@ namespace GlobalNamespace {
   GlobalNamespace::PoseSerializable operator-(const GlobalNamespace::PoseSerializable& a, const GlobalNamespace::PoseSerializable& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PoseSerializable, "", "PoseSerializable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PoseSerializable::PoseSerializable
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -196,6 +196,7 @@ namespace LiteNetLib {
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::ReliableChannel*, "LiteNetLib", "ReliableChannel");
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::ReliableChannel::PendingPacket, "LiteNetLib", "ReliableChannel/PendingPacket");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::ReliableChannel::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

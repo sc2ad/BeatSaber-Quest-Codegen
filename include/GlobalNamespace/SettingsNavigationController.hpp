@@ -155,6 +155,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsNavigationController*, "", "SettingsNavigationController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsNavigationController::FinishAction, "", "SettingsNavigationController/FinishAction");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SettingsNavigationController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

@@ -75,6 +75,7 @@ namespace System::Runtime::Remoting {
   static_assert(sizeof(WellKnownServiceTypeEntry) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::WellKnownServiceTypeEntry*, "System.Runtime.Remoting", "WellKnownServiceTypeEntry");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::WellKnownServiceTypeEntry::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

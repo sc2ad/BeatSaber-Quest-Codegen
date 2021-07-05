@@ -63,6 +63,7 @@ namespace System::Runtime::Serialization {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::FormatterConverter*, "System.Runtime.Serialization", "FormatterConverter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::FormatterConverter::Convert
 // Il2CppName: Convert
 template<>

@@ -120,6 +120,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LightRotationEventEffect) == 0x54);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightRotationEventEffect*, "", "LightRotationEventEffect");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightRotationEventEffect::Start
 // Il2CppName: Start
 template<>

@@ -138,6 +138,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset*, "", "MirrorRendererGraphicsSettingsPresets/Preset");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset::MirrorType, "", "MirrorRendererGraphicsSettingsPresets/Preset/MirrorType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MirrorRendererGraphicsSettingsPresets::Preset::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -134,6 +134,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(TrackLaneRing) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRing*, "", "TrackLaneRing");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TrackLaneRing::get_destRotZ
 // Il2CppName: get_destRotZ
 template<>

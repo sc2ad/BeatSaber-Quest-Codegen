@@ -53,6 +53,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Events::Event*, "", "SteamVR_Events/Event");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Events::Event::Listen
 // Il2CppName: Listen
 template<>

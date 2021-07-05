@@ -44,6 +44,7 @@ namespace MasterServer {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::IMasterServerMultipartMessage*, "MasterServer", "IMasterServerMultipartMessage");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::IMasterServerMultipartMessage::get_multipartMessageId
 // Il2CppName: get_multipartMessageId
 template<>

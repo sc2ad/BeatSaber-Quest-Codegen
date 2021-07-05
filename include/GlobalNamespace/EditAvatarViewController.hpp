@@ -563,6 +563,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarViewController*, "", "EditAvatarViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarViewController::AvatarEditPart, "", "EditAvatarViewController/AvatarEditPart");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

@@ -70,6 +70,7 @@ namespace System::Text {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::EncodingHelper*, "System.Text", "EncodingHelper");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::EncodingHelper::get_UTF8Unmarked
 // Il2CppName: get_UTF8Unmarked
 template<>

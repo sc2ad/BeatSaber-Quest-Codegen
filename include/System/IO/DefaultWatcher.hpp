@@ -106,6 +106,7 @@ namespace System::IO {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::DefaultWatcher*, "System.IO", "DefaultWatcher");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::DefaultWatcher::GetInstance
 // Il2CppName: GetInstance
 template<>

@@ -390,6 +390,7 @@ namespace UnityEngine::EventSystems {
   static_assert(sizeof(OVRInputModule) == 0xE8);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::OVRInputModule*, "UnityEngine.EventSystems", "OVRInputModule");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRInputModule::get_inputMode
 // Il2CppName: get_inputMode
 template<>

@@ -109,6 +109,7 @@ namespace OnlineServices::API {
   static_assert(sizeof(HTTPApiLeaderboardsModel) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPApiLeaderboardsModel*, "OnlineServices.API", "HTTPApiLeaderboardsModel");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OnlineServices::API::HTTPApiLeaderboardsModel::LogoutAsync
 // Il2CppName: LogoutAsync
 template<>

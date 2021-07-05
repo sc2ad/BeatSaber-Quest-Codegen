@@ -60,6 +60,7 @@ namespace UnityEngine {
   static_assert(sizeof(Animation::Enumerator) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animation::Enumerator*, "UnityEngine", "Animation/Enumerator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Animation::Enumerator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

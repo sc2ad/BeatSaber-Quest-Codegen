@@ -117,6 +117,7 @@ namespace HMUI {
   static_assert(sizeof(HoverTextController) == 0x2E);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverTextController*, "HMUI", "HoverTextController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::HoverTextController::Awake
 // Il2CppName: Awake
 template<>

@@ -130,6 +130,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
   static_assert(sizeof(SecP160R2Curve) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Sec::SecP160R2Curve*, "Org.BouncyCastle.Math.EC.Custom.Sec", "SecP160R2Curve");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Sec::SecP160R2Curve::_cctor
 // Il2CppName: .cctor
 template<>

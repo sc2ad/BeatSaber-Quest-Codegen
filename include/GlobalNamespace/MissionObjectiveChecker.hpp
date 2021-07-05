@@ -201,6 +201,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveChecker*, "", "MissionObjectiveChecker");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveChecker::Status, "", "MissionObjectiveChecker/Status");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveChecker::add_statusDidChangeEvent
 // Il2CppName: add_statusDidChangeEvent
 template<>

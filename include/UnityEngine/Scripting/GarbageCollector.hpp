@@ -89,6 +89,7 @@ namespace UnityEngine::Scripting {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::GarbageCollector*, "UnityEngine.Scripting", "GarbageCollector");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::GarbageCollector::Mode, "UnityEngine.Scripting", "GarbageCollector/Mode");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Scripting::GarbageCollector::set_GCMode
 // Il2CppName: set_GCMode
 template<>

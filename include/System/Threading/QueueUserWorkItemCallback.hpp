@@ -86,6 +86,7 @@ namespace System::Threading {
   static_assert(sizeof(QueueUserWorkItemCallback) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::QueueUserWorkItemCallback*, "System.Threading", "QueueUserWorkItemCallback");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::QueueUserWorkItemCallback::_cctor
 // Il2CppName: .cctor
 template<>

@@ -157,6 +157,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerConnectedPlayerFacade) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerFacade*, "", "MultiplayerConnectedPlayerFacade");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerFacade::get_introAnimator
 // Il2CppName: get_introAnimator
 template<>

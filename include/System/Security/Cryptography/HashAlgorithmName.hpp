@@ -78,6 +78,7 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(HashAlgorithmName) == 0x8);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HashAlgorithmName, "System.Security.Cryptography", "HashAlgorithmName");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::HashAlgorithmName::get_SHA256
 // Il2CppName: get_SHA256
 template<>

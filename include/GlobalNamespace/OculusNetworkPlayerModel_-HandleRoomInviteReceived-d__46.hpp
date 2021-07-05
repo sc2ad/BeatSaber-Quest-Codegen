@@ -92,6 +92,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusNetworkPlayerModel::$HandleRoomInviteReceived$d__46, "", "OculusNetworkPlayerModel/<HandleRoomInviteReceived>d__46");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusNetworkPlayerModel::$HandleRoomInviteReceived$d__46::MoveNext
 // Il2CppName: MoveNext
 template<>

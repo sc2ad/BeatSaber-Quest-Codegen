@@ -143,6 +143,7 @@ namespace RootMotion {
   static_assert(sizeof(GenericBaker) == 0xAC);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::GenericBaker*, "RootMotion", "GenericBaker");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::GenericBaker::Awake
 // Il2CppName: Awake
 template<>

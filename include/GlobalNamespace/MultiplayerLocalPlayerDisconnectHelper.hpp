@@ -88,6 +88,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLocalPlayerDisconnectHelper) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*, "", "MultiplayerLocalPlayerDisconnectHelper");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::Disconnect
 // Il2CppName: Disconnect
 template<>

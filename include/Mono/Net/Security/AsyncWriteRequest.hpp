@@ -47,6 +47,7 @@ namespace Mono::Net::Security {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncWriteRequest*, "Mono.Net.Security", "AsyncWriteRequest");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::AsyncWriteRequest::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

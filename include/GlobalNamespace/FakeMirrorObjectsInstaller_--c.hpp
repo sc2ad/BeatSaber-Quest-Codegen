@@ -58,6 +58,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FakeMirrorObjectsInstaller::$$c*, "", "FakeMirrorObjectsInstaller/<>c");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FakeMirrorObjectsInstaller::$$c::_cctor
 // Il2CppName: .cctor
 template<>

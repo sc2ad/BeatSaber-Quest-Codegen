@@ -53,6 +53,7 @@ namespace RootMotion {
   static_assert(sizeof(BipedLimbOrientations::LimbOrientation) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedLimbOrientations::LimbOrientation*, "RootMotion", "BipedLimbOrientations/LimbOrientation");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::BipedLimbOrientations::LimbOrientation::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

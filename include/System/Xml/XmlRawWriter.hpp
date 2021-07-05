@@ -177,6 +177,7 @@ namespace System::Xml {
   static_assert(sizeof(XmlRawWriter) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlRawWriter*, "System.Xml", "XmlRawWriter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlRawWriter::set_NamespaceResolver
 // Il2CppName: set_NamespaceResolver
 template<>

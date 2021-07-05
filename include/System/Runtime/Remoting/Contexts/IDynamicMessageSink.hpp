@@ -32,6 +32,7 @@ namespace System::Runtime::Remoting::Contexts {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IDynamicMessageSink*, "System.Runtime.Remoting.Contexts", "IDynamicMessageSink");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::IDynamicMessageSink::ProcessMessageFinish
 // Il2CppName: ProcessMessageFinish
 template<>

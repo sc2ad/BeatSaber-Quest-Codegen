@@ -70,6 +70,7 @@ namespace HMUI {
   static_assert(sizeof(ViewControllerTransitionHelpers::$$c__DisplayClass6_0) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewControllerTransitionHelpers::$$c__DisplayClass6_0*, "HMUI", "ViewControllerTransitionHelpers/<>c__DisplayClass6_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ViewControllerTransitionHelpers::$$c__DisplayClass6_0::$DoVerticalTransition$b__0
 // Il2CppName: <DoVerticalTransition>b__0
 template<>

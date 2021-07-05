@@ -229,6 +229,7 @@ namespace LiteNetLib::Utils {
   static_assert(sizeof(NetDataWriter) == 0x1D);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetDataWriter*, "LiteNetLib.Utils", "NetDataWriter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::get_Capacity
 // Il2CppName: get_Capacity
 template<>

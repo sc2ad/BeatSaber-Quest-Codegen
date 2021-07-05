@@ -79,6 +79,7 @@ namespace NUnit::Framework::Internal {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestFilter*, "NUnit.Framework.Internal", "TestFilter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestFilter::Pass
 // Il2CppName: Pass
 template<>

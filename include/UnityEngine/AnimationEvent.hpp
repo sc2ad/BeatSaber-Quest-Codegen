@@ -118,6 +118,7 @@ namespace UnityEngine {
   static_assert(sizeof(AnimationEvent) == 0x74);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimationEvent*, "UnityEngine", "AnimationEvent");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AnimationEvent::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

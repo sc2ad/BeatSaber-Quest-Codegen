@@ -65,6 +65,7 @@ namespace UnityEngine {
   static_assert(sizeof(ParticleSystem::ShapeModule) == 0x8);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::ShapeModule, "UnityEngine", "ParticleSystem/ShapeModule");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::ShapeModule::ShapeModule
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

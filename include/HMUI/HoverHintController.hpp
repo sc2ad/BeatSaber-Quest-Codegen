@@ -121,6 +121,7 @@ namespace HMUI {
   static_assert(sizeof(HoverHintController) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverHintController*, "HMUI", "HoverHintController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::HoverHintController::Awake
 // Il2CppName: Awake
 template<>

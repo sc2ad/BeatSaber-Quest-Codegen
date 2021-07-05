@@ -57,6 +57,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SetActiveRT) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetActiveRT*, "", "SetActiveRT");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SetActiveRT::OnPreRender
 // Il2CppName: OnPreRender
 template<>

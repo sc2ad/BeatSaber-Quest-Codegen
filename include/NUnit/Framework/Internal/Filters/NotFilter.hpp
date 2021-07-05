@@ -80,6 +80,7 @@ namespace NUnit::Framework::Internal::Filters {
   static_assert(sizeof(NotFilter) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Filters::NotFilter*, "NUnit.Framework.Internal.Filters", "NotFilter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Filters::NotFilter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -51,6 +51,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(UIKeyboard::$$c__DisplayClass21_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UIKeyboard::$$c__DisplayClass21_0*, "", "UIKeyboard/<>c__DisplayClass21_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::UIKeyboard::$$c__DisplayClass21_0::$Awake$b__4
 // Il2CppName: <Awake>b__4
 template<>

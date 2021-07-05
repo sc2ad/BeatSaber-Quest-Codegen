@@ -102,6 +102,7 @@ namespace Zenject {
   static_assert(sizeof(PrefabResourceBindingFinalizer) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PrefabResourceBindingFinalizer*, "Zenject", "PrefabResourceBindingFinalizer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::PrefabResourceBindingFinalizer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

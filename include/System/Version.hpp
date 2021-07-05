@@ -211,6 +211,7 @@ namespace System {
   bool operator >=(System::Version* v1, System::Version& v2);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Version*, "System", "Version");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Version::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

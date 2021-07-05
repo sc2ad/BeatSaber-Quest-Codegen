@@ -154,6 +154,7 @@ namespace Mono::Security::X509 {
   static_assert(sizeof(X509Crl) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Crl*, "Mono.Security.X509", "X509Crl");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::X509::X509Crl::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

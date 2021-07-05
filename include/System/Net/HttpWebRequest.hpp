@@ -958,6 +958,7 @@ namespace System::Net {
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpWebRequest*, "System.Net", "HttpWebRequest");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpWebRequest::NtlmAuthState, "System.Net", "HttpWebRequest/NtlmAuthState");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpWebRequest::AuthorizationState, "System.Net", "HttpWebRequest/AuthorizationState");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::HttpWebRequest::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

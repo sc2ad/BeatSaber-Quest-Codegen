@@ -282,6 +282,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplaySetupViewController*, "", "GameplaySetupViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplaySetupViewController::GameplayMode, "", "GameplaySetupViewController/GameplayMode");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplaySetupViewController::add_didChangeGameplayModifiersEvent
 // Il2CppName: add_didChangeGameplayModifiersEvent
 template<>

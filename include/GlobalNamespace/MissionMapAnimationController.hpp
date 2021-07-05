@@ -150,6 +150,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionMapAnimationController) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionMapAnimationController*, "", "MissionMapAnimationController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionMapAnimationController::get_animatedUpdateIsRequired
 // Il2CppName: get_animatedUpdateIsRequired
 template<>

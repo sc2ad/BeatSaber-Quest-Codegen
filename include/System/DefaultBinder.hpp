@@ -137,6 +137,7 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::DefaultBinder*, "System", "DefaultBinder");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::DefaultBinder::ExactBinding
 // Il2CppName: ExactBinding
 template<>

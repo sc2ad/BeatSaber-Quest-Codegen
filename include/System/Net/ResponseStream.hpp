@@ -184,6 +184,7 @@ namespace System::Net {
   static_assert(sizeof(ResponseStream) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ResponseStream*, "System.Net", "ResponseStream");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::ResponseStream::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

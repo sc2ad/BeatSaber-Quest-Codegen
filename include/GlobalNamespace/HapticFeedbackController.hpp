@@ -114,6 +114,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(HapticFeedbackController) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HapticFeedbackController*, "", "HapticFeedbackController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HapticFeedbackController::get_continuousRumblePreset
 // Il2CppName: get_continuousRumblePreset
 template<>

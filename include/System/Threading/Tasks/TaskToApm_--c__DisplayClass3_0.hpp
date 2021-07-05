@@ -60,6 +60,7 @@ namespace System::Threading::Tasks {
   static_assert(sizeof(TaskToApm::$$c__DisplayClass3_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskToApm::$$c__DisplayClass3_0*, "System.Threading.Tasks", "TaskToApm/<>c__DisplayClass3_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskToApm::$$c__DisplayClass3_0::$InvokeCallbackWhenTaskCompletes$b__0
 // Il2CppName: <InvokeCallbackWhenTaskCompletes>b__0
 template<>

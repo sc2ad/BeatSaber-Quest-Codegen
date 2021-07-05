@@ -58,6 +58,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(HeadBodyOffsetSO) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HeadBodyOffsetSO*, "", "HeadBodyOffsetSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HeadBodyOffsetSO::get_headNeckOffset
 // Il2CppName: get_headNeckOffset
 template<>

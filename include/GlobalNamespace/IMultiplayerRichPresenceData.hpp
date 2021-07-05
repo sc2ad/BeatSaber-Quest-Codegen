@@ -36,6 +36,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMultiplayerRichPresenceData*, "", "IMultiplayerRichPresenceData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IMultiplayerRichPresenceData::get_multiplayerLobbyCode
 // Il2CppName: get_multiplayerLobbyCode
 template<>

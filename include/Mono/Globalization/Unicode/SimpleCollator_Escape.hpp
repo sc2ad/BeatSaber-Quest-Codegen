@@ -60,3 +60,4 @@ namespace Mono::Globalization::Unicode {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator::Escape, "Mono.Globalization.Unicode", "SimpleCollator/Escape");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -575,6 +575,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput*, "", "OVRInput");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::Controller, "", "OVRInput/Controller");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OpenVRController, "", "OVRInput/OpenVRController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OpenVRControllerDetails, "", "OVRInput/OpenVRControllerDetails");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::get_pluginSupportsActiveController
 // Il2CppName: get_pluginSupportsActiveController
 template<>

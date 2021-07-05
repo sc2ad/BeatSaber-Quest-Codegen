@@ -206,6 +206,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsModel*, "", "PlatformLeaderboardsModel");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardsModel::State, "", "PlatformLeaderboardsModel/State");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardsModel::add_allScoresDidUploadEvent
 // Il2CppName: add_allScoresDidUploadEvent
 template<>

@@ -98,6 +98,7 @@ namespace UnityEngine::ProBuilder {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Smoothing*, "UnityEngine.ProBuilder", "Smoothing");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Smoothing::GetUnusedSmoothingGroup
 // Il2CppName: GetUnusedSmoothingGroup
 template<>

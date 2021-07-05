@@ -55,6 +55,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PosePrediction*, "", "PosePrediction");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PosePrediction::PredictPose
 // Il2CppName: PredictPose
 template<>

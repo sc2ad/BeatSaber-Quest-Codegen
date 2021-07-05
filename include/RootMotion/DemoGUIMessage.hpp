@@ -58,6 +58,7 @@ namespace RootMotion {
   static_assert(sizeof(DemoGUIMessage) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::DemoGUIMessage*, "RootMotion", "DemoGUIMessage");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::DemoGUIMessage::OnGUI
 // Il2CppName: OnGUI
 template<>

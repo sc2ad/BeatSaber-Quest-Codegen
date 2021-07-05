@@ -45,6 +45,7 @@ namespace Oculus::Platform::Models {
   static_assert(sizeof(AssetFileDownloadResult) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AssetFileDownloadResult*, "Oculus.Platform.Models", "AssetFileDownloadResult");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::AssetFileDownloadResult::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

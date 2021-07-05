@@ -29,6 +29,7 @@ namespace UnityEngine::Rendering {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::CameraEventUtils*, "UnityEngine.Rendering", "CameraEventUtils");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::CameraEventUtils::IsValid
 // Il2CppName: IsValid
 template<>

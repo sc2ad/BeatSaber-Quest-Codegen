@@ -60,6 +60,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static_assert(sizeof(Bevel::$$c__DisplayClass0_2) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_2*, "UnityEngine.ProBuilder.MeshOperations", "Bevel/<>c__DisplayClass0_2");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_2::$BevelEdges$b__5
 // Il2CppName: <BevelEdges>b__5
 template<>

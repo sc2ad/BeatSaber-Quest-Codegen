@@ -69,6 +69,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ObjectiveListItem) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObjectiveListItem*, "", "ObjectiveListItem");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ObjectiveListItem::set_title
 // Il2CppName: set_title
 template<>

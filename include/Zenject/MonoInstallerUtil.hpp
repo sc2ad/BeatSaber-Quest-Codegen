@@ -51,6 +51,7 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MonoInstallerUtil*, "Zenject", "MonoInstallerUtil");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::MonoInstallerUtil::GetDefaultResourcePath
 // Il2CppName: GetDefaultResourcePath
 // Cannot write MetadataGetter for generic methods!

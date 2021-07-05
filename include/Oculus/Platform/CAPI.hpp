@@ -3495,6 +3495,7 @@ namespace Oculus::Platform {
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI*, "Oculus.Platform", "CAPI");
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::ovrKeyValuePair, "Oculus.Platform", "CAPI/ovrKeyValuePair");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::ArrayOfStructsToIntPtr
 // Il2CppName: ArrayOfStructsToIntPtr
 template<>

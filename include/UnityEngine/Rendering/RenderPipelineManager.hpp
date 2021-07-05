@@ -105,6 +105,7 @@ namespace UnityEngine::Rendering {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::RenderPipelineManager*, "UnityEngine.Rendering", "RenderPipelineManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::RenderPipelineManager::get_currentPipeline
 // Il2CppName: get_currentPipeline
 template<>

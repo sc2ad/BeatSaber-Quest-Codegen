@@ -950,6 +950,7 @@ namespace System {
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Uri*, "System", "Uri");
 DEFINE_IL2CPP_ARG_TYPE(System::Uri::Flags, "System", "Uri/Flags");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Uri::get_IsImplicitFile
 // Il2CppName: get_IsImplicitFile
 template<>

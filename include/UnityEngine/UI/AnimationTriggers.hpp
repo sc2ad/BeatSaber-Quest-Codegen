@@ -135,6 +135,7 @@ namespace UnityEngine::UI {
   static_assert(sizeof(AnimationTriggers) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::AnimationTriggers*, "UnityEngine.UI", "AnimationTriggers");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::AnimationTriggers::get_normalTrigger
 // Il2CppName: get_normalTrigger
 template<>

@@ -54,6 +54,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
   static_assert(sizeof(RemoteTestResultDataWithTestData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData*, "UnityEngine.TestRunner.TestLaunchers", "RemoteTestResultDataWithTestData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

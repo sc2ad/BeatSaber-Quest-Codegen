@@ -91,6 +91,7 @@ namespace HMUI {
   static_assert(sizeof(StackLayoutGroup) == 0x5A);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::StackLayoutGroup*, "HMUI", "StackLayoutGroup");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::StackLayoutGroup::get_childForceExpandWidth
 // Il2CppName: get_childForceExpandWidth
 template<>

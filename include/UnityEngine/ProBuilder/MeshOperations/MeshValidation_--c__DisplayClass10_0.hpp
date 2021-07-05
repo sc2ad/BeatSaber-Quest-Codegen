@@ -58,6 +58,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static_assert(sizeof(MeshValidation::$$c__DisplayClass10_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c__DisplayClass10_0*, "UnityEngine.ProBuilder.MeshOperations", "MeshValidation/<>c__DisplayClass10_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::MeshValidation::$$c__DisplayClass10_0::$RebuildSelectionIndexes$b__0
 // Il2CppName: <RebuildSelectionIndexes>b__0
 template<>

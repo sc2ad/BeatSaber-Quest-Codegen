@@ -72,3 +72,4 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataLoader::$$c__DisplayClass2_0, "", "BeatmapDataLoader/<>c__DisplayClass2_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

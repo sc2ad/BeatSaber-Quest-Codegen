@@ -56,6 +56,7 @@ namespace VRUIControls {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRGraphicRaycaster::$$c*, "VRUIControls", "VRGraphicRaycaster/<>c");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: VRUIControls::VRGraphicRaycaster::$$c::_cctor
 // Il2CppName: .cctor
 template<>

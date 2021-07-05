@@ -51,6 +51,7 @@ namespace Oculus::Platform::Models {
   static_assert(sizeof(Destination) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Destination*, "Oculus.Platform.Models", "Destination");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::Destination::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

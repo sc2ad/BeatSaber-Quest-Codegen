@@ -133,6 +133,7 @@ namespace UnityEngine::XR {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRNodeState, "UnityEngine.XR", "XRNodeState");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::XR::XRNodeState::set_uniqueID
 // Il2CppName: set_uniqueID
 template<>

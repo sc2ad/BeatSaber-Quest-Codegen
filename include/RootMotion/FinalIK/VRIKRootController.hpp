@@ -108,6 +108,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(VRIKRootController) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKRootController*, "RootMotion.FinalIK", "VRIKRootController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::VRIKRootController::get_pelvisTargetRight
 // Il2CppName: get_pelvisTargetRight
 template<>

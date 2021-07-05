@@ -58,6 +58,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static_assert(sizeof(TypeInformation) == 0x21);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::TypeInformation*, "System.Runtime.Serialization.Formatters.Binary", "TypeInformation");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::TypeInformation::get_FullTypeName
 // Il2CppName: get_FullTypeName
 template<>

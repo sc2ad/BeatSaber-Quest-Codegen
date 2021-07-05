@@ -221,6 +221,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PracticeViewController) == 0xD4);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PracticeViewController*, "", "PracticeViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PracticeViewController::add_didPressPlayButtonEvent
 // Il2CppName: add_didPressPlayButtonEvent
 template<>

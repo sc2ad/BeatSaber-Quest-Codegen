@@ -50,6 +50,7 @@ namespace Oculus::Platform {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AndroidPlatform*, "Oculus.Platform", "AndroidPlatform");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::AndroidPlatform::Initialize
 // Il2CppName: Initialize
 template<>

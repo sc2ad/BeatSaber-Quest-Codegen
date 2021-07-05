@@ -82,6 +82,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   static_assert(sizeof(RsaKeyParameters) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "RsaKeyParameters");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters::Validate
 // Il2CppName: Validate
 template<>

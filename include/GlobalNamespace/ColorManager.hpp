@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ColorManager) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorManager*, "", "ColorManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorManager::get_obstaclesColor
 // Il2CppName: get_obstaclesColor
 template<>

@@ -73,6 +73,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(HeadObstacleLowPassAudioEffect) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HeadObstacleLowPassAudioEffect*, "", "HeadObstacleLowPassAudioEffect");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HeadObstacleLowPassAudioEffect::Update
 // Il2CppName: Update
 template<>

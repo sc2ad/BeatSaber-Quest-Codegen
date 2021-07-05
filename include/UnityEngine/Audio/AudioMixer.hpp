@@ -41,6 +41,7 @@ namespace UnityEngine::Audio {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioMixer*, "UnityEngine.Audio", "AudioMixer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Audio::AudioMixer::set_updateMode
 // Il2CppName: set_updateMode
 template<>

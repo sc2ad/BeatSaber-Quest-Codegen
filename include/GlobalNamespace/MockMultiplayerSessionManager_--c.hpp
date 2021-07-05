@@ -61,6 +61,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockMultiplayerSessionManager::$$c*, "", "MockMultiplayerSessionManager/<>c");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockMultiplayerSessionManager::$$c::_cctor
 // Il2CppName: .cctor
 template<>

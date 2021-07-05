@@ -169,6 +169,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   static_assert(sizeof(Cast5Engine) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::Cast5Engine*, "Org.BouncyCastle.Crypto.Engines", "Cast5Engine");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::Cast5Engine::Init
 // Il2CppName: Init
 template<>

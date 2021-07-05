@@ -112,6 +112,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(GrounderVRIK) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderVRIK*, "RootMotion.FinalIK", "GrounderVRIK");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::GrounderVRIK::OpenTutorial
 // Il2CppName: OpenTutorial
 template<>

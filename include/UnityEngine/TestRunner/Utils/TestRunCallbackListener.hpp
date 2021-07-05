@@ -96,6 +96,7 @@ namespace UnityEngine::TestRunner::Utils {
   static_assert(sizeof(TestRunCallbackListener) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::Utils::TestRunCallbackListener*, "UnityEngine.TestRunner.Utils", "TestRunCallbackListener");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::Utils::TestRunCallbackListener::RunStarted
 // Il2CppName: RunStarted
 template<>

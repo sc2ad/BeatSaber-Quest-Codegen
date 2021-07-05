@@ -55,6 +55,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(HostGameServerLobbyFlowCoordinator::$$c__DisplayClass23_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c__DisplayClass23_0*, "", "HostGameServerLobbyFlowCoordinator/<>c__DisplayClass23_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c__DisplayClass23_0::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

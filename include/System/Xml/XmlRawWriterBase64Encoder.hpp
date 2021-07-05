@@ -55,6 +55,7 @@ namespace System::Xml {
   static_assert(sizeof(XmlRawWriterBase64Encoder) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlRawWriterBase64Encoder*, "System.Xml", "XmlRawWriterBase64Encoder");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlRawWriterBase64Encoder::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

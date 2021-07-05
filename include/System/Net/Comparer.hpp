@@ -40,6 +40,7 @@ namespace System::Net {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Comparer*, "System.Net", "Comparer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Comparer::System_Collections_IComparer_Compare
 // Il2CppName: System.Collections.IComparer.Compare
 template<>

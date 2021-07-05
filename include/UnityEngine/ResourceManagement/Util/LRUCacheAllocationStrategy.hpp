@@ -97,6 +97,7 @@ namespace UnityEngine::ResourceManagement::Util {
   static_assert(sizeof(LRUCacheAllocationStrategy) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy*, "UnityEngine.ResourceManagement.Util", "LRUCacheAllocationStrategy");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

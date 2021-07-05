@@ -51,6 +51,7 @@ namespace HMUI {
   static_assert(sizeof(ModalView::$$c__DisplayClass21_0) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ModalView::$$c__DisplayClass21_0*, "HMUI", "ModalView/<>c__DisplayClass21_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ModalView::$$c__DisplayClass21_0::$HandleParentViewControllerDidDeactivate$b__0
 // Il2CppName: <HandleParentViewControllerDidDeactivate>b__0
 template<>

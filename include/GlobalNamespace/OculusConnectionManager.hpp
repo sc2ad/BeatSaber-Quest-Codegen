@@ -391,6 +391,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusConnectionManager*, "", "OculusConnectionManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusConnectionManager::NetworkMode, "", "OculusConnectionManager/NetworkMode");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::add_onConnectedEvent
 // Il2CppName: add_onConnectedEvent
 template<>

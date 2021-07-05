@@ -119,6 +119,7 @@ namespace Org::BouncyCastle::Crypto::Macs {
   static_assert(sizeof(CfbBlockCipherMac) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac*, "Org.BouncyCastle.Crypto.Macs", "CfbBlockCipherMac");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::CfbBlockCipherMac::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

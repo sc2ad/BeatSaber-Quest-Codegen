@@ -237,6 +237,7 @@ namespace System::Net::Sockets {
   static_assert(sizeof(SocketAsyncResult) == 0xA4);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketAsyncResult*, "System.Net.Sockets", "SocketAsyncResult");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Sockets::SocketAsyncResult::get_Handle
 // Il2CppName: get_Handle
 template<>

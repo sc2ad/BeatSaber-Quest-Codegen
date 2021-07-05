@@ -56,6 +56,7 @@ namespace HMUI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SetPropertyUtility*, "HMUI", "SetPropertyUtility");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::SetPropertyUtility::SetColor
 // Il2CppName: SetColor
 template<>

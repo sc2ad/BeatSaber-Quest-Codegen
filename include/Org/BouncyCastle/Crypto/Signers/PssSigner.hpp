@@ -193,6 +193,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
   static_assert(sizeof(PssSigner) == 0x69);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::PssSigner*, "Org.BouncyCastle.Crypto.Signers", "PssSigner");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::PssSigner::CreateRawSigner
 // Il2CppName: CreateRawSigner
 template<>

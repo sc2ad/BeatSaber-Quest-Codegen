@@ -717,6 +717,7 @@ namespace UnityEngine::ResourceManagement {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceManager*, "UnityEngine.ResourceManagement", "ResourceManager");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType, "UnityEngine.ResourceManagement", "ResourceManager/DiagnosticEventType");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventContext, "UnityEngine.ResourceManagement", "ResourceManager/DiagnosticEventContext");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceManager::get_ExceptionHandler
 // Il2CppName: get_ExceptionHandler
 template<>

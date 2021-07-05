@@ -94,3 +94,4 @@ namespace UnityEngine::PlayerLoop {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::EarlyUpdate, "UnityEngine.PlayerLoop", "EarlyUpdate");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

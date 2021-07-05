@@ -98,6 +98,7 @@ namespace UnityEngine::Animations {
   static_assert(sizeof(AnimationPlayableOutput) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationPlayableOutput, "UnityEngine.Animations", "AnimationPlayableOutput");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationPlayableOutput::Create
 // Il2CppName: Create
 template<>

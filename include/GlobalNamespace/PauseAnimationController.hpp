@@ -87,6 +87,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PauseAnimationController) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseAnimationController*, "", "PauseAnimationController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PauseAnimationController::add_resumeFromPauseAnimationDidFinishEvent
 // Il2CppName: add_resumeFromPauseAnimationDidFinishEvent
 template<>

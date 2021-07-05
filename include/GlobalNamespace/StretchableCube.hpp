@@ -186,6 +186,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(StretchableCube) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StretchableCube*, "", "StretchableCube");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StretchableCube::Awake
 // Il2CppName: Awake
 template<>

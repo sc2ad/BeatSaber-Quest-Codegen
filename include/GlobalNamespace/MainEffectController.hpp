@@ -126,6 +126,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MainEffectController) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectController*, "", "MainEffectController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainEffectController::add_afterImageEffectEvent
 // Il2CppName: add_afterImageEffectEvent
 template<>

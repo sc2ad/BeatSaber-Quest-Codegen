@@ -116,6 +116,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(RGBPanelController) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RGBPanelController*, "", "RGBPanelController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RGBPanelController::add_colorDidChangeEvent
 // Il2CppName: add_colorDidChangeEvent
 template<>

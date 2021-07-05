@@ -58,6 +58,7 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(EdgeUtility::$$c__DisplayClass0_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::EdgeUtility::$$c__DisplayClass0_0*, "UnityEngine.ProBuilder", "EdgeUtility/<>c__DisplayClass0_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeUtility::$$c__DisplayClass0_0::$GetSharedVertexHandleEdges$b__0
 // Il2CppName: <GetSharedVertexHandleEdges>b__0
 template<>

@@ -155,6 +155,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(HealthWarningViewController) == 0xB8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningViewController*, "", "HealthWarningViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HealthWarningViewController::add_privacyPolicyButtonPressedEvent
 // Il2CppName: add_privacyPolicyButtonPressedEvent
 template<>

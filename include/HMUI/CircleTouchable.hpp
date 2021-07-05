@@ -90,6 +90,7 @@ namespace HMUI {
   static_assert(sizeof(CircleTouchable) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::CircleTouchable*, "HMUI", "CircleTouchable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::CircleTouchable::UpdateCachedReferences
 // Il2CppName: UpdateCachedReferences
 template<>

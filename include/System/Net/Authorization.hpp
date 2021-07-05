@@ -64,6 +64,7 @@ namespace System::Net {
   static_assert(sizeof(Authorization) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Authorization*, "System.Net", "Authorization");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Authorization::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

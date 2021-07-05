@@ -167,6 +167,7 @@ namespace System::Security {
   static_assert(sizeof(SecurityElement) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityElement*, "System.Security", "SecurityElement");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::SecurityElement::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -93,6 +93,7 @@ namespace UnityEngine::UI {
   static_assert(sizeof(BaseMeshEffect) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::BaseMeshEffect*, "UnityEngine.UI", "BaseMeshEffect");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::BaseMeshEffect::get_graphic
 // Il2CppName: get_graphic
 template<>

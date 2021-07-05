@@ -51,6 +51,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerController::$$c__DisplayClass43_0) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerController::$$c__DisplayClass43_0*, "", "MultiplayerController/<>c__DisplayClass43_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerController::$$c__DisplayClass43_0::$HandleSongStartSyncControllerSyncStartSuccess$b__0
 // Il2CppName: <HandleSongStartSyncControllerSyncStartSuccess>b__0
 template<>

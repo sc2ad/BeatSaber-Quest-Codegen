@@ -196,6 +196,7 @@ namespace System {
   static_assert(sizeof(RuntimeTypeHandle) == 0x8);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::RuntimeTypeHandle, "System", "RuntimeTypeHandle");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::RuntimeTypeHandle::RuntimeTypeHandle
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

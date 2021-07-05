@@ -55,3 +55,4 @@ namespace NUnit::Framework::Internal {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestExecutionStatus, "NUnit.Framework.Internal", "TestExecutionStatus");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

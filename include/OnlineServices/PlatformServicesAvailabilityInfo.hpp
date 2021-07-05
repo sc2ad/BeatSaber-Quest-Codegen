@@ -93,6 +93,7 @@ namespace OnlineServices {
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::PlatformServicesAvailabilityInfo*, "OnlineServices", "PlatformServicesAvailabilityInfo");
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability, "OnlineServices", "PlatformServicesAvailabilityInfo/OnlineServicesAvailability");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OnlineServices::PlatformServicesAvailabilityInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

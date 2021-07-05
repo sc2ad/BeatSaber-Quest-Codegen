@@ -118,6 +118,7 @@ namespace VRUIControls {
 }
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::PhysicsRaycasterWithCache*, "VRUIControls", "PhysicsRaycasterWithCache");
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::PhysicsRaycasterWithCache::CachedRaycast, "VRUIControls", "PhysicsRaycasterWithCache/CachedRaycast");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: VRUIControls::PhysicsRaycasterWithCache::Raycast
 // Il2CppName: Raycast
 template<>

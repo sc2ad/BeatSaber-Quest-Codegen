@@ -83,6 +83,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerSpectatingSpotPickerViewController) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSpectatingSpotPickerViewController*, "", "MultiplayerSpectatingSpotPickerViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatingSpotPickerViewController::Start
 // Il2CppName: Start
 template<>

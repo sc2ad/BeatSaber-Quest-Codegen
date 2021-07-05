@@ -75,6 +75,7 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::CryptoPro::ECGost3410NamedCurves*, "Org.BouncyCastle.Asn1.CryptoPro", "ECGost3410NamedCurves");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::CryptoPro::ECGost3410NamedCurves::ConfigureBasepoint
 // Il2CppName: ConfigureBasepoint
 template<>

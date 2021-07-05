@@ -56,6 +56,7 @@ namespace Oculus::Platform {
   static_assert(sizeof(ApplicationOptions) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::ApplicationOptions*, "Oculus.Platform", "ApplicationOptions");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::ApplicationOptions::SetDeeplinkMessage
 // Il2CppName: SetDeeplinkMessage
 template<>

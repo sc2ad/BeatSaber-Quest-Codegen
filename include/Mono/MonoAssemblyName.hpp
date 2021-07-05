@@ -142,3 +142,4 @@ namespace Mono {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::MonoAssemblyName, "Mono", "MonoAssemblyName");
 DEFINE_IL2CPP_ARG_TYPE(Mono::MonoAssemblyName::$public_key_token$e__FixedBuffer, "Mono", "MonoAssemblyName/<public_key_token>e__FixedBuffer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -68,6 +68,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OculusPlatformAdditionalContentModel::$$c__DisplayClass10_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformAdditionalContentModel::$$c__DisplayClass10_0*, "", "OculusPlatformAdditionalContentModel/<>c__DisplayClass10_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusPlatformAdditionalContentModel::$$c__DisplayClass10_0::$LaunchCheckoutFlow$b__0
 // Il2CppName: <LaunchCheckoutFlow>b__0
 template<>

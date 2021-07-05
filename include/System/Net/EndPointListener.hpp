@@ -179,6 +179,7 @@ namespace System::Net {
   static_assert(sizeof(EndPointListener) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::EndPointListener*, "System.Net", "EndPointListener");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::EndPointListener::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

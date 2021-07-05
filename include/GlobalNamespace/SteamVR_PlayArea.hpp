@@ -181,6 +181,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_PlayArea*, "", "SteamVR_PlayArea");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_PlayArea::Size, "", "SteamVR_PlayArea/Size");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_PlayArea::GetBounds
 // Il2CppName: GetBounds
 template<>

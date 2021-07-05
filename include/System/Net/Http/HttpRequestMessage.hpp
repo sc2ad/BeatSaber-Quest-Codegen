@@ -148,6 +148,7 @@ namespace System::Net::Http {
   static_assert(sizeof(HttpRequestMessage) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpRequestMessage*, "System.Net.Http", "HttpRequestMessage");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::HttpRequestMessage::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

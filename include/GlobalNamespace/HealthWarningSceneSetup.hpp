@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(HealthWarningSceneSetup) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningSceneSetup*, "", "HealthWarningSceneSetup");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HealthWarningSceneSetup::InstallBindings
 // Il2CppName: InstallBindings
 template<>

@@ -275,6 +275,7 @@ namespace System::Runtime::Remoting::Contexts {
   static_assert(sizeof(Context) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::Context*, "System.Runtime.Remoting.Contexts", "Context");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::Context::RegisterContext
 // Il2CppName: RegisterContext
 template<>

@@ -65,6 +65,7 @@ namespace RootMotion {
   static_assert(sizeof(TriggerEventBroadcaster) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::TriggerEventBroadcaster*, "RootMotion", "TriggerEventBroadcaster");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::TriggerEventBroadcaster::OnTriggerEnter
 // Il2CppName: OnTriggerEnter
 template<>

@@ -190,6 +190,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SearchFilterParamsViewController) == 0xE8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SearchFilterParamsViewController*, "", "SearchFilterParamsViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SearchFilterParamsViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

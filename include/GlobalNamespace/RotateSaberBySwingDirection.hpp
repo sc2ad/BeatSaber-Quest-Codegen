@@ -164,6 +164,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(RotateSaberBySwingDirection) == 0x74);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RotateSaberBySwingDirection*, "", "RotateSaberBySwingDirection");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RotateSaberBySwingDirection::LateUpdate
 // Il2CppName: LateUpdate
 template<>

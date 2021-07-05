@@ -157,6 +157,7 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(Bounds2D) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Bounds2D*, "UnityEngine.ProBuilder", "Bounds2D");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Bounds2D::get_size
 // Il2CppName: get_size
 template<>

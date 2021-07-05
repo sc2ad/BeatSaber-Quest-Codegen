@@ -71,6 +71,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MovementHistoryRecorder) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MovementHistoryRecorder*, "", "MovementHistoryRecorder");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MovementHistoryRecorder::get_averagingValueRecorer
 // Il2CppName: get_averagingValueRecorer
 template<>

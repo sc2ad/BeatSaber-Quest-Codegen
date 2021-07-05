@@ -217,6 +217,7 @@ namespace System::Xml {
   static_assert(sizeof(HtmlEncodedRawTextWriter) == 0xE1);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::HtmlEncodedRawTextWriter*, "System.Xml", "HtmlEncodedRawTextWriter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::HtmlEncodedRawTextWriter::Init
 // Il2CppName: Init
 template<>

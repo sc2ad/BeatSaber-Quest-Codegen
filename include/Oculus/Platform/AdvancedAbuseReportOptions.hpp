@@ -71,6 +71,7 @@ namespace Oculus::Platform {
   static_assert(sizeof(AdvancedAbuseReportOptions) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AdvancedAbuseReportOptions*, "Oculus.Platform", "AdvancedAbuseReportOptions");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::AdvancedAbuseReportOptions::SetObjectType
 // Il2CppName: SetObjectType
 template<>

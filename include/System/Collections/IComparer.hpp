@@ -25,6 +25,7 @@ namespace System::Collections {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::IComparer*, "System.Collections", "IComparer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::IComparer::Compare
 // Il2CppName: Compare
 template<>

@@ -50,6 +50,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusRichPresencePlatformHandler*, "", "OculusRichPresencePlatformHandler");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusRichPresencePlatformHandler::SetPresence
 // Il2CppName: SetPresence
 template<>

@@ -318,6 +318,7 @@ namespace System::Text::RegularExpressions {
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCharClass*, "System.Text.RegularExpressions", "RegexCharClass");
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexCharClass::LowerCaseMapping, "System.Text.RegularExpressions", "RegexCharClass/LowerCaseMapping");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexCharClass::_cctor
 // Il2CppName: .cctor
 template<>

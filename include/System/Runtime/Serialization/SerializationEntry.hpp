@@ -74,6 +74,7 @@ namespace System::Runtime::Serialization {
   static_assert(sizeof(SerializationEntry) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationEntry, "System.Runtime.Serialization", "SerializationEntry");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationEntry::get_Value
 // Il2CppName: get_Value
 template<>

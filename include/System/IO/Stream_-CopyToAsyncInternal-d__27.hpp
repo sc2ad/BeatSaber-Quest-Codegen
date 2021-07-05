@@ -107,6 +107,7 @@ namespace System::IO {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::$CopyToAsyncInternal$d__27, "System.IO", "Stream/<CopyToAsyncInternal>d__27");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::Stream::$CopyToAsyncInternal$d__27::MoveNext
 // Il2CppName: MoveNext
 template<>

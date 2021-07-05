@@ -51,6 +51,7 @@ namespace Mono::Net {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback*, "Mono.Net", "CFNetwork/CFProxyAutoConfigurationResultCallback");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

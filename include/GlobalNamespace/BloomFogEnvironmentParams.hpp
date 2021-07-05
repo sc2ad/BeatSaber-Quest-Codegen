@@ -64,6 +64,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomFogEnvironmentParams) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFogEnvironmentParams*, "", "BloomFogEnvironmentParams");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogEnvironmentParams::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

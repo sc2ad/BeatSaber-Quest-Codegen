@@ -87,6 +87,7 @@ namespace System {
   static_assert(sizeof(WindowsConsoleDriver) == 0x22);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::WindowsConsoleDriver*, "System", "WindowsConsoleDriver");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::WindowsConsoleDriver::ReadKey
 // Il2CppName: ReadKey
 template<>

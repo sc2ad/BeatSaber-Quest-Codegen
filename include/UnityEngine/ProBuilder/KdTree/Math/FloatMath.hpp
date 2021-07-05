@@ -62,6 +62,7 @@ namespace UnityEngine::ProBuilder::KdTree::Math {
   }; // UnityEngine.ProBuilder.KdTree.Math.FloatMath
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::KdTree::Math::FloatMath*, "UnityEngine.ProBuilder.KdTree.Math", "FloatMath");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::KdTree::Math::FloatMath::Compare
 // Il2CppName: Compare
 template<>

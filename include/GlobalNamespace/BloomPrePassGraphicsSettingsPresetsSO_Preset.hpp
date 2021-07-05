@@ -53,6 +53,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomPrePassGraphicsSettingsPresetsSO::Preset) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::Preset*, "", "BloomPrePassGraphicsSettingsPresetsSO/Preset");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::Preset::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

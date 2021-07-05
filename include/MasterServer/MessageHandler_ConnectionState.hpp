@@ -181,6 +181,7 @@ namespace MasterServer {
   static_assert(sizeof(MessageHandler::ConnectionState) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::ConnectionState*, "MasterServer", "MessageHandler/ConnectionState");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::MessageHandler::ConnectionState::get_isEncrypted
 // Il2CppName: get_isEncrypted
 template<>

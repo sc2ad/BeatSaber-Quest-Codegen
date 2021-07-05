@@ -70,6 +70,7 @@ namespace Mono::Net::Security {
   static_assert(sizeof(AsyncReadOrWriteRequest) == 0x44);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncReadOrWriteRequest*, "Mono.Net.Security", "AsyncReadOrWriteRequest");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::AsyncReadOrWriteRequest::get_UserBuffer
 // Il2CppName: get_UserBuffer
 template<>

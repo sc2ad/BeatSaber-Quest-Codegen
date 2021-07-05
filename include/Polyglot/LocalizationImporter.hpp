@@ -118,6 +118,7 @@ namespace Polyglot {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizationImporter*, "Polyglot", "LocalizationImporter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Polyglot::LocalizationImporter::_cctor
 // Il2CppName: .cctor
 template<>

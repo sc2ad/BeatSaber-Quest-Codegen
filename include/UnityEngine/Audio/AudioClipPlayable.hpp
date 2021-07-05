@@ -123,6 +123,7 @@ namespace UnityEngine::Audio {
   static_assert(sizeof(AudioClipPlayable) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioClipPlayable, "UnityEngine.Audio", "AudioClipPlayable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Audio::AudioClipPlayable::Create
 // Il2CppName: Create
 template<>

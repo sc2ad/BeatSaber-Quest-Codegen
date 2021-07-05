@@ -54,6 +54,7 @@ namespace NUnit::Framework::Constraints {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ValueFormatterFactory*, "NUnit.Framework.Constraints", "ValueFormatterFactory");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::ValueFormatterFactory::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -34,6 +34,7 @@ namespace Org::BouncyCastle::Math::Raw {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Raw::Interleave*, "Org.BouncyCastle.Math.Raw", "Interleave");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Interleave::Expand8to16
 // Il2CppName: Expand8to16
 template<>

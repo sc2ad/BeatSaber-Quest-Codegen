@@ -213,6 +213,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapObjectCallbackController) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectCallbackController*, "", "BeatmapObjectCallbackController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectCallbackController::add_beatmapEventDidTriggerEvent
 // Il2CppName: add_beatmapEventDidTriggerEvent
 template<>

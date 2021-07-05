@@ -219,6 +219,7 @@ namespace UnityEngine::UI {
   static_assert(sizeof(MaskableGraphic) == 0xC0);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::MaskableGraphic*, "UnityEngine.UI", "MaskableGraphic");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::MaskableGraphic::get_onCullStateChanged
 // Il2CppName: get_onCullStateChanged
 template<>

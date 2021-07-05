@@ -456,6 +456,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerController*, "", "MultiplayerController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerController::State, "", "MultiplayerController/State");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerController::get_state
 // Il2CppName: get_state
 template<>

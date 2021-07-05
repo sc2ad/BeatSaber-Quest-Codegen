@@ -55,6 +55,7 @@ namespace Zenject {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IProvider*, "Zenject", "IProvider");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::IProvider::get_TypeVariesBasedOnMemberType
 // Il2CppName: get_TypeVariesBasedOnMemberType
 template<>

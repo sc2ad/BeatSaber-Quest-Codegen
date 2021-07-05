@@ -191,6 +191,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayerTransforms) == 0xC1);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerTransforms*, "", "PlayerTransforms");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerTransforms::get_headWorldPos
 // Il2CppName: get_headWorldPos
 template<>

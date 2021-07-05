@@ -38,6 +38,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_0_1_0*, "", "OVRPlugin/OVRP_0_1_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_0_1_0::ovrp_GetEyeTextureSize
 // Il2CppName: ovrp_GetEyeTextureSize
 template<>

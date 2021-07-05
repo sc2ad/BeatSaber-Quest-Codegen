@@ -57,3 +57,4 @@ namespace HMUI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewController::AnimationType, "HMUI", "ViewController/AnimationType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

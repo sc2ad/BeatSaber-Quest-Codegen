@@ -105,6 +105,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayerOptionsViewController) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerOptionsViewController*, "", "PlayerOptionsViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerOptionsViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

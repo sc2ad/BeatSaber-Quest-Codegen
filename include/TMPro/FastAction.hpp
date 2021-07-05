@@ -73,6 +73,7 @@ namespace TMPro {
   static_assert(sizeof(FastAction) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::FastAction*, "TMPro", "FastAction");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::FastAction::Add
 // Il2CppName: Add
 template<>

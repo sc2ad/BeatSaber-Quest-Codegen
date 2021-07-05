@@ -178,6 +178,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRScreenFade) == 0x59);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRScreenFade*, "", "OVRScreenFade");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRScreenFade::get_instance
 // Il2CppName: get_instance
 template<>

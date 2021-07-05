@@ -159,6 +159,7 @@ namespace UnityEngine::UI {
   static_assert(sizeof(CanvasUpdateRegistry) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CanvasUpdateRegistry*, "UnityEngine.UI", "CanvasUpdateRegistry");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::CanvasUpdateRegistry::get_instance
 // Il2CppName: get_instance
 template<>

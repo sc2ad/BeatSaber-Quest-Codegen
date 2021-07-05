@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomPrePassLightTypeSO) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassLightTypeSO*, "", "BloomPrePassLightTypeSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassLightTypeSO::get_renderingPriority
 // Il2CppName: get_renderingPriority
 template<>

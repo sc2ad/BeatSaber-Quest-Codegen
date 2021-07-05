@@ -60,6 +60,7 @@ namespace NUnit::Framework::Internal {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestListener*, "NUnit.Framework.Internal", "TestListener");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestListener::TestStarted
 // Il2CppName: TestStarted
 template<>

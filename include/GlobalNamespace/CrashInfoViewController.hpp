@@ -68,6 +68,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(CrashInfoViewController) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CrashInfoViewController*, "", "CrashInfoViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CrashInfoViewController::Start
 // Il2CppName: Start
 template<>

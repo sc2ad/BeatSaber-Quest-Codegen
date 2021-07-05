@@ -74,6 +74,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LocalNetworkDiscoveryManager::InviteResponsePacket) == 0x1A);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager::InviteResponsePacket*, "", "LocalNetworkDiscoveryManager/InviteResponsePacket");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::InviteResponsePacket::Serialize
 // Il2CppName: Serialize
 template<>

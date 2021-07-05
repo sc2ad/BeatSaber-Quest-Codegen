@@ -56,6 +56,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LocalNetworkPlayerModel::CreatePartyConfig) == 0x3A);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkPlayerModel::CreatePartyConfig*, "", "LocalNetworkPlayerModel/CreatePartyConfig");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkPlayerModel::CreatePartyConfig::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

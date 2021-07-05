@@ -90,6 +90,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRBone) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRBone*, "", "OVRBone");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRBone::get_Id
 // Il2CppName: get_Id
 template<>

@@ -67,6 +67,7 @@ namespace System::Reflection {
   static_assert(sizeof(LocalVariableInfo) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::LocalVariableInfo*, "System.Reflection", "LocalVariableInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::LocalVariableInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

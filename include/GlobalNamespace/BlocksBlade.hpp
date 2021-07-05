@@ -223,6 +223,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BlocksBlade) == 0x8C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlocksBlade*, "", "BlocksBlade");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BlocksBlade::get_color
 // Il2CppName: get_color
 template<>

@@ -104,6 +104,7 @@ namespace OnlineServices::API {
   static_assert(sizeof(HTTPAdminLeaderboardsHelper) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPAdminLeaderboardsHelper*, "OnlineServices.API", "HTTPAdminLeaderboardsHelper");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OnlineServices::API::HTTPAdminLeaderboardsHelper::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

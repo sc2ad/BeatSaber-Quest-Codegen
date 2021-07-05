@@ -71,6 +71,7 @@ namespace System::Diagnostics::Tracing {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Tracing::EventSource*, "System.Diagnostics.Tracing", "EventSource");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::Tracing::EventSource::IsEnabled
 // Il2CppName: IsEnabled
 template<>

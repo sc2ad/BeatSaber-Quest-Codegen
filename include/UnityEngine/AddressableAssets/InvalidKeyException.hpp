@@ -120,6 +120,7 @@ namespace UnityEngine::AddressableAssets {
   static_assert(sizeof(InvalidKeyException) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::InvalidKeyException*, "UnityEngine.AddressableAssets", "InvalidKeyException");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::InvalidKeyException::get_Key
 // Il2CppName: get_Key
 template<>

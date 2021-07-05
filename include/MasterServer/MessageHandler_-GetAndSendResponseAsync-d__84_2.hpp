@@ -125,3 +125,4 @@ namespace MasterServer {
   // Could not write size check! Type: MasterServer.MessageHandler/<GetAndSendResponseAsync>d__84`2 is generic, or has no fields that are valid for size checks!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(MasterServer::MessageHandler::$GetAndSendResponseAsync$d__84_2, "MasterServer", "MessageHandler/<GetAndSendResponseAsync>d__84`2");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

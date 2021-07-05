@@ -72,6 +72,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(StandardLevelRestartController) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelRestartController*, "", "StandardLevelRestartController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelRestartController::RestartLevel
 // Il2CppName: RestartLevel
 template<>

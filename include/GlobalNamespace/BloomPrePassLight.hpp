@@ -142,6 +142,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomPrePassLight) == 0x2A);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassLight*, "", "BloomPrePassLight");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassLight::get_bloomLightsDict
 // Il2CppName: get_bloomLightsDict
 template<>

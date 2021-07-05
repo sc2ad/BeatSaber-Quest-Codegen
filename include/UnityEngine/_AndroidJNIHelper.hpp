@@ -137,6 +137,7 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::_AndroidJNIHelper*, "UnityEngine", "_AndroidJNIHelper");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::_AndroidJNIHelper::CreateJavaProxy
 // Il2CppName: CreateJavaProxy
 template<>

@@ -241,6 +241,7 @@ namespace VRUIControls {
   static_assert(sizeof(VRInputModule) == 0x88);
 }
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRInputModule*, "VRUIControls", "VRInputModule");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::get_useMouseForPressInput
 // Il2CppName: get_useMouseForPressInput
 template<>

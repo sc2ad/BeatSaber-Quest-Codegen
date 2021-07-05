@@ -89,6 +89,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BaseNoteVisuals) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseNoteVisuals*, "", "BaseNoteVisuals");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BaseNoteVisuals::Awake
 // Il2CppName: Awake
 template<>

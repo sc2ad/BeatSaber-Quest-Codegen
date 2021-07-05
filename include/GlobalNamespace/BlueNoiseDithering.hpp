@@ -71,6 +71,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BlueNoiseDithering) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlueNoiseDithering*, "", "BlueNoiseDithering");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BlueNoiseDithering::SetBlueNoiseShaderParams
 // Il2CppName: SetBlueNoiseShaderParams
 template<>

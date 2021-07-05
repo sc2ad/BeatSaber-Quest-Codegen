@@ -99,6 +99,7 @@ namespace UnityEngine::Networking::PlayerConnection {
   static_assert(sizeof(PlayerEditorConnectionEvents) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents*, "UnityEngine.Networking.PlayerConnection", "PlayerEditorConnectionEvents");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::InvokeMessageIdSubscribers
 // Il2CppName: InvokeMessageIdSubscribers
 template<>

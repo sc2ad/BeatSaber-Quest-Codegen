@@ -146,6 +146,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionSelectionMapViewController) == 0xA8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionSelectionMapViewController*, "", "MissionSelectionMapViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionSelectionMapViewController::add_didSelectMissionLevelEvent
 // Il2CppName: add_didSelectMissionLevelEvent
 template<>

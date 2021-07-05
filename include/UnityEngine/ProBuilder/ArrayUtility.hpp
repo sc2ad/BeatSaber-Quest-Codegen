@@ -268,6 +268,7 @@ namespace UnityEngine::ProBuilder {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ArrayUtility*, "UnityEngine.ProBuilder", "ArrayUtility");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ArrayUtility::ValuesWithIndexes
 // Il2CppName: ValuesWithIndexes
 // Cannot write MetadataGetter for generic methods!

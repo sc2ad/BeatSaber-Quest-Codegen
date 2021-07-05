@@ -43,6 +43,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MainCameraCullingMask::InitData) == 0x11);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainCameraCullingMask::InitData*, "", "MainCameraCullingMask/InitData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainCameraCullingMask::InitData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

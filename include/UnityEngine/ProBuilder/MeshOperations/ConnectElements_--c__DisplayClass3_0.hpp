@@ -62,6 +62,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static_assert(sizeof(ConnectElements::$$c__DisplayClass3_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0*, "UnityEngine.ProBuilder.MeshOperations", "ConnectElements/<>c__DisplayClass3_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ConnectElements::$$c__DisplayClass3_0::$Connect$b__3
 // Il2CppName: <Connect>b__3
 template<>

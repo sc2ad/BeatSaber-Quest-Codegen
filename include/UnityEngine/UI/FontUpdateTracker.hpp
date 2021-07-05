@@ -56,6 +56,7 @@ namespace UnityEngine::UI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::FontUpdateTracker*, "UnityEngine.UI", "FontUpdateTracker");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::FontUpdateTracker::TrackText
 // Il2CppName: TrackText
 template<>

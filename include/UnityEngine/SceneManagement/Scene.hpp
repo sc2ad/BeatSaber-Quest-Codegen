@@ -106,6 +106,7 @@ namespace UnityEngine::SceneManagement {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SceneManagement::Scene, "UnityEngine.SceneManagement", "Scene");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::Scene::IsValidInternal
 // Il2CppName: IsValidInternal
 template<>

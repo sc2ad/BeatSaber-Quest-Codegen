@@ -304,6 +304,7 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostEffectBehaviour*, "", "GhostEffectBehaviour");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostEffectBehaviour::EndBehavior, "", "GhostEffectBehaviour/EndBehavior");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GhostEffectBehaviour::GhostEffectType, "", "GhostEffectBehaviour/GhostEffectType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GhostEffectBehaviour::EnableObjects
 // Il2CppName: EnableObjects
 template<>

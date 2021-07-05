@@ -61,6 +61,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SimpleTextTableCell) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleTextTableCell*, "", "SimpleTextTableCell");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleTextTableCell::set_text
 // Il2CppName: set_text
 template<>

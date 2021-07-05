@@ -92,6 +92,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PresetsSettingsController) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PresetsSettingsController*, "", "PresetsSettingsController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PresetsSettingsController::GetInitValues
 // Il2CppName: GetInitValues
 template<>

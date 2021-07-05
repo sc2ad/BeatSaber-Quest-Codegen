@@ -97,6 +97,7 @@ namespace UnityEngine {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ReflectionProbe*, "UnityEngine", "ReflectionProbe");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ReflectionProbe::ReflectionProbeEvent, "UnityEngine", "ReflectionProbe/ReflectionProbeEvent");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ReflectionProbe::CallReflectionProbeEvent
 // Il2CppName: CallReflectionProbeEvent
 template<>

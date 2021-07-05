@@ -166,6 +166,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(EncryptionUtility::EncryptionState) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EncryptionUtility::EncryptionState*, "", "EncryptionUtility/EncryptionState");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EncryptionUtility::EncryptionState::get_isValid
 // Il2CppName: get_isValid
 template<>

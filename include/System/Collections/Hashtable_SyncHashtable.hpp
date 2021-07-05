@@ -159,6 +159,7 @@ namespace System::Collections {
   static_assert(sizeof(Hashtable::SyncHashtable) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Hashtable::SyncHashtable*, "System.Collections", "Hashtable/SyncHashtable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Hashtable::SyncHashtable::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

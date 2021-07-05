@@ -110,6 +110,7 @@ namespace HMUI {
   static_assert(sizeof(ViewController::$DismissViewControllerCoroutine$d__62) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewController::$DismissViewControllerCoroutine$d__62*, "HMUI", "ViewController/<DismissViewControllerCoroutine>d__62");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ViewController::$DismissViewControllerCoroutine$d__62::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

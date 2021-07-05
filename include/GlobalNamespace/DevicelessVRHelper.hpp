@@ -219,6 +219,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(DevicelessVRHelper) == 0x5A);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DevicelessVRHelper*, "", "DevicelessVRHelper");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DevicelessVRHelper::add_inputFocusWasCapturedEvent
 // Il2CppName: add_inputFocusWasCapturedEvent
 template<>

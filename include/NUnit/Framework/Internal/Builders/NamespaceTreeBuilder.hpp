@@ -79,6 +79,7 @@ namespace NUnit::Framework::Internal::Builders {
   static_assert(sizeof(NamespaceTreeBuilder) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::NamespaceTreeBuilder*, "NUnit.Framework.Internal.Builders", "NamespaceTreeBuilder");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NamespaceTreeBuilder::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

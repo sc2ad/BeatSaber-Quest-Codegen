@@ -80,6 +80,7 @@ namespace LiteNetLib {
   static_assert(sizeof(NetPacketPool) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPacketPool*, "LiteNetLib", "NetPacketPool");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NetPacketPool::GetWithData
 // Il2CppName: GetWithData
 template<>

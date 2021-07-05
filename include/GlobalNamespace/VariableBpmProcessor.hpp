@@ -59,6 +59,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(VariableBpmProcessor) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VariableBpmProcessor*, "", "VariableBpmProcessor");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VariableBpmProcessor::get_currentBpm
 // Il2CppName: get_currentBpm
 template<>

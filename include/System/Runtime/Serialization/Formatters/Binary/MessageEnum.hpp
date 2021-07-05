@@ -128,3 +128,4 @@ namespace System::Runtime::Serialization::Formatters::Binary {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::MessageEnum, "System.Runtime.Serialization.Formatters.Binary", "MessageEnum");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

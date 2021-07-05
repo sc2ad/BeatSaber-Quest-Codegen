@@ -133,6 +133,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(CountdownController) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CountdownController*, "", "CountdownController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CountdownController::Awake
 // Il2CppName: Awake
 template<>

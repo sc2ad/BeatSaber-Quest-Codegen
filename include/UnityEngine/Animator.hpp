@@ -942,6 +942,7 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animator*, "UnityEngine", "Animator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Animator::get_isOptimizable
 // Il2CppName: get_isOptimizable
 template<>

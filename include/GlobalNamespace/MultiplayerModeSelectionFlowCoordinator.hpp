@@ -435,6 +435,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerModeSelectionFlowCoordinator) == 0x188);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*, "", "MultiplayerModeSelectionFlowCoordinator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

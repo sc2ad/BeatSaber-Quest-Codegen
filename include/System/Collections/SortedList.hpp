@@ -240,6 +240,7 @@ namespace System::Collections {
   static_assert(sizeof(SortedList) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::SortedList*, "System.Collections", "SortedList");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::SortedList::Init
 // Il2CppName: Init
 template<>

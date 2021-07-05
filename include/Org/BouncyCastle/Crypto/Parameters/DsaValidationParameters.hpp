@@ -19,3 +19,4 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters*, "Org.BouncyCastle.Crypto.Parameters", "DsaValidationParameters");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

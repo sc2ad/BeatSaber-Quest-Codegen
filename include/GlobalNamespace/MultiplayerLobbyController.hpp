@@ -113,6 +113,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLobbyController) == 0x41);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyController*, "", "MultiplayerLobbyController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLobbyController::get_lobbyActivated
 // Il2CppName: get_lobbyActivated
 template<>

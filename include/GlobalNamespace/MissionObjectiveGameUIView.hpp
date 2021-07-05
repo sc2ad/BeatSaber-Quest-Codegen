@@ -169,6 +169,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionObjectiveGameUIView) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveGameUIView*, "", "MissionObjectiveGameUIView");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveGameUIView::SetMissionObjectiveChecker
 // Il2CppName: SetMissionObjectiveChecker
 template<>

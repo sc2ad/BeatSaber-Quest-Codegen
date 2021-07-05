@@ -136,6 +136,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MovementBeatmapEventEffect) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MovementBeatmapEventEffect*, "", "MovementBeatmapEventEffect");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MovementBeatmapEventEffect::Start
 // Il2CppName: Start
 template<>

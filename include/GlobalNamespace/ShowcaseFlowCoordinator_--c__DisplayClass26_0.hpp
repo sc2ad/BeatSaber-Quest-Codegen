@@ -74,6 +74,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ShowcaseFlowCoordinator::$$c__DisplayClass26_0) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayClass26_0*, "", "ShowcaseFlowCoordinator/<>c__DisplayClass26_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayClass26_0::$ProcessLevelCompletionResultsAfterLevelDidFinish$b__0
 // Il2CppName: <ProcessLevelCompletionResultsAfterLevelDidFinish>b__0
 template<>

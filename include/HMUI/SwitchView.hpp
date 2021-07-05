@@ -181,6 +181,7 @@ namespace HMUI {
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SwitchView*, "HMUI", "SwitchView");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SwitchView::AnimationType, "HMUI", "SwitchView/AnimationType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::SwitchView::Awake
 // Il2CppName: Awake
 template<>

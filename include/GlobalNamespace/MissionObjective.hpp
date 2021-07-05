@@ -138,6 +138,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjective*, "", "MissionObjective");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjective::ReferenceValueComparisonType, "", "MissionObjective/ReferenceValueComparisonType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjective::get_type
 // Il2CppName: get_type
 template<>

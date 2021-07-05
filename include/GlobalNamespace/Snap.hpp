@@ -56,6 +56,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(Snap) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Snap*, "", "Snap");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Snap::SnapPosition
 // Il2CppName: SnapPosition
 template<>

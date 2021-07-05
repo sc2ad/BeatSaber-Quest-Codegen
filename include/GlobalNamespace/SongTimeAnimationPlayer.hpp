@@ -68,6 +68,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SongTimeAnimationPlayer) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongTimeAnimationPlayer*, "", "SongTimeAnimationPlayer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SongTimeAnimationPlayer::Update
 // Il2CppName: Update
 template<>

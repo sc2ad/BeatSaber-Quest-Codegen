@@ -80,6 +80,7 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AttributeHelperEngine*, "UnityEngine", "AttributeHelperEngine");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AttributeHelperEngine::GetParentTypeDisallowingMultipleInclusion
 // Il2CppName: GetParentTypeDisallowingMultipleInclusion
 template<>

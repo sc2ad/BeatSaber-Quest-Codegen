@@ -51,6 +51,7 @@ namespace System::Reflection {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoProperty::GetterAdapter*, "System.Reflection", "MonoProperty/GetterAdapter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::MonoProperty::GetterAdapter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

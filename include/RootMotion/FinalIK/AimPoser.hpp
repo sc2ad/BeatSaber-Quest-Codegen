@@ -72,6 +72,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(AimPoser) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimPoser*, "RootMotion.FinalIK", "AimPoser");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::AimPoser::GetPose
 // Il2CppName: GetPose
 template<>

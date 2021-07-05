@@ -25,3 +25,4 @@ namespace System::Threading::Tasks {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::VoidTaskResult, "System.Threading.Tasks", "VoidTaskResult");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

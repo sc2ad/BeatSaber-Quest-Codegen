@@ -120,6 +120,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockBeatmapData) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockBeatmapData*, "", "MockBeatmapData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapData::get_numberOfLines
 // Il2CppName: get_numberOfLines
 template<>

@@ -66,6 +66,7 @@ namespace HMUI {
   static_assert(sizeof(TableView::CellsGroup) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableView::CellsGroup*, "HMUI", "TableView/CellsGroup");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::TableView::CellsGroup::get_reuseIdentifier
 // Il2CppName: get_reuseIdentifier
 template<>

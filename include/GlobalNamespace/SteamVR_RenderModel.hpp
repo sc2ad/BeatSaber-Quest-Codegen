@@ -269,6 +269,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SteamVR_RenderModel) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_RenderModel*, "", "SteamVR_RenderModel");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_RenderModel::get_renderModelName
 // Il2CppName: get_renderModelName
 template<>

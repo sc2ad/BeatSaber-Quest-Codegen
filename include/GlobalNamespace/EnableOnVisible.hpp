@@ -81,6 +81,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnableOnVisible) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableOnVisible*, "", "EnableOnVisible");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnableOnVisible::add_VisibilityChangedEvent
 // Il2CppName: add_VisibilityChangedEvent
 template<>

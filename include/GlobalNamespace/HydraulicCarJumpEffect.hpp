@@ -139,6 +139,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(HydraulicCarJumpEffect) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HydraulicCarJumpEffect*, "", "HydraulicCarJumpEffect");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HydraulicCarJumpEffect::Start
 // Il2CppName: Start
 template<>

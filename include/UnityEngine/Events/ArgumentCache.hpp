@@ -114,6 +114,7 @@ namespace UnityEngine::Events {
   static_assert(sizeof(ArgumentCache) == 0x31);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::ArgumentCache*, "UnityEngine.Events", "ArgumentCache");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Events::ArgumentCache::get_unityObjectArgument
 // Il2CppName: get_unityObjectArgument
 template<>

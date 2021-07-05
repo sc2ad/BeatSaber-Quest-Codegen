@@ -167,6 +167,7 @@ namespace UnityEngine {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnitySynchronizationContext*, "UnityEngine", "UnitySynchronizationContext");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnitySynchronizationContext::WorkRequest, "UnityEngine", "UnitySynchronizationContext/WorkRequest");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UnitySynchronizationContext::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

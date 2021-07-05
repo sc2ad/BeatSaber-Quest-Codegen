@@ -48,6 +48,7 @@ namespace GlobalNamespace {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BoolWithDefaultValueSO*, "", "BoolWithDefaultValueSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BoolWithDefaultValueSO::OnEnable
 // Il2CppName: OnEnable
 template<>

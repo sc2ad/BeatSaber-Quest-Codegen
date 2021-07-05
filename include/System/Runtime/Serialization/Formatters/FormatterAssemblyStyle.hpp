@@ -50,3 +50,4 @@ namespace System::Runtime::Serialization::Formatters {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::FormatterAssemblyStyle, "System.Runtime.Serialization.Formatters", "FormatterAssemblyStyle");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

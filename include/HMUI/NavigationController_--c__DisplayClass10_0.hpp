@@ -76,6 +76,7 @@ namespace HMUI {
   static_assert(sizeof(NavigationController::$$c__DisplayClass10_0) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NavigationController::$$c__DisplayClass10_0*, "HMUI", "NavigationController/<>c__DisplayClass10_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::NavigationController::$$c__DisplayClass10_0::$PopViewControllers$g__AnimationLayouter_0
 // Il2CppName: <PopViewControllers>g__AnimationLayouter|0
 template<>

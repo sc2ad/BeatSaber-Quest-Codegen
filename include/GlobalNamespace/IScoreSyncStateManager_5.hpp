@@ -95,3 +95,4 @@ namespace GlobalNamespace {
   // Could not write size check! Type: IScoreSyncStateManager`5 is generic, or has no fields that are valid for size checks!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(GlobalNamespace::IScoreSyncStateManager_5, "", "IScoreSyncStateManager`5");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

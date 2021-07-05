@@ -69,6 +69,7 @@ namespace System::Net {
   static_assert(sizeof(NtlmClient) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NtlmClient*, "System.Net", "NtlmClient");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NtlmClient::Authenticate
 // Il2CppName: Authenticate
 template<>

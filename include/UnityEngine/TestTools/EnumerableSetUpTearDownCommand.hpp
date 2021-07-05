@@ -82,6 +82,7 @@ namespace UnityEngine::TestTools {
   }; // UnityEngine.TestTools.EnumerableSetUpTearDownCommand
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableSetUpTearDownCommand*, "UnityEngine.TestTools", "EnumerableSetUpTearDownCommand");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::EnumerableSetUpTearDownCommand::GetMethodsWithAttributeFromFixture
 // Il2CppName: GetMethodsWithAttributeFromFixture
 template<>

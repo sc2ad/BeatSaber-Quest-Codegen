@@ -297,6 +297,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapObjectSpawnMovementData) == 0xB8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectSpawnMovementData*, "", "BeatmapObjectSpawnMovementData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectSpawnMovementData::get_spawnAheadTime
 // Il2CppName: get_spawnAheadTime
 template<>

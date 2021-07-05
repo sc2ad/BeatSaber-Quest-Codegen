@@ -168,6 +168,7 @@ namespace MasterServer {
   static_assert(sizeof(UserMessageHandler::$$c__DisplayClass34_0) == 0x88);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMessageHandler::$$c__DisplayClass34_0*, "MasterServer", "UserMessageHandler/<>c__DisplayClass34_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::UserMessageHandler::$$c__DisplayClass34_0::$StartBroadcastingServer$b__0
 // Il2CppName: <StartBroadcastingServer>b__0
 template<>

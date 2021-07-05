@@ -84,6 +84,7 @@ namespace System::Reflection {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeExtensions*, "System.Reflection", "CustomAttributeExtensions");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::CustomAttributeExtensions::GetCustomAttribute
 // Il2CppName: GetCustomAttribute
 template<>

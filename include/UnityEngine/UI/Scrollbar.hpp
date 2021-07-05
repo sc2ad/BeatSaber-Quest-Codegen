@@ -388,6 +388,7 @@ namespace UnityEngine::UI {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Scrollbar*, "UnityEngine.UI", "Scrollbar");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Scrollbar::Direction, "UnityEngine.UI", "Scrollbar/Direction");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::get_handleRect
 // Il2CppName: get_handleRect
 template<>

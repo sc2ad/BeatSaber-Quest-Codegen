@@ -29,6 +29,7 @@ namespace System::Net {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CredentialCache*, "System.Net", "CredentialCache");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::CredentialCache::get_DefaultCredentials
 // Il2CppName: get_DefaultCredentials
 template<>

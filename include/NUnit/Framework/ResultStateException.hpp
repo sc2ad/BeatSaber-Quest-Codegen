@@ -57,6 +57,7 @@ namespace NUnit::Framework {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::ResultStateException*, "NUnit.Framework", "ResultStateException");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::ResultStateException::get_ResultState
 // Il2CppName: get_ResultState
 template<>

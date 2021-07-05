@@ -90,6 +90,7 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Users*, "Oculus.Platform", "Users");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Users::GetLoggedInUserLocale
 // Il2CppName: GetLoggedInUserLocale
 template<>

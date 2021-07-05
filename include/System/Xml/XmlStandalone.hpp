@@ -55,3 +55,4 @@ namespace System::Xml {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlStandalone, "System.Xml", "XmlStandalone");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

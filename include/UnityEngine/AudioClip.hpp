@@ -130,6 +130,7 @@ namespace UnityEngine {
   static_assert(sizeof(AudioClip) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioClip*, "UnityEngine", "AudioClip");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AudioClip::GetData
 // Il2CppName: GetData
 template<>

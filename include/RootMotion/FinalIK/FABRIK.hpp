@@ -81,6 +81,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(FABRIK) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FABRIK*, "RootMotion.FinalIK", "FABRIK");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::FABRIK::SupportGroup
 // Il2CppName: SupportGroup
 template<>

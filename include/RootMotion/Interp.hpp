@@ -133,6 +133,7 @@ namespace RootMotion {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Interp*, "RootMotion", "Interp");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::Interp::Float
 // Il2CppName: Float
 template<>

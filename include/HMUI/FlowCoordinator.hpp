@@ -361,6 +361,7 @@ namespace HMUI {
   static_assert(sizeof(FlowCoordinator) == 0xA8);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::FlowCoordinator*, "HMUI", "FlowCoordinator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::FlowCoordinator::get_topViewController
 // Il2CppName: get_topViewController
 template<>

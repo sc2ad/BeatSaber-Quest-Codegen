@@ -48,6 +48,7 @@ namespace System::Net {
   static_assert(sizeof(MonoChunkStream::Chunk) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::MonoChunkStream::Chunk*, "System.Net", "MonoChunkStream/Chunk");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::MonoChunkStream::Chunk::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

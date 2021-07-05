@@ -145,6 +145,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(AutomaticSFXVolume) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AutomaticSFXVolume*, "", "AutomaticSFXVolume");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AutomaticSFXVolume::Start
 // Il2CppName: Start
 template<>

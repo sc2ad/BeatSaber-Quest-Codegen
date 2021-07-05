@@ -64,6 +64,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride*, "", "MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

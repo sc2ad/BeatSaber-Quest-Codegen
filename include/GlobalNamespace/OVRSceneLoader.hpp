@@ -244,6 +244,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSceneLoader*, "", "OVRSceneLoader");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSceneLoader::SceneInfo, "", "OVRSceneLoader/SceneInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRSceneLoader::Awake
 // Il2CppName: Awake
 template<>

@@ -65,6 +65,7 @@ namespace MasterServer {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMessageHandler::ConnectToServerDelegate*, "MasterServer", "UserMessageHandler/ConnectToServerDelegate");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::UserMessageHandler::ConnectToServerDelegate::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

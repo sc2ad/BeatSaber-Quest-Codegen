@@ -133,6 +133,7 @@ namespace UnityEngine::ResourceManagement {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceManager::InstanceOperation*, "UnityEngine.ResourceManagement", "ResourceManager/InstanceOperation");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceManager::InstanceOperation::Init
 // Il2CppName: Init
 template<>

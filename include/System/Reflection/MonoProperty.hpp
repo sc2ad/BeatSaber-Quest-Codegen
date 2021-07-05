@@ -253,6 +253,7 @@ namespace System::Reflection {
   static_assert(sizeof(MonoProperty) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoProperty*, "System.Reflection", "MonoProperty");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::MonoProperty::CachePropertyInfo
 // Il2CppName: CachePropertyInfo
 template<>

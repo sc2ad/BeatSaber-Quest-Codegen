@@ -103,6 +103,7 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(AnimationTrack::$get_outputs$d__49) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationTrack::$get_outputs$d__49*, "UnityEngine.Timeline", "AnimationTrack/<get_outputs>d__49");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationTrack::$get_outputs$d__49::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

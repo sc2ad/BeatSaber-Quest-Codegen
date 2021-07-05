@@ -103,6 +103,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(HandPoser) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HandPoser*, "RootMotion.FinalIK", "HandPoser");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::HandPoser::StoreDefaultState
 // Il2CppName: StoreDefaultState
 template<>

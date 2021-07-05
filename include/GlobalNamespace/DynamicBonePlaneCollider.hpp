@@ -56,6 +56,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DynamicBonePlaneCollider*, "", "DynamicBonePlaneCollider");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DynamicBonePlaneCollider::OnValidate
 // Il2CppName: OnValidate
 template<>

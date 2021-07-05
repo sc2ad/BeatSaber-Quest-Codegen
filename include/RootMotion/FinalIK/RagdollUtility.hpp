@@ -225,6 +225,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(RagdollUtility) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RagdollUtility*, "RootMotion.FinalIK", "RagdollUtility");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::RagdollUtility::EnableRagdoll
 // Il2CppName: EnableRagdoll
 template<>

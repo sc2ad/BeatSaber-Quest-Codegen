@@ -136,6 +136,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(TwistRelaxer) == 0x6C);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::TwistRelaxer*, "RootMotion.FinalIK", "TwistRelaxer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::TwistRelaxer::Relax
 // Il2CppName: Relax
 template<>

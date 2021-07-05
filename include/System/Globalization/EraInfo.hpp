@@ -93,6 +93,7 @@ namespace System::Globalization {
   static_assert(sizeof(EraInfo) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::EraInfo*, "System.Globalization", "EraInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::EraInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

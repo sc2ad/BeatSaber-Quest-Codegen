@@ -238,6 +238,7 @@ namespace System::Text::RegularExpressions {
   static_assert(sizeof(RegexRunner) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexRunner*, "System.Text.RegularExpressions", "RegexRunner");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexRunner::Scan
 // Il2CppName: Scan
 template<>

@@ -88,6 +88,7 @@ namespace System::IO {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Directory*, "System.IO", "Directory");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::Directory::GetFiles
 // Il2CppName: GetFiles
 template<>

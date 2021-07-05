@@ -63,6 +63,7 @@ namespace UnityEngine::EventSystems {
   static_assert(sizeof(PointerInputModule::ButtonState) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerInputModule::ButtonState*, "UnityEngine.EventSystems", "PointerInputModule/ButtonState");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::PointerInputModule::ButtonState::get_eventData
 // Il2CppName: get_eventData
 template<>

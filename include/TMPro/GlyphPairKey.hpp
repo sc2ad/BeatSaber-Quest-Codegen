@@ -72,6 +72,7 @@ namespace TMPro {
   static_assert(sizeof(GlyphPairKey) == 0x10);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::GlyphPairKey, "TMPro", "GlyphPairKey");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::GlyphPairKey::GlyphPairKey
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

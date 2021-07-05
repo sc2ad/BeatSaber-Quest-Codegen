@@ -117,6 +117,7 @@ namespace Mono::Security::Cryptography {
   static_assert(sizeof(MD4Managed) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::MD4Managed*, "Mono.Security.Cryptography", "MD4Managed");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Cryptography::MD4Managed::Padding
 // Il2CppName: Padding
 template<>

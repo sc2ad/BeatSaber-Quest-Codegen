@@ -167,6 +167,7 @@ namespace UnityEngine::TestTools::TestRunner {
   static_assert(sizeof(PlaymodeTestsController) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::PlaymodeTestsController*, "UnityEngine.TestTools.TestRunner", "PlaymodeTestsController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::PlaymodeTestsController::get_AssembliesWithTests
 // Il2CppName: get_AssembliesWithTests
 template<>

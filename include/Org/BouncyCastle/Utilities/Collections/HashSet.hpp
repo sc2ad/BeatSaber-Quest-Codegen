@@ -75,6 +75,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
   static_assert(sizeof(HashSet) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::HashSet*, "Org.BouncyCastle.Utilities.Collections", "HashSet");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::HashSet::Add
 // Il2CppName: Add
 template<>

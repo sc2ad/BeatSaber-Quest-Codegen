@@ -103,6 +103,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRCubemapCapture) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRCubemapCapture*, "", "OVRCubemapCapture");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRCubemapCapture::Update
 // Il2CppName: Update
 template<>

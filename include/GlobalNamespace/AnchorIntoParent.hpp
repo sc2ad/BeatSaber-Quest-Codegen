@@ -63,6 +63,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(AnchorIntoParent) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnchorIntoParent*, "", "AnchorIntoParent");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AnchorIntoParent::Start
 // Il2CppName: Start
 template<>

@@ -60,6 +60,7 @@ namespace UnityEngine::XR {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRSettings*, "UnityEngine.XR", "XRSettings");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::XR::XRSettings::get_enabled
 // Il2CppName: get_enabled
 template<>

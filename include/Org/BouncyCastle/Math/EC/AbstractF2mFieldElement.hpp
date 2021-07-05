@@ -43,6 +43,7 @@ namespace Org::BouncyCastle::Math::EC {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::AbstractF2mFieldElement*, "Org.BouncyCastle.Math.EC", "AbstractF2mFieldElement");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::HalfTrace
 // Il2CppName: HalfTrace
 template<>

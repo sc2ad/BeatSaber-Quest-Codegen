@@ -1038,6 +1038,7 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Mesh*, "UnityEngine", "Mesh");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Mesh::Internal_Create
 // Il2CppName: Internal_Create
 template<>

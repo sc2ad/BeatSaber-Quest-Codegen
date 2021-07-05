@@ -82,6 +82,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HostGameServerLobbyFlowCoordinator::$UpdateMissingEntitlementsAsync$d__43, "", "HostGameServerLobbyFlowCoordinator/<UpdateMissingEntitlementsAsync>d__43");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::$UpdateMissingEntitlementsAsync$d__43::MoveNext
 // Il2CppName: MoveNext
 template<>

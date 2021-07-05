@@ -86,6 +86,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Sec::SecT239Field*, "Org.BouncyCastle.Math.EC.Custom.Sec", "SecT239Field");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Sec::SecT239Field::Add
 // Il2CppName: Add
 template<>

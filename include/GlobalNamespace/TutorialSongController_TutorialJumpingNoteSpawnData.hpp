@@ -54,6 +54,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(TutorialSongController::TutorialJumpingNoteSpawnData) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialSongController::TutorialJumpingNoteSpawnData*, "", "TutorialSongController/TutorialJumpingNoteSpawnData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::TutorialJumpingNoteSpawnData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

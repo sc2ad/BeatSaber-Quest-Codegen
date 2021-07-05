@@ -144,6 +144,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(StandardLevelFailedController) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelFailedController*, "", "StandardLevelFailedController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelFailedController::Start
 // Il2CppName: Start
 template<>

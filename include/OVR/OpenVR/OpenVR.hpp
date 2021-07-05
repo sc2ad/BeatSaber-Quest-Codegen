@@ -1492,6 +1492,7 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::OpenVR*, "OVR.OpenVR", "OpenVR");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::OpenVR::InitInternal
 // Il2CppName: InitInternal
 template<>

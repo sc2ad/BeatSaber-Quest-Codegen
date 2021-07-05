@@ -87,6 +87,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerSpectatingSpotManager) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSpectatingSpotManager*, "", "MultiplayerSpectatingSpotManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatingSpotManager::get_spectatingSpots
 // Il2CppName: get_spectatingSpots
 template<>

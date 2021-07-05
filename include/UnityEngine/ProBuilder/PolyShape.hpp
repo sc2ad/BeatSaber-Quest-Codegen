@@ -194,6 +194,7 @@ namespace UnityEngine::ProBuilder {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PolyShape*, "UnityEngine.ProBuilder", "PolyShape");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::PolyShape::PolyEditMode, "UnityEngine.ProBuilder", "PolyShape/PolyEditMode");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::PolyShape::get_controlPoints
 // Il2CppName: get_controlPoints
 template<>

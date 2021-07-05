@@ -158,6 +158,7 @@ namespace System::Globalization {
   static_assert(sizeof(TaiwanCalendar) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TaiwanCalendar*, "System.Globalization", "TaiwanCalendar");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::TaiwanCalendar::GetDefaultInstance
 // Il2CppName: GetDefaultInstance
 template<>

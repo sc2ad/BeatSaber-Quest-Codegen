@@ -208,6 +208,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerIntroCountdown) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerIntroCountdown*, "", "MultiplayerIntroCountdown");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroCountdown::get_textAppearDuration
 // Il2CppName: get_textAppearDuration
 template<>

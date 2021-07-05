@@ -71,6 +71,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(CountdownElementController) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CountdownElementController*, "", "CountdownElementController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CountdownElementController::SetTextAndRunAnimation
 // Il2CppName: SetTextAndRunAnimation
 template<>

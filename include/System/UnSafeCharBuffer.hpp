@@ -60,6 +60,7 @@ namespace System {
   static_assert(sizeof(UnSafeCharBuffer) == 0x10);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::UnSafeCharBuffer, "System", "UnSafeCharBuffer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::UnSafeCharBuffer::UnSafeCharBuffer
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

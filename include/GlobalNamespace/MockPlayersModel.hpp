@@ -100,6 +100,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockPlayersModel) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayersModel*, "", "MockPlayersModel");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayersModel::get_localPlayer
 // Il2CppName: get_localPlayer
 template<>

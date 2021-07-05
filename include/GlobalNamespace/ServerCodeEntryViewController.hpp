@@ -129,6 +129,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ServerCodeEntryViewController) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ServerCodeEntryViewController*, "", "ServerCodeEntryViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ServerCodeEntryViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

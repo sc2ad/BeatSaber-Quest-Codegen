@@ -138,6 +138,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Djb {
   static_assert(sizeof(Curve25519) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519*, "Org.BouncyCastle.Math.EC.Custom.Djb", "Curve25519");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::_cctor
 // Il2CppName: .cctor
 template<>

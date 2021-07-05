@@ -111,6 +111,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(EditableBeatmapSelectionView) == 0x49);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditableBeatmapSelectionView*, "", "EditableBeatmapSelectionView");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EditableBeatmapSelectionView::get_editButton
 // Il2CppName: get_editButton
 template<>

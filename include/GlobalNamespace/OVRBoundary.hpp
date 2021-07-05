@@ -100,6 +100,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRBoundary) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRBoundary*, "", "OVRBoundary");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRBoundary::GetConfigured
 // Il2CppName: GetConfigured
 template<>

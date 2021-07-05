@@ -83,6 +83,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(DiffieHellmanUtility::ElipticalCurveKeyPair) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair*, "", "DiffieHellmanUtility/ElipticalCurveKeyPair");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair::get_publicKey
 // Il2CppName: get_publicKey
 template<>

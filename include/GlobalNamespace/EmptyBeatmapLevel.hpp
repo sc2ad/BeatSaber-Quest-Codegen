@@ -236,6 +236,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(EmptyBeatmapLevel) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EmptyBeatmapLevel*, "", "EmptyBeatmapLevel");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EmptyBeatmapLevel::get_levelID
 // Il2CppName: get_levelID
 template<>

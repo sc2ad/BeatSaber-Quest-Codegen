@@ -127,6 +127,7 @@ namespace System::Collections::Specialized {
   static_assert(sizeof(StringCollection) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::StringCollection*, "System.Collections.Specialized", "StringCollection");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Specialized::StringCollection::get_Item
 // Il2CppName: get_Item
 template<>

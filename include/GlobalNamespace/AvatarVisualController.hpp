@@ -219,6 +219,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(AvatarVisualController) == 0xC0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarVisualController*, "", "AvatarVisualController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarVisualController::get_lightColor
 // Il2CppName: get_lightColor
 template<>

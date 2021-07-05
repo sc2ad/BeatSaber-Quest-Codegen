@@ -72,6 +72,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*, "", "AppInitScenesTransitionSetupDataSO/AppInitSceneSetupData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData::get_appInitOverrideStartType
 // Il2CppName: get_appInitOverrideStartType
 template<>

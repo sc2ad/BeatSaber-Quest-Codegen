@@ -76,6 +76,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   static_assert(sizeof(TextDataProvider) == 0x1D);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*, "UnityEngine.ResourceManagement.ResourceProviders", "TextDataProvider");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::get_IgnoreFailures
 // Il2CppName: get_IgnoreFailures
 template<>

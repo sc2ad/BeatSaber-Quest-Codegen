@@ -90,6 +90,7 @@ namespace TMPro {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMPro_ExtensionMethods*, "TMPro", "TMPro_ExtensionMethods");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMPro_ExtensionMethods::ArrayToString
 // Il2CppName: ArrayToString
 template<>

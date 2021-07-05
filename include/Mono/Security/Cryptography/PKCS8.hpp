@@ -28,3 +28,4 @@ namespace Mono::Security::Cryptography {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::PKCS8*, "Mono.Security.Cryptography", "PKCS8");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

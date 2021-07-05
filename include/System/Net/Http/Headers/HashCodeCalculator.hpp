@@ -39,6 +39,7 @@ namespace System::Net::Http::Headers {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::HashCodeCalculator*, "System.Net.Http.Headers", "HashCodeCalculator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::HashCodeCalculator::Calculate
 // Il2CppName: Calculate
 // Cannot write MetadataGetter for generic methods!

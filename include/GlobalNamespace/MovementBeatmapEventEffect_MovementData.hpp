@@ -50,6 +50,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MovementBeatmapEventEffect::MovementData) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MovementBeatmapEventEffect::MovementData*, "", "MovementBeatmapEventEffect/MovementData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MovementBeatmapEventEffect::MovementData::get_localPositionOffset
 // Il2CppName: get_localPositionOffset
 template<>

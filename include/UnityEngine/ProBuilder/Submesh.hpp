@@ -110,6 +110,7 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(Submesh) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Submesh*, "UnityEngine.ProBuilder", "Submesh");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Submesh::get_indexes
 // Il2CppName: get_indexes
 template<>

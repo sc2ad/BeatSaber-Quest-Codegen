@@ -157,6 +157,7 @@ namespace NUnit::Framework::Internal {
   static_assert(sizeof(TestSuite) == 0x89);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestSuite*, "NUnit.Framework.Internal", "TestSuite");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::Sort
 // Il2CppName: Sort
 template<>

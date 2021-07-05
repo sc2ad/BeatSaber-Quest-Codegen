@@ -79,3 +79,4 @@ namespace TMPro {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_DefaultControls::Resources, "TMPro", "TMP_DefaultControls/Resources");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

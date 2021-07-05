@@ -152,6 +152,7 @@ namespace System {
   static_assert(sizeof(TimeZoneInfo::AdjustmentRule) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::AdjustmentRule*, "System", "TimeZoneInfo/AdjustmentRule");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::TimeZoneInfo::AdjustmentRule::get_DateStart
 // Il2CppName: get_DateStart
 template<>

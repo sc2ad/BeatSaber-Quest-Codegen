@@ -113,6 +113,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerConnectedPlayerGameNoteController) == 0x94);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*, "", "MultiplayerConnectedPlayerGameNoteController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::add_cubeNoteControllerDidInitEvent
 // Il2CppName: add_cubeNoteControllerDidInitEvent
 template<>

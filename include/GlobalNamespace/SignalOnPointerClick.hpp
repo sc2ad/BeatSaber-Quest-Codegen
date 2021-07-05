@@ -69,6 +69,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SignalOnPointerClick) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SignalOnPointerClick*, "", "SignalOnPointerClick");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SignalOnPointerClick::OnPointerClick
 // Il2CppName: OnPointerClick
 template<>

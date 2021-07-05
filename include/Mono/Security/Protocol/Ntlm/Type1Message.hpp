@@ -63,6 +63,7 @@ namespace Mono::Security::Protocol::Ntlm {
   static_assert(sizeof(Type1Message) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::Type1Message*, "Mono.Security.Protocol.Ntlm", "Type1Message");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::Type1Message::set_Domain
 // Il2CppName: set_Domain
 template<>

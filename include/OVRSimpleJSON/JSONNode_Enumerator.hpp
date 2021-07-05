@@ -127,6 +127,7 @@ namespace OVRSimpleJSON {
 }
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode::Enumerator, "OVRSimpleJSON", "JSONNode/Enumerator");
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode::Enumerator::Type, "OVRSimpleJSON", "JSONNode/Enumerator/Type");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONNode::Enumerator::get_IsValid
 // Il2CppName: get_IsValid
 template<>

@@ -108,6 +108,7 @@ namespace System::Text {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::Latin1Encoding*, "System.Text", "Latin1Encoding");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::Latin1Encoding::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

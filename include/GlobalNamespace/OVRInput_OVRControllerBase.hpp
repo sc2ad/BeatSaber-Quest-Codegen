@@ -150,6 +150,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRInput::OVRControllerBase) == 0x101);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase*, "", "OVRInput/OVRControllerBase");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerBase::Update
 // Il2CppName: Update
 template<>

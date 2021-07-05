@@ -35,6 +35,7 @@ namespace System::Security::Cryptography::X509Certificates {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::RSACertificateExtensions*, "System.Security.Cryptography.X509Certificates", "RSACertificateExtensions");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::RSACertificateExtensions::GetRSAPublicKey
 // Il2CppName: GetRSAPublicKey
 template<>

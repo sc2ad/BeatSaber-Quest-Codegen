@@ -45,6 +45,7 @@ namespace System::Net {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ExceptionHelper*, "System.Net", "ExceptionHelper");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::ExceptionHelper::get_MethodNotImplementedException
 // Il2CppName: get_MethodNotImplementedException
 template<>

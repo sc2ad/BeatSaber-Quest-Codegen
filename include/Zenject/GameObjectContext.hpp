@@ -165,6 +165,7 @@ namespace Zenject {
   static_assert(sizeof(GameObjectContext) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::GameObjectContext*, "Zenject", "GameObjectContext");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::GameObjectContext::add_PreInstall
 // Il2CppName: add_PreInstall
 template<>

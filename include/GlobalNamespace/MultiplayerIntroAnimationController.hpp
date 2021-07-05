@@ -227,6 +227,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerIntroAnimationController) == 0x8D);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerIntroAnimationController*, "", "MultiplayerIntroAnimationController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroAnimationController::OnValidate
 // Il2CppName: OnValidate
 template<>

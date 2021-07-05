@@ -108,6 +108,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ScreenCaptureAfterDelay) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScreenCaptureAfterDelay*, "", "ScreenCaptureAfterDelay");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ScreenCaptureAfterDelay::Start
 // Il2CppName: Start
 template<>

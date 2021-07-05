@@ -105,6 +105,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionHelpViewController) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionHelpViewController*, "", "MissionHelpViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionHelpViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

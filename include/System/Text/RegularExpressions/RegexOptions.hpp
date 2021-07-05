@@ -98,3 +98,4 @@ namespace System::Text::RegularExpressions {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexOptions, "System.Text.RegularExpressions", "RegexOptions");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

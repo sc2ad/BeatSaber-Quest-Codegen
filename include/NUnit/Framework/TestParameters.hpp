@@ -70,6 +70,7 @@ namespace NUnit::Framework {
   static_assert(sizeof(TestParameters) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::TestParameters*, "NUnit.Framework", "TestParameters");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::TestParameters::Add
 // Il2CppName: Add
 template<>

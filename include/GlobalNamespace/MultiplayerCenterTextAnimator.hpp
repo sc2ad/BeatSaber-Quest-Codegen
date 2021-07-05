@@ -154,6 +154,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerCenterTextAnimator) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerCenterTextAnimator*, "", "MultiplayerCenterTextAnimator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerCenterTextAnimator::Awake
 // Il2CppName: Awake
 template<>

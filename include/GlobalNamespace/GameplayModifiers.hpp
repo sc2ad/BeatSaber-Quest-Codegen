@@ -387,6 +387,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiers*, "", "GameplayModifie
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiers::EnabledObstacleType, "", "GameplayModifiers/EnabledObstacleType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiers::EnergyType, "", "GameplayModifiers/EnergyType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiers::SongSpeed, "", "GameplayModifiers/SongSpeed");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiers::get_energyType
 // Il2CppName: get_energyType
 template<>

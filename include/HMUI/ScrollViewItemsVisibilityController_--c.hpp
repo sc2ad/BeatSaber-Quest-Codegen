@@ -71,6 +71,7 @@ namespace HMUI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollViewItemsVisibilityController::$$c*, "HMUI", "ScrollViewItemsVisibilityController/<>c");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ScrollViewItemsVisibilityController::$$c::_cctor
 // Il2CppName: .cctor
 template<>

@@ -330,6 +330,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteJump) == 0x11C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteJump*, "", "NoteJump");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteJump::add_noteJumpDidFinishEvent
 // Il2CppName: add_noteJumpDidFinishEvent
 template<>

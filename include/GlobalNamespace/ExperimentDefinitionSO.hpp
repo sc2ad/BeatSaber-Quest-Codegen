@@ -136,6 +136,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ExperimentDefinitionSO*, "", "ExperimentDefinitionSO");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ExperimentDefinitionSO::Group, "", "ExperimentDefinitionSO/Group");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ExperimentDefinitionSO::get_controlGroupSize
 // Il2CppName: get_controlGroupSize
 template<>

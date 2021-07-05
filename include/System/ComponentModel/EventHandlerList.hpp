@@ -54,6 +54,7 @@ namespace System::ComponentModel {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::EventHandlerList*, "System.ComponentModel", "EventHandlerList");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::EventHandlerList::get_Item
 // Il2CppName: get_Item
 template<>

@@ -58,6 +58,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static_assert(sizeof(DeleteElements::$$c__DisplayClass2_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass2_0*, "UnityEngine.ProBuilder.MeshOperations", "DeleteElements/<>c__DisplayClass2_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass2_0::$DeleteFaces$b__0
 // Il2CppName: <DeleteFaces>b__0
 template<>

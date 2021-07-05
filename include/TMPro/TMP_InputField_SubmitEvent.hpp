@@ -35,6 +35,7 @@ namespace TMPro {
   }; // TMPro.TMP_InputField/SubmitEvent
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::SubmitEvent*, "TMPro", "TMP_InputField/SubmitEvent");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_InputField::SubmitEvent::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

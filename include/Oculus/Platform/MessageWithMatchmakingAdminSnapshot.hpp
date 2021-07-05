@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithMatchmakingAdminSnapshot
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithMatchmakingAdminSnapshot*, "Oculus.Platform", "MessageWithMatchmakingAdminSnapshot");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithMatchmakingAdminSnapshot::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

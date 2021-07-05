@@ -67,6 +67,7 @@ namespace Zenject {
   static_assert(sizeof(InitializableManager::$$c__DisplayClass2_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InitializableManager::$$c__DisplayClass2_0*, "Zenject", "InitializableManager/<>c__DisplayClass2_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::InitializableManager::$$c__DisplayClass2_0::$_ctor$b__0
 // Il2CppName: <.ctor>b__0
 template<>

@@ -177,6 +177,7 @@ namespace System::IO {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Path*, "System.IO", "Path");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::Path::ChangeExtension
 // Il2CppName: ChangeExtension
 template<>

@@ -33,6 +33,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::IDsaEncoding*, "Org.BouncyCastle.Crypto.Signers", "IDsaEncoding");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::IDsaEncoding::Encode
 // Il2CppName: Encode
 template<>

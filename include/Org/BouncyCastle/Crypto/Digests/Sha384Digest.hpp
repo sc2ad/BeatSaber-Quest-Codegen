@@ -77,6 +77,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::Sha384Digest*, "Org.BouncyCastle.Crypto.Digests", "Sha384Digest");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::Sha384Digest::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -111,6 +111,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SelectLanguageViewController) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLanguageViewController*, "", "SelectLanguageViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SelectLanguageViewController::add_didChangeLanguageEvent
 // Il2CppName: add_didChangeLanguageEvent
 template<>

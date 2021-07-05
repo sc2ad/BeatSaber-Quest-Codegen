@@ -64,6 +64,7 @@ namespace OnlineServices {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::PlatformOnlineServicesAvailabilityModel::$GetPlatformServicesAvailabilityInfo$d__4, "OnlineServices", "PlatformOnlineServicesAvailabilityModel/<GetPlatformServicesAvailabilityInfo>d__4");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OnlineServices::PlatformOnlineServicesAvailabilityModel::$GetPlatformServicesAvailabilityInfo$d__4::MoveNext
 // Il2CppName: MoveNext
 template<>

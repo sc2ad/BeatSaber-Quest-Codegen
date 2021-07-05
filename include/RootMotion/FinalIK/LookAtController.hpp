@@ -207,6 +207,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(LookAtController) == 0x95);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::LookAtController*, "RootMotion.FinalIK", "LookAtController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::LookAtController::Start
 // Il2CppName: Start
 template<>

@@ -696,6 +696,7 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager*, "", "LiteNetLibConnectionManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::NetworkMode, "", "LiteNetLibConnectionManager/NetworkMode");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::ConnectionState, "", "LiteNetLibConnectionManager/ConnectionState");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::add_onConnectedEvent
 // Il2CppName: add_onConnectedEvent
 template<>

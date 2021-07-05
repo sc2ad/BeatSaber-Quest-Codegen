@@ -28,6 +28,7 @@ namespace NUnit::Framework::Interfaces {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ICommandWrapper*, "NUnit.Framework.Interfaces", "ICommandWrapper");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ICommandWrapper::Wrap
 // Il2CppName: Wrap
 template<>

@@ -90,6 +90,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteTrailEffect) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteTrailEffect*, "", "NoteTrailEffect");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteTrailEffect::Awake
 // Il2CppName: Awake
 template<>

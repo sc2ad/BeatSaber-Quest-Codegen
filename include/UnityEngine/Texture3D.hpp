@@ -97,6 +97,7 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Texture3D*, "UnityEngine", "Texture3D");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Texture3D::Internal_CreateImpl
 // Il2CppName: Internal_CreateImpl
 template<>

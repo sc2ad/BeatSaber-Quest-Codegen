@@ -104,6 +104,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockServer) == 0xE0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockServer*, "", "MockServer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockServer::add_joinedEvent
 // Il2CppName: add_joinedEvent
 template<>

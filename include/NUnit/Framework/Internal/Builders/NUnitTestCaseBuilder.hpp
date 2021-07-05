@@ -74,6 +74,7 @@ namespace NUnit::Framework::Internal::Builders {
   static_assert(sizeof(NUnitTestCaseBuilder) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*, "NUnit.Framework.Internal.Builders", "NUnitTestCaseBuilder");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder::BuildTestMethod
 // Il2CppName: BuildTestMethod
 template<>

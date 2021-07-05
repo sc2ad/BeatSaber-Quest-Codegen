@@ -103,6 +103,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ColorSchemeNetSerializable) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeNetSerializable, "", "ColorSchemeNetSerializable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemeNetSerializable::ColorSchemeNetSerializable
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

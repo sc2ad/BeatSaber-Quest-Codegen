@@ -65,6 +65,7 @@ namespace System::IO {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::WaitForChangedResult, "System.IO", "WaitForChangedResult");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::WaitForChangedResult::set_ChangeType
 // Il2CppName: set_ChangeType
 template<>

@@ -104,6 +104,7 @@ namespace System::Net::NetworkInformation {
   static_assert(sizeof(GatewayIPAddressInformationCollection) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::GatewayIPAddressInformationCollection*, "System.Net.NetworkInformation", "GatewayIPAddressInformationCollection");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::GatewayIPAddressInformationCollection::CopyTo
 // Il2CppName: CopyTo
 template<>

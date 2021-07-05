@@ -88,6 +88,7 @@ namespace System::Net {
   static_assert(sizeof(WebConnectionStream::$$c__DisplayClass80_0) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionStream::$$c__DisplayClass80_0*, "System.Net", "WebConnectionStream/<>c__DisplayClass80_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::WebConnectionStream::$$c__DisplayClass80_0::$WriteRequestAsync$b__0
 // Il2CppName: <WriteRequestAsync>b__0
 template<>

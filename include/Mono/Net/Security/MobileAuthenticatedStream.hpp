@@ -404,6 +404,7 @@ namespace Mono::Net::Security {
   static_assert(sizeof(MobileAuthenticatedStream) == 0x9C);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MobileAuthenticatedStream*, "Mono.Net.Security", "MobileAuthenticatedStream");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

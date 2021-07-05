@@ -90,6 +90,7 @@ namespace System::Security::Util {
   static_assert(sizeof(Tokenizer::StringMaker) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer::StringMaker*, "System.Security.Util", "Tokenizer/StringMaker");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Util::Tokenizer::StringMaker::HashString
 // Il2CppName: HashString
 template<>

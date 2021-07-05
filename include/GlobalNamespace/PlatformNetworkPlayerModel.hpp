@@ -57,6 +57,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformNetworkPlayerModel*, "", "PlatformNetworkPlayerModel");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlatformNetworkPlayerModel::get_friends
 // Il2CppName: get_friends
 template<>

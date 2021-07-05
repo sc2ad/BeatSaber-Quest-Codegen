@@ -104,6 +104,7 @@ namespace UnityEngine {
   static_assert(sizeof(ParticleSystem::MinMaxCurve) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::MinMaxCurve, "UnityEngine", "ParticleSystem/MinMaxCurve");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MinMaxCurve::MinMaxCurve
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

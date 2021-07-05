@@ -90,6 +90,7 @@ namespace System::Threading {
   static_assert(sizeof(CancellationCallbackInfo) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationCallbackInfo*, "System.Threading", "CancellationCallbackInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::CancellationCallbackInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

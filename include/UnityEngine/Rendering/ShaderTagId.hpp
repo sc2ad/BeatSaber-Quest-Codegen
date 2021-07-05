@@ -72,6 +72,7 @@ namespace UnityEngine::Rendering {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::ShaderTagId, "UnityEngine.Rendering", "ShaderTagId");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::ShaderTagId::get_id
 // Il2CppName: get_id
 template<>

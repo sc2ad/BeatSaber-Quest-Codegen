@@ -64,6 +64,7 @@ namespace OVR::OpenVR {
   static_assert(sizeof(RenderModel_TextureMap_t_Packed) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::RenderModel_TextureMap_t_Packed, "OVR.OpenVR", "RenderModel_TextureMap_t_Packed");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::RenderModel_TextureMap_t_Packed::RenderModel_TextureMap_t_Packed
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -55,6 +55,7 @@ namespace Org::BouncyCastle::Asn1::Anssi {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves::Frp256v1Holder*, "Org.BouncyCastle.Asn1.Anssi", "AnssiNamedCurves/Frp256v1Holder");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves::Frp256v1Holder::_cctor
 // Il2CppName: .cctor
 template<>

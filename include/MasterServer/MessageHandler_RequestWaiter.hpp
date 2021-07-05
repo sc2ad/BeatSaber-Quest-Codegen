@@ -42,6 +42,7 @@ namespace MasterServer {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::RequestWaiter*, "MasterServer", "MessageHandler/RequestWaiter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::MessageHandler::RequestWaiter::Dispose
 // Il2CppName: Dispose
 template<>

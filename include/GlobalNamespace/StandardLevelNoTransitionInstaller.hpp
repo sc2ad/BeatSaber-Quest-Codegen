@@ -158,6 +158,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(StandardLevelNoTransitionInstaller) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelNoTransitionInstaller*, "", "StandardLevelNoTransitionInstaller");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelNoTransitionInstaller::get_colorScheme
 // Il2CppName: get_colorScheme
 template<>

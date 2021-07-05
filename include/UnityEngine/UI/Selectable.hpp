@@ -497,6 +497,7 @@ namespace UnityEngine::UI {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Selectable*, "UnityEngine.UI", "Selectable");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Selectable::Transition, "UnityEngine.UI", "Selectable/Transition");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Selectable::get_allSelectablesArray
 // Il2CppName: get_allSelectablesArray
 template<>

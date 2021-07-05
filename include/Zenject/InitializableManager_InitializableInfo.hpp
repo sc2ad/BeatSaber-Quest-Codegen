@@ -52,6 +52,7 @@ namespace Zenject {
   static_assert(sizeof(InitializableManager::InitializableInfo) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InitializableManager::InitializableInfo*, "Zenject", "InitializableManager/InitializableInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::InitializableManager::InitializableInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

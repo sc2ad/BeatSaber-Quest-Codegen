@@ -127,6 +127,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   static_assert(sizeof(RsaPrivateKeyStructure) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure*, "Org.BouncyCastle.Asn1.Pkcs", "RsaPrivateKeyStructure");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure::GetInstance
 // Il2CppName: GetInstance
 template<>

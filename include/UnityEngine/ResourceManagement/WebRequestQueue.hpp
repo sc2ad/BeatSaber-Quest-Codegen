@@ -74,6 +74,7 @@ namespace UnityEngine::ResourceManagement {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::WebRequestQueue*, "UnityEngine.ResourceManagement", "WebRequestQueue");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::WebRequestQueue::SetMaxConcurrentRequests
 // Il2CppName: SetMaxConcurrentRequests
 template<>

@@ -162,6 +162,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SteamPlatformAdditionalContentModel) == 0x49);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamPlatformAdditionalContentModel*, "", "SteamPlatformAdditionalContentModel");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamPlatformAdditionalContentModel::DataIsValidAsync
 // Il2CppName: DataIsValidAsync
 template<>

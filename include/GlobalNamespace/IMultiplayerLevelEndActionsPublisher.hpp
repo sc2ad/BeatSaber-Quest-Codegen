@@ -46,6 +46,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMultiplayerLevelEndActionsPublisher*, "", "IMultiplayerLevelEndActionsPublisher");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IMultiplayerLevelEndActionsPublisher::add_playerDidFinishEvent
 // Il2CppName: add_playerDidFinishEvent
 template<>

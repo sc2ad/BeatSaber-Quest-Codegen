@@ -43,6 +43,7 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(RSAPKCS1SignatureDescription) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSAPKCS1SignatureDescription*, "System.Security.Cryptography", "RSAPKCS1SignatureDescription");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::RSAPKCS1SignatureDescription::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

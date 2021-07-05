@@ -33,6 +33,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "IEnumerableTestMethodCommand");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand::ExecuteEnumerable
 // Il2CppName: ExecuteEnumerable
 template<>

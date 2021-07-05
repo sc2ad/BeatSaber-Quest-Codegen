@@ -63,6 +63,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SpawnRotationProcessor) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnRotationProcessor*, "", "SpawnRotationProcessor");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SpawnRotationProcessor::get_rotation
 // Il2CppName: get_rotation
 template<>

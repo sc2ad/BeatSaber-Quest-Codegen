@@ -108,6 +108,7 @@ namespace HMUI {
   static_assert(sizeof(InputFieldViewStaticAnimations) == 0x49);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldViewStaticAnimations*, "HMUI", "InputFieldViewStaticAnimations");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::InputFieldViewStaticAnimations::Awake
 // Il2CppName: Awake
 template<>

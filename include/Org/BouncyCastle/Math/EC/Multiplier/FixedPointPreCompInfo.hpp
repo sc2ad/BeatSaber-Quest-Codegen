@@ -84,6 +84,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   static_assert(sizeof(FixedPointPreCompInfo) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo*, "Org.BouncyCastle.Math.EC.Multiplier", "FixedPointPreCompInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::get_LookupTable
 // Il2CppName: get_LookupTable
 template<>

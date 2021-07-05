@@ -157,6 +157,7 @@ namespace UnityEngine::Networking::PlayerConnection {
   static_assert(sizeof(PlayerConnection) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::PlayerConnection*, "UnityEngine.Networking.PlayerConnection", "PlayerConnection");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::PlayerConnection::PlayerConnection::get_instance
 // Il2CppName: get_instance
 template<>

@@ -55,6 +55,7 @@ namespace System::Threading::Tasks {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::AwaitTaskContinuation::$$c*, "System.Threading.Tasks", "AwaitTaskContinuation/<>c");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::AwaitTaskContinuation::$$c::_cctor
 // Il2CppName: .cctor
 template<>

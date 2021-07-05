@@ -136,6 +136,7 @@ namespace UnityEngine::Playables {
   static_assert(sizeof(PlayableGraph) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableGraph, "UnityEngine.Playables", "PlayableGraph");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableGraph::GetRootPlayable
 // Il2CppName: GetRootPlayable
 template<>

@@ -345,6 +345,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(InteractionEffector) == 0xC9);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionEffector*, "RootMotion.FinalIK", "InteractionEffector");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionEffector::get_effectorType
 // Il2CppName: get_effectorType
 template<>

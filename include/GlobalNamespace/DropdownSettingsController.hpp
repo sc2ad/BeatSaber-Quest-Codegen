@@ -110,6 +110,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(DropdownSettingsController) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DropdownSettingsController*, "", "DropdownSettingsController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DropdownSettingsController::add_dropDownValueDidChangeEvent
 // Il2CppName: add_dropDownValueDidChangeEvent
 template<>

@@ -70,6 +70,7 @@ namespace System::Net {
   static_assert(sizeof(HeaderInfo) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HeaderInfo*, "System.Net", "HeaderInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::HeaderInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -81,6 +81,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SwitchSettingsController) == 0x21);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SwitchSettingsController*, "", "SwitchSettingsController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SwitchSettingsController::GetInitValue
 // Il2CppName: GetInitValue
 template<>

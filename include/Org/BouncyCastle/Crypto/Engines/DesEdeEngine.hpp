@@ -94,6 +94,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   static_assert(sizeof(DesEdeEngine) == 0x31);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::DesEdeEngine*, "Org.BouncyCastle.Crypto.Engines", "DesEdeEngine");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::DesEdeEngine::Init
 // Il2CppName: Init
 template<>

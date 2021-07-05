@@ -103,6 +103,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayerEntitlementChecker::$GetCanPlayLevelAsync$d__18, "", "NetworkPlayerEntitlementChecker/<GetCanPlayLevelAsync>d__18");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerEntitlementChecker::$GetCanPlayLevelAsync$d__18::MoveNext
 // Il2CppName: MoveNext
 template<>

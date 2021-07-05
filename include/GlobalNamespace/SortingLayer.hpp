@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SortingLayer) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SortingLayer*, "", "SortingLayer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SortingLayer::get_renderer
 // Il2CppName: get_renderer
 template<>

@@ -65,6 +65,7 @@ namespace System::Runtime::Remoting::Lifetime {
   static_assert(sizeof(LeaseSink) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Lifetime::LeaseSink*, "System.Runtime.Remoting.Lifetime", "LeaseSink");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Lifetime::LeaseSink::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

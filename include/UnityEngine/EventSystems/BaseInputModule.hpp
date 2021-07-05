@@ -173,6 +173,7 @@ namespace UnityEngine::EventSystems {
   static_assert(sizeof(BaseInputModule) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::BaseInputModule*, "UnityEngine.EventSystems", "BaseInputModule");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::BaseInputModule::get_input
 // Il2CppName: get_input
 template<>

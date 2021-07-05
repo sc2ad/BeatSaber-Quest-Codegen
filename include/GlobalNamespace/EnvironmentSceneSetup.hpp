@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnvironmentSceneSetup) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSceneSetup*, "", "EnvironmentSceneSetup");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentSceneSetup::InstallBindings
 // Il2CppName: InstallBindings
 template<>

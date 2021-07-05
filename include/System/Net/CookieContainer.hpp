@@ -138,6 +138,7 @@ namespace System::Net {
   static_assert(sizeof(CookieContainer) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieContainer*, "System.Net", "CookieContainer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::CookieContainer::AddRemoveDomain
 // Il2CppName: AddRemoveDomain
 template<>

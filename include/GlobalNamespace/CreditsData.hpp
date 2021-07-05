@@ -59,6 +59,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(CreditsData) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsData*, "", "CreditsData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CreditsData::Deserialize
 // Il2CppName: Deserialize
 template<>

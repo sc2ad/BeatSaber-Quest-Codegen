@@ -59,6 +59,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRAudioSourceTest) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRAudioSourceTest*, "", "OVRAudioSourceTest");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRAudioSourceTest::Start
 // Il2CppName: Start
 template<>

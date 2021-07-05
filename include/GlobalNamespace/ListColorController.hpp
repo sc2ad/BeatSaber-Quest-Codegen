@@ -87,6 +87,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ListColorController) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ListColorController*, "", "ListColorController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ListColorController::GetInitValues
 // Il2CppName: GetInitValues
 template<>

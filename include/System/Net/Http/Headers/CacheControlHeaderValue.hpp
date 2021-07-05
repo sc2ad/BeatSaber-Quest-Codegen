@@ -265,6 +265,7 @@ namespace System::Net::Http::Headers {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::CacheControlHeaderValue*, "System.Net.Http.Headers", "CacheControlHeaderValue");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::CacheControlHeaderValue::get_Extensions
 // Il2CppName: get_Extensions
 template<>

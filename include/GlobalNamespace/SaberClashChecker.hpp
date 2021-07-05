@@ -97,6 +97,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SaberClashChecker) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberClashChecker*, "", "SaberClashChecker");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SaberClashChecker::Init
 // Il2CppName: Init
 template<>

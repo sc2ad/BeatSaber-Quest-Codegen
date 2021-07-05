@@ -321,6 +321,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorder*, "", "VRControllersRecorder");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorder::Mode, "", "VRControllersRecorder/Mode");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::set_mode
 // Il2CppName: set_mode
 template<>

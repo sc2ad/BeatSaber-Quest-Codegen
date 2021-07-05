@@ -77,6 +77,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(CustomBoundingBox) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomBoundingBox*, "", "CustomBoundingBox");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CustomBoundingBox::Awake
 // Il2CppName: Awake
 template<>

@@ -97,6 +97,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(EventsTestGameplayManager) == 0x39);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EventsTestGameplayManager*, "", "EventsTestGameplayManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EventsTestGameplayManager::Awake
 // Il2CppName: Awake
 template<>

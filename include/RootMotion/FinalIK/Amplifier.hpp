@@ -61,6 +61,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(Amplifier) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Amplifier*, "RootMotion.FinalIK", "Amplifier");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::Amplifier::OnModifyOffset
 // Il2CppName: OnModifyOffset
 template<>

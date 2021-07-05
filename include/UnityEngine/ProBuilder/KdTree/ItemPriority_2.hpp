@@ -33,3 +33,4 @@ namespace UnityEngine::ProBuilder::KdTree {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(UnityEngine::ProBuilder::KdTree::ItemPriority_2, "UnityEngine.ProBuilder.KdTree", "ItemPriority`2");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

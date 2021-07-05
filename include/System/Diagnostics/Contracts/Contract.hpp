@@ -45,6 +45,7 @@ namespace System::Diagnostics::Contracts {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Contracts::Contract*, "System.Diagnostics.Contracts", "Contract");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::Contracts::Contract::ForAll
 // Il2CppName: ForAll
 // Cannot write MetadataGetter for generic methods!

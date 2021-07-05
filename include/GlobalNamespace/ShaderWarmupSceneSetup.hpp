@@ -59,6 +59,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ShaderWarmupSceneSetup) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderWarmupSceneSetup*, "", "ShaderWarmupSceneSetup");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ShaderWarmupSceneSetup::InstallBindings
 // Il2CppName: InstallBindings
 template<>

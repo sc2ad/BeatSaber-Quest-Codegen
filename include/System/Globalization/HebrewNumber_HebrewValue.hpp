@@ -47,6 +47,7 @@ namespace System::Globalization {
   static_assert(sizeof(HebrewNumber::HebrewValue) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::HebrewNumber::HebrewValue*, "System.Globalization", "HebrewNumber/HebrewValue");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::HebrewNumber::HebrewValue::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

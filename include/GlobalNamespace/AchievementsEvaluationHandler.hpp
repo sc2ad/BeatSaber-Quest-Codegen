@@ -263,6 +263,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(AchievementsEvaluationHandler) == 0xF8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AchievementsEvaluationHandler*, "", "AchievementsEvaluationHandler");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AchievementsEvaluationHandler::Start
 // Il2CppName: Start
 template<>

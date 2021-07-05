@@ -146,6 +146,7 @@ namespace System::Security::Cryptography {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CryptoStream::$ReadAsyncInternal$d__34, "System.Security.Cryptography", "CryptoStream/<ReadAsyncInternal>d__34");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::CryptoStream::$ReadAsyncInternal$d__34::MoveNext
 // Il2CppName: MoveNext
 template<>

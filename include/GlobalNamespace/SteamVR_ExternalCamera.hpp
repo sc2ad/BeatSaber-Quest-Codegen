@@ -302,6 +302,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_ExternalCamera*, "", "SteamVR_ExternalCamera");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_ExternalCamera::Config, "", "SteamVR_ExternalCamera/Config");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_ExternalCamera::ReadConfig
 // Il2CppName: ReadConfig
 template<>

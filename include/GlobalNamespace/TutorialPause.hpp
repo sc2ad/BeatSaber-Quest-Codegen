@@ -130,6 +130,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(TutorialPause) == 0x41);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialPause*, "", "TutorialPause");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TutorialPause::add_didPauseEvent
 // Il2CppName: add_didPauseEvent
 template<>

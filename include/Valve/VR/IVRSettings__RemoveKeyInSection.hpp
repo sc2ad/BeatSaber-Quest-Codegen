@@ -57,6 +57,7 @@ namespace Valve::VR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSettings::_RemoveKeyInSection*, "Valve.VR", "IVRSettings/_RemoveKeyInSection");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRSettings::_RemoveKeyInSection::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -198,6 +198,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
   static_assert(sizeof(ResourceManagerRuntimeData) == 0x6C);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*, "UnityEngine.AddressableAssets.Initialization", "ResourceManagerRuntimeData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData::get_BuildTarget
 // Il2CppName: get_BuildTarget
 template<>

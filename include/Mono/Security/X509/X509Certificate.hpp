@@ -291,6 +291,7 @@ namespace Mono::Security::X509 {
   static_assert(sizeof(X509Certificate) == 0xC0);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Certificate*, "Mono.Security.X509", "X509Certificate");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::X509::X509Certificate::Parse
 // Il2CppName: Parse
 template<>

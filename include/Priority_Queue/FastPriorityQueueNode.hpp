@@ -59,6 +59,7 @@ namespace Priority_Queue {
   static_assert(sizeof(FastPriorityQueueNode) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Priority_Queue::FastPriorityQueueNode*, "Priority_Queue", "FastPriorityQueueNode");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Priority_Queue::FastPriorityQueueNode::get_Priority
 // Il2CppName: get_Priority
 template<>

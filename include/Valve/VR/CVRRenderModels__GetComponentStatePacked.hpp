@@ -61,6 +61,7 @@ namespace Valve::VR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRRenderModels::_GetComponentStatePacked*, "Valve.VR", "CVRRenderModels/_GetComponentStatePacked");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::CVRRenderModels::_GetComponentStatePacked::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

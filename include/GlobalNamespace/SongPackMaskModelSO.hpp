@@ -135,6 +135,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SongPackMaskModelSO) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPackMaskModelSO*, "", "SongPackMaskModelSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::get_defaultSongPackMaskItems
 // Il2CppName: get_defaultSongPackMaskItems
 template<>

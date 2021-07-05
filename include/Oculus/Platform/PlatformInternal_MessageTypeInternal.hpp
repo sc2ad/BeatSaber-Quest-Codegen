@@ -441,3 +441,4 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::PlatformInternal::MessageTypeInternal, "Oculus.Platform", "PlatformInternal/MessageTypeInternal");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

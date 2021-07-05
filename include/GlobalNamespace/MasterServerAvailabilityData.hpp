@@ -121,6 +121,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerAvailabilityData*, "", "MasterServerAvailabilityData");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerAvailabilityData::AvailabilityStatus, "", "MasterServerAvailabilityData/AvailabilityStatus");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerAvailabilityData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -139,6 +139,7 @@ namespace HMUI {
   static_assert(sizeof(UIKeyboard) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::UIKeyboard*, "HMUI", "UIKeyboard");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::UIKeyboard::add_okButtonWasPressedEvent
 // Il2CppName: add_okButtonWasPressedEvent
 template<>

@@ -181,3 +181,4 @@ namespace UnityEngine::Playables {
   // Could not write size check! Type: UnityEngine.Playables.ScriptPlayable`1 is generic, or has no fields that are valid for size checks!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(UnityEngine::Playables::ScriptPlayable_1, "UnityEngine.Playables", "ScriptPlayable`1");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

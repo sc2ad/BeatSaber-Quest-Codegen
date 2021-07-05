@@ -114,6 +114,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MainSettingsMenuViewController) == 0x94);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsMenuViewController*, "", "MainSettingsMenuViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsMenuViewController::add_didSelectSettingsSubMenuEvent
 // Il2CppName: add_didSelectSettingsSubMenuEvent
 template<>

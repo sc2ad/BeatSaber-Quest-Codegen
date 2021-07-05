@@ -164,6 +164,7 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(TimelinePlayable) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelinePlayable*, "UnityEngine.Timeline", "TimelinePlayable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelinePlayable::Create
 // Il2CppName: Create
 template<>

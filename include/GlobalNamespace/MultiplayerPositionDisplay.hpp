@@ -183,6 +183,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerPositionDisplay) == 0x9C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerPositionDisplay*, "", "MultiplayerPositionDisplay");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerPositionDisplay::Start
 // Il2CppName: Start
 template<>

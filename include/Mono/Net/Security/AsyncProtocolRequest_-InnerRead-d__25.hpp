@@ -83,6 +83,7 @@ namespace Mono::Net::Security {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncProtocolRequest::$InnerRead$d__25, "Mono.Net.Security", "AsyncProtocolRequest/<InnerRead>d__25");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::AsyncProtocolRequest::$InnerRead$d__25::MoveNext
 // Il2CppName: MoveNext
 template<>

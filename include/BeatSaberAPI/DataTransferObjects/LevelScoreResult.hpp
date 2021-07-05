@@ -247,6 +247,7 @@ namespace BeatSaberAPI::DataTransferObjects {
 }
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::LevelScoreResult*, "BeatSaberAPI.DataTransferObjects", "LevelScoreResult");
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers, "BeatSaberAPI.DataTransferObjects", "LevelScoreResult/GameplayModifiers");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: BeatSaberAPI::DataTransferObjects::LevelScoreResult::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

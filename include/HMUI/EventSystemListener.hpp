@@ -99,6 +99,7 @@ namespace HMUI {
   static_assert(sizeof(EventSystemListener) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::EventSystemListener*, "HMUI", "EventSystemListener");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::EventSystemListener::add_pointerDidEnterEvent
 // Il2CppName: add_pointerDidEnterEvent
 template<>

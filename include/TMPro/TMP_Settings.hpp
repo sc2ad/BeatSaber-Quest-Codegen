@@ -358,6 +358,7 @@ namespace TMPro {
   static_assert(sizeof(TMP_Settings) == 0xA8);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Settings*, "TMPro", "TMP_Settings");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_Settings::get_version
 // Il2CppName: get_version
 template<>

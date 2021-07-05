@@ -39,6 +39,7 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::EventArgs*, "System", "EventArgs");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::EventArgs::_cctor
 // Il2CppName: .cctor
 template<>

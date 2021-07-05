@@ -65,6 +65,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ResetLocalLeaderboardOnKey) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResetLocalLeaderboardOnKey*, "", "ResetLocalLeaderboardOnKey");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ResetLocalLeaderboardOnKey::Update
 // Il2CppName: Update
 template<>

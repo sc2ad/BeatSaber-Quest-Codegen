@@ -164,6 +164,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayerDataFileManagerSO) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerDataFileManagerSO*, "", "PlayerDataFileManagerSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerDataFileManagerSO::Save
 // Il2CppName: Save
 template<>

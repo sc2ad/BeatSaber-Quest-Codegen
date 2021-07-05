@@ -82,6 +82,7 @@ namespace NUnit::Framework::Internal::Commands {
   static_assert(sizeof(SetUpTearDownItem) == 0x21);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::SetUpTearDownItem*, "NUnit.Framework.Internal.Commands", "SetUpTearDownItem");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Commands::SetUpTearDownItem::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

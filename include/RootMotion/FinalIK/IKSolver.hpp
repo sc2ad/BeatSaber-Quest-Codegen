@@ -181,6 +181,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKSolver) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolver*, "RootMotion.FinalIK", "IKSolver");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolver::IsValid
 // Il2CppName: IsValid
 template<>

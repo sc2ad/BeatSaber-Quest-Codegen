@@ -52,6 +52,7 @@ namespace NUnit::Framework::Internal::Builders {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::ParameterDataSourceProvider*, "NUnit.Framework.Internal.Builders", "ParameterDataSourceProvider");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::ParameterDataSourceProvider::GetDataFor
 // Il2CppName: GetDataFor
 template<>

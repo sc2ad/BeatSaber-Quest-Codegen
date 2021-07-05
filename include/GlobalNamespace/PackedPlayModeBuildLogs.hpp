@@ -98,6 +98,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PackedPlayModeBuildLogs*, "", "PackedPlayModeBuildLogs");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog, "", "PackedPlayModeBuildLogs/RuntimeBuildLog");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PackedPlayModeBuildLogs::get_RuntimeBuildLogs
 // Il2CppName: get_RuntimeBuildLogs
 template<>

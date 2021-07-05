@@ -81,6 +81,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(AimPoser::Pose) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimPoser::Pose*, "RootMotion.FinalIK", "AimPoser/Pose");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::AimPoser::Pose::IsInDirection
 // Il2CppName: IsInDirection
 template<>

@@ -131,6 +131,7 @@ namespace System::Net {
   static_assert(sizeof(CookieCollection) == 0x2A);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieCollection*, "System.Net", "CookieCollection");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::CookieCollection::get_Item
 // Il2CppName: get_Item
 template<>

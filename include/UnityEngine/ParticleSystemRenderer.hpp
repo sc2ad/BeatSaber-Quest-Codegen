@@ -35,6 +35,7 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystemRenderer*, "UnityEngine", "ParticleSystemRenderer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ParticleSystemRenderer::GetMeshes
 // Il2CppName: GetMeshes
 template<>

@@ -95,6 +95,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(Color32Serializable) == 0x4);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Color32Serializable, "", "Color32Serializable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Color32Serializable::Color32Serializable
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -55,6 +55,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::UVEditing::UVTransform, "UnityEngine.ProBuilder.MeshOperations", "UVEditing/UVTransform");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::UVTransform::ToString
 // Il2CppName: ToString
 template<>

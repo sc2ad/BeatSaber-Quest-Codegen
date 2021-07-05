@@ -85,6 +85,7 @@ namespace UnityEngine::Events {
   static_assert(sizeof(InvokableCall) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::InvokableCall*, "UnityEngine.Events", "InvokableCall");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Events::InvokableCall::add_Delegate
 // Il2CppName: add_Delegate
 template<>

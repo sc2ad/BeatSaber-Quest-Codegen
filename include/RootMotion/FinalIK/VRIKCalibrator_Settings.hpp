@@ -151,6 +151,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(VRIKCalibrator::Settings) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKCalibrator::Settings*, "RootMotion.FinalIK", "VRIKCalibrator/Settings");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::VRIKCalibrator::Settings::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

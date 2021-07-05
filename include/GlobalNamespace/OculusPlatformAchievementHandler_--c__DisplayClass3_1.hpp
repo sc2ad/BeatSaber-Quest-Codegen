@@ -61,6 +61,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OculusPlatformAchievementHandler::$$c__DisplayClass3_1) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformAchievementHandler::$$c__DisplayClass3_1*, "", "OculusPlatformAchievementHandler/<>c__DisplayClass3_1");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusPlatformAchievementHandler::$$c__DisplayClass3_1::$GetUnlockedAchievements$b__1
 // Il2CppName: <GetUnlockedAchievements>b__1
 template<>

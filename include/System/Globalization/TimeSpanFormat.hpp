@@ -147,6 +147,7 @@ namespace System::Globalization {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TimeSpanFormat*, "System.Globalization", "TimeSpanFormat");
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TimeSpanFormat::FormatLiterals, "System.Globalization", "TimeSpanFormat/FormatLiterals");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::TimeSpanFormat::IntToString
 // Il2CppName: IntToString
 template<>

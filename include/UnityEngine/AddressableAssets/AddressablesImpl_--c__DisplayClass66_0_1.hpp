@@ -55,3 +55,4 @@ namespace UnityEngine::AddressableAssets {
   // Could not write size check! Type: UnityEngine.AddressableAssets.AddressablesImpl/<>c__DisplayClass66_0`1 is generic, or has no fields that are valid for size checks!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass66_0_1, "UnityEngine.AddressableAssets", "AddressablesImpl/<>c__DisplayClass66_0`1");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

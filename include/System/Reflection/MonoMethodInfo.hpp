@@ -110,6 +110,7 @@ namespace System::Reflection {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoMethodInfo, "System.Reflection", "MonoMethodInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::MonoMethodInfo::get_method_info
 // Il2CppName: get_method_info
 template<>

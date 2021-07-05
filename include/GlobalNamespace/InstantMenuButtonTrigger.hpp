@@ -80,6 +80,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(InstantMenuButtonTrigger) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::InstantMenuButtonTrigger*, "", "InstantMenuButtonTrigger");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::InstantMenuButtonTrigger::add_menuButtonTriggeredEvent
 // Il2CppName: add_menuButtonTriggeredEvent
 template<>

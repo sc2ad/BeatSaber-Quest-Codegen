@@ -45,6 +45,7 @@ namespace Mono::Xml {
   static_assert(sizeof(SmallXmlParserException) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Xml::SmallXmlParserException*, "Mono.Xml", "SmallXmlParserException");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Xml::SmallXmlParserException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

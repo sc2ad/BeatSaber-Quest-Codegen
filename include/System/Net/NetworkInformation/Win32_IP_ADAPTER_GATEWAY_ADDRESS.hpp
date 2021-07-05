@@ -52,3 +52,4 @@ namespace System::Net::NetworkInformation {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_IP_ADAPTER_GATEWAY_ADDRESS, "System.Net.NetworkInformation", "Win32_IP_ADAPTER_GATEWAY_ADDRESS");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

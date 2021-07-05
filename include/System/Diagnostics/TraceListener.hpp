@@ -106,6 +106,7 @@ namespace System::Diagnostics {
   static_assert(sizeof(TraceListener) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::TraceListener*, "System.Diagnostics", "TraceListener");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::TraceListener::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

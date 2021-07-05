@@ -88,6 +88,7 @@ namespace UnityEngine::Audio {
   static_assert(sizeof(AudioMixerPlayable) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Audio::AudioMixerPlayable, "UnityEngine.Audio", "AudioMixerPlayable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Audio::AudioMixerPlayable::Create
 // Il2CppName: Create
 template<>

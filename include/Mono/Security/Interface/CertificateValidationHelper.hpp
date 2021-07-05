@@ -44,6 +44,7 @@ namespace Mono::Security::Interface {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::CertificateValidationHelper*, "Mono.Security.Interface", "CertificateValidationHelper");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Interface::CertificateValidationHelper::_cctor
 // Il2CppName: .cctor
 template<>

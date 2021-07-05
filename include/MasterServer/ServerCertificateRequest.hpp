@@ -106,6 +106,7 @@ namespace MasterServer {
   static_assert(sizeof(ServerCertificateRequest) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ServerCertificateRequest*, "MasterServer", "ServerCertificateRequest");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::ServerCertificateRequest::get_pool
 // Il2CppName: get_pool
 template<>

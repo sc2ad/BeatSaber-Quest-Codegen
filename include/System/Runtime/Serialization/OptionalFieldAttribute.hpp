@@ -51,6 +51,7 @@ namespace System::Runtime::Serialization {
   static_assert(sizeof(OptionalFieldAttribute) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::OptionalFieldAttribute*, "System.Runtime.Serialization", "OptionalFieldAttribute");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::OptionalFieldAttribute::set_VersionAdded
 // Il2CppName: set_VersionAdded
 template<>

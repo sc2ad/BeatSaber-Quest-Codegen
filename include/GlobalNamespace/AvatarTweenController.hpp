@@ -418,6 +418,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(AvatarTweenController) == 0x140);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarTweenController*, "", "AvatarTweenController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarTweenController::Awake
 // Il2CppName: Awake
 template<>

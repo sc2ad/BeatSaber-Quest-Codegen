@@ -112,6 +112,7 @@ namespace MasterServer {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseClientMessageHandler::$SendOrderedAuthenticatedRequest$d__18, "MasterServer", "BaseClientMessageHandler/<SendOrderedAuthenticatedRequest>d__18");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::$SendOrderedAuthenticatedRequest$d__18::MoveNext
 // Il2CppName: MoveNext
 template<>

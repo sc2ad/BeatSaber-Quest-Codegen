@@ -49,3 +49,4 @@ namespace System::Runtime::Remoting::Channels {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::CrossAppDomainSink::ProcessMessageRes, "System.Runtime.Remoting.Channels", "CrossAppDomainSink/ProcessMessageRes");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

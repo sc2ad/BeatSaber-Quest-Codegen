@@ -50,6 +50,7 @@ namespace TMPro {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontUtilities*, "TMPro", "TMP_FontUtilities");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_FontUtilities::SearchForCharacter
 // Il2CppName: SearchForCharacter
 template<>

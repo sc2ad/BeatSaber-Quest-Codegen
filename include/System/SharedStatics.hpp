@@ -58,6 +58,7 @@ namespace System {
   static_assert(sizeof(SharedStatics) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::SharedStatics*, "System", "SharedStatics");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::SharedStatics::GetSharedStringMaker
 // Il2CppName: GetSharedStringMaker
 template<>

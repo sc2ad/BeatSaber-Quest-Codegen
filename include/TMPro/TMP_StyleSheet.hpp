@@ -95,6 +95,7 @@ namespace TMPro {
   static_assert(sizeof(TMP_StyleSheet) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_StyleSheet*, "TMPro", "TMP_StyleSheet");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_StyleSheet::get_instance
 // Il2CppName: get_instance
 template<>

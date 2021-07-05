@@ -64,6 +64,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ModifiersSelectionView::$$c__DisplayClass3_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ModifiersSelectionView::$$c__DisplayClass3_0*, "", "ModifiersSelectionView/<>c__DisplayClass3_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ModifiersSelectionView::$$c__DisplayClass3_0::$SetGameplayModifiers$b__0
 // Il2CppName: <SetGameplayModifiers>b__0
 template<>

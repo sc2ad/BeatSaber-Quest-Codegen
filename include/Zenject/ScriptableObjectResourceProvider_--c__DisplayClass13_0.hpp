@@ -78,6 +78,7 @@ namespace Zenject {
   static_assert(sizeof(ScriptableObjectResourceProvider::$$c__DisplayClass13_0) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScriptableObjectResourceProvider::$$c__DisplayClass13_0*, "Zenject", "ScriptableObjectResourceProvider/<>c__DisplayClass13_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ScriptableObjectResourceProvider::$$c__DisplayClass13_0::$GetAllInstancesWithInjectSplit$b__0
 // Il2CppName: <GetAllInstancesWithInjectSplit>b__0
 template<>

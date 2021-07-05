@@ -893,6 +893,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager*, "", "MenuRpcManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager::RpcType, "", "MenuRpcManager/RpcType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::get_multiplayerSessionManager
 // Il2CppName: get_multiplayerSessionManager
 template<>

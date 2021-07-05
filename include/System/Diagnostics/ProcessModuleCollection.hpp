@@ -22,3 +22,4 @@ namespace System::Diagnostics {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::ProcessModuleCollection*, "System.Diagnostics", "ProcessModuleCollection");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -71,6 +71,7 @@ namespace NUnit::Framework::Internal {
   static_assert(sizeof(TestCaseParameters) == 0x41);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestCaseParameters*, "NUnit.Framework.Internal", "TestCaseParameters");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestCaseParameters::get_ExpectedResult
 // Il2CppName: get_ExpectedResult
 template<>

@@ -53,6 +53,7 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
   static_assert(sizeof(Ed448::PointExt) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt*, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed448/PointExt");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointExt::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

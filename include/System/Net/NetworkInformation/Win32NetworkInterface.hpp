@@ -41,6 +41,7 @@ namespace System::Net::NetworkInformation {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32NetworkInterface*, "System.Net.NetworkInformation", "Win32NetworkInterface");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::Win32NetworkInterface::GetNetworkParams
 // Il2CppName: GetNetworkParams
 template<>

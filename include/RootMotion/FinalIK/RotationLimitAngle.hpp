@@ -82,6 +82,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(RotationLimitAngle) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RotationLimitAngle*, "RootMotion.FinalIK", "RotationLimitAngle");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitAngle::OpenUserManual
 // Il2CppName: OpenUserManual
 template<>

@@ -50,6 +50,7 @@ namespace UnityEngine::Bindings {
   static_assert(sizeof(NativeNameAttribute) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeNameAttribute*, "UnityEngine.Bindings", "NativeNameAttribute");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Bindings::NativeNameAttribute::set_Name
 // Il2CppName: set_Name
 template<>

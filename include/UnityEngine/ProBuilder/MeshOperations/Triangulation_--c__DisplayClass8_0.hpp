@@ -71,6 +71,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static_assert(sizeof(Triangulation::$$c__DisplayClass8_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::Triangulation::$$c__DisplayClass8_0*, "UnityEngine.ProBuilder.MeshOperations", "Triangulation/<>c__DisplayClass8_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::Triangulation::$$c__DisplayClass8_0::$Triangulate$b__0
 // Il2CppName: <Triangulate>b__0
 template<>

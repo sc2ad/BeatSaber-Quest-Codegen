@@ -263,6 +263,7 @@ namespace System::Runtime::Remoting::Messaging {
   static_assert(sizeof(MonoMethodMessage) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::MonoMethodMessage*, "System.Runtime.Remoting.Messaging", "MonoMethodMessage");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MonoMethodMessage::InitMessage
 // Il2CppName: InitMessage
 template<>

@@ -31,6 +31,7 @@ namespace UnityEngine::TestTools::Utils {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::IAssemblyLoadProxy*, "UnityEngine.TestTools.Utils", "IAssemblyLoadProxy");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::Utils::IAssemblyLoadProxy::Load
 // Il2CppName: Load
 template<>

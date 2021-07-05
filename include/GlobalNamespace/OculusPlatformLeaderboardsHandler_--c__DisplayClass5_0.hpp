@@ -72,6 +72,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OculusPlatformLeaderboardsHandler::$$c__DisplayClass5_0) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c__DisplayClass5_0*, "", "OculusPlatformLeaderboardsHandler/<>c__DisplayClass5_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c__DisplayClass5_0::$GetScores$b__0
 // Il2CppName: <GetScores>b__0
 template<>

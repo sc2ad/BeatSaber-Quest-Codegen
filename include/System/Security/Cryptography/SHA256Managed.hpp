@@ -122,6 +122,7 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(SHA256Managed) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SHA256Managed*, "System.Security.Cryptography", "SHA256Managed");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::SHA256Managed::InitializeState
 // Il2CppName: InitializeState
 template<>

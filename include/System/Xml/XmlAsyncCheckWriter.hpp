@@ -190,6 +190,7 @@ namespace System::Xml {
   static_assert(sizeof(XmlAsyncCheckWriter) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlAsyncCheckWriter*, "System.Xml", "XmlAsyncCheckWriter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlAsyncCheckWriter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

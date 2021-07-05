@@ -169,6 +169,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SceneStartSyncController) == 0x55);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SceneStartSyncController*, "", "SceneStartSyncController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SceneStartSyncController::add_syncStartDidSuccessEvent
 // Il2CppName: add_syncStartDidSuccessEvent
 template<>

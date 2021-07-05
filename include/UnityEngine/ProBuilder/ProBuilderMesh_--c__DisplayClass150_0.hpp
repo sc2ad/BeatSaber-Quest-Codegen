@@ -56,6 +56,7 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(ProBuilderMesh::$$c__DisplayClass150_0) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass150_0*, "UnityEngine.ProBuilder", "ProBuilderMesh/<>c__DisplayClass150_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass150_0::$GetUnusedTextureGroup$b__0
 // Il2CppName: <GetUnusedTextureGroup>b__0
 template<>

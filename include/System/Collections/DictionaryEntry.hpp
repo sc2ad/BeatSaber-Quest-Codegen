@@ -55,6 +55,7 @@ namespace System::Collections {
   static_assert(sizeof(DictionaryEntry) == 0x10);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::DictionaryEntry, "System.Collections", "DictionaryEntry");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::DictionaryEntry::DictionaryEntry
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

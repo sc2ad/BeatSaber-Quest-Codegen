@@ -80,6 +80,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   static_assert(sizeof(InstanceProvider) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider*, "UnityEngine.ResourceManagement.ResourceProviders", "InstanceProvider");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider::ProvideInstance
 // Il2CppName: ProvideInstance
 template<>

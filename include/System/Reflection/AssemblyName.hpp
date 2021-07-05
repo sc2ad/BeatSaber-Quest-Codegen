@@ -275,6 +275,7 @@ namespace System::Reflection {
   static_assert(sizeof(AssemblyName) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyName*, "System.Reflection", "AssemblyName");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::AssemblyName::ParseAssemblyName
 // Il2CppName: ParseAssemblyName
 template<>

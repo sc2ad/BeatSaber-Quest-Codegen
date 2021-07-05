@@ -132,6 +132,7 @@ namespace Zenject {
   static_assert(sizeof(DiContainer::$GetDependencyContracts$d__96) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DiContainer::$GetDependencyContracts$d__96*, "Zenject", "DiContainer/<GetDependencyContracts>d__96");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::DiContainer::$GetDependencyContracts$d__96::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

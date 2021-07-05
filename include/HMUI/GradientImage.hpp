@@ -192,6 +192,7 @@ namespace HMUI {
   static_assert(sizeof(GradientImage) == 0x120);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::GradientImage*, "HMUI", "GradientImage");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::GradientImage::get_color0
 // Il2CppName: get_color0
 template<>

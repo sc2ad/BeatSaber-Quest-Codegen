@@ -52,6 +52,7 @@ namespace Zenject {
   static_assert(sizeof(GuiRenderableManager::RenderableInfo) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::GuiRenderableManager::RenderableInfo*, "Zenject", "GuiRenderableManager/RenderableInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::GuiRenderableManager::RenderableInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

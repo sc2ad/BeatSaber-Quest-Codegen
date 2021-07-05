@@ -115,6 +115,7 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
   static_assert(sizeof(DiagnosticEvent) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent, "UnityEngine.ResourceManagement.Diagnostics", "DiagnosticEvent");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent::get_Graph
 // Il2CppName: get_Graph
 template<>

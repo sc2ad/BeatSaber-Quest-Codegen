@@ -105,6 +105,7 @@ namespace UnityEngine::Animations {
   static_assert(sizeof(AnimationOffsetPlayable) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimationOffsetPlayable, "UnityEngine.Animations", "AnimationOffsetPlayable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimationOffsetPlayable::Create
 // Il2CppName: Create
 template<>

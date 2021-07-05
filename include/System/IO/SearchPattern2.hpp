@@ -90,6 +90,7 @@ namespace System::IO {
   static_assert(sizeof(SearchPattern2) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::SearchPattern2*, "System.IO", "SearchPattern2");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::SearchPattern2::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

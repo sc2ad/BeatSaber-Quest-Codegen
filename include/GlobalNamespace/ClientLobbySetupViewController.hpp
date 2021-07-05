@@ -210,6 +210,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ClientLobbySetupViewController) == 0xC8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ClientLobbySetupViewController*, "", "ClientLobbySetupViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ClientLobbySetupViewController::add_suggestBeatmapEvent
 // Il2CppName: add_suggestBeatmapEvent
 template<>

@@ -168,6 +168,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteFloorMovement) == 0x84);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteFloorMovement*, "", "NoteFloorMovement");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteFloorMovement::add_floorMovementDidFinishEvent
 // Il2CppName: add_floorMovementDidFinishEvent
 template<>

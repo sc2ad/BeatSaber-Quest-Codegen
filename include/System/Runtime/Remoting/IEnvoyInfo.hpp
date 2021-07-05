@@ -29,6 +29,7 @@ namespace System::Runtime::Remoting {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::IEnvoyInfo*, "System.Runtime.Remoting", "IEnvoyInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::IEnvoyInfo::get_EnvoySinks
 // Il2CppName: get_EnvoySinks
 template<>

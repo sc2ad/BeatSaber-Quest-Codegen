@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithLeaderboardEntryList
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithLeaderboardEntryList*, "Oculus.Platform", "MessageWithLeaderboardEntryList");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithLeaderboardEntryList::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

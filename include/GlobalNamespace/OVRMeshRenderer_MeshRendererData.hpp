@@ -68,6 +68,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer::MeshRendererData, "", "OVRMeshRenderer/MeshRendererData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRMeshRenderer::MeshRendererData::get_IsDataValid
 // Il2CppName: get_IsDataValid
 template<>

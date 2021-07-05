@@ -178,6 +178,7 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Renderer*, "UnityEngine", "Renderer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Renderer::get_bounds
 // Il2CppName: get_bounds
 template<>

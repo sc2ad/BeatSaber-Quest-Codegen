@@ -188,6 +188,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ColorScheme) == 0xA8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorScheme*, "", "ColorScheme");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorScheme::get_colorSchemeId
 // Il2CppName: get_colorSchemeId
 template<>

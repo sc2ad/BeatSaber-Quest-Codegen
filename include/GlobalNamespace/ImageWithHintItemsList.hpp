@@ -43,6 +43,7 @@ namespace GlobalNamespace {
   }; // ImageWithHintItemsList
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ImageWithHintItemsList*, "", "ImageWithHintItemsList");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ImageWithHintItemsList::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

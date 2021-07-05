@@ -204,6 +204,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LevelPackDetailViewController) == 0xD8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelPackDetailViewController*, "", "LevelPackDetailViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelPackDetailViewController::SetData
 // Il2CppName: SetData
 template<>

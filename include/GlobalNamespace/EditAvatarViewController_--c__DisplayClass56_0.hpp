@@ -95,6 +95,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(EditAvatarViewController::$$c__DisplayClass56_0) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditAvatarViewController::$$c__DisplayClass56_0*, "", "EditAvatarViewController/<>c__DisplayClass56_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::$$c__DisplayClass56_0::$SetupColorButton$b__0
 // Il2CppName: <SetupColorButton>b__0
 template<>

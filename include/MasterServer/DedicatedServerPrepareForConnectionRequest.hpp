@@ -125,6 +125,7 @@ namespace MasterServer {
   static_assert(sizeof(DedicatedServerPrepareForConnectionRequest) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::DedicatedServerPrepareForConnectionRequest*, "MasterServer", "DedicatedServerPrepareForConnectionRequest");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::DedicatedServerPrepareForConnectionRequest::get_pool
 // Il2CppName: get_pool
 template<>

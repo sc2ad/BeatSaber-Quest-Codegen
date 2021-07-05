@@ -156,6 +156,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IConnectionManager*, "", "IConnectionManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IConnectionManager::add_onConnectedEvent
 // Il2CppName: add_onConnectedEvent
 template<>

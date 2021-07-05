@@ -99,6 +99,7 @@ namespace HMUI {
   static_assert(sizeof(CurvedCanvasSettings) == 0x91);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::CurvedCanvasSettings*, "HMUI", "CurvedCanvasSettings");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::CurvedCanvasSettings::get_radius
 // Il2CppName: get_radius
 template<>

@@ -63,6 +63,7 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionAssemblySelectionBinder::$$c*, "Zenject", "ConventionAssemblySelectionBinder/<>c");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ConventionAssemblySelectionBinder::$$c::_cctor
 // Il2CppName: .cctor
 template<>

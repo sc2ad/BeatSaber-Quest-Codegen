@@ -967,6 +967,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::NamespaceKind, "System.
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::Namespace, "System.Xml", "XmlWellFormedWriter/Namespace");
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::AttrName, "System.Xml", "XmlWellFormedWriter/AttrName");
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::SpecialAttribute, "System.Xml", "XmlWellFormedWriter/SpecialAttribute");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

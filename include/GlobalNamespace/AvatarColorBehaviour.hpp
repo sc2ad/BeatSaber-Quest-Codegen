@@ -101,6 +101,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(AvatarColorBehaviour) == 0x44);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarColorBehaviour*, "", "AvatarColorBehaviour");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarColorBehaviour::OnGraphStart
 // Il2CppName: OnGraphStart
 template<>

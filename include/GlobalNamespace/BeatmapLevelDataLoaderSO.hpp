@@ -155,6 +155,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataLoaderSO*, "", "BeatmapLevelDataLoaderSO");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataLoaderSO::AssetBundleLevelInfo, "", "BeatmapLevelDataLoaderSO/AssetBundleLevelInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataLoaderSO::LoadBeatmapLevelFormAssetBundleAsync
 // Il2CppName: LoadBeatmapLevelFormAssetBundleAsync
 template<>

@@ -435,6 +435,7 @@ namespace HMUI {
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableView*, "HMUI", "TableView");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableView::TableType, "HMUI", "TableView/TableType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::TableView::get_selectionType
 // Il2CppName: get_selectionType
 template<>

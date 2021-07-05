@@ -131,6 +131,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRSceneSampleController) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSceneSampleController*, "", "OVRSceneSampleController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRSceneSampleController::Awake
 // Il2CppName: Awake
 template<>

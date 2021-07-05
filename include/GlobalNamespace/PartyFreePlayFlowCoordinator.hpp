@@ -170,6 +170,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PartyFreePlayFlowCoordinator) == 0x148);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyFreePlayFlowCoordinator*, "", "PartyFreePlayFlowCoordinator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PartyFreePlayFlowCoordinator::WillScoreGoToLeaderboard
 // Il2CppName: WillScoreGoToLeaderboard
 template<>

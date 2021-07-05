@@ -70,6 +70,7 @@ namespace System::Net {
   static_assert(sizeof(EmptyWebProxy) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::EmptyWebProxy*, "System.Net", "EmptyWebProxy");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::EmptyWebProxy::GetProxy
 // Il2CppName: GetProxy
 template<>

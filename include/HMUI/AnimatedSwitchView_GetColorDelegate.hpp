@@ -56,6 +56,7 @@ namespace HMUI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::AnimatedSwitchView::GetColorDelegate*, "HMUI", "AnimatedSwitchView/GetColorDelegate");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::AnimatedSwitchView::GetColorDelegate::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

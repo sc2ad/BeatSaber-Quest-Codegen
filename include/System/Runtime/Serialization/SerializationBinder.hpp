@@ -45,6 +45,7 @@ namespace System::Runtime::Serialization {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationBinder*, "System.Runtime.Serialization", "SerializationBinder");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationBinder::BindToName
 // Il2CppName: BindToName
 template<>

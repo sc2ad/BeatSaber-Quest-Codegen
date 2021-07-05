@@ -222,6 +222,7 @@ namespace Tweening {
   static_assert(sizeof(Tween) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(Tweening::Tween*, "Tweening", "Tween");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Tweening::Tween::get_progress
 // Il2CppName: get_progress
 template<>

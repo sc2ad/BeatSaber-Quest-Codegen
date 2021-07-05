@@ -50,3 +50,4 @@ namespace System::Xml {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::NamespaceHandling, "System.Xml", "NamespaceHandling");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

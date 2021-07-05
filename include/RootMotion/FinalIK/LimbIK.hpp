@@ -81,6 +81,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(LimbIK) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::LimbIK*, "RootMotion.FinalIK", "LimbIK");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::LimbIK::SupportGroup
 // Il2CppName: SupportGroup
 template<>

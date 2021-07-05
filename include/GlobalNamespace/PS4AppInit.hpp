@@ -116,6 +116,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PS4AppInit) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4AppInit*, "", "PS4AppInit");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PS4AppInit::AppStartAndMultiSceneEditorSetup
 // Il2CppName: AppStartAndMultiSceneEditorSetup
 template<>

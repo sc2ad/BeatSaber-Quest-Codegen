@@ -45,6 +45,7 @@ namespace System::Security::Util {
   static_assert(sizeof(TokenizerShortBlock) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::TokenizerShortBlock*, "System.Security.Util", "TokenizerShortBlock");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Util::TokenizerShortBlock::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

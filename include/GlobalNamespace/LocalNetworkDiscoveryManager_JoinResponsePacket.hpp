@@ -80,6 +80,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LocalNetworkDiscoveryManager::JoinResponsePacket) == 0x25);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager::JoinResponsePacket*, "", "LocalNetworkDiscoveryManager/JoinResponsePacket");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::JoinResponsePacket::Serialize
 // Il2CppName: Serialize
 template<>

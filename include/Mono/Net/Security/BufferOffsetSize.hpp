@@ -72,6 +72,7 @@ namespace Mono::Net::Security {
   static_assert(sizeof(BufferOffsetSize) == 0x25);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::BufferOffsetSize*, "Mono.Net.Security", "BufferOffsetSize");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::BufferOffsetSize::get_EndOffset
 // Il2CppName: get_EndOffset
 template<>

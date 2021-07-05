@@ -1174,6 +1174,7 @@ DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::MessageOrigin, "MasterServe
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::HandshakeMessageType, "MasterServer", "MessageHandler/HandshakeMessageType");
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::UserMessageType, "MasterServer", "MessageHandler/UserMessageType");
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::DedicatedServerMessageType, "MasterServer", "MessageHandler/DedicatedServerMessageType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::MessageHandler::get_encryptionLayer
 // Il2CppName: get_encryptionLayer
 template<>

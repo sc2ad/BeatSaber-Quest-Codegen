@@ -281,6 +281,7 @@ namespace HMUI {
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ImageView*, "HMUI", "ImageView");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ImageView::GradientDirection, "HMUI", "ImageView/GradientDirection");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ImageView::get_gradient
 // Il2CppName: get_gradient
 template<>

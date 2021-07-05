@@ -155,6 +155,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(BipedIK) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::BipedIK*, "RootMotion.FinalIK", "BipedIK");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIK::OpenUserManual
 // Il2CppName: OpenUserManual
 template<>

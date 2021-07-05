@@ -96,6 +96,7 @@ namespace UnityEngine::ResourceManagement::Util {
   static_assert(sizeof(ObjectInitializationData) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::ObjectInitializationData, "UnityEngine.ResourceManagement.Util", "ObjectInitializationData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::ObjectInitializationData::get_Id
 // Il2CppName: get_Id
 template<>

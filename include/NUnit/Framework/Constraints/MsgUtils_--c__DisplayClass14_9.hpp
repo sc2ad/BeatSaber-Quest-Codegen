@@ -56,6 +56,7 @@ namespace NUnit::Framework::Constraints {
   static_assert(sizeof(MsgUtils::$$c__DisplayClass14_9) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::MsgUtils::$$c__DisplayClass14_9*, "NUnit.Framework.Constraints", "MsgUtils/<>c__DisplayClass14_9");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::$$c__DisplayClass14_9::$_cctor$b__20
 // Il2CppName: <.cctor>b__20
 template<>

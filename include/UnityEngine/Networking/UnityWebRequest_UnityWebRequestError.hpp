@@ -213,3 +213,4 @@ namespace UnityEngine::Networking {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequest::UnityWebRequestError, "UnityEngine.Networking", "UnityWebRequest/UnityWebRequestError");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

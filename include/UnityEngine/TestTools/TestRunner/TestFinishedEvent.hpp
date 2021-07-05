@@ -40,6 +40,7 @@ namespace UnityEngine::TestTools::TestRunner {
   }; // UnityEngine.TestTools.TestRunner.TestFinishedEvent
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::TestFinishedEvent*, "UnityEngine.TestTools.TestRunner", "TestFinishedEvent");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::TestFinishedEvent::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

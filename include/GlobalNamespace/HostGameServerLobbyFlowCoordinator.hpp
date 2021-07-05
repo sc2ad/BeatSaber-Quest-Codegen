@@ -321,6 +321,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(HostGameServerLobbyFlowCoordinator) == 0x1D0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HostGameServerLobbyFlowCoordinator*, "", "HostGameServerLobbyFlowCoordinator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::add_willFinishEvent
 // Il2CppName: add_willFinishEvent
 template<>

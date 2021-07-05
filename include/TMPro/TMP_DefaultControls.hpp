@@ -114,6 +114,7 @@ namespace TMPro {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_DefaultControls*, "TMPro", "TMP_DefaultControls");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_DefaultControls::CreateUIElementRoot
 // Il2CppName: CreateUIElementRoot
 template<>

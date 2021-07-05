@@ -38,6 +38,7 @@ namespace System::Security::Cryptography {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SHA384*, "System.Security.Cryptography", "SHA384");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::SHA384::Create
 // Il2CppName: Create
 template<>

@@ -114,6 +114,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SpriteLightWithId) == 0x4E);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpriteLightWithId*, "", "SpriteLightWithId");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SpriteLightWithId::get_color
 // Il2CppName: get_color
 template<>

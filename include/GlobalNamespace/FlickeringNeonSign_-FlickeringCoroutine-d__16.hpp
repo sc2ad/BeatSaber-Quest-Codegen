@@ -75,6 +75,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FlickeringNeonSign::$FlickeringCoroutine$d__16) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlickeringNeonSign::$FlickeringCoroutine$d__16*, "", "FlickeringNeonSign/<FlickeringCoroutine>d__16");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FlickeringNeonSign::$FlickeringCoroutine$d__16::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -61,6 +61,7 @@ namespace UnityEngine::Timeline {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackAsset::$$c*, "UnityEngine.Timeline", "TrackAsset/<>c");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::$$c::_cctor
 // Il2CppName: .cctor
 template<>

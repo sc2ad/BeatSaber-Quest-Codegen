@@ -165,6 +165,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKSolverLeg) == 0xC0);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverLeg*, "RootMotion.FinalIK", "IKSolverLeg");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverLeg::SetChain
 // Il2CppName: SetChain
 template<>

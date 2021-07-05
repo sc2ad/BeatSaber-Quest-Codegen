@@ -130,6 +130,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(Inertia::Body) == 0x61);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Inertia::Body*, "RootMotion.FinalIK", "Inertia/Body");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::Inertia::Body::Reset
 // Il2CppName: Reset
 template<>

@@ -212,6 +212,7 @@ namespace UnityEngine::ProBuilder {
   bool operator !=(UnityEngine::ProBuilder::SceneSelection* left, UnityEngine::ProBuilder::SceneSelection& right);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SceneSelection*, "UnityEngine.ProBuilder", "SceneSelection");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SceneSelection::get_vertexes
 // Il2CppName: get_vertexes
 template<>

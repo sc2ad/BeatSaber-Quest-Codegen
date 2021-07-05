@@ -132,6 +132,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::X962NamedCurves*, "Org.BouncyCastle.Asn1.X9", "X962NamedCurves");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X9::X962NamedCurves::ConfigureBasepoint
 // Il2CppName: ConfigureBasepoint
 template<>

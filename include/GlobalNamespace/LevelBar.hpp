@@ -145,6 +145,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LevelBar) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelBar*, "", "LevelBar");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelBar::set_hide
 // Il2CppName: set_hide
 template<>

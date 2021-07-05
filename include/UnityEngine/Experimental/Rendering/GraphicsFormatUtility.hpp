@@ -65,6 +65,7 @@ namespace UnityEngine::Experimental::Rendering {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::GraphicsFormatUtility*, "UnityEngine.Experimental.Rendering", "GraphicsFormatUtility");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Experimental::Rendering::GraphicsFormatUtility::GetGraphicsFormat
 // Il2CppName: GetGraphicsFormat
 template<>

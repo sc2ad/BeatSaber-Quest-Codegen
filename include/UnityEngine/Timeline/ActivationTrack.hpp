@@ -157,6 +157,7 @@ namespace UnityEngine::Timeline {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ActivationTrack*, "UnityEngine.Timeline", "ActivationTrack");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ActivationTrack::PostPlaybackState, "UnityEngine.Timeline", "ActivationTrack/PostPlaybackState");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::ActivationTrack::get_postPlaybackState
 // Il2CppName: get_postPlaybackState
 template<>

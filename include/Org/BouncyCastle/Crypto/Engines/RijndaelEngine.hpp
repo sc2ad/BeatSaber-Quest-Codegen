@@ -240,6 +240,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   static_assert(sizeof(RijndaelEngine) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::RijndaelEngine*, "Org.BouncyCastle.Crypto.Engines", "RijndaelEngine");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::RijndaelEngine::Mul0x2
 // Il2CppName: Mul0x2
 template<>

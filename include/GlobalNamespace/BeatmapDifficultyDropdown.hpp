@@ -131,6 +131,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapDifficultyDropdown) == 0x31);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDifficultyDropdown*, "", "BeatmapDifficultyDropdown");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDifficultyDropdown::add_didSelectCellWithIdxEvent
 // Il2CppName: add_didSelectCellWithIdxEvent
 template<>

@@ -138,6 +138,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::Media*, "", "OVRPlugin/Media");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::Media::Initialize
 // Il2CppName: Initialize
 template<>

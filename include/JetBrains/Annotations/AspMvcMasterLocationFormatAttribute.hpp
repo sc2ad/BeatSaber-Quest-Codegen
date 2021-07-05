@@ -51,6 +51,7 @@ namespace JetBrains::Annotations {
   static_assert(sizeof(AspMvcMasterLocationFormatAttribute) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspMvcMasterLocationFormatAttribute*, "JetBrains.Annotations", "AspMvcMasterLocationFormatAttribute");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::AspMvcMasterLocationFormatAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

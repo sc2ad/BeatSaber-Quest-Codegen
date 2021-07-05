@@ -235,6 +235,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SimpleRetailDemoFlowCoordinator) == 0x138);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleRetailDemoFlowCoordinator*, "", "SimpleRetailDemoFlowCoordinator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleRetailDemoFlowCoordinator::HandleSimpleDemoViewControllerDidFinish
 // Il2CppName: HandleSimpleDemoViewControllerDidFinish
 template<>

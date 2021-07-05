@@ -145,6 +145,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FirstPersonFlyingController) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FirstPersonFlyingController*, "", "FirstPersonFlyingController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FirstPersonFlyingController::Awake
 // Il2CppName: Awake
 template<>

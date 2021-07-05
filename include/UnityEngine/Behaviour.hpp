@@ -46,6 +46,7 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Behaviour*, "UnityEngine", "Behaviour");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Behaviour::get_enabled
 // Il2CppName: get_enabled
 template<>

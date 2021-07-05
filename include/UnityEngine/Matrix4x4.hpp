@@ -280,6 +280,7 @@ namespace UnityEngine {
   UnityEngine::Vector4 operator*(const UnityEngine::Matrix4x4& lhs, const UnityEngine::Vector4& vector);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Matrix4x4, "UnityEngine", "Matrix4x4");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Matrix4x4::GetLossyScale
 // Il2CppName: GetLossyScale
 template<>

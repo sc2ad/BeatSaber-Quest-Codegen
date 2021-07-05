@@ -87,6 +87,7 @@ namespace NUnit::Framework::Internal::Builders {
   static_assert(sizeof(NUnitTestFixtureBuilder) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder*, "NUnit.Framework.Internal.Builders", "NUnitTestFixtureBuilder");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::NUnitTestFixtureBuilder::BuildFrom
 // Il2CppName: BuildFrom
 template<>

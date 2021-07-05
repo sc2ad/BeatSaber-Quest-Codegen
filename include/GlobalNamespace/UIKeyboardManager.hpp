@@ -142,6 +142,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(UIKeyboardManager) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UIKeyboardManager*, "", "UIKeyboardManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::UIKeyboardManager::get_keyboard
 // Il2CppName: get_keyboard
 template<>

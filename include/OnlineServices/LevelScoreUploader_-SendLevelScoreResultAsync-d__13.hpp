@@ -108,6 +108,7 @@ namespace OnlineServices {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LevelScoreUploader::$SendLevelScoreResultAsync$d__13, "OnlineServices", "LevelScoreUploader/<SendLevelScoreResultAsync>d__13");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OnlineServices::LevelScoreUploader::$SendLevelScoreResultAsync$d__13::MoveNext
 // Il2CppName: MoveNext
 template<>

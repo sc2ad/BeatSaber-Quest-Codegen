@@ -74,6 +74,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(CrashManagerSO) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CrashManagerSO*, "", "CrashManagerSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CrashManagerSO::get_logString
 // Il2CppName: get_logString
 template<>

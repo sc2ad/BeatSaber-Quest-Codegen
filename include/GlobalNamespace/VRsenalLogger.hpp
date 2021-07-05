@@ -102,6 +102,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(VRsenalLogger) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRsenalLogger*, "", "VRsenalLogger");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRsenalLogger::Awake
 // Il2CppName: Awake
 template<>

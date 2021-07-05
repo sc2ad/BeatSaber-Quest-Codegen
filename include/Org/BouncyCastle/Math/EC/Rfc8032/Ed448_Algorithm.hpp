@@ -51,3 +51,4 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::Algorithm, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed448/Algorithm");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -99,6 +99,7 @@ namespace System {
   static_assert(sizeof(MissingMemberException) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::MissingMemberException*, "System", "MissingMemberException");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::MissingMemberException::FormatSignature
 // Il2CppName: FormatSignature
 template<>

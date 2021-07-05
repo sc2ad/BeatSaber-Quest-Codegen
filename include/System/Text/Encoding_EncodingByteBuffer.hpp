@@ -131,6 +131,7 @@ namespace System::Text {
   static_assert(sizeof(Encoding::EncodingByteBuffer) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::Encoding::EncodingByteBuffer*, "System.Text", "Encoding/EncodingByteBuffer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::Encoding::EncodingByteBuffer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -129,6 +129,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameplayModifiersDropdown) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersDropdown*, "", "GameplayModifiersDropdown");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersDropdown::add_didSelectCellWithIdxEvent
 // Il2CppName: add_didSelectCellWithIdxEvent
 template<>

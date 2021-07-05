@@ -46,6 +46,7 @@ namespace System::Runtime::Serialization {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationEventsCache*, "System.Runtime.Serialization", "SerializationEventsCache");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationEventsCache::GetSerializationEventsForType
 // Il2CppName: GetSerializationEventsForType
 template<>

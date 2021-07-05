@@ -100,6 +100,7 @@ namespace Org::BouncyCastle::Asn1::Sec {
   static_assert(sizeof(ECPrivateKeyStructure) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure*, "Org.BouncyCastle.Asn1.Sec", "ECPrivateKeyStructure");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Sec::ECPrivateKeyStructure::GetInstance
 // Il2CppName: GetInstance
 template<>

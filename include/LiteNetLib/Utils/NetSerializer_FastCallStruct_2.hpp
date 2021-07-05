@@ -93,3 +93,4 @@ namespace LiteNetLib::Utils {
   // Could not write size check! Type: LiteNetLib.Utils.NetSerializer/FastCallStruct`2 is generic, or has no fields that are valid for size checks!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(LiteNetLib::Utils::NetSerializer::FastCallStruct_2, "LiteNetLib.Utils", "NetSerializer/FastCallStruct`2");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

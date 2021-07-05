@@ -64,6 +64,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseManager::$InitAsync$d__11, "", "NetEaseManager/<InitAsync>d__11");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NetEaseManager::$InitAsync$d__11::MoveNext
 // Il2CppName: MoveNext
 template<>

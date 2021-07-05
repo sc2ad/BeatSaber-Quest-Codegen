@@ -586,6 +586,7 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager*, "", "MasterServerConnectionManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager::ConnectionAttempt, "", "MasterServerConnectionManager/ConnectionAttempt");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerConnectionManager::ConnectionState, "", "MasterServerConnectionManager/ConnectionState");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerConnectionManager::add_onConnectedEvent
 // Il2CppName: add_onConnectedEvent
 template<>

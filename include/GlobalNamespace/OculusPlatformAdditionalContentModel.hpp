@@ -169,6 +169,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OculusPlatformAdditionalContentModel) == 0x41);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformAdditionalContentModel*, "", "OculusPlatformAdditionalContentModel");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusPlatformAdditionalContentModel::DataIsValidAsync
 // Il2CppName: DataIsValidAsync
 template<>

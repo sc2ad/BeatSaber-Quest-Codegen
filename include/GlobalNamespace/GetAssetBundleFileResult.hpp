@@ -51,6 +51,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(GetAssetBundleFileResult) == 0x10);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GetAssetBundleFileResult, "", "GetAssetBundleFileResult");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GetAssetBundleFileResult::GetAssetBundleFileResult
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

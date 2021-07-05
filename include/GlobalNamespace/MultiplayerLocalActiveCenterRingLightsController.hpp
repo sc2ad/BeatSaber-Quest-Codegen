@@ -120,6 +120,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLocalActiveCenterRingLightsController) == 0x42);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController*, "", "MultiplayerLocalActiveCenterRingLightsController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::Start
 // Il2CppName: Start
 template<>

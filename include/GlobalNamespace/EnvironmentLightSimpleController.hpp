@@ -74,6 +74,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnvironmentLightSimpleController) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentLightSimpleController*, "", "EnvironmentLightSimpleController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentLightSimpleController::LateUpdate
 // Il2CppName: LateUpdate
 template<>

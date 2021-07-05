@@ -49,3 +49,4 @@ namespace OVRSimpleJSON {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONContainerType, "OVRSimpleJSON", "JSONContainerType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

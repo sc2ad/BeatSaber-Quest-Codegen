@@ -56,6 +56,7 @@ namespace Il2CppDummyDll {
   }; // Il2CppDummyDll.AddressAttribute
 }
 DEFINE_IL2CPP_ARG_TYPE(Il2CppDummyDll::AddressAttribute*, "Il2CppDummyDll", "AddressAttribute");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Il2CppDummyDll::AddressAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

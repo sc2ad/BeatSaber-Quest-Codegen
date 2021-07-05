@@ -88,6 +88,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LiteNetLibConnectionManager::NetPeerConnectionRequest) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest*, "", "LiteNetLibConnectionManager/NetPeerConnectionRequest");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnectionRequest::get_userId
 // Il2CppName: get_userId
 template<>

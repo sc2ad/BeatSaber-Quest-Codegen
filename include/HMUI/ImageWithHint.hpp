@@ -79,6 +79,7 @@ namespace HMUI {
   static_assert(sizeof(ImageWithHint) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ImageWithHint*, "HMUI", "ImageWithHint");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ImageWithHint::set_sprite
 // Il2CppName: set_sprite
 template<>

@@ -93,6 +93,7 @@ namespace System::Text {
   static_assert(sizeof(Decoder) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::Decoder*, "System.Text", "Decoder");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::Decoder::SerializeDecoder
 // Il2CppName: SerializeDecoder
 template<>

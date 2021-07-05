@@ -143,6 +143,7 @@ namespace System::Resources {
   static_assert(sizeof(RuntimeResourceSet) == 0x41);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::RuntimeResourceSet*, "System.Resources", "RuntimeResourceSet");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Resources::RuntimeResourceSet::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -38,6 +38,7 @@ namespace GlobalNamespace {
   }; // BeatmapObjectExecutionRatingsRecorder/CutScoreHandler/Pool
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectExecutionRatingsRecorder_CutScoreHandler::Pool*, "", "BeatmapObjectExecutionRatingsRecorder/CutScoreHandler/Pool");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectExecutionRatingsRecorder_CutScoreHandler::Pool::OnDespawned
 // Il2CppName: OnDespawned
 template<>

@@ -63,6 +63,7 @@ namespace Zenject {
   static_assert(sizeof(FromBinder::$$c__DisplayClass65_0) == 0x11);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FromBinder::$$c__DisplayClass65_0*, "Zenject", "FromBinder/<>c__DisplayClass65_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::FromBinder::$$c__DisplayClass65_0::$FromComponentInHierarchy$b__0
 // Il2CppName: <FromComponentInHierarchy>b__0
 template<>

@@ -53,6 +53,7 @@ namespace Mono::Net::Security::Private {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::Private::CallbackHelpers*, "Mono.Net.Security.Private", "CallbackHelpers");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::Private::CallbackHelpers::PublicToMono
 // Il2CppName: PublicToMono
 template<>

@@ -119,6 +119,7 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(SignalReceiver) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SignalReceiver*, "UnityEngine.Timeline", "SignalReceiver");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::OnNotify
 // Il2CppName: OnNotify
 template<>

@@ -245,6 +245,7 @@ namespace Mono::Unity {
   static_assert(sizeof(UnityTlsContext) == 0xD0);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTlsContext*, "Mono.Unity", "UnityTlsContext");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Unity::UnityTlsContext::ExtractNativeKeyAndChainFromManagedCertificate
 // Il2CppName: ExtractNativeKeyAndChainFromManagedCertificate
 template<>

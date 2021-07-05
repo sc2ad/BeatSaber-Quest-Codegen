@@ -63,6 +63,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FlexyFollowAndRotate) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlexyFollowAndRotate*, "", "FlexyFollowAndRotate");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FlexyFollowAndRotate::Update
 // Il2CppName: Update
 template<>

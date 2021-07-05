@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerConnectedPlayerObstacleController) == 0x128);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerObstacleController*, "", "MultiplayerConnectedPlayerObstacleController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerObstacleController::Init
 // Il2CppName: Init
 template<>

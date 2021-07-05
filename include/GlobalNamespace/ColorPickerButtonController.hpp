@@ -73,6 +73,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ColorPickerButtonController) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorPickerButtonController*, "", "ColorPickerButtonController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorPickerButtonController::get_button
 // Il2CppName: get_button
 template<>

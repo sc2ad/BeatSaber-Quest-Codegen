@@ -61,6 +61,7 @@ namespace NUnit::Compatibility {
   static_assert(sizeof(AdditionalTypeExtensions::$$c__DisplayClass2_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0*, "NUnit.Compatibility", "AdditionalTypeExtensions/<>c__DisplayClass2_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Compatibility::AdditionalTypeExtensions::$$c__DisplayClass2_0::$IsCastableFrom$b__0
 // Il2CppName: <IsCastableFrom>b__0
 template<>

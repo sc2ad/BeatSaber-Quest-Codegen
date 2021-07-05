@@ -77,6 +77,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(DirectionalLightWithId) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DirectionalLightWithId*, "", "DirectionalLightWithId");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DirectionalLightWithId::ColorWasSet
 // Il2CppName: ColorWasSet
 template<>

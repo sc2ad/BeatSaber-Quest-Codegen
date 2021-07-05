@@ -182,6 +182,7 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(SymmetricAlgorithm) == 0x44);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SymmetricAlgorithm*, "System.Security.Cryptography", "SymmetricAlgorithm");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::Dispose
 // Il2CppName: Dispose
 template<>

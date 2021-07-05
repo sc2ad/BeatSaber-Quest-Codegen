@@ -119,6 +119,7 @@ namespace Org::BouncyCastle::X509 {
   static_assert(sizeof(X509CrlParser) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509CrlParser*, "Org.BouncyCastle.X509", "X509CrlParser");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::X509CrlParser::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

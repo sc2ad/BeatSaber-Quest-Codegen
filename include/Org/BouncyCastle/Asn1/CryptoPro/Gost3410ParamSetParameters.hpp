@@ -87,6 +87,7 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
   static_assert(sizeof(Gost3410ParamSetParameters) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters*, "Org.BouncyCastle.Asn1.CryptoPro", "Gost3410ParamSetParameters");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

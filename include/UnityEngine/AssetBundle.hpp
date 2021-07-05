@@ -136,6 +136,7 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssetBundle*, "UnityEngine", "AssetBundle");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::LoadFromFileAsync_Internal
 // Il2CppName: LoadFromFileAsync_Internal
 template<>

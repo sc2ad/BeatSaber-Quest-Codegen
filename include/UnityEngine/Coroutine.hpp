@@ -59,6 +59,7 @@ namespace UnityEngine {
   static_assert(sizeof(Coroutine) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Coroutine*, "UnityEngine", "Coroutine");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Coroutine::ReleaseCoroutine
 // Il2CppName: ReleaseCoroutine
 template<>

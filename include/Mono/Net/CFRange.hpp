@@ -53,6 +53,7 @@ namespace Mono::Net {
   static_assert(sizeof(CFRange) == 0x10);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFRange, "Mono.Net", "CFRange");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::CFRange::CFRange
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -112,6 +112,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionSelectionNavigationController) == 0xB0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionSelectionNavigationController*, "", "MissionSelectionNavigationController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionSelectionNavigationController::add_didPressPlayButtonEvent
 // Il2CppName: add_didPressPlayButtonEvent
 template<>

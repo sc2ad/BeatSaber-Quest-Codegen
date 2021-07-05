@@ -134,6 +134,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerBigAvatarAnimator) == 0x49);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerBigAvatarAnimator*, "", "MultiplayerBigAvatarAnimator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerBigAvatarAnimator::OnDestroy
 // Il2CppName: OnDestroy
 template<>

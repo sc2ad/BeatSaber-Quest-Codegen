@@ -88,6 +88,7 @@ namespace JetBrains::Annotations {
   static_assert(sizeof(MeansImplicitUseAttribute) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::MeansImplicitUseAttribute*, "JetBrains.Annotations", "MeansImplicitUseAttribute");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::MeansImplicitUseAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

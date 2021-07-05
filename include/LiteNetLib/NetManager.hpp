@@ -602,6 +602,7 @@ namespace LiteNetLib {
   static_assert(sizeof(NetManager) == 0xF0);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetManager*, "LiteNetLib", "NetManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NetManager::get_IsRunning
 // Il2CppName: get_IsRunning
 template<>

@@ -400,6 +400,7 @@ namespace System::Text::RegularExpressions {
   static_assert(sizeof(RegexParser) == 0x91);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexParser*, "System.Text.RegularExpressions", "RegexParser");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexParser::Parse
 // Il2CppName: Parse
 template<>

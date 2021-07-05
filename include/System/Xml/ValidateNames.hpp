@@ -34,6 +34,7 @@ namespace System::Xml {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::ValidateNames*, "System.Xml", "ValidateNames");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::ValidateNames::ParseNCName
 // Il2CppName: ParseNCName
 template<>

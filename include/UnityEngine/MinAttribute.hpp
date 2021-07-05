@@ -44,6 +44,7 @@ namespace UnityEngine {
   static_assert(sizeof(MinAttribute) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::MinAttribute*, "UnityEngine", "MinAttribute");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::MinAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -110,6 +110,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
   static_assert(sizeof(DHDomainParameters) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::DHDomainParameters*, "Org.BouncyCastle.Asn1.X9", "DHDomainParameters");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X9::DHDomainParameters::GetInstance
 // Il2CppName: GetInstance
 template<>

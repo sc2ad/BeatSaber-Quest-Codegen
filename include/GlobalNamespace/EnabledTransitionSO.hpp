@@ -93,6 +93,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnabledTransitionSO) == 0x26);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnabledTransitionSO*, "", "EnabledTransitionSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnabledTransitionSO::get_normalState
 // Il2CppName: get_normalState
 template<>

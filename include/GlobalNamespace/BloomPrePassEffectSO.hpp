@@ -98,6 +98,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomPrePassEffectSO) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassEffectSO*, "", "BloomPrePassEffectSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassEffectSO::get_textureEffect
 // Il2CppName: get_textureEffect
 template<>

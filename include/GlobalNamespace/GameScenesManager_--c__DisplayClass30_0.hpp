@@ -84,6 +84,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameScenesManager::$$c__DisplayClass30_0) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameScenesManager::$$c__DisplayClass30_0*, "", "GameScenesManager/<>c__DisplayClass30_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameScenesManager::$$c__DisplayClass30_0::$PushScenes$b__0
 // Il2CppName: <PushScenes>b__0
 template<>

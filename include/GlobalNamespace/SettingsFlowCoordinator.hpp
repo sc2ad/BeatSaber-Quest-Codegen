@@ -180,6 +180,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsFlowCoordinator*, "", "SettingsFlowCoordinator");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsFlowCoordinator::FinishAction, "", "SettingsFlowCoordinator/FinishAction");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SettingsFlowCoordinator::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

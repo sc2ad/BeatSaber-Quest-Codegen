@@ -140,6 +140,7 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(AudioPlayableAsset) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AudioPlayableAsset*, "UnityEngine.Timeline", "AudioPlayableAsset");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::AudioPlayableAsset::get_bufferingTime
 // Il2CppName: get_bufferingTime
 template<>

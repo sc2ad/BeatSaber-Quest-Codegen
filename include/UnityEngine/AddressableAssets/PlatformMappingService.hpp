@@ -62,6 +62,7 @@ namespace UnityEngine::AddressableAssets {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::PlatformMappingService*, "UnityEngine.AddressableAssets", "PlatformMappingService");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::PlatformMappingService::GetAddressablesPlatformInternal
 // Il2CppName: GetAddressablesPlatformInternal
 template<>

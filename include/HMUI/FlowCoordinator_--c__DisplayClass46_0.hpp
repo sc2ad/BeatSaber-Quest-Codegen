@@ -77,6 +77,7 @@ namespace HMUI {
   static_assert(sizeof(FlowCoordinator::$$c__DisplayClass46_0) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::FlowCoordinator::$$c__DisplayClass46_0*, "HMUI", "FlowCoordinator/<>c__DisplayClass46_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::FlowCoordinator::$$c__DisplayClass46_0::$PopViewControllersFromNavigationController$b__0
 // Il2CppName: <PopViewControllersFromNavigationController>b__0
 template<>

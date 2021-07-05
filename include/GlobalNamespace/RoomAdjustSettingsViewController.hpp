@@ -165,6 +165,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(RoomAdjustSettingsViewController) == 0xA8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RoomAdjustSettingsViewController*, "", "RoomAdjustSettingsViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RoomAdjustSettingsViewController::Move
 // Il2CppName: Move
 template<>

@@ -146,6 +146,7 @@ namespace TMPro {
   static_assert(sizeof(MaterialReferenceManager) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::MaterialReferenceManager*, "TMPro", "MaterialReferenceManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::MaterialReferenceManager::get_instance
 // Il2CppName: get_instance
 template<>

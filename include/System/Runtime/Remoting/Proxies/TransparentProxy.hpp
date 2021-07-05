@@ -91,6 +91,7 @@ namespace System::Runtime::Remoting::Proxies {
   static_assert(sizeof(TransparentProxy) == 0x21);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Proxies::TransparentProxy*, "System.Runtime.Remoting.Proxies", "TransparentProxy");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::TransparentProxy::GetProxyType
 // Il2CppName: GetProxyType
 template<>

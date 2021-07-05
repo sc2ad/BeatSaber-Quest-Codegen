@@ -443,6 +443,7 @@ namespace System {
   static_assert(sizeof(NumberFormatter) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::NumberFormatter*, "System", "NumberFormatter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::NumberFormatter::GetFormatterTables
 // Il2CppName: GetFormatterTables
 template<>

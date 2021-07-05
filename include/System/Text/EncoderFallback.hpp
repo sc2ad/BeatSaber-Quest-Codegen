@@ -77,6 +77,7 @@ namespace System::Text {
   static_assert(sizeof(EncoderFallback) == 0x11);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::EncoderFallback*, "System.Text", "EncoderFallback");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::EncoderFallback::get_InternalSyncObject
 // Il2CppName: get_InternalSyncObject
 template<>

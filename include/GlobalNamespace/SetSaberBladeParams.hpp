@@ -86,6 +86,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SetSaberBladeParams) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetSaberBladeParams*, "", "SetSaberBladeParams");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SetSaberBladeParams::Start
 // Il2CppName: Start
 template<>

@@ -49,6 +49,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SelectLevelCategoryViewController::$$c__DisplayClass11_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelCategoryViewController::$$c__DisplayClass11_0*, "", "SelectLevelCategoryViewController/<>c__DisplayClass11_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SelectLevelCategoryViewController::$$c__DisplayClass11_0::$Setup$b__0
 // Il2CppName: <Setup>b__0
 template<>

@@ -91,6 +91,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRNetwork::OVRNetworkTcpServer) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRNetwork::OVRNetworkTcpServer*, "", "OVRNetwork/OVRNetworkTcpServer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::StartListening
 // Il2CppName: StartListening
 template<>

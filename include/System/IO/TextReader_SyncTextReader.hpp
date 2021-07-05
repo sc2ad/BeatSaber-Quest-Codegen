@@ -76,6 +76,7 @@ namespace System::IO {
   static_assert(sizeof(TextReader::SyncTextReader) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::TextReader::SyncTextReader*, "System.IO", "TextReader/SyncTextReader");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::TextReader::SyncTextReader::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

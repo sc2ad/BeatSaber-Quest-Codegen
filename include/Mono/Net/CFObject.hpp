@@ -94,6 +94,7 @@ namespace Mono::Net {
   static_assert(sizeof(CFObject) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFObject*, "Mono.Net", "CFObject");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::CFObject::dlopen
 // Il2CppName: dlopen
 template<>

@@ -92,6 +92,7 @@ namespace UnityEngine::UI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::SpriteState, "UnityEngine.UI", "SpriteState");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::SpriteState::get_highlightedSprite
 // Il2CppName: get_highlightedSprite
 template<>

@@ -287,6 +287,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameEnergyCounter) == 0x7C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameEnergyCounter*, "", "GameEnergyCounter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameEnergyCounter::add_didInitEvent
 // Il2CppName: add_didInitEvent
 template<>

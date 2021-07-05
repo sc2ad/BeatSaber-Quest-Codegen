@@ -91,6 +91,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayAudioOnGameEventController::EventAudioBinding) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*, "", "PlayAudioOnGameEventController/EventAudioBinding");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding::Init
 // Il2CppName: Init
 template<>

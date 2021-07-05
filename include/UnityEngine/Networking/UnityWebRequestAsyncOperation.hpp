@@ -66,6 +66,7 @@ namespace UnityEngine::Networking {
   static_assert(sizeof(UnityWebRequestAsyncOperation) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequestAsyncOperation*, "UnityEngine.Networking", "UnityWebRequestAsyncOperation");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequestAsyncOperation::get_webRequest
 // Il2CppName: get_webRequest
 template<>

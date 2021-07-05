@@ -76,6 +76,7 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(TimelineAsset::EditorSettings) == 0x15);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset::EditorSettings*, "UnityEngine.Timeline", "TimelineAsset/EditorSettings");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::EditorSettings::get_fps
 // Il2CppName: get_fps
 template<>

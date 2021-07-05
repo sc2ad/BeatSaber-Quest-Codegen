@@ -76,6 +76,7 @@ namespace NUnit::Framework::Internal::Execution {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Execution::CommandBuilder*, "NUnit.Framework.Internal.Execution", "CommandBuilder");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Execution::CommandBuilder::MakeOneTimeSetUpCommand
 // Il2CppName: MakeOneTimeSetUpCommand
 template<>

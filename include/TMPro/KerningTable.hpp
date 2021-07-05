@@ -84,6 +84,7 @@ namespace TMPro {
   static_assert(sizeof(KerningTable) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningTable*, "TMPro", "KerningTable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::KerningTable::AddKerningPair
 // Il2CppName: AddKerningPair
 template<>

@@ -56,6 +56,7 @@ namespace UnityEngine::Experimental::XR {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::XR::Boundary*, "UnityEngine.Experimental.XR", "Boundary");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Experimental::XR::Boundary::TryGetDimensions
 // Il2CppName: TryGetDimensions
 template<>

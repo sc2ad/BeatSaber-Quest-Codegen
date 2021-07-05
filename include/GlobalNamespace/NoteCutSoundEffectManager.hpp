@@ -254,6 +254,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteCutSoundEffectManager) == 0xA8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutSoundEffectManager*, "", "NoteCutSoundEffectManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutSoundEffectManager::get_handleWrongSaberTypeAsGood
 // Il2CppName: get_handleWrongSaberTypeAsGood
 template<>

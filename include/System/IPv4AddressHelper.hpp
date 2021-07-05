@@ -40,6 +40,7 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IPv4AddressHelper*, "System", "IPv4AddressHelper");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IPv4AddressHelper::ParseCanonicalName
 // Il2CppName: ParseCanonicalName
 template<>

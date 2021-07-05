@@ -161,6 +161,7 @@ namespace HMUI {
   static_assert(sizeof(SegmentedControl) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SegmentedControl*, "HMUI", "SegmentedControl");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::SegmentedControl::add_didSelectCellEvent
 // Il2CppName: add_didSelectCellEvent
 template<>

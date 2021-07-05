@@ -184,6 +184,7 @@ namespace UnityEngine::ProBuilder {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::BuiltinMaterials*, "UnityEngine.ProBuilder", "BuiltinMaterials");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::BuiltinMaterials::Init
 // Il2CppName: Init
 template<>

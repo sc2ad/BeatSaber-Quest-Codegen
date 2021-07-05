@@ -115,6 +115,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(RandomizedPitch) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RandomizedPitch*, "", "RandomizedPitch");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RandomizedPitch::OnEnable
 // Il2CppName: OnEnable
 template<>

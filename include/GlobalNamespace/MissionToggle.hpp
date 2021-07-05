@@ -260,6 +260,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionToggle) == 0x9C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionToggle*, "", "MissionToggle");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionToggle::add_selectionDidChangeEvent
 // Il2CppName: add_selectionDidChangeEvent
 template<>

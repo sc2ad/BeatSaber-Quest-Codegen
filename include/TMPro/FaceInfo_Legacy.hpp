@@ -159,6 +159,7 @@ namespace TMPro {
   static_assert(sizeof(FaceInfo_Legacy) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::FaceInfo_Legacy*, "TMPro", "FaceInfo_Legacy");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::FaceInfo_Legacy::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

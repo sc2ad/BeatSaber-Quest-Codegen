@@ -79,6 +79,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionObjectiveResult) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionObjectiveResult*, "", "MissionObjectiveResult");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionObjectiveResult::get_missionObjective
 // Il2CppName: get_missionObjective
 template<>

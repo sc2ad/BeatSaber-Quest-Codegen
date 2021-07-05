@@ -128,6 +128,7 @@ namespace System::IO {
   static_assert(sizeof(StringWriter) == 0x31);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::StringWriter*, "System.IO", "StringWriter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::StringWriter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

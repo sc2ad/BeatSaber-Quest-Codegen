@@ -185,6 +185,7 @@ namespace Microsoft::Win32 {
   static_assert(sizeof(KeyHandler) == 0x39);
 }
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::KeyHandler*, "Microsoft.Win32", "KeyHandler");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Microsoft::Win32::KeyHandler::_cctor
 // Il2CppName: .cctor
 template<>

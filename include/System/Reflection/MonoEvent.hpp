@@ -130,6 +130,7 @@ namespace System::Reflection {
   static_assert(sizeof(MonoEvent) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoEvent*, "System.Reflection", "MonoEvent");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::MonoEvent::GetAddMethod
 // Il2CppName: GetAddMethod
 template<>

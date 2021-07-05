@@ -448,6 +448,7 @@ namespace System {
   static_assert(sizeof(TimeZoneInfo) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo*, "System", "TimeZoneInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::TimeZoneInfo::UtcOffsetOutOfRange
 // Il2CppName: UtcOffsetOutOfRange
 template<>

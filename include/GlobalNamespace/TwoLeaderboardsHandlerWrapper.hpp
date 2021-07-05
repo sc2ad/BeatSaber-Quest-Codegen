@@ -82,6 +82,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(TwoLeaderboardsHandlerWrapper) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TwoLeaderboardsHandlerWrapper*, "", "TwoLeaderboardsHandlerWrapper");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TwoLeaderboardsHandlerWrapper::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

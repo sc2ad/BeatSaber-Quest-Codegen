@@ -161,6 +161,7 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TypeAnalyzer*, "Zenject", "TypeAnalyzer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::TypeAnalyzer::get_ReflectionBakingCoverageMode
 // Il2CppName: get_ReflectionBakingCoverageMode
 template<>

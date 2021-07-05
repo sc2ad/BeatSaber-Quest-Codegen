@@ -78,6 +78,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SteamVR_Ears) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Ears*, "", "SteamVR_Ears");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Ears::OnNewPosesApplied
 // Il2CppName: OnNewPosesApplied
 template<>

@@ -90,6 +90,7 @@ namespace System::Net {
   static_assert(sizeof(WebUtility::UrlDecoder) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebUtility::UrlDecoder*, "System.Net", "WebUtility/UrlDecoder");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::WebUtility::UrlDecoder::FlushBytes
 // Il2CppName: FlushBytes
 template<>

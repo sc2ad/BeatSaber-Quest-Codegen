@@ -69,6 +69,7 @@ namespace NUnit::Framework::Constraints {
   static_assert(sizeof(Tolerance) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::Tolerance*, "NUnit.Framework.Constraints", "Tolerance");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::Tolerance::get_Default
 // Il2CppName: get_Default
 template<>

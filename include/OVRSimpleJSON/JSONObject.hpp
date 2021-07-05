@@ -156,6 +156,7 @@ namespace OVRSimpleJSON {
   static_assert(sizeof(JSONObject) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONObject*, "OVRSimpleJSON", "JSONObject");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONObject::get_Inline
 // Il2CppName: get_Inline
 template<>

@@ -67,3 +67,4 @@ namespace Zenject {
   // Could not write size check! Type: Zenject.MemoryPool`3 is generic, or has no fields that are valid for size checks!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::MemoryPool_3, "Zenject", "MemoryPool`3");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

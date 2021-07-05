@@ -51,6 +51,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator*, "", "OVRControllerTest/BoolMonitor/BoolGenerator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

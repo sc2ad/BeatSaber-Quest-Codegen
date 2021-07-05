@@ -513,6 +513,7 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJNI*, "UnityEngine", "AndroidJNI");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AndroidJNI::AttachCurrentThread
 // Il2CppName: AttachCurrentThread
 template<>

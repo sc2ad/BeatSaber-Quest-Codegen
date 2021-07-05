@@ -262,6 +262,7 @@ namespace System::IO {
   static_assert(sizeof(StreamWriter) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::StreamWriter*, "System.IO", "StreamWriter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::StreamWriter::CheckAsyncTaskInProgress
 // Il2CppName: CheckAsyncTaskInProgress
 template<>

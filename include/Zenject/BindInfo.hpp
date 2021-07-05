@@ -200,6 +200,7 @@ namespace Zenject {
   static_assert(sizeof(BindInfo) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::BindInfo*, "Zenject", "BindInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::BindInfo::Dispose
 // Il2CppName: Dispose
 template<>

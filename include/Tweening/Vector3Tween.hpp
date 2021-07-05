@@ -79,6 +79,7 @@ namespace Tweening {
   }; // Tweening.Vector3Tween
 }
 DEFINE_IL2CPP_ARG_TYPE(Tweening::Vector3Tween*, "Tweening", "Vector3Tween");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Tweening::Vector3Tween::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

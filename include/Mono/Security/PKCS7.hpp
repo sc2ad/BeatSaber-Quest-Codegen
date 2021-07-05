@@ -28,3 +28,4 @@ namespace Mono::Security {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::PKCS7*, "Mono.Security", "PKCS7");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

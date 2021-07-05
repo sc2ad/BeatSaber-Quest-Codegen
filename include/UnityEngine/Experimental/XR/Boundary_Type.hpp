@@ -51,3 +51,4 @@ namespace UnityEngine::Experimental::XR {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::XR::Boundary::Type, "UnityEngine.Experimental.XR", "Boundary/Type");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

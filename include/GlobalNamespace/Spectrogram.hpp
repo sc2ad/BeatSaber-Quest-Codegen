@@ -88,6 +88,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(Spectrogram) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Spectrogram*, "", "Spectrogram");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Spectrogram::Awake
 // Il2CppName: Awake
 template<>

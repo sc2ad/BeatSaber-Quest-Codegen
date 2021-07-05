@@ -125,6 +125,7 @@ namespace System::Threading::Tasks {
   static_assert(sizeof(TaskFactory) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskFactory*, "System.Threading.Tasks", "TaskFactory");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskFactory::GetDefaultScheduler
 // Il2CppName: GetDefaultScheduler
 template<>

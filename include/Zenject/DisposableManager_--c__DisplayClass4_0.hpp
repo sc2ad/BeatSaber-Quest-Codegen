@@ -64,6 +64,7 @@ namespace Zenject {
   static_assert(sizeof(DisposableManager::$$c__DisplayClass4_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposableManager::$$c__DisplayClass4_0*, "Zenject", "DisposableManager/<>c__DisplayClass4_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::DisposableManager::$$c__DisplayClass4_0::$_ctor$b__0
 // Il2CppName: <.ctor>b__0
 template<>

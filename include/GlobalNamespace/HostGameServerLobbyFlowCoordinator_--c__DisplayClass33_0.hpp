@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(HostGameServerLobbyFlowCoordinator::$$c__DisplayClass33_0) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c__DisplayClass33_0*, "", "HostGameServerLobbyFlowCoordinator/<>c__DisplayClass33_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c__DisplayClass33_0::$HandleServerPlayerListControllerKickPlayer$b__0
 // Il2CppName: <HandleServerPlayerListControllerKickPlayer>b__0
 template<>

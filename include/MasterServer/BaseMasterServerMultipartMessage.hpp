@@ -143,6 +143,7 @@ namespace MasterServer {
   static_assert(sizeof(BaseMasterServerMultipartMessage) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseMasterServerMultipartMessage*, "MasterServer", "BaseMasterServerMultipartMessage");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::BaseMasterServerMultipartMessage::get_multipartMessageId
 // Il2CppName: get_multipartMessageId
 template<>

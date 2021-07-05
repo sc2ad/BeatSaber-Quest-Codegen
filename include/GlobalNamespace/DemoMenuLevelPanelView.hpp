@@ -143,6 +143,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(DemoMenuLevelPanelView) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DemoMenuLevelPanelView*, "", "DemoMenuLevelPanelView");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DemoMenuLevelPanelView::add_playButtonWasPressedEvent
 // Il2CppName: add_playButtonWasPressedEvent
 template<>

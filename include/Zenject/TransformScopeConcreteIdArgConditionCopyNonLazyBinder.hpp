@@ -78,6 +78,7 @@ namespace Zenject {
   static_assert(sizeof(TransformScopeConcreteIdArgConditionCopyNonLazyBinder) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder*, "Zenject", "TransformScopeConcreteIdArgConditionCopyNonLazyBinder");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

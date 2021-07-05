@@ -58,6 +58,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BookmarksFoldersModel::$$c*, "", "BookmarksFoldersModel/<>c");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BookmarksFoldersModel::$$c::_cctor
 // Il2CppName: .cctor
 template<>

@@ -131,6 +131,7 @@ namespace Mono::Net {
   static_assert(sizeof(CFProxy) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFProxy*, "Mono.Net", "CFProxy");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::CFProxy::_cctor
 // Il2CppName: .cctor
 template<>

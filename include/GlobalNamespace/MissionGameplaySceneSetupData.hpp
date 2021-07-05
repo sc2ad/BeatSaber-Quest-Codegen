@@ -94,6 +94,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionGameplaySceneSetupData) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionGameplaySceneSetupData*, "", "MissionGameplaySceneSetupData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionGameplaySceneSetupData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

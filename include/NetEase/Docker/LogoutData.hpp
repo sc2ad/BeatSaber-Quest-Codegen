@@ -42,6 +42,7 @@ namespace NetEase::Docker {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::LogoutData, "NetEase.Docker", "LogoutData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NetEase::Docker::LogoutData::set_LogoutCode
 // Il2CppName: set_LogoutCode
 template<>

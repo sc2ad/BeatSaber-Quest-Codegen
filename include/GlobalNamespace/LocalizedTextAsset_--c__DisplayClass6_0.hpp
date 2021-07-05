@@ -51,6 +51,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LocalizedTextAsset::$$c__DisplayClass6_0) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedTextAsset::$$c__DisplayClass6_0*, "", "LocalizedTextAsset/<>c__DisplayClass6_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalizedTextAsset::$$c__DisplayClass6_0::$get_localizedText$b__1
 // Il2CppName: <get_localizedText>b__1
 template<>

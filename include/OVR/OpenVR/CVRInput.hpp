@@ -131,6 +131,7 @@ namespace OVR::OpenVR {
   static_assert(sizeof(CVRInput) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::CVRInput*, "OVR.OpenVR", "CVRInput");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::CVRInput::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

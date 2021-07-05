@@ -233,6 +233,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerScoreRingManager) == 0x7A);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerScoreRingManager*, "", "MultiplayerScoreRingManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreRingManager::Start
 // Il2CppName: Start
 template<>

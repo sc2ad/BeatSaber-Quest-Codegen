@@ -130,6 +130,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FriendsViewController) == 0xB1);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FriendsViewController*, "", "FriendsViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FriendsViewController::HandleOpenPartyToggleChanged
 // Il2CppName: HandleOpenPartyToggleChanged
 template<>

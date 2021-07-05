@@ -105,6 +105,7 @@ namespace UnityEngine::Networking {
   static_assert(sizeof(DownloadHandler) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::DownloadHandler*, "UnityEngine.Networking", "DownloadHandler");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandler::Release
 // Il2CppName: Release
 template<>

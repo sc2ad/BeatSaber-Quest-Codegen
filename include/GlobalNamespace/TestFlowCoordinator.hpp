@@ -86,6 +86,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(TestFlowCoordinator) == 0xD0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestFlowCoordinator*, "", "TestFlowCoordinator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TestFlowCoordinator::DidActivate
 // Il2CppName: DidActivate
 template<>

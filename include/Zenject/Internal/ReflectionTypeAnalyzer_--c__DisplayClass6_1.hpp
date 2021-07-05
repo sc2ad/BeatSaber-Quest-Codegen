@@ -61,6 +61,7 @@ namespace Zenject::Internal {
   static_assert(sizeof(ReflectionTypeAnalyzer::$$c__DisplayClass6_1) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass6_1*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c__DisplayClass6_1");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass6_1::$GetFieldInfos$b__2
 // Il2CppName: <GetFieldInfos>b__2
 template<>

@@ -54,6 +54,7 @@ namespace Valve::VR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo*, "Valve.VR", "IVRChaperoneSetup/_GetWorkingCollisionBoundsInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRChaperoneSetup::_GetWorkingCollisionBoundsInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

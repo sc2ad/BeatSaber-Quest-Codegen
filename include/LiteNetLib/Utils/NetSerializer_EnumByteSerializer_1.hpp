@@ -84,3 +84,4 @@ namespace LiteNetLib::Utils {
   // Could not write size check! Type: LiteNetLib.Utils.NetSerializer/EnumByteSerializer`1 is generic, or has no fields that are valid for size checks!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(LiteNetLib::Utils::NetSerializer::EnumByteSerializer_1, "LiteNetLib.Utils", "NetSerializer/EnumByteSerializer`1");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

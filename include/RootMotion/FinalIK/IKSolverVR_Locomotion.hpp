@@ -295,6 +295,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKSolverVR::Locomotion) == 0xB8);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::Locomotion*, "RootMotion.FinalIK", "IKSolverVR/Locomotion");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Locomotion::get_centerOfMass
 // Il2CppName: get_centerOfMass
 template<>

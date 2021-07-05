@@ -98,6 +98,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(CaptureAudioToWav) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CaptureAudioToWav*, "", "CaptureAudioToWav");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CaptureAudioToWav::Awake
 // Il2CppName: Awake
 template<>

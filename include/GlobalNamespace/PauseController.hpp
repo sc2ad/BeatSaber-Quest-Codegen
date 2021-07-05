@@ -216,6 +216,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PauseController) == 0x71);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseController*, "", "PauseController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PauseController::add_didPauseEvent
 // Il2CppName: add_didPauseEvent
 template<>

@@ -62,6 +62,7 @@ namespace System::Runtime::Remoting::Activation {
   static_assert(sizeof(ContextLevelActivator) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Activation::ContextLevelActivator*, "System.Runtime.Remoting.Activation", "ContextLevelActivator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Activation::ContextLevelActivator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

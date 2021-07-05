@@ -250,6 +250,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRGrabber) == 0xC1);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRGrabber*, "", "OVRGrabber");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRGrabber::get_grabbedObject
 // Il2CppName: get_grabbedObject
 template<>

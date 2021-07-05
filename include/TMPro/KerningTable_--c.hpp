@@ -68,6 +68,7 @@ namespace TMPro {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningTable::$$c*, "TMPro", "KerningTable/<>c");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::KerningTable::$$c::_cctor
 // Il2CppName: .cctor
 template<>

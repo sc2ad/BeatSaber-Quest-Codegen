@@ -305,6 +305,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioTimeSyncController*, "", "AudioTimeSyncController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioTimeSyncController::State, "", "AudioTimeSyncController/State");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AudioTimeSyncController::get_state
 // Il2CppName: get_state
 template<>

@@ -355,6 +355,7 @@ namespace RootMotion::FinalIK {
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject*, "RootMotion.FinalIK", "InteractionObject");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject::WeightCurve*, "RootMotion.FinalIK", "InteractionObject/WeightCurve");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject::WeightCurve::Type, "RootMotion.FinalIK", "InteractionObject/WeightCurve/Type");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionObject::OpenUserManual
 // Il2CppName: OpenUserManual
 template<>

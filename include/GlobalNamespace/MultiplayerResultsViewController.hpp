@@ -127,6 +127,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerResultsViewController) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsViewController*, "", "MultiplayerResultsViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsViewController::add_backToLobbyPressedEvent
 // Il2CppName: add_backToLobbyPressedEvent
 template<>

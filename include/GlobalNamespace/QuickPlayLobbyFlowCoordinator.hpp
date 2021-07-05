@@ -446,6 +446,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(QuickPlayLobbyFlowCoordinator) == 0x189);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuickPlayLobbyFlowCoordinator*, "", "QuickPlayLobbyFlowCoordinator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::add_willFinishEvent
 // Il2CppName: add_willFinishEvent
 template<>

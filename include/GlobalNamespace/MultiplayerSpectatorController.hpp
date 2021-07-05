@@ -162,6 +162,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerSpectatorController) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSpectatorController*, "", "MultiplayerSpectatorController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerSpectatorController::add_spectatingSpotDidChangeEvent
 // Il2CppName: add_spectatingSpotDidChangeEvent
 template<>

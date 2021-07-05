@@ -690,6 +690,7 @@ namespace System {
   bool operator >=(const System::DateTime& t1, const System::DateTime& t2);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::DateTime, "System", "DateTime");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::DateTime::DateTime
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -109,6 +109,7 @@ namespace UnityEngine::ProBuilder {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshUtility*, "UnityEngine.ProBuilder", "MeshUtility");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::GeneratePerTriangleMesh
 // Il2CppName: GeneratePerTriangleMesh
 template<>

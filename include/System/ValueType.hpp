@@ -64,6 +64,7 @@ namespace System {
 template<class T>
 struct is_value_type<T, typename std::enable_if_t<std::is_base_of_v<System::ValueType, T>>> : std::true_type{};
 DEFINE_IL2CPP_ARG_TYPE(System::ValueType*, "System", "ValueType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ValueType::InternalEquals
 // Il2CppName: InternalEquals
 template<>

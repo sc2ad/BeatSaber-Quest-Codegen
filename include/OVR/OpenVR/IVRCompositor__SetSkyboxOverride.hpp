@@ -59,6 +59,7 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor::_SetSkyboxOverride*, "OVR.OpenVR", "IVRCompositor/_SetSkyboxOverride");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRCompositor::_SetSkyboxOverride::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

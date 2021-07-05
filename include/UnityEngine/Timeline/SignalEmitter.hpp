@@ -110,6 +110,7 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(SignalEmitter) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SignalEmitter*, "UnityEngine.Timeline", "SignalEmitter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalEmitter::get_retroactive
 // Il2CppName: get_retroactive
 template<>

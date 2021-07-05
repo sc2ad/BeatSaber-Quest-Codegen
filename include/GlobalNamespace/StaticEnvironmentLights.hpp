@@ -65,6 +65,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(StaticEnvironmentLights) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StaticEnvironmentLights*, "", "StaticEnvironmentLights");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StaticEnvironmentLights::Awake
 // Il2CppName: Awake
 template<>

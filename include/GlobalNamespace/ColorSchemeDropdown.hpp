@@ -156,6 +156,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ColorSchemeDropdown) == 0x79);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorSchemeDropdown*, "", "ColorSchemeDropdown");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemeDropdown::LazyInit
 // Il2CppName: LazyInit
 template<>

@@ -198,6 +198,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(CustomTweenBehaviour) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomTweenBehaviour*, "", "CustomTweenBehaviour");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CustomTweenBehaviour::OnGraphStart
 // Il2CppName: OnGraphStart
 template<>

@@ -48,6 +48,7 @@ namespace System::Diagnostics {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DiagnosticsConfigurationHandler*, "System.Diagnostics", "DiagnosticsConfigurationHandler");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::DiagnosticsConfigurationHandler::Create
 // Il2CppName: Create
 template<>

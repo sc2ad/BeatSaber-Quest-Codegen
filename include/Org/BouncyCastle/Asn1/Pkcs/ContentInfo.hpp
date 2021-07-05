@@ -64,6 +64,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   static_assert(sizeof(ContentInfo) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::ContentInfo*, "Org.BouncyCastle.Asn1.Pkcs", "ContentInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::ContentInfo::GetInstance
 // Il2CppName: GetInstance
 template<>

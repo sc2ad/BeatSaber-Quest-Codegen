@@ -48,6 +48,7 @@ namespace System::Net::NetworkInformation {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::IPGlobalProperties*, "System.Net.NetworkInformation", "IPGlobalProperties");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::IPGlobalProperties::get_PlatformNeedsLibCWorkaround
 // Il2CppName: get_PlatformNeedsLibCWorkaround
 template<>

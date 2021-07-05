@@ -378,6 +378,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelsModel*, "", "BeatmapLevelsM
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelsModel::GetBeatmapLevelResult, "", "BeatmapLevelsModel/GetBeatmapLevelResult");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate, "", "BeatmapLevelsModel/LevelDownloadingUpdate");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState, "", "BeatmapLevelsModel/LevelDownloadingUpdate/DownloadingState");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelsModel::add_levelDownloadingUpdateEvent
 // Il2CppName: add_levelDownloadingUpdateEvent
 template<>

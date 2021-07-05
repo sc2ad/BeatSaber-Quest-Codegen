@@ -189,6 +189,7 @@ namespace UnityEngine::UI {
   static_assert(sizeof(LayoutElement) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutElement*, "UnityEngine.UI", "LayoutElement");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutElement::get_ignoreLayout
 // Il2CppName: get_ignoreLayout
 template<>

@@ -181,6 +181,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(WaypointsTestMenuViewController) == 0x62);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::WaypointsTestMenuViewController*, "", "WaypointsTestMenuViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::WaypointsTestMenuViewController::Start
 // Il2CppName: Start
 template<>

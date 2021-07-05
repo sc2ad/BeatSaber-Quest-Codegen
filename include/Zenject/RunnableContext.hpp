@@ -95,6 +95,7 @@ namespace Zenject {
   static_assert(sizeof(RunnableContext) == 0x42);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::RunnableContext*, "Zenject", "RunnableContext");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::RunnableContext::get_Initialized
 // Il2CppName: get_Initialized
 template<>

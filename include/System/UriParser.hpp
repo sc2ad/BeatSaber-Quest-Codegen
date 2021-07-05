@@ -276,6 +276,7 @@ namespace System {
 }
 DEFINE_IL2CPP_ARG_TYPE(System::UriParser*, "System", "UriParser");
 DEFINE_IL2CPP_ARG_TYPE(System::UriParser::UriQuirksVersion, "System", "UriParser/UriQuirksVersion");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::UriParser::get_SchemeName
 // Il2CppName: get_SchemeName
 template<>

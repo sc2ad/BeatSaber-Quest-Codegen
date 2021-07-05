@@ -131,6 +131,7 @@ namespace System::Security::Claims {
   static_assert(sizeof(ClaimsPrincipal) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Claims::ClaimsPrincipal*, "System.Security.Claims", "ClaimsPrincipal");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Claims::ClaimsPrincipal::SelectPrimaryIdentity
 // Il2CppName: SelectPrimaryIdentity
 template<>

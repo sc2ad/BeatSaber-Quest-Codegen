@@ -304,6 +304,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(TutorialSongController) == 0xD0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialSongController*, "", "TutorialSongController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TutorialSongController::Awake
 // Il2CppName: Awake
 template<>

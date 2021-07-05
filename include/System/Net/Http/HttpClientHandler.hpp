@@ -198,6 +198,7 @@ namespace System::Net::Http {
   static_assert(sizeof(HttpClientHandler) == 0x59);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpClientHandler*, "System.Net.Http", "HttpClientHandler");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::HttpClientHandler::get_CookieContainer
 // Il2CppName: get_CookieContainer
 template<>

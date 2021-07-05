@@ -150,6 +150,7 @@ namespace Mono::Net::Security {
   static_assert(sizeof(AsyncProtocolRequest) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncProtocolRequest*, "Mono.Net.Security", "AsyncProtocolRequest");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::AsyncProtocolRequest::get_Parent
 // Il2CppName: get_Parent
 template<>

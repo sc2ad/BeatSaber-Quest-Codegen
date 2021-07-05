@@ -39,3 +39,4 @@ namespace LiteNetLib::Utils {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::FastBitConverter::ConverterHelperFloat, "LiteNetLib.Utils", "FastBitConverter/ConverterHelperFloat");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

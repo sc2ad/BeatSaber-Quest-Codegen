@@ -159,6 +159,7 @@ namespace GlobalNamespace {
   GlobalNamespace::QuaternionSerializable operator-(const GlobalNamespace::QuaternionSerializable& a, const GlobalNamespace::QuaternionSerializable& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuaternionSerializable, "", "QuaternionSerializable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::QuaternionSerializable::get_identity
 // Il2CppName: get_identity
 template<>

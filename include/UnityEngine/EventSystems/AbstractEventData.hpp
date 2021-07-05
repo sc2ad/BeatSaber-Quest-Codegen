@@ -52,6 +52,7 @@ namespace UnityEngine::EventSystems {
   static_assert(sizeof(AbstractEventData) == 0x11);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::AbstractEventData*, "UnityEngine.EventSystems", "AbstractEventData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::AbstractEventData::Reset
 // Il2CppName: Reset
 template<>

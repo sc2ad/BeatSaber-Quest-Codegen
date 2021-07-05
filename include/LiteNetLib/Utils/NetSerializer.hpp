@@ -256,6 +256,7 @@ namespace LiteNetLib::Utils {
   static_assert(sizeof(NetSerializer) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NetSerializer*, "LiteNetLib.Utils", "NetSerializer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetSerializer::RegisterNestedType
 // Il2CppName: RegisterNestedType
 // Cannot write MetadataGetter for generic methods!

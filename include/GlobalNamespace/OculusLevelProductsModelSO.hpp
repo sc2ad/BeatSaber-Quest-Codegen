@@ -96,6 +96,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OculusLevelProductsModelSO) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusLevelProductsModelSO*, "", "OculusLevelProductsModelSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusLevelProductsModelSO::get_levelPackProductsData
 // Il2CppName: get_levelPackProductsData
 template<>

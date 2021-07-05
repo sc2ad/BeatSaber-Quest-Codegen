@@ -114,6 +114,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapCharacteristicTableCell) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicTableCell*, "", "BeatmapCharacteristicTableCell");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicTableCell::SetData
 // Il2CppName: SetData
 template<>

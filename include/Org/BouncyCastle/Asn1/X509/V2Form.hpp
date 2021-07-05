@@ -82,6 +82,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   static_assert(sizeof(V2Form) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::V2Form*, "Org.BouncyCastle.Asn1.X509", "V2Form");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::V2Form::GetInstance
 // Il2CppName: GetInstance
 template<>

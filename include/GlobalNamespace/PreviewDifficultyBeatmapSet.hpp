@@ -58,6 +58,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PreviewDifficultyBeatmapSet) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PreviewDifficultyBeatmapSet*, "", "PreviewDifficultyBeatmapSet");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PreviewDifficultyBeatmapSet::get_beatmapCharacteristic
 // Il2CppName: get_beatmapCharacteristic
 template<>

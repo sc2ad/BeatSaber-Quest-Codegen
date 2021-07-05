@@ -65,6 +65,7 @@ namespace Zenject {
   static_assert(sizeof(ScopableBindingFinalizer::$$c__DisplayClass4_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ScopableBindingFinalizer::$$c__DisplayClass4_0*, "Zenject", "ScopableBindingFinalizer/<>c__DisplayClass4_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ScopableBindingFinalizer::$$c__DisplayClass4_0::$FinalizeBindingSelf$b__0
 // Il2CppName: <FinalizeBindingSelf>b__0
 template<>

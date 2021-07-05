@@ -149,6 +149,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   static_assert(sizeof(TriangulationContext) == 0x3D);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationContext");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationContext::get_DebugContext
 // Il2CppName: get_DebugContext
 template<>

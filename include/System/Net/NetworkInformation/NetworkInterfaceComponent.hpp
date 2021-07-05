@@ -49,3 +49,4 @@ namespace System::Net::NetworkInformation {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::NetworkInterfaceComponent, "System.Net.NetworkInformation", "NetworkInterfaceComponent");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

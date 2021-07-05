@@ -91,6 +91,7 @@ namespace HMUI {
   static_assert(sizeof(InputFieldViewChangeBinder) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldViewChangeBinder*, "HMUI", "InputFieldViewChangeBinder");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::InputFieldViewChangeBinder::Init
 // Il2CppName: Init
 template<>

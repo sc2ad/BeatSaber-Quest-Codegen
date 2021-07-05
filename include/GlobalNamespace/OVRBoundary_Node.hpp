@@ -57,3 +57,4 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRBoundary::Node, "", "OVRBoundary/Node");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

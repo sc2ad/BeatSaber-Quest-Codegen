@@ -188,6 +188,7 @@ namespace System::Net::Security {
   static_assert(sizeof(SslStream) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Security::SslStream*, "System.Net.Security", "SslStream");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Security::SslStream::get_Impl
 // Il2CppName: get_Impl
 template<>

@@ -113,6 +113,7 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ArgConditionCopyNonLazyBinder*, "Zenject", "ArgConditionCopyNonLazyBinder");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ArgConditionCopyNonLazyBinder::WithArguments
 // Il2CppName: WithArguments
 // Cannot write MetadataGetter for generic methods!

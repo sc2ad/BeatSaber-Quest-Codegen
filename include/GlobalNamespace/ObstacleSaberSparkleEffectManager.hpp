@@ -199,6 +199,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ObstacleSaberSparkleEffectManager) == 0x88);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleSaberSparkleEffectManager*, "", "ObstacleSaberSparkleEffectManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleSaberSparkleEffectManager::add_sparkleEffectDidStartEvent
 // Il2CppName: add_sparkleEffectDidStartEvent
 template<>

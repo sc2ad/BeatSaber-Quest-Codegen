@@ -468,6 +468,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockMultiplayerSessionManager) == 0x95);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockMultiplayerSessionManager*, "", "MockMultiplayerSessionManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockMultiplayerSessionManager::get_isPartyCreated
 // Il2CppName: get_isPartyCreated
 template<>

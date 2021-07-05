@@ -185,6 +185,7 @@ namespace System::Runtime::Remoting::Proxies {
   static_assert(sizeof(RealProxy) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Proxies::RealProxy*, "System.Runtime.Remoting.Proxies", "RealProxy");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::RealProxy::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

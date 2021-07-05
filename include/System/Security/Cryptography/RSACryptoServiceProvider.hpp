@@ -199,6 +199,7 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(RSACryptoServiceProvider) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RSACryptoServiceProvider*, "System.Security.Cryptography", "RSACryptoServiceProvider");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::RSACryptoServiceProvider::get_UseMachineKeyStore
 // Il2CppName: get_UseMachineKeyStore
 template<>

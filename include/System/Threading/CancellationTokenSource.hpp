@@ -258,6 +258,7 @@ namespace System::Threading {
   static_assert(sizeof(CancellationTokenSource) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationTokenSource*, "System.Threading", "CancellationTokenSource");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::CancellationTokenSource::LinkedTokenCancelDelegate
 // Il2CppName: LinkedTokenCancelDelegate
 template<>

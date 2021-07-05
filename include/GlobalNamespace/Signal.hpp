@@ -68,6 +68,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(Signal) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Signal*, "", "Signal");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Signal::add__event
 // Il2CppName: add__event
 template<>

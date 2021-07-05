@@ -51,6 +51,7 @@ namespace UnityEngine {
   static_assert(sizeof(SliderState) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SliderState*, "UnityEngine", "SliderState");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::SliderState::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

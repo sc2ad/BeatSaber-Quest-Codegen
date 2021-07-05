@@ -61,6 +61,7 @@ namespace NUnit::Framework::Internal {
   static_assert(sizeof(TypeWrapper::$$c__DisplayClass36_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TypeWrapper::$$c__DisplayClass36_0*, "NUnit.Framework.Internal", "TypeWrapper/<>c__DisplayClass36_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TypeWrapper::$$c__DisplayClass36_0::$GetConstructor$b__0
 // Il2CppName: <GetConstructor>b__0
 template<>

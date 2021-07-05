@@ -172,6 +172,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Skybox*, "", "SteamVR_Skybox");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Skybox::CellSize, "", "SteamVR_Skybox/CellSize");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Skybox::SetTextureByIndex
 // Il2CppName: SetTextureByIndex
 template<>

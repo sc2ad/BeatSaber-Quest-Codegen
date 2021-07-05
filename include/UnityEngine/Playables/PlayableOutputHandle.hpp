@@ -174,6 +174,7 @@ namespace UnityEngine::Playables {
   bool operator ==(const UnityEngine::Playables::PlayableOutputHandle& lhs, const UnityEngine::Playables::PlayableOutputHandle& rhs);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableOutputHandle, "UnityEngine.Playables", "PlayableOutputHandle");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputHandle::get_Null
 // Il2CppName: get_Null
 template<>

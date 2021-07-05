@@ -368,6 +368,7 @@ namespace System::Threading {
   static_assert(sizeof(ReaderWriterLockSlim) == 0x69);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ReaderWriterLockSlim*, "System.Threading", "ReaderWriterLockSlim");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::InitializeThreadCounts
 // Il2CppName: InitializeThreadCounts
 template<>

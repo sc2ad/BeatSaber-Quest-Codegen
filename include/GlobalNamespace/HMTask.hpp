@@ -107,6 +107,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(HMTask) == 0x2B);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMTask*, "", "HMTask");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HMTask::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -124,6 +124,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   static_assert(sizeof(WNafPreCompInfo) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*, "Org.BouncyCastle.Math.EC.Multiplier", "WNafPreCompInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::DecrementPromotionCountdown
 // Il2CppName: DecrementPromotionCountdown
 template<>

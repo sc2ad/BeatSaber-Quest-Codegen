@@ -57,6 +57,7 @@ namespace UnityEngine::Bindings {
   static_assert(sizeof(NativeConditionalAttribute) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NativeConditionalAttribute*, "UnityEngine.Bindings", "NativeConditionalAttribute");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Bindings::NativeConditionalAttribute::set_Condition
 // Il2CppName: set_Condition
 template<>

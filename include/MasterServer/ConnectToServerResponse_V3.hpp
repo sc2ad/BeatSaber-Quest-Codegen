@@ -53,6 +53,7 @@ namespace MasterServer {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ConnectToServerResponse::V3*, "MasterServer", "ConnectToServerResponse/V3");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::ConnectToServerResponse::V3::Serialize
 // Il2CppName: Serialize
 template<>

@@ -101,6 +101,7 @@ namespace System::Xml {
   static_assert(sizeof(CharEntityEncoderFallback) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::CharEntityEncoderFallback*, "System.Xml", "CharEntityEncoderFallback");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::CharEntityEncoderFallback::set_StartOffset
 // Il2CppName: set_StartOffset
 template<>

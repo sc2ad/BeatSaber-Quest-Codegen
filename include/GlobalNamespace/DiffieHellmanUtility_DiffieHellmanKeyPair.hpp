@@ -83,6 +83,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(DiffieHellmanUtility::DiffieHellmanKeyPair) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair*, "", "DiffieHellmanUtility/DiffieHellmanKeyPair");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::DiffieHellmanKeyPair::get_publicKey
 // Il2CppName: get_publicKey
 template<>

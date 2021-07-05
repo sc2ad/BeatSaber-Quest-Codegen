@@ -93,6 +93,7 @@ namespace System::Text {
   static_assert(sizeof(Encoder) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::Encoder*, "System.Text", "Encoder");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::Encoder::SerializeEncoder
 // Il2CppName: SerializeEncoder
 template<>

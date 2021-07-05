@@ -96,6 +96,7 @@ namespace UnityEngine::UI {
   static_assert(sizeof(Scrollbar::$ClickRepeat$d__58) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Scrollbar::$ClickRepeat$d__58*, "UnityEngine.UI", "Scrollbar/<ClickRepeat>d__58");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::$ClickRepeat$d__58::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

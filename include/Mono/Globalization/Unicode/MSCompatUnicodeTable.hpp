@@ -183,6 +183,7 @@ namespace Mono::Globalization::Unicode {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::MSCompatUnicodeTable*, "Mono.Globalization.Unicode", "MSCompatUnicodeTable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::GetTailoringInfo
 // Il2CppName: GetTailoringInfo
 template<>

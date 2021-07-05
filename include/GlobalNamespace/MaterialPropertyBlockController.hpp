@@ -71,6 +71,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MaterialPropertyBlockController) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockController*, "", "MaterialPropertyBlockController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyBlockController::get_renderers
 // Il2CppName: get_renderers
 template<>

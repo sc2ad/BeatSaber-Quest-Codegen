@@ -166,6 +166,7 @@ namespace Org::BouncyCastle::Crypto::EC {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::EC::CustomNamedCurves*, "Org.BouncyCastle.Crypto.EC", "CustomNamedCurves");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::ConfigureBasepoint
 // Il2CppName: ConfigureBasepoint
 template<>

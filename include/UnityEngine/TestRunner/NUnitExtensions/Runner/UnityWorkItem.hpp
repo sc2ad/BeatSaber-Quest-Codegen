@@ -216,6 +216,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   static_assert(sizeof(UnityWorkItem) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityWorkItem");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem::get_ResultedInDomainReload
 // Il2CppName: get_ResultedInDomainReload
 template<>

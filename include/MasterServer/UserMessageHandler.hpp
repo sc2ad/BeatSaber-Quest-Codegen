@@ -316,6 +316,7 @@ namespace MasterServer {
   static_assert(sizeof(UserMessageHandler) == 0x118);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMessageHandler*, "MasterServer", "UserMessageHandler");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::UserMessageHandler::add_connectToClientEvent
 // Il2CppName: add_connectToClientEvent
 template<>

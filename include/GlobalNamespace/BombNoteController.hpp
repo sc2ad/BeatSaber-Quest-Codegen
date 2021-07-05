@@ -123,6 +123,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BombNoteController) == 0x89);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombNoteController*, "", "BombNoteController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BombNoteController::Init
 // Il2CppName: Init
 template<>

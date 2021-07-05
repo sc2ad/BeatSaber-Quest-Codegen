@@ -131,6 +131,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ColorStepValuePicker) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorStepValuePicker*, "", "ColorStepValuePicker");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorStepValuePicker::add_decButtonWasPressedEvent
 // Il2CppName: add_decButtonWasPressedEvent
 template<>

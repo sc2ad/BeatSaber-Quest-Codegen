@@ -97,6 +97,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   static_assert(sizeof(RsaCoreEngine) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::RsaCoreEngine*, "Org.BouncyCastle.Crypto.Engines", "RsaCoreEngine");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::CheckInitialised
 // Il2CppName: CheckInitialised
 template<>

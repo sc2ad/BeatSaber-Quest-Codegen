@@ -190,6 +190,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameplayModifiersPanelController) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersPanelController*, "", "GameplayModifiersPanelController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersPanelController::add_didChangeGameplayModifiersEvent
 // Il2CppName: add_didChangeGameplayModifiersEvent
 template<>

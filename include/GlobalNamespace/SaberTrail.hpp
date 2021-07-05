@@ -221,6 +221,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SaberTrail) == 0x89);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberTrail*, "", "SaberTrail");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SaberTrail::Awake
 // Il2CppName: Awake
 template<>

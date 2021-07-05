@@ -48,6 +48,7 @@ namespace UnityEngine {
   static_assert(sizeof(AndroidJavaException) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidJavaException*, "UnityEngine", "AndroidJavaException");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AndroidJavaException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

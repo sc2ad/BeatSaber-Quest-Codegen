@@ -49,6 +49,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider*, "UnityEngine.ResourceManagement.ResourceProviders", "ISceneProvider");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider::ProvideScene
 // Il2CppName: ProvideScene
 template<>

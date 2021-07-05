@@ -111,6 +111,7 @@ namespace UnityEngine::UI {
   static_assert(sizeof(ToggleGroup) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ToggleGroup*, "UnityEngine.UI", "ToggleGroup");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::ToggleGroup::get_allowSwitchOff
 // Il2CppName: get_allowSwitchOff
 template<>

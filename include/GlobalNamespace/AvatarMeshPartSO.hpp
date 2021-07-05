@@ -45,6 +45,7 @@ namespace GlobalNamespace {
   }; // AvatarMeshPartSO
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarMeshPartSO*, "", "AvatarMeshPartSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarMeshPartSO::get_mesh
 // Il2CppName: get_mesh
 template<>

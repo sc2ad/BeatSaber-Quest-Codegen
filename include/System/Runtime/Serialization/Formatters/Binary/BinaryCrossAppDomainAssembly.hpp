@@ -58,6 +58,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static_assert(sizeof(BinaryCrossAppDomainAssembly) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly*, "System.Runtime.Serialization.Formatters.Binary", "BinaryCrossAppDomainAssembly");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly::Read
 // Il2CppName: Read
 template<>

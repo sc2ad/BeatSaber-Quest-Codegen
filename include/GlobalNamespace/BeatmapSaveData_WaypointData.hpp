@@ -82,6 +82,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapSaveData::WaypointData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::WaypointData*, "", "BeatmapSaveData/WaypointData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapSaveData::WaypointData::get_time
 // Il2CppName: get_time
 template<>

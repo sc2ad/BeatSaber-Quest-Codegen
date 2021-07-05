@@ -104,6 +104,7 @@ namespace System::Net::NetworkInformation {
   static_assert(sizeof(UnicastIPAddressInformationCollection) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::UnicastIPAddressInformationCollection*, "System.Net.NetworkInformation", "UnicastIPAddressInformationCollection");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::UnicastIPAddressInformationCollection::CopyTo
 // Il2CppName: CopyTo
 template<>

@@ -144,6 +144,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerGameplayAnimator) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerGameplayAnimator*, "", "MultiplayerGameplayAnimator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerGameplayAnimator::Start
 // Il2CppName: Start
 template<>

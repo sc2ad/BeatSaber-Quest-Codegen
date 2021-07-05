@@ -127,6 +127,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(StandardScoreSyncStateDeltaNetSerializable) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*, "", "StandardScoreSyncStateDeltaNetSerializable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable::get_baseId
 // Il2CppName: get_baseId
 template<>

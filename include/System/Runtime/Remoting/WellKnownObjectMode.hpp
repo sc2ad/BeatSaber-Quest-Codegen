@@ -50,3 +50,4 @@ namespace System::Runtime::Remoting {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::WellKnownObjectMode, "System.Runtime.Remoting", "WellKnownObjectMode");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

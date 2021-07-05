@@ -186,6 +186,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapObjectsAvoidance) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectsAvoidance*, "", "BeatmapObjectsAvoidance");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectsAvoidance::Awake
 // Il2CppName: Awake
 template<>

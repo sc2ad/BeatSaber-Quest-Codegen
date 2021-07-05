@@ -368,6 +368,7 @@ namespace System::Threading {
   static_assert(sizeof(Thread) == 0x49);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Thread*, "System.Threading", "Thread");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Thread::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

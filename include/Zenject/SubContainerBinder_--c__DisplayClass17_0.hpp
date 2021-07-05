@@ -84,6 +84,7 @@ namespace Zenject {
   static_assert(sizeof(SubContainerBinder::$$c__DisplayClass17_0) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerBinder::$$c__DisplayClass17_0*, "Zenject", "SubContainerBinder/<>c__DisplayClass17_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::SubContainerBinder::$$c__DisplayClass17_0::$ByNewPrefabInstaller$b__0
 // Il2CppName: <ByNewPrefabInstaller>b__0
 template<>

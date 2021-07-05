@@ -327,6 +327,7 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer*, "", "OVRSkeletonRenderer");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer::ConfidenceBehavior, "", "OVRSkeletonRenderer/ConfidenceBehavior");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer::SystemGestureBehavior, "", "OVRSkeletonRenderer/SystemGestureBehavior");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRSkeletonRenderer::get_IsInitialized
 // Il2CppName: get_IsInitialized
 template<>

@@ -36,6 +36,7 @@ namespace UnityEngine::TestTools {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::IOuterUnityTestAction*, "UnityEngine.TestTools", "IOuterUnityTestAction");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::IOuterUnityTestAction::BeforeTest
 // Il2CppName: BeforeTest
 template<>

@@ -73,6 +73,7 @@ namespace UnityEngine::XR {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::XRInputSubsystem*, "UnityEngine.XR", "XRInputSubsystem");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::XR::XRInputSubsystem::InvokeTrackingOriginUpdatedEvent
 // Il2CppName: InvokeTrackingOriginUpdatedEvent
 template<>

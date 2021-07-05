@@ -101,6 +101,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnvironmentShaderWarmup) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentShaderWarmup*, "", "EnvironmentShaderWarmup");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentShaderWarmup::Start
 // Il2CppName: Start
 template<>

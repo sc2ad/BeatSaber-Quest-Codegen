@@ -105,6 +105,7 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::StringComparer*, "System", "StringComparer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::StringComparer::get_InvariantCultureIgnoreCase
 // Il2CppName: get_InvariantCultureIgnoreCase
 template<>

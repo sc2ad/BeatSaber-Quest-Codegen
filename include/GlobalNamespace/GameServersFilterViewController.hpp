@@ -175,6 +175,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameServersFilterViewController) == 0xD1);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServersFilterViewController*, "", "GameServersFilterViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameServersFilterViewController::get_gameServersFilter
 // Il2CppName: get_gameServersFilter
 template<>

@@ -57,6 +57,7 @@ namespace OnlineServices {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::ILeaderboardsModel*, "OnlineServices", "ILeaderboardsModel");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OnlineServices::ILeaderboardsModel::GetLeaderboardId
 // Il2CppName: GetLeaderboardId
 template<>

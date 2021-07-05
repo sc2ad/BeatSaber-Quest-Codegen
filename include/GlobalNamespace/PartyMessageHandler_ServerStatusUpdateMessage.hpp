@@ -123,6 +123,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PartyMessageHandler::ServerStatusUpdateMessage) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage*, "", "PartyMessageHandler/ServerStatusUpdateMessage");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PartyMessageHandler::ServerStatusUpdateMessage::get_pool
 // Il2CppName: get_pool
 template<>

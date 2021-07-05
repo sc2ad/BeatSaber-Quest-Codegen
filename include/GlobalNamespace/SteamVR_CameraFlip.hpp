@@ -41,6 +41,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_CameraFlip*, "", "SteamVR_CameraFlip");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_CameraFlip::Awake
 // Il2CppName: Awake
 template<>

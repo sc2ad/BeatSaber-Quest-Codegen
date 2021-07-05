@@ -341,6 +341,7 @@ namespace UnityEngine::Timeline {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationPlayableAsset*, "UnityEngine.Timeline", "AnimationPlayableAsset");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationPlayableAsset::LoopMode, "UnityEngine.Timeline", "AnimationPlayableAsset/LoopMode");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::get_position
 // Il2CppName: get_position
 template<>

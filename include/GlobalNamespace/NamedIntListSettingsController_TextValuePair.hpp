@@ -50,6 +50,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(NamedIntListSettingsController::TextValuePair) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedIntListSettingsController::TextValuePair*, "", "NamedIntListSettingsController/TextValuePair");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NamedIntListSettingsController::TextValuePair::get_localizedText
 // Il2CppName: get_localizedText
 template<>

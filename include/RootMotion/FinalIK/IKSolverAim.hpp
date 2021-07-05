@@ -168,6 +168,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKSolverAim) == 0xF0);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverAim*, "RootMotion.FinalIK", "IKSolverAim");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverAim::GetAngle
 // Il2CppName: GetAngle
 template<>

@@ -162,6 +162,7 @@ namespace System::Net {
   static_assert(sizeof(ListenerAsyncResult) == 0x52);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ListenerAsyncResult*, "System.Net", "ListenerAsyncResult");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::ListenerAsyncResult::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

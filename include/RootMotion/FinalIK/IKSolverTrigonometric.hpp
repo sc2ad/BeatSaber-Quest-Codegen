@@ -185,6 +185,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKSolverTrigonometric) == 0xA5);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverTrigonometric*, "RootMotion.FinalIK", "IKSolverTrigonometric");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverTrigonometric::SetBendGoalPosition
 // Il2CppName: SetBendGoalPosition
 template<>

@@ -218,6 +218,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(StandardLevelInfoSaveData) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelInfoSaveData*, "", "StandardLevelInfoSaveData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData::get_version
 // Il2CppName: get_version
 template<>

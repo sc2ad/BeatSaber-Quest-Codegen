@@ -173,6 +173,7 @@ namespace System::Text::RegularExpressions {
   static_assert(sizeof(RegexWriter) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexWriter*, "System.Text.RegularExpressions", "RegexWriter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexWriter::Write
 // Il2CppName: Write
 template<>

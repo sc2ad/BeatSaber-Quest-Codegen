@@ -52,6 +52,7 @@ namespace RootMotion {
   static_assert(sizeof(LargeHeader) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::LargeHeader*, "RootMotion", "LargeHeader");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::LargeHeader::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

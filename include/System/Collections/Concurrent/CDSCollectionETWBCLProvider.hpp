@@ -46,6 +46,7 @@ namespace System::Collections::Concurrent {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Concurrent::CDSCollectionETWBCLProvider*, "System.Collections.Concurrent", "CDSCollectionETWBCLProvider");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Concurrent::CDSCollectionETWBCLProvider::ConcurrentDictionary_AcquiringAllLocks
 // Il2CppName: ConcurrentDictionary_AcquiringAllLocks
 template<>

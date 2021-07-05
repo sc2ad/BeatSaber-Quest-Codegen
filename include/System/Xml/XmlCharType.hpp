@@ -104,6 +104,7 @@ namespace System::Xml {
   static_assert(sizeof(XmlCharType) == 0x8);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlCharType, "System.Xml", "XmlCharType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlCharType::get_StaticLock
 // Il2CppName: get_StaticLock
 template<>

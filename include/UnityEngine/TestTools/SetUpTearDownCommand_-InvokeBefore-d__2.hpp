@@ -93,6 +93,7 @@ namespace UnityEngine::TestTools {
   static_assert(sizeof(SetUpTearDownCommand::$InvokeBefore$d__2) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::SetUpTearDownCommand::$InvokeBefore$d__2*, "UnityEngine.TestTools", "SetUpTearDownCommand/<InvokeBefore>d__2");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::SetUpTearDownCommand::$InvokeBefore$d__2::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

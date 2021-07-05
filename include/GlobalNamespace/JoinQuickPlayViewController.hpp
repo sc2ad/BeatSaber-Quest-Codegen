@@ -127,6 +127,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(JoinQuickPlayViewController) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::JoinQuickPlayViewController*, "", "JoinQuickPlayViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::JoinQuickPlayViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

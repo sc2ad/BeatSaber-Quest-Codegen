@@ -132,6 +132,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(PenetrationAvoidance::Avoider) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::PenetrationAvoidance::Avoider*, "RootMotion.FinalIK", "PenetrationAvoidance/Avoider");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::PenetrationAvoidance::Avoider::Solve
 // Il2CppName: Solve
 template<>

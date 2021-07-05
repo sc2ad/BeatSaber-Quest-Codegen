@@ -177,6 +177,7 @@ namespace GlobalNamespace {
   bool operator !=(const GlobalNamespace::SongPackMask& a, const GlobalNamespace::SongPackMask& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPackMask, "", "SongPackMask");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMask::SongPackMask
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

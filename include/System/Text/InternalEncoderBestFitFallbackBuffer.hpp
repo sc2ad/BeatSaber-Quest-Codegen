@@ -106,6 +106,7 @@ namespace System::Text {
   static_assert(sizeof(InternalEncoderBestFitFallbackBuffer) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::InternalEncoderBestFitFallbackBuffer*, "System.Text", "InternalEncoderBestFitFallbackBuffer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::InternalEncoderBestFitFallbackBuffer::get_InternalSyncObject
 // Il2CppName: get_InternalSyncObject
 template<>

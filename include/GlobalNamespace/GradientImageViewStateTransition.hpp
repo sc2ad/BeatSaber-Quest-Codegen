@@ -173,6 +173,7 @@ namespace GlobalNamespace {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GradientImageViewStateTransition*, "", "GradientImageViewStateTransition");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GradientImageViewStateTransition::StartTweens
 // Il2CppName: StartTweens
 template<>

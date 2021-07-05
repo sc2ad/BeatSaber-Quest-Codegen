@@ -107,6 +107,7 @@ namespace System::Net::Http::Headers {
   static_assert(sizeof(AuthenticationHeaderValue) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::AuthenticationHeaderValue*, "System.Net.Http.Headers", "AuthenticationHeaderValue");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::AuthenticationHeaderValue::get_Parameter
 // Il2CppName: get_Parameter
 template<>

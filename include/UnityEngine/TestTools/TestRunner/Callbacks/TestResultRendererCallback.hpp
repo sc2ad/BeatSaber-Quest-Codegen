@@ -76,6 +76,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   static_assert(sizeof(TestResultRendererCallback) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::TestResultRendererCallback*, "UnityEngine.TestTools.TestRunner.Callbacks", "TestResultRendererCallback");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::TestResultRendererCallback::RunStarted
 // Il2CppName: RunStarted
 template<>

@@ -96,6 +96,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleExecutionRating*, "", "ObstacleExecutionRating");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleExecutionRating::Rating, "", "ObstacleExecutionRating/Rating");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleExecutionRating::get_rating
 // Il2CppName: get_rating
 template<>

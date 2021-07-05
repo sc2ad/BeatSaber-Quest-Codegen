@@ -39,6 +39,7 @@ namespace Mono::Unity {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::CertHelper*, "Mono.Unity", "CertHelper");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Unity::CertHelper::AddCertificatesToNativeChain
 // Il2CppName: AddCertificatesToNativeChain
 template<>

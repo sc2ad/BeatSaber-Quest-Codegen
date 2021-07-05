@@ -24,6 +24,7 @@ namespace Org::BouncyCastle::Asn1 {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::IAsn1String*, "Org.BouncyCastle.Asn1", "IAsn1String");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::IAsn1String::GetString
 // Il2CppName: GetString
 template<>

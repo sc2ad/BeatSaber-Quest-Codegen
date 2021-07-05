@@ -134,6 +134,7 @@ namespace UnityEngine::ProBuilder {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ActionResult*, "UnityEngine.ProBuilder", "ActionResult");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ActionResult::Status, "UnityEngine.ProBuilder", "ActionResult/Status");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ActionResult::get_status
 // Il2CppName: get_status
 template<>

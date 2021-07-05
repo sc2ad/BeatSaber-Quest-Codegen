@@ -104,6 +104,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MirroredObstacleController) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirroredObstacleController*, "", "MirroredObstacleController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MirroredObstacleController::set_hide
 // Il2CppName: set_hide
 template<>

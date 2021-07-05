@@ -206,6 +206,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRRaycaster*, "", "OVRRaycaster");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRRaycaster::RaycastHit, "", "OVRRaycaster/RaycastHit");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRRaycaster::Raycast
 // Il2CppName: Raycast
 template<>

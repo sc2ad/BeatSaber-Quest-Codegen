@@ -653,6 +653,7 @@ namespace UnityEngine::Timeline {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackAsset*, "UnityEngine.Timeline", "TrackAsset");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackAsset::TransientBuildData, "UnityEngine.Timeline", "TrackAsset/TransientBuildData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::OnBeforeTrackSerialize
 // Il2CppName: OnBeforeTrackSerialize
 template<>

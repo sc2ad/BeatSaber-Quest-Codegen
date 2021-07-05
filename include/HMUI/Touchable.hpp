@@ -64,6 +64,7 @@ namespace HMUI {
   static_assert(sizeof(Touchable) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::Touchable*, "HMUI", "Touchable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::Touchable::get_skew
 // Il2CppName: get_skew
 template<>

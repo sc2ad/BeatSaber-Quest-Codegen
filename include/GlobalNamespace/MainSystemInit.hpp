@@ -561,6 +561,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MainSystemInit) == 0x1F0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSystemInit*, "", "MainSystemInit");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainSystemInit::Init
 // Il2CppName: Init
 template<>

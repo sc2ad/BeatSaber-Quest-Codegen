@@ -145,6 +145,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LocalNetworkPlayersViewController) == 0xBA);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkPlayersViewController*, "", "LocalNetworkPlayersViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkPlayersViewController::HandleNetworkingToggleChanged
 // Il2CppName: HandleNetworkingToggleChanged
 template<>

@@ -95,6 +95,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   static_assert(sizeof(NoekeonEngine) == 0x1A);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::NoekeonEngine*, "Org.BouncyCastle.Crypto.Engines", "NoekeonEngine");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::NoekeonEngine::get_AlgorithmName
 // Il2CppName: get_AlgorithmName
 template<>

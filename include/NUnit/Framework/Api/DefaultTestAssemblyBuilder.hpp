@@ -107,6 +107,7 @@ namespace NUnit::Framework::Api {
   static_assert(sizeof(DefaultTestAssemblyBuilder) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Api::DefaultTestAssemblyBuilder*, "NUnit.Framework.Api", "DefaultTestAssemblyBuilder");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Api::DefaultTestAssemblyBuilder::Build
 // Il2CppName: Build
 template<>

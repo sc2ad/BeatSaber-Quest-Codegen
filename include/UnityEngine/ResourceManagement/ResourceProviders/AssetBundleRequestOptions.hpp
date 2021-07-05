@@ -184,6 +184,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   static_assert(sizeof(AssetBundleRequestOptions) == 0x42);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions*, "UnityEngine.ResourceManagement.ResourceProviders", "AssetBundleRequestOptions");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::AssetBundleRequestOptions::get_Hash
 // Il2CppName: get_Hash
 template<>

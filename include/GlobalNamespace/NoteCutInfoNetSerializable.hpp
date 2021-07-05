@@ -170,6 +170,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteCutInfoNetSerializable) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutInfoNetSerializable*, "", "NoteCutInfoNetSerializable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutInfoNetSerializable::LiteNetLib_Utils_INetSerializable_Deserialize
 // Il2CppName: LiteNetLib.Utils.INetSerializable.Deserialize
 template<>

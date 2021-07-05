@@ -119,6 +119,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(TestPlatformAdditionalContentModel) == 0x39);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestPlatformAdditionalContentModel*, "", "TestPlatformAdditionalContentModel");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TestPlatformAdditionalContentModel::BuyLevel
 // Il2CppName: BuyLevel
 template<>

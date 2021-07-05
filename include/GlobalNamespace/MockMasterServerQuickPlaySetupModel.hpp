@@ -71,6 +71,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockMasterServerQuickPlaySetupModel) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockMasterServerQuickPlaySetupModel*, "", "MockMasterServerQuickPlaySetupModel");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockMasterServerQuickPlaySetupModel::GetQuickPlaySetupAsync
 // Il2CppName: GetQuickPlaySetupAsync
 template<>

@@ -125,6 +125,7 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
   static_assert(sizeof(ContentCatalogDataEntry) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry*, "UnityEngine.AddressableAssets.ResourceLocators", "ContentCatalogDataEntry");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogDataEntry::get_InternalId
 // Il2CppName: get_InternalId
 template<>

@@ -34,6 +34,7 @@ namespace UnityEngineInternal {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::GenericStack*, "UnityEngineInternal", "GenericStack");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngineInternal::GenericStack::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

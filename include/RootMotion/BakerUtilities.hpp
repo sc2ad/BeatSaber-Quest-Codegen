@@ -45,6 +45,7 @@ namespace RootMotion {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BakerUtilities*, "RootMotion", "BakerUtilities");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::BakerUtilities::ReduceKeyframes
 // Il2CppName: ReduceKeyframes
 template<>

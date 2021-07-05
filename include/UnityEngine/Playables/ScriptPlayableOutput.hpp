@@ -72,6 +72,7 @@ namespace UnityEngine::Playables {
   static_assert(sizeof(ScriptPlayableOutput) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::ScriptPlayableOutput, "UnityEngine.Playables", "ScriptPlayableOutput");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::ScriptPlayableOutput::Create
 // Il2CppName: Create
 template<>

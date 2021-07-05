@@ -123,6 +123,7 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(ParticleControlPlayable) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ParticleControlPlayable*, "UnityEngine.Timeline", "ParticleControlPlayable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::ParticleControlPlayable::Create
 // Il2CppName: Create
 template<>

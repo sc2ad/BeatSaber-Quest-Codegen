@@ -83,6 +83,7 @@ namespace UnityEngine::UI {
   static_assert(sizeof(Dropdown::$DelayedDestroyDropdownList$d__74) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Dropdown::$DelayedDestroyDropdownList$d__74*, "UnityEngine.UI", "Dropdown/<DelayedDestroyDropdownList>d__74");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::$DelayedDestroyDropdownList$d__74::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

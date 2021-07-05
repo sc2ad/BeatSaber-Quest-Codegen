@@ -84,6 +84,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OculusBeatmapDataAssetFileModel::$$c__DisplayClass13_0) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass13_0*, "", "OculusBeatmapDataAssetFileModel/<>c__DisplayClass13_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusBeatmapDataAssetFileModel::$$c__DisplayClass13_0::$TryDeleteAssetBundleFileForPreviewLevelAsync$b__0
 // Il2CppName: <TryDeleteAssetBundleFileForPreviewLevelAsync>b__0
 template<>

@@ -62,3 +62,4 @@ namespace Zenject {
   // Could not write size check! Type: Zenject.FactoryToChoiceBinder`6 is generic, or has no fields that are valid for size checks!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::FactoryToChoiceBinder_6, "Zenject", "FactoryToChoiceBinder`6");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

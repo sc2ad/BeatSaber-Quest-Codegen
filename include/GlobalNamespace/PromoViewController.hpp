@@ -83,6 +83,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PromoViewController) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PromoViewController*, "", "PromoViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PromoViewController::add_promoButtonWasPressedEvent
 // Il2CppName: add_promoButtonWasPressedEvent
 template<>

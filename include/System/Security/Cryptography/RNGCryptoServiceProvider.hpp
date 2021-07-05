@@ -85,6 +85,7 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(RNGCryptoServiceProvider) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RNGCryptoServiceProvider*, "System.Security.Cryptography", "RNGCryptoServiceProvider");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::RNGCryptoServiceProvider::_cctor
 // Il2CppName: .cctor
 template<>

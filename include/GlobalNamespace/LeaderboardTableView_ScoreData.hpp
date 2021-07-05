@@ -87,6 +87,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LeaderboardTableView::ScoreData) == 0x25);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardTableView::ScoreData*, "", "LeaderboardTableView/ScoreData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardTableView::ScoreData::get_score
 // Il2CppName: get_score
 template<>

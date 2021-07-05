@@ -72,6 +72,7 @@ namespace UnityEngine::UI {
   static_assert(sizeof(ClipperRegistry) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ClipperRegistry*, "UnityEngine.UI", "ClipperRegistry");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::ClipperRegistry::get_instance
 // Il2CppName: get_instance
 template<>

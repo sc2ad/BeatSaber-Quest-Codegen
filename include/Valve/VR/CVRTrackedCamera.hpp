@@ -98,6 +98,7 @@ namespace Valve::VR {
   static_assert(sizeof(CVRTrackedCamera) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRTrackedCamera*, "Valve.VR", "CVRTrackedCamera");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Valve::VR::CVRTrackedCamera::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

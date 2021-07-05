@@ -100,6 +100,7 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(FaceRebuildData) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::FaceRebuildData*, "UnityEngine.ProBuilder", "FaceRebuildData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::FaceRebuildData::Offset
 // Il2CppName: Offset
 template<>

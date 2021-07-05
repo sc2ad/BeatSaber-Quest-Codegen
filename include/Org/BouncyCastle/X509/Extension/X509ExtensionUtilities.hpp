@@ -31,6 +31,7 @@ namespace Org::BouncyCastle::X509::Extension {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::Extension::X509ExtensionUtilities*, "Org.BouncyCastle.X509.Extension", "X509ExtensionUtilities");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::Extension::X509ExtensionUtilities::FromExtensionValue
 // Il2CppName: FromExtensionValue
 template<>

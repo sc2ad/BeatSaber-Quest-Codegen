@@ -81,6 +81,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(TrigonometricIK) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::TrigonometricIK*, "RootMotion.FinalIK", "TrigonometricIK");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::TrigonometricIK::SupportGroup
 // Il2CppName: SupportGroup
 template<>

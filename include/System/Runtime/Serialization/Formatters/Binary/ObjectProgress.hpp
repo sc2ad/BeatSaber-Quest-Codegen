@@ -189,6 +189,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static_assert(sizeof(ObjectProgress) == 0x88);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ObjectProgress*, "System.Runtime.Serialization.Formatters.Binary", "ObjectProgress");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectProgress::Init
 // Il2CppName: Init
 template<>

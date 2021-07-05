@@ -58,6 +58,7 @@ namespace System::Threading::Tasks {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskToApm*, "System.Threading.Tasks", "TaskToApm");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskToApm::Begin
 // Il2CppName: Begin
 template<>

@@ -142,6 +142,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LightWithIdManager) == 0x41);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightWithIdManager*, "", "LightWithIdManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightWithIdManager::add_didChangeSomeColorsThisFrameEvent
 // Il2CppName: add_didChangeSomeColorsThisFrameEvent
 template<>

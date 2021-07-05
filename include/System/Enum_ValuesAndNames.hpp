@@ -45,6 +45,7 @@ namespace System {
   static_assert(sizeof(Enum::ValuesAndNames) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Enum::ValuesAndNames*, "System", "Enum/ValuesAndNames");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Enum::ValuesAndNames::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

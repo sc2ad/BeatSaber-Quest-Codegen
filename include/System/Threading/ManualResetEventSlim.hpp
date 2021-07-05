@@ -216,6 +216,7 @@ namespace System::Threading {
   static_assert(sizeof(ManualResetEventSlim) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ManualResetEventSlim*, "System.Threading", "ManualResetEventSlim");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::ManualResetEventSlim::get_WaitHandle
 // Il2CppName: get_WaitHandle
 template<>

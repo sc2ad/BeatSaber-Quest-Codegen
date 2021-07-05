@@ -72,6 +72,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(AvatarHeadOffset) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarHeadOffset*, "", "AvatarHeadOffset");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarHeadOffset::Start
 // Il2CppName: Start
 template<>

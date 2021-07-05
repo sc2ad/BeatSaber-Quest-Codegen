@@ -113,6 +113,7 @@ namespace Org::BouncyCastle::Asn1::Eac {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Eac::EacObjectIdentifiers*, "Org.BouncyCastle.Asn1.Eac", "EacObjectIdentifiers");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Eac::EacObjectIdentifiers::_cctor
 // Il2CppName: .cctor
 template<>

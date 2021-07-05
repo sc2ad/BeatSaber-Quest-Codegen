@@ -120,6 +120,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LightsAnimator) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightsAnimator*, "", "LightsAnimator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightsAnimator::Awake
 // Il2CppName: Awake
 template<>

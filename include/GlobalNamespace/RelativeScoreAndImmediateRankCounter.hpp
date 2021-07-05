@@ -130,6 +130,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(RelativeScoreAndImmediateRankCounter) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RelativeScoreAndImmediateRankCounter*, "", "RelativeScoreAndImmediateRankCounter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RelativeScoreAndImmediateRankCounter::add_relativeScoreOrImmediateRankDidChangeEvent
 // Il2CppName: add_relativeScoreOrImmediateRankDidChangeEvent
 template<>

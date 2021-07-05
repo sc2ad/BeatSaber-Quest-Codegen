@@ -61,3 +61,4 @@ namespace System::Runtime::ConstrainedExecution {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::ConstrainedExecution::Consistency, "System.Runtime.ConstrainedExecution", "Consistency");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

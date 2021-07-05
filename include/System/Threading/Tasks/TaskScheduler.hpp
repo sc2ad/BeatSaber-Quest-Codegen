@@ -130,6 +130,7 @@ namespace System::Threading::Tasks {
   static_assert(sizeof(TaskScheduler) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskScheduler*, "System.Threading.Tasks", "TaskScheduler");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskScheduler::QueueTask
 // Il2CppName: QueueTask
 template<>

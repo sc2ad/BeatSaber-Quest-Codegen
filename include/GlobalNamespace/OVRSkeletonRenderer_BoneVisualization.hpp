@@ -85,6 +85,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRSkeletonRenderer::BoneVisualization) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer::BoneVisualization*, "", "OVRSkeletonRenderer/BoneVisualization");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRSkeletonRenderer::BoneVisualization::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

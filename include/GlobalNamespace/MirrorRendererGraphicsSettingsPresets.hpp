@@ -64,6 +64,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MirrorRendererGraphicsSettingsPresets) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirrorRendererGraphicsSettingsPresets*, "", "MirrorRendererGraphicsSettingsPresets");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MirrorRendererGraphicsSettingsPresets::get_presets
 // Il2CppName: get_presets
 template<>

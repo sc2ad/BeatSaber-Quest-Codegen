@@ -486,6 +486,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CloudsMeshGenerator::Cloud, "", "CloudsM
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CloudsMeshGenerator::Ring, "", "CloudsMeshGenerator/Ring");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CloudsMeshGenerator::ProhibitedRadius, "", "CloudsMeshGenerator/ProhibitedRadius");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CloudsMeshGenerator::RadiusChunk, "", "CloudsMeshGenerator/RadiusChunk");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CloudsMeshGenerator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

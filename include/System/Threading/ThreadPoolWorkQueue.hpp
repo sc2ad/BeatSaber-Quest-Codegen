@@ -95,6 +95,7 @@ namespace System::Threading {
   static_assert(sizeof(ThreadPoolWorkQueue) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPoolWorkQueue*, "System.Threading", "ThreadPoolWorkQueue");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::ThreadPoolWorkQueue::EnsureCurrentThreadHasQueue
 // Il2CppName: EnsureCurrentThreadHasQueue
 template<>

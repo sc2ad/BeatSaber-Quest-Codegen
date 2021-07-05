@@ -156,6 +156,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OptionsViewController*, "", "OptionsViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OptionsViewController::OptionsButton, "", "OptionsViewController/OptionsButton");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OptionsViewController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

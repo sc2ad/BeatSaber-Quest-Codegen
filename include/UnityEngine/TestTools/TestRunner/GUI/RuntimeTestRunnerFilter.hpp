@@ -100,6 +100,7 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
   static_assert(sizeof(RuntimeTestRunnerFilter) == 0x31);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*, "UnityEngine.TestTools.TestRunner.GUI", "RuntimeTestRunnerFilter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter::BuildNUnitFilter
 // Il2CppName: BuildNUnitFilter
 template<>

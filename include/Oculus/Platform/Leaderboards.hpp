@@ -65,6 +65,7 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Leaderboards*, "Oculus.Platform", "Leaderboards");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Leaderboards::GetNextEntries
 // Il2CppName: GetNextEntries
 template<>

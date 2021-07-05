@@ -195,6 +195,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomPrePassRendererSO) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassRendererSO*, "", "BloomPrePassRendererSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassRendererSO::OnDisable
 // Il2CppName: OnDisable
 template<>

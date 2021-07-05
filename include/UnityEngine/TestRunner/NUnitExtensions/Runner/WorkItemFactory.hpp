@@ -56,6 +56,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "WorkItemFactory");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::WorkItemFactory::Create
 // Il2CppName: Create
 template<>

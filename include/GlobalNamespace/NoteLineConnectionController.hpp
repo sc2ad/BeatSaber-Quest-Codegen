@@ -166,6 +166,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteLineConnectionController) == 0x7D);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteLineConnectionController*, "", "NoteLineConnectionController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteLineConnectionController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

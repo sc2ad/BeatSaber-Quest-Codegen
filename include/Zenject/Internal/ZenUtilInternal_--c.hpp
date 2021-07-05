@@ -79,6 +79,7 @@ namespace Zenject::Internal {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ZenUtilInternal::$$c*, "Zenject.Internal", "ZenUtilInternal/<>c");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::Internal::ZenUtilInternal::$$c::_cctor
 // Il2CppName: .cctor
 template<>

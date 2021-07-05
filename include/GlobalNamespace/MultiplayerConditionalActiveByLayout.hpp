@@ -115,6 +115,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConditionalActiveByLayout*, "", "MultiplayerConditionalActiveByLayout");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConditionalActiveByLayout::Condition, "", "MultiplayerConditionalActiveByLayout/Condition");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConditionalActiveByLayout::Start
 // Il2CppName: Start
 template<>

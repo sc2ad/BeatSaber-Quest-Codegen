@@ -102,6 +102,7 @@ namespace UnityEngine::UI {
   static_assert(sizeof(RawImage) == 0xD8);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::RawImage*, "UnityEngine.UI", "RawImage");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::RawImage::get_texture
 // Il2CppName: get_texture
 template<>

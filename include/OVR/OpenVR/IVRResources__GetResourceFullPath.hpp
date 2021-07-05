@@ -57,6 +57,7 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRResources::_GetResourceFullPath*, "OVR.OpenVR", "IVRResources/_GetResourceFullPath");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRResources::_GetResourceFullPath::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

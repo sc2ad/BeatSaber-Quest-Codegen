@@ -98,6 +98,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissedNoteEffectSpawner) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissedNoteEffectSpawner*, "", "MissedNoteEffectSpawner");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissedNoteEffectSpawner::Start
 // Il2CppName: Start
 template<>

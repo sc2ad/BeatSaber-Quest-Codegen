@@ -38,6 +38,7 @@ namespace NUnit::Framework::Interfaces {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ITestFixtureData*, "NUnit.Framework.Interfaces", "ITestFixtureData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITestFixtureData::get_TypeArgs
 // Il2CppName: get_TypeArgs
 template<>

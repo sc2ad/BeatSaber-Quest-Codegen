@@ -90,6 +90,7 @@ namespace Zenject {
   static_assert(sizeof(SceneContextRegistry) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SceneContextRegistry*, "Zenject", "SceneContextRegistry");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::SceneContextRegistry::get_SceneContexts
 // Il2CppName: get_SceneContexts
 template<>

@@ -97,6 +97,7 @@ namespace Oculus::Platform {
   static_assert(sizeof(ChallengeOptions) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::ChallengeOptions*, "Oculus.Platform", "ChallengeOptions");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::ChallengeOptions::SetDescription
 // Il2CppName: SetDescription
 template<>

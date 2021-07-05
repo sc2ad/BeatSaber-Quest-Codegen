@@ -66,6 +66,7 @@ namespace System::Runtime::Remoting::Metadata {
   static_assert(sizeof(SoapAttribute) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Metadata::SoapAttribute*, "System.Runtime.Remoting.Metadata", "SoapAttribute");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Metadata::SoapAttribute::get_UseAttribute
 // Il2CppName: get_UseAttribute
 template<>

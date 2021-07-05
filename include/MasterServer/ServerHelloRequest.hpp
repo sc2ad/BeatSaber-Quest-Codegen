@@ -98,6 +98,7 @@ namespace MasterServer {
   static_assert(sizeof(ServerHelloRequest) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ServerHelloRequest*, "MasterServer", "ServerHelloRequest");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::ServerHelloRequest::get_pool
 // Il2CppName: get_pool
 template<>

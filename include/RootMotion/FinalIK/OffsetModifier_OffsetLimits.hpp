@@ -137,6 +137,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(OffsetModifier::OffsetLimits) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetModifier::OffsetLimits*, "RootMotion.FinalIK", "OffsetModifier/OffsetLimits");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::OffsetModifier::OffsetLimits::Apply
 // Il2CppName: Apply
 template<>

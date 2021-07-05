@@ -123,6 +123,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionLevelScenesTransitionSetupDataSO) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, "", "MissionLevelScenesTransitionSetupDataSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

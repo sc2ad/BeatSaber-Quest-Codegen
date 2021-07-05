@@ -119,6 +119,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   static_assert(sizeof(PrivateKeyInfo) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*, "Org.BouncyCastle.Asn1.Pkcs", "PrivateKeyInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::GetInstance
 // Il2CppName: GetInstance
 template<>

@@ -43,6 +43,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LineTriangleIntersection*, "", "LineTriangleIntersection");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LineTriangleIntersection::Intersects
 // Il2CppName: Intersects
 template<>

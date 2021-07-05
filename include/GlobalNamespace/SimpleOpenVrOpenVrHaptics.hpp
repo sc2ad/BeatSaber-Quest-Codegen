@@ -50,6 +50,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleOpenVrOpenVrHaptics*, "", "SimpleOpenVrOpenVrHaptics");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleOpenVrOpenVrHaptics::TriggerHapticPulse
 // Il2CppName: TriggerHapticPulse
 template<>

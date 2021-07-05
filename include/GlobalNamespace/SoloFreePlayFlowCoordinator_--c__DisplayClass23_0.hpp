@@ -58,6 +58,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SoloFreePlayFlowCoordinator::$$c__DisplayClass23_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SoloFreePlayFlowCoordinator::$$c__DisplayClass23_0*, "", "SoloFreePlayFlowCoordinator/<>c__DisplayClass23_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SoloFreePlayFlowCoordinator::$$c__DisplayClass23_0::$HandleResultsViewControllerRestartButtonPressed$b__0
 // Il2CppName: <HandleResultsViewControllerRestartButtonPressed>b__0
 template<>

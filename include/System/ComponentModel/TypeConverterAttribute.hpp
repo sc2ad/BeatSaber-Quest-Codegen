@@ -81,6 +81,7 @@ namespace System::ComponentModel {
   static_assert(sizeof(TypeConverterAttribute) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::TypeConverterAttribute*, "System.ComponentModel", "TypeConverterAttribute");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::TypeConverterAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -39,6 +39,7 @@ namespace NUnit::Compatibility {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Compatibility::LongLivedMarshalByRefObject*, "NUnit.Compatibility", "LongLivedMarshalByRefObject");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Compatibility::LongLivedMarshalByRefObject::InitializeLifetimeService
 // Il2CppName: InitializeLifetimeService
 template<>

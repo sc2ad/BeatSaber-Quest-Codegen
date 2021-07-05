@@ -52,6 +52,7 @@ namespace System::Net {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpRequestCreator*, "System.Net", "HttpRequestCreator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::HttpRequestCreator::Create
 // Il2CppName: Create
 template<>

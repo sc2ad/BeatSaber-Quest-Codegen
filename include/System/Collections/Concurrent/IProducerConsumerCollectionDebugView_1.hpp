@@ -19,3 +19,4 @@ namespace System::Collections::Concurrent {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Collections::Concurrent::IProducerConsumerCollectionDebugView_1, "System.Collections.Concurrent", "IProducerConsumerCollectionDebugView`1");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

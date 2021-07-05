@@ -241,6 +241,7 @@ namespace UnityEngine {
   static_assert(sizeof(GUILayoutGroup) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayoutGroup*, "UnityEngine", "GUILayoutGroup");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUILayoutGroup::ResetCursor
 // Il2CppName: ResetCursor
 template<>

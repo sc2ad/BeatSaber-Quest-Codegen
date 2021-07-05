@@ -78,6 +78,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
   static_assert(sizeof(SecP160K1Curve::SecP160K1LookupTable) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Curve::SecP160K1LookupTable*, "Org.BouncyCastle.Math.EC.Custom.Sec", "SecP160K1Curve/SecP160K1LookupTable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Sec::SecP160K1Curve::SecP160K1LookupTable::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

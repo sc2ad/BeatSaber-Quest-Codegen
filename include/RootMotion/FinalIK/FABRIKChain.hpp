@@ -86,6 +86,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(FABRIKChain) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FABRIKChain*, "RootMotion.FinalIK", "FABRIKChain");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::FABRIKChain::IsValid
 // Il2CppName: IsValid
 template<>

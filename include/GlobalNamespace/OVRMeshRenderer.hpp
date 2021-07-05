@@ -256,6 +256,7 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer*, "", "OVRMeshRenderer");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer::ConfidenceBehavior, "", "OVRMeshRenderer/ConfidenceBehavior");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer::SystemGestureBehavior, "", "OVRMeshRenderer/SystemGestureBehavior");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRMeshRenderer::get_IsInitialized
 // Il2CppName: get_IsInitialized
 template<>

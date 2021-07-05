@@ -28,3 +28,4 @@ namespace UnityEngine::PlayerLoop {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerLoop::PostLateUpdate::BatchModeUpdate, "UnityEngine.PlayerLoop", "PostLateUpdate/BatchModeUpdate");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

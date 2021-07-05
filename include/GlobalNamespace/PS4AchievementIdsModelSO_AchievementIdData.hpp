@@ -62,6 +62,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PS4AchievementIdsModelSO::AchievementIdData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData*, "", "PS4AchievementIdsModelSO/AchievementIdData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData::get_ps4TrophyId
 // Il2CppName: get_ps4TrophyId
 template<>

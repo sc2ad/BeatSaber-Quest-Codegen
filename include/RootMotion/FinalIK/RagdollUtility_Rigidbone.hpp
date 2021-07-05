@@ -124,6 +124,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(RagdollUtility::Rigidbone) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RagdollUtility::Rigidbone*, "RootMotion.FinalIK", "RagdollUtility/Rigidbone");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::RagdollUtility::Rigidbone::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

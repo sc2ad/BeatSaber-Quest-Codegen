@@ -71,6 +71,7 @@ namespace UnityEngine::UI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ToggleGroup::$$c*, "UnityEngine.UI", "ToggleGroup/<>c");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::ToggleGroup::$$c::_cctor
 // Il2CppName: .cctor
 template<>

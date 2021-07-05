@@ -156,6 +156,7 @@ namespace UnityEngine::EventSystems {
   static_assert(sizeof(PointerInputModule) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerInputModule*, "UnityEngine.EventSystems", "PointerInputModule");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::PointerInputModule::GetPointerData
 // Il2CppName: GetPointerData
 template<>

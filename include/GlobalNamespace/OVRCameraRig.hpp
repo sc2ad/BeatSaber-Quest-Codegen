@@ -326,6 +326,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRCameraRig) == 0xD0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRCameraRig*, "", "OVRCameraRig");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRCameraRig::get_leftEyeCamera
 // Il2CppName: get_leftEyeCamera
 template<>

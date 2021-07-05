@@ -235,6 +235,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(StandardLevelDetailView) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailView*, "", "StandardLevelDetailView");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailView::add_didChangeDifficultyBeatmapEvent
 // Il2CppName: add_didChangeDifficultyBeatmapEvent
 template<>

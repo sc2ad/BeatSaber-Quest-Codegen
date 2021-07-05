@@ -78,6 +78,7 @@ namespace Org::BouncyCastle::Crypto::Generators {
   static_assert(sizeof(BaseKdfBytesGenerator) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator*, "Org.BouncyCastle.Crypto.Generators", "BaseKdfBytesGenerator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

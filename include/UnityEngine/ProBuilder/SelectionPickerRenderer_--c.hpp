@@ -67,6 +67,7 @@ namespace UnityEngine::ProBuilder {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SelectionPickerRenderer::$$c*, "UnityEngine.ProBuilder", "SelectionPickerRenderer/<>c");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPickerRenderer::$$c::_cctor
 // Il2CppName: .cctor
 template<>

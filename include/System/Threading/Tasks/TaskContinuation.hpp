@@ -44,6 +44,7 @@ namespace System::Threading::Tasks {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskContinuation*, "System.Threading.Tasks", "TaskContinuation");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskContinuation::Run
 // Il2CppName: Run
 template<>

@@ -51,6 +51,7 @@ namespace UnityEngine::AddressableAssets {
   }; // UnityEngine.AddressableAssets.AssetReferenceAtlasedSprite
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite*, "UnityEngine.AddressableAssets", "AssetReferenceAtlasedSprite");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

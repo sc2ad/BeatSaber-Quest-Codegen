@@ -95,6 +95,7 @@ namespace Mono::Net {
   static_assert(sizeof(CFNetwork::CFWebProxy) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNetwork::CFWebProxy*, "Mono.Net", "CFNetwork/CFWebProxy");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::CFWebProxy::get_Credentials
 // Il2CppName: get_Credentials
 template<>

@@ -187,6 +187,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelCompletionResults*, "", "MultiplayerLevelCompletionResults");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLevelCompletionResults::MultiplayerLevelEndState, "", "MultiplayerLevelCompletionResults/MultiplayerLevelEndState");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelCompletionResults::get_levelEndState
 // Il2CppName: get_levelEndState
 template<>

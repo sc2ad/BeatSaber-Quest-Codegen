@@ -42,6 +42,7 @@ namespace HMUI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SectionTableView::IDataSource*, "HMUI", "SectionTableView/IDataSource");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::SectionTableView::IDataSource::RowHeight
 // Il2CppName: RowHeight
 template<>

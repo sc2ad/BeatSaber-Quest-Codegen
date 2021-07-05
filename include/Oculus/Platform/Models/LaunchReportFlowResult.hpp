@@ -47,6 +47,7 @@ namespace Oculus::Platform::Models {
   static_assert(sizeof(LaunchReportFlowResult) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::LaunchReportFlowResult*, "Oculus.Platform.Models", "LaunchReportFlowResult");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Models::LaunchReportFlowResult::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

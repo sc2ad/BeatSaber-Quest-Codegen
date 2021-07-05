@@ -100,6 +100,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SpriteSwapTransitionSO) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpriteSwapTransitionSO*, "", "SpriteSwapTransitionSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SpriteSwapTransitionSO::get_normalSprite
 // Il2CppName: get_normalSprite
 template<>

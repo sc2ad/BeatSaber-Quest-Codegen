@@ -90,6 +90,7 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(Oid) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::Oid*, "System.Security.Cryptography", "Oid");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::Oid::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

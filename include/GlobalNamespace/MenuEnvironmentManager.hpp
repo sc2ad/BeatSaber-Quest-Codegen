@@ -113,6 +113,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuEnvironmentManager*, "", "MenuEnvironmentManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType, "", "MenuEnvironmentManager/MenuEnvironmentType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuEnvironmentManager::Start
 // Il2CppName: Start
 template<>

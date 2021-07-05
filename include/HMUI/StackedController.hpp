@@ -80,6 +80,7 @@ namespace HMUI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::StackedController*, "HMUI", "StackedController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::StackedController::get_topStackedViewController
 // Il2CppName: get_topStackedViewController
 template<>

@@ -81,6 +81,7 @@ namespace Mono::Security::Authenticode {
   static_assert(sizeof(PrivateKey) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Authenticode::PrivateKey*, "Mono.Security.Authenticode", "PrivateKey");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Authenticode::PrivateKey::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -92,6 +92,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameServerListDetailTableCell) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerListDetailTableCell*, "", "GameServerListDetailTableCell");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameServerListDetailTableCell::add_joinServerButtonWasPressedEvent
 // Il2CppName: add_joinServerButtonWasPressedEvent
 template<>

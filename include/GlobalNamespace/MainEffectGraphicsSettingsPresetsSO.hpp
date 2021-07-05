@@ -64,6 +64,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MainEffectGraphicsSettingsPresetsSO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectGraphicsSettingsPresetsSO*, "", "MainEffectGraphicsSettingsPresetsSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::get_presets
 // Il2CppName: get_presets
 template<>

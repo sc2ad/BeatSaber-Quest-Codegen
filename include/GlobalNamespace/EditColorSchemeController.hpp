@@ -167,6 +167,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(EditColorSchemeController) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EditColorSchemeController*, "", "EditColorSchemeController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EditColorSchemeController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>

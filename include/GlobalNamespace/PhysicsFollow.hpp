@@ -89,6 +89,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PhysicsFollow) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PhysicsFollow*, "", "PhysicsFollow");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PhysicsFollow::Start
 // Il2CppName: Start
 template<>

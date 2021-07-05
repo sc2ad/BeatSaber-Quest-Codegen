@@ -69,6 +69,7 @@ namespace Mono {
   static_assert(sizeof(RuntimeGPtrArrayHandle) == 0x8);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeGPtrArrayHandle, "Mono", "RuntimeGPtrArrayHandle");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::RuntimeGPtrArrayHandle::RuntimeGPtrArrayHandle
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

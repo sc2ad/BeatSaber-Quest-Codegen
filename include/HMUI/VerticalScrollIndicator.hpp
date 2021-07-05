@@ -107,6 +107,7 @@ namespace HMUI {
   static_assert(sizeof(VerticalScrollIndicator) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::VerticalScrollIndicator*, "HMUI", "VerticalScrollIndicator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::VerticalScrollIndicator::set_progress
 // Il2CppName: set_progress
 template<>

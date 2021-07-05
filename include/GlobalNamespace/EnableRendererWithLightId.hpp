@@ -74,6 +74,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnableRendererWithLightId) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableRendererWithLightId*, "", "EnableRendererWithLightId");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnableRendererWithLightId::ColorWasSet
 // Il2CppName: ColorWasSet
 template<>

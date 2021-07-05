@@ -485,6 +485,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockPlayer) == 0xD0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayer*, "", "MockPlayer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayer::get_isReady
 // Il2CppName: get_isReady
 template<>

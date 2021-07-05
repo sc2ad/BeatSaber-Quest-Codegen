@@ -88,6 +88,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BTSStarTextEffectsManager::$DespawnEffectDelayed$d__5) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEffectsManager::$DespawnEffectDelayed$d__5*, "", "BTSStarTextEffectsManager/<DespawnEffectDelayed>d__5");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEffectsManager::$DespawnEffectDelayed$d__5::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

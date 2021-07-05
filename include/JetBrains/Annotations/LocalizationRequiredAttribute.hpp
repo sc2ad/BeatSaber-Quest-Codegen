@@ -61,6 +61,7 @@ namespace JetBrains::Annotations {
   static_assert(sizeof(LocalizationRequiredAttribute) == 0x11);
 }
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::LocalizationRequiredAttribute*, "JetBrains.Annotations", "LocalizationRequiredAttribute");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::LocalizationRequiredAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

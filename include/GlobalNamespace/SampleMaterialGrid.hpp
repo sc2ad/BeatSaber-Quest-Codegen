@@ -173,6 +173,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SampleMaterialGrid*, "", "SampleMaterialGrid");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SampleMaterialGrid::MaterialSetting, "", "SampleMaterialGrid/MaterialSetting");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SampleMaterialGrid::get_floatPropertyIds
 // Il2CppName: get_floatPropertyIds
 template<>

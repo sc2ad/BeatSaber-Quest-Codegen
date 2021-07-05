@@ -149,6 +149,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   static_assert(sizeof(Gost28147Engine) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::Gost28147Engine*, "Org.BouncyCastle.Crypto.Engines", "Gost28147Engine");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::Gost28147Engine::_cctor
 // Il2CppName: .cctor
 template<>

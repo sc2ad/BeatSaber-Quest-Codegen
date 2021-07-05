@@ -68,6 +68,7 @@ namespace System::Runtime::InteropServices {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ExternalException*, "System.Runtime.InteropServices", "ExternalException");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::InteropServices::ExternalException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

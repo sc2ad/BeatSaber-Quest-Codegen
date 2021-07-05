@@ -58,6 +58,7 @@ namespace ModestTree {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::TypeStringFormatter::$$c*, "ModestTree", "TypeStringFormatter/<>c");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: ModestTree::TypeStringFormatter::$$c::_cctor
 // Il2CppName: .cctor
 template<>

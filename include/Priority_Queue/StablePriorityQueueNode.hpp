@@ -53,6 +53,7 @@ namespace Priority_Queue {
   static_assert(sizeof(StablePriorityQueueNode) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Priority_Queue::StablePriorityQueueNode*, "Priority_Queue", "StablePriorityQueueNode");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Priority_Queue::StablePriorityQueueNode::get_InsertionIndex
 // Il2CppName: get_InsertionIndex
 template<>

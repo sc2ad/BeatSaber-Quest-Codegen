@@ -57,6 +57,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SimpleColorSO) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleColorSO*, "", "SimpleColorSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleColorSO::SetColor
 // Il2CppName: SetColor
 template<>

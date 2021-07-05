@@ -43,6 +43,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseLeaderboardModel*, "", "NetEaseLeaderboardModel");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NetEaseLeaderboardModel::Start
 // Il2CppName: Start
 template<>

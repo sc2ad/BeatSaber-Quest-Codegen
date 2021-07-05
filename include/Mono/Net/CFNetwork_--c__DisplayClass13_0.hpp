@@ -65,6 +65,7 @@ namespace Mono::Net {
   static_assert(sizeof(CFNetwork::$$c__DisplayClass13_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNetwork::$$c__DisplayClass13_0*, "Mono.Net", "CFNetwork/<>c__DisplayClass13_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::$$c__DisplayClass13_0::$ExecuteProxyAutoConfigurationURL$b__0
 // Il2CppName: <ExecuteProxyAutoConfigurationURL>b__0
 template<>

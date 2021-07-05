@@ -74,6 +74,7 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(EntityBehaviour) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::EntityBehaviour*, "UnityEngine.ProBuilder", "EntityBehaviour");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::EntityBehaviour::Initialize
 // Il2CppName: Initialize
 template<>

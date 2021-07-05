@@ -115,6 +115,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*, "UnityEngine.ResourceManagement.AsyncOperations", "IGenericProviderOperation");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation::Init
 // Il2CppName: Init
 template<>

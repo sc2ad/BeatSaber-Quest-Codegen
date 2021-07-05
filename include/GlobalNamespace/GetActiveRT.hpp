@@ -65,6 +65,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(GetActiveRT) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GetActiveRT*, "", "GetActiveRT");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GetActiveRT::get_ColorBuffer
 // Il2CppName: get_ColorBuffer
 template<>

@@ -112,6 +112,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SimpleDialogPromptViewController) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleDialogPromptViewController*, "", "SimpleDialogPromptViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleDialogPromptViewController::Init
 // Il2CppName: Init
 template<>

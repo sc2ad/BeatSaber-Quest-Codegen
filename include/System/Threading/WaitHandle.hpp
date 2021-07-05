@@ -200,6 +200,7 @@ namespace System::Threading {
   static_assert(sizeof(WaitHandle) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::WaitHandle*, "System.Threading", "WaitHandle");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::WaitHandle::Init
 // Il2CppName: Init
 template<>

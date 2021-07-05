@@ -45,6 +45,7 @@ namespace System::Net::Configuration {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::SettingsSection*, "System.Net.Configuration", "SettingsSection");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Configuration::SettingsSection::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

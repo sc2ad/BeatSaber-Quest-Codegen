@@ -98,6 +98,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(TrackLaneRingsManager) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsManager*, "", "TrackLaneRingsManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsManager::get_ringPositionStep
 // Il2CppName: get_ringPositionStep
 template<>

@@ -570,6 +570,7 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSessionManager*, "", "MultiplayerSessionManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSessionManager::SessionType, "", "MultiplayerSessionManager/SessionType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerSessionManager::ConnectionState, "", "MultiplayerSessionManager/ConnectionState");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerSessionManager::add_connectedEvent
 // Il2CppName: add_connectedEvent
 template<>

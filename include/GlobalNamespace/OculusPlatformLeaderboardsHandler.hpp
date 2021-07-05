@@ -96,6 +96,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OculusPlatformLeaderboardsHandler) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformLeaderboardsHandler*, "", "OculusPlatformLeaderboardsHandler");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusPlatformLeaderboardsHandler::AddOculusRequest
 // Il2CppName: AddOculusRequest
 template<>

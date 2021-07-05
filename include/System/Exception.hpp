@@ -285,6 +285,7 @@ namespace System {
   static_assert(sizeof(Exception) == 0x88);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Exception*, "System", "Exception");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Exception::Init
 // Il2CppName: Init
 template<>

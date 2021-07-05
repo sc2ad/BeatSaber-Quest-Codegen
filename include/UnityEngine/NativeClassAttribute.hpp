@@ -64,6 +64,7 @@ namespace UnityEngine {
   static_assert(sizeof(NativeClassAttribute) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::NativeClassAttribute*, "UnityEngine", "NativeClassAttribute");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::NativeClassAttribute::set_QualifiedNativeName
 // Il2CppName: set_QualifiedNativeName
 template<>

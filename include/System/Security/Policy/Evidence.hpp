@@ -89,6 +89,7 @@ namespace System::Security::Policy {
   static_assert(sizeof(Evidence) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Policy::Evidence*, "System.Security.Policy", "Evidence");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Policy::Evidence::get_Count
 // Il2CppName: get_Count
 template<>

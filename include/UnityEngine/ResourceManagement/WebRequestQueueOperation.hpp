@@ -70,6 +70,7 @@ namespace UnityEngine::ResourceManagement {
   static_assert(sizeof(WebRequestQueueOperation) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::WebRequestQueueOperation*, "UnityEngine.ResourceManagement", "WebRequestQueueOperation");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::WebRequestQueueOperation::get_IsDone
 // Il2CppName: get_IsDone
 template<>

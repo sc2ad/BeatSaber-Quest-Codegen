@@ -174,6 +174,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(AnnotatedBeatmapLevelCollectionTableCell) == 0xC0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnnotatedBeatmapLevelCollectionTableCell*, "", "AnnotatedBeatmapLevelCollectionTableCell");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AnnotatedBeatmapLevelCollectionTableCell::set_showNewRibbon
 // Il2CppName: set_showNewRibbon
 template<>

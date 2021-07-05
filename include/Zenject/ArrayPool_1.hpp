@@ -96,3 +96,4 @@ namespace Zenject {
   // Could not write size check! Type: Zenject.ArrayPool`1 is generic, or has no fields that are valid for size checks!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::ArrayPool_1, "Zenject", "ArrayPool`1");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

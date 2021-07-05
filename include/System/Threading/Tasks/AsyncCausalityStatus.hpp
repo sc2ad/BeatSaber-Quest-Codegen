@@ -62,3 +62,4 @@ namespace System::Threading::Tasks {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::AsyncCausalityStatus, "System.Threading.Tasks", "AsyncCausalityStatus");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

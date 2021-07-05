@@ -70,6 +70,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRInput::OVRControllerBase::VirtualNearTouchMap) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap*, "", "OVRInput/OVRControllerBase/VirtualNearTouchMap");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerBase::VirtualNearTouchMap::ToRawMask
 // Il2CppName: ToRawMask
 template<>

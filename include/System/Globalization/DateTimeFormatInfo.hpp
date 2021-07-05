@@ -898,6 +898,7 @@ namespace System::Globalization {
   static_assert(sizeof(DateTimeFormatInfo) == 0x178);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::DateTimeFormatInfo*, "System.Globalization", "DateTimeFormatInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfo::InitPreferExistingTokens
 // Il2CppName: InitPreferExistingTokens
 template<>

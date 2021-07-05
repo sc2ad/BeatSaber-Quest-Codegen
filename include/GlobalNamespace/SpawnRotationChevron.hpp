@@ -82,6 +82,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SpawnRotationChevron) == 0x4C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnRotationChevron*, "", "SpawnRotationChevron");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SpawnRotationChevron::SetLightAmount
 // Il2CppName: SetLightAmount
 template<>

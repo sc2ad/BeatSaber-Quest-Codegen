@@ -76,6 +76,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   static_assert(sizeof(MeshImportSettings) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::MeshImportSettings*, "UnityEngine.ProBuilder.MeshOperations", "MeshImportSettings");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::get_quads
 // Il2CppName: get_quads
 template<>

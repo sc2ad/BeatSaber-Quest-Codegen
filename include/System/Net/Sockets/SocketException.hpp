@@ -111,6 +111,7 @@ namespace System::Net::Sockets {
   static_assert(sizeof(SocketException) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::SocketException*, "System.Net.Sockets", "SocketException");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Sockets::SocketException::WSAGetLastError_internal
 // Il2CppName: WSAGetLastError_internal
 template<>

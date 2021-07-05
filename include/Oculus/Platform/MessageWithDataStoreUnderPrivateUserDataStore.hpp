@@ -48,6 +48,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithDataStoreUnderPrivateUserDataStore
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore*, "Oculus.Platform", "MessageWithDataStoreUnderPrivateUserDataStore");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

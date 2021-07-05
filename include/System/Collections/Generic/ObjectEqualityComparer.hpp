@@ -50,6 +50,7 @@ namespace System::Collections::Generic {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::ObjectEqualityComparer*, "System.Collections.Generic", "ObjectEqualityComparer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Generic::ObjectEqualityComparer::System_Collections_IEqualityComparer_GetHashCode
 // Il2CppName: System.Collections.IEqualityComparer.GetHashCode
 template<>

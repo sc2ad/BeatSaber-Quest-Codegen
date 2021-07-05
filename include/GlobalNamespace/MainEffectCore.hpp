@@ -47,6 +47,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectCore*, "", "MainEffectCore");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainEffectCore::SetGlobalShaderValues
 // Il2CppName: SetGlobalShaderValues
 template<>

@@ -76,6 +76,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SongPreviewPlayer::AudioSourceParams) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPreviewPlayer::AudioSourceParams*, "", "SongPreviewPlayer/AudioSourceParams");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayer::AudioSourceParams::get_position
 // Il2CppName: get_position
 template<>

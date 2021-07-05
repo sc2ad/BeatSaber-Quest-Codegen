@@ -115,6 +115,7 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(DirectorControlPlayable) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::DirectorControlPlayable*, "UnityEngine.Timeline", "DirectorControlPlayable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::DirectorControlPlayable::Create
 // Il2CppName: Create
 template<>

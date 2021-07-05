@@ -159,6 +159,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassNonLightPass*, "", "BloomPrePassNonLightPass");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassNonLightPass::ExecutionTimeType, "", "BloomPrePassNonLightPass/ExecutionTimeType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassNonLightPass::get_executionTimeType
 // Il2CppName: get_executionTimeType
 template<>

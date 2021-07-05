@@ -50,6 +50,7 @@ namespace BeatSaberAPI::DataTransferObjects {
   static_assert(sizeof(ResultProof) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::ResultProof*, "BeatSaberAPI.DataTransferObjects", "ResultProof");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: BeatSaberAPI::DataTransferObjects::ResultProof::get_proof
 // Il2CppName: get_proof
 template<>

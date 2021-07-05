@@ -83,6 +83,7 @@ namespace Org::BouncyCastle::Utilities::Collections {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary*, "Org.BouncyCastle.Utilities.Collections", "UnmodifiableDictionary");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::Add
 // Il2CppName: Add
 template<>

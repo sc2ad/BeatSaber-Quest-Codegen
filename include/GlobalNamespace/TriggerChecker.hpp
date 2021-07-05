@@ -80,6 +80,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(TriggerChecker) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TriggerChecker*, "", "TriggerChecker");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TriggerChecker::OnTriggerEnter
 // Il2CppName: OnTriggerEnter
 template<>

@@ -346,6 +346,7 @@ namespace RootMotion::FinalIK {
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Grounding*, "RootMotion.FinalIK", "Grounding");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Grounding::Quality, "RootMotion.FinalIK", "Grounding/Quality");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::get_legs
 // Il2CppName: get_legs
 template<>

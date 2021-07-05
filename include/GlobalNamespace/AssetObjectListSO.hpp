@@ -56,6 +56,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(AssetObjectListSO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AssetObjectListSO*, "", "AssetObjectListSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AssetObjectListSO::get_objects
 // Il2CppName: get_objects
 template<>

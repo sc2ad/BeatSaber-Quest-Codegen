@@ -47,6 +47,7 @@ namespace System::Linq {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Linq::Error*, "System.Linq", "Error");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Linq::Error::ArgumentNull
 // Il2CppName: ArgumentNull
 template<>

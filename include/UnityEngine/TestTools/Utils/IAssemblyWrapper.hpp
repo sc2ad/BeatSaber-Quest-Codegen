@@ -28,6 +28,7 @@ namespace UnityEngine::TestTools::Utils {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::IAssemblyWrapper*, "UnityEngine.TestTools.Utils", "IAssemblyWrapper");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::Utils::IAssemblyWrapper::get_Assembly
 // Il2CppName: get_Assembly
 template<>

@@ -564,6 +564,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(UnifiedNetworkPlayerModel) == 0x130);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnifiedNetworkPlayerModel*, "", "UnifiedNetworkPlayerModel");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::UnifiedNetworkPlayerModel::add_partyRefreshingEvent
 // Il2CppName: add_partyRefreshingEvent
 template<>

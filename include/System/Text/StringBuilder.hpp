@@ -353,6 +353,7 @@ namespace System::Text {
   static_assert(sizeof(StringBuilder) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::StringBuilder*, "System.Text", "StringBuilder");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::StringBuilder::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

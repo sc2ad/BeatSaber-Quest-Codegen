@@ -128,6 +128,7 @@ namespace System::Threading {
   bool operator !=(const System::Threading::CancellationToken& left, const System::Threading::CancellationToken& right);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::CancellationToken, "System.Threading", "CancellationToken");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::CancellationToken::get_None
 // Il2CppName: get_None
 template<>

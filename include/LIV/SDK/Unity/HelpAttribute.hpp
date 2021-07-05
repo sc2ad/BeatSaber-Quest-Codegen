@@ -44,6 +44,7 @@ namespace LIV::SDK::Unity {
   static_assert(sizeof(HelpAttribute) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(LIV::SDK::Unity::HelpAttribute*, "LIV.SDK.Unity", "HelpAttribute");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LIV::SDK::Unity::HelpAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

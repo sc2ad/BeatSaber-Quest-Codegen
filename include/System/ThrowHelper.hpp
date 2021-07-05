@@ -74,6 +74,7 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::ThrowHelper*, "System", "ThrowHelper");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::ThrowHelper::ThrowArgumentNullException
 // Il2CppName: ThrowArgumentNullException
 template<>

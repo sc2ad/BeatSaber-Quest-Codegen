@@ -121,6 +121,7 @@ namespace System::Linq {
   static_assert(sizeof(Enumerable::$RangeIterator$d__115) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Linq::Enumerable::$RangeIterator$d__115*, "System.Linq", "Enumerable/<RangeIterator>d__115");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Linq::Enumerable::$RangeIterator$d__115::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

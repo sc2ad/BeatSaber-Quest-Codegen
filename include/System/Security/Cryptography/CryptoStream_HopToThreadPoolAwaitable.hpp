@@ -52,6 +52,7 @@ namespace System::Security::Cryptography {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable, "System.Security.Cryptography", "CryptoStream/HopToThreadPoolAwaitable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::CryptoStream::HopToThreadPoolAwaitable::GetAwaiter
 // Il2CppName: GetAwaiter
 template<>

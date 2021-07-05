@@ -58,6 +58,7 @@ namespace System::Net {
   static_assert(sizeof(SimpleAsyncResult::$$c__DisplayClass9_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::SimpleAsyncResult::$$c__DisplayClass9_0*, "System.Net", "SimpleAsyncResult/<>c__DisplayClass9_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::SimpleAsyncResult::$$c__DisplayClass9_0::$_ctor$b__0
 // Il2CppName: <.ctor>b__0
 template<>

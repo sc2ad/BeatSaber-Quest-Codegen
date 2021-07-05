@@ -78,6 +78,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OneTimeLightColorEffect) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OneTimeLightColorEffect*, "", "OneTimeLightColorEffect");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OneTimeLightColorEffect::Update
 // Il2CppName: Update
 template<>

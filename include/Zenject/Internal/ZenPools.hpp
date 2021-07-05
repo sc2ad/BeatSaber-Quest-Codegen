@@ -184,6 +184,7 @@ namespace Zenject::Internal {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ZenPools*, "Zenject.Internal", "ZenPools");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::Internal::ZenPools::SpawnHashSet
 // Il2CppName: SpawnHashSet
 // Cannot write MetadataGetter for generic methods!

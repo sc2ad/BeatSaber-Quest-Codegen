@@ -74,6 +74,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapSelectionView) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSelectionView*, "", "BeatmapSelectionView");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapSelectionView::SetBeatmap
 // Il2CppName: SetBeatmap
 template<>

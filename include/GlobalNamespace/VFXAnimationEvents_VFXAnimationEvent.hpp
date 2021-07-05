@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(VFXAnimationEvents::VFXAnimationEvent) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent*, "", "VFXAnimationEvents/VFXAnimationEvent");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent::get_name
 // Il2CppName: get_name
 template<>

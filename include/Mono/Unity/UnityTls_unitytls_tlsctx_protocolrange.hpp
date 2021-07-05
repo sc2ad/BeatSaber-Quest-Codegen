@@ -44,3 +44,4 @@ namespace Mono::Unity {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_tlsctx_protocolrange, "Mono.Unity", "UnityTls/unitytls_tlsctx_protocolrange");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

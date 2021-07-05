@@ -92,6 +92,7 @@ namespace System::Resources {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::FastResourceComparer*, "System.Resources", "FastResourceComparer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Resources::FastResourceComparer::GetHashCode
 // Il2CppName: GetHashCode
 template<>

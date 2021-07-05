@@ -224,6 +224,7 @@ namespace RootMotion {
   static_assert(sizeof(BipedReferences) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedReferences*, "RootMotion", "BipedReferences");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::BipedReferences::get_isFilled
 // Il2CppName: get_isFilled
 template<>

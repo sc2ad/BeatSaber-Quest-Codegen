@@ -34,3 +34,4 @@ namespace System::Linq {
   // Could not write size check! Type: System.Linq.IGrouping`2 is generic, or has no fields that are valid for size checks!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Linq::IGrouping_2, "System.Linq", "IGrouping`2");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

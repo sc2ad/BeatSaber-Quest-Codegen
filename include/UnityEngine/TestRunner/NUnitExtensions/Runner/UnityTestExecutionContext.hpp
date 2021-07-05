@@ -409,6 +409,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   static_assert(sizeof(UnityTestExecutionContext) == 0xE0);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "UnityTestExecutionContext");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext::get_CurrentContext
 // Il2CppName: get_CurrentContext
 template<>

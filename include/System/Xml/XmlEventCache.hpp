@@ -530,6 +530,7 @@ namespace System::Xml {
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlEventCache*, "System.Xml", "XmlEventCache");
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlEventCache::XmlEventType, "System.Xml", "XmlEventCache/XmlEventType");
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlEventCache::XmlEvent, "System.Xml", "XmlEventCache/XmlEvent");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::XmlEventCache::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

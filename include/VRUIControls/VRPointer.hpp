@@ -195,6 +195,7 @@ namespace VRUIControls {
   static_assert(sizeof(VRPointer) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRPointer*, "VRUIControls", "VRPointer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: VRUIControls::VRPointer::get_vrController
 // Il2CppName: get_vrController
 template<>

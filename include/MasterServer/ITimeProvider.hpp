@@ -37,6 +37,7 @@ namespace MasterServer {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ITimeProvider*, "MasterServer", "ITimeProvider");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::ITimeProvider::GetTimeMs
 // Il2CppName: GetTimeMs
 template<>

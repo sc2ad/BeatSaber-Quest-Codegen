@@ -70,6 +70,7 @@ namespace RootMotion {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Hierarchy*, "RootMotion", "Hierarchy");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::Hierarchy::HierarchyIsValid
 // Il2CppName: HierarchyIsValid
 template<>

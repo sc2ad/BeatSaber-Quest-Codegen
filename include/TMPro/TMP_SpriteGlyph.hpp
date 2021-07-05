@@ -69,6 +69,7 @@ namespace TMPro {
   static_assert(sizeof(TMP_SpriteGlyph) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteGlyph*, "TMPro", "TMP_SpriteGlyph");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_SpriteGlyph::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -64,6 +64,7 @@ namespace System::Collections {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::EmptyReadOnlyDictionaryInternal::NodeEnumerator*, "System.Collections", "EmptyReadOnlyDictionaryInternal/NodeEnumerator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::EmptyReadOnlyDictionaryInternal::NodeEnumerator::MoveNext
 // Il2CppName: MoveNext
 template<>

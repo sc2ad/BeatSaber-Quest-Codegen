@@ -390,6 +390,7 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelSO*, "", "BeatmapLevelSO");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult, "", "BeatmapLevelSO/GetBeatmapLevelDataResult");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult::Result, "", "BeatmapLevelSO/GetBeatmapLevelDataResult/Result");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::get_levelID
 // Il2CppName: get_levelID
 template<>

@@ -114,6 +114,7 @@ namespace System::IO {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Stream::ReadWriteTask*, "System.IO", "Stream/ReadWriteTask");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IO::Stream::ReadWriteTask::ClearBeginState
 // Il2CppName: ClearBeginState
 template<>

@@ -97,6 +97,7 @@ namespace Org::BouncyCastle::Math::EC {
   static_assert(sizeof(AbstractF2mCurve) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::AbstractF2mCurve*, "Org.BouncyCastle.Math.EC", "AbstractF2mCurve");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::AbstractF2mCurve::BuildField
 // Il2CppName: BuildField
 template<>

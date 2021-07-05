@@ -105,3 +105,4 @@ namespace System::Reflection {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ParameterAttributes, "System.Reflection", "ParameterAttributes");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

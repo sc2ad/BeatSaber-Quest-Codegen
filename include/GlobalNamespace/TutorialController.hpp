@@ -153,6 +153,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(TutorialController) == 0x52);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialController*, "", "TutorialController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TutorialController::Start
 // Il2CppName: Start
 template<>

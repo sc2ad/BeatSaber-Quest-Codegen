@@ -186,6 +186,7 @@ namespace HMUI {
   static_assert(sizeof(ModalView) == 0x6C);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ModalView*, "HMUI", "ModalView");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ModalView::add_blockerClickedEvent
 // Il2CppName: add_blockerClickedEvent
 template<>

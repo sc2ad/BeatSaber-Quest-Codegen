@@ -120,6 +120,7 @@ namespace Org::BouncyCastle::Crypto::Encodings {
   static_assert(sizeof(ISO9796d1Encoding) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding*, "Org.BouncyCastle.Crypto.Encodings", "ISO9796d1Encoding");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

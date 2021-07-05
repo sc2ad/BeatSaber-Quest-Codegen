@@ -220,6 +220,7 @@ namespace UnityEngine::UI {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GraphicRaycaster*, "UnityEngine.UI", "GraphicRaycaster");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GraphicRaycaster::BlockingObjects, "UnityEngine.UI", "GraphicRaycaster/BlockingObjects");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::GraphicRaycaster::get_ignoreReversedGraphics
 // Il2CppName: get_ignoreReversedGraphics
 template<>

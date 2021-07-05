@@ -41,3 +41,4 @@ namespace System::Linq {
   // Could not write size check! Type: System.Linq.EmptyEnumerable`1 is generic, or has no fields that are valid for size checks!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(System::Linq::EmptyEnumerable_1, "System.Linq", "EmptyEnumerable`1");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

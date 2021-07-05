@@ -102,6 +102,7 @@ namespace HMUI {
   static_assert(sizeof(ViewControllerTransitionHelpers::$DoVerticalTransition$d__6) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ViewControllerTransitionHelpers::$DoVerticalTransition$d__6*, "HMUI", "ViewControllerTransitionHelpers/<DoVerticalTransition>d__6");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ViewControllerTransitionHelpers::$DoVerticalTransition$d__6::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

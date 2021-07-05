@@ -78,6 +78,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(HitReactionVRIK::PositionOffset::PositionOffsetLink) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReactionVRIK::PositionOffset::PositionOffsetLink*, "RootMotion.FinalIK", "HitReactionVRIK/PositionOffset/PositionOffsetLink");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::HitReactionVRIK::PositionOffset::PositionOffsetLink::Apply
 // Il2CppName: Apply
 template<>

@@ -111,6 +111,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformUserAuthTokenData*, "", "PlatformUserAuthTokenData");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment, "", "PlatformUserAuthTokenData/PlatformEnviroment");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlatformUserAuthTokenData::get_token
 // Il2CppName: get_token
 template<>

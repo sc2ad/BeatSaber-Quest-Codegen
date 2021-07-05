@@ -36,6 +36,7 @@ namespace HMUI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableView::IDataSource*, "HMUI", "TableView/IDataSource");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::TableView::IDataSource::CellSize
 // Il2CppName: CellSize
 template<>

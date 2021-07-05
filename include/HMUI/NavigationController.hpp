@@ -210,6 +210,7 @@ namespace HMUI {
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NavigationController*, "HMUI", "NavigationController");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NavigationController::Orientation, "HMUI", "NavigationController/Orientation");
 DEFINE_IL2CPP_ARG_TYPE(HMUI::NavigationController::Alignment, "HMUI", "NavigationController/Alignment");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::NavigationController::PushViewController
 // Il2CppName: PushViewController
 template<>

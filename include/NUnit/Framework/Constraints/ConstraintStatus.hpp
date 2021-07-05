@@ -61,3 +61,4 @@ namespace NUnit::Framework::Constraints {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintStatus, "NUnit.Framework.Constraints", "ConstraintStatus");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

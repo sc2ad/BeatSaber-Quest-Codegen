@@ -228,6 +228,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_TrackedObject*, "", "SteamVR_TrackedObject");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_TrackedObject::EIndex, "", "SteamVR_TrackedObject/EIndex");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedObject::get_isValid
 // Il2CppName: get_isValid
 template<>

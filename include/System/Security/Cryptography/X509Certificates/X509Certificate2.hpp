@@ -207,6 +207,7 @@ namespace System::Security::Cryptography::X509Certificates {
   static_assert(sizeof(X509Certificate2) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Certificate2*, "System.Security.Cryptography.X509Certificates", "X509Certificate2");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Certificate2::get_Impl
 // Il2CppName: get_Impl
 template<>

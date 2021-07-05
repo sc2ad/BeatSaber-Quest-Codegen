@@ -116,6 +116,7 @@ namespace System::Net::Http::Headers {
   static_assert(sizeof(EntityTagHeaderValue) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::EntityTagHeaderValue*, "System.Net.Http.Headers", "EntityTagHeaderValue");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::EntityTagHeaderValue::get_IsWeak
 // Il2CppName: get_IsWeak
 template<>

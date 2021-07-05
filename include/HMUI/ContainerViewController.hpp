@@ -155,6 +155,7 @@ namespace HMUI {
   static_assert(sizeof(ContainerViewController) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ContainerViewController*, "HMUI", "ContainerViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ContainerViewController::get_controllersContainer
 // Il2CppName: get_controllersContainer
 template<>

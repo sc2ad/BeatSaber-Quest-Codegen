@@ -394,6 +394,7 @@ namespace UnityEngine::EventSystems {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerEventData*, "UnityEngine.EventSystems", "PointerEventData");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PointerEventData::InputButton, "UnityEngine.EventSystems", "PointerEventData/InputButton");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::PointerEventData::get_pointerEnter
 // Il2CppName: get_pointerEnter
 template<>

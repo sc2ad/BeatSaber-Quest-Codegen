@@ -48,6 +48,7 @@ namespace GlobalNamespace {
   }; // BTSStarTextEffectController/Pool
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEffectController::Pool*, "", "BTSStarTextEffectController/Pool");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEffectController::Pool::Reinitialize
 // Il2CppName: Reinitialize
 template<>

@@ -54,6 +54,7 @@ namespace LiteNetLib::Layers {
   static_assert(sizeof(PacketLayerBase) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Layers::PacketLayerBase*, "LiteNetLib.Layers", "PacketLayerBase");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::Layers::PacketLayerBase::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

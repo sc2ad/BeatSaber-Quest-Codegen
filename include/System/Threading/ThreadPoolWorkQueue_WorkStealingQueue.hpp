@@ -89,6 +89,7 @@ namespace System::Threading {
   static_assert(sizeof(ThreadPoolWorkQueue::WorkStealingQueue) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPoolWorkQueue::WorkStealingQueue*, "System.Threading", "ThreadPoolWorkQueue/WorkStealingQueue");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::ThreadPoolWorkQueue::WorkStealingQueue::LocalPush
 // Il2CppName: LocalPush
 template<>

@@ -18,3 +18,4 @@ namespace Org::BouncyCastle::Crypto {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::IDerivationParameters*, "Org.BouncyCastle.Crypto", "IDerivationParameters");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

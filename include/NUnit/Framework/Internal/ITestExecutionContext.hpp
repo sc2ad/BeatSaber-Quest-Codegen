@@ -59,6 +59,7 @@ namespace NUnit::Framework::Internal {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::ITestExecutionContext*, "NUnit.Framework.Internal", "ITestExecutionContext");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ITestExecutionContext::get_CurrentResult
 // Il2CppName: get_CurrentResult
 template<>

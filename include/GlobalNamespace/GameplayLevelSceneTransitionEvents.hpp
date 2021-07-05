@@ -101,6 +101,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameplayLevelSceneTransitionEvents) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayLevelSceneTransitionEvents*, "", "GameplayLevelSceneTransitionEvents");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayLevelSceneTransitionEvents::add_anyGameplayLevelDidFinishEvent
 // Il2CppName: add_anyGameplayLevelDidFinishEvent
 template<>

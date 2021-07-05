@@ -84,6 +84,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomFogParamsAsset) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFogParamsAsset*, "", "BloomFogParamsAsset");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogParamsAsset::get_clipCaps
 // Il2CppName: get_clipCaps
 template<>

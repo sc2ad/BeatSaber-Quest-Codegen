@@ -245,6 +245,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(PauseMenuManager) == 0x94);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PauseMenuManager*, "", "PauseMenuManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PauseMenuManager::add_didPressContinueButtonEvent
 // Il2CppName: add_didPressContinueButtonEvent
 template<>

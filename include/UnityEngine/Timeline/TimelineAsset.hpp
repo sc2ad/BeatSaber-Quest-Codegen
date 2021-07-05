@@ -389,6 +389,7 @@ namespace UnityEngine::Timeline {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset*, "UnityEngine.Timeline", "TimelineAsset");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineAsset::DurationMode, "UnityEngine.Timeline", "TimelineAsset/DurationMode");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineAsset::UpgradeToLatestVersion
 // Il2CppName: UpgradeToLatestVersion
 template<>

@@ -107,6 +107,7 @@ namespace MasterServer {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::IMasterServer*, "MasterServer", "IMasterServer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::IMasterServer::ShouldHandleMessageFromEndPoint
 // Il2CppName: ShouldHandleMessageFromEndPoint
 template<>

@@ -103,6 +103,7 @@ namespace NUnit::Framework::Internal {
   static_assert(sizeof(ParameterWrapper) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::ParameterWrapper*, "NUnit.Framework.Internal", "ParameterWrapper");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ParameterWrapper::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -253,6 +253,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKSolverFullBodyBiped) == 0xFC);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverFullBodyBiped*, "RootMotion.FinalIK", "IKSolverFullBodyBiped");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::get_bodyEffector
 // Il2CppName: get_bodyEffector
 template<>

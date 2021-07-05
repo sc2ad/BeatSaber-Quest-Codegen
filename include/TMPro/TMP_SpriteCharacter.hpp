@@ -71,6 +71,7 @@ namespace TMPro {
   static_assert(sizeof(TMP_SpriteCharacter) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteCharacter*, "TMPro", "TMP_SpriteCharacter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_SpriteCharacter::get_name
 // Il2CppName: get_name
 template<>

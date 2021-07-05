@@ -105,6 +105,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities*, "Org.BouncyCastle.Math.EC.Multiplier", "WNafUtilities");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::ConfigureBasepoint
 // Il2CppName: ConfigureBasepoint
 template<>

@@ -62,6 +62,7 @@ namespace Menu::ViewControllers {
   static_assert(sizeof(EditAvatarHistorySnapshot) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Menu::ViewControllers::EditAvatarHistorySnapshot*, "Menu.ViewControllers", "EditAvatarHistorySnapshot");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Menu::ViewControllers::EditAvatarHistorySnapshot::get_avatarEditPart
 // Il2CppName: get_avatarEditPart
 template<>

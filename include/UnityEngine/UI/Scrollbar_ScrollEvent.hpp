@@ -35,6 +35,7 @@ namespace UnityEngine::UI {
   }; // UnityEngine.UI.Scrollbar/ScrollEvent
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Scrollbar::ScrollEvent*, "UnityEngine.UI", "Scrollbar/ScrollEvent");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Scrollbar::ScrollEvent::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

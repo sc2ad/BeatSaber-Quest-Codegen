@@ -37,6 +37,7 @@ namespace GlobalNamespace {
   }; // Vector2IntSO
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Vector2IntSO*, "", "Vector2IntSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Vector2IntSO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

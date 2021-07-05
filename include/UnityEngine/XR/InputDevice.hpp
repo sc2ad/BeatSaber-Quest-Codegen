@@ -78,6 +78,7 @@ namespace UnityEngine::XR {
   static_assert(sizeof(InputDevice) == 0x9);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::InputDevice, "UnityEngine.XR", "InputDevice");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::XR::InputDevice::InputDevice
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

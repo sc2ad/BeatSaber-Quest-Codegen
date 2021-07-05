@@ -102,6 +102,7 @@ namespace GlobalNamespace {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorHueSlider*, "", "ColorHueSlider");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorHueSlider::add_colorHueDidChangeEvent
 // Il2CppName: add_colorHueDidChangeEvent
 template<>

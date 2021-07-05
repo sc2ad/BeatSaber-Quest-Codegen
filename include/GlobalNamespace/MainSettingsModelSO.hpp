@@ -444,6 +444,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MainSettingsModelSO) == 0x154);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsModelSO*, "", "MainSettingsModelSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsModelSO::get_createScreenshotDuringTheGame
 // Il2CppName: get_createScreenshotDuringTheGame
 template<>

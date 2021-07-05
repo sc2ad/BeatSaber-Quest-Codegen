@@ -197,6 +197,7 @@ namespace VRUIControls {
 }
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRGraphicRaycaster*, "VRUIControls", "VRGraphicRaycaster");
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult, "VRUIControls", "VRGraphicRaycaster/VRGraphicRaycastResult");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: VRUIControls::VRGraphicRaycaster::RaycastCanvas
 // Il2CppName: RaycastCanvas
 template<>

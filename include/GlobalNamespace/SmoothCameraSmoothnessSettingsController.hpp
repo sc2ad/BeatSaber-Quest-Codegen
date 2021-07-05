@@ -81,6 +81,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SmoothCameraSmoothnessSettingsController) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SmoothCameraSmoothnessSettingsController*, "", "SmoothCameraSmoothnessSettingsController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SmoothCameraSmoothnessSettingsController::GetInitValues
 // Il2CppName: GetInitValues
 template<>

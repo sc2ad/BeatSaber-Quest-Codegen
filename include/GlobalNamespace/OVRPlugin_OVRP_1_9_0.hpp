@@ -55,6 +55,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_9_0*, "", "OVRPlugin/OVRP_1_9_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_9_0::ovrp_GetSystemHeadsetType
 // Il2CppName: ovrp_GetSystemHeadsetType
 template<>

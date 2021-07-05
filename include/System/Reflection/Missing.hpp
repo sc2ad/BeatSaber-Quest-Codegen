@@ -57,6 +57,7 @@ namespace System::Reflection {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Missing*, "System.Reflection", "Missing");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::Missing::System_Runtime_Serialization_ISerializable_GetObjectData
 // Il2CppName: System.Runtime.Serialization.ISerializable.GetObjectData
 template<>

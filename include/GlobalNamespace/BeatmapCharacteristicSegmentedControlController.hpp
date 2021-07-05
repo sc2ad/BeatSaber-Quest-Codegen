@@ -117,6 +117,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapCharacteristicSegmentedControlController) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicSegmentedControlController*, "", "BeatmapCharacteristicSegmentedControlController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicSegmentedControlController::add_didSelectBeatmapCharacteristicEvent
 // Il2CppName: add_didSelectBeatmapCharacteristicEvent
 template<>

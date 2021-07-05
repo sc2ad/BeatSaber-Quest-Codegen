@@ -228,6 +228,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static_assert(sizeof(WriteObjectInfo) == 0x88);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, "System.Runtime.Serialization.Formatters.Binary", "WriteObjectInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo::ObjectEnd
 // Il2CppName: ObjectEnd
 template<>

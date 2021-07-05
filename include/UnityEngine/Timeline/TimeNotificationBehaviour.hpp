@@ -192,6 +192,7 @@ namespace UnityEngine::Timeline {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeNotificationBehaviour*, "UnityEngine.Timeline", "TimeNotificationBehaviour");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry, "UnityEngine.Timeline", "TimeNotificationBehaviour/NotificationEntry");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeNotificationBehaviour::set_timeSource
 // Il2CppName: set_timeSource
 template<>

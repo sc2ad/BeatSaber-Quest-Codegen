@@ -92,6 +92,7 @@ namespace System::Runtime::Remoting::Messaging {
   static_assert(sizeof(CADMethodReturnMessage) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADMethodReturnMessage*, "System.Runtime.Remoting.Messaging", "CADMethodReturnMessage");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMethodReturnMessage::Create
 // Il2CppName: Create
 template<>

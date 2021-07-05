@@ -99,6 +99,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MenuShockwave) == 0xBF);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuShockwave*, "", "MenuShockwave");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuShockwave::Awake
 // Il2CppName: Awake
 template<>

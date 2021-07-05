@@ -97,6 +97,7 @@ namespace UnityEngine::Rendering {
   static_assert(sizeof(ScriptableRenderContext) == 0x8);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::ScriptableRenderContext, "UnityEngine.Rendering", "ScriptableRenderContext");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::ScriptableRenderContext::GetNumberOfCameras_Internal
 // Il2CppName: GetNumberOfCameras_Internal
 template<>

@@ -54,6 +54,7 @@ namespace System::Collections::Generic {
   }; // System.Collections.Generic.ByteEqualityComparer
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::ByteEqualityComparer*, "System.Collections.Generic", "ByteEqualityComparer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Generic::ByteEqualityComparer::Equals
 // Il2CppName: Equals
 template<>

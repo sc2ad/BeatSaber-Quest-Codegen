@@ -155,6 +155,7 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimationClip*, "UnityEngine", "AnimationClip");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::Internal_CreateAnimationClip
 // Il2CppName: Internal_CreateAnimationClip
 template<>

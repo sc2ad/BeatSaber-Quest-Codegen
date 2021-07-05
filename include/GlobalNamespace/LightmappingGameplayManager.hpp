@@ -58,6 +58,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LightmappingGameplayManager) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightmappingGameplayManager*, "", "LightmappingGameplayManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightmappingGameplayManager::Start
 // Il2CppName: Start
 template<>

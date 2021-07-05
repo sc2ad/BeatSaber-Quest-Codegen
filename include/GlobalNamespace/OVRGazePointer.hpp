@@ -227,6 +227,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRGazePointer) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRGazePointer*, "", "OVRGazePointer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRGazePointer::get_hidden
 // Il2CppName: get_hidden
 template<>

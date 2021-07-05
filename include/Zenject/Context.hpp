@@ -169,6 +169,7 @@ namespace Zenject {
   static_assert(sizeof(Context) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Context*, "Zenject", "Context");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::Context::get_Installers
 // Il2CppName: get_Installers
 template<>

@@ -193,6 +193,7 @@ namespace Mono::Net::Security {
   static_assert(sizeof(MobileTlsContext) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MobileTlsContext*, "Mono.Net.Security", "MobileTlsContext");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::MobileTlsContext::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

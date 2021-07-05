@@ -42,6 +42,7 @@ namespace System::Net::NetworkInformation {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::CommonUnixIPGlobalProperties*, "System.Net.NetworkInformation", "CommonUnixIPGlobalProperties");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::CommonUnixIPGlobalProperties::getdomainname
 // Il2CppName: getdomainname
 template<>

@@ -478,6 +478,7 @@ namespace Org::BouncyCastle::Math {
   static_assert(sizeof(BigInteger) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::BigInteger*, "Org.BouncyCastle.Math", "BigInteger");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::BigInteger::_cctor
 // Il2CppName: .cctor
 template<>

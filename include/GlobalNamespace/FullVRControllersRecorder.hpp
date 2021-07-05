@@ -201,6 +201,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FullVRControllersRecorder*, "", "FullVRControllersRecorder");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FullVRControllersRecorder::Mode, "", "FullVRControllersRecorder/Mode");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FullVRControllersRecorder::add_didSetControllerTransformEvent
 // Il2CppName: add_didSetControllerTransformEvent
 template<>

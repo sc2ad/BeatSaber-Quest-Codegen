@@ -72,6 +72,7 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityLogWriter*, "UnityEngine", "UnityLogWriter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UnityLogWriter::WriteStringToUnityLog
 // Il2CppName: WriteStringToUnityLog
 template<>

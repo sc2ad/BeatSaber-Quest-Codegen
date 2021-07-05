@@ -140,6 +140,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(HTTPLeaderboardsModel) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HTTPLeaderboardsModel*, "", "HTTPLeaderboardsModel");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HTTPLeaderboardsModel::add_scoreForLeaderboardDidUploadEvent
 // Il2CppName: add_scoreForLeaderboardDidUploadEvent
 template<>

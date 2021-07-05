@@ -123,6 +123,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FPSCounterUIController) == 0x54);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FPSCounterUIController*, "", "FPSCounterUIController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FPSCounterUIController::Awake
 // Il2CppName: Awake
 template<>

@@ -942,6 +942,7 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Array*, "System", "Array");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Array::CreateInstance
 // Il2CppName: CreateInstance
 template<>

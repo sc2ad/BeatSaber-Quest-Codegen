@@ -59,6 +59,7 @@ namespace System::Threading {
   static_assert(sizeof(ReaderWriterLockSlim::TimeoutTracker) == 0x8);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ReaderWriterLockSlim::TimeoutTracker, "System.Threading", "ReaderWriterLockSlim/TimeoutTracker");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::ReaderWriterLockSlim::TimeoutTracker::TimeoutTracker
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

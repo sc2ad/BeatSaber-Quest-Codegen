@@ -67,6 +67,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLocalInactiveClient) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalInactiveClient*, "", "MultiplayerLocalInactiveClient");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalInactiveClient::LateUpdate
 // Il2CppName: LateUpdate
 template<>

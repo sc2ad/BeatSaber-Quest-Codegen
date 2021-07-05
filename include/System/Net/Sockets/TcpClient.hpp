@@ -129,6 +129,7 @@ namespace System::Net::Sockets {
   static_assert(sizeof(TcpClient) == 0x2D);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::TcpClient*, "System.Net.Sockets", "TcpClient");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Sockets::TcpClient::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -64,6 +64,7 @@ namespace HMUI {
   static_assert(sizeof(EmptyBoxGraphic) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::EmptyBoxGraphic*, "HMUI", "EmptyBoxGraphic");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::EmptyBoxGraphic::OnDrawGizmosSelected
 // Il2CppName: OnDrawGizmosSelected
 template<>

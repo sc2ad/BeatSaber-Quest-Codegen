@@ -203,6 +203,7 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
   static_assert(sizeof(ContentCatalogData) == 0xD0);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*, "UnityEngine.AddressableAssets.ResourceLocators", "ContentCatalogData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData::get_ProviderId
 // Il2CppName: get_ProviderId
 template<>

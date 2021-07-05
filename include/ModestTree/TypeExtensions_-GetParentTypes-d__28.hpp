@@ -121,6 +121,7 @@ namespace ModestTree {
   static_assert(sizeof(TypeExtensions::$GetParentTypes$d__28) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::TypeExtensions::$GetParentTypes$d__28*, "ModestTree", "TypeExtensions/<GetParentTypes>d__28");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::$GetParentTypes$d__28::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

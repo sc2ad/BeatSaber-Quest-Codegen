@@ -120,6 +120,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(TabBarViewController) == 0x91);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TabBarViewController*, "", "TabBarViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TabBarViewController::set_sizeToFit
 // Il2CppName: set_sizeToFit
 template<>

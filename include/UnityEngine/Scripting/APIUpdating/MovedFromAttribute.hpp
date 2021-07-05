@@ -53,6 +53,7 @@ namespace UnityEngine::Scripting::APIUpdating {
   static_assert(sizeof(MovedFromAttribute) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Scripting::APIUpdating::MovedFromAttribute*, "UnityEngine.Scripting.APIUpdating", "MovedFromAttribute");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Scripting::APIUpdating::MovedFromAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

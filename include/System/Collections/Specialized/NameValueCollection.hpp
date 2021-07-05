@@ -145,6 +145,7 @@ namespace System::Collections::Specialized {
   static_assert(sizeof(NameValueCollection) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::NameValueCollection*, "System.Collections.Specialized", "NameValueCollection");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Specialized::NameValueCollection::InvalidateCachedArrays
 // Il2CppName: InvalidateCachedArrays
 template<>

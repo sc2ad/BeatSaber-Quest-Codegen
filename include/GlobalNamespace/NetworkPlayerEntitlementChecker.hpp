@@ -167,6 +167,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(NetworkPlayerEntitlementChecker) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayerEntitlementChecker*, "", "NetworkPlayerEntitlementChecker");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerEntitlementChecker::add_didInvalidateDataEvent
 // Il2CppName: add_didInvalidateDataEvent
 template<>

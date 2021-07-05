@@ -211,6 +211,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(HealthWarningFlowCoordinator) == 0x110);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningFlowCoordinator*, "", "HealthWarningFlowCoordinator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HealthWarningFlowCoordinator::GetEulaOrHealthWarningViewController
 // Il2CppName: GetEulaOrHealthWarningViewController
 template<>

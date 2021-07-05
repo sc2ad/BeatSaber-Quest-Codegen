@@ -33,6 +33,7 @@ namespace System::Threading {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::PlatformHelper*, "System.Threading", "PlatformHelper");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::PlatformHelper::get_ProcessorCount
 // Il2CppName: get_ProcessorCount
 template<>

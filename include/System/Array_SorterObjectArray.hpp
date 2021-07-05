@@ -89,6 +89,7 @@ namespace System {
   static_assert(sizeof(Array::SorterObjectArray) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Array::SorterObjectArray, "System", "Array/SorterObjectArray");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Array::SorterObjectArray::SorterObjectArray
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

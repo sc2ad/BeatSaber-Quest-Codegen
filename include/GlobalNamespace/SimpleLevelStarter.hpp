@@ -188,6 +188,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SimpleLevelStarter) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleLevelStarter*, "", "SimpleLevelStarter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleLevelStarter::Awake
 // Il2CppName: Awake
 template<>

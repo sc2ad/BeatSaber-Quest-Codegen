@@ -148,6 +148,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteCutParticlesEffect) == 0x230);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutParticlesEffect*, "", "NoteCutParticlesEffect");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutParticlesEffect::Awake
 // Il2CppName: Awake
 template<>

@@ -58,6 +58,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MarkSceneAsPersistent) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MarkSceneAsPersistent*, "", "MarkSceneAsPersistent");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MarkSceneAsPersistent::Awake
 // Il2CppName: Awake
 template<>

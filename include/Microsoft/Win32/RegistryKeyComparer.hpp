@@ -43,6 +43,7 @@ namespace Microsoft::Win32 {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::RegistryKeyComparer*, "Microsoft.Win32", "RegistryKeyComparer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Microsoft::Win32::RegistryKeyComparer::Equals
 // Il2CppName: Equals
 template<>

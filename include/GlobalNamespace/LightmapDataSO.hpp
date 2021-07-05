@@ -71,6 +71,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LightmapDataSO) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightmapDataSO*, "", "LightmapDataSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightmapDataSO::get_lightmap1
 // Il2CppName: get_lightmap1
 template<>

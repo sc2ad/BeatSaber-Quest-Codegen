@@ -81,6 +81,7 @@ namespace System::Collections {
   static_assert(sizeof(Queue::QueueEnumerator) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Queue::QueueEnumerator*, "System.Collections", "Queue/QueueEnumerator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Queue::QueueEnumerator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

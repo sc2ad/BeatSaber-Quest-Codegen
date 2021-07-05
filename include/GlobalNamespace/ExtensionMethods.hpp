@@ -102,6 +102,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ExtensionMethods*, "", "ExtensionMethods");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ExtensionMethods::ContainsLayer
 // Il2CppName: ContainsLayer
 template<>

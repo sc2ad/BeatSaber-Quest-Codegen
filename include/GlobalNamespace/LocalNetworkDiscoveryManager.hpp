@@ -414,6 +414,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager*, "", "LocalNetworkDiscoveryManager");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalNetworkDiscoveryManager::PacketType, "", "LocalNetworkDiscoveryManager/PacketType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalNetworkDiscoveryManager::add_peerUpdatedEvent
 // Il2CppName: add_peerUpdatedEvent
 template<>

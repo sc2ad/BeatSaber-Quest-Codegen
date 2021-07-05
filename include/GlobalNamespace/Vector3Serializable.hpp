@@ -124,6 +124,7 @@ namespace GlobalNamespace {
   GlobalNamespace::Vector3Serializable operator-(const GlobalNamespace::Vector3Serializable& a, const GlobalNamespace::Vector3Serializable& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Vector3Serializable, "", "Vector3Serializable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Vector3Serializable::Serialize
 // Il2CppName: Serialize
 template<>

@@ -381,6 +381,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static_assert(sizeof(__BinaryParser) == 0xC8);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::__BinaryParser*, "System.Runtime.Serialization.Formatters.Binary", "__BinaryParser");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::__BinaryParser::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

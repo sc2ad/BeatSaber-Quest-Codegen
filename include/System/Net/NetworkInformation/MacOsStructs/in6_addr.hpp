@@ -42,3 +42,4 @@ namespace System::Net::NetworkInformation::MacOsStructs {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsStructs::in6_addr, "System.Net.NetworkInformation.MacOsStructs", "in6_addr");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

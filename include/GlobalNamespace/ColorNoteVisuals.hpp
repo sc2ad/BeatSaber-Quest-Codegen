@@ -165,6 +165,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ColorNoteVisuals) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorNoteVisuals*, "", "ColorNoteVisuals");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorNoteVisuals::add_didInitEvent
 // Il2CppName: add_didInitEvent
 template<>

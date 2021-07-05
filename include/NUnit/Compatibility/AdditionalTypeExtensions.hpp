@@ -59,6 +59,7 @@ namespace NUnit::Compatibility {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Compatibility::AdditionalTypeExtensions*, "NUnit.Compatibility", "AdditionalTypeExtensions");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Compatibility::AdditionalTypeExtensions::ParametersMatch
 // Il2CppName: ParametersMatch
 template<>

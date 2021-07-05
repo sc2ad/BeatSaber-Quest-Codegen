@@ -101,6 +101,7 @@ namespace System::Diagnostics {
   static_assert(sizeof(DefaultTraceListener) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DefaultTraceListener*, "System.Diagnostics", "DefaultTraceListener");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::DefaultTraceListener::_cctor
 // Il2CppName: .cctor
 template<>

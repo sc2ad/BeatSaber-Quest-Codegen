@@ -66,6 +66,7 @@ namespace System::Security::Policy {
   static_assert(sizeof(Evidence::EvidenceEnumerator) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Policy::Evidence::EvidenceEnumerator*, "System.Security.Policy", "Evidence/EvidenceEnumerator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Policy::Evidence::EvidenceEnumerator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

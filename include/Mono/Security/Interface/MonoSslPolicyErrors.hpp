@@ -62,3 +62,4 @@ namespace Mono::Security::Interface {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::MonoSslPolicyErrors, "Mono.Security.Interface", "MonoSslPolicyErrors");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

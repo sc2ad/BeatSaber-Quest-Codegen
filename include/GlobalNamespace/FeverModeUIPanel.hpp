@@ -93,6 +93,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FeverModeUIPanel) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FeverModeUIPanel*, "", "FeverModeUIPanel");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FeverModeUIPanel::Start
 // Il2CppName: Start
 template<>

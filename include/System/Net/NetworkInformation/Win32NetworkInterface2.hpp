@@ -101,6 +101,7 @@ namespace System::Net::NetworkInformation {
   static_assert(sizeof(Win32NetworkInterface2) == 0x208);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32NetworkInterface2*, "System.Net.NetworkInformation", "Win32NetworkInterface2");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::Win32NetworkInterface2::GetIfEntry
 // Il2CppName: GetIfEntry
 template<>

@@ -158,6 +158,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   static_assert(sizeof(BlowfishEngine) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::BlowfishEngine*, "Org.BouncyCastle.Crypto.Engines", "BlowfishEngine");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::BlowfishEngine::Init
 // Il2CppName: Init
 template<>

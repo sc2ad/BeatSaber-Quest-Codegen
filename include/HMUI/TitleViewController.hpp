@@ -56,6 +56,7 @@ namespace HMUI {
   static_assert(sizeof(TitleViewController) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TitleViewController*, "HMUI", "TitleViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::TitleViewController::SetText
 // Il2CppName: SetText
 template<>

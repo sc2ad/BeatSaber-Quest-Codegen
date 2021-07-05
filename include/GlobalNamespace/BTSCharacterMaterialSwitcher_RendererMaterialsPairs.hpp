@@ -64,6 +64,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BTSCharacterMaterialSwitcher::RendererMaterialsPairs) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*, "", "BTSCharacterMaterialSwitcher/RendererMaterialsPairs");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs::get_renderer
 // Il2CppName: get_renderer
 template<>

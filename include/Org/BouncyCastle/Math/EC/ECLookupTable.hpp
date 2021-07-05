@@ -34,6 +34,7 @@ namespace Org::BouncyCastle::Math::EC {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECLookupTable*, "Org.BouncyCastle.Math.EC", "ECLookupTable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECLookupTable::get_Size
 // Il2CppName: get_Size
 template<>

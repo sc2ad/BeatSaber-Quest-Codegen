@@ -92,3 +92,4 @@ namespace System::Net::NetworkInformation {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32_FIXED_INFO, "System.Net.NetworkInformation", "Win32_FIXED_INFO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

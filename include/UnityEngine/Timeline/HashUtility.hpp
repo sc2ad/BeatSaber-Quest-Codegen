@@ -41,6 +41,7 @@ namespace UnityEngine::Timeline {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::HashUtility*, "UnityEngine.Timeline", "HashUtility");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::HashUtility::CombineHash
 // Il2CppName: CombineHash
 template<>

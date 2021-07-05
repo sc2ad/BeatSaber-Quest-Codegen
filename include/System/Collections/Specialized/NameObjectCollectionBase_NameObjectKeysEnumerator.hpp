@@ -68,6 +68,7 @@ namespace System::Collections::Specialized {
   static_assert(sizeof(NameObjectCollectionBase::NameObjectKeysEnumerator) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator*, "System.Collections.Specialized", "NameObjectCollectionBase/NameObjectKeysEnumerator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

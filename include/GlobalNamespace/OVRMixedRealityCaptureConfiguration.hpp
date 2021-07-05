@@ -210,6 +210,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMixedRealityCaptureConfiguration*, "", "OVRMixedRealityCaptureConfiguration");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRMixedRealityCaptureConfiguration::get_enableMixedReality
 // Il2CppName: get_enableMixedReality
 template<>

@@ -102,6 +102,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(DifficultyTableCell) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DifficultyTableCell*, "", "DifficultyTableCell");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DifficultyTableCell::set_difficultyText
 // Il2CppName: set_difficultyText
 template<>

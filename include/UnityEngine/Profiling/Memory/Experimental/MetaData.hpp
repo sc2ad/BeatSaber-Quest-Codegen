@@ -45,6 +45,7 @@ namespace UnityEngine::Profiling::Memory::Experimental {
   static_assert(sizeof(MetaData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Profiling::Memory::Experimental::MetaData*, "UnityEngine.Profiling.Memory.Experimental", "MetaData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Profiling::Memory::Experimental::MetaData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

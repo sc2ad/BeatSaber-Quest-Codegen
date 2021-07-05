@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithCloudStorageMetadataList
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithCloudStorageMetadataList*, "Oculus.Platform", "MessageWithCloudStorageMetadataList");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithCloudStorageMetadataList::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

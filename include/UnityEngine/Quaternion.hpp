@@ -229,6 +229,7 @@ namespace UnityEngine {
   bool operator !=(const UnityEngine::Quaternion& lhs, const UnityEngine::Quaternion& rhs);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Quaternion, "UnityEngine", "Quaternion");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Quaternion::FromToRotation
 // Il2CppName: FromToRotation
 template<>

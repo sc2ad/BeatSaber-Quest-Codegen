@@ -87,6 +87,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FlyingScoreSpawner) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingScoreSpawner*, "", "FlyingScoreSpawner");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FlyingScoreSpawner::SpawnFlyingScore
 // Il2CppName: SpawnFlyingScore
 template<>

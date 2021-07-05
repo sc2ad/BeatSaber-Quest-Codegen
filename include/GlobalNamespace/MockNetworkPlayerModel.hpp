@@ -346,6 +346,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockNetworkPlayerModel) == 0xB8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockNetworkPlayerModel*, "", "MockNetworkPlayerModel");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockNetworkPlayerModel::get_discoveryPolicy
 // Il2CppName: get_discoveryPolicy
 template<>

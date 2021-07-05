@@ -80,6 +80,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MarkableUIButton) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MarkableUIButton*, "", "MarkableUIButton");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MarkableUIButton::get_marked
 // Il2CppName: get_marked
 template<>

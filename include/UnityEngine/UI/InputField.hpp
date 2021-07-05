@@ -1237,6 +1237,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::ContentType, "UnityEngine.UI
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::InputType, "UnityEngine.UI", "InputField/InputType");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::CharacterValidation, "UnityEngine.UI", "InputField/CharacterValidation");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::LineType, "UnityEngine.UI", "InputField/LineType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::InputField::get_input
 // Il2CppName: get_input
 template<>

@@ -28,6 +28,7 @@ namespace UnityEngine::UI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::IMaterialModifier*, "UnityEngine.UI", "IMaterialModifier");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::IMaterialModifier::GetModifiedMaterial
 // Il2CppName: GetModifiedMaterial
 template<>

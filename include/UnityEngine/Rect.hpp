@@ -210,6 +210,7 @@ namespace UnityEngine {
   bool operator ==(const UnityEngine::Rect& lhs, const UnityEngine::Rect& rhs);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rect, "UnityEngine", "Rect");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rect::Rect
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

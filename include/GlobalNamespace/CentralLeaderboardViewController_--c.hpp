@@ -77,6 +77,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CentralLeaderboardViewController::$$c*, "", "CentralLeaderboardViewController/<>c");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CentralLeaderboardViewController::$$c::_cctor
 // Il2CppName: .cctor
 template<>

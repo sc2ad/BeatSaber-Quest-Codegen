@@ -106,6 +106,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(InteractionObject::AnimatorEvent) == 0x31);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject::AnimatorEvent*, "RootMotion.FinalIK", "InteractionObject/AnimatorEvent");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionObject::AnimatorEvent::Activate
 // Il2CppName: Activate
 template<>

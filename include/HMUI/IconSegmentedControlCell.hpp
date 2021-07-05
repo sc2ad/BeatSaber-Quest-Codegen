@@ -95,6 +95,7 @@ namespace HMUI {
   static_assert(sizeof(IconSegmentedControlCell) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::IconSegmentedControlCell*, "HMUI", "IconSegmentedControlCell");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::IconSegmentedControlCell::set_sprite
 // Il2CppName: set_sprite
 template<>

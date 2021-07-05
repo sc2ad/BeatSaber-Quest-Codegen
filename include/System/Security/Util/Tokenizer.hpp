@@ -232,6 +232,7 @@ namespace System::Security::Util {
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer*, "System.Security.Util", "Tokenizer");
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer::TokenSource, "System.Security.Util", "Tokenizer/TokenSource");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Security::Util::Tokenizer::BasicInitialization
 // Il2CppName: BasicInitialization
 template<>

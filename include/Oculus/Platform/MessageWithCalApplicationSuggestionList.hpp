@@ -47,6 +47,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithCalApplicationSuggestionList
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithCalApplicationSuggestionList*, "Oculus.Platform", "MessageWithCalApplicationSuggestionList");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithCalApplicationSuggestionList::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

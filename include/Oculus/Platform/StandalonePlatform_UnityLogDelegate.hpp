@@ -52,6 +52,7 @@ namespace Oculus::Platform {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::StandalonePlatform::UnityLogDelegate*, "Oculus.Platform", "StandalonePlatform/UnityLogDelegate");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::StandalonePlatform::UnityLogDelegate::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

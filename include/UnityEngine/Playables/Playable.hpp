@@ -104,6 +104,7 @@ namespace UnityEngine::Playables {
   static_assert(sizeof(Playable) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::Playable, "UnityEngine.Playables", "Playable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::Playable::get_Null
 // Il2CppName: get_Null
 template<>

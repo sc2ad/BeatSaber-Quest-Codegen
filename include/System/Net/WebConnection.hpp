@@ -392,6 +392,7 @@ namespace System::Net {
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnection*, "System.Net", "WebConnection");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnection::NtlmAuthState, "System.Net", "WebConnection/NtlmAuthState");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::WebConnection::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

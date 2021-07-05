@@ -96,6 +96,7 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConcreteBinderNonGeneric*, "Zenject", "ConcreteBinderNonGeneric");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::ConcreteBinderNonGeneric::ToSelf
 // Il2CppName: ToSelf
 template<>

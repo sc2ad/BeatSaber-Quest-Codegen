@@ -95,6 +95,7 @@ namespace NUnit::Framework::Constraints {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::MessageWriter*, "NUnit.Framework.Constraints", "MessageWriter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MessageWriter::get_MaxLineLength
 // Il2CppName: get_MaxLineLength
 template<>

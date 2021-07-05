@@ -113,6 +113,7 @@ namespace System::Runtime::CompilerServices {
   static_assert(sizeof(AsyncVoidMethodBuilder) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncVoidMethodBuilder, "System.Runtime.CompilerServices", "AsyncVoidMethodBuilder");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::AsyncVoidMethodBuilder::Create
 // Il2CppName: Create
 template<>

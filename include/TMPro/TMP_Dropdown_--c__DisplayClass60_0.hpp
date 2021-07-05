@@ -51,6 +51,7 @@ namespace TMPro {
   static_assert(sizeof(TMP_Dropdown::$$c__DisplayClass60_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Dropdown::$$c__DisplayClass60_0*, "TMPro", "TMP_Dropdown/<>c__DisplayClass60_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::$$c__DisplayClass60_0::$Show$b__0
 // Il2CppName: <Show>b__0
 template<>

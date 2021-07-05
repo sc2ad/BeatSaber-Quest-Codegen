@@ -197,3 +197,4 @@ namespace UnityEngine::UI::Collections {
   // Could not write size check! Type: UnityEngine.UI.Collections.IndexedSet`1 is generic, or has no fields that are valid for size checks!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(UnityEngine::UI::Collections::IndexedSet_1, "UnityEngine.UI.Collections", "IndexedSet`1");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

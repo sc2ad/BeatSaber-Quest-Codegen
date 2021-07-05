@@ -132,6 +132,7 @@ namespace System::Threading::Tasks {
   static_assert(sizeof(AwaitTaskContinuation) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::AwaitTaskContinuation*, "System.Threading.Tasks", "AwaitTaskContinuation");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::AwaitTaskContinuation::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

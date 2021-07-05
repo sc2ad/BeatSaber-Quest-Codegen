@@ -106,6 +106,7 @@ namespace System::Collections {
   static_assert(sizeof(ListDictionaryInternal) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ListDictionaryInternal*, "System.Collections", "ListDictionaryInternal");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Collections::ListDictionaryInternal::get_Item
 // Il2CppName: get_Item
 template<>

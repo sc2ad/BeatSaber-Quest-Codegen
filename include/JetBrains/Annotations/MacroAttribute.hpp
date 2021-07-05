@@ -78,6 +78,7 @@ namespace JetBrains::Annotations {
   static_assert(sizeof(MacroAttribute) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::MacroAttribute*, "JetBrains.Annotations", "MacroAttribute");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: JetBrains::Annotations::MacroAttribute::get_Expression
 // Il2CppName: get_Expression
 template<>

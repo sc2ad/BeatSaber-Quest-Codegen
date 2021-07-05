@@ -66,6 +66,7 @@ namespace System::Net::Http {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpClientHandler::$$c*, "System.Net.Http", "HttpClientHandler/<>c");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::HttpClientHandler::$$c::_cctor
 // Il2CppName: .cctor
 template<>

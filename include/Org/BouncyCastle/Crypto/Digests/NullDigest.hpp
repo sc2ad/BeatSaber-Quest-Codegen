@@ -77,6 +77,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
   static_assert(sizeof(NullDigest) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::NullDigest*, "Org.BouncyCastle.Crypto.Digests", "NullDigest");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::NullDigest::get_AlgorithmName
 // Il2CppName: get_AlgorithmName
 template<>

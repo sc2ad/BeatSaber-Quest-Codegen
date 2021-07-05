@@ -120,6 +120,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(HSVPanelController) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HSVPanelController*, "", "HSVPanelController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HSVPanelController::add_colorDidChangeEvent
 // Il2CppName: add_colorDidChangeEvent
 template<>

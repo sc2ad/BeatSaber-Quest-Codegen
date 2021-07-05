@@ -87,6 +87,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(GenericPoser) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GenericPoser*, "RootMotion.FinalIK", "GenericPoser");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::GenericPoser::StoreDefaultState
 // Il2CppName: StoreDefaultState
 template<>

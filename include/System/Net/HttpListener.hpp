@@ -279,6 +279,7 @@ namespace System::Net {
   static_assert(sizeof(HttpListener) == 0x88);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpListener*, "System.Net", "HttpListener");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::HttpListener::LoadCertificateAndKey
 // Il2CppName: LoadCertificateAndKey
 template<>

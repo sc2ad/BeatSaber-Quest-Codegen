@@ -166,6 +166,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(InteractionTarget) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTarget*, "RootMotion.FinalIK", "InteractionTarget");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionTarget::OpenUserManual
 // Il2CppName: OpenUserManual
 template<>

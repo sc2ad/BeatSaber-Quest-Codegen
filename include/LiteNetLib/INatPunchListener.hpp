@@ -39,6 +39,7 @@ namespace LiteNetLib {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::INatPunchListener*, "LiteNetLib", "INatPunchListener");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::INatPunchListener::OnNatIntroductionRequest
 // Il2CppName: OnNatIntroductionRequest
 template<>

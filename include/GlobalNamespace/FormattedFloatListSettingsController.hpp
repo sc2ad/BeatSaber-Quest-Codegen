@@ -179,6 +179,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FormattedFloatListSettingsController*, "", "FormattedFloatListSettingsController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FormattedFloatListSettingsController::ValueType, "", "FormattedFloatListSettingsController/ValueType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FormattedFloatListSettingsController::add_valueDidChangeEvent
 // Il2CppName: add_valueDidChangeEvent
 template<>

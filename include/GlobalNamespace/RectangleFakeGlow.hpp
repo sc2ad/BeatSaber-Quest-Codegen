@@ -113,6 +113,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(RectangleFakeGlow) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RectangleFakeGlow*, "", "RectangleFakeGlow");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RectangleFakeGlow::set_color
 // Il2CppName: set_color
 template<>

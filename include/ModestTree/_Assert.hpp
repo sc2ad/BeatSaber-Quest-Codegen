@@ -228,6 +228,7 @@ namespace ModestTree {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::_Assert*, "ModestTree", "Assert");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: ModestTree::_Assert::That
 // Il2CppName: That
 template<>

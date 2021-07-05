@@ -74,3 +74,4 @@ namespace System::Net::NetworkInformation::MacOsStructs {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsStructs::ifaddrs, "System.Net.NetworkInformation.MacOsStructs", "ifaddrs");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

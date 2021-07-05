@@ -61,6 +61,7 @@ namespace VRUIControls {
   static_assert(sizeof(MouseButtonEventData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::MouseButtonEventData*, "VRUIControls", "MouseButtonEventData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: VRUIControls::MouseButtonEventData::PressedThisFrame
 // Il2CppName: PressedThisFrame
 template<>

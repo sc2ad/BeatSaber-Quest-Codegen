@@ -80,6 +80,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
   static_assert(sizeof(AttCertIssuer) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::AttCertIssuer*, "Org.BouncyCastle.Asn1.X509", "AttCertIssuer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::AttCertIssuer::GetInstance
 // Il2CppName: GetInstance
 template<>

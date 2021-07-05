@@ -326,6 +326,7 @@ namespace RootMotion::FinalIK {
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBIKChain*, "RootMotion.FinalIK", "FBIKChain");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBIKChain::Smoothing, "RootMotion.FinalIK", "FBIKChain/Smoothing");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::FBIKChain::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

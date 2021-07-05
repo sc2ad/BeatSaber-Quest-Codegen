@@ -69,6 +69,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(AnimationStartParams) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnimationStartParams*, "", "AnimationStartParams");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AnimationStartParams::Start
 // Il2CppName: Start
 template<>

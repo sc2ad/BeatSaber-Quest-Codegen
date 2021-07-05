@@ -498,6 +498,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(LobbyGameStateController) == 0xCD);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyGameStateController*, "", "LobbyGameStateController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LobbyGameStateController::add_gameStartedEvent
 // Il2CppName: add_gameStartedEvent
 template<>

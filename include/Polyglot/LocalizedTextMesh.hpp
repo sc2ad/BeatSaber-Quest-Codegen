@@ -99,6 +99,7 @@ namespace Polyglot {
   static_assert(sizeof(LocalizedTextMesh) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizedTextMesh*, "Polyglot", "LocalizedTextMesh");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Polyglot::LocalizedTextMesh::get_Key
 // Il2CppName: get_Key
 template<>

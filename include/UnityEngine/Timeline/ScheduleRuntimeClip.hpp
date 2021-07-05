@@ -131,6 +131,7 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(ScheduleRuntimeClip) == 0x51);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ScheduleRuntimeClip*, "UnityEngine.Timeline", "ScheduleRuntimeClip");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::ScheduleRuntimeClip::SetTime
 // Il2CppName: SetTime
 template<>

@@ -730,6 +730,7 @@ namespace UnityEngine::UI {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ScrollRect*, "UnityEngine.UI", "ScrollRect");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ScrollRect::MovementType, "UnityEngine.UI", "ScrollRect/MovementType");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ScrollRect::ScrollbarVisibility, "UnityEngine.UI", "ScrollRect/ScrollbarVisibility");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::get_content
 // Il2CppName: get_content
 template<>

@@ -267,6 +267,7 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RenderTexture*, "UnityEngine", "RenderTexture");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::RenderTexture::get_graphicsFormat
 // Il2CppName: get_graphicsFormat
 template<>

@@ -42,6 +42,7 @@ namespace Zenject {
   }; // Zenject.TickablesTaskUpdater
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TickablesTaskUpdater*, "Zenject", "TickablesTaskUpdater");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::TickablesTaskUpdater::UpdateItem
 // Il2CppName: UpdateItem
 template<>

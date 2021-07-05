@@ -129,3 +129,4 @@ namespace System::Xml {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlWellFormedWriter::Token, "System.Xml", "XmlWellFormedWriter/Token");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

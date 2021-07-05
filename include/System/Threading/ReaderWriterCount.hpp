@@ -65,6 +65,7 @@ namespace System::Threading {
   static_assert(sizeof(ReaderWriterCount) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ReaderWriterCount*, "System.Threading", "ReaderWriterCount");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::ReaderWriterCount::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

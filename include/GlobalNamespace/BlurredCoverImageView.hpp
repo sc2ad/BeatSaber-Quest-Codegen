@@ -104,6 +104,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BlurredCoverImageView) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlurredCoverImageView*, "", "BlurredCoverImageView");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BlurredCoverImageView::OnDestroy
 // Il2CppName: OnDestroy
 template<>

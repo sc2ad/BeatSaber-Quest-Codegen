@@ -40,6 +40,7 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::LanguagePack*, "Oculus.Platform", "LanguagePack");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::LanguagePack::GetCurrent
 // Il2CppName: GetCurrent
 template<>

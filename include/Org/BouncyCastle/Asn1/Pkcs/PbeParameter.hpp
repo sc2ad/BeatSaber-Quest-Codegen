@@ -77,6 +77,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   static_assert(sizeof(PbeParameter) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Pkcs::PbeParameter*, "Org.BouncyCastle.Asn1.Pkcs", "PbeParameter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::PbeParameter::GetInstance
 // Il2CppName: GetInstance
 template<>

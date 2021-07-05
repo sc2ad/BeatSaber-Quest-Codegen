@@ -35,3 +35,4 @@ namespace Zenject {
   // Could not write size check! Type: Zenject.IPoolable`5 is generic, or has no fields that are valid for size checks!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Zenject::IPoolable_5, "Zenject", "IPoolable`5");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -60,6 +60,7 @@ namespace System::Net {
   static_assert(sizeof(HttpWebRequest::$$c__DisplayClass238_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpWebRequest::$$c__DisplayClass238_0*, "System.Net", "HttpWebRequest/<>c__DisplayClass238_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::HttpWebRequest::$$c__DisplayClass238_0::$BeginGetResponse$b__0
 // Il2CppName: <BeginGetResponse>b__0
 template<>

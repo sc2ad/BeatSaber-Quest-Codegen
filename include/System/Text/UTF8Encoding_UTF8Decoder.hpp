@@ -74,6 +74,7 @@ namespace System::Text {
   static_assert(sizeof(UTF8Encoding::UTF8Decoder) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::UTF8Encoding::UTF8Decoder*, "System.Text", "UTF8Encoding/UTF8Decoder");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Text::UTF8Encoding::UTF8Decoder::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

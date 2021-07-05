@@ -57,6 +57,7 @@ namespace HMUI {
   static_assert(sizeof(ScrollToTopOnEnable) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollToTopOnEnable*, "HMUI", "ScrollToTopOnEnable");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ScrollToTopOnEnable::OnEnable
 // Il2CppName: OnEnable
 template<>

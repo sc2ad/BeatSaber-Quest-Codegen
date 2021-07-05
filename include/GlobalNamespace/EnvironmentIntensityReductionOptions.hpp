@@ -140,6 +140,7 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentIntensityReductionOptions*, "", "EnvironmentIntensityReductionOptions");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentIntensityReductionOptions::CompressExpandReductionType, "", "EnvironmentIntensityReductionOptions/CompressExpandReductionType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType, "", "EnvironmentIntensityReductionOptions/RotateRingsReductionType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentIntensityReductionOptions::get_compressExpand
 // Il2CppName: get_compressExpand
 template<>

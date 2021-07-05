@@ -80,6 +80,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(FinishTutorialAchievementHandler) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FinishTutorialAchievementHandler*, "", "FinishTutorialAchievementHandler");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FinishTutorialAchievementHandler::Start
 // Il2CppName: Start
 template<>

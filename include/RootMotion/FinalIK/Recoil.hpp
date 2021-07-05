@@ -295,6 +295,7 @@ namespace RootMotion::FinalIK {
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Recoil*, "RootMotion.FinalIK", "Recoil");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Recoil::Handedness, "RootMotion.FinalIK", "Recoil/Handedness");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::Recoil::get_isFinished
 // Il2CppName: get_isFinished
 template<>

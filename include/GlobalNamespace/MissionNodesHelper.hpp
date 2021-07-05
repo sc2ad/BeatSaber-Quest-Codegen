@@ -65,6 +65,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodesHelper*, "", "MissionNodesHelper");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodesHelper::GetAllNodesFromRoot
 // Il2CppName: GetAllNodesFromRoot
 template<>

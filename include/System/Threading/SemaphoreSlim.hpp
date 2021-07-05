@@ -180,6 +180,7 @@ namespace System::Threading {
   static_assert(sizeof(SemaphoreSlim) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SemaphoreSlim*, "System.Threading", "SemaphoreSlim");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Threading::SemaphoreSlim::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -73,6 +73,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomPrePassBackgroundColorsGradientElementWithLightId) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId*, "", "BloomPrePassBackgroundColorsGradientElementWithLightId");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::ColorWasSet
 // Il2CppName: ColorWasSet
 template<>

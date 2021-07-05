@@ -561,6 +561,7 @@ namespace TMPro {
   static_assert(sizeof(TMP_FontAsset) == 0x1E0);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontAsset*, "TMPro", "TMP_FontAsset");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_version
 // Il2CppName: get_version
 template<>

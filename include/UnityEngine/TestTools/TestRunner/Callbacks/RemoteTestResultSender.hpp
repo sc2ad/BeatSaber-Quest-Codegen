@@ -135,6 +135,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
   static_assert(sizeof(RemoteTestResultSender) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender*, "UnityEngine.TestTools.TestRunner.Callbacks", "RemoteTestResultSender");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::Start
 // Il2CppName: Start
 template<>

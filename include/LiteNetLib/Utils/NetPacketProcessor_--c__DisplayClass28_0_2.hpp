@@ -70,3 +70,4 @@ namespace LiteNetLib::Utils {
   // Could not write size check! Type: LiteNetLib.Utils.NetPacketProcessor/<>c__DisplayClass28_0`2 is generic, or has no fields that are valid for size checks!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass28_0_2, "LiteNetLib.Utils", "NetPacketProcessor/<>c__DisplayClass28_0`2");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

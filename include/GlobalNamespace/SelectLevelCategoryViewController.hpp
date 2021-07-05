@@ -187,6 +187,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelCategoryViewController*, "", "SelectLevelCategoryViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelCategoryViewController::LevelCategory, "", "SelectLevelCategoryViewController/LevelCategory");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SelectLevelCategoryViewController::add_didSelectLevelCategoryEvent
 // Il2CppName: add_didSelectLevelCategoryEvent
 template<>

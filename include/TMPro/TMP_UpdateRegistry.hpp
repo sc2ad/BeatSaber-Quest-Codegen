@@ -107,6 +107,7 @@ namespace TMPro {
   static_assert(sizeof(TMP_UpdateRegistry) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_UpdateRegistry*, "TMPro", "TMP_UpdateRegistry");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_UpdateRegistry::get_instance
 // Il2CppName: get_instance
 template<>

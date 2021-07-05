@@ -102,6 +102,7 @@ namespace Org::BouncyCastle::Asn1 {
   static_assert(sizeof(DerBoolean) == 0x11);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerBoolean*, "Org.BouncyCastle.Asn1", "DerBoolean");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerBoolean::GetInstance
 // Il2CppName: GetInstance
 template<>

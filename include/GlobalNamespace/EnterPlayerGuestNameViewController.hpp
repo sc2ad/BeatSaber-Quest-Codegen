@@ -133,6 +133,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnterPlayerGuestNameViewController) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnterPlayerGuestNameViewController*, "", "EnterPlayerGuestNameViewController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnterPlayerGuestNameViewController::Init
 // Il2CppName: Init
 template<>

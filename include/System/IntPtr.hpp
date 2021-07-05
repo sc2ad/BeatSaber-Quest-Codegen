@@ -146,6 +146,7 @@ namespace System {
   bool operator !=(const System::IntPtr& value1, const System::IntPtr& value2);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IntPtr, "System", "IntPtr");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::IntPtr::IntPtr
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

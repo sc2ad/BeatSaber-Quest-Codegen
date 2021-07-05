@@ -56,6 +56,7 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithMatchmakingBrowseResult
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithMatchmakingBrowseResult*, "Oculus.Platform", "MessageWithMatchmakingBrowseResult");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithMatchmakingBrowseResult::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>

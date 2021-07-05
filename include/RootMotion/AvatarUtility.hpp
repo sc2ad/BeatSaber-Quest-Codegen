@@ -58,6 +58,7 @@ namespace RootMotion {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::AvatarUtility*, "RootMotion", "AvatarUtility");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::AvatarUtility::GetPostRotation
 // Il2CppName: GetPostRotation
 template<>

@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ShaderVariantsSO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderVariantsSO*, "", "ShaderVariantsSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ShaderVariantsSO::get_shaderVariants
 // Il2CppName: get_shaderVariants
 template<>

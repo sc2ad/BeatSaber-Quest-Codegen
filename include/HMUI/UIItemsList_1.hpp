@@ -156,3 +156,4 @@ namespace HMUI {
   // Could not write size check! Type: HMUI.UIItemsList`1 is generic, or has no fields that are valid for size checks!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(HMUI::UIItemsList_1, "HMUI", "UIItemsList`1");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

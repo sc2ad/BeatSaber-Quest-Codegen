@@ -71,6 +71,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MenuTransitionsHelper::$$c__DisplayClass24_0) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass24_0*, "", "MenuTransitionsHelper/<>c__DisplayClass24_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass24_0::$HandleMultiplayerLevelDidFinish$b__0
 // Il2CppName: <HandleMultiplayerLevelDidFinish>b__0
 template<>

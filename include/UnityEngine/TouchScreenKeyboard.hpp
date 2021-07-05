@@ -124,6 +124,7 @@ namespace UnityEngine {
   static_assert(sizeof(TouchScreenKeyboard) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TouchScreenKeyboard*, "UnityEngine", "TouchScreenKeyboard");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TouchScreenKeyboard::Internal_Destroy
 // Il2CppName: Internal_Destroy
 template<>

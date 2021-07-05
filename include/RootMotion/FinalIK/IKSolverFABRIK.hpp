@@ -142,6 +142,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKSolverFABRIK) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverFABRIK*, "RootMotion.FinalIK", "IKSolverFABRIK");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFABRIK::SolveForward
 // Il2CppName: SolveForward
 template<>

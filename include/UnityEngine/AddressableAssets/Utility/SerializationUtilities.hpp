@@ -44,6 +44,7 @@ namespace UnityEngine::AddressableAssets::Utility {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Utility::SerializationUtilities*, "UnityEngine.AddressableAssets.Utility", "SerializationUtilities");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Utility::SerializationUtilities::ReadInt32FromByteArray
 // Il2CppName: ReadInt32FromByteArray
 template<>

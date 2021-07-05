@@ -619,6 +619,7 @@ namespace UnityEngine::Timeline {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClip*, "UnityEngine.Timeline", "TimelineClip");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClip::ClipExtrapolation, "UnityEngine.Timeline", "TimelineClip/ClipExtrapolation");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClip::BlendCurveMode, "UnityEngine.Timeline", "TimelineClip/BlendCurveMode");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClip::UpgradeToLatestVersion
 // Il2CppName: UpgradeToLatestVersion
 template<>

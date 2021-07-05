@@ -116,6 +116,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteJumpStartBeatOffsetDropdown) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteJumpStartBeatOffsetDropdown*, "", "NoteJumpStartBeatOffsetDropdown");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteJumpStartBeatOffsetDropdown::add_didSelectCellWithIdxEvent
 // Il2CppName: add_didSelectCellWithIdxEvent
 template<>

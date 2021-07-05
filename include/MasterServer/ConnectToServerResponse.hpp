@@ -284,6 +284,7 @@ namespace MasterServer {
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ConnectToServerResponse*, "MasterServer", "ConnectToServerResponse");
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ConnectToServerResponse::Result, "MasterServer", "ConnectToServerResponse/Result");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: MasterServer::ConnectToServerResponse::get_pool
 // Il2CppName: get_pool
 template<>

@@ -51,6 +51,7 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolver::UpdateDelegate*, "RootMotion.FinalIK", "IKSolver/UpdateDelegate");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolver::UpdateDelegate::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

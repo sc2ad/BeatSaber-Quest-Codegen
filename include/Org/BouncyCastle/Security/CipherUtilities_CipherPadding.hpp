@@ -231,3 +231,4 @@ namespace Org::BouncyCastle::Security {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::CipherUtilities::CipherPadding, "Org.BouncyCastle.Security", "CipherUtilities/CipherPadding");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

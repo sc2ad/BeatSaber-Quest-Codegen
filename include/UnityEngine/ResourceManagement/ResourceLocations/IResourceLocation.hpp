@@ -62,6 +62,7 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, "UnityEngine.ResourceManagement.ResourceLocations", "IResourceLocation");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::get_InternalId
 // Il2CppName: get_InternalId
 template<>

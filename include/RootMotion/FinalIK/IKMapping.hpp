@@ -63,6 +63,7 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKMapping*, "RootMotion.FinalIK", "IKMapping");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMapping::IsValid
 // Il2CppName: IsValid
 template<>

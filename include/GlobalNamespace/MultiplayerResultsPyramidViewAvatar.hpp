@@ -336,6 +336,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerResultsPyramidViewAvatar) == 0x1C8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsPyramidViewAvatar*, "", "MultiplayerResultsPyramidViewAvatar");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsPyramidViewAvatar::get_badgeDirector
 // Il2CppName: get_badgeDirector
 template<>

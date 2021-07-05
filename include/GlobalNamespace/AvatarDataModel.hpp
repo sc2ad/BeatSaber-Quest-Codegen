@@ -99,6 +99,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(AvatarDataModel) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarDataModel*, "", "AvatarDataModel");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarDataModel::get_avatarData
 // Il2CppName: get_avatarData
 template<>

@@ -50,3 +50,4 @@ namespace Microsoft::Win32 {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::RegistryValueOptions, "Microsoft.Win32", "RegistryValueOptions");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

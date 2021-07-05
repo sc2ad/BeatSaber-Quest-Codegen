@@ -78,6 +78,7 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(HitReaction::HitPointEffector::EffectorLink) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink*, "RootMotion.FinalIK", "HitReaction/HitPointEffector/EffectorLink");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::HitReaction::HitPointEffector::EffectorLink::Apply
 // Il2CppName: Apply
 template<>

@@ -51,6 +51,7 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRCursor*, "", "OVRCursor");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRCursor::SetCursorRay
 // Il2CppName: SetCursorRay
 template<>

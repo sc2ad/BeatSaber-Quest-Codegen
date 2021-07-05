@@ -77,6 +77,7 @@ namespace System::Net::Http::Headers {
   static_assert(sizeof(HttpHeaders::HeaderBucket) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::HttpHeaders::HeaderBucket*, "System.Net.Http.Headers", "HttpHeaders/HeaderBucket");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpHeaders::HeaderBucket::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

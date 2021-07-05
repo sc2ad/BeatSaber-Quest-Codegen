@@ -55,6 +55,7 @@ namespace HMUI {
   static_assert(sizeof(ScreenModeSO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScreenModeSO*, "HMUI", "ScreenModeSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::ScreenModeSO::get_data
 // Il2CppName: get_data
 template<>

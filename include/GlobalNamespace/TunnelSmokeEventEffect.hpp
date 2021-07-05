@@ -122,6 +122,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(TunnelSmokeEventEffect) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TunnelSmokeEventEffect*, "", "TunnelSmokeEventEffect");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TunnelSmokeEventEffect::Start
 // Il2CppName: Start
 template<>

@@ -350,6 +350,7 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHand*, "", "OVRHand");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHand::Hand, "", "OVRHand/Hand");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHand::TrackingConfidence, "", "OVRHand/TrackingConfidence");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRHand::get_IsDataValid
 // Il2CppName: get_IsDataValid
 template<>

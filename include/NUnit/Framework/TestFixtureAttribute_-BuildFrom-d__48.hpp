@@ -123,6 +123,7 @@ namespace NUnit::Framework {
   static_assert(sizeof(TestFixtureAttribute::$BuildFrom$d__48) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48*, "NUnit.Framework", "TestFixtureAttribute/<BuildFrom>d__48");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

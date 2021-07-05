@@ -217,6 +217,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameplayModifiersModelSO) == 0xB0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifiersModelSO*, "", "GameplayModifiersModelSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifiersModelSO::CreateGameplayModifiers
 // Il2CppName: CreateGameplayModifiers
 template<>

@@ -47,6 +47,7 @@ namespace Polyglot {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::CsvReader*, "Polyglot", "CsvReader");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Polyglot::CsvReader::Parse
 // Il2CppName: Parse
 template<>

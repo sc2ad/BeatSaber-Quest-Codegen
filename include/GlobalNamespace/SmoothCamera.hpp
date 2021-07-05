@@ -110,6 +110,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(SmoothCamera) == 0x4C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SmoothCamera*, "", "SmoothCamera");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SmoothCamera::Init
 // Il2CppName: Init
 template<>

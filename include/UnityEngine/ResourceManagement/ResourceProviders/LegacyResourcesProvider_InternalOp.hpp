@@ -65,6 +65,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   static_assert(sizeof(LegacyResourcesProvider::InternalOp) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider::InternalOp*, "UnityEngine.ResourceManagement.ResourceProviders", "LegacyResourcesProvider/InternalOp");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider::InternalOp::Start
 // Il2CppName: Start
 template<>

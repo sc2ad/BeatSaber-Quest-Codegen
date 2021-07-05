@@ -52,6 +52,7 @@ namespace TMPro {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SelectionCaret*, "TMPro", "TMP_SelectionCaret");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_SelectionCaret::Cull
 // Il2CppName: Cull
 template<>

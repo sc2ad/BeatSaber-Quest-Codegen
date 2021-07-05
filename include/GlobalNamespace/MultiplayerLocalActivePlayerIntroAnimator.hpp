@@ -60,6 +60,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLocalActivePlayerIntroAnimator) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator*, "", "MultiplayerLocalActivePlayerIntroAnimator");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator::SetBeforeIntroValues
 // Il2CppName: SetBeforeIntroValues
 template<>

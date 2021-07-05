@@ -71,6 +71,7 @@ namespace System::Net::Sockets {
   static_assert(sizeof(Socket::$$c__DisplayClass298_0) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Sockets::Socket::$$c__DisplayClass298_0*, "System.Net.Sockets", "Socket/<>c__DisplayClass298_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Sockets::Socket::$$c__DisplayClass298_0::$QueueIOSelectorJob$b__0
 // Il2CppName: <QueueIOSelectorJob>b__0
 template<>

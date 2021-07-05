@@ -55,6 +55,7 @@ namespace System::Runtime::CompilerServices {
   static_assert(sizeof(StateMachineAttribute) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::StateMachineAttribute*, "System.Runtime.CompilerServices", "StateMachineAttribute");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::StateMachineAttribute::set_StateMachineType
 // Il2CppName: set_StateMachineType
 template<>

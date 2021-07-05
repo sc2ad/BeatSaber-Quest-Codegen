@@ -117,6 +117,7 @@ namespace UnityEngine::Events {
   static_assert(sizeof(PersistentCall) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::PersistentCall*, "UnityEngine.Events", "PersistentCall");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Events::PersistentCall::get_target
 // Il2CppName: get_target
 template<>

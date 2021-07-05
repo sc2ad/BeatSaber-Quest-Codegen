@@ -205,6 +205,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   static_assert(sizeof(AsyncOperationHandle) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, "UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle::get_LocationName
 // Il2CppName: get_LocationName
 template<>

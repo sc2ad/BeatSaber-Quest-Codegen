@@ -507,6 +507,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailViewController*, "", "StandardLevelDetailViewController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailViewController::ContentType, "", "StandardLevelDetailViewController/ContentType");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailViewController::add_didPressActionButtonEvent
 // Il2CppName: add_didPressActionButtonEvent
 template<>

@@ -186,6 +186,7 @@ namespace System::Globalization {
   static_assert(sizeof(RegionInfo) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::RegionInfo*, "System.Globalization", "RegionInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Globalization::RegionInfo::get_CurrentRegion
 // Il2CppName: get_CurrentRegion
 template<>

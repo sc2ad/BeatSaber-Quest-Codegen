@@ -44,6 +44,7 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(CustomStyleAttribute) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::CustomStyleAttribute*, "UnityEngine.Timeline", "CustomStyleAttribute");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::CustomStyleAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

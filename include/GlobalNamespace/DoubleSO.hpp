@@ -35,6 +35,7 @@ namespace GlobalNamespace {
   }; // DoubleSO
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DoubleSO*, "", "DoubleSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DoubleSO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

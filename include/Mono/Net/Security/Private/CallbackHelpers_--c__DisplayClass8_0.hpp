@@ -63,6 +63,7 @@ namespace Mono::Net::Security::Private {
   static_assert(sizeof(CallbackHelpers::$$c__DisplayClass8_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass8_0*, "Mono.Net.Security.Private", "CallbackHelpers/<>c__DisplayClass8_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass8_0::$MonoToInternal$b__0
 // Il2CppName: <MonoToInternal>b__0
 template<>

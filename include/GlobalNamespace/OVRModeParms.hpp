@@ -58,6 +58,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRModeParms) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRModeParms*, "", "OVRModeParms");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRModeParms::Start
 // Il2CppName: Start
 template<>

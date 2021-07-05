@@ -117,6 +117,7 @@ namespace Org::BouncyCastle::Asn1::TeleTrust {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::ConfigureBasepoint
 // Il2CppName: ConfigureBasepoint
 template<>

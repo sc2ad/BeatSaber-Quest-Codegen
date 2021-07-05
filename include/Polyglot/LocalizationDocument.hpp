@@ -104,6 +104,7 @@ namespace Polyglot {
   static_assert(sizeof(LocalizationDocument) == 0x31);
 }
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizationDocument*, "Polyglot", "LocalizationDocument");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Polyglot::LocalizationDocument::get_TextAsset
 // Il2CppName: get_TextAsset
 template<>

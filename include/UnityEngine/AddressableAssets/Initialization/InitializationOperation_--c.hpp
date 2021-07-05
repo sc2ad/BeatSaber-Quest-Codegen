@@ -61,6 +61,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c*, "UnityEngine.AddressableAssets.Initialization", "InitializationOperation/<>c");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c::_cctor
 // Il2CppName: .cctor
 template<>

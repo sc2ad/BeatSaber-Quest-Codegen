@@ -203,6 +203,7 @@ namespace System::Net {
   static_assert(sizeof(IPAddress) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::IPAddress*, "System.Net", "IPAddress");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::IPAddress::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

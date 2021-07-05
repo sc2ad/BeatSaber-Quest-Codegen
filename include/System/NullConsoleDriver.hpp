@@ -49,6 +49,7 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::NullConsoleDriver*, "System", "NullConsoleDriver");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::NullConsoleDriver::ReadKey
 // Il2CppName: ReadKey
 template<>

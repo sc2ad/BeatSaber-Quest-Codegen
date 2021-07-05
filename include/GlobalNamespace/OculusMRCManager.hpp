@@ -71,6 +71,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OculusMRCManager) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusMRCManager*, "", "OculusMRCManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusMRCManager::Init
 // Il2CppName: Init
 template<>

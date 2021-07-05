@@ -82,6 +82,7 @@ namespace UnityEngine {
   static_assert(sizeof(Color32) == 0x4);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Color32, "UnityEngine", "Color32");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Color32::Color32
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

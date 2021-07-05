@@ -302,6 +302,7 @@ namespace UnityEngine::Networking {
   static_assert(sizeof(UnityWebRequest) == 0x3B);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequest*, "UnityEngine.Networking", "UnityWebRequest");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequest::GetWebErrorString
 // Il2CppName: GetWebErrorString
 template<>

@@ -76,6 +76,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(OculusPlatformUserModel::$$c__DisplayClass3_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass3_0*, "", "OculusPlatformUserModel/<>c__DisplayClass3_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass3_0::$GetUserFriendsUserIds$b__0
 // Il2CppName: <GetUserFriendsUserIds>b__0
 template<>

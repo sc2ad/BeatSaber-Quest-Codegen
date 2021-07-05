@@ -180,6 +180,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLocalInactivePlayerSongSyncController) == 0x5C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController*, "", "MultiplayerLocalInactivePlayerSongSyncController");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::get_waitUntilIsReadyToStartTheSong
 // Il2CppName: get_waitUntilIsReadyToStartTheSong
 template<>

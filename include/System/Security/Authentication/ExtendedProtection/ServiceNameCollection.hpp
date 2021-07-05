@@ -21,3 +21,4 @@ namespace System::Security::Authentication::ExtendedProtection {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Authentication::ExtendedProtection::ServiceNameCollection*, "System.Security.Authentication.ExtendedProtection", "ServiceNameCollection");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

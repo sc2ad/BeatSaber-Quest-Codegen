@@ -57,6 +57,7 @@ namespace System::Runtime::Remoting::Contexts {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::CrossContextChannel*, "System.Runtime.Remoting.Contexts", "CrossContextChannel");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::CrossContextChannel::SyncProcessMessage
 // Il2CppName: SyncProcessMessage
 template<>

@@ -110,6 +110,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomPrePassDoubleKawaseBlurTextureEffectSO) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO*, "", "BloomPrePassDoubleKawaseBlurTextureEffectSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::Render
 // Il2CppName: Render
 template<>

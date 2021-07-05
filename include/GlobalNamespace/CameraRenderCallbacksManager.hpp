@@ -105,6 +105,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(CameraRenderCallbacksManager) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CameraRenderCallbacksManager*, "", "CameraRenderCallbacksManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CameraRenderCallbacksManager::RegisterForCameraCallbacks
 // Il2CppName: RegisterForCameraCallbacks
 template<>

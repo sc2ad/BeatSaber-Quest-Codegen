@@ -356,6 +356,7 @@ namespace System::Net {
   static_assert(sizeof(FileWebRequest) == 0xAC);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FileWebRequest*, "System.Net", "FileWebRequest");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::FileWebRequest::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

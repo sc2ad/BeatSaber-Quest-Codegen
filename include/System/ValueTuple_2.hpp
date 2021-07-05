@@ -158,3 +158,4 @@ namespace System {
   // Could not write size check! Type: System.ValueTuple`2 is generic, or has no fields that are valid for size checks!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(System::ValueTuple_2, "System", "ValueTuple`2");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

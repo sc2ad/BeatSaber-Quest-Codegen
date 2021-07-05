@@ -154,6 +154,7 @@ namespace System::Reflection {
   bool operator !=(System::Reflection::FieldInfo* left, System::Reflection::FieldInfo& right);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::FieldInfo*, "System.Reflection", "FieldInfo");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Reflection::FieldInfo::get_Attributes
 // Il2CppName: get_Attributes
 template<>

@@ -87,6 +87,7 @@ namespace LiteNetLib {
   static_assert(sizeof(EventBasedNatPunchListener) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::EventBasedNatPunchListener*, "LiteNetLib", "EventBasedNatPunchListener");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: LiteNetLib::EventBasedNatPunchListener::add_NatIntroductionRequest
 // Il2CppName: add_NatIntroductionRequest
 template<>

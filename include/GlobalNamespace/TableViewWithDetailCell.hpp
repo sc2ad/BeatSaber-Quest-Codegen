@@ -132,6 +132,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(TableViewWithDetailCell) == 0xC4);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TableViewWithDetailCell*, "", "TableViewWithDetailCell");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TableViewWithDetailCell::add_didSelectContentCellEvent
 // Il2CppName: add_didSelectContentCellEvent
 template<>

@@ -83,6 +83,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "TestCommandBuilder/<>c");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::_cctor
 // Il2CppName: .cctor
 template<>

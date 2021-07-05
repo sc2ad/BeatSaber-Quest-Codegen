@@ -105,6 +105,7 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(Triangle) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Triangle, "UnityEngine.ProBuilder", "Triangle");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Triangle::get_a
 // Il2CppName: get_a
 template<>

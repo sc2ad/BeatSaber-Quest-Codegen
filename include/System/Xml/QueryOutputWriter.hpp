@@ -271,6 +271,7 @@ namespace System::Xml {
   static_assert(sizeof(QueryOutputWriter) == 0x64);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::QueryOutputWriter*, "System.Xml", "QueryOutputWriter");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Xml::QueryOutputWriter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

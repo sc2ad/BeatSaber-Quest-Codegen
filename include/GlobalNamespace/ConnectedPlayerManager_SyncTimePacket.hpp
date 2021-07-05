@@ -87,6 +87,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(ConnectedPlayerManager::SyncTimePacket) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectedPlayerManager::SyncTimePacket*, "", "ConnectedPlayerManager/SyncTimePacket");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ConnectedPlayerManager::SyncTimePacket::get_pool
 // Il2CppName: get_pool
 template<>

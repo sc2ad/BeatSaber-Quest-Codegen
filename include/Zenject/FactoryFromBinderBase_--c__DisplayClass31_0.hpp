@@ -68,6 +68,7 @@ namespace Zenject {
   static_assert(sizeof(FactoryFromBinderBase::$$c__DisplayClass31_0) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FactoryFromBinderBase::$$c__DisplayClass31_0*, "Zenject", "FactoryFromBinderBase/<>c__DisplayClass31_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Zenject::FactoryFromBinderBase::$$c__DisplayClass31_0::$FromNewComponentOnNewPrefabResource$b__0
 // Il2CppName: <FromNewComponentOnNewPrefabResource>b__0
 template<>

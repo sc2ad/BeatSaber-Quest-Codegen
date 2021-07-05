@@ -235,6 +235,7 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay*, "", "OVRDisplay");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay::EyeFov, "", "OVRDisplay/EyeFov");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRDisplay::EyeRenderDesc, "", "OVRDisplay/EyeRenderDesc");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRDisplay::Update
 // Il2CppName: Update
 template<>

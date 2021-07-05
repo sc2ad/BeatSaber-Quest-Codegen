@@ -156,6 +156,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapCharacteristicsTableView) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicsTableView*, "", "BeatmapCharacteristicsTableView");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicsTableView::add_didSelectCharacteristic
 // Il2CppName: add_didSelectCharacteristic
 template<>

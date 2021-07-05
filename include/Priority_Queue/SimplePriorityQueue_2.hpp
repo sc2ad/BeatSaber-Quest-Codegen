@@ -337,3 +337,4 @@ namespace Priority_Queue {
   // Could not write size check! Type: Priority_Queue.SimplePriorityQueue`2 is generic, or has no fields that are valid for size checks!
 }
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(Priority_Queue::SimplePriorityQueue_2, "Priority_Queue", "SimplePriorityQueue`2");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

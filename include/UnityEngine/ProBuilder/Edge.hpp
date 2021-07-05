@@ -137,6 +137,7 @@ namespace UnityEngine::ProBuilder {
   bool operator !=(const UnityEngine::ProBuilder::Edge& a, const UnityEngine::ProBuilder::Edge& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Edge, "UnityEngine.ProBuilder", "Edge");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Edge::Edge
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

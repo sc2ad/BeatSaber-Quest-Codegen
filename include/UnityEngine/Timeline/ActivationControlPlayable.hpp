@@ -199,6 +199,7 @@ namespace UnityEngine::Timeline {
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ActivationControlPlayable*, "UnityEngine.Timeline", "ActivationControlPlayable");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ActivationControlPlayable::PostPlaybackState, "UnityEngine.Timeline", "ActivationControlPlayable/PostPlaybackState");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ActivationControlPlayable::InitialState, "UnityEngine.Timeline", "ActivationControlPlayable/InitialState");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::ActivationControlPlayable::Create
 // Il2CppName: Create
 template<>

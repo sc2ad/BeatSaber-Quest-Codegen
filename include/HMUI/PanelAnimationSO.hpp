@@ -99,6 +99,7 @@ namespace HMUI {
   static_assert(sizeof(PanelAnimationSO) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::PanelAnimationSO*, "HMUI", "PanelAnimationSO");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::PanelAnimationSO::ExecuteAnimation
 // Il2CppName: ExecuteAnimation
 template<>

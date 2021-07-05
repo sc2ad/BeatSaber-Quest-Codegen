@@ -119,6 +119,7 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SkinnedMeshRenderer*, "UnityEngine", "SkinnedMeshRenderer");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::SkinnedMeshRenderer::get_quality
 // Il2CppName: get_quality
 template<>

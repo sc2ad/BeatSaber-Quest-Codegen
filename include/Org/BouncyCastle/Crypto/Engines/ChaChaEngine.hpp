@@ -62,6 +62,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::ChaChaEngine*, "Org.BouncyCastle.Crypto.Engines", "ChaChaEngine");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::ChaChaEngine::ChachaCore
 // Il2CppName: ChachaCore
 template<>

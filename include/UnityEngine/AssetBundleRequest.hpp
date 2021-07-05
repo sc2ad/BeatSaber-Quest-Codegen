@@ -51,6 +51,7 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AssetBundleRequest*, "UnityEngine", "AssetBundleRequest");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::AssetBundleRequest::get_asset
 // Il2CppName: get_asset
 template<>

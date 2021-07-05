@@ -97,6 +97,7 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MediaAsyncLoader::$LoadWebpage$d__0, "", "MediaAsyncLoader/<LoadWebpage>d__0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MediaAsyncLoader::$LoadWebpage$d__0::MoveNext
 // Il2CppName: MoveNext
 template<>

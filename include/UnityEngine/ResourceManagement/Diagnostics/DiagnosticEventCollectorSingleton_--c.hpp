@@ -68,6 +68,7 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c*, "UnityEngine.ResourceManagement.Diagnostics", "DiagnosticEventCollectorSingleton/<>c");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c::_cctor
 // Il2CppName: .cctor
 template<>

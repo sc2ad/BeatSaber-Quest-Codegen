@@ -149,6 +149,7 @@ namespace System::Net::Http {
   static_assert(sizeof(HttpContent) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpContent*, "System.Net.Http", "HttpContent");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::HttpContent::get_Headers
 // Il2CppName: get_Headers
 template<>

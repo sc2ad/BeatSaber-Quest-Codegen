@@ -44,6 +44,7 @@ namespace GlobalNamespace {
   }; // MultiplayerConnectedPlayerFacade/Factory
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerFacade::Factory*, "", "MultiplayerConnectedPlayerFacade/Factory");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerFacade::Factory::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -222,6 +222,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText*, "", "MultiplayerConnectedPlayerScoreDiffText");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::State, "", "MultiplayerConnectedPlayerScoreDiffText/State");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerConnectedPlayerScoreDiffText::Start
 // Il2CppName: Start
 template<>

@@ -170,6 +170,7 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatLine*, "", "BeatLine");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatLine::HighlightData, "", "BeatLine/HighlightData");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatLine::get_isFinished
 // Il2CppName: get_isFinished
 template<>

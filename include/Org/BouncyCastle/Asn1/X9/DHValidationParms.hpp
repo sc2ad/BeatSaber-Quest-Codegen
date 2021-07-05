@@ -72,6 +72,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
   static_assert(sizeof(DHValidationParms) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::DHValidationParms*, "Org.BouncyCastle.Asn1.X9", "DHValidationParms");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X9::DHValidationParms::GetInstance
 // Il2CppName: GetInstance
 template<>

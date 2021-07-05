@@ -68,6 +68,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteTrailParticleSystem) == 0xAF);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteTrailParticleSystem*, "", "NoteTrailParticleSystem");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteTrailParticleSystem::Awake
 // Il2CppName: Awake
 template<>

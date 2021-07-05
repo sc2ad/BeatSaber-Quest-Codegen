@@ -55,3 +55,4 @@ namespace NUnit::Framework::Internal::Execution {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Execution::WorkItemState, "NUnit.Framework.Internal.Execution", "WorkItemState");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

@@ -61,6 +61,7 @@ namespace UnityEngine::UI {
   static_assert(sizeof(RectangularVertexClipper) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::RectangularVertexClipper*, "UnityEngine.UI", "RectangularVertexClipper");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::RectangularVertexClipper::GetCanvasRect
 // Il2CppName: GetCanvasRect
 template<>

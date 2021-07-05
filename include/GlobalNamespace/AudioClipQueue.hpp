@@ -83,6 +83,7 @@ namespace GlobalNamespace {
   static_assert(sizeof(AudioClipQueue) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioClipQueue*, "", "AudioClipQueue");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipQueue::Awake
 // Il2CppName: Awake
 template<>

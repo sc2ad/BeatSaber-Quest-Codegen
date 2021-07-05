@@ -56,3 +56,4 @@ namespace UnityEngine::Experimental::Rendering {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Rendering::TextureCreationFlags, "UnityEngine.Experimental.Rendering", "TextureCreationFlags");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

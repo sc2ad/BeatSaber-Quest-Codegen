@@ -54,6 +54,7 @@ namespace System::Net::Http::Headers {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*, "System.Net.Http.Headers", "MediaTypeWithQualityHeaderValue");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::TryParseElement
 // Il2CppName: TryParseElement
 template<>

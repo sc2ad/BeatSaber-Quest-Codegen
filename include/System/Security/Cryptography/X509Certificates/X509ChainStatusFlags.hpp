@@ -194,3 +194,4 @@ namespace System::Security::Cryptography::X509Certificates {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags, "System.Security.Cryptography.X509Certificates", "X509ChainStatusFlags");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"

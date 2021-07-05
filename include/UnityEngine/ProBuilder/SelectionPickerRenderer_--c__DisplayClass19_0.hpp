@@ -60,6 +60,7 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(SelectionPickerRenderer::$$c__DisplayClass19_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SelectionPickerRenderer::$$c__DisplayClass19_0*, "UnityEngine.ProBuilder", "SelectionPickerRenderer/<>c__DisplayClass19_0");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPickerRenderer::$$c__DisplayClass19_0::$PickVerticesInRect$b__0
 // Il2CppName: <PickVerticesInRect>b__0
 template<>

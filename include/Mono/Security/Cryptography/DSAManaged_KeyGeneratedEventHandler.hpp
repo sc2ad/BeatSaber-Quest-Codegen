@@ -53,6 +53,7 @@ namespace Mono::Security::Cryptography {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler*, "Mono.Security.Cryptography", "DSAManaged/KeyGeneratedEventHandler");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

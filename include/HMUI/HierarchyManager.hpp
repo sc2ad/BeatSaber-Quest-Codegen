@@ -96,6 +96,7 @@ namespace HMUI {
   static_assert(sizeof(HierarchyManager) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HierarchyManager*, "HMUI", "HierarchyManager");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: HMUI::HierarchyManager::Start
 // Il2CppName: Start
 template<>

@@ -59,6 +59,7 @@ namespace System::Runtime::CompilerServices {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::JitHelpers*, "System.Runtime.CompilerServices", "JitHelpers");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::JitHelpers::UnsafeCast
 // Il2CppName: UnsafeCast
 // Cannot write MetadataGetter for generic methods!

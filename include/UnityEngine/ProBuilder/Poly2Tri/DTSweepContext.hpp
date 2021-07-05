@@ -166,6 +166,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   static_assert(sizeof(DTSweepContext) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::DTSweepContext*, "UnityEngine.ProBuilder.Poly2Tri", "DTSweepContext");
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils-methods.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::DTSweepContext::get_Head
 // Il2CppName: get_Head
 template<>
