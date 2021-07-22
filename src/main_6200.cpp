@@ -2,2413 +2,6 @@
 // Created by Sc2ad
 // =========================================================================
 // Begin includes
-#include "extern/beatsaber-hook/shared/utils/typedefs.h"
-// Including type: OVRPlugin
-#include "GlobalNamespace/OVRPlugin.hpp"
-// Including type: OVRPlugin/GUID
-#include "GlobalNamespace/OVRPlugin_GUID.hpp"
-// Including type: OVRPlugin/Bool
-#include "GlobalNamespace/OVRPlugin_Bool.hpp"
-// Including type: OVRPlugin/Result
-#include "GlobalNamespace/OVRPlugin_Result.hpp"
-// Including type: OVRPlugin/CameraStatus
-#include "GlobalNamespace/OVRPlugin_CameraStatus.hpp"
-// Including type: OVRPlugin/CameraAnchorType
-#include "GlobalNamespace/OVRPlugin_CameraAnchorType.hpp"
-// Including type: OVRNativeBuffer
-#include "GlobalNamespace/OVRNativeBuffer.hpp"
-// Including type: OVRPlugin/Eye
-#include "GlobalNamespace/OVRPlugin_Eye.hpp"
-// Including type: OVRPlugin/Tracker
-#include "GlobalNamespace/OVRPlugin_Tracker.hpp"
-// Including type: OVRPlugin/Node
-#include "GlobalNamespace/OVRPlugin_Node.hpp"
-// Including type: OVRPlugin/Controller
-#include "GlobalNamespace/OVRPlugin_Controller.hpp"
-// Including type: OVRPlugin/Handedness
-#include "GlobalNamespace/OVRPlugin_Handedness.hpp"
-// Including type: OVRPlugin/TrackingOrigin
-#include "GlobalNamespace/OVRPlugin_TrackingOrigin.hpp"
-// Including type: OVRPlugin/RecenterFlags
-#include "GlobalNamespace/OVRPlugin_RecenterFlags.hpp"
-// Including type: OVRPlugin/BatteryStatus
-#include "GlobalNamespace/OVRPlugin_BatteryStatus.hpp"
-// Including type: OVRPlugin/EyeTextureFormat
-#include "GlobalNamespace/OVRPlugin_EyeTextureFormat.hpp"
-// Including type: OVRPlugin/PlatformUI
-#include "GlobalNamespace/OVRPlugin_PlatformUI.hpp"
-// Including type: OVRPlugin/SystemRegion
-#include "GlobalNamespace/OVRPlugin_SystemRegion.hpp"
-// Including type: OVRPlugin/SystemHeadset
-#include "GlobalNamespace/OVRPlugin_SystemHeadset.hpp"
-// Including type: OVRPlugin/OverlayShape
-#include "GlobalNamespace/OVRPlugin_OverlayShape.hpp"
-// Including type: OVRPlugin/Step
-#include "GlobalNamespace/OVRPlugin_Step.hpp"
-// Including type: OVRPlugin/CameraDevice
-#include "GlobalNamespace/OVRPlugin_CameraDevice.hpp"
-// Including type: OVRPlugin/CameraDeviceDepthSensingMode
-#include "GlobalNamespace/OVRPlugin_CameraDeviceDepthSensingMode.hpp"
-// Including type: OVRPlugin/CameraDeviceDepthQuality
-#include "GlobalNamespace/OVRPlugin_CameraDeviceDepthQuality.hpp"
-// Including type: OVRPlugin/FixedFoveatedRenderingLevel
-#include "GlobalNamespace/OVRPlugin_FixedFoveatedRenderingLevel.hpp"
-// Including type: OVRPlugin/TiledMultiResLevel
-#include "GlobalNamespace/OVRPlugin_TiledMultiResLevel.hpp"
-// Including type: OVRPlugin/PerfMetrics
-#include "GlobalNamespace/OVRPlugin_PerfMetrics.hpp"
-// Including type: OVRPlugin/CameraDeviceIntrinsicsParameters
-#include "GlobalNamespace/OVRPlugin_CameraDeviceIntrinsicsParameters.hpp"
-// Including type: OVRPlugin/OverlayFlag
-#include "GlobalNamespace/OVRPlugin_OverlayFlag.hpp"
-// Including type: OVRPlugin/Vector2f
-#include "GlobalNamespace/OVRPlugin_Vector2f.hpp"
-// Including type: OVRPlugin/Vector4f
-#include "GlobalNamespace/OVRPlugin_Vector4f.hpp"
-// Including type: OVRPlugin/Vector4s
-#include "GlobalNamespace/OVRPlugin_Vector4s.hpp"
-// Including type: OVRPlugin/TextureRectMatrixf
-#include "GlobalNamespace/OVRPlugin_TextureRectMatrixf.hpp"
-// Including type: OVRPlugin/PoseStatef
-#include "GlobalNamespace/OVRPlugin_PoseStatef.hpp"
-// Including type: OVRPlugin/ControllerState4
-#include "GlobalNamespace/OVRPlugin_ControllerState4.hpp"
-// Including type: OVRPlugin/ControllerState2
-#include "GlobalNamespace/OVRPlugin_ControllerState2.hpp"
-// Including type: OVRPlugin/ControllerState
-#include "GlobalNamespace/OVRPlugin_ControllerState.hpp"
-// Including type: OVRPlugin/HapticsBuffer
-#include "GlobalNamespace/OVRPlugin_HapticsBuffer.hpp"
-// Including type: OVRPlugin/HapticsState
-#include "GlobalNamespace/OVRPlugin_HapticsState.hpp"
-// Including type: OVRPlugin/HapticsDesc
-#include "GlobalNamespace/OVRPlugin_HapticsDesc.hpp"
-// Including type: OVRPlugin/AppPerfFrameStats
-#include "GlobalNamespace/OVRPlugin_AppPerfFrameStats.hpp"
-// Including type: OVRPlugin/AppPerfStats
-#include "GlobalNamespace/OVRPlugin_AppPerfStats.hpp"
-// Including type: OVRPlugin/Sizei
-#include "GlobalNamespace/OVRPlugin_Sizei.hpp"
-// Including type: OVRPlugin/Sizef
-#include "GlobalNamespace/OVRPlugin_Sizef.hpp"
-// Including type: OVRPlugin/Vector2i
-#include "GlobalNamespace/OVRPlugin_Vector2i.hpp"
-// Including type: OVRPlugin/Recti
-#include "GlobalNamespace/OVRPlugin_Recti.hpp"
-// Including type: OVRPlugin/Rectf
-#include "GlobalNamespace/OVRPlugin_Rectf.hpp"
-// Including type: OVRPlugin/Frustumf
-#include "GlobalNamespace/OVRPlugin_Frustumf.hpp"
-// Including type: OVRPlugin/Frustumf2
-#include "GlobalNamespace/OVRPlugin_Frustumf2.hpp"
-// Including type: OVRPlugin/BoundaryType
-#include "GlobalNamespace/OVRPlugin_BoundaryType.hpp"
-// Including type: OVRPlugin/BoundaryTestResult
-#include "GlobalNamespace/OVRPlugin_BoundaryTestResult.hpp"
-// Including type: OVRPlugin/BoundaryGeometry
-#include "GlobalNamespace/OVRPlugin_BoundaryGeometry.hpp"
-// Including type: OVRPlugin/Colorf
-#include "GlobalNamespace/OVRPlugin_Colorf.hpp"
-// Including type: OVRPlugin/Fovf
-#include "GlobalNamespace/OVRPlugin_Fovf.hpp"
-// Including type: OVRPlugin/CameraIntrinsics
-#include "GlobalNamespace/OVRPlugin_CameraIntrinsics.hpp"
-// Including type: OVRPlugin/CameraExtrinsics
-#include "GlobalNamespace/OVRPlugin_CameraExtrinsics.hpp"
-// Including type: OVRPlugin/LayerLayout
-#include "GlobalNamespace/OVRPlugin_LayerLayout.hpp"
-// Including type: OVRPlugin/LayerFlags
-#include "GlobalNamespace/OVRPlugin_LayerFlags.hpp"
-// Including type: OVRPlugin/LayerDesc
-#include "GlobalNamespace/OVRPlugin_LayerDesc.hpp"
-// Including type: OVRPlugin/BlendFactor
-#include "GlobalNamespace/OVRPlugin_BlendFactor.hpp"
-// Including type: OVRPlugin/LayerSubmit
-#include "GlobalNamespace/OVRPlugin_LayerSubmit.hpp"
-// Including type: OVRPlugin/Hand
-#include "GlobalNamespace/OVRPlugin_Hand.hpp"
-// Including type: OVRPlugin/HandFinger
-#include "GlobalNamespace/OVRPlugin_HandFinger.hpp"
-// Including type: OVRPlugin/HandState
-#include "GlobalNamespace/OVRPlugin_HandState.hpp"
-// Including type: System.IntPtr
-#include "System/IntPtr.hpp"
-// Including type: OVRPlugin/SkeletonConstants
-#include "GlobalNamespace/OVRPlugin_SkeletonConstants.hpp"
-// Including type: OVRPlugin/Skeleton2
-#include "GlobalNamespace/OVRPlugin_Skeleton2.hpp"
-// Including type: System.String
-#include "System/String.hpp"
-// Including type: OVRPlugin/MeshConstants
-#include "GlobalNamespace/OVRPlugin_MeshConstants.hpp"
-// Including type: OVRPlugin/MeshType
-#include "GlobalNamespace/OVRPlugin_MeshType.hpp"
-// Including type: OVRPlugin/Mesh
-#include "GlobalNamespace/OVRPlugin_Mesh.hpp"
-// Including type: OVRPlugin/ColorSpace
-#include "GlobalNamespace/OVRPlugin_ColorSpace.hpp"
-// Including type: OVRPlugin/EventType
-#include "GlobalNamespace/OVRPlugin_EventType.hpp"
-// Including type: OVRPlugin/EventDataBuffer
-#include "GlobalNamespace/OVRPlugin_EventDataBuffer.hpp"
-// Including type: OVRPlugin/Media
-#include "GlobalNamespace/OVRPlugin_Media.hpp"
-// Including type: OVRPlugin/OVRP_0_1_0
-#include "GlobalNamespace/OVRPlugin_OVRP_0_1_0.hpp"
-// Including type: OVRPlugin/OVRP_0_1_1
-#include "GlobalNamespace/OVRPlugin_OVRP_0_1_1.hpp"
-// Including type: OVRPlugin/OVRP_0_1_2
-#include "GlobalNamespace/OVRPlugin_OVRP_0_1_2.hpp"
-// Including type: OVRPlugin/OVRP_0_1_3
-#include "GlobalNamespace/OVRPlugin_OVRP_0_1_3.hpp"
-// Including type: OVRPlugin/OVRP_0_5_0
-#include "GlobalNamespace/OVRPlugin_OVRP_0_5_0.hpp"
-// Including type: OVRPlugin/OVRP_1_0_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_0_0.hpp"
-// Including type: OVRPlugin/OVRP_1_1_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_1_0.hpp"
-// Including type: OVRPlugin/OVRP_1_2_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_2_0.hpp"
-// Including type: OVRPlugin/OVRP_1_3_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_3_0.hpp"
-// Including type: OVRPlugin/OVRP_1_5_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_5_0.hpp"
-// Including type: OVRPlugin/OVRP_1_6_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_6_0.hpp"
-// Including type: OVRPlugin/OVRP_1_7_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_7_0.hpp"
-// Including type: OVRPlugin/OVRP_1_8_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_8_0.hpp"
-// Including type: OVRPlugin/OVRP_1_9_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_9_0.hpp"
-// Including type: OVRPlugin/OVRP_1_10_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_10_0.hpp"
-// Including type: OVRPlugin/OVRP_1_11_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_11_0.hpp"
-// Including type: OVRPlugin/OVRP_1_12_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_12_0.hpp"
-// Including type: OVRPlugin/OVRP_1_15_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_15_0.hpp"
-// Including type: OVRPlugin/OVRP_1_16_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_16_0.hpp"
-// Including type: OVRPlugin/OVRP_1_17_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_17_0.hpp"
-// Including type: OVRPlugin/OVRP_1_18_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_18_0.hpp"
-// Including type: OVRPlugin/OVRP_1_19_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_19_0.hpp"
-// Including type: OVRPlugin/OVRP_1_21_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_21_0.hpp"
-// Including type: OVRPlugin/OVRP_1_28_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_28_0.hpp"
-// Including type: OVRPlugin/OVRP_1_29_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_29_0.hpp"
-// Including type: OVRPlugin/OVRP_1_30_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_30_0.hpp"
-// Including type: OVRPlugin/OVRP_1_31_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_31_0.hpp"
-// Including type: OVRPlugin/OVRP_1_32_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_32_0.hpp"
-// Including type: OVRPlugin/OVRP_1_34_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_34_0.hpp"
-// Including type: OVRPlugin/OVRP_1_35_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_35_0.hpp"
-// Including type: OVRPlugin/OVRP_1_36_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_36_0.hpp"
-// Including type: OVRPlugin/OVRP_1_37_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_37_0.hpp"
-// Including type: OVRPlugin/OVRP_1_38_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_38_0.hpp"
-// Including type: OVRPlugin/OVRP_1_39_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_39_0.hpp"
-// Including type: OVRPlugin/OVRP_1_40_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_40_0.hpp"
-// Including type: OVRPlugin/OVRP_1_41_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_41_0.hpp"
-// Including type: OVRPlugin/OVRP_1_42_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_42_0.hpp"
-// Including type: OVRPlugin/OVRP_1_43_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_43_0.hpp"
-// Including type: OVRPlugin/OVRP_1_44_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_44_0.hpp"
-// Including type: OVRPlugin/OVRP_1_45_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_45_0.hpp"
-// Including type: OVRPlugin/OVRP_1_46_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_46_0.hpp"
-// Including type: OVRPlugin/OVRP_1_47_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_47_0.hpp"
-// Including type: OVRPlugin/OVRP_1_48_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_48_0.hpp"
-// Including type: OVRPlugin/OVRP_1_49_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_49_0.hpp"
-// Including type: OVRPlugin/OVRP_1_50_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_50_0.hpp"
-// Including type: OVRPlugin/OVRP_1_51_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_51_0.hpp"
-// Including type: OVRPlugin/OVRP_1_52_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_52_0.hpp"
-// Including type: OVRPlugin/OVRP_1_53_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_53_0.hpp"
-// Including type: OVRPlugin/OVRP_1_54_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_54_0.hpp"
-// Including type: OVRPlugin/OVRP_1_55_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_55_0.hpp"
-// Including type: OVRPlugin/OVRP_1_55_1
-#include "GlobalNamespace/OVRPlugin_OVRP_1_55_1.hpp"
-// Including type: OVRPlugin/OVRP_1_56_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_56_0.hpp"
-// Including type: OVRPlugin/OVRP_1_57_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_57_0.hpp"
-// Including type: OVRPlugin/OVRP_1_58_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_58_0.hpp"
-// Including type: OVRPlugin/OVRP_1_59_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_59_0.hpp"
-// Including type: OVRPlugin/OVRP_1_60_0
-#include "GlobalNamespace/OVRPlugin_OVRP_1_60_0.hpp"
-// Including type: System.Version
-#include "System/Version.hpp"
-// Including type: UnityEngine.Vector4
-#include "UnityEngine/Vector4.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-// Completed includes
-// Autogenerated static field getter
-// Get static field: static public System.Boolean isSupportedPlatform
-bool GlobalNamespace::OVRPlugin::_get_isSupportedPlatform() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_get_isSupportedPlatform");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<bool>("", "OVRPlugin", "isSupportedPlatform"));
-}
-// Autogenerated static field setter
-// Set static field: static public System.Boolean isSupportedPlatform
-void GlobalNamespace::OVRPlugin::_set_isSupportedPlatform(bool value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_set_isSupportedPlatform");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin", "isSupportedPlatform", value));
-}
-// Autogenerated static field getter
-// Get static field: static public readonly System.Version wrapperVersion
-System::Version* GlobalNamespace::OVRPlugin::_get_wrapperVersion() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_get_wrapperVersion");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<System::Version*>("", "OVRPlugin", "wrapperVersion"));
-}
-// Autogenerated static field setter
-// Set static field: static public readonly System.Version wrapperVersion
-void GlobalNamespace::OVRPlugin::_set_wrapperVersion(System::Version* value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_set_wrapperVersion");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin", "wrapperVersion", value));
-}
-// Autogenerated static field getter
-// Get static field: static private System.Version _version
-System::Version* GlobalNamespace::OVRPlugin::_get__version() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_get__version");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<System::Version*>("", "OVRPlugin", "_version"));
-}
-// Autogenerated static field setter
-// Set static field: static private System.Version _version
-void GlobalNamespace::OVRPlugin::_set__version(System::Version* value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_set__version");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin", "_version", value));
-}
-// Autogenerated static field getter
-// Get static field: static private System.Version _nativeSDKVersion
-System::Version* GlobalNamespace::OVRPlugin::_get__nativeSDKVersion() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_get__nativeSDKVersion");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<System::Version*>("", "OVRPlugin", "_nativeSDKVersion"));
-}
-// Autogenerated static field setter
-// Set static field: static private System.Version _nativeSDKVersion
-void GlobalNamespace::OVRPlugin::_set__nativeSDKVersion(System::Version* value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_set__nativeSDKVersion");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin", "_nativeSDKVersion", value));
-}
-// Autogenerated static field getter
-// Get static field: static private System.Int32 OverlayShapeFlagShift
-int GlobalNamespace::OVRPlugin::_get_OverlayShapeFlagShift() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_get_OverlayShapeFlagShift");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<int>("", "OVRPlugin", "OverlayShapeFlagShift"));
-}
-// Autogenerated static field setter
-// Set static field: static private System.Int32 OverlayShapeFlagShift
-void GlobalNamespace::OVRPlugin::_set_OverlayShapeFlagShift(int value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_set_OverlayShapeFlagShift");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin", "OverlayShapeFlagShift", value));
-}
-// Autogenerated static field getter
-// Get static field: static public System.Int32 AppPerfFrameStatsMaxCount
-int GlobalNamespace::OVRPlugin::_get_AppPerfFrameStatsMaxCount() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_get_AppPerfFrameStatsMaxCount");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<int>("", "OVRPlugin", "AppPerfFrameStatsMaxCount"));
-}
-// Autogenerated static field setter
-// Set static field: static public System.Int32 AppPerfFrameStatsMaxCount
-void GlobalNamespace::OVRPlugin::_set_AppPerfFrameStatsMaxCount(int value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_set_AppPerfFrameStatsMaxCount");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin", "AppPerfFrameStatsMaxCount", value));
-}
-// Autogenerated static field getter
-// Get static field: static private System.Int32 EventDataBufferSize
-int GlobalNamespace::OVRPlugin::_get_EventDataBufferSize() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_get_EventDataBufferSize");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<int>("", "OVRPlugin", "EventDataBufferSize"));
-}
-// Autogenerated static field setter
-// Set static field: static private System.Int32 EventDataBufferSize
-void GlobalNamespace::OVRPlugin::_set_EventDataBufferSize(int value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_set_EventDataBufferSize");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin", "EventDataBufferSize", value));
-}
-// Autogenerated static field getter
-// Get static field: static private System.Nullable`1<OVRPlugin/XrApi> _nativeXrApi
-System::Nullable_1<GlobalNamespace::OVRPlugin::XrApi> GlobalNamespace::OVRPlugin::_get__nativeXrApi() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_get__nativeXrApi");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<System::Nullable_1<GlobalNamespace::OVRPlugin::XrApi>>("", "OVRPlugin", "_nativeXrApi"));
-}
-// Autogenerated static field setter
-// Set static field: static private System.Nullable`1<OVRPlugin/XrApi> _nativeXrApi
-void GlobalNamespace::OVRPlugin::_set__nativeXrApi(System::Nullable_1<GlobalNamespace::OVRPlugin::XrApi> value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_set__nativeXrApi");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin", "_nativeXrApi", value));
-}
-// Autogenerated static field getter
-// Get static field: static private OVRPlugin/GUID _nativeAudioOutGuid
-GlobalNamespace::OVRPlugin::GUID* GlobalNamespace::OVRPlugin::_get__nativeAudioOutGuid() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_get__nativeAudioOutGuid");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::GUID*>("", "OVRPlugin", "_nativeAudioOutGuid"));
-}
-// Autogenerated static field setter
-// Set static field: static private OVRPlugin/GUID _nativeAudioOutGuid
-void GlobalNamespace::OVRPlugin::_set__nativeAudioOutGuid(GlobalNamespace::OVRPlugin::GUID* value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_set__nativeAudioOutGuid");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin", "_nativeAudioOutGuid", value));
-}
-// Autogenerated static field getter
-// Get static field: static private System.Guid _cachedAudioOutGuid
-System::Guid GlobalNamespace::OVRPlugin::_get__cachedAudioOutGuid() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_get__cachedAudioOutGuid");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<System::Guid>("", "OVRPlugin", "_cachedAudioOutGuid"));
-}
-// Autogenerated static field setter
-// Set static field: static private System.Guid _cachedAudioOutGuid
-void GlobalNamespace::OVRPlugin::_set__cachedAudioOutGuid(System::Guid value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_set__cachedAudioOutGuid");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin", "_cachedAudioOutGuid", value));
-}
-// Autogenerated static field getter
-// Get static field: static private System.String _cachedAudioOutString
-::Il2CppString* GlobalNamespace::OVRPlugin::_get__cachedAudioOutString() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_get__cachedAudioOutString");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<::Il2CppString*>("", "OVRPlugin", "_cachedAudioOutString"));
-}
-// Autogenerated static field setter
-// Set static field: static private System.String _cachedAudioOutString
-void GlobalNamespace::OVRPlugin::_set__cachedAudioOutString(::Il2CppString* value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_set__cachedAudioOutString");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin", "_cachedAudioOutString", value));
-}
-// Autogenerated static field getter
-// Get static field: static private OVRPlugin/GUID _nativeAudioInGuid
-GlobalNamespace::OVRPlugin::GUID* GlobalNamespace::OVRPlugin::_get__nativeAudioInGuid() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_get__nativeAudioInGuid");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::GUID*>("", "OVRPlugin", "_nativeAudioInGuid"));
-}
-// Autogenerated static field setter
-// Set static field: static private OVRPlugin/GUID _nativeAudioInGuid
-void GlobalNamespace::OVRPlugin::_set__nativeAudioInGuid(GlobalNamespace::OVRPlugin::GUID* value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_set__nativeAudioInGuid");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin", "_nativeAudioInGuid", value));
-}
-// Autogenerated static field getter
-// Get static field: static private System.Guid _cachedAudioInGuid
-System::Guid GlobalNamespace::OVRPlugin::_get__cachedAudioInGuid() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_get__cachedAudioInGuid");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<System::Guid>("", "OVRPlugin", "_cachedAudioInGuid"));
-}
-// Autogenerated static field setter
-// Set static field: static private System.Guid _cachedAudioInGuid
-void GlobalNamespace::OVRPlugin::_set__cachedAudioInGuid(System::Guid value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_set__cachedAudioInGuid");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin", "_cachedAudioInGuid", value));
-}
-// Autogenerated static field getter
-// Get static field: static private System.String _cachedAudioInString
-::Il2CppString* GlobalNamespace::OVRPlugin::_get__cachedAudioInString() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_get__cachedAudioInString");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<::Il2CppString*>("", "OVRPlugin", "_cachedAudioInString"));
-}
-// Autogenerated static field setter
-// Set static field: static private System.String _cachedAudioInString
-void GlobalNamespace::OVRPlugin::_set__cachedAudioInString(::Il2CppString* value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_set__cachedAudioInString");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin", "_cachedAudioInString", value));
-}
-// Autogenerated static field getter
-// Get static field: static private OVRNativeBuffer _nativeSystemDisplayFrequenciesAvailable
-GlobalNamespace::OVRNativeBuffer* GlobalNamespace::OVRPlugin::_get__nativeSystemDisplayFrequenciesAvailable() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_get__nativeSystemDisplayFrequenciesAvailable");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRNativeBuffer*>("", "OVRPlugin", "_nativeSystemDisplayFrequenciesAvailable"));
-}
-// Autogenerated static field setter
-// Set static field: static private OVRNativeBuffer _nativeSystemDisplayFrequenciesAvailable
-void GlobalNamespace::OVRPlugin::_set__nativeSystemDisplayFrequenciesAvailable(GlobalNamespace::OVRNativeBuffer* value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_set__nativeSystemDisplayFrequenciesAvailable");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin", "_nativeSystemDisplayFrequenciesAvailable", value));
-}
-// Autogenerated static field getter
-// Get static field: static private System.Single[] _cachedSystemDisplayFrequenciesAvailable
-::Array<float>* GlobalNamespace::OVRPlugin::_get__cachedSystemDisplayFrequenciesAvailable() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_get__cachedSystemDisplayFrequenciesAvailable");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<::Array<float>*>("", "OVRPlugin", "_cachedSystemDisplayFrequenciesAvailable"));
-}
-// Autogenerated static field setter
-// Set static field: static private System.Single[] _cachedSystemDisplayFrequenciesAvailable
-void GlobalNamespace::OVRPlugin::_set__cachedSystemDisplayFrequenciesAvailable(::Array<float>* value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_set__cachedSystemDisplayFrequenciesAvailable");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin", "_cachedSystemDisplayFrequenciesAvailable", value));
-}
-// Autogenerated static field getter
-// Get static field: static private OVRPlugin/HandStateInternal cachedHandState
-GlobalNamespace::OVRPlugin::HandStateInternal GlobalNamespace::OVRPlugin::_get_cachedHandState() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_get_cachedHandState");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::HandStateInternal>("", "OVRPlugin", "cachedHandState"));
-}
-// Autogenerated static field setter
-// Set static field: static private OVRPlugin/HandStateInternal cachedHandState
-void GlobalNamespace::OVRPlugin::_set_cachedHandState(GlobalNamespace::OVRPlugin::HandStateInternal value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_set_cachedHandState");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin", "cachedHandState", value));
-}
-// Autogenerated static field getter
-// Get static field: static private OVRPlugin/Skeleton cachedSkeleton
-GlobalNamespace::OVRPlugin::Skeleton GlobalNamespace::OVRPlugin::_get_cachedSkeleton() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_get_cachedSkeleton");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Skeleton>("", "OVRPlugin", "cachedSkeleton"));
-}
-// Autogenerated static field setter
-// Set static field: static private OVRPlugin/Skeleton cachedSkeleton
-void GlobalNamespace::OVRPlugin::_set_cachedSkeleton(GlobalNamespace::OVRPlugin::Skeleton value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_set_cachedSkeleton");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin", "cachedSkeleton", value));
-}
-// Autogenerated static field getter
-// Get static field: static private OVRPlugin/Skeleton2Internal cachedSkeleton2
-GlobalNamespace::OVRPlugin::Skeleton2Internal GlobalNamespace::OVRPlugin::_get_cachedSkeleton2() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_get_cachedSkeleton2");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Skeleton2Internal>("", "OVRPlugin", "cachedSkeleton2"));
-}
-// Autogenerated static field setter
-// Set static field: static private OVRPlugin/Skeleton2Internal cachedSkeleton2
-void GlobalNamespace::OVRPlugin::_set_cachedSkeleton2(GlobalNamespace::OVRPlugin::Skeleton2Internal value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_set_cachedSkeleton2");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin", "cachedSkeleton2", value));
-}
-// Autogenerated static field getter
-// Get static field: static private System.String pluginName
-::Il2CppString* GlobalNamespace::OVRPlugin::_get_pluginName() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_get_pluginName");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<::Il2CppString*>("", "OVRPlugin", "pluginName"));
-}
-// Autogenerated static field setter
-// Set static field: static private System.String pluginName
-void GlobalNamespace::OVRPlugin::_set_pluginName(::Il2CppString* value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_set_pluginName");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin", "pluginName", value));
-}
-// Autogenerated static field getter
-// Get static field: static private System.Version _versionZero
-System::Version* GlobalNamespace::OVRPlugin::_get__versionZero() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_get__versionZero");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<System::Version*>("", "OVRPlugin", "_versionZero"));
-}
-// Autogenerated static field setter
-// Set static field: static private System.Version _versionZero
-void GlobalNamespace::OVRPlugin::_set__versionZero(System::Version* value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::_set__versionZero");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin", "_versionZero", value));
-}
-// Autogenerated method: OVRPlugin.get_version
-System::Version* GlobalNamespace::OVRPlugin::get_version() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_version");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_version", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<System::Version*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.get_nativeSDKVersion
-System::Version* GlobalNamespace::OVRPlugin::get_nativeSDKVersion() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_nativeSDKVersion");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_nativeSDKVersion", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<System::Version*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.get_initialized
-bool GlobalNamespace::OVRPlugin::get_initialized() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_initialized");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_initialized", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.get_nativeXrApi
-GlobalNamespace::OVRPlugin::XrApi GlobalNamespace::OVRPlugin::get_nativeXrApi() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_nativeXrApi");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_nativeXrApi", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::XrApi, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.get_chromatic
-bool GlobalNamespace::OVRPlugin::get_chromatic() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_chromatic");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_chromatic", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.set_chromatic
-void GlobalNamespace::OVRPlugin::set_chromatic(bool value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::set_chromatic");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "set_chromatic", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value);
-}
-// Autogenerated method: OVRPlugin.get_monoscopic
-bool GlobalNamespace::OVRPlugin::get_monoscopic() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_monoscopic");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_monoscopic", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.set_monoscopic
-void GlobalNamespace::OVRPlugin::set_monoscopic(bool value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::set_monoscopic");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "set_monoscopic", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value);
-}
-// Autogenerated method: OVRPlugin.get_rotation
-bool GlobalNamespace::OVRPlugin::get_rotation() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_rotation");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_rotation", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.set_rotation
-void GlobalNamespace::OVRPlugin::set_rotation(bool value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::set_rotation");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "set_rotation", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value);
-}
-// Autogenerated method: OVRPlugin.get_position
-bool GlobalNamespace::OVRPlugin::get_position() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_position");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_position", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.set_position
-void GlobalNamespace::OVRPlugin::set_position(bool value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::set_position");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "set_position", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value);
-}
-// Autogenerated method: OVRPlugin.get_useIPDInPositionTracking
-bool GlobalNamespace::OVRPlugin::get_useIPDInPositionTracking() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_useIPDInPositionTracking");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_useIPDInPositionTracking", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.set_useIPDInPositionTracking
-void GlobalNamespace::OVRPlugin::set_useIPDInPositionTracking(bool value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::set_useIPDInPositionTracking");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "set_useIPDInPositionTracking", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value);
-}
-// Autogenerated method: OVRPlugin.get_positionSupported
-bool GlobalNamespace::OVRPlugin::get_positionSupported() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_positionSupported");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_positionSupported", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.get_positionTracked
-bool GlobalNamespace::OVRPlugin::get_positionTracked() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_positionTracked");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_positionTracked", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.get_powerSaving
-bool GlobalNamespace::OVRPlugin::get_powerSaving() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_powerSaving");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_powerSaving", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.get_hmdPresent
-bool GlobalNamespace::OVRPlugin::get_hmdPresent() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_hmdPresent");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_hmdPresent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.get_userPresent
-bool GlobalNamespace::OVRPlugin::get_userPresent() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_userPresent");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_userPresent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.get_headphonesPresent
-bool GlobalNamespace::OVRPlugin::get_headphonesPresent() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_headphonesPresent");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_headphonesPresent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.get_recommendedMSAALevel
-int GlobalNamespace::OVRPlugin::get_recommendedMSAALevel() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_recommendedMSAALevel");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_recommendedMSAALevel", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.get_systemRegion
-GlobalNamespace::OVRPlugin::SystemRegion GlobalNamespace::OVRPlugin::get_systemRegion() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_systemRegion");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_systemRegion", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::SystemRegion, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.get_audioOutId
-::Il2CppString* GlobalNamespace::OVRPlugin::get_audioOutId() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_audioOutId");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_audioOutId", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.get_audioInId
-::Il2CppString* GlobalNamespace::OVRPlugin::get_audioInId() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_audioInId");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_audioInId", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.get_hasVrFocus
-bool GlobalNamespace::OVRPlugin::get_hasVrFocus() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_hasVrFocus");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_hasVrFocus", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.get_hasInputFocus
-bool GlobalNamespace::OVRPlugin::get_hasInputFocus() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_hasInputFocus");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_hasInputFocus", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.get_shouldQuit
-bool GlobalNamespace::OVRPlugin::get_shouldQuit() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_shouldQuit");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_shouldQuit", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.get_shouldRecenter
-bool GlobalNamespace::OVRPlugin::get_shouldRecenter() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_shouldRecenter");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_shouldRecenter", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.get_productName
-::Il2CppString* GlobalNamespace::OVRPlugin::get_productName() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_productName");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_productName", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.get_latency
-::Il2CppString* GlobalNamespace::OVRPlugin::get_latency() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_latency");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_latency", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<::Il2CppString*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.get_eyeDepth
-float GlobalNamespace::OVRPlugin::get_eyeDepth() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_eyeDepth");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_eyeDepth", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<float, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.set_eyeDepth
-void GlobalNamespace::OVRPlugin::set_eyeDepth(float value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::set_eyeDepth");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "set_eyeDepth", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value);
-}
-// Autogenerated method: OVRPlugin.get_eyeHeight
-float GlobalNamespace::OVRPlugin::get_eyeHeight() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_eyeHeight");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_eyeHeight", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<float, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.set_eyeHeight
-void GlobalNamespace::OVRPlugin::set_eyeHeight(float value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::set_eyeHeight");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "set_eyeHeight", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value);
-}
-// Autogenerated method: OVRPlugin.get_batteryLevel
-float GlobalNamespace::OVRPlugin::get_batteryLevel() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_batteryLevel");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_batteryLevel", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<float, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.get_batteryTemperature
-float GlobalNamespace::OVRPlugin::get_batteryTemperature() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_batteryTemperature");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_batteryTemperature", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<float, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.get_cpuLevel
-int GlobalNamespace::OVRPlugin::get_cpuLevel() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_cpuLevel");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_cpuLevel", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.set_cpuLevel
-void GlobalNamespace::OVRPlugin::set_cpuLevel(int value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::set_cpuLevel");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "set_cpuLevel", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value);
-}
-// Autogenerated method: OVRPlugin.get_gpuLevel
-int GlobalNamespace::OVRPlugin::get_gpuLevel() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_gpuLevel");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_gpuLevel", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.set_gpuLevel
-void GlobalNamespace::OVRPlugin::set_gpuLevel(int value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::set_gpuLevel");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "set_gpuLevel", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value);
-}
-// Autogenerated method: OVRPlugin.get_vsyncCount
-int GlobalNamespace::OVRPlugin::get_vsyncCount() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_vsyncCount");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_vsyncCount", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.set_vsyncCount
-void GlobalNamespace::OVRPlugin::set_vsyncCount(int value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::set_vsyncCount");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "set_vsyncCount", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value);
-}
-// Autogenerated method: OVRPlugin.get_systemVolume
-float GlobalNamespace::OVRPlugin::get_systemVolume() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_systemVolume");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_systemVolume", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<float, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.get_ipd
-float GlobalNamespace::OVRPlugin::get_ipd() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_ipd");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_ipd", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<float, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.set_ipd
-void GlobalNamespace::OVRPlugin::set_ipd(float value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::set_ipd");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "set_ipd", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value);
-}
-// Autogenerated method: OVRPlugin.get_occlusionMesh
-bool GlobalNamespace::OVRPlugin::get_occlusionMesh() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_occlusionMesh");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_occlusionMesh", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.set_occlusionMesh
-void GlobalNamespace::OVRPlugin::set_occlusionMesh(bool value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::set_occlusionMesh");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "set_occlusionMesh", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value);
-}
-// Autogenerated method: OVRPlugin.get_batteryStatus
-GlobalNamespace::OVRPlugin::BatteryStatus GlobalNamespace::OVRPlugin::get_batteryStatus() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_batteryStatus");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_batteryStatus", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::BatteryStatus, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.GetEyeFrustum
-GlobalNamespace::OVRPlugin::Frustumf GlobalNamespace::OVRPlugin::GetEyeFrustum(GlobalNamespace::OVRPlugin::Eye eyeId) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetEyeFrustum");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetEyeFrustum", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(eyeId)})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Frustumf, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, eyeId);
-}
-// Autogenerated method: OVRPlugin.GetEyeTextureSize
-GlobalNamespace::OVRPlugin::Sizei GlobalNamespace::OVRPlugin::GetEyeTextureSize(GlobalNamespace::OVRPlugin::Eye eyeId) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetEyeTextureSize");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetEyeTextureSize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(eyeId)})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Sizei, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, eyeId);
-}
-// Autogenerated method: OVRPlugin.GetTrackerPose
-GlobalNamespace::OVRPlugin::Posef GlobalNamespace::OVRPlugin::GetTrackerPose(GlobalNamespace::OVRPlugin::Tracker trackerId) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetTrackerPose");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetTrackerPose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(trackerId)})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Posef, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, trackerId);
-}
-// Autogenerated method: OVRPlugin.GetTrackerFrustum
-GlobalNamespace::OVRPlugin::Frustumf GlobalNamespace::OVRPlugin::GetTrackerFrustum(GlobalNamespace::OVRPlugin::Tracker trackerId) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetTrackerFrustum");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetTrackerFrustum", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(trackerId)})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Frustumf, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, trackerId);
-}
-// Autogenerated method: OVRPlugin.ShowUI
-bool GlobalNamespace::OVRPlugin::ShowUI(GlobalNamespace::OVRPlugin::PlatformUI ui) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::ShowUI");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "ShowUI", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(ui)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, ui);
-}
-// Autogenerated method: OVRPlugin.EnqueueSubmitLayer
-bool GlobalNamespace::OVRPlugin::EnqueueSubmitLayer(bool onTop, bool headLocked, bool noDepthBufferTesting, System::IntPtr leftTexture, System::IntPtr rightTexture, int layerId, int frameIndex, GlobalNamespace::OVRPlugin::Posef pose, GlobalNamespace::OVRPlugin::Vector3f scale, int layerIndex, GlobalNamespace::OVRPlugin::OverlayShape shape, bool overrideTextureRectMatrix, GlobalNamespace::OVRPlugin::TextureRectMatrixf textureRectMatrix, bool overridePerLayerColorScaleAndOffset, UnityEngine::Vector4 colorScale, UnityEngine::Vector4 colorOffset, bool expensiveSuperSample, bool hidden) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::EnqueueSubmitLayer");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "EnqueueSubmitLayer", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(onTop), ::il2cpp_utils::ExtractType(headLocked), ::il2cpp_utils::ExtractType(noDepthBufferTesting), ::il2cpp_utils::ExtractType(leftTexture), ::il2cpp_utils::ExtractType(rightTexture), ::il2cpp_utils::ExtractType(layerId), ::il2cpp_utils::ExtractType(frameIndex), ::il2cpp_utils::ExtractType(pose), ::il2cpp_utils::ExtractType(scale), ::il2cpp_utils::ExtractType(layerIndex), ::il2cpp_utils::ExtractType(shape), ::il2cpp_utils::ExtractType(overrideTextureRectMatrix), ::il2cpp_utils::ExtractType(textureRectMatrix), ::il2cpp_utils::ExtractType(overridePerLayerColorScaleAndOffset), ::il2cpp_utils::ExtractType(colorScale), ::il2cpp_utils::ExtractType(colorOffset), ::il2cpp_utils::ExtractType(expensiveSuperSample), ::il2cpp_utils::ExtractType(hidden)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, onTop, headLocked, noDepthBufferTesting, leftTexture, rightTexture, layerId, frameIndex, pose, scale, layerIndex, shape, overrideTextureRectMatrix, textureRectMatrix, overridePerLayerColorScaleAndOffset, colorScale, colorOffset, expensiveSuperSample, hidden);
-}
-// Autogenerated method: OVRPlugin.CalculateLayerDesc
-GlobalNamespace::OVRPlugin::LayerDesc GlobalNamespace::OVRPlugin::CalculateLayerDesc(GlobalNamespace::OVRPlugin::OverlayShape shape, GlobalNamespace::OVRPlugin::LayerLayout layout, GlobalNamespace::OVRPlugin::Sizei textureSize, int mipLevels, int sampleCount, GlobalNamespace::OVRPlugin::EyeTextureFormat format, int layerFlags) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::CalculateLayerDesc");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "CalculateLayerDesc", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(shape), ::il2cpp_utils::ExtractType(layout), ::il2cpp_utils::ExtractType(textureSize), ::il2cpp_utils::ExtractType(mipLevels), ::il2cpp_utils::ExtractType(sampleCount), ::il2cpp_utils::ExtractType(format), ::il2cpp_utils::ExtractType(layerFlags)})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::LayerDesc, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, shape, layout, textureSize, mipLevels, sampleCount, format, layerFlags);
-}
-// Autogenerated method: OVRPlugin.EnqueueSetupLayer
-bool GlobalNamespace::OVRPlugin::EnqueueSetupLayer(GlobalNamespace::OVRPlugin::LayerDesc desc, int compositionDepth, System::IntPtr layerID) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::EnqueueSetupLayer");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "EnqueueSetupLayer", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(desc), ::il2cpp_utils::ExtractType(compositionDepth), ::il2cpp_utils::ExtractType(layerID)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, desc, compositionDepth, layerID);
-}
-// Autogenerated method: OVRPlugin.EnqueueDestroyLayer
-bool GlobalNamespace::OVRPlugin::EnqueueDestroyLayer(System::IntPtr layerID) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::EnqueueDestroyLayer");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "EnqueueDestroyLayer", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(layerID)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, layerID);
-}
-// Autogenerated method: OVRPlugin.GetLayerTexture
-System::IntPtr GlobalNamespace::OVRPlugin::GetLayerTexture(int layerId, int stage, GlobalNamespace::OVRPlugin::Eye eyeId) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetLayerTexture");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetLayerTexture", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(layerId), ::il2cpp_utils::ExtractType(stage), ::il2cpp_utils::ExtractType(eyeId)})));
-  return ::il2cpp_utils::RunMethodThrow<System::IntPtr, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, layerId, stage, eyeId);
-}
-// Autogenerated method: OVRPlugin.GetLayerTextureStageCount
-int GlobalNamespace::OVRPlugin::GetLayerTextureStageCount(int layerId) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetLayerTextureStageCount");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetLayerTextureStageCount", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(layerId)})));
-  return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, layerId);
-}
-// Autogenerated method: OVRPlugin.GetLayerAndroidSurfaceObject
-System::IntPtr GlobalNamespace::OVRPlugin::GetLayerAndroidSurfaceObject(int layerId) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetLayerAndroidSurfaceObject");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetLayerAndroidSurfaceObject", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(layerId)})));
-  return ::il2cpp_utils::RunMethodThrow<System::IntPtr, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, layerId);
-}
-// Autogenerated method: OVRPlugin.UpdateNodePhysicsPoses
-bool GlobalNamespace::OVRPlugin::UpdateNodePhysicsPoses(int frameIndex, double predictionSeconds) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::UpdateNodePhysicsPoses");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "UpdateNodePhysicsPoses", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(frameIndex), ::il2cpp_utils::ExtractType(predictionSeconds)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, frameIndex, predictionSeconds);
-}
-// Autogenerated method: OVRPlugin.GetNodePose
-GlobalNamespace::OVRPlugin::Posef GlobalNamespace::OVRPlugin::GetNodePose(GlobalNamespace::OVRPlugin::Node nodeId, GlobalNamespace::OVRPlugin::Step stepId) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetNodePose");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetNodePose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(nodeId), ::il2cpp_utils::ExtractType(stepId)})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Posef, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, nodeId, stepId);
-}
-// Autogenerated method: OVRPlugin.GetNodeVelocity
-GlobalNamespace::OVRPlugin::Vector3f GlobalNamespace::OVRPlugin::GetNodeVelocity(GlobalNamespace::OVRPlugin::Node nodeId, GlobalNamespace::OVRPlugin::Step stepId) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetNodeVelocity");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetNodeVelocity", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(nodeId), ::il2cpp_utils::ExtractType(stepId)})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Vector3f, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, nodeId, stepId);
-}
-// Autogenerated method: OVRPlugin.GetNodeAngularVelocity
-GlobalNamespace::OVRPlugin::Vector3f GlobalNamespace::OVRPlugin::GetNodeAngularVelocity(GlobalNamespace::OVRPlugin::Node nodeId, GlobalNamespace::OVRPlugin::Step stepId) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetNodeAngularVelocity");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetNodeAngularVelocity", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(nodeId), ::il2cpp_utils::ExtractType(stepId)})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Vector3f, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, nodeId, stepId);
-}
-// Autogenerated method: OVRPlugin.GetNodeAcceleration
-GlobalNamespace::OVRPlugin::Vector3f GlobalNamespace::OVRPlugin::GetNodeAcceleration(GlobalNamespace::OVRPlugin::Node nodeId, GlobalNamespace::OVRPlugin::Step stepId) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetNodeAcceleration");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetNodeAcceleration", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(nodeId), ::il2cpp_utils::ExtractType(stepId)})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Vector3f, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, nodeId, stepId);
-}
-// Autogenerated method: OVRPlugin.GetNodeAngularAcceleration
-GlobalNamespace::OVRPlugin::Vector3f GlobalNamespace::OVRPlugin::GetNodeAngularAcceleration(GlobalNamespace::OVRPlugin::Node nodeId, GlobalNamespace::OVRPlugin::Step stepId) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetNodeAngularAcceleration");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetNodeAngularAcceleration", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(nodeId), ::il2cpp_utils::ExtractType(stepId)})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Vector3f, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, nodeId, stepId);
-}
-// Autogenerated method: OVRPlugin.GetNodePresent
-bool GlobalNamespace::OVRPlugin::GetNodePresent(GlobalNamespace::OVRPlugin::Node nodeId) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetNodePresent");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetNodePresent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(nodeId)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, nodeId);
-}
-// Autogenerated method: OVRPlugin.GetNodeOrientationTracked
-bool GlobalNamespace::OVRPlugin::GetNodeOrientationTracked(GlobalNamespace::OVRPlugin::Node nodeId) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetNodeOrientationTracked");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetNodeOrientationTracked", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(nodeId)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, nodeId);
-}
-// Autogenerated method: OVRPlugin.GetNodeOrientationValid
-bool GlobalNamespace::OVRPlugin::GetNodeOrientationValid(GlobalNamespace::OVRPlugin::Node nodeId) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetNodeOrientationValid");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetNodeOrientationValid", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(nodeId)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, nodeId);
-}
-// Autogenerated method: OVRPlugin.GetNodePositionTracked
-bool GlobalNamespace::OVRPlugin::GetNodePositionTracked(GlobalNamespace::OVRPlugin::Node nodeId) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetNodePositionTracked");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetNodePositionTracked", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(nodeId)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, nodeId);
-}
-// Autogenerated method: OVRPlugin.GetNodePositionValid
-bool GlobalNamespace::OVRPlugin::GetNodePositionValid(GlobalNamespace::OVRPlugin::Node nodeId) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetNodePositionValid");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetNodePositionValid", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(nodeId)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, nodeId);
-}
-// Autogenerated method: OVRPlugin.GetNodePoseStateRaw
-GlobalNamespace::OVRPlugin::PoseStatef GlobalNamespace::OVRPlugin::GetNodePoseStateRaw(GlobalNamespace::OVRPlugin::Node nodeId, GlobalNamespace::OVRPlugin::Step stepId) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetNodePoseStateRaw");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetNodePoseStateRaw", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(nodeId), ::il2cpp_utils::ExtractType(stepId)})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::PoseStatef, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, nodeId, stepId);
-}
-// Autogenerated method: OVRPlugin.GetCurrentTrackingTransformPose
-GlobalNamespace::OVRPlugin::Posef GlobalNamespace::OVRPlugin::GetCurrentTrackingTransformPose() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetCurrentTrackingTransformPose");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetCurrentTrackingTransformPose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Posef, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.GetTrackingTransformRawPose
-GlobalNamespace::OVRPlugin::Posef GlobalNamespace::OVRPlugin::GetTrackingTransformRawPose() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetTrackingTransformRawPose");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetTrackingTransformRawPose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Posef, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.GetTrackingTransformRelativePose
-GlobalNamespace::OVRPlugin::Posef GlobalNamespace::OVRPlugin::GetTrackingTransformRelativePose(GlobalNamespace::OVRPlugin::TrackingOrigin trackingOrigin) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetTrackingTransformRelativePose");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetTrackingTransformRelativePose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(trackingOrigin)})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Posef, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, trackingOrigin);
-}
-// Autogenerated method: OVRPlugin.GetControllerState
-GlobalNamespace::OVRPlugin::ControllerState GlobalNamespace::OVRPlugin::GetControllerState(uint controllerMask) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetControllerState");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetControllerState", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(controllerMask)})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::ControllerState, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, controllerMask);
-}
-// Autogenerated method: OVRPlugin.GetControllerState2
-GlobalNamespace::OVRPlugin::ControllerState2 GlobalNamespace::OVRPlugin::GetControllerState2(uint controllerMask) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetControllerState2");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetControllerState2", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(controllerMask)})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::ControllerState2, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, controllerMask);
-}
-// Autogenerated method: OVRPlugin.GetControllerState4
-GlobalNamespace::OVRPlugin::ControllerState4 GlobalNamespace::OVRPlugin::GetControllerState4(uint controllerMask) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetControllerState4");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetControllerState4", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(controllerMask)})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::ControllerState4, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, controllerMask);
-}
-// Autogenerated method: OVRPlugin.SetControllerVibration
-bool GlobalNamespace::OVRPlugin::SetControllerVibration(uint controllerMask, float frequency, float amplitude) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::SetControllerVibration");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "SetControllerVibration", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(controllerMask), ::il2cpp_utils::ExtractType(frequency), ::il2cpp_utils::ExtractType(amplitude)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, controllerMask, frequency, amplitude);
-}
-// Autogenerated method: OVRPlugin.GetControllerHapticsDesc
-GlobalNamespace::OVRPlugin::HapticsDesc GlobalNamespace::OVRPlugin::GetControllerHapticsDesc(uint controllerMask) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetControllerHapticsDesc");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetControllerHapticsDesc", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(controllerMask)})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::HapticsDesc, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, controllerMask);
-}
-// Autogenerated method: OVRPlugin.GetControllerHapticsState
-GlobalNamespace::OVRPlugin::HapticsState GlobalNamespace::OVRPlugin::GetControllerHapticsState(uint controllerMask) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetControllerHapticsState");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetControllerHapticsState", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(controllerMask)})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::HapticsState, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, controllerMask);
-}
-// Autogenerated method: OVRPlugin.SetControllerHaptics
-bool GlobalNamespace::OVRPlugin::SetControllerHaptics(uint controllerMask, GlobalNamespace::OVRPlugin::HapticsBuffer hapticsBuffer) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::SetControllerHaptics");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "SetControllerHaptics", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(controllerMask), ::il2cpp_utils::ExtractType(hapticsBuffer)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, controllerMask, hapticsBuffer);
-}
-// Autogenerated method: OVRPlugin.GetEyeRecommendedResolutionScale
-float GlobalNamespace::OVRPlugin::GetEyeRecommendedResolutionScale() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetEyeRecommendedResolutionScale");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetEyeRecommendedResolutionScale", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<float, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.GetAppCpuStartToGpuEndTime
-float GlobalNamespace::OVRPlugin::GetAppCpuStartToGpuEndTime() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetAppCpuStartToGpuEndTime");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetAppCpuStartToGpuEndTime", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<float, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.GetBoundaryConfigured
-bool GlobalNamespace::OVRPlugin::GetBoundaryConfigured() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetBoundaryConfigured");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetBoundaryConfigured", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.TestBoundaryNode
-GlobalNamespace::OVRPlugin::BoundaryTestResult GlobalNamespace::OVRPlugin::TestBoundaryNode(GlobalNamespace::OVRPlugin::Node nodeId, GlobalNamespace::OVRPlugin::BoundaryType boundaryType) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::TestBoundaryNode");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "TestBoundaryNode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(nodeId), ::il2cpp_utils::ExtractType(boundaryType)})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::BoundaryTestResult, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, nodeId, boundaryType);
-}
-// Autogenerated method: OVRPlugin.TestBoundaryPoint
-GlobalNamespace::OVRPlugin::BoundaryTestResult GlobalNamespace::OVRPlugin::TestBoundaryPoint(GlobalNamespace::OVRPlugin::Vector3f point, GlobalNamespace::OVRPlugin::BoundaryType boundaryType) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::TestBoundaryPoint");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "TestBoundaryPoint", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(point), ::il2cpp_utils::ExtractType(boundaryType)})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::BoundaryTestResult, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, point, boundaryType);
-}
-// Autogenerated method: OVRPlugin.GetBoundaryGeometry
-GlobalNamespace::OVRPlugin::BoundaryGeometry GlobalNamespace::OVRPlugin::GetBoundaryGeometry(GlobalNamespace::OVRPlugin::BoundaryType boundaryType) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetBoundaryGeometry");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetBoundaryGeometry", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(boundaryType)})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::BoundaryGeometry, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, boundaryType);
-}
-// Autogenerated method: OVRPlugin.GetBoundaryGeometry2
-bool GlobalNamespace::OVRPlugin::GetBoundaryGeometry2(GlobalNamespace::OVRPlugin::BoundaryType boundaryType, System::IntPtr points, int& pointsCount) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetBoundaryGeometry2");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetBoundaryGeometry2", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(boundaryType), ::il2cpp_utils::ExtractType(points), ::il2cpp_utils::ExtractType(pointsCount)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, boundaryType, points, pointsCount);
-}
-// Autogenerated method: OVRPlugin.GetAppPerfStats
-GlobalNamespace::OVRPlugin::AppPerfStats GlobalNamespace::OVRPlugin::GetAppPerfStats() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetAppPerfStats");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetAppPerfStats", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::AppPerfStats, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.ResetAppPerfStats
-bool GlobalNamespace::OVRPlugin::ResetAppPerfStats() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::ResetAppPerfStats");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "ResetAppPerfStats", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.GetAppFramerate
-float GlobalNamespace::OVRPlugin::GetAppFramerate() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetAppFramerate");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetAppFramerate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<float, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.SetHandNodePoseStateLatency
-bool GlobalNamespace::OVRPlugin::SetHandNodePoseStateLatency(double latencyInSeconds) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::SetHandNodePoseStateLatency");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "SetHandNodePoseStateLatency", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(latencyInSeconds)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, latencyInSeconds);
-}
-// Autogenerated method: OVRPlugin.GetHandNodePoseStateLatency
-double GlobalNamespace::OVRPlugin::GetHandNodePoseStateLatency() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetHandNodePoseStateLatency");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetHandNodePoseStateLatency", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<double, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.GetDesiredEyeTextureFormat
-GlobalNamespace::OVRPlugin::EyeTextureFormat GlobalNamespace::OVRPlugin::GetDesiredEyeTextureFormat() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetDesiredEyeTextureFormat");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetDesiredEyeTextureFormat", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::EyeTextureFormat, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.SetDesiredEyeTextureFormat
-bool GlobalNamespace::OVRPlugin::SetDesiredEyeTextureFormat(GlobalNamespace::OVRPlugin::EyeTextureFormat value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::SetDesiredEyeTextureFormat");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "SetDesiredEyeTextureFormat", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value);
-}
-// Autogenerated method: OVRPlugin.InitializeMixedReality
-bool GlobalNamespace::OVRPlugin::InitializeMixedReality() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::InitializeMixedReality");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "InitializeMixedReality", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.ShutdownMixedReality
-bool GlobalNamespace::OVRPlugin::ShutdownMixedReality() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::ShutdownMixedReality");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "ShutdownMixedReality", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.IsMixedRealityInitialized
-bool GlobalNamespace::OVRPlugin::IsMixedRealityInitialized() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::IsMixedRealityInitialized");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "IsMixedRealityInitialized", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.GetExternalCameraCount
-int GlobalNamespace::OVRPlugin::GetExternalCameraCount() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetExternalCameraCount");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetExternalCameraCount", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.UpdateExternalCamera
-bool GlobalNamespace::OVRPlugin::UpdateExternalCamera() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::UpdateExternalCamera");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "UpdateExternalCamera", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.GetMixedRealityCameraInfo
-bool GlobalNamespace::OVRPlugin::GetMixedRealityCameraInfo(int cameraId, GlobalNamespace::OVRPlugin::CameraExtrinsics& cameraExtrinsics, GlobalNamespace::OVRPlugin::CameraIntrinsics& cameraIntrinsics) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetMixedRealityCameraInfo");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetMixedRealityCameraInfo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(cameraId), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::CameraExtrinsics&>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::CameraIntrinsics&>()})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, cameraId, cameraExtrinsics, cameraIntrinsics);
-}
-// Autogenerated method: OVRPlugin.OverrideExternalCameraFov
-bool GlobalNamespace::OVRPlugin::OverrideExternalCameraFov(int cameraId, bool useOverriddenFov, GlobalNamespace::OVRPlugin::Fovf fov) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OverrideExternalCameraFov");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "OverrideExternalCameraFov", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(cameraId), ::il2cpp_utils::ExtractType(useOverriddenFov), ::il2cpp_utils::ExtractType(fov)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, cameraId, useOverriddenFov, fov);
-}
-// Autogenerated method: OVRPlugin.GetUseOverriddenExternalCameraFov
-bool GlobalNamespace::OVRPlugin::GetUseOverriddenExternalCameraFov(int cameraId) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetUseOverriddenExternalCameraFov");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetUseOverriddenExternalCameraFov", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(cameraId)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, cameraId);
-}
-// Autogenerated method: OVRPlugin.OverrideExternalCameraStaticPose
-bool GlobalNamespace::OVRPlugin::OverrideExternalCameraStaticPose(int cameraId, bool useOverriddenPose, GlobalNamespace::OVRPlugin::Posef poseInStageOrigin) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OverrideExternalCameraStaticPose");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "OverrideExternalCameraStaticPose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(cameraId), ::il2cpp_utils::ExtractType(useOverriddenPose), ::il2cpp_utils::ExtractType(poseInStageOrigin)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, cameraId, useOverriddenPose, poseInStageOrigin);
-}
-// Autogenerated method: OVRPlugin.GetUseOverriddenExternalCameraStaticPose
-bool GlobalNamespace::OVRPlugin::GetUseOverriddenExternalCameraStaticPose(int cameraId) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetUseOverriddenExternalCameraStaticPose");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetUseOverriddenExternalCameraStaticPose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(cameraId)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, cameraId);
-}
-// Autogenerated method: OVRPlugin.ResetDefaultExternalCamera
-bool GlobalNamespace::OVRPlugin::ResetDefaultExternalCamera() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::ResetDefaultExternalCamera");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "ResetDefaultExternalCamera", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.SetDefaultExternalCamera
-bool GlobalNamespace::OVRPlugin::SetDefaultExternalCamera(::Il2CppString* cameraName, GlobalNamespace::OVRPlugin::CameraIntrinsics& cameraIntrinsics, GlobalNamespace::OVRPlugin::CameraExtrinsics& cameraExtrinsics) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::SetDefaultExternalCamera");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "SetDefaultExternalCamera", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(cameraName), ::il2cpp_utils::ExtractType(cameraIntrinsics), ::il2cpp_utils::ExtractType(cameraExtrinsics)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, cameraName, cameraIntrinsics, cameraExtrinsics);
-}
-// Autogenerated method: OVRPlugin.SetExternalCameraProperties
-bool GlobalNamespace::OVRPlugin::SetExternalCameraProperties(::Il2CppString* cameraName, GlobalNamespace::OVRPlugin::CameraIntrinsics& cameraIntrinsics, GlobalNamespace::OVRPlugin::CameraExtrinsics& cameraExtrinsics) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::SetExternalCameraProperties");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "SetExternalCameraProperties", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(cameraName), ::il2cpp_utils::ExtractType(cameraIntrinsics), ::il2cpp_utils::ExtractType(cameraExtrinsics)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, cameraName, cameraIntrinsics, cameraExtrinsics);
-}
-// Autogenerated method: OVRPlugin.GetBoundaryDimensions
-GlobalNamespace::OVRPlugin::Vector3f GlobalNamespace::OVRPlugin::GetBoundaryDimensions(GlobalNamespace::OVRPlugin::BoundaryType boundaryType) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetBoundaryDimensions");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetBoundaryDimensions", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(boundaryType)})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Vector3f, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, boundaryType);
-}
-// Autogenerated method: OVRPlugin.GetBoundaryVisible
-bool GlobalNamespace::OVRPlugin::GetBoundaryVisible() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetBoundaryVisible");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetBoundaryVisible", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.SetBoundaryVisible
-bool GlobalNamespace::OVRPlugin::SetBoundaryVisible(bool value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::SetBoundaryVisible");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "SetBoundaryVisible", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value);
-}
-// Autogenerated method: OVRPlugin.GetSystemHeadsetType
-GlobalNamespace::OVRPlugin::SystemHeadset GlobalNamespace::OVRPlugin::GetSystemHeadsetType() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetSystemHeadsetType");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetSystemHeadsetType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::SystemHeadset, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.GetActiveController
-GlobalNamespace::OVRPlugin::Controller GlobalNamespace::OVRPlugin::GetActiveController() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetActiveController");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetActiveController", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Controller, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.GetConnectedControllers
-GlobalNamespace::OVRPlugin::Controller GlobalNamespace::OVRPlugin::GetConnectedControllers() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetConnectedControllers");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetConnectedControllers", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Controller, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.ToBool
-GlobalNamespace::OVRPlugin::Bool GlobalNamespace::OVRPlugin::ToBool(bool b) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::ToBool");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "ToBool", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(b)})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, b);
-}
-// Autogenerated method: OVRPlugin.GetTrackingOriginType
-GlobalNamespace::OVRPlugin::TrackingOrigin GlobalNamespace::OVRPlugin::GetTrackingOriginType() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetTrackingOriginType");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetTrackingOriginType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::TrackingOrigin, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.SetTrackingOriginType
-bool GlobalNamespace::OVRPlugin::SetTrackingOriginType(GlobalNamespace::OVRPlugin::TrackingOrigin originType) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::SetTrackingOriginType");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "SetTrackingOriginType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(originType)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, originType);
-}
-// Autogenerated method: OVRPlugin.GetTrackingCalibratedOrigin
-GlobalNamespace::OVRPlugin::Posef GlobalNamespace::OVRPlugin::GetTrackingCalibratedOrigin() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetTrackingCalibratedOrigin");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetTrackingCalibratedOrigin", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Posef, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.SetTrackingCalibratedOrigin
-bool GlobalNamespace::OVRPlugin::SetTrackingCalibratedOrigin() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::SetTrackingCalibratedOrigin");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "SetTrackingCalibratedOrigin", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.RecenterTrackingOrigin
-bool GlobalNamespace::OVRPlugin::RecenterTrackingOrigin(GlobalNamespace::OVRPlugin::RecenterFlags flags) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::RecenterTrackingOrigin");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "RecenterTrackingOrigin", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(flags)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, flags);
-}
-// Autogenerated method: OVRPlugin.get_fixedFoveatedRenderingSupported
-bool GlobalNamespace::OVRPlugin::get_fixedFoveatedRenderingSupported() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_fixedFoveatedRenderingSupported");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_fixedFoveatedRenderingSupported", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.get_fixedFoveatedRenderingLevel
-GlobalNamespace::OVRPlugin::FixedFoveatedRenderingLevel GlobalNamespace::OVRPlugin::get_fixedFoveatedRenderingLevel() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_fixedFoveatedRenderingLevel");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_fixedFoveatedRenderingLevel", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::FixedFoveatedRenderingLevel, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.set_fixedFoveatedRenderingLevel
-void GlobalNamespace::OVRPlugin::set_fixedFoveatedRenderingLevel(GlobalNamespace::OVRPlugin::FixedFoveatedRenderingLevel value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::set_fixedFoveatedRenderingLevel");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "set_fixedFoveatedRenderingLevel", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value);
-}
-// Autogenerated method: OVRPlugin.get_useDynamicFixedFoveatedRendering
-bool GlobalNamespace::OVRPlugin::get_useDynamicFixedFoveatedRendering() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_useDynamicFixedFoveatedRendering");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_useDynamicFixedFoveatedRendering", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.set_useDynamicFixedFoveatedRendering
-void GlobalNamespace::OVRPlugin::set_useDynamicFixedFoveatedRendering(bool value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::set_useDynamicFixedFoveatedRendering");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "set_useDynamicFixedFoveatedRendering", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value);
-}
-// Autogenerated method: OVRPlugin.get_tiledMultiResSupported
-bool GlobalNamespace::OVRPlugin::get_tiledMultiResSupported() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_tiledMultiResSupported");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_tiledMultiResSupported", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.get_tiledMultiResLevel
-GlobalNamespace::OVRPlugin::TiledMultiResLevel GlobalNamespace::OVRPlugin::get_tiledMultiResLevel() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_tiledMultiResLevel");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_tiledMultiResLevel", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::TiledMultiResLevel, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.set_tiledMultiResLevel
-void GlobalNamespace::OVRPlugin::set_tiledMultiResLevel(GlobalNamespace::OVRPlugin::TiledMultiResLevel value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::set_tiledMultiResLevel");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "set_tiledMultiResLevel", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value);
-}
-// Autogenerated method: OVRPlugin.get_gpuUtilSupported
-bool GlobalNamespace::OVRPlugin::get_gpuUtilSupported() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_gpuUtilSupported");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_gpuUtilSupported", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.get_gpuUtilLevel
-float GlobalNamespace::OVRPlugin::get_gpuUtilLevel() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_gpuUtilLevel");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_gpuUtilLevel", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<float, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.get_systemDisplayFrequenciesAvailable
-::Array<float>* GlobalNamespace::OVRPlugin::get_systemDisplayFrequenciesAvailable() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_systemDisplayFrequenciesAvailable");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_systemDisplayFrequenciesAvailable", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<::Array<float>*, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.get_systemDisplayFrequency
-float GlobalNamespace::OVRPlugin::get_systemDisplayFrequency() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_systemDisplayFrequency");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_systemDisplayFrequency", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<float, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.set_systemDisplayFrequency
-void GlobalNamespace::OVRPlugin::set_systemDisplayFrequency(float value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::set_systemDisplayFrequency");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "set_systemDisplayFrequency", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value);
-}
-// Autogenerated method: OVRPlugin.get_eyeFovPremultipliedAlphaModeEnabled
-bool GlobalNamespace::OVRPlugin::get_eyeFovPremultipliedAlphaModeEnabled() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_eyeFovPremultipliedAlphaModeEnabled");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_eyeFovPremultipliedAlphaModeEnabled", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.set_eyeFovPremultipliedAlphaModeEnabled
-void GlobalNamespace::OVRPlugin::set_eyeFovPremultipliedAlphaModeEnabled(bool value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::set_eyeFovPremultipliedAlphaModeEnabled");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "set_eyeFovPremultipliedAlphaModeEnabled", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
-  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value);
-}
-// Autogenerated method: OVRPlugin.GetNodeFrustum2
-bool GlobalNamespace::OVRPlugin::GetNodeFrustum2(GlobalNamespace::OVRPlugin::Node nodeId, GlobalNamespace::OVRPlugin::Frustumf2& frustum) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetNodeFrustum2");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetNodeFrustum2", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(nodeId), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Frustumf2&>()})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, nodeId, frustum);
-}
-// Autogenerated method: OVRPlugin.get_AsymmetricFovEnabled
-bool GlobalNamespace::OVRPlugin::get_AsymmetricFovEnabled() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_AsymmetricFovEnabled");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_AsymmetricFovEnabled", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.get_EyeTextureArrayEnabled
-bool GlobalNamespace::OVRPlugin::get_EyeTextureArrayEnabled() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::get_EyeTextureArrayEnabled");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "get_EyeTextureArrayEnabled", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.GetDominantHand
-GlobalNamespace::OVRPlugin::Handedness GlobalNamespace::OVRPlugin::GetDominantHand() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetDominantHand");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetDominantHand", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Handedness, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.SendEvent
-bool GlobalNamespace::OVRPlugin::SendEvent(::Il2CppString* name, ::Il2CppString* param, ::Il2CppString* source) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::SendEvent");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "SendEvent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(name), ::il2cpp_utils::ExtractType(param), ::il2cpp_utils::ExtractType(source)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, name, param, source);
-}
-// Autogenerated method: OVRPlugin.SetHeadPoseModifier
-bool GlobalNamespace::OVRPlugin::SetHeadPoseModifier(GlobalNamespace::OVRPlugin::Quatf& relativeRotation, GlobalNamespace::OVRPlugin::Vector3f& relativeTranslation) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::SetHeadPoseModifier");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "SetHeadPoseModifier", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(relativeRotation), ::il2cpp_utils::ExtractType(relativeTranslation)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, relativeRotation, relativeTranslation);
-}
-// Autogenerated method: OVRPlugin.GetHeadPoseModifier
-bool GlobalNamespace::OVRPlugin::GetHeadPoseModifier(GlobalNamespace::OVRPlugin::Quatf& relativeRotation, GlobalNamespace::OVRPlugin::Vector3f& relativeTranslation) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetHeadPoseModifier");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetHeadPoseModifier", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Quatf&>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Vector3f&>()})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, relativeRotation, relativeTranslation);
-}
-// Autogenerated method: OVRPlugin.IsPerfMetricsSupported
-bool GlobalNamespace::OVRPlugin::IsPerfMetricsSupported(GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::IsPerfMetricsSupported");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "IsPerfMetricsSupported", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(perfMetrics)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, perfMetrics);
-}
-// Autogenerated method: OVRPlugin.GetPerfMetricsFloat
-System::Nullable_1<float> GlobalNamespace::OVRPlugin::GetPerfMetricsFloat(GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetPerfMetricsFloat");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetPerfMetricsFloat", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(perfMetrics)})));
-  return ::il2cpp_utils::RunMethodThrow<System::Nullable_1<float>, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, perfMetrics);
-}
-// Autogenerated method: OVRPlugin.GetPerfMetricsInt
-System::Nullable_1<int> GlobalNamespace::OVRPlugin::GetPerfMetricsInt(GlobalNamespace::OVRPlugin::PerfMetrics perfMetrics) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetPerfMetricsInt");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetPerfMetricsInt", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(perfMetrics)})));
-  return ::il2cpp_utils::RunMethodThrow<System::Nullable_1<int>, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, perfMetrics);
-}
-// Autogenerated method: OVRPlugin.GetTimeInSeconds
-double GlobalNamespace::OVRPlugin::GetTimeInSeconds() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetTimeInSeconds");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetTimeInSeconds", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<double, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.SetColorScaleAndOffset
-bool GlobalNamespace::OVRPlugin::SetColorScaleAndOffset(UnityEngine::Vector4 colorScale, UnityEngine::Vector4 colorOffset, bool applyToAllLayers) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::SetColorScaleAndOffset");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "SetColorScaleAndOffset", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(colorScale), ::il2cpp_utils::ExtractType(colorOffset), ::il2cpp_utils::ExtractType(applyToAllLayers)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, colorScale, colorOffset, applyToAllLayers);
-}
-// Autogenerated method: OVRPlugin.AddCustomMetadata
-bool GlobalNamespace::OVRPlugin::AddCustomMetadata(::Il2CppString* name, ::Il2CppString* param) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::AddCustomMetadata");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "AddCustomMetadata", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(name), ::il2cpp_utils::ExtractType(param)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, name, param);
-}
-// Autogenerated method: OVRPlugin.SetDeveloperMode
-bool GlobalNamespace::OVRPlugin::SetDeveloperMode(GlobalNamespace::OVRPlugin::Bool active) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::SetDeveloperMode");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "SetDeveloperMode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(active)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, active);
-}
-// Autogenerated method: OVRPlugin.GetAdaptiveGPUPerformanceScale
-float GlobalNamespace::OVRPlugin::GetAdaptiveGPUPerformanceScale() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetAdaptiveGPUPerformanceScale");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetAdaptiveGPUPerformanceScale", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<float, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.GetHandTrackingEnabled
-bool GlobalNamespace::OVRPlugin::GetHandTrackingEnabled() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetHandTrackingEnabled");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetHandTrackingEnabled", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.GetHandState
-bool GlobalNamespace::OVRPlugin::GetHandState(GlobalNamespace::OVRPlugin::Step stepId, GlobalNamespace::OVRPlugin::Hand hand, GlobalNamespace::OVRPlugin::HandState& handState) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetHandState");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetHandState", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stepId), ::il2cpp_utils::ExtractType(hand), ::il2cpp_utils::ExtractType(handState)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, stepId, hand, handState);
-}
-// Autogenerated method: OVRPlugin.GetSkeleton
-bool GlobalNamespace::OVRPlugin::GetSkeleton(GlobalNamespace::OVRPlugin::SkeletonType skeletonType, GlobalNamespace::OVRPlugin::Skeleton& skeleton) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetSkeleton");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetSkeleton", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(skeletonType), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Skeleton&>()})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, skeletonType, skeleton);
-}
-// Autogenerated method: OVRPlugin.GetSkeleton2
-bool GlobalNamespace::OVRPlugin::GetSkeleton2(GlobalNamespace::OVRPlugin::SkeletonType skeletonType, GlobalNamespace::OVRPlugin::Skeleton2& skeleton) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetSkeleton2");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetSkeleton2", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(skeletonType), ::il2cpp_utils::ExtractType(skeleton)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, skeletonType, skeleton);
-}
-// Autogenerated method: OVRPlugin.GetMesh
-bool GlobalNamespace::OVRPlugin::GetMesh(GlobalNamespace::OVRPlugin::MeshType meshType, GlobalNamespace::OVRPlugin::Mesh*& mesh) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetMesh");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetMesh", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(meshType), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Mesh*&>()})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, meshType, mesh);
-}
-// Autogenerated method: OVRPlugin.GetLocalTrackingSpaceRecenterCount
-int GlobalNamespace::OVRPlugin::GetLocalTrackingSpaceRecenterCount() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetLocalTrackingSpaceRecenterCount");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetLocalTrackingSpaceRecenterCount", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.GetSystemHmd3DofModeEnabled
-bool GlobalNamespace::OVRPlugin::GetSystemHmd3DofModeEnabled() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetSystemHmd3DofModeEnabled");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetSystemHmd3DofModeEnabled", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.SetClientColorDesc
-bool GlobalNamespace::OVRPlugin::SetClientColorDesc(GlobalNamespace::OVRPlugin::ColorSpace colorSpace) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::SetClientColorDesc");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "SetClientColorDesc", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(colorSpace)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, colorSpace);
-}
-// Autogenerated method: OVRPlugin.GetHmdColorDesc
-GlobalNamespace::OVRPlugin::ColorSpace GlobalNamespace::OVRPlugin::GetHmdColorDesc() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetHmdColorDesc");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetHmdColorDesc", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::ColorSpace, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.PollEvent
-bool GlobalNamespace::OVRPlugin::PollEvent(GlobalNamespace::OVRPlugin::EventDataBuffer& eventDataBuffer) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::PollEvent");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "PollEvent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(eventDataBuffer)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, eventDataBuffer);
-}
-// Autogenerated method: OVRPlugin.GetNativeOpenXRInstance
-uint64_t GlobalNamespace::OVRPlugin::GetNativeOpenXRInstance() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetNativeOpenXRInstance");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetNativeOpenXRInstance", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<uint64_t, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.GetNativeOpenXRSession
-uint64_t GlobalNamespace::OVRPlugin::GetNativeOpenXRSession() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::GetNativeOpenXRSession");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "GetNativeOpenXRSession", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<uint64_t, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin.SetKeyboardOverlayUV
-bool GlobalNamespace::OVRPlugin::SetKeyboardOverlayUV(GlobalNamespace::OVRPlugin::Vector2f uv) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::SetKeyboardOverlayUV");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", "SetKeyboardOverlayUV", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(uv)})));
-  return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, uv);
-}
-// Autogenerated method: OVRPlugin..cctor
-void GlobalNamespace::OVRPlugin::_cctor() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::.cctor");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated from CppSourceCreator
-// Created by Sc2ad
-// =========================================================================
-// Begin includes
-// Including type: OVRPlugin/GUID
-#include "GlobalNamespace/OVRPlugin_GUID.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-// Completed includes
-// Autogenerated from CppSourceCreator
-// Created by Sc2ad
-// =========================================================================
-// Begin includes
-// Including type: OVRPlugin/Bool
-#include "GlobalNamespace/OVRPlugin_Bool.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-// Completed includes
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Bool False
-GlobalNamespace::OVRPlugin::Bool GlobalNamespace::OVRPlugin::Bool::_get_False() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Bool::_get_False");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Bool>("", "OVRPlugin/Bool", "False"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Bool False
-void GlobalNamespace::OVRPlugin::Bool::_set_False(GlobalNamespace::OVRPlugin::Bool value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Bool::_set_False");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Bool", "False", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Bool True
-GlobalNamespace::OVRPlugin::Bool GlobalNamespace::OVRPlugin::Bool::_get_True() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Bool::_get_True");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Bool>("", "OVRPlugin/Bool", "True"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Bool True
-void GlobalNamespace::OVRPlugin::Bool::_set_True(GlobalNamespace::OVRPlugin::Bool value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Bool::_set_True");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Bool", "True", value));
-}
-// Autogenerated from CppSourceCreator
-// Created by Sc2ad
-// =========================================================================
-// Begin includes
-// Including type: OVRPlugin/Result
-#include "GlobalNamespace/OVRPlugin_Result.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-// Completed includes
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Result Success
-GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::Result::_get_Success() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Result::_get_Success");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Result>("", "OVRPlugin/Result", "Success"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Result Success
-void GlobalNamespace::OVRPlugin::Result::_set_Success(GlobalNamespace::OVRPlugin::Result value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Result::_set_Success");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Result", "Success", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Result Failure
-GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::Result::_get_Failure() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Result::_get_Failure");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Result>("", "OVRPlugin/Result", "Failure"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Result Failure
-void GlobalNamespace::OVRPlugin::Result::_set_Failure(GlobalNamespace::OVRPlugin::Result value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Result::_set_Failure");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Result", "Failure", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Result Failure_InvalidParameter
-GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::Result::_get_Failure_InvalidParameter() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Result::_get_Failure_InvalidParameter");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Result>("", "OVRPlugin/Result", "Failure_InvalidParameter"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Result Failure_InvalidParameter
-void GlobalNamespace::OVRPlugin::Result::_set_Failure_InvalidParameter(GlobalNamespace::OVRPlugin::Result value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Result::_set_Failure_InvalidParameter");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Result", "Failure_InvalidParameter", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Result Failure_NotInitialized
-GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::Result::_get_Failure_NotInitialized() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Result::_get_Failure_NotInitialized");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Result>("", "OVRPlugin/Result", "Failure_NotInitialized"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Result Failure_NotInitialized
-void GlobalNamespace::OVRPlugin::Result::_set_Failure_NotInitialized(GlobalNamespace::OVRPlugin::Result value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Result::_set_Failure_NotInitialized");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Result", "Failure_NotInitialized", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Result Failure_InvalidOperation
-GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::Result::_get_Failure_InvalidOperation() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Result::_get_Failure_InvalidOperation");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Result>("", "OVRPlugin/Result", "Failure_InvalidOperation"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Result Failure_InvalidOperation
-void GlobalNamespace::OVRPlugin::Result::_set_Failure_InvalidOperation(GlobalNamespace::OVRPlugin::Result value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Result::_set_Failure_InvalidOperation");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Result", "Failure_InvalidOperation", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Result Failure_Unsupported
-GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::Result::_get_Failure_Unsupported() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Result::_get_Failure_Unsupported");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Result>("", "OVRPlugin/Result", "Failure_Unsupported"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Result Failure_Unsupported
-void GlobalNamespace::OVRPlugin::Result::_set_Failure_Unsupported(GlobalNamespace::OVRPlugin::Result value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Result::_set_Failure_Unsupported");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Result", "Failure_Unsupported", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Result Failure_NotYetImplemented
-GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::Result::_get_Failure_NotYetImplemented() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Result::_get_Failure_NotYetImplemented");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Result>("", "OVRPlugin/Result", "Failure_NotYetImplemented"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Result Failure_NotYetImplemented
-void GlobalNamespace::OVRPlugin::Result::_set_Failure_NotYetImplemented(GlobalNamespace::OVRPlugin::Result value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Result::_set_Failure_NotYetImplemented");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Result", "Failure_NotYetImplemented", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Result Failure_OperationFailed
-GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::Result::_get_Failure_OperationFailed() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Result::_get_Failure_OperationFailed");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Result>("", "OVRPlugin/Result", "Failure_OperationFailed"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Result Failure_OperationFailed
-void GlobalNamespace::OVRPlugin::Result::_set_Failure_OperationFailed(GlobalNamespace::OVRPlugin::Result value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Result::_set_Failure_OperationFailed");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Result", "Failure_OperationFailed", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Result Failure_InsufficientSize
-GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::Result::_get_Failure_InsufficientSize() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Result::_get_Failure_InsufficientSize");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Result>("", "OVRPlugin/Result", "Failure_InsufficientSize"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Result Failure_InsufficientSize
-void GlobalNamespace::OVRPlugin::Result::_set_Failure_InsufficientSize(GlobalNamespace::OVRPlugin::Result value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Result::_set_Failure_InsufficientSize");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Result", "Failure_InsufficientSize", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Result Failure_DataIsInvalid
-GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::Result::_get_Failure_DataIsInvalid() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Result::_get_Failure_DataIsInvalid");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Result>("", "OVRPlugin/Result", "Failure_DataIsInvalid"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Result Failure_DataIsInvalid
-void GlobalNamespace::OVRPlugin::Result::_set_Failure_DataIsInvalid(GlobalNamespace::OVRPlugin::Result value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Result::_set_Failure_DataIsInvalid");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Result", "Failure_DataIsInvalid", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Result Failure_DeprecatedOperation
-GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::Result::_get_Failure_DeprecatedOperation() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Result::_get_Failure_DeprecatedOperation");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Result>("", "OVRPlugin/Result", "Failure_DeprecatedOperation"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Result Failure_DeprecatedOperation
-void GlobalNamespace::OVRPlugin::Result::_set_Failure_DeprecatedOperation(GlobalNamespace::OVRPlugin::Result value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Result::_set_Failure_DeprecatedOperation");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Result", "Failure_DeprecatedOperation", value));
-}
-// Autogenerated from CppSourceCreator
-// Created by Sc2ad
-// =========================================================================
-// Begin includes
-// Including type: OVRPlugin/CameraStatus
-#include "GlobalNamespace/OVRPlugin_CameraStatus.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-// Completed includes
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/CameraStatus CameraStatus_None
-GlobalNamespace::OVRPlugin::CameraStatus GlobalNamespace::OVRPlugin::CameraStatus::_get_CameraStatus_None() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::CameraStatus::_get_CameraStatus_None");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::CameraStatus>("", "OVRPlugin/CameraStatus", "CameraStatus_None"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/CameraStatus CameraStatus_None
-void GlobalNamespace::OVRPlugin::CameraStatus::_set_CameraStatus_None(GlobalNamespace::OVRPlugin::CameraStatus value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::CameraStatus::_set_CameraStatus_None");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/CameraStatus", "CameraStatus_None", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/CameraStatus CameraStatus_Connected
-GlobalNamespace::OVRPlugin::CameraStatus GlobalNamespace::OVRPlugin::CameraStatus::_get_CameraStatus_Connected() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::CameraStatus::_get_CameraStatus_Connected");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::CameraStatus>("", "OVRPlugin/CameraStatus", "CameraStatus_Connected"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/CameraStatus CameraStatus_Connected
-void GlobalNamespace::OVRPlugin::CameraStatus::_set_CameraStatus_Connected(GlobalNamespace::OVRPlugin::CameraStatus value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::CameraStatus::_set_CameraStatus_Connected");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/CameraStatus", "CameraStatus_Connected", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/CameraStatus CameraStatus_Calibrating
-GlobalNamespace::OVRPlugin::CameraStatus GlobalNamespace::OVRPlugin::CameraStatus::_get_CameraStatus_Calibrating() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::CameraStatus::_get_CameraStatus_Calibrating");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::CameraStatus>("", "OVRPlugin/CameraStatus", "CameraStatus_Calibrating"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/CameraStatus CameraStatus_Calibrating
-void GlobalNamespace::OVRPlugin::CameraStatus::_set_CameraStatus_Calibrating(GlobalNamespace::OVRPlugin::CameraStatus value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::CameraStatus::_set_CameraStatus_Calibrating");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/CameraStatus", "CameraStatus_Calibrating", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/CameraStatus CameraStatus_CalibrationFailed
-GlobalNamespace::OVRPlugin::CameraStatus GlobalNamespace::OVRPlugin::CameraStatus::_get_CameraStatus_CalibrationFailed() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::CameraStatus::_get_CameraStatus_CalibrationFailed");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::CameraStatus>("", "OVRPlugin/CameraStatus", "CameraStatus_CalibrationFailed"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/CameraStatus CameraStatus_CalibrationFailed
-void GlobalNamespace::OVRPlugin::CameraStatus::_set_CameraStatus_CalibrationFailed(GlobalNamespace::OVRPlugin::CameraStatus value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::CameraStatus::_set_CameraStatus_CalibrationFailed");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/CameraStatus", "CameraStatus_CalibrationFailed", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/CameraStatus CameraStatus_Calibrated
-GlobalNamespace::OVRPlugin::CameraStatus GlobalNamespace::OVRPlugin::CameraStatus::_get_CameraStatus_Calibrated() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::CameraStatus::_get_CameraStatus_Calibrated");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::CameraStatus>("", "OVRPlugin/CameraStatus", "CameraStatus_Calibrated"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/CameraStatus CameraStatus_Calibrated
-void GlobalNamespace::OVRPlugin::CameraStatus::_set_CameraStatus_Calibrated(GlobalNamespace::OVRPlugin::CameraStatus value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::CameraStatus::_set_CameraStatus_Calibrated");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/CameraStatus", "CameraStatus_Calibrated", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/CameraStatus CameraStatus_ThirdPerson
-GlobalNamespace::OVRPlugin::CameraStatus GlobalNamespace::OVRPlugin::CameraStatus::_get_CameraStatus_ThirdPerson() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::CameraStatus::_get_CameraStatus_ThirdPerson");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::CameraStatus>("", "OVRPlugin/CameraStatus", "CameraStatus_ThirdPerson"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/CameraStatus CameraStatus_ThirdPerson
-void GlobalNamespace::OVRPlugin::CameraStatus::_set_CameraStatus_ThirdPerson(GlobalNamespace::OVRPlugin::CameraStatus value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::CameraStatus::_set_CameraStatus_ThirdPerson");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/CameraStatus", "CameraStatus_ThirdPerson", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/CameraStatus CameraStatus_EnumSize
-GlobalNamespace::OVRPlugin::CameraStatus GlobalNamespace::OVRPlugin::CameraStatus::_get_CameraStatus_EnumSize() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::CameraStatus::_get_CameraStatus_EnumSize");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::CameraStatus>("", "OVRPlugin/CameraStatus", "CameraStatus_EnumSize"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/CameraStatus CameraStatus_EnumSize
-void GlobalNamespace::OVRPlugin::CameraStatus::_set_CameraStatus_EnumSize(GlobalNamespace::OVRPlugin::CameraStatus value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::CameraStatus::_set_CameraStatus_EnumSize");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/CameraStatus", "CameraStatus_EnumSize", value));
-}
-// Autogenerated from CppSourceCreator
-// Created by Sc2ad
-// =========================================================================
-// Begin includes
-// Including type: OVRPlugin/CameraAnchorType
-#include "GlobalNamespace/OVRPlugin_CameraAnchorType.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-// Completed includes
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/CameraAnchorType CameraAnchorType_PreDefined
-GlobalNamespace::OVRPlugin::CameraAnchorType GlobalNamespace::OVRPlugin::CameraAnchorType::_get_CameraAnchorType_PreDefined() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::CameraAnchorType::_get_CameraAnchorType_PreDefined");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::CameraAnchorType>("", "OVRPlugin/CameraAnchorType", "CameraAnchorType_PreDefined"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/CameraAnchorType CameraAnchorType_PreDefined
-void GlobalNamespace::OVRPlugin::CameraAnchorType::_set_CameraAnchorType_PreDefined(GlobalNamespace::OVRPlugin::CameraAnchorType value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::CameraAnchorType::_set_CameraAnchorType_PreDefined");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/CameraAnchorType", "CameraAnchorType_PreDefined", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/CameraAnchorType CameraAnchorType_Custom
-GlobalNamespace::OVRPlugin::CameraAnchorType GlobalNamespace::OVRPlugin::CameraAnchorType::_get_CameraAnchorType_Custom() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::CameraAnchorType::_get_CameraAnchorType_Custom");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::CameraAnchorType>("", "OVRPlugin/CameraAnchorType", "CameraAnchorType_Custom"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/CameraAnchorType CameraAnchorType_Custom
-void GlobalNamespace::OVRPlugin::CameraAnchorType::_set_CameraAnchorType_Custom(GlobalNamespace::OVRPlugin::CameraAnchorType value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::CameraAnchorType::_set_CameraAnchorType_Custom");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/CameraAnchorType", "CameraAnchorType_Custom", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/CameraAnchorType CameraAnchorType_Count
-GlobalNamespace::OVRPlugin::CameraAnchorType GlobalNamespace::OVRPlugin::CameraAnchorType::_get_CameraAnchorType_Count() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::CameraAnchorType::_get_CameraAnchorType_Count");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::CameraAnchorType>("", "OVRPlugin/CameraAnchorType", "CameraAnchorType_Count"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/CameraAnchorType CameraAnchorType_Count
-void GlobalNamespace::OVRPlugin::CameraAnchorType::_set_CameraAnchorType_Count(GlobalNamespace::OVRPlugin::CameraAnchorType value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::CameraAnchorType::_set_CameraAnchorType_Count");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/CameraAnchorType", "CameraAnchorType_Count", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/CameraAnchorType CameraAnchorType_EnumSize
-GlobalNamespace::OVRPlugin::CameraAnchorType GlobalNamespace::OVRPlugin::CameraAnchorType::_get_CameraAnchorType_EnumSize() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::CameraAnchorType::_get_CameraAnchorType_EnumSize");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::CameraAnchorType>("", "OVRPlugin/CameraAnchorType", "CameraAnchorType_EnumSize"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/CameraAnchorType CameraAnchorType_EnumSize
-void GlobalNamespace::OVRPlugin::CameraAnchorType::_set_CameraAnchorType_EnumSize(GlobalNamespace::OVRPlugin::CameraAnchorType value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::CameraAnchorType::_set_CameraAnchorType_EnumSize");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/CameraAnchorType", "CameraAnchorType_EnumSize", value));
-}
-// Autogenerated from CppSourceCreator
-// Created by Sc2ad
-// =========================================================================
-// Begin includes
-// Including type: OVRPlugin/XrApi
-#include "GlobalNamespace/OVRPlugin.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-// Completed includes
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/XrApi Unknown
-GlobalNamespace::OVRPlugin::XrApi GlobalNamespace::OVRPlugin::XrApi::_get_Unknown() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::XrApi::_get_Unknown");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::XrApi>("", "OVRPlugin/XrApi", "Unknown"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/XrApi Unknown
-void GlobalNamespace::OVRPlugin::XrApi::_set_Unknown(GlobalNamespace::OVRPlugin::XrApi value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::XrApi::_set_Unknown");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/XrApi", "Unknown", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/XrApi CAPI
-GlobalNamespace::OVRPlugin::XrApi GlobalNamespace::OVRPlugin::XrApi::_get_CAPI() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::XrApi::_get_CAPI");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::XrApi>("", "OVRPlugin/XrApi", "CAPI"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/XrApi CAPI
-void GlobalNamespace::OVRPlugin::XrApi::_set_CAPI(GlobalNamespace::OVRPlugin::XrApi value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::XrApi::_set_CAPI");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/XrApi", "CAPI", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/XrApi VRAPI
-GlobalNamespace::OVRPlugin::XrApi GlobalNamespace::OVRPlugin::XrApi::_get_VRAPI() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::XrApi::_get_VRAPI");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::XrApi>("", "OVRPlugin/XrApi", "VRAPI"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/XrApi VRAPI
-void GlobalNamespace::OVRPlugin::XrApi::_set_VRAPI(GlobalNamespace::OVRPlugin::XrApi value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::XrApi::_set_VRAPI");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/XrApi", "VRAPI", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/XrApi OpenXR
-GlobalNamespace::OVRPlugin::XrApi GlobalNamespace::OVRPlugin::XrApi::_get_OpenXR() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::XrApi::_get_OpenXR");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::XrApi>("", "OVRPlugin/XrApi", "OpenXR"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/XrApi OpenXR
-void GlobalNamespace::OVRPlugin::XrApi::_set_OpenXR(GlobalNamespace::OVRPlugin::XrApi value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::XrApi::_set_OpenXR");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/XrApi", "OpenXR", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/XrApi EnumSize
-GlobalNamespace::OVRPlugin::XrApi GlobalNamespace::OVRPlugin::XrApi::_get_EnumSize() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::XrApi::_get_EnumSize");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::XrApi>("", "OVRPlugin/XrApi", "EnumSize"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/XrApi EnumSize
-void GlobalNamespace::OVRPlugin::XrApi::_set_EnumSize(GlobalNamespace::OVRPlugin::XrApi value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::XrApi::_set_EnumSize");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/XrApi", "EnumSize", value));
-}
-// Autogenerated from CppSourceCreator
-// Created by Sc2ad
-// =========================================================================
-// Begin includes
-// Including type: OVRPlugin/Eye
-#include "GlobalNamespace/OVRPlugin_Eye.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-// Completed includes
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Eye None
-GlobalNamespace::OVRPlugin::Eye GlobalNamespace::OVRPlugin::Eye::_get_None() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Eye::_get_None");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Eye>("", "OVRPlugin/Eye", "None"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Eye None
-void GlobalNamespace::OVRPlugin::Eye::_set_None(GlobalNamespace::OVRPlugin::Eye value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Eye::_set_None");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Eye", "None", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Eye Left
-GlobalNamespace::OVRPlugin::Eye GlobalNamespace::OVRPlugin::Eye::_get_Left() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Eye::_get_Left");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Eye>("", "OVRPlugin/Eye", "Left"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Eye Left
-void GlobalNamespace::OVRPlugin::Eye::_set_Left(GlobalNamespace::OVRPlugin::Eye value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Eye::_set_Left");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Eye", "Left", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Eye Right
-GlobalNamespace::OVRPlugin::Eye GlobalNamespace::OVRPlugin::Eye::_get_Right() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Eye::_get_Right");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Eye>("", "OVRPlugin/Eye", "Right"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Eye Right
-void GlobalNamespace::OVRPlugin::Eye::_set_Right(GlobalNamespace::OVRPlugin::Eye value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Eye::_set_Right");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Eye", "Right", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Eye Count
-GlobalNamespace::OVRPlugin::Eye GlobalNamespace::OVRPlugin::Eye::_get_Count() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Eye::_get_Count");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Eye>("", "OVRPlugin/Eye", "Count"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Eye Count
-void GlobalNamespace::OVRPlugin::Eye::_set_Count(GlobalNamespace::OVRPlugin::Eye value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Eye::_set_Count");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Eye", "Count", value));
-}
-// Autogenerated from CppSourceCreator
-// Created by Sc2ad
-// =========================================================================
-// Begin includes
-// Including type: OVRPlugin/Tracker
-#include "GlobalNamespace/OVRPlugin_Tracker.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-// Completed includes
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Tracker None
-GlobalNamespace::OVRPlugin::Tracker GlobalNamespace::OVRPlugin::Tracker::_get_None() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Tracker::_get_None");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Tracker>("", "OVRPlugin/Tracker", "None"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Tracker None
-void GlobalNamespace::OVRPlugin::Tracker::_set_None(GlobalNamespace::OVRPlugin::Tracker value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Tracker::_set_None");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Tracker", "None", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Tracker Zero
-GlobalNamespace::OVRPlugin::Tracker GlobalNamespace::OVRPlugin::Tracker::_get_Zero() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Tracker::_get_Zero");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Tracker>("", "OVRPlugin/Tracker", "Zero"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Tracker Zero
-void GlobalNamespace::OVRPlugin::Tracker::_set_Zero(GlobalNamespace::OVRPlugin::Tracker value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Tracker::_set_Zero");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Tracker", "Zero", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Tracker One
-GlobalNamespace::OVRPlugin::Tracker GlobalNamespace::OVRPlugin::Tracker::_get_One() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Tracker::_get_One");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Tracker>("", "OVRPlugin/Tracker", "One"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Tracker One
-void GlobalNamespace::OVRPlugin::Tracker::_set_One(GlobalNamespace::OVRPlugin::Tracker value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Tracker::_set_One");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Tracker", "One", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Tracker Two
-GlobalNamespace::OVRPlugin::Tracker GlobalNamespace::OVRPlugin::Tracker::_get_Two() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Tracker::_get_Two");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Tracker>("", "OVRPlugin/Tracker", "Two"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Tracker Two
-void GlobalNamespace::OVRPlugin::Tracker::_set_Two(GlobalNamespace::OVRPlugin::Tracker value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Tracker::_set_Two");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Tracker", "Two", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Tracker Three
-GlobalNamespace::OVRPlugin::Tracker GlobalNamespace::OVRPlugin::Tracker::_get_Three() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Tracker::_get_Three");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Tracker>("", "OVRPlugin/Tracker", "Three"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Tracker Three
-void GlobalNamespace::OVRPlugin::Tracker::_set_Three(GlobalNamespace::OVRPlugin::Tracker value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Tracker::_set_Three");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Tracker", "Three", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Tracker Count
-GlobalNamespace::OVRPlugin::Tracker GlobalNamespace::OVRPlugin::Tracker::_get_Count() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Tracker::_get_Count");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Tracker>("", "OVRPlugin/Tracker", "Count"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Tracker Count
-void GlobalNamespace::OVRPlugin::Tracker::_set_Count(GlobalNamespace::OVRPlugin::Tracker value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Tracker::_set_Count");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Tracker", "Count", value));
-}
-// Autogenerated from CppSourceCreator
-// Created by Sc2ad
-// =========================================================================
-// Begin includes
-// Including type: OVRPlugin/Node
-#include "GlobalNamespace/OVRPlugin_Node.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-// Completed includes
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Node None
-GlobalNamespace::OVRPlugin::Node GlobalNamespace::OVRPlugin::Node::_get_None() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Node::_get_None");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Node>("", "OVRPlugin/Node", "None"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Node None
-void GlobalNamespace::OVRPlugin::Node::_set_None(GlobalNamespace::OVRPlugin::Node value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Node::_set_None");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Node", "None", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Node EyeLeft
-GlobalNamespace::OVRPlugin::Node GlobalNamespace::OVRPlugin::Node::_get_EyeLeft() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Node::_get_EyeLeft");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Node>("", "OVRPlugin/Node", "EyeLeft"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Node EyeLeft
-void GlobalNamespace::OVRPlugin::Node::_set_EyeLeft(GlobalNamespace::OVRPlugin::Node value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Node::_set_EyeLeft");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Node", "EyeLeft", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Node EyeRight
-GlobalNamespace::OVRPlugin::Node GlobalNamespace::OVRPlugin::Node::_get_EyeRight() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Node::_get_EyeRight");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Node>("", "OVRPlugin/Node", "EyeRight"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Node EyeRight
-void GlobalNamespace::OVRPlugin::Node::_set_EyeRight(GlobalNamespace::OVRPlugin::Node value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Node::_set_EyeRight");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Node", "EyeRight", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Node EyeCenter
-GlobalNamespace::OVRPlugin::Node GlobalNamespace::OVRPlugin::Node::_get_EyeCenter() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Node::_get_EyeCenter");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Node>("", "OVRPlugin/Node", "EyeCenter"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Node EyeCenter
-void GlobalNamespace::OVRPlugin::Node::_set_EyeCenter(GlobalNamespace::OVRPlugin::Node value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Node::_set_EyeCenter");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Node", "EyeCenter", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Node HandLeft
-GlobalNamespace::OVRPlugin::Node GlobalNamespace::OVRPlugin::Node::_get_HandLeft() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Node::_get_HandLeft");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Node>("", "OVRPlugin/Node", "HandLeft"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Node HandLeft
-void GlobalNamespace::OVRPlugin::Node::_set_HandLeft(GlobalNamespace::OVRPlugin::Node value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Node::_set_HandLeft");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Node", "HandLeft", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Node HandRight
-GlobalNamespace::OVRPlugin::Node GlobalNamespace::OVRPlugin::Node::_get_HandRight() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Node::_get_HandRight");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Node>("", "OVRPlugin/Node", "HandRight"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Node HandRight
-void GlobalNamespace::OVRPlugin::Node::_set_HandRight(GlobalNamespace::OVRPlugin::Node value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Node::_set_HandRight");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Node", "HandRight", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Node TrackerZero
-GlobalNamespace::OVRPlugin::Node GlobalNamespace::OVRPlugin::Node::_get_TrackerZero() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Node::_get_TrackerZero");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Node>("", "OVRPlugin/Node", "TrackerZero"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Node TrackerZero
-void GlobalNamespace::OVRPlugin::Node::_set_TrackerZero(GlobalNamespace::OVRPlugin::Node value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Node::_set_TrackerZero");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Node", "TrackerZero", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Node TrackerOne
-GlobalNamespace::OVRPlugin::Node GlobalNamespace::OVRPlugin::Node::_get_TrackerOne() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Node::_get_TrackerOne");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Node>("", "OVRPlugin/Node", "TrackerOne"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Node TrackerOne
-void GlobalNamespace::OVRPlugin::Node::_set_TrackerOne(GlobalNamespace::OVRPlugin::Node value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Node::_set_TrackerOne");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Node", "TrackerOne", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Node TrackerTwo
-GlobalNamespace::OVRPlugin::Node GlobalNamespace::OVRPlugin::Node::_get_TrackerTwo() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Node::_get_TrackerTwo");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Node>("", "OVRPlugin/Node", "TrackerTwo"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Node TrackerTwo
-void GlobalNamespace::OVRPlugin::Node::_set_TrackerTwo(GlobalNamespace::OVRPlugin::Node value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Node::_set_TrackerTwo");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Node", "TrackerTwo", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Node TrackerThree
-GlobalNamespace::OVRPlugin::Node GlobalNamespace::OVRPlugin::Node::_get_TrackerThree() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Node::_get_TrackerThree");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Node>("", "OVRPlugin/Node", "TrackerThree"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Node TrackerThree
-void GlobalNamespace::OVRPlugin::Node::_set_TrackerThree(GlobalNamespace::OVRPlugin::Node value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Node::_set_TrackerThree");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Node", "TrackerThree", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Node Head
-GlobalNamespace::OVRPlugin::Node GlobalNamespace::OVRPlugin::Node::_get_Head() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Node::_get_Head");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Node>("", "OVRPlugin/Node", "Head"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Node Head
-void GlobalNamespace::OVRPlugin::Node::_set_Head(GlobalNamespace::OVRPlugin::Node value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Node::_set_Head");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Node", "Head", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Node DeviceObjectZero
-GlobalNamespace::OVRPlugin::Node GlobalNamespace::OVRPlugin::Node::_get_DeviceObjectZero() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Node::_get_DeviceObjectZero");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Node>("", "OVRPlugin/Node", "DeviceObjectZero"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Node DeviceObjectZero
-void GlobalNamespace::OVRPlugin::Node::_set_DeviceObjectZero(GlobalNamespace::OVRPlugin::Node value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Node::_set_DeviceObjectZero");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Node", "DeviceObjectZero", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Node Count
-GlobalNamespace::OVRPlugin::Node GlobalNamespace::OVRPlugin::Node::_get_Count() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Node::_get_Count");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Node>("", "OVRPlugin/Node", "Count"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Node Count
-void GlobalNamespace::OVRPlugin::Node::_set_Count(GlobalNamespace::OVRPlugin::Node value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Node::_set_Count");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Node", "Count", value));
-}
-// Autogenerated from CppSourceCreator
-// Created by Sc2ad
-// =========================================================================
-// Begin includes
-// Including type: OVRPlugin/Controller
-#include "GlobalNamespace/OVRPlugin_Controller.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-// Completed includes
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Controller None
-GlobalNamespace::OVRPlugin::Controller GlobalNamespace::OVRPlugin::Controller::_get_None() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Controller::_get_None");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Controller>("", "OVRPlugin/Controller", "None"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Controller None
-void GlobalNamespace::OVRPlugin::Controller::_set_None(GlobalNamespace::OVRPlugin::Controller value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Controller::_set_None");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Controller", "None", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Controller LTouch
-GlobalNamespace::OVRPlugin::Controller GlobalNamespace::OVRPlugin::Controller::_get_LTouch() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Controller::_get_LTouch");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Controller>("", "OVRPlugin/Controller", "LTouch"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Controller LTouch
-void GlobalNamespace::OVRPlugin::Controller::_set_LTouch(GlobalNamespace::OVRPlugin::Controller value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Controller::_set_LTouch");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Controller", "LTouch", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Controller RTouch
-GlobalNamespace::OVRPlugin::Controller GlobalNamespace::OVRPlugin::Controller::_get_RTouch() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Controller::_get_RTouch");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Controller>("", "OVRPlugin/Controller", "RTouch"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Controller RTouch
-void GlobalNamespace::OVRPlugin::Controller::_set_RTouch(GlobalNamespace::OVRPlugin::Controller value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Controller::_set_RTouch");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Controller", "RTouch", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Controller Touch
-GlobalNamespace::OVRPlugin::Controller GlobalNamespace::OVRPlugin::Controller::_get_Touch() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Controller::_get_Touch");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Controller>("", "OVRPlugin/Controller", "Touch"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Controller Touch
-void GlobalNamespace::OVRPlugin::Controller::_set_Touch(GlobalNamespace::OVRPlugin::Controller value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Controller::_set_Touch");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Controller", "Touch", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Controller Remote
-GlobalNamespace::OVRPlugin::Controller GlobalNamespace::OVRPlugin::Controller::_get_Remote() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Controller::_get_Remote");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Controller>("", "OVRPlugin/Controller", "Remote"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Controller Remote
-void GlobalNamespace::OVRPlugin::Controller::_set_Remote(GlobalNamespace::OVRPlugin::Controller value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Controller::_set_Remote");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Controller", "Remote", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Controller Gamepad
-GlobalNamespace::OVRPlugin::Controller GlobalNamespace::OVRPlugin::Controller::_get_Gamepad() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Controller::_get_Gamepad");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Controller>("", "OVRPlugin/Controller", "Gamepad"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Controller Gamepad
-void GlobalNamespace::OVRPlugin::Controller::_set_Gamepad(GlobalNamespace::OVRPlugin::Controller value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Controller::_set_Gamepad");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Controller", "Gamepad", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Controller LHand
-GlobalNamespace::OVRPlugin::Controller GlobalNamespace::OVRPlugin::Controller::_get_LHand() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Controller::_get_LHand");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Controller>("", "OVRPlugin/Controller", "LHand"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Controller LHand
-void GlobalNamespace::OVRPlugin::Controller::_set_LHand(GlobalNamespace::OVRPlugin::Controller value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Controller::_set_LHand");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Controller", "LHand", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Controller RHand
-GlobalNamespace::OVRPlugin::Controller GlobalNamespace::OVRPlugin::Controller::_get_RHand() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Controller::_get_RHand");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Controller>("", "OVRPlugin/Controller", "RHand"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Controller RHand
-void GlobalNamespace::OVRPlugin::Controller::_set_RHand(GlobalNamespace::OVRPlugin::Controller value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Controller::_set_RHand");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Controller", "RHand", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Controller Hands
-GlobalNamespace::OVRPlugin::Controller GlobalNamespace::OVRPlugin::Controller::_get_Hands() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Controller::_get_Hands");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Controller>("", "OVRPlugin/Controller", "Hands"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Controller Hands
-void GlobalNamespace::OVRPlugin::Controller::_set_Hands(GlobalNamespace::OVRPlugin::Controller value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Controller::_set_Hands");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Controller", "Hands", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Controller Active
-GlobalNamespace::OVRPlugin::Controller GlobalNamespace::OVRPlugin::Controller::_get_Active() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Controller::_get_Active");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Controller>("", "OVRPlugin/Controller", "Active"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Controller Active
-void GlobalNamespace::OVRPlugin::Controller::_set_Active(GlobalNamespace::OVRPlugin::Controller value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Controller::_set_Active");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Controller", "Active", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Controller All
-GlobalNamespace::OVRPlugin::Controller GlobalNamespace::OVRPlugin::Controller::_get_All() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Controller::_get_All");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Controller>("", "OVRPlugin/Controller", "All"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Controller All
-void GlobalNamespace::OVRPlugin::Controller::_set_All(GlobalNamespace::OVRPlugin::Controller value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Controller::_set_All");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Controller", "All", value));
-}
-// Autogenerated from CppSourceCreator
-// Created by Sc2ad
-// =========================================================================
-// Begin includes
-// Including type: OVRPlugin/Handedness
-#include "GlobalNamespace/OVRPlugin_Handedness.hpp"
-#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
-#include "extern/beatsaber-hook/shared/utils/utils.h"
-// Completed includes
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Handedness Unsupported
-GlobalNamespace::OVRPlugin::Handedness GlobalNamespace::OVRPlugin::Handedness::_get_Unsupported() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Handedness::_get_Unsupported");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Handedness>("", "OVRPlugin/Handedness", "Unsupported"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Handedness Unsupported
-void GlobalNamespace::OVRPlugin::Handedness::_set_Unsupported(GlobalNamespace::OVRPlugin::Handedness value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Handedness::_set_Unsupported");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Handedness", "Unsupported", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Handedness LeftHanded
-GlobalNamespace::OVRPlugin::Handedness GlobalNamespace::OVRPlugin::Handedness::_get_LeftHanded() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Handedness::_get_LeftHanded");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Handedness>("", "OVRPlugin/Handedness", "LeftHanded"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Handedness LeftHanded
-void GlobalNamespace::OVRPlugin::Handedness::_set_LeftHanded(GlobalNamespace::OVRPlugin::Handedness value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Handedness::_set_LeftHanded");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Handedness", "LeftHanded", value));
-}
-// Autogenerated static field getter
-// Get static field: static public OVRPlugin/Handedness RightHanded
-GlobalNamespace::OVRPlugin::Handedness GlobalNamespace::OVRPlugin::Handedness::_get_RightHanded() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Handedness::_get_RightHanded");
-  return THROW_UNLESS(il2cpp_utils::GetFieldValue<GlobalNamespace::OVRPlugin::Handedness>("", "OVRPlugin/Handedness", "RightHanded"));
-}
-// Autogenerated static field setter
-// Set static field: static public OVRPlugin/Handedness RightHanded
-void GlobalNamespace::OVRPlugin::Handedness::_set_RightHanded(GlobalNamespace::OVRPlugin::Handedness value) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Handedness::_set_RightHanded");
-  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Handedness", "RightHanded", value));
-}
-// Autogenerated from CppSourceCreator
-// Created by Sc2ad
-// =========================================================================
-// Begin includes
 // Including type: OVRPlugin/TrackingOrigin
 #include "GlobalNamespace/OVRPlugin_TrackingOrigin.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
@@ -5384,6 +2977,12 @@ void GlobalNamespace::OVRPlugin::Media::_set_cachedTexture(UnityEngine::Texture2
   static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Media::_set_cachedTexture");
   THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/Media", "cachedTexture", value));
 }
+// Autogenerated method: OVRPlugin/Media..cctor
+void GlobalNamespace::OVRPlugin::Media::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Media::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/Media", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
 // Autogenerated method: OVRPlugin/Media.Initialize
 bool GlobalNamespace::OVRPlugin::Media::Initialize() {
   static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Media::Initialize");
@@ -5533,12 +3132,6 @@ bool GlobalNamespace::OVRPlugin::Media::SetMrcHeadsetControllerPose(GlobalNamesp
   static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Media::SetMrcHeadsetControllerPose");
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/Media", "SetMrcHeadsetControllerPose", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(headsetPose), ::il2cpp_utils::ExtractType(leftControllerPose), ::il2cpp_utils::ExtractType(rightControllerPose)})));
   return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, headsetPose, leftControllerPose, rightControllerPose);
-}
-// Autogenerated method: OVRPlugin/Media..cctor
-void GlobalNamespace::OVRPlugin::Media::_cctor() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::Media::.cctor");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/Media", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
@@ -5762,17 +3355,17 @@ void GlobalNamespace::OVRPlugin::OVRP_0_1_0::_set_version(System::Version* value
   static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_0_1_0::_set_version");
   THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/OVRP_0_1_0", "version", value));
 }
-// Autogenerated method: OVRPlugin/OVRP_0_1_0.ovrp_GetEyeTextureSize
-GlobalNamespace::OVRPlugin::Sizei GlobalNamespace::OVRPlugin::OVRP_0_1_0::ovrp_GetEyeTextureSize(GlobalNamespace::OVRPlugin::Eye eyeId) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_0_1_0::ovrp_GetEyeTextureSize");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_0_1_0", "ovrp_GetEyeTextureSize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(eyeId)})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Sizei, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, eyeId);
-}
 // Autogenerated method: OVRPlugin/OVRP_0_1_0..cctor
 void GlobalNamespace::OVRPlugin::OVRP_0_1_0::_cctor() {
   static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_0_1_0::.cctor");
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_0_1_0", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
+// Autogenerated method: OVRPlugin/OVRP_0_1_0.ovrp_GetEyeTextureSize
+GlobalNamespace::OVRPlugin::Sizei GlobalNamespace::OVRPlugin::OVRP_0_1_0::ovrp_GetEyeTextureSize(GlobalNamespace::OVRPlugin::Eye eyeId) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_0_1_0::ovrp_GetEyeTextureSize");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_0_1_0", "ovrp_GetEyeTextureSize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(eyeId)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Sizei, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, eyeId);
 }
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
@@ -5803,17 +3396,17 @@ void GlobalNamespace::OVRPlugin::OVRP_0_1_1::_set_version(System::Version* value
   static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_0_1_1::_set_version");
   THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/OVRP_0_1_1", "version", value));
 }
-// Autogenerated method: OVRPlugin/OVRP_0_1_1.ovrp_SetOverlayQuad2
-GlobalNamespace::OVRPlugin::Bool GlobalNamespace::OVRPlugin::OVRP_0_1_1::ovrp_SetOverlayQuad2(GlobalNamespace::OVRPlugin::Bool onTop, GlobalNamespace::OVRPlugin::Bool headLocked, System::IntPtr texture, System::IntPtr device, GlobalNamespace::OVRPlugin::Posef pose, GlobalNamespace::OVRPlugin::Vector3f scale) {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_0_1_1::ovrp_SetOverlayQuad2");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_0_1_1", "ovrp_SetOverlayQuad2", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(onTop), ::il2cpp_utils::ExtractType(headLocked), ::il2cpp_utils::ExtractType(texture), ::il2cpp_utils::ExtractType(device), ::il2cpp_utils::ExtractType(pose), ::il2cpp_utils::ExtractType(scale)})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, onTop, headLocked, texture, device, pose, scale);
-}
 // Autogenerated method: OVRPlugin/OVRP_0_1_1..cctor
 void GlobalNamespace::OVRPlugin::OVRP_0_1_1::_cctor() {
   static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_0_1_1::.cctor");
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_0_1_1", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
+// Autogenerated method: OVRPlugin/OVRP_0_1_1.ovrp_SetOverlayQuad2
+GlobalNamespace::OVRPlugin::Bool GlobalNamespace::OVRPlugin::OVRP_0_1_1::ovrp_SetOverlayQuad2(GlobalNamespace::OVRPlugin::Bool onTop, GlobalNamespace::OVRPlugin::Bool headLocked, System::IntPtr texture, System::IntPtr device, GlobalNamespace::OVRPlugin::Posef pose, GlobalNamespace::OVRPlugin::Vector3f scale) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_0_1_1::ovrp_SetOverlayQuad2");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_0_1_1", "ovrp_SetOverlayQuad2", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(onTop), ::il2cpp_utils::ExtractType(headLocked), ::il2cpp_utils::ExtractType(texture), ::il2cpp_utils::ExtractType(device), ::il2cpp_utils::ExtractType(pose), ::il2cpp_utils::ExtractType(scale)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, onTop, headLocked, texture, device, pose, scale);
 }
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
@@ -5842,6 +3435,12 @@ void GlobalNamespace::OVRPlugin::OVRP_0_1_2::_set_version(System::Version* value
   static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_0_1_2::_set_version");
   THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/OVRP_0_1_2", "version", value));
 }
+// Autogenerated method: OVRPlugin/OVRP_0_1_2..cctor
+void GlobalNamespace::OVRPlugin::OVRP_0_1_2::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_0_1_2::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_0_1_2", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
 // Autogenerated method: OVRPlugin/OVRP_0_1_2.ovrp_GetNodePose
 GlobalNamespace::OVRPlugin::Posef GlobalNamespace::OVRPlugin::OVRP_0_1_2::ovrp_GetNodePose(GlobalNamespace::OVRPlugin::Node nodeId) {
   static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_0_1_2::ovrp_GetNodePose");
@@ -5853,12 +3452,6 @@ GlobalNamespace::OVRPlugin::Bool GlobalNamespace::OVRPlugin::OVRP_0_1_2::ovrp_Se
   static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_0_1_2::ovrp_SetControllerVibration");
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_0_1_2", "ovrp_SetControllerVibration", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(controllerMask), ::il2cpp_utils::ExtractType(frequency), ::il2cpp_utils::ExtractType(amplitude)})));
   return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, controllerMask, frequency, amplitude);
-}
-// Autogenerated method: OVRPlugin/OVRP_0_1_2..cctor
-void GlobalNamespace::OVRPlugin::OVRP_0_1_2::_cctor() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_0_1_2::.cctor");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_0_1_2", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
@@ -5885,6 +3478,12 @@ void GlobalNamespace::OVRPlugin::OVRP_0_1_3::_set_version(System::Version* value
   static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_0_1_3::_set_version");
   THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/OVRP_0_1_3", "version", value));
 }
+// Autogenerated method: OVRPlugin/OVRP_0_1_3..cctor
+void GlobalNamespace::OVRPlugin::OVRP_0_1_3::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_0_1_3::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_0_1_3", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
 // Autogenerated method: OVRPlugin/OVRP_0_1_3.ovrp_GetNodeVelocity
 GlobalNamespace::OVRPlugin::Posef GlobalNamespace::OVRPlugin::OVRP_0_1_3::ovrp_GetNodeVelocity(GlobalNamespace::OVRPlugin::Node nodeId) {
   static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_0_1_3::ovrp_GetNodeVelocity");
@@ -5896,12 +3495,6 @@ GlobalNamespace::OVRPlugin::Posef GlobalNamespace::OVRPlugin::OVRP_0_1_3::ovrp_G
   static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_0_1_3::ovrp_GetNodeAcceleration");
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_0_1_3", "ovrp_GetNodeAcceleration", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(nodeId)})));
   return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Posef, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, nodeId);
-}
-// Autogenerated method: OVRPlugin/OVRP_0_1_3..cctor
-void GlobalNamespace::OVRPlugin::OVRP_0_1_3::_cctor() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_0_1_3::.cctor");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_0_1_3", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
@@ -5959,6 +3552,12 @@ void GlobalNamespace::OVRPlugin::OVRP_1_0_0::_set_version(System::Version* value
   static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_0_0::_set_version");
   THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/OVRP_1_0_0", "version", value));
 }
+// Autogenerated method: OVRPlugin/OVRP_1_0_0..cctor
+void GlobalNamespace::OVRPlugin::OVRP_1_0_0::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_0_0::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_0_0", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
 // Autogenerated method: OVRPlugin/OVRP_1_0_0.ovrp_GetTrackingOriginType
 GlobalNamespace::OVRPlugin::TrackingOrigin GlobalNamespace::OVRPlugin::OVRP_1_0_0::ovrp_GetTrackingOriginType() {
   static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_0_0::ovrp_GetTrackingOriginType");
@@ -5982,12 +3581,6 @@ GlobalNamespace::OVRPlugin::Bool GlobalNamespace::OVRPlugin::OVRP_1_0_0::ovrp_Re
   static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_0_0::ovrp_RecenterTrackingOrigin");
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_0_0", "ovrp_RecenterTrackingOrigin", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(flags)})));
   return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, flags);
-}
-// Autogenerated method: OVRPlugin/OVRP_1_0_0..cctor
-void GlobalNamespace::OVRPlugin::OVRP_1_0_0::_cctor() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_0_0::.cctor");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_0_0", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
@@ -6026,6 +3619,12 @@ System::Version* GlobalNamespace::OVRPlugin::OVRP_1_1_0::_get_version() {
 void GlobalNamespace::OVRPlugin::OVRP_1_1_0::_set_version(System::Version* value) {
   static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_1_0::_set_version");
   THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/OVRP_1_1_0", "version", value));
+}
+// Autogenerated method: OVRPlugin/OVRP_1_1_0..cctor
+void GlobalNamespace::OVRPlugin::OVRP_1_1_0::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_1_0::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_1_0", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
 // Autogenerated method: OVRPlugin/OVRP_1_1_0.ovrp_GetInitialized
 GlobalNamespace::OVRPlugin::Bool GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_GetInitialized() {
@@ -6315,12 +3914,6 @@ GlobalNamespace::OVRPlugin::Bool GlobalNamespace::OVRPlugin::OVRP_1_1_0::ovrp_Se
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_1_0", "ovrp_SetUserEyeHeight", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
   return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value);
 }
-// Autogenerated method: OVRPlugin/OVRP_1_1_0..cctor
-void GlobalNamespace::OVRPlugin::OVRP_1_1_0::_cctor() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_1_0::.cctor");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_1_0", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
 // =========================================================================
@@ -6346,6 +3939,12 @@ void GlobalNamespace::OVRPlugin::OVRP_1_2_0::_set_version(System::Version* value
   static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_2_0::_set_version");
   THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/OVRP_1_2_0", "version", value));
 }
+// Autogenerated method: OVRPlugin/OVRP_1_2_0..cctor
+void GlobalNamespace::OVRPlugin::OVRP_1_2_0::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_2_0::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_2_0", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
 // Autogenerated method: OVRPlugin/OVRP_1_2_0.ovrp_SetSystemVSyncCount
 GlobalNamespace::OVRPlugin::Bool GlobalNamespace::OVRPlugin::OVRP_1_2_0::ovrp_SetSystemVSyncCount(int vsyncCount) {
   static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_2_0::ovrp_SetSystemVSyncCount");
@@ -6357,12 +3956,6 @@ GlobalNamespace::OVRPlugin::Bool GlobalNamespace::OVRPlugin::OVRP_1_2_0::ovrpi_S
   static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_2_0::ovrpi_SetTrackingCalibratedOrigin");
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_2_0", "ovrpi_SetTrackingCalibratedOrigin", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin/OVRP_1_2_0..cctor
-void GlobalNamespace::OVRPlugin::OVRP_1_2_0::_cctor() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_2_0::.cctor");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_2_0", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
@@ -6389,6 +3982,12 @@ void GlobalNamespace::OVRPlugin::OVRP_1_3_0::_set_version(System::Version* value
   static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_3_0::_set_version");
   THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/OVRP_1_3_0", "version", value));
 }
+// Autogenerated method: OVRPlugin/OVRP_1_3_0..cctor
+void GlobalNamespace::OVRPlugin::OVRP_1_3_0::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_3_0::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_3_0", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
 // Autogenerated method: OVRPlugin/OVRP_1_3_0.ovrp_GetEyeOcclusionMeshEnabled
 GlobalNamespace::OVRPlugin::Bool GlobalNamespace::OVRPlugin::OVRP_1_3_0::ovrp_GetEyeOcclusionMeshEnabled() {
   static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_3_0::ovrp_GetEyeOcclusionMeshEnabled");
@@ -6406,12 +4005,6 @@ GlobalNamespace::OVRPlugin::Bool GlobalNamespace::OVRPlugin::OVRP_1_3_0::ovrp_Ge
   static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_3_0::ovrp_GetSystemHeadphonesPresent");
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_3_0", "ovrp_GetSystemHeadphonesPresent", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
-// Autogenerated method: OVRPlugin/OVRP_1_3_0..cctor
-void GlobalNamespace::OVRPlugin::OVRP_1_3_0::_cctor() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_3_0::.cctor");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_3_0", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
@@ -6438,17 +4031,17 @@ void GlobalNamespace::OVRPlugin::OVRP_1_5_0::_set_version(System::Version* value
   static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_5_0::_set_version");
   THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/OVRP_1_5_0", "version", value));
 }
-// Autogenerated method: OVRPlugin/OVRP_1_5_0.ovrp_GetSystemRegion
-GlobalNamespace::OVRPlugin::SystemRegion GlobalNamespace::OVRPlugin::OVRP_1_5_0::ovrp_GetSystemRegion() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_5_0::ovrp_GetSystemRegion");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_5_0", "ovrp_GetSystemRegion", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
-  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::SystemRegion, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
-}
 // Autogenerated method: OVRPlugin/OVRP_1_5_0..cctor
 void GlobalNamespace::OVRPlugin::OVRP_1_5_0::_cctor() {
   static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_5_0::.cctor");
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_5_0", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_5_0.ovrp_GetSystemRegion
+GlobalNamespace::OVRPlugin::SystemRegion GlobalNamespace::OVRPlugin::OVRP_1_5_0::ovrp_GetSystemRegion() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_5_0::ovrp_GetSystemRegion");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_5_0", "ovrp_GetSystemRegion", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::SystemRegion, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
 // Autogenerated from CppSourceCreator
 // Created by Sc2ad
@@ -6484,6 +4077,12 @@ System::Version* GlobalNamespace::OVRPlugin::OVRP_1_6_0::_get_version() {
 void GlobalNamespace::OVRPlugin::OVRP_1_6_0::_set_version(System::Version* value) {
   static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_6_0::_set_version");
   THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/OVRP_1_6_0", "version", value));
+}
+// Autogenerated method: OVRPlugin/OVRP_1_6_0..cctor
+void GlobalNamespace::OVRPlugin::OVRP_1_6_0::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_6_0::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_6_0", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
 // Autogenerated method: OVRPlugin/OVRP_1_6_0.ovrp_GetTrackingIPDEnabled
 GlobalNamespace::OVRPlugin::Bool GlobalNamespace::OVRPlugin::OVRP_1_6_0::ovrp_GetTrackingIPDEnabled() {
@@ -6539,9 +4138,826 @@ int GlobalNamespace::OVRPlugin::OVRP_1_6_0::ovrp_GetSystemRecommendedMSAALevel()
   static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_6_0", "ovrp_GetSystemRecommendedMSAALevel", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   return ::il2cpp_utils::RunMethodThrow<int, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
 }
-// Autogenerated method: OVRPlugin/OVRP_1_6_0..cctor
-void GlobalNamespace::OVRPlugin::OVRP_1_6_0::_cctor() {
-  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_6_0::.cctor");
-  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_6_0", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+// Including type: OVRPlugin/OVRP_1_7_0
+#include "GlobalNamespace/OVRPlugin_OVRP_1_7_0.hpp"
+// Including type: System.Version
+#include "System/Version.hpp"
+// Including type: OVRPlugin/Bool
+#include "GlobalNamespace/OVRPlugin_Bool.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated static field getter
+// Get static field: static public readonly System.Version version
+System::Version* GlobalNamespace::OVRPlugin::OVRP_1_7_0::_get_version() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_7_0::_get_version");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<System::Version*>("", "OVRPlugin/OVRP_1_7_0", "version"));
+}
+// Autogenerated static field setter
+// Set static field: static public readonly System.Version version
+void GlobalNamespace::OVRPlugin::OVRP_1_7_0::_set_version(System::Version* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_7_0::_set_version");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/OVRP_1_7_0", "version", value));
+}
+// Autogenerated method: OVRPlugin/OVRP_1_7_0..cctor
+void GlobalNamespace::OVRPlugin::OVRP_1_7_0::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_7_0::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_7_0", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
   ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_7_0.ovrp_GetAppChromaticCorrection
+GlobalNamespace::OVRPlugin::Bool GlobalNamespace::OVRPlugin::OVRP_1_7_0::ovrp_GetAppChromaticCorrection() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_7_0::ovrp_GetAppChromaticCorrection");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_7_0", "ovrp_GetAppChromaticCorrection", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_7_0.ovrp_SetAppChromaticCorrection
+GlobalNamespace::OVRPlugin::Bool GlobalNamespace::OVRPlugin::OVRP_1_7_0::ovrp_SetAppChromaticCorrection(GlobalNamespace::OVRPlugin::Bool value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_7_0::ovrp_SetAppChromaticCorrection");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_7_0", "ovrp_SetAppChromaticCorrection", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+// Including type: OVRPlugin/OVRP_1_8_0
+#include "GlobalNamespace/OVRPlugin_OVRP_1_8_0.hpp"
+// Including type: System.Version
+#include "System/Version.hpp"
+// Including type: OVRPlugin/Bool
+#include "GlobalNamespace/OVRPlugin_Bool.hpp"
+// Including type: OVRPlugin/BoundaryTestResult
+#include "GlobalNamespace/OVRPlugin_BoundaryTestResult.hpp"
+// Including type: OVRPlugin/Node
+#include "GlobalNamespace/OVRPlugin_Node.hpp"
+// Including type: OVRPlugin/BoundaryType
+#include "GlobalNamespace/OVRPlugin_BoundaryType.hpp"
+// Including type: OVRPlugin/Vector3f
+#include "GlobalNamespace/OVRPlugin.hpp"
+// Including type: OVRPlugin/BoundaryGeometry
+#include "GlobalNamespace/OVRPlugin_BoundaryGeometry.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated static field getter
+// Get static field: static public readonly System.Version version
+System::Version* GlobalNamespace::OVRPlugin::OVRP_1_8_0::_get_version() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_8_0::_get_version");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<System::Version*>("", "OVRPlugin/OVRP_1_8_0", "version"));
+}
+// Autogenerated static field setter
+// Set static field: static public readonly System.Version version
+void GlobalNamespace::OVRPlugin::OVRP_1_8_0::_set_version(System::Version* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_8_0::_set_version");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/OVRP_1_8_0", "version", value));
+}
+// Autogenerated method: OVRPlugin/OVRP_1_8_0..cctor
+void GlobalNamespace::OVRPlugin::OVRP_1_8_0::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_8_0::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_8_0", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_8_0.ovrp_GetBoundaryConfigured
+GlobalNamespace::OVRPlugin::Bool GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryConfigured() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryConfigured");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_8_0", "ovrp_GetBoundaryConfigured", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_8_0.ovrp_TestBoundaryNode
+GlobalNamespace::OVRPlugin::BoundaryTestResult GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_TestBoundaryNode(GlobalNamespace::OVRPlugin::Node nodeId, GlobalNamespace::OVRPlugin::BoundaryType boundaryType) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_TestBoundaryNode");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_8_0", "ovrp_TestBoundaryNode", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(nodeId), ::il2cpp_utils::ExtractType(boundaryType)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::BoundaryTestResult, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, nodeId, boundaryType);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_8_0.ovrp_TestBoundaryPoint
+GlobalNamespace::OVRPlugin::BoundaryTestResult GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_TestBoundaryPoint(GlobalNamespace::OVRPlugin::Vector3f point, GlobalNamespace::OVRPlugin::BoundaryType boundaryType) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_TestBoundaryPoint");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_8_0", "ovrp_TestBoundaryPoint", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(point), ::il2cpp_utils::ExtractType(boundaryType)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::BoundaryTestResult, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, point, boundaryType);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_8_0.ovrp_GetBoundaryGeometry
+GlobalNamespace::OVRPlugin::BoundaryGeometry GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryGeometry(GlobalNamespace::OVRPlugin::BoundaryType boundaryType) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryGeometry");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_8_0", "ovrp_GetBoundaryGeometry", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(boundaryType)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::BoundaryGeometry, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, boundaryType);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_8_0.ovrp_GetBoundaryDimensions
+GlobalNamespace::OVRPlugin::Vector3f GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryDimensions(GlobalNamespace::OVRPlugin::BoundaryType boundaryType) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryDimensions");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_8_0", "ovrp_GetBoundaryDimensions", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(boundaryType)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Vector3f, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, boundaryType);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_8_0.ovrp_GetBoundaryVisible
+GlobalNamespace::OVRPlugin::Bool GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryVisible() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetBoundaryVisible");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_8_0", "ovrp_GetBoundaryVisible", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_8_0.ovrp_SetBoundaryVisible
+GlobalNamespace::OVRPlugin::Bool GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_SetBoundaryVisible(GlobalNamespace::OVRPlugin::Bool value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_SetBoundaryVisible");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_8_0", "ovrp_SetBoundaryVisible", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_8_0.ovrp_Update2
+GlobalNamespace::OVRPlugin::Bool GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_Update2(int stateId, int frameIndex, double predictionSeconds) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_Update2");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_8_0", "ovrp_Update2", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stateId), ::il2cpp_utils::ExtractType(frameIndex), ::il2cpp_utils::ExtractType(predictionSeconds)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, stateId, frameIndex, predictionSeconds);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_8_0.ovrp_GetNodePose2
+GlobalNamespace::OVRPlugin::Posef GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetNodePose2(int stateId, GlobalNamespace::OVRPlugin::Node nodeId) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetNodePose2");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_8_0", "ovrp_GetNodePose2", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stateId), ::il2cpp_utils::ExtractType(nodeId)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Posef, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, stateId, nodeId);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_8_0.ovrp_GetNodeVelocity2
+GlobalNamespace::OVRPlugin::Posef GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetNodeVelocity2(int stateId, GlobalNamespace::OVRPlugin::Node nodeId) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetNodeVelocity2");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_8_0", "ovrp_GetNodeVelocity2", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stateId), ::il2cpp_utils::ExtractType(nodeId)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Posef, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, stateId, nodeId);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_8_0.ovrp_GetNodeAcceleration2
+GlobalNamespace::OVRPlugin::Posef GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetNodeAcceleration2(int stateId, GlobalNamespace::OVRPlugin::Node nodeId) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_8_0::ovrp_GetNodeAcceleration2");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_8_0", "ovrp_GetNodeAcceleration2", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stateId), ::il2cpp_utils::ExtractType(nodeId)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Posef, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, stateId, nodeId);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+// Including type: OVRPlugin/OVRP_1_9_0
+#include "GlobalNamespace/OVRPlugin_OVRP_1_9_0.hpp"
+// Including type: System.Version
+#include "System/Version.hpp"
+// Including type: System.IntPtr
+#include "System/IntPtr.hpp"
+// Including type: OVRPlugin/SystemHeadset
+#include "GlobalNamespace/OVRPlugin_SystemHeadset.hpp"
+// Including type: OVRPlugin/Controller
+#include "GlobalNamespace/OVRPlugin_Controller.hpp"
+// Including type: OVRPlugin/Bool
+#include "GlobalNamespace/OVRPlugin_Bool.hpp"
+// Including type: OVRPlugin/BoundaryType
+#include "GlobalNamespace/OVRPlugin_BoundaryType.hpp"
+// Including type: OVRPlugin/AppPerfStats
+#include "GlobalNamespace/OVRPlugin_AppPerfStats.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated static field getter
+// Get static field: static public readonly System.Version version
+System::Version* GlobalNamespace::OVRPlugin::OVRP_1_9_0::_get_version() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_9_0::_get_version");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<System::Version*>("", "OVRPlugin/OVRP_1_9_0", "version"));
+}
+// Autogenerated static field setter
+// Set static field: static public readonly System.Version version
+void GlobalNamespace::OVRPlugin::OVRP_1_9_0::_set_version(System::Version* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_9_0::_set_version");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/OVRP_1_9_0", "version", value));
+}
+// Autogenerated method: OVRPlugin/OVRP_1_9_0..cctor
+void GlobalNamespace::OVRPlugin::OVRP_1_9_0::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_9_0::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_9_0", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_9_0.ovrp_GetSystemHeadsetType
+GlobalNamespace::OVRPlugin::SystemHeadset GlobalNamespace::OVRPlugin::OVRP_1_9_0::ovrp_GetSystemHeadsetType() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_9_0::ovrp_GetSystemHeadsetType");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_9_0", "ovrp_GetSystemHeadsetType", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::SystemHeadset, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_9_0.ovrp_GetActiveController
+GlobalNamespace::OVRPlugin::Controller GlobalNamespace::OVRPlugin::OVRP_1_9_0::ovrp_GetActiveController() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_9_0::ovrp_GetActiveController");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_9_0", "ovrp_GetActiveController", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Controller, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_9_0.ovrp_GetConnectedControllers
+GlobalNamespace::OVRPlugin::Controller GlobalNamespace::OVRPlugin::OVRP_1_9_0::ovrp_GetConnectedControllers() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_9_0::ovrp_GetConnectedControllers");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_9_0", "ovrp_GetConnectedControllers", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Controller, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_9_0.ovrp_GetBoundaryGeometry2
+GlobalNamespace::OVRPlugin::Bool GlobalNamespace::OVRPlugin::OVRP_1_9_0::ovrp_GetBoundaryGeometry2(GlobalNamespace::OVRPlugin::BoundaryType boundaryType, System::IntPtr points, int& pointsCount) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_9_0::ovrp_GetBoundaryGeometry2");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_9_0", "ovrp_GetBoundaryGeometry2", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(boundaryType), ::il2cpp_utils::ExtractType(points), ::il2cpp_utils::ExtractType(pointsCount)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, boundaryType, points, pointsCount);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_9_0.ovrp_GetAppPerfStats
+GlobalNamespace::OVRPlugin::AppPerfStats GlobalNamespace::OVRPlugin::OVRP_1_9_0::ovrp_GetAppPerfStats() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_9_0::ovrp_GetAppPerfStats");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_9_0", "ovrp_GetAppPerfStats", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::AppPerfStats, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_9_0.ovrp_ResetAppPerfStats
+GlobalNamespace::OVRPlugin::Bool GlobalNamespace::OVRPlugin::OVRP_1_9_0::ovrp_ResetAppPerfStats() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_9_0::ovrp_ResetAppPerfStats");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_9_0", "ovrp_ResetAppPerfStats", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+// Including type: OVRPlugin/OVRP_1_10_0
+#include "GlobalNamespace/OVRPlugin_OVRP_1_10_0.hpp"
+// Including type: System.Version
+#include "System/Version.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated static field getter
+// Get static field: static public readonly System.Version version
+System::Version* GlobalNamespace::OVRPlugin::OVRP_1_10_0::_get_version() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_10_0::_get_version");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<System::Version*>("", "OVRPlugin/OVRP_1_10_0", "version"));
+}
+// Autogenerated static field setter
+// Set static field: static public readonly System.Version version
+void GlobalNamespace::OVRPlugin::OVRP_1_10_0::_set_version(System::Version* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_10_0::_set_version");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/OVRP_1_10_0", "version", value));
+}
+// Autogenerated method: OVRPlugin/OVRP_1_10_0..cctor
+void GlobalNamespace::OVRPlugin::OVRP_1_10_0::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_10_0::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_10_0", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+// Including type: OVRPlugin/OVRP_1_11_0
+#include "GlobalNamespace/OVRPlugin_OVRP_1_11_0.hpp"
+// Including type: System.Version
+#include "System/Version.hpp"
+// Including type: OVRPlugin/Bool
+#include "GlobalNamespace/OVRPlugin_Bool.hpp"
+// Including type: OVRPlugin/EyeTextureFormat
+#include "GlobalNamespace/OVRPlugin_EyeTextureFormat.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated static field getter
+// Get static field: static public readonly System.Version version
+System::Version* GlobalNamespace::OVRPlugin::OVRP_1_11_0::_get_version() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_11_0::_get_version");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<System::Version*>("", "OVRPlugin/OVRP_1_11_0", "version"));
+}
+// Autogenerated static field setter
+// Set static field: static public readonly System.Version version
+void GlobalNamespace::OVRPlugin::OVRP_1_11_0::_set_version(System::Version* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_11_0::_set_version");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/OVRP_1_11_0", "version", value));
+}
+// Autogenerated method: OVRPlugin/OVRP_1_11_0..cctor
+void GlobalNamespace::OVRPlugin::OVRP_1_11_0::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_11_0::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_11_0", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_11_0.ovrp_SetDesiredEyeTextureFormat
+GlobalNamespace::OVRPlugin::Bool GlobalNamespace::OVRPlugin::OVRP_1_11_0::ovrp_SetDesiredEyeTextureFormat(GlobalNamespace::OVRPlugin::EyeTextureFormat value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_11_0::ovrp_SetDesiredEyeTextureFormat");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_11_0", "ovrp_SetDesiredEyeTextureFormat", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(value)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, value);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_11_0.ovrp_GetDesiredEyeTextureFormat
+GlobalNamespace::OVRPlugin::EyeTextureFormat GlobalNamespace::OVRPlugin::OVRP_1_11_0::ovrp_GetDesiredEyeTextureFormat() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_11_0::ovrp_GetDesiredEyeTextureFormat");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_11_0", "ovrp_GetDesiredEyeTextureFormat", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::EyeTextureFormat, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+// Including type: OVRPlugin/OVRP_1_12_0
+#include "GlobalNamespace/OVRPlugin_OVRP_1_12_0.hpp"
+// Including type: System.Version
+#include "System/Version.hpp"
+// Including type: OVRPlugin/PoseStatef
+#include "GlobalNamespace/OVRPlugin_PoseStatef.hpp"
+// Including type: OVRPlugin/Step
+#include "GlobalNamespace/OVRPlugin_Step.hpp"
+// Including type: OVRPlugin/Node
+#include "GlobalNamespace/OVRPlugin_Node.hpp"
+// Including type: OVRPlugin/ControllerState2
+#include "GlobalNamespace/OVRPlugin_ControllerState2.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated static field getter
+// Get static field: static public readonly System.Version version
+System::Version* GlobalNamespace::OVRPlugin::OVRP_1_12_0::_get_version() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_12_0::_get_version");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<System::Version*>("", "OVRPlugin/OVRP_1_12_0", "version"));
+}
+// Autogenerated static field setter
+// Set static field: static public readonly System.Version version
+void GlobalNamespace::OVRPlugin::OVRP_1_12_0::_set_version(System::Version* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_12_0::_set_version");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/OVRP_1_12_0", "version", value));
+}
+// Autogenerated method: OVRPlugin/OVRP_1_12_0..cctor
+void GlobalNamespace::OVRPlugin::OVRP_1_12_0::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_12_0::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_12_0", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_12_0.ovrp_GetAppFramerate
+float GlobalNamespace::OVRPlugin::OVRP_1_12_0::ovrp_GetAppFramerate() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_12_0::ovrp_GetAppFramerate");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_12_0", "ovrp_GetAppFramerate", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodThrow<float, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_12_0.ovrp_GetNodePoseState
+GlobalNamespace::OVRPlugin::PoseStatef GlobalNamespace::OVRPlugin::OVRP_1_12_0::ovrp_GetNodePoseState(GlobalNamespace::OVRPlugin::Step stepId, GlobalNamespace::OVRPlugin::Node nodeId) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_12_0::ovrp_GetNodePoseState");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_12_0", "ovrp_GetNodePoseState", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(stepId), ::il2cpp_utils::ExtractType(nodeId)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::PoseStatef, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, stepId, nodeId);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_12_0.ovrp_GetControllerState2
+GlobalNamespace::OVRPlugin::ControllerState2 GlobalNamespace::OVRPlugin::OVRP_1_12_0::ovrp_GetControllerState2(uint controllerMask) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_12_0::ovrp_GetControllerState2");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_12_0", "ovrp_GetControllerState2", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(controllerMask)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::ControllerState2, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, controllerMask);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+#include "extern/beatsaber-hook/shared/utils/typedefs.h"
+// Including type: OVRPlugin/OVRP_1_15_0
+#include "GlobalNamespace/OVRPlugin_OVRP_1_15_0.hpp"
+// Including type: System.Version
+#include "System/Version.hpp"
+// Including type: System.IntPtr
+#include "System/IntPtr.hpp"
+// Including type: OVRPlugin/Result
+#include "GlobalNamespace/OVRPlugin_Result.hpp"
+// Including type: OVRPlugin/Bool
+#include "GlobalNamespace/OVRPlugin_Bool.hpp"
+// Including type: OVRPlugin/CameraIntrinsics
+#include "GlobalNamespace/OVRPlugin_CameraIntrinsics.hpp"
+// Including type: OVRPlugin/CameraExtrinsics
+#include "GlobalNamespace/OVRPlugin_CameraExtrinsics.hpp"
+// Including type: OVRPlugin/OverlayShape
+#include "GlobalNamespace/OVRPlugin_OverlayShape.hpp"
+// Including type: OVRPlugin/LayerLayout
+#include "GlobalNamespace/OVRPlugin_LayerLayout.hpp"
+// Including type: OVRPlugin/Sizei
+#include "GlobalNamespace/OVRPlugin_Sizei.hpp"
+// Including type: OVRPlugin/EyeTextureFormat
+#include "GlobalNamespace/OVRPlugin_EyeTextureFormat.hpp"
+// Including type: OVRPlugin/LayerDesc
+#include "GlobalNamespace/OVRPlugin_LayerDesc.hpp"
+// Including type: OVRPlugin/Eye
+#include "GlobalNamespace/OVRPlugin_Eye.hpp"
+// Including type: OVRPlugin/Vector3f
+#include "GlobalNamespace/OVRPlugin.hpp"
+// Including type: OVRPlugin/Node
+#include "GlobalNamespace/OVRPlugin_Node.hpp"
+// Including type: OVRPlugin/Frustumf2
+#include "GlobalNamespace/OVRPlugin_Frustumf2.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated static field getter
+// Get static field: static public readonly System.Version version
+System::Version* GlobalNamespace::OVRPlugin::OVRP_1_15_0::_get_version() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_15_0::_get_version");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<System::Version*>("", "OVRPlugin/OVRP_1_15_0", "version"));
+}
+// Autogenerated static field setter
+// Set static field: static public readonly System.Version version
+void GlobalNamespace::OVRPlugin::OVRP_1_15_0::_set_version(System::Version* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_15_0::_set_version");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/OVRP_1_15_0", "version", value));
+}
+// Autogenerated static field getter
+// Get static field: static public System.Int32 OVRP_EXTERNAL_CAMERA_NAME_SIZE
+int GlobalNamespace::OVRPlugin::OVRP_1_15_0::_get_OVRP_EXTERNAL_CAMERA_NAME_SIZE() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_15_0::_get_OVRP_EXTERNAL_CAMERA_NAME_SIZE");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<int>("", "OVRPlugin/OVRP_1_15_0", "OVRP_EXTERNAL_CAMERA_NAME_SIZE"));
+}
+// Autogenerated static field setter
+// Set static field: static public System.Int32 OVRP_EXTERNAL_CAMERA_NAME_SIZE
+void GlobalNamespace::OVRPlugin::OVRP_1_15_0::_set_OVRP_EXTERNAL_CAMERA_NAME_SIZE(int value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_15_0::_set_OVRP_EXTERNAL_CAMERA_NAME_SIZE");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/OVRP_1_15_0", "OVRP_EXTERNAL_CAMERA_NAME_SIZE", value));
+}
+// Autogenerated method: OVRPlugin/OVRP_1_15_0..cctor
+void GlobalNamespace::OVRPlugin::OVRP_1_15_0::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_15_0::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_15_0", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_15_0.ovrp_InitializeMixedReality
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_InitializeMixedReality() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_InitializeMixedReality");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_15_0", "ovrp_InitializeMixedReality", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_15_0.ovrp_ShutdownMixedReality
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_ShutdownMixedReality() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_ShutdownMixedReality");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_15_0", "ovrp_ShutdownMixedReality", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_15_0.ovrp_GetMixedRealityInitialized
+GlobalNamespace::OVRPlugin::Bool GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_GetMixedRealityInitialized() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_GetMixedRealityInitialized");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_15_0", "ovrp_GetMixedRealityInitialized", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_15_0.ovrp_UpdateExternalCamera
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_UpdateExternalCamera() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_UpdateExternalCamera");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_15_0", "ovrp_UpdateExternalCamera", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_15_0.ovrp_GetExternalCameraCount
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_GetExternalCameraCount(int& cameraCount) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_GetExternalCameraCount");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_15_0", "ovrp_GetExternalCameraCount", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>()})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, cameraCount);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_15_0.ovrp_GetExternalCameraName
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_GetExternalCameraName(int cameraId, ::Array<::Il2CppChar>* cameraName) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_GetExternalCameraName");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_15_0", "ovrp_GetExternalCameraName", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(cameraId), ::il2cpp_utils::ExtractType(cameraName)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, cameraId, cameraName);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_15_0.ovrp_GetExternalCameraIntrinsics
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_GetExternalCameraIntrinsics(int cameraId, GlobalNamespace::OVRPlugin::CameraIntrinsics& cameraIntrinsics) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_GetExternalCameraIntrinsics");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_15_0", "ovrp_GetExternalCameraIntrinsics", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(cameraId), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::CameraIntrinsics&>()})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, cameraId, cameraIntrinsics);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_15_0.ovrp_GetExternalCameraExtrinsics
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_GetExternalCameraExtrinsics(int cameraId, GlobalNamespace::OVRPlugin::CameraExtrinsics& cameraExtrinsics) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_GetExternalCameraExtrinsics");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_15_0", "ovrp_GetExternalCameraExtrinsics", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(cameraId), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::CameraExtrinsics&>()})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, cameraId, cameraExtrinsics);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_15_0.ovrp_CalculateLayerDesc
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_CalculateLayerDesc(GlobalNamespace::OVRPlugin::OverlayShape shape, GlobalNamespace::OVRPlugin::LayerLayout layout, GlobalNamespace::OVRPlugin::Sizei& textureSize, int mipLevels, int sampleCount, GlobalNamespace::OVRPlugin::EyeTextureFormat format, int layerFlags, GlobalNamespace::OVRPlugin::LayerDesc& layerDesc) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_CalculateLayerDesc");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_15_0", "ovrp_CalculateLayerDesc", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(shape), ::il2cpp_utils::ExtractType(layout), ::il2cpp_utils::ExtractType(textureSize), ::il2cpp_utils::ExtractType(mipLevels), ::il2cpp_utils::ExtractType(sampleCount), ::il2cpp_utils::ExtractType(format), ::il2cpp_utils::ExtractType(layerFlags), ::il2cpp_utils::ExtractType(layerDesc)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, shape, layout, textureSize, mipLevels, sampleCount, format, layerFlags, layerDesc);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_15_0.ovrp_EnqueueSetupLayer
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_EnqueueSetupLayer(GlobalNamespace::OVRPlugin::LayerDesc& desc, System::IntPtr layerId) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_EnqueueSetupLayer");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_15_0", "ovrp_EnqueueSetupLayer", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(desc), ::il2cpp_utils::ExtractType(layerId)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, desc, layerId);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_15_0.ovrp_EnqueueDestroyLayer
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_EnqueueDestroyLayer(System::IntPtr layerId) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_EnqueueDestroyLayer");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_15_0", "ovrp_EnqueueDestroyLayer", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(layerId)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, layerId);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_15_0.ovrp_GetLayerTextureStageCount
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_GetLayerTextureStageCount(int layerId, int& layerTextureStageCount) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_GetLayerTextureStageCount");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_15_0", "ovrp_GetLayerTextureStageCount", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(layerId), ::il2cpp_utils::ExtractType(layerTextureStageCount)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, layerId, layerTextureStageCount);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_15_0.ovrp_GetLayerTexturePtr
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_GetLayerTexturePtr(int layerId, int stage, GlobalNamespace::OVRPlugin::Eye eyeId, System::IntPtr& textureHandle) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_GetLayerTexturePtr");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_15_0", "ovrp_GetLayerTexturePtr", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(layerId), ::il2cpp_utils::ExtractType(stage), ::il2cpp_utils::ExtractType(eyeId), ::il2cpp_utils::ExtractType(textureHandle)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, layerId, stage, eyeId, textureHandle);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_15_0.ovrp_EnqueueSubmitLayer
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_EnqueueSubmitLayer(uint flags, System::IntPtr textureLeft, System::IntPtr textureRight, int layerId, int frameIndex, GlobalNamespace::OVRPlugin::Posef& pose, GlobalNamespace::OVRPlugin::Vector3f& scale, int layerIndex) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_EnqueueSubmitLayer");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_15_0", "ovrp_EnqueueSubmitLayer", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(flags), ::il2cpp_utils::ExtractType(textureLeft), ::il2cpp_utils::ExtractType(textureRight), ::il2cpp_utils::ExtractType(layerId), ::il2cpp_utils::ExtractType(frameIndex), ::il2cpp_utils::ExtractType(pose), ::il2cpp_utils::ExtractType(scale), ::il2cpp_utils::ExtractType(layerIndex)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, flags, textureLeft, textureRight, layerId, frameIndex, pose, scale, layerIndex);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_15_0.ovrp_GetNodeFrustum2
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_GetNodeFrustum2(GlobalNamespace::OVRPlugin::Node nodeId, GlobalNamespace::OVRPlugin::Frustumf2& nodeFrustum) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_GetNodeFrustum2");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_15_0", "ovrp_GetNodeFrustum2", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(nodeId), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Frustumf2&>()})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, nodeId, nodeFrustum);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_15_0.ovrp_GetEyeTextureArrayEnabled
+GlobalNamespace::OVRPlugin::Bool GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_GetEyeTextureArrayEnabled() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_GetEyeTextureArrayEnabled");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_15_0", "ovrp_GetEyeTextureArrayEnabled", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+// Including type: OVRPlugin/OVRP_1_16_0
+#include "GlobalNamespace/OVRPlugin_OVRP_1_16_0.hpp"
+// Including type: System.Version
+#include "System/Version.hpp"
+// Including type: System.IntPtr
+#include "System/IntPtr.hpp"
+// Including type: OVRPlugin/Result
+#include "GlobalNamespace/OVRPlugin_Result.hpp"
+// Including type: OVRPlugin/Bool
+#include "GlobalNamespace/OVRPlugin_Bool.hpp"
+// Including type: OVRPlugin/CameraDevice
+#include "GlobalNamespace/OVRPlugin_CameraDevice.hpp"
+// Including type: OVRPlugin/Sizei
+#include "GlobalNamespace/OVRPlugin_Sizei.hpp"
+// Including type: OVRPlugin/ControllerState4
+#include "GlobalNamespace/OVRPlugin_ControllerState4.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated static field getter
+// Get static field: static public readonly System.Version version
+System::Version* GlobalNamespace::OVRPlugin::OVRP_1_16_0::_get_version() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_16_0::_get_version");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<System::Version*>("", "OVRPlugin/OVRP_1_16_0", "version"));
+}
+// Autogenerated static field setter
+// Set static field: static public readonly System.Version version
+void GlobalNamespace::OVRPlugin::OVRP_1_16_0::_set_version(System::Version* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_16_0::_set_version");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/OVRP_1_16_0", "version", value));
+}
+// Autogenerated method: OVRPlugin/OVRP_1_16_0..cctor
+void GlobalNamespace::OVRPlugin::OVRP_1_16_0::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_16_0::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_16_0", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_16_0.ovrp_UpdateCameraDevices
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_UpdateCameraDevices() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_UpdateCameraDevices");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_16_0", "ovrp_UpdateCameraDevices", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_16_0.ovrp_IsCameraDeviceAvailable
+GlobalNamespace::OVRPlugin::Bool GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_IsCameraDeviceAvailable(GlobalNamespace::OVRPlugin::CameraDevice cameraDevice) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_IsCameraDeviceAvailable");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_16_0", "ovrp_IsCameraDeviceAvailable", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(cameraDevice)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, cameraDevice);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_16_0.ovrp_SetCameraDevicePreferredColorFrameSize
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_SetCameraDevicePreferredColorFrameSize(GlobalNamespace::OVRPlugin::CameraDevice cameraDevice, GlobalNamespace::OVRPlugin::Sizei preferredColorFrameSize) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_SetCameraDevicePreferredColorFrameSize");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_16_0", "ovrp_SetCameraDevicePreferredColorFrameSize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(cameraDevice), ::il2cpp_utils::ExtractType(preferredColorFrameSize)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, cameraDevice, preferredColorFrameSize);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_16_0.ovrp_OpenCameraDevice
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_OpenCameraDevice(GlobalNamespace::OVRPlugin::CameraDevice cameraDevice) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_OpenCameraDevice");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_16_0", "ovrp_OpenCameraDevice", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(cameraDevice)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, cameraDevice);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_16_0.ovrp_CloseCameraDevice
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_CloseCameraDevice(GlobalNamespace::OVRPlugin::CameraDevice cameraDevice) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_CloseCameraDevice");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_16_0", "ovrp_CloseCameraDevice", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(cameraDevice)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, cameraDevice);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_16_0.ovrp_HasCameraDeviceOpened
+GlobalNamespace::OVRPlugin::Bool GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_HasCameraDeviceOpened(GlobalNamespace::OVRPlugin::CameraDevice cameraDevice) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_HasCameraDeviceOpened");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_16_0", "ovrp_HasCameraDeviceOpened", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(cameraDevice)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, cameraDevice);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_16_0.ovrp_IsCameraDeviceColorFrameAvailable
+GlobalNamespace::OVRPlugin::Bool GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_IsCameraDeviceColorFrameAvailable(GlobalNamespace::OVRPlugin::CameraDevice cameraDevice) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_IsCameraDeviceColorFrameAvailable");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_16_0", "ovrp_IsCameraDeviceColorFrameAvailable", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(cameraDevice)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Bool, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, cameraDevice);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_16_0.ovrp_GetCameraDeviceColorFrameSize
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_GetCameraDeviceColorFrameSize(GlobalNamespace::OVRPlugin::CameraDevice cameraDevice, GlobalNamespace::OVRPlugin::Sizei& colorFrameSize) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_GetCameraDeviceColorFrameSize");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_16_0", "ovrp_GetCameraDeviceColorFrameSize", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(cameraDevice), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Sizei&>()})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, cameraDevice, colorFrameSize);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_16_0.ovrp_GetCameraDeviceColorFrameBgraPixels
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_GetCameraDeviceColorFrameBgraPixels(GlobalNamespace::OVRPlugin::CameraDevice cameraDevice, System::IntPtr& colorFrameBgraPixels, int& colorFrameRowPitch) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_GetCameraDeviceColorFrameBgraPixels");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_16_0", "ovrp_GetCameraDeviceColorFrameBgraPixels", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(cameraDevice), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>(), ::il2cpp_utils::ExtractIndependentType<int&>()})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, cameraDevice, colorFrameBgraPixels, colorFrameRowPitch);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_16_0.ovrp_GetControllerState4
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_GetControllerState4(uint controllerMask, GlobalNamespace::OVRPlugin::ControllerState4& controllerState) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_GetControllerState4");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_16_0", "ovrp_GetControllerState4", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(controllerMask), ::il2cpp_utils::ExtractType(controllerState)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, controllerMask, controllerState);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+// Including type: OVRPlugin/OVRP_1_17_0
+#include "GlobalNamespace/OVRPlugin_OVRP_1_17_0.hpp"
+// Including type: System.Version
+#include "System/Version.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated static field getter
+// Get static field: static public readonly System.Version version
+System::Version* GlobalNamespace::OVRPlugin::OVRP_1_17_0::_get_version() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_17_0::_get_version");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<System::Version*>("", "OVRPlugin/OVRP_1_17_0", "version"));
+}
+// Autogenerated static field setter
+// Set static field: static public readonly System.Version version
+void GlobalNamespace::OVRPlugin::OVRP_1_17_0::_set_version(System::Version* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_17_0::_set_version");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/OVRP_1_17_0", "version", value));
+}
+// Autogenerated method: OVRPlugin/OVRP_1_17_0..cctor
+void GlobalNamespace::OVRPlugin::OVRP_1_17_0::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_17_0::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_17_0", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+// Including type: OVRPlugin/OVRP_1_18_0
+#include "GlobalNamespace/OVRPlugin_OVRP_1_18_0.hpp"
+// Including type: System.Version
+#include "System/Version.hpp"
+// Including type: OVRPlugin/Result
+#include "GlobalNamespace/OVRPlugin_Result.hpp"
+// Including type: OVRPlugin/Bool
+#include "GlobalNamespace/OVRPlugin_Bool.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated static field getter
+// Get static field: static public readonly System.Version version
+System::Version* GlobalNamespace::OVRPlugin::OVRP_1_18_0::_get_version() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_18_0::_get_version");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<System::Version*>("", "OVRPlugin/OVRP_1_18_0", "version"));
+}
+// Autogenerated static field setter
+// Set static field: static public readonly System.Version version
+void GlobalNamespace::OVRPlugin::OVRP_1_18_0::_set_version(System::Version* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_18_0::_set_version");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/OVRP_1_18_0", "version", value));
+}
+// Autogenerated method: OVRPlugin/OVRP_1_18_0..cctor
+void GlobalNamespace::OVRPlugin::OVRP_1_18_0::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_18_0::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_18_0", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_18_0.ovrp_SetHandNodePoseStateLatency
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_18_0::ovrp_SetHandNodePoseStateLatency(double latencyInSeconds) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_18_0::ovrp_SetHandNodePoseStateLatency");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_18_0", "ovrp_SetHandNodePoseStateLatency", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(latencyInSeconds)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, latencyInSeconds);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_18_0.ovrp_GetHandNodePoseStateLatency
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_18_0::ovrp_GetHandNodePoseStateLatency(double& latencyInSeconds) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_18_0::ovrp_GetHandNodePoseStateLatency");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_18_0", "ovrp_GetHandNodePoseStateLatency", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double&>()})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, latencyInSeconds);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_18_0.ovrp_GetAppHasInputFocus
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_18_0::ovrp_GetAppHasInputFocus(GlobalNamespace::OVRPlugin::Bool& appHasInputFocus) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_18_0::ovrp_GetAppHasInputFocus");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_18_0", "ovrp_GetAppHasInputFocus", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Bool&>()})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, appHasInputFocus);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+// Including type: OVRPlugin/OVRP_1_19_0
+#include "GlobalNamespace/OVRPlugin_OVRP_1_19_0.hpp"
+// Including type: System.Version
+#include "System/Version.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated static field getter
+// Get static field: static public readonly System.Version version
+System::Version* GlobalNamespace::OVRPlugin::OVRP_1_19_0::_get_version() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_19_0::_get_version");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<System::Version*>("", "OVRPlugin/OVRP_1_19_0", "version"));
+}
+// Autogenerated static field setter
+// Set static field: static public readonly System.Version version
+void GlobalNamespace::OVRPlugin::OVRP_1_19_0::_set_version(System::Version* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_19_0::_set_version");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/OVRP_1_19_0", "version", value));
+}
+// Autogenerated method: OVRPlugin/OVRP_1_19_0..cctor
+void GlobalNamespace::OVRPlugin::OVRP_1_19_0::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_19_0::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_19_0", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
+// Autogenerated from CppSourceCreator
+// Created by Sc2ad
+// =========================================================================
+// Begin includes
+// Including type: OVRPlugin/OVRP_1_21_0
+#include "GlobalNamespace/OVRPlugin_OVRP_1_21_0.hpp"
+// Including type: System.Version
+#include "System/Version.hpp"
+// Including type: System.IntPtr
+#include "System/IntPtr.hpp"
+// Including type: OVRPlugin/Result
+#include "GlobalNamespace/OVRPlugin_Result.hpp"
+// Including type: OVRPlugin/Bool
+#include "GlobalNamespace/OVRPlugin_Bool.hpp"
+// Including type: OVRPlugin/FixedFoveatedRenderingLevel
+#include "GlobalNamespace/OVRPlugin_FixedFoveatedRenderingLevel.hpp"
+#include "extern/beatsaber-hook/shared/utils/il2cpp-utils.hpp"
+#include "extern/beatsaber-hook/shared/utils/utils.h"
+// Completed includes
+// Autogenerated static field getter
+// Get static field: static public readonly System.Version version
+System::Version* GlobalNamespace::OVRPlugin::OVRP_1_21_0::_get_version() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_21_0::_get_version");
+  return THROW_UNLESS(il2cpp_utils::GetFieldValue<System::Version*>("", "OVRPlugin/OVRP_1_21_0", "version"));
+}
+// Autogenerated static field setter
+// Set static field: static public readonly System.Version version
+void GlobalNamespace::OVRPlugin::OVRP_1_21_0::_set_version(System::Version* value) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_21_0::_set_version");
+  THROW_UNLESS(il2cpp_utils::SetFieldValue("", "OVRPlugin/OVRP_1_21_0", "version", value));
+}
+// Autogenerated method: OVRPlugin/OVRP_1_21_0..cctor
+void GlobalNamespace::OVRPlugin::OVRP_1_21_0::_cctor() {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_21_0::.cctor");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_21_0", ".cctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
+  ::il2cpp_utils::RunMethodThrow<void, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_21_0.ovrp_GetTiledMultiResSupported
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_21_0::ovrp_GetTiledMultiResSupported(GlobalNamespace::OVRPlugin::Bool& foveationSupported) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_21_0::ovrp_GetTiledMultiResSupported");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_21_0", "ovrp_GetTiledMultiResSupported", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Bool&>()})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, foveationSupported);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_21_0.ovrp_GetTiledMultiResLevel
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_21_0::ovrp_GetTiledMultiResLevel(GlobalNamespace::OVRPlugin::FixedFoveatedRenderingLevel& level) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_21_0::ovrp_GetTiledMultiResLevel");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_21_0", "ovrp_GetTiledMultiResLevel", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::FixedFoveatedRenderingLevel&>()})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, level);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_21_0.ovrp_SetTiledMultiResLevel
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_21_0::ovrp_SetTiledMultiResLevel(GlobalNamespace::OVRPlugin::FixedFoveatedRenderingLevel level) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_21_0::ovrp_SetTiledMultiResLevel");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_21_0", "ovrp_SetTiledMultiResLevel", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(level)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, level);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_21_0.ovrp_GetGPUUtilSupported
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_21_0::ovrp_GetGPUUtilSupported(GlobalNamespace::OVRPlugin::Bool& gpuUtilSupported) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_21_0::ovrp_GetGPUUtilSupported");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_21_0", "ovrp_GetGPUUtilSupported", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Bool&>()})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, gpuUtilSupported);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_21_0.ovrp_GetGPUUtilLevel
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_21_0::ovrp_GetGPUUtilLevel(float& gpuUtil) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_21_0::ovrp_GetGPUUtilLevel");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_21_0", "ovrp_GetGPUUtilLevel", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float&>()})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, gpuUtil);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_21_0.ovrp_GetSystemDisplayFrequency2
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_21_0::ovrp_GetSystemDisplayFrequency2(float& systemDisplayFrequency) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_21_0::ovrp_GetSystemDisplayFrequency2");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_21_0", "ovrp_GetSystemDisplayFrequency2", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float&>()})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, systemDisplayFrequency);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_21_0.ovrp_GetSystemDisplayAvailableFrequencies
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_21_0::ovrp_GetSystemDisplayAvailableFrequencies(System::IntPtr systemDisplayAvailableFrequencies, int& numFrequencies) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_21_0::ovrp_GetSystemDisplayAvailableFrequencies");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_21_0", "ovrp_GetSystemDisplayAvailableFrequencies", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(systemDisplayAvailableFrequencies), ::il2cpp_utils::ExtractType(numFrequencies)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, systemDisplayAvailableFrequencies, numFrequencies);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_21_0.ovrp_SetSystemDisplayFrequency
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_21_0::ovrp_SetSystemDisplayFrequency(float requestedFrequency) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_21_0::ovrp_SetSystemDisplayFrequency");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_21_0", "ovrp_SetSystemDisplayFrequency", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(requestedFrequency)})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, requestedFrequency);
+}
+// Autogenerated method: OVRPlugin/OVRP_1_21_0.ovrp_GetAppAsymmetricFov
+GlobalNamespace::OVRPlugin::Result GlobalNamespace::OVRPlugin::OVRP_1_21_0::ovrp_GetAppAsymmetricFov(GlobalNamespace::OVRPlugin::Bool& useAsymmetricFov) {
+  static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::OVRPlugin::OVRP_1_21_0::ovrp_GetAppAsymmetricFov");
+  static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "OVRPlugin/OVRP_1_21_0", "ovrp_GetAppAsymmetricFov", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Bool&>()})));
+  return ::il2cpp_utils::RunMethodThrow<GlobalNamespace::OVRPlugin::Result, false>(static_cast<Il2CppClass*>(nullptr), ___internal__method, useAsymmetricFov);
 }
