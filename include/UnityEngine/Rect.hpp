@@ -161,12 +161,8 @@ namespace UnityEngine {
     }
     // public System.Void .ctor(UnityEngine.Rect source)
     // Offset: 0xEF52A0
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    Rect(UnityEngine::Rect source) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Rect::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(source)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, source);
-    }
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: is copy constructor.  Rect(UnityEngine::Rect source)
     // static public UnityEngine.Rect MinMaxRect(System.Single xmin, System.Single ymin, System.Single xmax, System.Single ymax)
     // Offset: 0x1C76D78
     static UnityEngine::Rect MinMaxRect(float xmin, float ymin, float xmax, float ymax);

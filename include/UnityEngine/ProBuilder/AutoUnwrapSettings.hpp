@@ -302,12 +302,8 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::AutoUnwrapSettings get_stretch();
     // public System.Void .ctor(UnityEngine.ProBuilder.AutoUnwrapSettings unwrapSettings)
     // Offset: 0xEFD1A0
-    template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    AutoUnwrapSettings(UnityEngine::ProBuilder::AutoUnwrapSettings unwrapSettings) {
-      static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::AutoUnwrapSettings::.ctor");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(*this, ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(unwrapSettings)})));
-      ::il2cpp_utils::RunMethodThrow<void, false>(*this, ___internal__method, unwrapSettings);
-    }
+    // template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
+    // ABORTED: is copy constructor.  AutoUnwrapSettings(UnityEngine::ProBuilder::AutoUnwrapSettings unwrapSettings)
     // public System.Void Reset()
     // Offset: 0xEFD1FC
     void Reset();
