@@ -163,9 +163,9 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     // Set instance field: private System.String debugName
     void _set_debugName(::Il2CppString* value);
     // Get instance field: private System.Int32 <UnityEngine.ResourceManagement.AsyncOperations.ICachable.Hash>k__BackingField
-    int _get_$UnityEngine.ResourceManagement.AsyncOperations.ICachable.Hash$k__BackingField();
+    int _get_$UnityEngine_ResourceManagement_AsyncOperations_ICachable_Hash$k__BackingField();
     // Set instance field: private System.Int32 <UnityEngine.ResourceManagement.AsyncOperations.ICachable.Hash>k__BackingField
-    void _set_$UnityEngine.ResourceManagement.AsyncOperations.ICachable.Hash$k__BackingField(int value);
+    void _set_$UnityEngine_ResourceManagement_AsyncOperations_ICachable_Hash$k__BackingField(int value);
     // Get instance field: private System.Collections.Generic.HashSet`1<System.String> m_CachedDependencyLocations
     System::Collections::Generic::HashSet_1<::Il2CppString*>* _get_m_CachedDependencyLocations();
     // Set instance field: private System.Collections.Generic.HashSet`1<System.String> m_CachedDependencyLocations

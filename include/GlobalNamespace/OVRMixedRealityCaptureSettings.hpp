@@ -339,9 +339,9 @@ namespace GlobalNamespace {
     // Set instance field: public OVRManager/MrcActivationMode mrcActivationMode
     void _set_mrcActivationMode(GlobalNamespace::OVRManager_MrcActivationMode value);
     // Get instance field: private OVRManager/InstantiateMrcCameraDelegate <OVRMixedRealityCaptureConfiguration.instantiateMixedRealityCameraGameObject>k__BackingField
-    GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* _get_$OVRMixedRealityCaptureConfiguration.instantiateMixedRealityCameraGameObject$k__BackingField();
+    GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* _get_$OVRMixedRealityCaptureConfiguration_instantiateMixedRealityCameraGameObject$k__BackingField();
     // Set instance field: private OVRManager/InstantiateMrcCameraDelegate <OVRMixedRealityCaptureConfiguration.instantiateMixedRealityCameraGameObject>k__BackingField
-    void _set_$OVRMixedRealityCaptureConfiguration.instantiateMixedRealityCameraGameObject$k__BackingField(GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* value);
+    void _set_$OVRMixedRealityCaptureConfiguration_instantiateMixedRealityCameraGameObject$k__BackingField(GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* value);
     // private System.Boolean OVRMixedRealityCaptureConfiguration.get_enableMixedReality()
     // Offset: 0x12E4B40
     bool OVRMixedRealityCaptureConfiguration_get_enableMixedReality();
