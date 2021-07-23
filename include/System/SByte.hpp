@@ -93,7 +93,7 @@ namespace System {
     // Set static field: static public System.SByte MaxValue
     static void _set_MaxValue(int8_t value);
     // static field const value: static public System.SByte MinValue
-    static constexpr const int8_t MinValue = 128;
+    static constexpr const int8_t MinValue = -128;
     // Get static field: static public System.SByte MinValue
     static int8_t _get_MinValue();
     // Set static field: static public System.SByte MinValue
